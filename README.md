@@ -4,4 +4,4 @@
 
 Больше крутых материалов в моём телеграм канале [@grogrigs](https://t.me/grogrigs).
 
-Добавляйте найденные ошики форматирования в [Issues](https://github.com/gr0grig/hacking_books_ru/issues) — всё исправим!
+Добавляйте предложения на перевод и найденные ошибки форматирования в [Issues](https://github.com/gr0grig/hacking_books_ru/issues) — всё исправим!
