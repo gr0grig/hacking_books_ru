@@ -1,0 +1,3837 @@
+%!PS-Adobe-1.0
+%%Title: mig.mss
+%%DocumentFonts: (atend)
+%%Creator: Mary Thompson and Scribe 6(1600)
+%%CreationDate: 2 November 1989 17:52
+%%Pages: (atend)
+%%EndComments
+% PostScript Prelude for Scribe.
+/BS {/SV save def 0.0 792.0 translate .01 -.01 scale} bind def
+/ES {showpage SV restore} bind def
+/SC {setrgbcolor} bind def
+/FMTX matrix def
+/RDF {WFT SLT 0.0 eq 
+  {SSZ 0.0 0.0 SSZ neg 0.0 0.0 FMTX astore}
+  {SSZ 0.0 SLT neg sin SLT cos div SSZ mul SSZ neg 0.0 0.0 FMTX astore}
+  ifelse makefont setfont} bind def
+/SLT 0.0 def
+/SI { /SLT exch cvr def RDF} bind def
+/WFT /Courier findfont def
+/SF { /WFT exch findfont def RDF} bind def
+/SSZ 1000.0 def
+/SS { /SSZ exch 100.0 mul def RDF} bind def
+/AF { /WFT exch findfont def /SSZ exch 100.0 mul def RDF} bind def
+/MT /moveto load def
+/XM {currentpoint exch pop moveto} bind def
+/UL {gsave newpath moveto dup 2.0 div 0.0 exch rmoveto
+   setlinewidth 0.0 rlineto stroke grestore} bind def
+/LH {gsave newpath moveto setlinewidth
+   0.0 rlineto
+   gsave stroke grestore} bind def
+/LV {gsave newpath moveto setlinewidth
+   0.0 exch rlineto
+   gsave stroke grestore} bind def
+/BX {gsave newpath moveto setlinewidth
+   exch
+   dup 0.0 rlineto
+   exch 0.0 exch neg rlineto
+   neg 0.0 rlineto
+   closepath
+   gsave stroke grestore} bind def
+/BX1 {grestore} bind def
+/BX2 {setlinewidth 1 setgray stroke grestore} bind def
+/PB {/PV save def newpath translate
+    100.0 -100.0 scale pop /showpage {} def} bind def
+/PE {PV restore} bind def
+/GB {/PV save def newpath translate rotate
+    div dup scale 100.0 -100.0 scale /showpage {} def} bind def
+/GE {PV restore} bind def
+/FB {dict dup /FontMapDict exch def begin} bind def
+/FM {cvn exch cvn exch def} bind def
+/FE {end /original-findfont /findfont load def  /findfont
+   {dup FontMapDict exch known{FontMapDict exch get} if
+   original-findfont} def} bind def
+/BC {gsave moveto dup 0 exch rlineto exch 0 rlineto neg 0 exch rlineto closepath clip} bind def
+/EC /grestore load def
+/SH /show load def
+/MX {exch show 0.0 rmoveto} bind def
+/W {0 32 4 -1 roll widthshow} bind def
+/WX {0 32 5 -1 roll widthshow 0.0 rmoveto} bind def
+%%EndProlog
+%%Page: 0 1
+BS
+0 SI
+15 /Helvetica-Bold AF
+17594 14054 MT
+(MIG - The MACH Interface Generator)SH
+10 /Helvetica AF
+26543 16407 MT
+(Richard P. Draves)SH
+26793 17833 MT
+(Michael B. Jones)SH
+26349 19259 MT
+(Mary R. Thompson)SH
+23180 22111 MT
+(Department of Computer Science)SH
+24599 23537 MT
+(Carnegie-Mellon University)SH
+25875 24963 MT
+(Pittsburgh, PA 15213)SH
+/Helvetica-Bold SF
+27988 26389 MT
+(Version of:)SH
+/Helvetica SF
+26626 27815 MT
+(2 November 1989)SH
+13 /Helvetica-Bold AF
+27963 46816 MT
+(Abstract)SH
+10 /Helvetica AF
+7200 49349 MT
+(Matchmaker is a language for specifying and automating the generation of)
+218 W( multi-lingual interprocess)217 W
+7200 50492 MT
+(communication interfaces. MIG is an interim implementation of a subset of the Matchmaker language)
+16 W( that)17 W
+7200 51635 MT
+(generates C and C++)
+103 W( remote procedure call interfaces for interprocess communication between MACH)102 W
+7200 52778 MT
+(tasks.)SH
+7200 61929 MT
+(This research was sponsored by)
+51 W( the Defense Advanced Research Projects Agency \050DOD\051, ARPA Order)52 W
+7200 63072 MT
+(No. 4864, monitored by the Space and Naval Warfare Systems Command under contract N00039-84-)137 W
+7200 64215 MT
+(C-0467.)SH
+7200 66499 MT
+(The views and conclusions contained in this)
+225 W( document are those of the authors and should not be)226 W
+7200 67642 MT
+(interpreted as)
+316 W( representing official policies, either expressed or implied, of the Defense Advanced)315 W
+7200 68785 MT
+(Research Projects Agency or of the U.S.  Government.)SH
+ES
+%%Page: 1 2
+BS
+0 SI
+10 /Helvetica-Bold AF
+30322 4329 MT
+(1)SH
+12 SS 
+7200 8075 MT
+(1. Introduction)SH
+8 /Helvetica AF
+7200 9501 MT
+(MIG)SH
+10 SS 
+9021 XM
+(is a program which generates remote procedure call \050RPC\051 code for communication between a)
+33 W( client)34 W
+7200 10927 MT
+(and a server process.)121 W
+8 SS 
+17976 XM
+(MACH)SH
+10 SS 
+20731 XM
+(servers execute)
+121 W( as separate tasks and communicate with their clients by)120 W
+7200 12353 MT
+(sending)SH
+8 SS 
+11010 XM
+(MACH)SH
+10 SS 
+13674 XM
+(inter-process communication \050IPC\051 messages.  The IPC interface is language independent)31 W
+7200 13779 MT
+(and fairly complex.  The)49 W
+8 SS 
+18338 XM
+(MIG)SH
+10 SS 
+20175 XM
+(program is designed to automatically)
+49 W( generate procedures in C to pack and)48 W
+7200 15205 MT
+(send, or receive and unpack the IPC messages used to communicate between processes.)SH
+7200 17772 MT
+(The user must provide a specification)
+29 W( file defining parameters of both the message passing interface and)30 W
+7200 19198 MT
+(the procedure call interface.)SH
+8 SS 
+20095 XM
+(MIG)SH
+10 SS 
+21883 XM
+(then generates three files:)SH
+/Symbol SF
+9242 20670 MT
+(\267)SH
+/Helvetica-Bold SF
+9980 XM
+(User Interface Module)219 W
+/Helvetica SF
+(: This)
+716 W( module is meant to be linked into the client program.)
+219 W( It)715 W
+9980 21813 MT
+(implements and exports procedures)
+282 W( and functions to send and receive the appropriate)283 W
+9980 22956 MT
+(messages to and from the server.)SH
+/Symbol SF
+9242 24771 MT
+(\267)SH
+/Helvetica-Bold SF
+9980 XM
+(User Header Module)91 W
+/Helvetica SF
+(: This module)
+91 W( is meant to be included in the client code to define the)90 W
+9980 25914 MT
+(types and routines needed at compilation time.)SH
+/Symbol SF
+9242 27729 MT
+(\267)SH
+/Helvetica-Bold SF
+9980 XM
+(Server Interface Module)3 W
+/Helvetica SF
+(: This)
+284 W( module is linked)
+3 W( into the server process.  It extracts the input)4 W
+9980 28872 MT
+(parameters from an)
+142 W( IPC message, and calls a server procedure to perform the operation.)141 W
+9980 30015 MT
+(When the server procedure or function returns, the)
+92 W( generated interface module gathers the)93 W
+9980 31158 MT
+(output parameters and correctly formats a reply message.)SH
+12 /Helvetica-Bold AF
+7200 34913 MT
+(2.)SH
+10 SS 
+8535 XM
+(MIG)SH
+12 SS 
+10758 XM
+(Specification File)SH
+10 /Helvetica AF
+7200 36339 MT
+(A)SH
+8 SS 
+8145 XM
+(MIG)SH
+10 SS 
+9933 XM
+(specification file contains the following components, some of which may be omitted.)SH
+9424 37740 MT
+(1.)SH
+10536 XM
+(Subsystem identification)SH
+9424 39555 MT
+(2.)SH
+10536 XM
+(Type specifications)SH
+9424 41370 MT
+(3.)SH
+10536 XM
+(Import declarations)SH
+9424 43185 MT
+(4.)SH
+10536 XM
+(Operation descriptions)SH
+9424 45000 MT
+(5.)SH
+10536 XM
+(Options declarations)SH
+7200 47567 MT
+(The subsystem)
+27 W( identification should appear first for clarity. Types must be declared before they are used.)26 W
+7200 48993 MT
+(Code is generated for the operations and import declarations)
+140 W( in the order in which they appear in the)141 W
+7200 50419 MT
+(definitions files. Options affect the operations that follow them.)SH
+11 /Helvetica-Bold AF
+7200 54101 MT
+(2.1. Subsystem Identification)SH
+10 /Helvetica AF
+7200 55527 MT
+(The subsystem identification statement is of the form)SH
+/Courier SF
+9424 57116 MT
+(subsystem)SH
+/Helvetica-Oblique SF
+15102 XM
+(sys message-base-id)278 W
+/Courier SF
+25105 XM
+(;)SH
+/Helvetica-Oblique SF
+7200 59848 MT
+(sys)SH
+/Helvetica SF
+8991 XM
+(is the name of the subsystem.  It is used as the prefix for all)
+13 W( generated file names. The user file name)12 W
+7200 61274 MT
+(will be)9 W
+/Helvetica-Oblique SF
+10274 XM
+(sys)SH
+/Courier SF
+(User.c)SH
+/Helvetica SF
+(, the)
+9 W( user header file will be)10 W
+/Helvetica-Oblique SF
+27893 XM
+(sys)SH
+/Courier SF
+(.h)SH
+/Helvetica SF
+(, and the server file will be)10 W
+/Helvetica-Oblique SF
+42501 XM
+(sys)SH
+/Courier SF
+(Server.c)SH
+/Helvetica SF
+(. These)
+298 W( file)10 W
+7200 62700 MT
+(names may be overridden by command line switches.)SH
+/Helvetica-Oblique SF
+7200 65267 MT
+(message-base-id)SH
+/Helvetica SF
+15283 XM
+(is a decimal integer that is used as the IPC message ID of the first operation in)
+136 W( the)135 W
+7200 66693 MT
+(specification file.  Operations are numbered)
+38 W( sequentially beginning with this base.  The)39 W
+/Helvetica-Oblique SF
+46331 XM
+(message-base-id)SH
+/Helvetica SF
+7200 68119 MT
+(can be selected arbitrarily by the implementor of the subsystem,)
+209 W( but it is recommended for "official")208 W
+7200 69545 MT
+(subsystem implementors to request an unused)161 W
+/Helvetica-Oblique SF
+29175 XM
+(message-base-id)SH
+/Helvetica SF
+37283 XM
+(from either the)161 W
+8 SS 
+44491 XM
+(MACH)SH
+10 SS 
+47286 XM
+(librarian or)
+161 W( the)162 W
+7200 70971 MT
+(Camelot librarian.  The only technical requirement is that all requests sent to)
+43 W( a single service port should)42 W
+ES
+%%Page: 2 3
+BS
+0 SI
+10 /Helvetica-Bold AF
+30322 4329 MT
+(2)SH
+/Helvetica SF
+7200 7929 MT
+(have different IDs, to allow the server to easily distinguish them.)SH
+11 /Helvetica-Bold AF
+7200 11611 MT
+(2.2. Type Declarations)SH
+10 SS 
+7200 14500 MT
+(2.2.1. Simple Types)SH
+/Helvetica SF
+7200 15926 MT
+(A simple type declaration is of the form:)SH
+/Courier SF
+9424 17515 MT
+(type)SH
+/Helvetica-Oblique SF
+12102 XM
+(user-typename)SH
+/Courier SF
+19049 XM
+(=)SH
+/Helvetica-Oblique SF
+19927 XM
+(type-desc)SH
+/Helvetica SF
+24540 XM
+([translation-info])SH
+7200 20247 MT
+(where a)SH
+/Helvetica-Oblique SF
+11035 XM
+(type-desc)SH
+/Helvetica SF
+15648 XM
+(is either a previously defined)SH
+/Helvetica-Oblique SF
+28598 XM
+(user-typename)SH
+/Helvetica SF
+35545 XM
+(or an)SH
+/Helvetica-Oblique SF
+38102 XM
+(ipc-type-desc)SH
+/Helvetica SF
+44326 XM
+(which is of the form:)SH
+/Courier SF
+9424 21836 MT
+(\050)SH
+/Helvetica-Oblique SF
+(ipc-typename)SH
+/Courier SF
+(,)SH
+/Helvetica-Oblique SF
+(size)SH
+/Courier SF
+19004 XM
+([ ,)SH
+/Helvetica-Oblique SF
+21404 XM
+(dealloc-flag)SH
+/Courier SF
+27117 XM
+(]\051)SH
+/Helvetica SF
+28595 XM
+(or)SH
+/Helvetica-Oblique SF
+9424 22979 MT
+(ipc-typename)SH
+/Helvetica SF
+7200 25711 MT
+(The)SH
+/Helvetica-Oblique SF
+9203 XM
+(user-typename)SH
+/Helvetica SF
+16152 XM
+(is the)
+2 W( name of a C type that will be used for some parameters of the calls exported by)3 W
+7200 27137 MT
+(the User Interface Module.  The)18 W
+/Helvetica-Oblique SF
+21648 XM
+(ipc-type-desc)SH
+/Helvetica SF
+27890 XM
+(of simple types are enclosed in parentheses and consist of)17 W
+7200 28563 MT
+(an IPC typename, decimal integer or integer expression that is the number of)
+23 W( bits in the IPC type, and an)24 W
+7200 29989 MT
+(optional deallocation keyword which is either)58 W
+/Courier SF
+27556 XM
+(dealloc)SH
+/Helvetica SF
+32092 XM
+(or)SH
+/Courier SF
+33317 XM
+(notdealloc)SH
+/Helvetica SF
+(. The)
+394 W( currently defined standard)57 W
+7200 31415 MT
+(IPC typenames are given in Appendix II.  The user may define additional)
+83 W( types.  If the)84 W
+/Helvetica-Oblique SF
+46691 XM
+(ipc_typename)SH
+/Helvetica SF
+53278 XM
+(is)SH
+7200 32841 MT
+(one of the standard ones, except for)799 W
+/Courier SF
+29081 XM
+(MSG_TYPE_STRING)SH
+/Helvetica SF
+(,)SH
+/Courier SF
+39435 XM
+(MSG_TYPE_UNSTRUCTURED)SH
+/Helvetica SF
+53111 XM
+(or)SH
+/Courier SF
+7200 34267 MT
+(MSG_TYPE_REAL)SH
+/Helvetica SF
+(, just the)SH
+/Helvetica-Oblique SF
+19058 XM
+(ipc_typename)SH
+/Helvetica SF
+25561 XM
+(can be used.)SH
+7200 36834 MT
+(The deallocation keyword is)
+27 W( used to describe the treatment of ports and pointers after the messages with)28 W
+7200 38260 MT
+(which they are associated have been sent.)78 W
+/Courier SF
+26923 XM
+(dealloc)SH
+/Helvetica SF
+31479 XM
+(causes the deallocation bit in the)
+78 W( IPC message to)77 W
+7200 39686 MT
+(be set on. Otherwise it is always)
+10 W( off.)11 W
+/Courier SF
+23800 XM
+(dealloc)SH
+/Helvetica SF
+28289 XM
+(can be used only with ports and pointers.  If it is used with)11 W
+7200 41112 MT
+(a port, the port will be deallocated after the message is sent.  If)146 W
+/Courier SF
+37313 XM
+(dealloc)SH
+/Helvetica SF
+41936 XM
+(is used with a pointer, the)145 W
+7200 42538 MT
+(memory that the pointer references will be deallocated after the message has been sent.  An error will)108 W
+7200 43964 MT
+(result if)SH
+/Courier SF
+10701 XM
+(dealloc)SH
+/Helvetica SF
+15179 XM
+(is used with any argument other than a port or a pointer.)SH
+7200 46531 MT
+(Some examples of simple type declarations are:)SH
+/Courier-Bold SF
+9600 48057 MT
+(type int = MSG_TYPE_INTEGER_32;)SH
+9600 49188 MT
+(type my_string  = \050MSG_TYPE_STRING,8*80\051;)SH
+9600 50319 MT
+(type kern_return_t = int;)SH
+9600 51450 MT
+(type disposable_port = \050MSG_TYPE_PORT_ALL,32,dealloc\051;)SH
+/Helvetica SF
+7200 54162 MT
+(The)SH
+8 SS 
+9976 XM
+(MIG)SH
+10 SS 
+12539 XM
+(generated code assumes that the C)
+775 W( types)774 W
+/Courier SF
+36750 XM
+(my_string)SH
+/Helvetica SF
+(,)SH
+/Courier SF
+43480 XM
+(kern_return_t)SH
+/Helvetica SF
+52332 XM
+(and)SH
+/Courier SF
+7200 55588 MT
+(disposable_port)SH
+/Helvetica SF
+16834 XM
+(are defined in a compatible way by a user provided include file.  The)
+356 W( files)357 W
+/Courier SF
+7200 57014 MT
+(<mach/std_types.defs>)SH
+/Helvetica SF
+20078 XM
+(and)SH
+/Courier SF
+22024 XM
+(<mach/mach_types.defs>)SH
+/Helvetica SF
+35502 XM
+(define the basic C and)SH
+8 SS 
+45730 XM
+(MACH)SH
+10 SS 
+48364 XM
+(types.)SH
+8 SS 
+7200 59581 MT
+(MIG)SH
+10 SS 
+9009 XM
+(assumes that any variable of type)21 W
+/Courier SF
+24309 XM
+(MSG_TYPE_STRING)SH
+/Helvetica SF
+33608 XM
+(is declared as a C)21 W
+/Courier SF
+41994 XM
+(char *)21 W
+/Helvetica SF
+45914 XM
+(or)SH
+/Courier SF
+47102 XM
+(char foo[n])20 W
+/Helvetica SF
+(.)SH
+7200 61007 MT
+(Thus it generates code for a parameter passed by reference and)
+323 W( uses)324 W
+/Courier SF
+42316 XM
+(strncpy)SH
+/Helvetica SF
+47118 XM
+(for assignment)324 W
+7200 62433 MT
+(statements.)SH
+/Helvetica-Bold SF
+7200 65322 MT
+(2.2.2. Structured Types)SH
+/Helvetica SF
+7200 66748 MT
+(Three kinds of structured types are recognized: arrays, structures)
+34 W( and pointers.  Definitions of arrays and)33 W
+7200 68174 MT
+(structures follow the Pascal-style syntax of:)SH
+ES
+%%Page: 3 4
+BS
+0 SI
+10 /Helvetica-Bold AF
+30322 4329 MT
+(3)SH
+/Courier SF
+9424 7929 MT
+(array [)SH
+/Helvetica-Oblique SF
+(size)SH
+/Courier SF
+(] of)SH
+/Helvetica-Oblique SF
+18080 XM
+(comp_type-desc)SH
+/Courier SF
+9424 10215 MT
+(array [ * :)SH
+/Helvetica-Oblique SF
+16624 XM
+(maxsize)SH
+/Courier SF
+(] of)SH
+/Helvetica-Oblique SF
+22969 XM
+(comp_type-desc)SH
+/Courier SF
+9424 12501 MT
+(struct [)SH
+/Helvetica-Oblique SF
+(size)SH
+/Courier SF
+(] of)SH
+/Helvetica-Oblique SF
+18680 XM
+(comp_type-desc)SH
+/Helvetica SF
+7200 15233 MT
+(where)SH
+/Helvetica-Oblique SF
+10220 XM
+(comp-type-desc)SH
+/Helvetica SF
+17630 XM
+(may be a simple)19 W
+/Helvetica-Oblique SF
+25264 XM
+(type-desc)SH
+/Helvetica SF
+29896 XM
+(or may be)
+19 W( an)20 W
+/Courier SF
+36088 XM
+(array)SH
+/Helvetica SF
+39386 XM
+(or)SH
+/Courier SF
+40573 XM
+(struct)SH
+/Helvetica SF
+44471 XM
+(type and)20 W
+/Helvetica-Oblique SF
+48625 XM
+(size)SH
+/Helvetica SF
+50701 XM
+(may be)20 W
+7200 16659 MT
+(a decimal integer constant or expression.  The)
+40 W( second array form specifies that a variable length array is)39 W
+7200 18085 MT
+(to be passed in-line in the message. In this form)14 W
+/Helvetica-Oblique SF
+28850 XM
+(maxsize)SH
+/Helvetica SF
+32809 XM
+(is the maximum length of the item.)
+14 W( For)
+307 W( variable)15 W
+7200 19511 MT
+(length arrays an additional count parameter is generated)
+150 W( to specify how much of the array is actually)149 W
+7200 20937 MT
+(being used.  Variable-length inline InOut arguments are not supported.)SH
+7200 23504 MT
+(If a type is declared as an)26 W
+/Courier SF
+19055 XM
+(array)SH
+/Helvetica SF
+22359 XM
+(the C type must also be an array, since the)26 W
+8 SS 
+41907 XM
+(MIG)SH
+10 SS 
+43722 XM
+(RPC code will treat the)27 W
+7200 24930 MT
+(user type as an array)
+148 W( \050i.e. asssuming it is passed by reference and generating special code for array)147 W
+7200 26356 MT
+(assignments\051. A variable declared as a)102 W
+/Courier SF
+25319 XM
+(struct)SH
+/Helvetica SF
+29299 XM
+(is assumed to be passed by value and treated as a C)103 W
+7200 27782 MT
+(structure in assignment statements. There is no way to specify the fields of a C structure to)29 W
+8 SS 
+48099 XM
+(MIG)SH
+10 SS 
+(. The)28 W
+/Helvetica-Oblique SF
+52222 XM
+(size)SH
+/Helvetica SF
+7200 29208 MT
+(and)SH
+/Helvetica-Oblique SF
+9146 XM
+(type-desc)SH
+/Helvetica SF
+13759 XM
+(are just used to give the size of the structure.)SH
+/Helvetica-Bold SF
+7200 32097 MT
+(2.2.3. Pointer Types)SH
+/Helvetica SF
+7200 33523 MT
+(In the definition of pointer types, the symbol '^' precedes a simple, array or structure definition.)SH
+/Courier SF
+9424 35112 MT
+(^)SH
+/Helvetica-Oblique SF
+10624 XM
+(comp-type-desc)SH
+/Courier SF
+9424 36255 MT
+(^ array [)SH
+/Helvetica-Oblique SF
+(size)SH
+/Courier SF
+(] of)SH
+/Helvetica-Oblique SF
+19280 XM
+(comp-type-desc)SH
+/Courier SF
+9424 37398 MT
+(^ struct [)SH
+/Helvetica-Oblique SF
+(size)SH
+/Courier SF
+(] of)SH
+/Helvetica-Oblique SF
+19880 XM
+(comp-type-desc)SH
+/Helvetica SF
+7200 39965 MT
+(In this case)53 W
+/Courier SF
+12695 XM
+(size)SH
+/Helvetica SF
+15426 XM
+(may be left blank or be)53 W
+/Courier SF
+26138 XM
+(*)SH
+/Helvetica SF
+(. In either of these cases, the array or structure)
+53 W( is of variable)54 W
+7200 41391 MT
+(size, and a parameter is defined immediately following the array parameter to contain its size.  Data types)10 W
+7200 42817 MT
+(declared as pointers are sent out-of-line in)
+79 W( the message. Since sending out-of-line is considerably more)80 W
+7200 44243 MT
+(expensive than in-line data, pointer types should only be)
+90 W( used for large or variable amounts of data.  A)89 W
+7200 45669 MT
+(call that returns an out-of-line item allocates the)
+49 W( necessary space in the user's virtual memory. It is up to)50 W
+7200 47095 MT
+(the user to deallocate this memory when he is finished with the data.)SH
+7200 49662 MT
+(Some examples of complex types are:)SH
+/Courier-Bold SF
+9600 51188 MT
+(type procids = array [10] of int;)SH
+9600 52319 MT
+(type procidinfo = struct [5*10] of MSG_TYPE_INTEGER_32;)SH
+9600 53450 MT
+(type vardata = array [ * : 1024 ] of int;)SH
+9600 54581 MT
+(type array_by_value = struct [1] of array [20] of MSG_TYPE_CHAR;)SH
+9600 55712 MT
+(type page_ptr = ^ array [4096] of MSG_TYPE_INTEGER_32;)SH
+9600 56843 MT
+(type var_array = ^ array [] of int;)SH
+/Helvetica-Bold SF
+7200 60863 MT
+(2.2.4. Polymorphic Types)SH
+8 /Helvetica AF
+7200 62289 MT
+(MIG)SH
+10 SS 
+9002 XM
+(supports polymorphic types.  For example, using this facility,)
+14 W( one may specify an argument which can)13 W
+7200 63715 MT
+(be either an integer or)
+46 W( a port, with the exact type determined at runtime.  The type information is passed)47 W
+7200 65141 MT
+(in an auxiliary argument, similar to the way size information in)
+125 W( variable-sized arrays is handled.  \050If an)124 W
+7200 66567 MT
+(argument is both variable-sized and polymorphic, the auxiliary type argument comes before the)
+154 W( count)155 W
+7200 67993 MT
+(argument.\051)SH
+ES
+%%Page: 4 5
+BS
+0 SI
+10 /Helvetica-Bold AF
+30322 4329 MT
+(4)SH
+/Courier-Bold SF
+9600 7874 MT
+(type poly_t = polymorphic;)SH
+9600 10136 MT
+(simpleroutine SendPortOrInt\050)SH
+19200 11267 MT
+(server :)
+600 W( port_t;)SH
+19200 12398 MT
+(poly :)
+1800 W( poly_t\051;)SH
+/Helvetica SF
+7200 13979 MT
+(and then in client C code)SH
+/Courier-Bold SF
+14400 15505 MT
+(port_t server, port;)SH
+14400 16636 MT
+(kern_return_t kr;)SH
+14400 18898 MT
+(kr = SendPortOrInt\050server, 5, MSG_TYPE_INTEGER_32\051;)SH
+14400 20029 MT
+(kr = SendPortOrInt\050server, port, MSG_TYPE_PORT\051;)SH
+8 /Helvetica AF
+7200 22596 MT
+(MIG)SH
+10 SS 
+8988 XM
+(also supports types which change during transmission.  The syntax is)SH
+/Courier-Bold SF
+9600 24122 MT
+(type int2port = MSG_TYPE_INTEGER_32 | MSG_TYPE_PORT)SH
+14400 25253 MT
+(CUserType: int)SH
+14400 26384 MT
+(CServerType: port_t;)SH
+9600 28646 MT
+(simpleroutine SendInt2Port\050)SH
+19200 29777 MT
+(server :)
+600 W( port_t;)SH
+19200 30908 MT
+(arg :)
+2400 W( int2port\051;)SH
+/Helvetica SF
+7200 32489 MT
+(This functionality is mainly useful)
+72 W( in conjunction with the MSG_TYPE_INTERNAL_MEMORY type inside)71 W
+7200 33915 MT
+(the kernel.)SH
+/Helvetica-Bold SF
+7200 36804 MT
+(2.2.5. Type translation information)SH
+/Helvetica SF
+7200 38230 MT
+(Optional information describing procedures)
+72 W( for translating or deallocating values of the type may appear)73 W
+7200 39656 MT
+(after the type definition information.)
+17 W( Translation)
+311 W( functions allow the type as seen by the user process and)16 W
+7200 41082 MT
+(the server process to be different.)
+67 W( Destructor functions allow the server code to automatically deallocate)68 W
+7200 42508 MT
+(input types after they have been used.  An example is:)SH
+/Courier-Bold SF
+10200 44313 MT
+(type task_t = \050MSG_TYPE_PORT,32\051)SH
+12000 45444 MT
+(InTran: i_task_t)
+600 W( PortToTask\050task_t\051)SH
+12000 46575 MT
+(OutTran: task_t TaskToPort\050i_task_t\051)SH
+12000 47706 MT
+(Destructor: DeallocT\050i_task_t\051;)SH
+/Helvetica SF
+7200 50273 MT
+(In this example,)68 W
+/Courier SF
+14685 XM
+(task_t)SH
+/Helvetica SF
+(, which is the)
+68 W( type seen by the User code, is defined as a port in the message.)67 W
+7200 51699 MT
+(The type seen by the Server code is)19 W
+/Courier SF
+23638 XM
+(i_task_t)SH
+/Helvetica SF
+(, which is)
+19 W( some data structure used by the server to store)20 W
+7200 53125 MT
+(information about each)
+76 W( task it is serving.  The)75 W
+/Courier SF
+28275 XM
+(InTran)SH
+/Helvetica SF
+32228 XM
+(function,)SH
+/Courier SF
+36361 XM
+(PortToTask)SH
+/Helvetica SF
+(, translates values of type)75 W
+/Courier SF
+7200 54551 MT
+(task_t)SH
+/Helvetica SF
+11083 XM
+(to)SH
+/Courier SF
+12200 XM
+(i_task_t)SH
+/Helvetica SF
+17283 XM
+(on receipt by the Server process.)
+5 W( The)289 W
+/Courier SF
+34555 XM
+(OutTran)SH
+/Helvetica SF
+39039 XM
+(function,)SH
+/Courier SF
+43103 XM
+(TaskToPort)SH
+/Helvetica SF
+(, translates)6 W
+7200 55977 MT
+(values of type)185 W
+/Courier SF
+14203 XM
+(i_task_t)SH
+/Helvetica SF
+19466 XM
+(to)SH
+/Courier SF
+20763 XM
+(type task_t)185 W
+/Helvetica SF
+28011 XM
+(before return.  The)185 W
+/Courier SF
+37311 XM
+(Destructor)SH
+/Helvetica SF
+43774 XM
+(function,)SH
+/Courier SF
+48016 XM
+(DeallocT)SH
+/Helvetica SF
+53278 XM
+(is)SH
+7200 57403 MT
+(called on the translated input parameter,)84 W
+/Courier SF
+25880 XM
+(i_task_type)SH
+/Helvetica SF
+(, after the return)
+84 W( from the server procedure and)85 W
+7200 58829 MT
+(can be used to deallocate any or all)
+141 W( parts of the internal variable.  The destructor function will not be)140 W
+7200 60255 MT
+(called if the parameter is also an out argument, because the correct time)
+52 W( to deallocate an out parameter)53 W
+7200 61681 MT
+(is after the reply message has been sent, which is not code that is generated)
+184 W( by)183 W
+8 SS 
+45716 XM
+(MIG)SH
+10 SS 
+(. A)
+644 W( destructor)183 W
+7200 63107 MT
+(function can also be used)
+86 W( independly of the translation routines. For example, if a large out-of-line data)87 W
+7200 64533 MT
+(segment is passed to the server)
+47 W( it could use a destructor function to dellocate the memory after the data)46 W
+7200 65959 MT
+(was used.)SH
+7200 68526 MT
+(Although calls)
+169 W( to these functions are generated automatically by)170 W
+8 SS 
+37299 XM
+(MIG)SH
+10 SS 
+(, the function definitions must be)170 W
+7200 69952 MT
+(hand coded and imported using)SH
+ES
+%%Page: 5 6
+BS
+0 SI
+10 /Helvetica-Bold AF
+30322 4329 MT
+(5)SH
+/Courier-Bold SF
+9600 7874 MT
+(i_task_t PortToTask\050x\051)SH
+14400 9005 MT
+(task_t x;)600 W
+9600 11267 MT
+(task_t TaskToPort\050y\051)SH
+14400 12398 MT
+(i_task_t y;)600 W
+9600 14660 MT
+(void DeallocT\050y\051)600 W
+14400 15791 MT
+(i_task_t y;)600 W
+/Helvetica SF
+7200 19489 MT
+(For each)103 W
+8 SS 
+11630 XM
+(MIG)SH
+10 SS 
+13521 XM
+(type, there are)
+103 W( up to three corresponding C types.  These are the type used in the client)102 W
+7200 20915 MT
+(module, the type used in the server module, and the translated)
+89 W( type used by the server procedure.  By)90 W
+7200 22341 MT
+(default these three types are all the same, and have the same name as the)64 W
+8 SS 
+41623 XM
+(MIG)SH
+10 SS 
+43475 XM
+(type. The)406 W
+/Courier SF
+48391 XM
+(InTran)SH
+/Helvetica SF
+52332 XM
+(and)SH
+/Courier SF
+7200 23767 MT
+(OutTran)SH
+/Helvetica SF
+11739 XM
+(options implicitly specify the server type)
+61 W( and translated type names.  The)62 W
+/Courier SF
+44936 XM
+(Destructor)SH
+/Helvetica SF
+51276 XM
+(option)SH
+7200 25193 MT
+(implicitly specifies the translated type name.  The user type and)
+115 W( server type may be specified with the)114 W
+/Courier SF
+7200 26619 MT
+(CUserType)SH
+/Helvetica SF
+12878 XM
+(and)SH
+/Courier SF
+14824 XM
+(CServerType)SH
+/Helvetica SF
+21702 XM
+(options, or both specified together with the)SH
+/Courier SF
+40768 XM
+(CType)SH
+/Helvetica SF
+44046 XM
+(option. For)
+278 W( example,)SH
+/Courier-Bold SF
+9600 28145 MT
+(type dealloc_port_t = \050MSG_TYPE_PORT, 32, dealloc\051)SH
+14400 29276 MT
+(CType: port_t;)SH
+9600 31538 MT
+(type funny_int = int)SH
+14400 32669 MT
+(CUserType: user_int)SH
+14400 33800 MT
+(CServerType: server_int;)SH
+11 /Helvetica-Bold AF
+7200 38613 MT
+(2.3. Import Declarations)SH
+10 /Helvetica AF
+7200 40039 MT
+(If any of the user-typenames or server-typenames are other)
+67 W( than the standard C types \050e.g.)68 W
+/Courier SF
+48898 XM
+(int)SH
+/Helvetica SF
+(,)SH
+/Courier SF
+51322 XM
+(char)SH
+/Helvetica SF
+(,)SH
+7200 41465 MT
+(etc.\051 C)
+344 W( type definition files must)
+33 W( be imported into the User and Server Interface modules so that they will)32 W
+7200 42891 MT
+(compile. The)
+278 W( import declarations specify files which are imported into the modules generated by)SH
+8 SS 
+50106 XM
+(MIG)SH
+10 SS 
+(.)SH
+7200 45458 MT
+(An import declaration is of one of the following forms:)SH
+/Courier SF
+9424 47047 MT
+(import)SH
+/Helvetica-Oblique SF
+13302 XM
+(file-name)SH
+/Courier SF
+(;)SH
+9424 48190 MT
+(uimport)SH
+/Helvetica-Oblique SF
+13902 XM
+(file-name)SH
+/Courier SF
+(;)SH
+9424 49333 MT
+(simport)SH
+/Helvetica-Oblique SF
+13902 XM
+(file-name)SH
+/Courier SF
+(;)SH
+/Helvetica SF
+7200 50922 MT
+(where)SH
+/Helvetica-Oblique SF
+10556 XM
+(file-name)SH
+/Helvetica SF
+15301 XM
+(is in a form acceptable by)355 W
+/Courier SF
+29048 XM
+(cpp)SH
+/Helvetica SF
+31482 XM
+(in)SH
+/Courier SF
+32894 XM
+(#include)SH
+/Helvetica SF
+38328 XM
+(statments, e.g.)356 W
+/Courier SF
+45877 XM
+(<file-name>)SH
+/Helvetica SF
+53111 XM
+(or)SH
+/Courier SF
+7200 52348 MT
+("file-name")SH
+/Helvetica SF
+(.)SH
+7200 54915 MT
+(For example:)SH
+/Courier-Bold SF
+9600 56441 MT
+(import "my_defs.h";)SH
+9600 57572 MT
+(import "/usr/mach/include/cthreads.h"; or)SH
+9600 58703 MT
+(import <cthreads.h>;)SH
+/Courier SF
+7200 61415 MT
+(import)SH
+/Helvetica SF
+11255 XM
+(declarations are included in both the user and server)
+177 W( side code.)176 W
+/Courier SF
+42056 XM
+(uimport)SH
+/Helvetica SF
+46710 XM
+(declarations are)176 W
+7200 62841 MT
+(included in just the user side.)SH
+/Courier SF
+20651 XM
+(simport)SH
+/Helvetica SF
+25129 XM
+(declarations are included in just the server side.)SH
+11 /Helvetica-Bold AF
+7200 66523 MT
+(2.4. Standard Operations)SH
+10 /Helvetica AF
+7200 67949 MT
+(Two kinds of standard operations may be specified:)SH
+9424 69350 MT
+(1.)SH
+/Courier SF
+10536 XM
+(Routine)SH
+/Helvetica SF
+9424 71165 MT
+(2.)SH
+/Courier SF
+10536 XM
+(SimpleRoutine)SH
+ES
+%%Page: 6 7
+BS
+0 SI
+10 /Helvetica-Bold AF
+30322 4329 MT
+(6)SH
+/Helvetica SF
+9424 7929 MT
+(3.)SH
+/Courier SF
+10536 XM
+(Procedure)SH
+/Helvetica SF
+9424 9744 MT
+(4.)SH
+/Courier SF
+10536 XM
+(SimpleProcedure)SH
+/Helvetica SF
+9424 11559 MT
+(5.)SH
+/Courier SF
+10536 XM
+(Function)SH
+/Helvetica SF
+7200 14126 MT
+(One other keyword may be used in place of a standard operation and that is)31 W
+/Courier SF
+41572 XM
+(skip)SH
+/Helvetica SF
+(. It)
+340 W( produces)
+31 W( a hole in)32 W
+7200 15552 MT
+(the IPC message ID numbering of operations.)SH
+7200 18119 MT
+(A)SH
+/Courier SF
+8259 XM
+(SimpleRoutine)SH
+/Helvetica SF
+16451 XM
+(sends a message to the server but does not expect a reply. The return value of a)113 W
+/Courier SF
+7200 19545 MT
+(SimpleRoutine)SH
+/Helvetica SF
+15412 XM
+(is the value returned by the)135 W
+/Courier SF
+28562 XM
+(msg_send)SH
+/Helvetica SF
+33775 XM
+(primitive. A)548 W
+/Courier SF
+39681 XM
+(SimpleRoutine)SH
+/Helvetica SF
+47894 XM
+(is used when)135 W
+7200 20971 MT
+(asynchronous communication with a server is desired.)SH
+7200 23538 MT
+(A)SH
+/Courier SF
+8216 XM
+(Routine)SH
+/Helvetica SF
+12765 XM
+(operation waits for a reply message from the server.  It is a function whose)
+71 W( result is of type)70 W
+/Courier SF
+7200 24964 MT
+(kern_return_t)SH
+/Helvetica SF
+(. This)
+378 W( result indicates whether the requested operation was successfully completed.  If)50 W
+7200 26390 MT
+(a)SH
+/Courier SF
+8050 XM
+(Routine)SH
+/Helvetica SF
+12544 XM
+(returns a value other than)16 W
+/Courier SF
+24297 XM
+(KERN_SUCCESS)SH
+/Helvetica SF
+31791 XM
+(the reply message will not include any of the reply)16 W
+7200 27816 MT
+(parameters except the error code.)SH
+/Courier SF
+7200 30383 MT
+(Procedure)SH
+/Helvetica SF
+13579 XM
+(operations are like)701 W
+/Courier SF
+24130 XM
+(Routines)SH
+/Helvetica SF
+(, except)
+701 W( that they don't return an error code.)702 W
+/Courier SF
+7200 31809 MT
+(SimpleProcedures)SH
+/Helvetica SF
+17094 XM
+(resemble)SH
+/Courier SF
+21500 XM
+(SimpleRoutines)SH
+/Helvetica SF
+(, with the same exception.)16 W
+/Courier SF
+42111 XM
+(Function)SH
+/Helvetica SF
+47204 XM
+(operations also)15 W
+7200 33235 MT
+(don't return an)
+81 W( error code; instead, they return a value from the server function.  This value can be any)82 W
+7200 34661 MT
+(scalar or structure type.  The syntax is)SH
+/Courier SF
+9424 36250 MT
+(function)SH
+/Helvetica-Oblique SF
+14502 XM
+(operation-name)SH
+/Courier SF
+21783 XM
+(\050)SH
+/Helvetica-Oblique SF
+22983 XM
+(parameter-list)SH
+/Courier SF
+29695 XM
+(\051 :)SH
+/Helvetica-Oblique SF
+32095 XM
+(function-value-type)SH
+/Courier SF
+40821 XM
+(;)SH
+/Helvetica SF
+7200 38817 MT
+(Because)SH
+/Courier SF
+11498 XM
+(Procedure)SH
+/Helvetica SF
+(,)SH
+/Courier SF
+17583 XM
+(SimpleProcedure)SH
+/Helvetica SF
+(, and)129 W
+/Courier SF
+29343 XM
+(Function)SH
+/Helvetica SF
+34550 XM
+(operations don't return an error code, they)129 W
+7200 40243 MT
+(have another way of handling errors.  They call an error)
+52 W( function, specified with an)53 W
+/Courier SF
+44557 XM
+(error)SH
+/Helvetica SF
+47888 XM
+(option. These)53 W
+7200 41669 MT
+(calls are not recommended since it is tempting)
+112 W( to write code that ignores message passing errors with)111 W
+7200 43095 MT
+(these operations and that is definitely a bad idea.)SH
+7200 45662 MT
+(An operation definition has the syntax)SH
+/Helvetica-Oblique SF
+9424 47251 MT
+(operation-type operation-name)SH
+/Courier SF
+23375 XM
+(\050)SH
+/Helvetica-Oblique SF
+24575 XM
+(parameter-list)SH
+/Courier SF
+31287 XM
+(\051;)SH
+/Helvetica SF
+7200 50961 MT
+(The)SH
+/Helvetica-Oblique SF
+9201 XM
+(parameter-list)SH
+/Helvetica SF
+15591 XM
+(is a list of parameter names and types separated by)SH
+/Courier SF
+38824 XM
+(;)SH
+/Helvetica SF
+(. The)
+278 W( form of each parameter is:)SH
+/Helvetica-Oblique SF
+9424 52550 MT
+(specification var-name)278 W
+/Courier SF
+19983 XM
+(:)SH
+/Helvetica-Oblique SF
+20861 XM
+(type-description)SH
+/Courier SF
+28197 XM
+([ ,)SH
+/Helvetica-Oblique SF
+(dealloc-flag)SH
+/Courier SF
+35710 XM
+(])SH
+/Helvetica SF
+7200 55282 MT
+(where)SH
+/Helvetica-Oblique SF
+10258 XM
+(specification)SH
+/Helvetica SF
+16095 XM
+(may either be omitted or be one of the following)57 W
+/Courier SF
+38009 XM
+(in)SH
+/Helvetica SF
+39544 XM
+(|)SH
+/Courier SF
+40140 XM
+(out)SH
+/Helvetica SF
+42276 XM
+(|)SH
+/Courier SF
+42872 XM
+(inout)SH
+/Helvetica SF
+46208 XM
+(|)SH
+/Courier SF
+46804 XM
+(RequestPort)SH
+/Helvetica SF
+53740 XM
+(|)SH
+/Courier SF
+7200 56708 MT
+(ReplyPort)SH
+/Helvetica SF
+12968 XM
+(|)SH
+/Courier SF
+13596 XM
+(WaitTime)SH
+/Helvetica SF
+18764 XM
+(|)SH
+/Courier SF
+19392 XM
+(MsgType)SH
+/Helvetica SF
+(.)SH
+/Helvetica-Oblique SF
+24606 XM
+(Type-description)SH
+/Helvetica SF
+32365 XM
+(can be any)90 W
+/Helvetica-Oblique SF
+37804 XM
+(user-typename)SH
+/Helvetica SF
+44840 XM
+(that was declared in)89 W
+7200 58134 MT
+(the type definitions section or can be a complete)
+231 W( type description in the same form as in the type)232 W
+7200 59560 MT
+(definition section.)43 W
+/Helvetica-Oblique SF
+15290 XM
+(dealloc-flag)SH
+/Helvetica SF
+20724 XM
+(may be omitted or be)43 W
+/Courier SF
+30610 XM
+(dealloc)SH
+/Helvetica SF
+35131 XM
+(or)SH
+/Courier SF
+36341 XM
+(notdealloc)SH
+/Helvetica SF
+(. This)
+43 W( flag will overide any)42 W
+7200 60986 MT
+(deallocation flag associated with the type definition.)SH
+7200 63553 MT
+(The first unspecified parameter in any operation statement is assumed be the)120 W
+/Courier SF
+43156 XM
+(RequestPort)SH
+/Helvetica SF
+50155 XM
+(unless a)121 W
+/Courier SF
+7200 64979 MT
+(RequestPort)SH
+/Helvetica SF
+14126 XM
+(parameter was already)
+48 W( specified. This is the port to which the message is to be sent. If a)47 W
+/Courier SF
+7200 66405 MT
+(ReplyPort)SH
+/Helvetica SF
+13015 XM
+(parameter is specified, it will be used as the port that the reply message is sent to. If)
+137 W( no)138 W
+/Courier SF
+7200 67831 MT
+(ReplyPort)SH
+/Helvetica SF
+12878 XM
+(parameter is specified a per-thread global port is used for the reply message.)SH
+7200 70398 MT
+(The keywords)87 W
+/Courier SF
+13876 XM
+(in)SH
+/Helvetica SF
+(,)SH
+/Courier SF
+15719 XM
+(out)SH
+/Helvetica SF
+(, and)87 W
+/Courier SF
+20195 XM
+(inout)SH
+/Helvetica SF
+23560 XM
+(are optional and indicate)
+87 W( the direction of the parameter.  If no such)86 W
+7200 71824 MT
+(keyword is given the default)
+94 W( is)95 W
+/Courier SF
+21383 XM
+(in)SH
+/Helvetica SF
+(. The)
+468 W( keyword)95 W
+/Courier SF
+29799 XM
+(in)SH
+/Helvetica SF
+31372 XM
+(is used with parameters that are to be sent to the)95 W
+ES
+%%Page: 7 8
+BS
+0 SI
+10 /Helvetica-Bold AF
+30322 4329 MT
+(7)SH
+/Helvetica SF
+7200 7929 MT
+(server. The)
+400 W( keyword)61 W
+/Courier SF
+17058 XM
+(out)SH
+/Helvetica SF
+19197 XM
+(is used with parameters to be returned)
+61 W( by the server.  The keyword)60 W
+/Courier SF
+49940 XM
+(inout)SH
+/Helvetica SF
+53278 XM
+(is)SH
+7200 9355 MT
+(used with parameters to be both sent and)
+265 W( returned.  The keywords)266 W
+/Courier SF
+40122 XM
+(WaitTime, ReplyPort)266 W
+/Helvetica SF
+52332 XM
+(and)SH
+/Courier SF
+7200 10781 MT
+(MsgType)SH
+/Helvetica SF
+11701 XM
+(may be used to specify dynamic values for the)22 W
+/Courier SF
+32686 XM
+(WaitTime)SH
+/Helvetica SF
+(, the)22 W
+/Courier SF
+39754 XM
+(ReplyPort)SH
+/Helvetica SF
+45454 XM
+(or the)22 W
+/Courier SF
+48333 XM
+(MsgType)SH
+/Helvetica SF
+52833 XM
+(for)SH
+7200 12207 MT
+(this message.  These parameters are not passed to the server code,)
+78 W( but are used when generating the)79 W
+7200 13633 MT
+(send and receive)
+42 W( calls. The)41 W
+/Courier SF
+19857 XM
+(RequestPort)SH
+/Helvetica SF
+26776 XM
+(and)SH
+/Courier SF
+28763 XM
+(ReplyPort)SH
+/Helvetica SF
+34482 XM
+(parameters must be of types that resolve to)41 W
+/Courier SF
+7200 15059 MT
+(MSG_TYPE_PORT)SH
+/Helvetica SF
+16554 XM
+(and the)1276 W
+/Courier SF
+22721 XM
+(WaitTime)SH
+/Helvetica SF
+29076 XM
+(and)SH
+/Courier SF
+32299 XM
+(MsgType)SH
+/Helvetica SF
+38054 XM
+(parameters must resolve to)1277 W
+/Courier SF
+7200 16485 MT
+(MSG_TYPE_INTEGER_32)SH
+/Helvetica SF
+(.)SH
+7200 19052 MT
+(The keyword)56 W
+/Courier SF
+13314 XM
+(skip)SH
+/Helvetica SF
+16047 XM
+(is provided to allowed a procedure to be removed from a subsystem without causing)55 W
+7200 20478 MT
+(all the subsequent message interfaces to be renumbered. It)
+9 W( causes no code to be generated, but uses up)10 W
+7200 21904 MT
+(a msg_id number.)SH
+7200 24471 MT
+(See appendix III for an example of a complete subsystem definition.)SH
+11 /Helvetica-Bold AF
+7200 28153 MT
+(2.5. Options Declarations)SH
+10 /Helvetica AF
+7200 29579 MT
+(Several special-purpose options about the)
+88 W( generated code may be specified.  Defaults are available for)87 W
+7200 31005 MT
+(each, and simple interfaces do not usually need to change them. First time readers)
+40 W( may wish to skip this)41 W
+7200 32431 MT
+(section. These)
+828 W( options may occur more than once in the specification)
+275 W( file.  Each time an option)274 W
+7200 33857 MT
+(declaration appears it sets that option for all the following operations.)SH
+/Helvetica-Bold SF
+7200 36746 MT
+(2.5.1. WaitTime Specification)SH
+/Helvetica SF
+7200 38172 MT
+(The)SH
+/Courier SF
+9201 XM
+(WaitTime)SH
+/Helvetica SF
+14279 XM
+(specification has two forms:)SH
+/Courier SF
+9424 39761 MT
+(WaitTime)SH
+/Helvetica-Oblique SF
+14780 XM
+(time)SH
+/Courier SF
+16947 XM
+(;)SH
+/Helvetica SF
+18103 XM
+(or)SH
+/Courier SF
+9424 40904 MT
+(NoWaitTime;)SH
+/Helvetica SF
+7200 42493 MT
+(The word)269 W
+/Courier SF
+12185 XM
+(WaitTime)SH
+/Helvetica SF
+17533 XM
+(is followed by an integer or an identifier that specifies the maximum time in)270 W
+7200 43919 MT
+(milliseconds that the user code will wait for a reply from the server.)
+80 W( If)
+436 W( an identifier is used, it should be)79 W
+7200 45345 MT
+(declared as an)
+39 W( extern variable by some module in the user code. If the)40 W
+/Courier SF
+39218 XM
+(WaitTime)SH
+/Helvetica SF
+44336 XM
+(option is omitted, or if)40 W
+7200 46771 MT
+(the)SH
+/Courier SF
+8868 XM
+(NoWaitTime)SH
+/Helvetica SF
+15146 XM
+(statement is seen, the RPC does not return until a message is received.)SH
+7200 49338 MT
+(The timeout value for the)44 W
+/Courier SF
+18758 XM
+(msg_receive)SH
+/Helvetica SF
+25679 XM
+(can alternatively be controlled by using a)43 W
+/Courier SF
+44322 XM
+(WaitTime)SH
+/Helvetica SF
+49443 XM
+(parameter)SH
+7200 50764 MT
+(to the RPC.)SH
+/Helvetica-Bold SF
+7200 53653 MT
+(2.5.2. MsgType Specification)SH
+/Helvetica SF
+7200 55079 MT
+(The)SH
+/Courier SF
+9201 XM
+(MsgType)SH
+/Helvetica SF
+13679 XM
+(specification is of the form)SH
+/Courier SF
+9424 56668 MT
+(MsgType)SH
+/Helvetica-Oblique SF
+13902 XM
+(manifest-constant)SH
+/Courier SF
+22072 XM
+(;)SH
+/Helvetica SF
+7200 59400 MT
+(where the)244 W
+/Helvetica-Oblique SF
+12357 XM
+(manifest-constant)SH
+/Helvetica SF
+20771 XM
+(may be one of the values from the file)244 W
+/Courier SF
+39920 XM
+(<msg_type.h>)SH
+/Helvetica SF
+(. The)
+244 W( currently)245 W
+7200 60826 MT
+(available types are)46 W
+/Courier SF
+15953 XM
+(MSG_TYPE_RPC)SH
+/Helvetica SF
+23477 XM
+(and)SH
+/Courier SF
+25469 XM
+(MSG_TYPE_ENCRYPTED)SH
+/Helvetica SF
+(. The type)46 W
+/Courier SF
+41131 XM
+(MSG_TYPE_CAMELOT)SH
+/Helvetica SF
+51054 XM
+(should)SH
+7200 62252 MT
+(not be set in this manner, but is set)
+7 W( by using the operation)8 W
+/Courier SF
+33199 XM
+(camelotroutine)SH
+/Helvetica SF
+(. The)8 W
+/Courier SF
+44172 XM
+(MSG_TYPE_RPC)SH
+/Helvetica SF
+51658 XM
+(is set)8 W
+7200 63678 MT
+(to a correct value by default and the user should)
+70 W( probably not change it. The value)69 W
+/Courier SF
+45000 XM
+(MSG_TYPE_NORMAL)SH
+/Helvetica SF
+7200 65104 MT
+(can be used to reset the)SH
+/Courier SF
+18207 XM
+(MsgType)SH
+/Helvetica SF
+22685 XM
+(option.)SH
+7200 67671 MT
+(The)SH
+/Courier SF
+9265 XM
+(MsgType)SH
+/Helvetica SF
+13807 XM
+(value for the)65 W
+/Courier SF
+19783 XM
+(msg_send)SH
+/Helvetica SF
+24926 XM
+(can alternatively be controlled by using a)65 W
+/Courier SF
+43723 XM
+(MsgType)SH
+/Helvetica SF
+48266 XM
+(parameter to)65 W
+7200 69097 MT
+(the RPC.)SH
+ES
+%%Page: 8 9
+BS
+0 SI
+10 /Helvetica-Bold AF
+30322 4329 MT
+(8)SH
+7200 7929 MT
+(2.5.3. Error Specification)SH
+/Helvetica SF
+7200 9355 MT
+(The)SH
+/Courier SF
+9305 XM
+(error)SH
+/Helvetica SF
+12687 XM
+(specification required by)104 W
+/Courier SF
+24059 XM
+(Procedure)SH
+/Helvetica SF
+(,)SH
+/Courier SF
+30119 XM
+(SimpleProcedure)SH
+/Helvetica SF
+(, and)104 W
+/Courier SF
+41829 XM
+(Function)SH
+/Helvetica SF
+47011 XM
+(operations is of)104 W
+7200 10781 MT
+(the form)SH
+/Courier SF
+9424 12370 MT
+(error)SH
+/Helvetica-Oblique SF
+12980 XM
+(error-proc)SH
+/Courier SF
+(;)SH
+/Helvetica SF
+7200 14937 MT
+(The)SH
+/Helvetica-Oblique SF
+9201 XM
+(error-proc)SH
+/Helvetica SF
+13868 XM
+(has to be supplied by the user and must be of the form:)SH
+/Courier SF
+9424 16526 MT
+(void)SH
+/Helvetica-Oblique SF
+12380 XM
+(error-proc)SH
+/Courier SF
+17047 XM
+(\050ErrCode\051)SH
+14224 17669 MT
+(kern_return_t ErrCode;)1200 W
+/Helvetica SF
+7200 19258 MT
+(If there is no)SH
+/Courier SF
+12981 XM
+(error)SH
+/Helvetica SF
+16259 XM
+(specification, the default)SH
+/Helvetica-Oblique SF
+27265 XM
+(error-proc)SH
+/Helvetica SF
+31932 XM
+(is)SH
+/Courier SF
+32932 XM
+(MsgError)SH
+/Helvetica SF
+(.)SH
+/Helvetica-Bold SF
+7200 22147 MT
+(2.5.4. ServerPrefix Specification)SH
+/Helvetica SF
+7200 23573 MT
+(The ServerPrefix specification is of the form)SH
+/Courier SF
+9424 25162 MT
+(ServerPrefix)SH
+/Helvetica-Oblique SF
+17180 XM
+(string)SH
+/Courier SF
+19903 XM
+(;)SH
+/Helvetica SF
+7200 27894 MT
+(The word)46 W
+/Courier SF
+11738 XM
+(ServerPrefix)SH
+/Helvetica SF
+19263 XM
+(is followed by an identifier string which will be prepended to the actual names)47 W
+7200 29320 MT
+(of all the following server side functions implementing the message operations.  This is particularly)
+30 W( useful)29 W
+7200 30746 MT
+(when it is)
+43 W( necessary for the user and server side functions to have different names, as must be the case)44 W
+7200 32172 MT
+(when a server is also a user of copies of itself.)SH
+/Helvetica-Bold SF
+7200 35061 MT
+(2.5.5. UserPrefix Specification)SH
+/Helvetica SF
+7200 36487 MT
+(The UserPrefix specification is of the form)SH
+/Courier SF
+9424 38076 MT
+(UserPrefix)SH
+/Helvetica-Oblique SF
+15980 XM
+(string)SH
+/Courier SF
+18703 XM
+(;)SH
+/Helvetica SF
+7200 40808 MT
+(The word)50 W
+/Courier SF
+11746 XM
+(UserPrefix)SH
+/Helvetica SF
+18074 XM
+(is followed by)
+50 W( an identifier string which will be prepended to the actual names of)49 W
+7200 42234 MT
+(all the following user side functions calling the message operations.)89 W
+/Courier SF
+38526 XM
+(ServerPrefix)SH
+/Helvetica SF
+46094 XM
+(should usually be)90 W
+7200 43660 MT
+(used when different names are needed for the user)
+234 W( and server functions, but)233 W
+/Courier SF
+44422 XM
+(UserPrefix)SH
+/Helvetica SF
+50933 XM
+(is also)233 W
+7200 45086 MT
+(available for completeness sake.)SH
+/Helvetica-Bold SF
+7200 47975 MT
+(2.5.6. RcsId Specification)SH
+/Helvetica SF
+7200 49401 MT
+(The RcsId specification is of the form)SH
+/Courier SF
+9424 50990 MT
+(rcsid "$)SH
+/Helvetica-Oblique SF
+(Header information)SH
+/Courier SF
+($";)SH
+/Helvetica SF
+7200 53722 MT
+(This specification causes a string variable)34 W
+/Helvetica-Oblique SF
+26133 XM
+(Sys)SH
+/Courier SF
+(_user_rscid)SH
+/Helvetica SF
+34712 XM
+(in the user and)34 W
+/Helvetica-Oblique SF
+41741 XM
+(Sys)SH
+/Courier SF
+(_server_rcsid)SH
+/Helvetica SF
+51520 XM
+(in the)34 W
+7200 55148 MT
+(server module to be set equal to the input string.)SH
+12 /Helvetica-Bold AF
+7200 58903 MT
+(3. Obsolete Functionality)SH
+8 /Helvetica AF
+7200 60329 MT
+(MIG)SH
+10 SS 
+9192 XM
+(supports some obsolete functionality.  Use)
+204 W( of this functionality will result in a warning message,)203 W
+7200 61755 MT
+(unless warning messages are suppressed.  This functionality may disappear in a future release.)SH
+11 /Helvetica-Bold AF
+7200 65437 MT
+(3.1. Kernel Subsystems)SH
+10 /Helvetica AF
+7200 66863 MT
+(The keyword)SH
+/Courier SF
+13202 XM
+(kernel)SH
+/Helvetica SF
+17080 XM
+(was once used for interfaces supported by the kernel.)SH
+/Courier SF
+9424 68452 MT
+(subsystem kernel)SH
+/Helvetica-Oblique SF
+19302 XM
+(sys message-base-id)278 W
+/Courier SF
+29305 XM
+(;)SH
+ES
+%%Page: 9 10
+BS
+0 SI
+10 /Helvetica-Bold AF
+30322 4329 MT
+(9)SH
+11 SS 
+7200 8002 MT
+(3.2. Old Translation Syntax)SH
+10 /Helvetica AF
+7200 9428 MT
+(The previous syntax for specifying translation and destructor)
+207 W( functions for a type was based on key)208 W
+7200 10854 MT
+(characters. The)278 W
+/Courier SF
+14703 XM
+(task_t)SH
+/Helvetica SF
+(/)SH
+/Courier SF
+(i_task_t)SH
+/Helvetica SF
+23659 XM
+(example would be rendered)SH
+/Courier-Bold SF
+10200 12659 MT
+(type task_t = MSG_TYPE_PORT)SH
+12000 13790 MT
+(> PortToTask)SH
+12000 14921 MT
+(< TaskToPort)SH
+12000 16052 MT
+(: i_task_t)SH
+12000 17183 MT
+(~ task_t)SH
+12000 18314 MT
+(- DeallocT;)SH
+12 /Helvetica-Bold AF
+7200 23200 MT
+(4. Camelot Functionality)SH
+8 /Helvetica AF
+7200 24626 MT
+(MIG)SH
+10 SS 
+9071 XM
+(supports the Camelot)
+83 W( system with an additional type of operation, the)82 W
+/Courier SF
+40879 XM
+(CamelotRoutine)SH
+/Helvetica SF
+(. Camelot)442 W
+7200 26052 MT
+(interfaces should)
+282 W( be entirely composed of)283 W
+/Courier SF
+27628 XM
+(CamelotRoutines)SH
+/Helvetica SF
+(; they shouldn't be mixed with other)283 W
+7200 27478 MT
+(operations. In)
+424 W( addition, the)73 W
+/Courier SF
+19906 XM
+(subsystem)SH
+/Helvetica SF
+25657 XM
+(declaration of a Camelot interface should include the)72 W
+/Courier SF
+49800 XM
+(camelot)SH
+/Helvetica SF
+7200 28904 MT
+(keyword:)SH
+/Courier SF
+9424 30493 MT
+(subsystem camelot)SH
+/Helvetica-Oblique SF
+19902 XM
+(sys message-base-id)278 W
+/Courier SF
+29905 XM
+(;)SH
+/Helvetica SF
+7200 33225 MT
+(See the Camelot documentation)385 W
+/Helvetica-Oblique SF
+23303 XM
+(Guide to the Camelot Distributed Transaction Facility)385 W
+/Helvetica SF
+49673 XM
+(for a full)385 W
+7200 34651 MT
+(description of how)SH
+/Courier SF
+15537 XM
+(CamelotRoutines)SH
+/Helvetica SF
+24815 XM
+(differ from)SH
+/Courier SF
+29594 XM
+(Routines)SH
+/Helvetica SF
+(.)SH
+12 /Helvetica-Bold AF
+7200 38406 MT
+(5. Compiling Definitions Files)SH
+8 /Helvetica AF
+7200 39832 MT
+(MIG)SH
+10 SS 
+9114 XM
+(is implemented as a cover program that recognizes a few switches and then calls)126 W
+/Courier SF
+47059 XM
+(cpp)SH
+/Helvetica SF
+49262 XM
+(to process)125 W
+7200 41258 MT
+(comments and preprocessor macros such as)SH
+/Courier SF
+27429 XM
+(#include)SH
+/Helvetica SF
+32507 XM
+(or)SH
+/Courier SF
+33674 XM
+(#define)SH
+/Helvetica SF
+(. For)
+278 W( example the statement)SH
+9424 42847 MT
+(#include <std_types.defs>)SH
+7200 44436 MT
+(can be used to include the type definitions for standard)56 W
+8 SS 
+32274 XM
+(MACH)SH
+10 SS 
+34964 XM
+(and C types.  The output from)56 W
+/Courier SF
+48863 XM
+(cpp)SH
+/Helvetica SF
+50997 XM
+(is then)57 W
+7200 45862 MT
+(passed to the program)SH
+/Courier SF
+17483 XM
+(migcom)SH
+/Helvetica SF
+21361 XM
+(which generates the C files.)SH
+7200 48429 MT
+(The switches that)SH
+8 SS 
+15259 XM
+(MIG)SH
+10 SS 
+17047 XM
+(recognizes are:)SH
+7200 50301 MT
+(-[r,R])SH
+16096 XM
+(r use msg_rpc, R use msg_send, msg_receive pairs. Default is r.)SH
+7200 51927 MT
+(-[q,Q])SH
+16096 XM
+(q - suppress warning statements. Q print warning statements. Default is Q.)SH
+7200 53553 MT
+(-[v,V])SH
+16096 XM
+(v - verbose, prints out routines and types as they are processed.  V)
+26 W( compiles silently.)25 W
+16096 54696 MT
+(Default is V.)SH
+7200 56322 MT
+(-[s,S])SH
+16096 XM
+(s - generate symbol table with Server.c code.  The layout)
+345 W( of a symbol table)346 W
+16096 57465 MT
+(\050)SH
+/Courier SF
+(mig_symtab_t)SH
+/Helvetica SF
+(\051 is defined in)162 W
+/Courier SF
+30502 XM
+(<mig_error.h>)SH
+/Helvetica SF
+(. S)
+602 W( suppresses)
+162 W( the symbol table.)161 W
+16096 58608 MT
+(Default is)
+260 W( S. This is useful for protection systems where access to the server's)261 W
+16096 59751 MT
+(operations is dynamically specifiable or for providing a run-time indirected)
+51 W( server call)50 W
+16096 60894 MT
+(interface ala)SH
+/Courier SF
+21821 XM
+(syscall\0502\051)SH
+/Helvetica SF
+28099 XM
+(\050server-to-server calls made on behalf on a client\051.)SH
+7200 62520 MT
+(-i)SH
+16481 XM
+(- instead of a single user file, generate)
+107 W( individual files for each routine, for ease in)108 W
+16096 63663 MT
+(building a library.  The file name for each file is)SH
+/Helvetica-Oblique SF
+36993 XM
+(routine_name)SH
+/Helvetica SF
+(.c.)SH
+7200 65289 MT
+(-server)SH
+/Helvetica-Oblique SF
+10589 XM
+(name)SH
+/Helvetica SF
+16374 XM
+(- name the server file)SH
+/Helvetica-Oblique SF
+26044 XM
+(name)SH
+/Helvetica SF
+(.)SH
+7200 66915 MT
+(-user)SH
+/Helvetica-Oblique SF
+9756 XM
+(name)SH
+/Helvetica SF
+16374 XM
+(- name the user file)SH
+/Helvetica-Oblique SF
+25211 XM
+(name)SH
+/Helvetica SF
+(.)SH
+7200 68541 MT
+(-header)SH
+/Helvetica-Oblique SF
+10924 XM
+(name)SH
+/Helvetica SF
+16374 XM
+(- name the header file)SH
+/Helvetica-Oblique SF
+26379 XM
+(name)SH
+/Helvetica SF
+(.)SH
+7200 71108 MT
+(Any switches that)12 W
+8 SS 
+15295 XM
+(MIG)SH
+10 SS 
+17095 XM
+(does not recognize, it)
+12 W( passes on to)11 W
+/Courier SF
+32906 XM
+(cpp)SH
+/Helvetica SF
+(.)SH
+8 SS 
+35562 XM
+(MIG)SH
+10 SS 
+37361 XM
+(also notices if -MD is being passed to)11 W
+ES
+%%Page: 10 11
+BS
+0 SI
+10 /Helvetica-Bold AF
+30044 4329 MT
+(10)SH
+/Courier SF
+7200 7929 MT
+(cpp)SH
+/Helvetica SF
+(. If it is,)64 W
+8 SS 
+12702 XM
+(MIG)SH
+10 SS 
+14554 XM
+(fixes up the resulting)
+64 W( .d file to show the dependencies of the .h, User.c and Server.c on)65 W
+7200 9355 MT
+(the .defs and any #included .defs files. For this feature to work correctly the name of)
+28 W( the subsystem must)27 W
+7200 10781 MT
+(be the same as the name of the .defs file.)SH
+7200 13348 MT
+(To use)107 W
+8 SS 
+10749 XM
+(MIG)SH
+10 SS 
+(, give the name of your)
+107 W( .defs file or files and any switch values on a)108 W
+8 SS 
+43941 XM
+(MIG)SH
+10 SS 
+45837 XM
+(command line, for)108 W
+7200 14774 MT
+(example:)SH
+/Courier-Bold SF
+9600 16300 MT
+(mig -v  random.defs)SH
+/Helvetica SF
+7200 17881 MT
+(If)SH
+/Courier SF
+8354 XM
+(random)SH
+/Helvetica SF
+12552 XM
+(is the subsystem name declared in the definitions file, then)320 W
+8 SS 
+41931 XM
+(MIG)SH
+10 SS 
+44039 XM
+(will produce)
+320 W( the files)319 W
+/Courier SF
+7200 19307 MT
+(random.h)SH
+/Helvetica SF
+(,)SH
+/Courier SF
+12558 XM
+(randomUser.c)SH
+/Helvetica SF
+20038 XM
+(and)SH
+/Courier SF
+21986 XM
+(randomServer.c)SH
+/Helvetica SF
+30666 XM
+(as output.  If the)
+2 W( -MD switch was given, a)3 W
+/Courier SF
+49200 XM
+(random.d)SH
+/Helvetica SF
+7200 20733 MT
+(file will also be generated.)SH
+12 /Helvetica-Bold AF
+7200 24488 MT
+(6. Using the Interface Modules)SH
+10 /Helvetica AF
+7200 25914 MT
+(In the following discussion let)SH
+/Courier SF
+20428 XM
+(random)SH
+/Helvetica SF
+24306 XM
+(be the declared subsystem name in the definitions file.)SH
+7200 28481 MT
+(To use the)
+76 W( calls exported by the user interface module, a client must first find the port to call the server)75 W
+7200 29907 MT
+(on. The service ports for basic system servers are inherited when a task)
+67 W( is created and can be found in)68 W
+7200 31333 MT
+(globals defined by)129 W
+/Courier SF
+15925 XM
+(mach_init)SH
+/Helvetica SF
+(. One)
+535 W( of these ports is the port to the Net Name Server which can be)128 W
+7200 32759 MT
+(used to check in or lookup user supplied ports. The)147 W
+/Courier SF
+31570 XM
+(ReplyPort)SH
+/Helvetica SF
+37395 XM
+(for)SH
+8 SS 
+38987 XM
+(MIG)SH
+10 SS 
+40922 XM
+(is a)
+147 W( per-thread global that is)148 W
+7200 34185 MT
+(intialized when the thread is created. The program)5 W
+/Courier SF
+29750 XM
+(set_mig_port)SH
+/Helvetica SF
+37233 XM
+(can be called to reset)
+5 W( this value, but it)4 W
+7200 35611 MT
+(is not recommended to do so. The)218 W
+/Courier SF
+24178 XM
+(ReplyPort)SH
+/Helvetica SF
+30074 XM
+(can be)
+218 W( specified as a parameter to an operation if)219 W
+7200 37037 MT
+(necessary.)SH
+7200 39604 MT
+(If the interface calls an error handling routine the user needs to supply)
+82 W( a properly named routine, either)81 W
+/Courier SF
+7200 41030 MT
+(MsgError)SH
+/Helvetica SF
+(, or whatever the interface writer specified as the)SH
+/Courier SF
+33787 XM
+(error_proc)SH
+/Helvetica SF
+(.)SH
+7200 43597 MT
+(When making specific interface calls the)
+19 W( client should be aware if any out-of-line data is being returned to)20 W
+7200 45023 MT
+(it. If so, it may wish to deallocate the space with a call to)SH
+/Courier SF
+32267 XM
+(vm_deallocate)SH
+/Helvetica SF
+(.)SH
+7200 47590 MT
+(The most common system error that a user)
+41 W( of)40 W
+8 SS 
+28074 XM
+(MIG)SH
+10 SS 
+29902 XM
+(interface may encounter is)40 W
+/Courier SF
+42067 XM
+(invalid_port)SH
+/Helvetica SF
+(. This)
+358 W( can)40 W
+7200 49016 MT
+(mean serveral things: 1. The)164 W
+/Courier SF
+20970 XM
+(RequestPort)SH
+/Helvetica SF
+28012 XM
+(parameter is an invalid port or)
+164 W( lacks send rights. 2. The)165 W
+/Courier SF
+7200 50442 MT
+(ReplyPort)SH
+/Helvetica SF
+12914 XM
+(is invalid or lacks receive rights.  If the client is supplying this port as parameter it may)
+36 W( be at)35 W
+7200 51868 MT
+(fault. If the system provided reply port is being used this error should not happen. 3. A port that is)
+61 W( being)62 W
+7200 53294 MT
+(passed in either the send or reply message is invalid.)40 W
+/Courier SF
+31706 XM
+(timed_out)SH
+/Helvetica SF
+37424 XM
+(is another system error)
+40 W( a client could)39 W
+7200 54720 MT
+(receive. This results from a)
+137 W( RPC with a timeout value set, timing out before a reply is received.  This)138 W
+7200 56146 MT
+(usually only happens if the server is on a remote machine from the client.)
+152 W( The)581 W
+8 SS 
+44534 XM
+(MIG)SH
+10 SS 
+46473 XM
+(errors defined in)151 W
+/Courier SF
+7200 57572 MT
+(mig_errors.h)SH
+/Helvetica SF
+14695 XM
+(usually only)
+17 W( occur if the client is using a different version of the interface than the server.)18 W
+8 SS 
+7200 58998 MT
+(MIG)SH
+10 SS 
+8988 XM
+(error codes can be interpreted by the routines in)SH
+/Courier SF
+30554 XM
+(mach_error)SH
+/Helvetica SF
+7200 61565 MT
+(The subsystem)
+124 W( writer must hand code two things in addition to the)123 W
+8 SS 
+38246 XM
+(MIG)SH
+10 SS 
+40157 XM
+(definition file.  First, the actual)123 W
+7200 62991 MT
+(operations must be declared and imported into the server module, and all normal operations must be)152 W
+7200 64417 MT
+(coded. Second,)
+494 W( code must be written to receive messages, call the)
+108 W( server interface module, and then)107 W
+7200 65843 MT
+(send a reply message when appropriate.  The server module exports one function)
+590 W( called)591 W
+/Courier SF
+7200 67269 MT
+(random_server)SH
+/Helvetica SF
+(, which accepts as)
+144 W( arguments a pointer to the message received, and a pointer to a)143 W
+7200 68695 MT
+(record for the reply message.  The function will return true if the received message)
+38 W( id was in the server's)39 W
+7200 70121 MT
+(range.)SH
+ES
+%%Page: 11 12
+BS
+0 SI
+10 /Helvetica-Bold AF
+30044 4329 MT
+(11)SH
+/Helvetica SF
+7200 7929 MT
+(In general, a reply should always be returned for any message received unless the return code)
+59 W( from the)58 W
+7200 9355 MT
+(Server was)142 W
+/Courier SF
+12763 XM
+(MIG_NO_REPLY)SH
+/Helvetica SF
+20383 XM
+(or the request message doesn't have)
+142 W( a reply port.  The boolean function)143 W
+7200 10781 MT
+(value from the server function may be used)
+98 W( to have the same receive loop processing several logically)97 W
+7200 12207 MT
+(distinct server's requests.  Once a server has returned true,)
+137 W( or all the servers have returned false the)138 W
+7200 13633 MT
+(receive-serve-send loop should send a)
+94 W( reply \050unless of course, the return code was)93 W
+/Courier SF
+45540 XM
+(MIG_NO_REPLY)SH
+/Helvetica SF
+53111 XM
+(or)SH
+7200 15059 MT
+(the reply port is PORT_NULL\051.)SH
+7200 17626 MT
+(An example of a server main loop can be found in Appendix III.)SH
+ES
+%%Page: 12 13
+BS
+0 SI
+10 /Helvetica-Bold AF
+30044 4329 MT
+(12)SH
+12 SS 
+7200 8075 MT
+(I. Syntax of the Specification file)SH
+10 /Helvetica AF
+7200 9501 MT
+(The syntax of specification files is given semi-formally in what can be)
+191 W( viewed as a slightly extended)192 W
+7200 10927 MT
+(context free grammar.)SH
+/Helvetica-Bold SF
+7200 13494 MT
+(Meta language description:)141 W
+/Helvetica SF
+21267 XM
+(Each production rule is terminated with a period.  The left)
+141 W( hand side is)140 W
+7200 14920 MT
+(separated from the right hand side by a)
+260 W( colon.  Terminal symbols are enclosed in double quotes.)261 W
+7200 16346 MT
+(Nonterminal symbols are not specially marked and may contain embeded blanks.  Symbols)
+199 W( within a)198 W
+7200 17772 MT
+(single production are separated by commas.  Alternative productions are separated by `|'.  A)
+42 W( nonterminal)43 W
+7200 19198 MT
+(ending with the word `option' indicates zero or one occurance of the nonterminal with that word)
+73 W( deleted.)72 W
+7200 20624 MT
+(A nonterminal ending with)
+66 W( the word `sequence' indicates one or more repetitions of the nonterminal with)67 W
+7200 22050 MT
+(that word deleted.  \050It follows that a nonterminal ending with `sequence option' indicates zero or more)139 W
+7200 23476 MT
+(repetitions.\051)SH
+7200 26043 MT
+(Comments may)
+56 W( be included in .defs file if surrounded by "/*" and "*/".  They are parsed and removed by)57 W
+/Courier SF
+7200 27469 MT
+(cpp)SH
+/Helvetica SF
+(.)SH
+7200 30036 MT
+(No attempt has been made to indicate in the grammar that types must be declared before they are used.)SH
+/Courier-Bold SF
+7200 31841 MT
+(specification file:)SH
+12000 32972 MT
+(subsystem description,)SH
+12000 34103 MT
+(waittime description option,)SH
+12000 35234 MT
+(msgtype description option,)SH
+12000 36365 MT
+(error description option,)SH
+12000 37496 MT
+(server prefix description option,)SH
+12000 38627 MT
+(user prefix description option,)SH
+12000 39758 MT
+(rscid description option)SH
+12000 40889 MT
+(type description sequence option,)SH
+12000 42020 MT
+(import statement sequence option,)SH
+12000 43151 MT
+(operation description sequence.)SH
+7200 45413 MT
+(subsystem description:)SH
+12000 46544 MT
+("Subsystem", identifier, decimal integer, ";".)SH
+7200 48806 MT
+(waittime description:)SH
+12000 49937 MT
+("WaitTime", waittime value, ";" |)SH
+12000 51068 MT
+("NoWaitTime",";".)SH
+7200 53330 MT
+(waittime value:)SH
+12000 54461 MT
+(decimal integer |)SH
+12000 55592 MT
+(identifier.)SH
+7200 57854 MT
+(msgtype description:)SH
+12000 58985 MT
+("MsgType", msgtype value, ";".)SH
+7200 61247 MT
+(msgtype value:)SH
+12000 62378 MT
+("MSG_TYPE_RPC" |)SH
+12000 63509 MT
+("MSG_TYPE_ENCRYPTED" |)SH
+12000 64640 MT
+("MSG_TYPE_NORMAL" .)SH
+7200 66902 MT
+(error description:)SH
+12000 68033 MT
+("Error", identifier, ";".)SH
+7200 70295 MT
+(server prefix description:)SH
+12000 71426 MT
+("ServerPrefix", identifier ";".)SH
+ES
+%%Page: 13 14
+BS
+0 SI
+10 /Helvetica-Bold AF
+30044 4329 MT
+(13)SH
+/Courier-Bold SF
+7200 7874 MT
+(user prefix description:)SH
+12000 9005 MT
+("UserPrefix", identifier, ";".)SH
+7200 11267 MT
+(import statement:)SH
+12000 12398 MT
+(import indicant, include name, ";".)SH
+7200 14660 MT
+(include name:)SH
+12000 15791 MT
+("file_name"|)SH
+12000 16922 MT
+(<file_name>.)SH
+7200 19184 MT
+(import indicant:)SH
+12000 20315 MT
+("import"|)SH
+12000 21446 MT
+("uimport"|)SH
+12000 22577 MT
+("simport".)SH
+7200 24839 MT
+(type description:)SH
+12000 25970 MT
+("type", type definition, ";".)SH
+7200 28232 MT
+(operation description:)SH
+12000 29363 MT
+(routine description |)SH
+12000 30494 MT
+(simpleroutine description |)SH
+12000 31625 MT
+(procedure description |)SH
+12000 32756 MT
+(simpleprocedure description |)SH
+12000 33887 MT
+(function description |)SH
+12000 35018 MT
+(camelotroutine description.)SH
+7200 37280 MT
+(routine description:)SH
+12000 38411 MT
+("routine", argument list, ";".)SH
+7200 40673 MT
+(simpleroutine description:)SH
+12000 41804 MT
+("simpleroutine", argument list, ";".)SH
+7200 44066 MT
+(procedure description:)SH
+12000 45197 MT
+("procedure", argument list, ";".)SH
+7200 47459 MT
+(simpleprocedure description:)SH
+12000 48590 MT
+("simpleprocedure", argument list, ";".)SH
+7200 50852 MT
+(function description:)SH
+12000 51983 MT
+("function", argument list, ":", type definition, ";".)SH
+7200 54245 MT
+(camelotroutine description:)SH
+12000 55376 MT
+("routine", argument list, ";".)SH
+7200 58769 MT
+(argument list:)SH
+12000 59900 MT
+("\050", argument definition option,)SH
+16800 61031 MT
+(semicolon joined argument definition sequence option, "\051".)SH
+7200 63293 MT
+(semicolon joined argument definition:)SH
+12000 64424 MT
+(";", argument definition.)SH
+7200 66686 MT
+(argument definition:)SH
+12000 67817 MT
+(specification option, identifer, ":", type definition,)SH
+12000 68948 MT
+(ipc flag sequence option.)SH
+7200 71210 MT
+(specification:)SH
+ES
+%%Page: 14 15
+BS
+0 SI
+10 /Helvetica-Bold AF
+30044 4329 MT
+(14)SH
+/Courier-Bold SF
+12000 7874 MT
+("in" |)SH
+12000 9005 MT
+("out" |)SH
+12000 10136 MT
+("inout" |)SH
+12000 11267 MT
+("requestport" |)SH
+12000 12398 MT
+("replyport" |)SH
+12000 13529 MT
+("waittime" |)SH
+12000 14660 MT
+("msgtype".)SH
+7200 16922 MT
+(type definition:)SH
+12000 18053 MT
+(identifier, "=",)SH
+16800 19184 MT
+(pointer option, repetition option sequence,)SH
+16800 20315 MT
+(ipc_info, translation option.)SH
+7200 22577 MT
+(pointer: "^".)SH
+7200 24839 MT
+(repetition:)SH
+12000 25970 MT
+("array", "[", size option, "]", "of"|)SH
+12000 27101 MT
+("struct", "[", size option, "]", "of".)SH
+7200 30494 MT
+(size: integer)
+1200 W( expression|)SH
+12000 31625 MT
+(" * :", integer expression.)SH
+7200 35018 MT
+(integer expression:)
+SH( integer)
+2400 W( expression, "+", integer expression |)SH
+21600 36149 MT
+(integer expression, "-", integer expression |)SH
+21600 37280 MT
+(integer expression, "*", integer expression |)SH
+21600 38411 MT
+(integer expression, "/", integer expression |)SH
+21600 39542 MT
+("\050", integer expression, "\051" |)SH
+21600 40673 MT
+(integer.)SH
+7200 42935 MT
+(ipc_info:)SH
+12000 44066 MT
+("\050", ipc_type_name, ",", size in bits,)SH
+16800 45197 MT
+(ipc flag sequence option, "\051" |)SH
+12000 46328 MT
+(ipc_type_name |)SH
+12000 47459 MT
+(identifier.)SH
+7200 49721 MT
+(ipc_type_name:)SH
+12000 50852 MT
+(prim_ipc_type_name |)SH
+12000 51983 MT
+(prim_ipc_type_name, "|", prim_ipc_type_name.)SH
+7200 54245 MT
+(prim_ipc_type_name:)SH
+12000 55376 MT
+("polymorphic" |)SH
+12000 56507 MT
+(builtin type name |)SH
+12000 57638 MT
+(integer expression.)SH
+7200 59900 MT
+(translation:)SH
+12000 61031 MT
+(ctype option, cusertype option, cservertype option,)SH
+12000 62162 MT
+(input function option, output function option,)SH
+12000 63293 MT
+(destructor function option.)SH
+7200 65555 MT
+(ctype:)SH
+12000 66686 MT
+("CType", ":", identifier.)SH
+7200 68948 MT
+(cusertype:)SH
+12000 70079 MT
+("CUserType", ":", identifier.)SH
+ES
+%%Page: 15 16
+BS
+0 SI
+10 /Helvetica-Bold AF
+30044 4329 MT
+(15)SH
+/Courier-Bold SF
+7200 7874 MT
+(cservertype:)SH
+12000 9005 MT
+("CServerType", ":", identifier.)SH
+7200 11267 MT
+(input function:)SH
+12000 12398 MT
+("InTran", ":", identifier, identifier, "\050", indentifier, "\051".)SH
+7200 14660 MT
+(output function:)SH
+12000 15791 MT
+("OutTran", ":", identifier, identifier, "\050", indentifier, "\051".)SH
+7200 18053 MT
+(destructor function:)SH
+12000 19184 MT
+("Destructor", ":", identifier, "\050", indentifier, "\051".)SH
+7200 21446 MT
+(ipc flag:)SH
+12000 22577 MT
+(",", flag identifier.)SH
+7200 24839 MT
+(flag identifer:)SH
+12000 25970 MT
+("dealloc" |)SH
+12000 27101 MT
+("notdealloc" |)SH
+12000 28232 MT
+("islong" |)SH
+12000 29363 MT
+("isnotlong".)SH
+ES
+%%Page: 16 17
+BS
+0 SI
+10 /Helvetica-Bold AF
+30044 4329 MT
+(16)SH
+12 SS 
+7200 8075 MT
+(II. System defined IPC types)SH
+10 /Helvetica AF
+7200 9501 MT
+(The builtin IPC typenames defined by the system are as follows:)SH
+/Courier-Bold SF
+12000 11306 MT
+(MSG_TYPE_UNSTRUCTURED)SH
+12000 12437 MT
+(MSG_TYPE_BIT)SH
+12000 13568 MT
+(MSG_TYPE_BOOLEAN)SH
+12000 14699 MT
+(MSG_TYPE_INTEGER_16)SH
+12000 15830 MT
+(MSG_TYPE_INTEGER_32)SH
+12000 16961 MT
+(MSG_TYPE_PORT_OWNERSHIP)SH
+12000 18092 MT
+(MSG_TYPE_PORT_RECEIVE)SH
+12000 19223 MT
+(MSG_TYPE_PORT_ALL)SH
+12000 20354 MT
+(MSG_TYPE_PORT)SH
+12000 21485 MT
+(MSG_TYPE_CHAR)SH
+12000 22616 MT
+(MSG_TYPE_BYTE)SH
+12000 23747 MT
+(MSG_TYPE_INTEGER_8)SH
+12000 24878 MT
+(MSG_TYPE_REAL)SH
+12000 26009 MT
+(MSG_TYPE_STRING)SH
+12000 27140 MT
+(MSG_TYPE_PORT_NAME)SH
+12000 28271 MT
+(MSG_TYPE_INTERNAL_MEMORY)SH
+12000 29402 MT
+(MSG_TYPE_POLYMORPHIC)SH
+/Helvetica SF
+7200 32393 MT
+(The most up-to-date set of these names is to be found in the C file)1 W
+/Courier SF
+36786 XM
+(<mach/message.h>)SH
+/Helvetica SF
+46664 XM
+(which defines all)SH
+7200 33819 MT
+(the message related types needed by a user of the)SH
+8 SS 
+29991 XM
+(MACH)SH
+10 SS 
+32625 XM
+(kernel.)SH
+ES
+%%Page: 17 18
+BS
+0 SI
+10 /Helvetica-Bold AF
+30044 4329 MT
+(17)SH
+12 SS 
+7200 8075 MT
+(III. Example of)SH
+10 SS 
+15606 XM
+(MIG)SH
+12 SS 
+17829 XM
+(specification file)SH
+10 /Helvetica AF
+7200 9501 MT
+(Here is an example of a simple)60 W
+8 SS 
+21625 XM
+(MIG)SH
+10 SS 
+23473 XM
+(specification file.  This code and the)
+60 W( mig generated files)61 W
+/Courier SF
+48922 XM
+(random.h)SH
+/Helvetica SF
+(,)SH
+/Courier SF
+7200 10927 MT
+(randomUser.c)SH
+/Helvetica SF
+16323 XM
+(and)SH
+/Courier SF
+19914 XM
+(randomServer.c)SH
+/Helvetica SF
+30237 XM
+(can all be found)
+1645 W( in the directory)1644 W
+/Courier SF
+7200 12353 MT
+(/afs/cs.cmu.edu/project/mach/doc/mig_example)SH
+/Helvetica SF
+(.)SH
+/Courier-Bold SF
+7200 14158 MT
+(/**************************************************************)SH
+7800 15289 MT
+(* random.defs)600 W
+7800 16420 MT
+(* Defines)
+3000 W( a  server to return random numbers, random strings)SH
+7800 17551 MT
+(* and)
+3000 W( pages of memory filled with random junk.)SH
+7800 18682 MT
+(*************************************************************/)SH
+7200 19813 MT
+(subsystem random 500;)SH
+7200 20944 MT
+(#include <mach/std_types.defs>)SH
+7200 23206 MT
+(type dbl)
+SH( =)
+4200 W( struct [2] of int;)SH
+7200 24337 MT
+(type string25)
+SH( =)
+1200 W( \050MSG_TYPE_STRING,8*25\051; /* passed by reference */)SH
+7200 25468 MT
+(type string80)
+SH( =)
+1200 W( struct [1] of array [80] of char; /* passed by value */)SH
+7200 26599 MT
+(type words)
+SH( =)
+3000 W( ^ array [ ] of int;)SH
+7200 27730 MT
+(type words256)
+SH( =)
+1200 W( array [256] of int;)SH
+7200 28861 MT
+(type comp_arr)
+SH( =)
+1200 W( array [10] of array [256] of int;)SH
+7200 29992 MT
+(type page_ptr)
+SH( =)
+1200 W( ^array [4096] of MSG_TYPE_INTEGER_32;)SH
+7200 32254 MT
+(import "random_types.h";)SH
+7200 34516 MT
+(procedure init_seed \050)
+SH( server_port)
+1200 W( :)
+2400 W( port_t;)SH
+21600 35647 MT
+(seed :)
+6600 W( dbl\051;)SH
+7200 37909 MT
+(function get_randomf\050)
+SH( server_port)
+1200 W( :)
+2400 W( port_t\051)SH
+12000 39040 MT
+(: int;)SH
+7200 41302 MT
+(routine get_random\050)
+SH( server_port :)
+2400 W( port_t;)SH
+19200 42433 MT
+(out num)
+SH( :)
+7200 W( int\051;)SH
+7200 44695 MT
+(msgtype MSG_TYPE_ENCRYPTED;  /* get secret string */)SH
+7200 45826 MT
+(waittime 10000;  /* next call may go to a server on another machine */)SH
+7200 48088 MT
+(routine get_secret\050)
+SH( server_port :)
+2400 W( port_t;)SH
+18000 49219 MT
+(inout password)
+SH( :)
+4200 W( string25\051;)SH
+7200 51481 MT
+(/* input waittime to next procedure in case 10 seconds is not long enough */)SH
+7200 52612 MT
+(/* mtype can be input as MSG_TYPE_NORMAL if encryption is  not wanted */)SH
+7200 54874 MT
+(routine get_confidential\050server_port)
+SH( :)
+1800 W( port_t;)SH
+16800 56005 MT
+(waittime wait)
+SH( :)
+6000 W( int;)SH
+17400 57136 MT
+(MsgType mtype)
+SH( :)
+5400 W( int;)SH
+19800 58267 MT
+(out data)
+SH( :)
+6000 W( page_ptr,dealloc\051;)SH
+7200 60529 MT
+(nowaittime;)SH
+7200 61660 MT
+(msgtype MSG_TYPE_NORMAL;)SH
+7200 63922 MT
+(simpleroutine use_random\050server_port)
+SH( :)
+1800 W( port_t;)SH
+21600 65053 MT
+(info_seed :)
+3600 W( string80;)SH
+21600 66184 MT
+(info :)
+6600 W( comp_arr;)SH
+21600 67315 MT
+(info_1 :)
+5400 W( words\051;)SH
+7200 69577 MT
+(/* tell server you are finished using it */)SH
+7200 70708 MT
+(simpleprocedure exit\050 server_port)
+600 W( :)
+2400 W( port_t\051;)SH
+ES
+%%Page: 18 19
+BS
+0 SI
+10 /Helvetica-Bold AF
+30044 4329 MT
+(18)SH
+/Courier SF
+7200 7929 MT
+(std_types.defs)SH
+/Helvetica SF
+15878 XM
+(defines the following types:)SH
+/Courier-Bold SF
+7200 10191 MT
+(/*************************************************************)SH
+7800 11322 MT
+(* Mach)
+3000 W( kernel standard interface type declarations)SH
+7800 12453 MT
+(*************************************************************/)SH
+7200 14715 MT
+(type char = MSG_TYPE_CHAR;)SH
+7200 15846 MT
+(type short = MSG_TYPE_INTEGER_16;)SH
+7200 16977 MT
+(type int = MSG_TYPE_INTEGER_32;)SH
+7200 18108 MT
+(type boolean_t = MSG_TYPE_BOOLEAN;)SH
+7200 20370 MT
+(type kern_return_t = int;)SH
+7200 22632 MT
+(/* Until MIG & netmsgserver are updated, use integer type */)SH
+7200 23763 MT
+(#define MSG_TYPE_PORT_NAME)
+SH( MSG_TYPE_INTEGER_32)3000 W
+7200 26025 MT
+(type port_name_t = MSG_TYPE_PORT_NAME;)SH
+7200 27156 MT
+(type port_name_array_t = ^array[] of port_name_t;)SH
+7200 28287 MT
+(type port_type_t = int;)SH
+7200 29418 MT
+(type port_type_array_t = ^array[] of port_type_t;)SH
+7200 30549 MT
+(type port_set_name_t = port_name_t;)SH
+7200 32811 MT
+(type port_t = MSG_TYPE_PORT;)SH
+7200 33942 MT
+(type port_all_t = MSG_TYPE_PORT_ALL;)SH
+7200 35073 MT
+(type port_rcv_t = MSG_TYPE_PORT_RECEIVE;)SH
+7200 36204 MT
+(type port_array_t = ^array[] of port_t;)SH
+7200 38466 MT
+(type pointer_t = ^array [] of MSG_TYPE_BYTE;)SH
+7200 40728 MT
+(import <mach/std_types.h>;)SH
+/Courier SF
+7200 46688 MT
+(random_types.h)SH
+/Helvetica SF
+15878 XM
+(defines the C types appropriately:)SH
+/Courier-Bold SF
+7200 48493 MT
+(/**********************************************************)SH
+7800 49624 MT
+(* random_types.h)600 W
+7800 50755 MT
+(* definitions)
+3000 W( for the random server interface)SH
+7800 51886 MT
+(*********************************************************/)SH
+7200 54148 MT
+(typedef struct {)SH
+14400 55279 MT
+(int lsw;)SH
+14400 56410 MT
+(int msw;)SH
+12000 57541 MT
+(} dbl;)SH
+7200 59803 MT
+(typedef struct {)
+SH( /*)
+9000 W( gets passed by value */)SH
+14400 60934 MT
+(char c[80];)600 W
+12000 62065 MT
+(} string80;)SH
+7200 64327 MT
+(typedef char)
+SH( string25[25];)
+1800 W( /*)
+1200 W( gets passed by reference */)SH
+7200 65458 MT
+(typedef int)
+SH( words256[256];)2400 W
+7200 66589 MT
+(typedef int)
+SH( *words;)
+2400 W( /*)
+4800 W( variable length array */)SH
+7200 67720 MT
+(typedef words256 comp_arr[10];)SH
+7200 68851 MT
+(typedef int)
+SH( pagearr[4096];)2400 W
+7200 69982 MT
+(typedef pagearr *page_ptr;)SH
+ES
+%%Page: 19 20
+BS
+0 SI
+10 /Helvetica-Bold AF
+30044 4329 MT
+(19)SH
+/Helvetica SF
+7200 7929 MT
+(The following code fragment shows a typical main loop for a server process.)SH
+/Courier-Bold SF
+7200 9734 MT
+(/***************************************************)SH
+7800 10865 MT
+(* Main)
+1200 W( program for random server)SH
+7800 11996 MT
+(**************************************************/)SH
+7200 13127 MT
+(#include <stdio.h>)SH
+7200 14258 MT
+(#include <mach.h>)SH
+7200 15389 MT
+(#include <mach_error.h>)SH
+7200 16520 MT
+(#include <mig_errors.h>)SH
+7200 17651 MT
+(#include <mach/message.h>)SH
+7200 18782 MT
+(#include <mach/notify.h>)SH
+7200 19913 MT
+(#include <servers/envmgr.h>)SH
+7200 22175 MT
+(extern boolean_t)
+SH( random_server\050\051;)4200 W
+7200 24437 MT
+(/*********************************************************)SH
+7800 25568 MT
+(* procedure random_run:)SH
+7800 26699 MT
+(* Waits)
+1200 W( for messages to server,)SH
+7800 27830 MT
+(* handles)
+1200 W( them, and replies to sender.)SH
+7800 28961 MT
+(*********************************************************/)SH
+7200 30092 MT
+(void random_run \050\051)SH
+7200 31223 MT
+({)SH
+9000 32354 MT
+(typedef int space[1024]; /* Maximum message size */)SH
+9000 34616 MT
+(typedef struct DumMsg)SH
+12000 35747 MT
+({)SH
+13800 36878 MT
+(msg_header_t head;)4800 W
+13800 38009 MT
+(msg_type_t retcodetype;)6000 W
+13800 39140 MT
+(kern_return_t return_code;)4200 W
+13800 40271 MT
+(space body;)9000 W
+12000 41402 MT
+(} DumMsg;)SH
+9000 43664 MT
+(kern_return_t retcode;)4200 W
+9000 44795 MT
+(msg_return_t msgcode;)4800 W
+9000 45926 MT
+(boolean_t ok;)6600 W
+9000 47057 MT
+(DumMsg *pInMsg,)
+8400 W( *pRepMsg;)SH
+9000 49319 MT
+(pInMsg = \050DumMsg *\051malloc\050sizeof\050DumMsg\051\051;)SH
+9000 50450 MT
+(pRepMsg = \050DumMsg *\051malloc\050sizeof\050DumMsg\051\051;)SH
+9000 52712 MT
+(while \050TRUE\051)SH
+9000 53843 MT
+({)SH
+11400 54974 MT
+(pInMsg->head.msg_size = sizeof\050DumMsg\051; /* bytes */)SH
+11400 56105 MT
+(pInMsg->head.msg_local_port = PORT_DEFAULT;)SH
+12000 58367 MT
+(/* wait to receive request from client */)SH
+11400 59498 MT
+(msgcode = msg_receive\050&pInMsg->head,MSG_OPTION_NONE,0\051;)SH
+11400 60629 MT
+(if \050msgcode != RCV_SUCCESS\051)SH
+13800 61760 MT
+(printf\050"error %s in Receive, message will be ignored.\134n",)SH
+16800 62891 MT
+(mach_errormsg\050\050kern_return_t\051msgcode\051\051;)SH
+11400 64022 MT
+(else)SH
+11400 65153 MT
+({ if)
+1200 W( \050pInMsg->head.msg_type == MSG_TYPE_EMERGENCY\051)SH
+13800 66284 MT
+({)SH
+15600 67415 MT
+(if \050pInMsg->head.msg_id == NOTIFY_PORT_DELETED\051)SH
+18000 68546 MT
+({ /*)
+600 W( probably the death of a client's reply */})SH
+15600 69677 MT
+(else)SH
+16800 70808 MT
+(printf\050"Unexpected emergency message received: id is %d\134n",)SH
+21600 71939 MT
+(pInMsg->head.msg_id\051;)SH
+ES
+%%Page: 20 21
+BS
+0 SI
+10 /Helvetica-Bold AF
+30044 4329 MT
+(20)SH
+/Courier-Bold SF
+13800 7874 MT
+(})SH
+13200 9005 MT
+(else /*)
+600 W( normal message */)SH
+13200 10136 MT
+({)SH
+16800 11267 MT
+(/* call server interface module */)SH
+15600 12398 MT
+(ok = random_server\050\050msg_header_t *\051pInMsg,)SH
+28200 13529 MT
+(\050msg_header_t *\051pRepMsg\051;)SH
+15600 14660 MT
+(if \050pRepMsg->return_code != MIG_NO_REPLY\051)SH
+15600 15791 MT
+({)SH
+18000 16922 MT
+(/* sending reply message to client */)SH
+16800 18053 MT
+(pRepMsg->head.msg_local_port = pInMsg->head.msg_local_port;)SH
+16800 19184 MT
+(pRepMsg->head.msg_remote_port = pInMsg->head.msg_remote_port;)SH
+16800 20315 MT
+(msgcode = msg_send\050&pRepMsg->head,MSG_OPTION_NONE,0\051;)SH
+16800 21446 MT
+(if \050\050msgcode != SEND_SUCCESS\051 &&)SH
+19200 22577 MT
+(\050msgcode != SEND_INVALID_PORT\051\051)SH
+25800 23708 MT
+(/* Probably remote process death */)SH
+19200 24839 MT
+(printf\050"error %s at Send.\134n",)SH
+26400 25970 MT
+(mach_errormsg\050\050kern_return_t\051msgcode\051\051;)SH
+15600 27101 MT
+(})SH
+13200 28232 MT
+(} /* normal message */)SH
+11400 29363 MT
+(} /* of message handling */)SH
+10200 30494 MT
+(} /*)
+600 W( of main loop */)SH
+7200 32756 MT
+(})SH
+7200 36149 MT
+(main\050\051)SH
+7200 37280 MT
+({)SH
+9000 38411 MT
+(port_t ServerPort;)3600 W
+9000 39542 MT
+(kern_return_t retcode;)SH
+12000 41804 MT
+(/* add notification port to default port set */)SH
+9000 42935 MT
+(retcode = port_unrestrict\050task_self_,task_notify_\051;)SH
+12000 44066 MT
+(/* allocate a service port */)SH
+9000 45197 MT
+(retcode = port_allocate\050task_self\050\051, &ServerPort\051;)SH
+9000 46328 MT
+(if \050retcode == KERN_SUCCESS\051)SH
+9000 47459 MT
+({ /*)
+1800 W( add service port to default port set */)SH
+10800 48590 MT
+(\050void\051 port_unrestrict\050task_self\050\051,ServerPort\051;)SH
+12000 49721 MT
+(/* check it in so users can find it */)SH
+10800 50852 MT
+(retcode =)
+600 W( netname_check_in\050NameServerPort,"RandomServerPort",)SH
+16800 51983 MT
+(PORT_NULL,ServerPort\051;)SH
+9000 53114 MT
+(})SH
+9000 54245 MT
+(if \050retcode != KERN_SUCCESS\051)SH
+12000 55376 MT
+(printf\050"netname_check_in of RandomServerPort failed with code %s\134n",)SH
+21600 56507 MT
+(mach_errormsg\050retcode\051\051;)SH
+9000 57638 MT
+(random_run \050\051;)SH
+9000 58769 MT
+(printf\050"\050* !!!!! Random server exited - give it up !!!!! *\051\134n"\051;)SH
+9000 59900 MT
+(exit\0502\051;)SH
+7200 61031 MT
+(})SH
+ES
+%%Page: i 22
+BS
+0 SI
+10 /Helvetica-Bold AF
+30461 4329 MT
+(i)SH
+12 SS 
+25533 8075 MT
+(Table of Contents)SH
+11 SS 
+9036 9319 MT
+(1. Introduction)SH
+53388 XM
+(1)SH
+9036 10563 MT
+(2.)SH
+9 SS 
+10260 XM
+(MIG)SH
+11 SS 
+12266 XM
+(Specification File)SH
+53388 XM
+(1)SH
+10 SS 
+11092 11712 MT
+(2.1. Subsystem Identification)SH
+53444 XM
+(1)SH
+11092 12861 MT
+(2.2. Type Declarations)SH
+53444 XM
+(2)SH
+13316 14010 MT
+(2.2.1. Simple Types)SH
+53444 XM
+(2)SH
+13316 15159 MT
+(2.2.2. Structured Types)SH
+53444 XM
+(2)SH
+13316 16308 MT
+(2.2.3. Pointer Types)SH
+53444 XM
+(3)SH
+13316 17457 MT
+(2.2.4. Polymorphic Types)SH
+53444 XM
+(3)SH
+13316 18606 MT
+(2.2.5. Type translation information)SH
+53444 XM
+(4)SH
+11092 19755 MT
+(2.3. Import Declarations)SH
+53444 XM
+(5)SH
+11092 20904 MT
+(2.4. Standard Operations)SH
+53444 XM
+(5)SH
+11092 22053 MT
+(2.5. Options Declarations)SH
+53444 XM
+(7)SH
+13316 23202 MT
+(2.5.1. WaitTime Specification)SH
+53444 XM
+(7)SH
+13316 24351 MT
+(2.5.2. MsgType Specification)SH
+53444 XM
+(7)SH
+13316 25500 MT
+(2.5.3. Error Specification)SH
+53444 XM
+(8)SH
+13316 26649 MT
+(2.5.4. ServerPrefix Specification)SH
+53444 XM
+(8)SH
+13316 27798 MT
+(2.5.5. UserPrefix Specification)SH
+53444 XM
+(8)SH
+13316 28947 MT
+(2.5.6. RcsId Specification)SH
+53444 XM
+(8)SH
+11 SS 
+9036 30191 MT
+(3. Obsolete Functionality)SH
+53388 XM
+(8)SH
+10 SS 
+11092 31340 MT
+(3.1. Kernel Subsystems)SH
+53444 XM
+(8)SH
+11092 32489 MT
+(3.2. Old Translation Syntax)SH
+53444 XM
+(9)SH
+11 SS 
+9036 33733 MT
+(4. Camelot Functionality)SH
+53388 XM
+(9)SH
+9036 34977 MT
+(5. Compiling Definitions Files)SH
+53388 XM
+(9)SH
+9036 36221 MT
+(6. Using the Interface Modules)SH
+52776 XM
+(10)SH
+9036 37465 MT
+(I. Syntax of the Specification file)SH
+52776 XM
+(12)SH
+9036 38709 MT
+(II. System defined IPC types)SH
+52776 XM
+(16)SH
+9036 39953 MT
+(III. Example of)SH
+9 SS 
+16742 XM
+(MIG)SH
+11 SS 
+18748 XM
+(specification file)SH
+52776 XM
+(17)SH
+ES
+%%Trailer
+%%Pages: 22 
+%%DocumentFonts: Helvetica Helvetica-Bold Symbol Courier Helvetica-Oblique Courier-Bold
