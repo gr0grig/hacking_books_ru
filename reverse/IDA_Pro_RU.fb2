@@ -15,7 +15,7 @@
   <document-info>
     <author><nickname>Translator</nickname></author>
     <program-used>build_ida_books.py</program-used>
-    <date value="2026-07-14">2026-07-14</date>
+    <date value="2026-07-16">2026-07-16</date>
     <version>1.0</version>
   </document-info>
 </description>
@@ -478,20 +478,20 @@
 <empty-line/>
 <subtitle>Сноски</subtitle>
 <empty-line/>
-<p><strong>[1]</strong> Сайт Cygwin: &lt;http://www.cygwin.com/&gt;.</p>
-<p><strong>[2]</strong> Сайт MinGW: &lt;http://www.mingw.org/&gt;.</p>
+<p><strong>[1]</strong> Сайт Cygwin: <a l:href="http://www.cygwin.com/">http://www.cygwin.com/</a>.</p>
+<p><strong>[2]</strong> Сайт MinGW: <a l:href="http://www.mingw.org/">http://www.mingw.org/</a>.</p>
 <p><strong>[3]</strong> Магическое число - особое значение метки, наличие которого, согласно спецификации формата, указывает на соответствие файла этому формату. Иногда выбор числа связан с забавной историей. Метка <code>MZ</code> в заголовках исполняемых файлов MS-DOS представляет собой инициалы Марка Збиковски, одного из первоначальных архитекторов MS-DOS. Хорошо известное шестнадцатеричное магическое число <code>0xcafebabe</code> файлов классов Java выбрали потому, что эту последовательность цифр легко запомнить.</p>
-<p><strong>[4]</strong> Сайт PE Tools: &lt;http://petools.org.ru/petools.shtml&gt;.</p>
-<p><strong>[5]</strong> Сайт PEiD: &lt;http://peid.info/&gt;.</p>
-<p><strong>[6]</strong> Описание червя Gaobot: &lt;http://securityresponse.symantec.com/security_response/writeup.jsp?docid=2003-112112-1102-99&gt;.</p>
+<p><strong>[4]</strong> Сайт PE Tools: <a l:href="http://petools.org.ru/petools.shtml">http://petools.org.ru/petools.shtml</a>.</p>
+<p><strong>[5]</strong> Сайт PEiD: <a l:href="http://peid.info/">http://peid.info/</a>.</p>
+<p><strong>[6]</strong> Описание червя Gaobot: <a l:href="http://securityresponse.symantec.com/security_response/writeup.jsp?docid=2003-112112-1102-99">http://securityresponse.symantec.com/security_response/writeup.jsp?docid=2003-112112-1102-99</a>.</p>
 <p><strong>[7]</strong> Подробнее о компоновке см. книгу Джона Левина «Компоновщики и загрузчики» (Морган Кауфман, 2000).</p>
-<p><strong>[8]</strong> Документация <code>objdump</code>: &lt;http://www.sourceware.org/binutils/docs/binutils/objdump.html#objdump/&gt;.</p>
-<p><strong>[9]</strong> Сайт GNU Binutils: &lt;http://www.gnu.org/software/binutils/&gt;.</p>
-<p><strong>[10]</strong> Документация <code>dumpbin</code>: &lt;http://msdn.microsoft.com/en-us/library/c1h23y6c(VS.71).aspx&gt;.</p>
-<p><strong>[11]</strong> Обзор декорирования имён: &lt;http://en.wikipedia.org/wiki/Name_mangling&gt;.</p>
-<p><strong>[12]</strong> Сайт diStorm: &lt;http://www.ragestorm.net/distorm/&gt;.</p>
-<p><strong>[13]</strong> Сайт NASM: &lt;http://nasm.sourceforge.net/&gt;.</p>
-<p><strong>[14]</strong> Сайт Metasploit: &lt;http://www.metasploit.com/&gt;.</p>
+<p><strong>[8]</strong> Документация <code>objdump</code>: <a l:href="http://www.sourceware.org/binutils/docs/binutils/objdump.html#objdump/">http://www.sourceware.org/binutils/docs/binutils/objdump.html#objdump/</a>.</p>
+<p><strong>[9]</strong> Сайт GNU Binutils: <a l:href="http://www.gnu.org/software/binutils/">http://www.gnu.org/software/binutils/</a>.</p>
+<p><strong>[10]</strong> Документация <code>dumpbin</code>: <a l:href="http://msdn.microsoft.com/en-us/library/c1h23y6c(VS.71).aspx">http://msdn.microsoft.com/en-us/library/c1h23y6c(VS.71).aspx</a>.</p>
+<p><strong>[11]</strong> Обзор декорирования имён: <a l:href="http://en.wikipedia.org/wiki/Name_mangling">http://en.wikipedia.org/wiki/Name_mangling</a>.</p>
+<p><strong>[12]</strong> Сайт diStorm: <a l:href="http://www.ragestorm.net/distorm/">http://www.ragestorm.net/distorm/</a>.</p>
+<p><strong>[13]</strong> Сайт NASM: <a l:href="http://nasm.sourceforge.net/">http://nasm.sourceforge.net/</a>.</p>
+<p><strong>[14]</strong> Сайт Metasploit: <a l:href="http://www.metasploit.com/">http://www.metasploit.com/</a>.</p>
 </section>
 <section id="sec_03_obshchie_svedeniya_ob_ida_pro">
 <title><p>Глава 3. Общие сведения об IDA Pro</p></title>
@@ -577,11 +577,11 @@
 <empty-line/>
 <subtitle>OpenRCE.org</subtitle>
 <empty-line/>
-<p>На сайте &lt;http://www.openrce.org/&gt; сформировалось активное сообщество специалистов по обратной разработке. Там опубликовано множество статей о необычных способах применения IDA и работают пользовательские форумы. Как и на форумах Hex-Rays, здесь много опытных пользователей, готовых подсказать решение почти любой проблемы с IDA.</p>
+<p>На сайте <a l:href="http://www.openrce.org/">http://www.openrce.org/</a> сформировалось активное сообщество специалистов по обратной разработке. Там опубликовано множество статей о необычных способах применения IDA и работают пользовательские форумы. Как и на форумах Hex-Rays, здесь много опытных пользователей, готовых подсказать решение почти любой проблемы с IDA.</p>
 <empty-line/>
 <subtitle>Форумы RCE</subtitle>
 <empty-line/>
-<p>Форумы обратной разработки кода RCE на сайте &lt;http://www.woodmann.com/&gt; содержат бесчисленное множество сообщений об использовании IDA Pro. Тематика значительно шире одной IDA и охватывает многие инструменты и приёмы обратной разработки двоичных файлов.</p>
+<p>Форумы обратной разработки кода RCE на сайте <a l:href="http://www.woodmann.com/">http://www.woodmann.com/</a> содержат бесчисленное множество сообщений об использовании IDA Pro. Тематика значительно шире одной IDA и охватывает многие инструменты и приёмы обратной разработки двоичных файлов.</p>
 <empty-line/>
 <subtitle>IDA Palace</subtitle>
 <empty-line/>
@@ -708,15 +708,15 @@
 <empty-line/>
 <p><strong>[1]</strong> На протяжении многих лет IDA продавала компания DataRescue. В январе 2008 года Ильфак передал продвижение и продажу IDA своей компании Hex-Rays.</p>
 <p><strong>[2]</strong> На момент написания книги поддерживались Windows, Linux и OS X.</p>
-<p><strong>[3]</strong> «Зал позора» был перенесён на сайт Hex-Rays: &lt;http://www.hex-rays.com/idapro/hallofshame.html&gt;.</p>
-<p><strong>[4]</strong> Страница бесплатной версии: &lt;http://www.hex-rays.com/idapro/idadownfreeware.htm&gt;.</p>
-<p><strong>[5]</strong> Страница демонстрационной версии: &lt;http://www.hex-rays.com/idapro/idadowndemo.htm&gt;.</p>
-<p><strong>[6]</strong> Перечень поддерживаемых процессоров: &lt;http://www.hex-rays.com/idapro/idaproc.htm&gt;.</p>
-<p><strong>[7]</strong> Условия заказа и лицензирования: &lt;http://www.hex-rays.com/idapro/idaorder.htm&gt;.</p>
-<p><strong>[8]</strong> Страница поддержки: &lt;http://www.hex-rays.com/idapro/idasupport.htm&gt;.</p>
-<p><strong>[9]</strong> Работа Стива Микаллефа: &lt;http://www.binarypool.com/idapluginwriting/idapw.pdf&gt;.</p>
-<p><strong>[10]</strong> Сайт IDA Palace: &lt;http://old.idapalace.net/&gt;.</p>
-<p><strong>[11]</strong> Блог Ильфака: &lt;http://www.hexblog.com/&gt;.</p>
+<p><strong>[3]</strong> «Зал позора» был перенесён на сайт Hex-Rays: <a l:href="http://www.hex-rays.com/idapro/hallofshame.html">http://www.hex-rays.com/idapro/hallofshame.html</a>.</p>
+<p><strong>[4]</strong> Страница бесплатной версии: <a l:href="http://www.hex-rays.com/idapro/idadownfreeware.htm">http://www.hex-rays.com/idapro/idadownfreeware.htm</a>.</p>
+<p><strong>[5]</strong> Страница демонстрационной версии: <a l:href="http://www.hex-rays.com/idapro/idadowndemo.htm">http://www.hex-rays.com/idapro/idadowndemo.htm</a>.</p>
+<p><strong>[6]</strong> Перечень поддерживаемых процессоров: <a l:href="http://www.hex-rays.com/idapro/idaproc.htm">http://www.hex-rays.com/idapro/idaproc.htm</a>.</p>
+<p><strong>[7]</strong> Условия заказа и лицензирования: <a l:href="http://www.hex-rays.com/idapro/idaorder.htm">http://www.hex-rays.com/idapro/idaorder.htm</a>.</p>
+<p><strong>[8]</strong> Страница поддержки: <a l:href="http://www.hex-rays.com/idapro/idasupport.htm">http://www.hex-rays.com/idapro/idasupport.htm</a>.</p>
+<p><strong>[9]</strong> Работа Стива Микаллефа: <a l:href="http://www.binarypool.com/idapluginwriting/idapw.pdf">http://www.binarypool.com/idapluginwriting/idapw.pdf</a>.</p>
+<p><strong>[10]</strong> Сайт IDA Palace: <a l:href="http://old.idapalace.net/">http://old.idapalace.net/</a>.</p>
+<p><strong>[11]</strong> Блог Ильфака: <a l:href="http://www.hexblog.com/">http://www.hexblog.com/</a>.</p>
 </section>
 <section id="sec_04_nachalo_raboty_s_ida">
 <title><p>Глава 4. Начало работы с IDA</p></title>
@@ -1764,7 +1764,7 @@
 <subtitle>Сноски</subtitle>
 <empty-line/>
 <p><strong>[1]</strong> Указатель кадра - регистр, указывающий внутрь кадра стека. Переменные обычно адресуются по смещению относительно него.</p>
-<p><strong>[2]</strong> Спецификация интерфейса: &lt;http://www.sco.com/developers/devspecs/abi386-4.pdf&gt;.</p>
+<p><strong>[2]</strong> Спецификация интерфейса: <a l:href="http://www.sco.com/developers/devspecs/abi386-4.pdf">http://www.sco.com/developers/devspecs/abi386-4.pdf</a>.</p>
 </section>
 <section id="sec_07_izmenenie_dizassemblirovannogo_koda">
 <title><p>Глава 7. Изменение дизассемблированного кода</p></title>
@@ -2100,7 +2100,7 @@
 <empty-line/>
 <p>Даже для импорта IDA разрешает изменить число удаляемых байтов. Укажите, сколько функция снимает со стека при возврате, и значение автоматически распространится на все места вызова, мгновенно исправив расчёты.</p>
 <empty-line/>
-<p>Для улучшения автоматического анализа IDA пытается разрешать расхождения указателя стека решением системы линейных уравнений. Поэтому пользователь может даже не заметить, что программа изначально не знала подробностей функции. Приём описан в записи блога Ильфака «Симплекс-метод в IDA Pro»: &lt;http://hexblog.com/2006/06/&gt;.</p>
+<p>Для улучшения автоматического анализа IDA пытается разрешать расхождения указателя стека решением системы линейных уравнений. Поэтому пользователь может даже не заметить, что программа изначально не знала подробностей функции. Приём описан в записи блога Ильфака «Симплекс-метод в IDA Pro»: <a l:href="http://hexblog.com/2006/06/">http://hexblog.com/2006/06/</a>.</p>
 <empty-line/>
 <subtitle>Преобразование данных в код и обратно</subtitle>
 <empty-line/>
@@ -2497,7 +2497,7 @@
 <empty-line/>
 <image l:href="#img_images_image-047-xref-1278.png"/>
 <empty-line/>
-<p>*Рисунок 8-5. Определение <code>ch8_struct</code>, созданное вручную*</p>
+<p><emphasis>Рисунок 8-5. Определение <code>ch8_struct</code>, созданное вручную</emphasis></p>
 <empty-line/>
 <p>В примере добавлены байты заполнения для правильного выравнивания, а поля получили имена из предыдущих листингов. Их смещения и общий размер структуры, 24 байта, совпадают с уже установленными значениями.</p>
 <empty-line/>
@@ -2804,8 +2804,8 @@
 <empty-line/>
 <p>Для дальнейшего изучения полезны следующие работы:</p>
 <empty-line/>
-<p>• статья Игоря Скочинского «Reversing Microsoft Visual C++ Part II: Classes, Methods and RTTI»: &lt;http://www.openrce.org/articles/full_view/23&gt;;</p>
-<p>• работа Пола Винсента Сабанала и Марка Винсента Ясона «Reversing C++»: &lt;http://www.blackhat.com/presentations/bh-dc-07/Sabanal_Yason/Paper/bh-dc-07-Sabanal_Yason-WP.pdf&gt;.</p>
+<p>• статья Игоря Скочинского «Reversing Microsoft Visual C++ Part II: Classes, Methods and RTTI»: <a l:href="http://www.openrce.org/articles/full_view/23">http://www.openrce.org/articles/full_view/23</a>;</p>
+<p>• работа Пола Винсента Сабанала и Марка Винсента Ясона «Reversing C++»: <a l:href="http://www.blackhat.com/presentations/bh-dc-07/Sabanal_Yason/Paper/bh-dc-07-Sabanal_Yason-WP.pdf">http://www.blackhat.com/presentations/bh-dc-07/Sabanal_Yason/Paper/bh-dc-07-Sabanal_Yason-WP.pdf</a>.</p>
 <empty-line/>
 <p>Многие подробности относятся именно к Microsoft Visual C++, но основные приёмы применимы и к другим компиляторам C++.</p>
 <empty-line/>
@@ -2820,9 +2820,9 @@
 <subtitle>Сноски</subtitle>
 <empty-line/>
 <p><strong>[1]</strong> Наведение на любое имя показывает всплывающее окно с десятью строками листинга по целевому адресу. Для библиотечной функции туда часто входит её объявление.</p>
-<p><strong>[2]</strong> Библиотека MSDN: &lt;http://msdn.microsoft.com/library/&gt;.</p>
+<p><strong>[2]</strong> Библиотека MSDN: <a l:href="http://msdn.microsoft.com/library/">http://msdn.microsoft.com/library/</a>.</p>
 <p><strong>[3]</strong> Объединение, как и структура, содержит именованные поля различных типов. Однако все поля объединения перекрываются в памяти, поэтому его размер равен размеру самого крупного поля.</p>
-<p><strong>[4]</strong> Обсуждение способов переноса: &lt;http://www.hex-rays.com/forum/viewtopic.php?f=6&amp;t=986&gt;. Ссылка доступна только зарегистрированным пользователям.</p>
+<p><strong>[4]</strong> Обсуждение способов переноса: <a l:href="http://www.hex-rays.com/forum/viewtopic.php?f=6&amp;t=986">http://www.hex-rays.com/forum/viewtopic.php?f=6&amp;t=986</a>. Ссылка доступна только зарегистрированным пользователям.</p>
 <p><strong>[5]</strong> Оператор <code>new</code> выделяет память в C++ примерно так же, как <code>malloc</code> в Си, но является частью самого языка, тогда как <code>malloc</code> - функция стандартной библиотеки.</p>
 <p><strong>[6]</strong> Конструктор автоматически инициализирует создаваемый объект. Необязательный деструктор вызывается, когда объект покидает область видимости или уничтожается иным способом.</p>
 <p><strong>[7]</strong> Перегрузка позволяет нескольким функциям иметь одно имя, если каждый вариант отличается количеством параметров либо их последовательностью и типами, то есть имеет уникальную сигнатуру.</p>
@@ -2934,7 +2934,7 @@
 <empty-line/>
 <subtitle>Ссылки на адрес</subtitle>
 <empty-line/>
-<p>Третий вид показывает использование адреса, а не содержимого. В строке <code></code> <code> </code><code> листинга 9-1 берётся адрес </code>ref_it<code>, поэтому комментарий у переменной имеет суффикс </code>o`.</p>
+<p>Третий вид показывает использование адреса, а не содержимого. В строке <code>`</code> листинга 9-1 берётся адрес <code>ref_it</code>, поэтому комментарий у переменной имеет суффикс <code>o</code>.</p>
 <empty-line/>
 <p>Такие ссылки обычно возникают при работе с указателями в коде и данных. Например, доступ к массиву складывает смещение с его начальным адресом, поэтому первый элемент глобального массива часто имеет ссылку на адрес. Строки, являющиеся массивами символов, обычно обнаруживаются по тому же признаку.</p>
 <empty-line/>
@@ -3110,7 +3110,7 @@
 <empty-line/>
 <image l:href="#img_images_image-066-xref-1416.png"/>
 <empty-line/>
-<p>*Рисунок 9-12. Пользовательский граф перекрёстных ссылок для <code>depth_1</code>*</p>
+<p><emphasis>Рисунок 9-12. Пользовательский граф перекрёстных ссылок для <code>depth_1</code></emphasis></p>
 <empty-line/>
 <p>Это самое мощное внешнее средство IDA. Внешние схемы потока во многом заменены встроенным представлением, а остальные виды внешних графов являются заранее настроенными частными случаями пользовательского графа.</p>
 <empty-line/>
@@ -3174,9 +3174,9 @@
 <empty-line/>
 <subtitle>Сноски</subtitle>
 <empty-line/>
-<p><strong>[1]</strong> Исходные тексты <code>wingraph32</code> и <code>qwingraph</code>, а также справочные материалы GDL и DOT упоминались на сайтах Hex-Rays, AbsInt и Graphviz. Адрес проекта Graphviz: &lt;http://www.graphviz.org/&gt;.</p>
-<p><strong>[2]</strong> Страница среды PaiMei: &lt;http://pedram.redhive.com/code/paimei/&gt;.</p>
-<p><strong>[3]</strong> Страница BinNavi: &lt;http://www.zynamics.com/binnavi.html&gt;. В марте 2011 года компания Zynamics была приобретена Google.</p>
+<p><strong>[1]</strong> Исходные тексты <code>wingraph32</code> и <code>qwingraph</code>, а также справочные материалы GDL и DOT упоминались на сайтах Hex-Rays, AbsInt и Graphviz. Адрес проекта Graphviz: <a l:href="http://www.graphviz.org/">http://www.graphviz.org/</a>.</p>
+<p><strong>[2]</strong> Страница среды PaiMei: <a l:href="http://pedram.redhive.com/code/paimei/">http://pedram.redhive.com/code/paimei/</a>.</p>
+<p><strong>[3]</strong> Страница BinNavi: <a l:href="http://www.zynamics.com/binnavi.html">http://www.zynamics.com/binnavi.html</a>. В марте 2011 года компания Zynamics была приобретена Google.</p>
 </section>
 <section id="sec_10_mnogolikaya_ida">
 <title><p>Глава 10. Многоликая IDA</p></title>
@@ -3317,7 +3317,7 @@
 <empty-line/>
 <image l:href="#img_code_images_10-mnogolikaya-ida_code_8_f19a8d6b.png"/>
 <empty-line/>
-<p>Для полного отделения от терминала нужно также перенаправить стандартный ввод и поток ошибок. Дополнительные способы пакетного запуска, в том числе выполнение подключаемого модуля вместо единственного сценария, описаны в публикации Ильфака Гильфанова: &lt;http://hexblog.com/2007/03/on_batch_analysis.html&gt;.</p>
+<p>Для полного отделения от терминала нужно также перенаправить стандартный ввод и поток ошибок. Дополнительные способы пакетного запуска, в том числе выполнение подключаемого модуля вместо единственного сценария, описаны в публикации Ильфака Гильфанова: <a l:href="http://hexblog.com/2007/03/on_batch_analysis.html">http://hexblog.com/2007/03/on_batch_analysis.html</a>.</p>
 <empty-line/>
 <subtitle>Итоги</subtitle>
 <empty-line/>
@@ -4046,7 +4046,7 @@
 <empty-line/>
 <p>После заголовка и имени исходного файла каждая строка содержит файловое смещение, первоначальное значение и текущее значение в базе. В примере изменены четыре байта с <code>0x2F8</code> по <code>0x2FB</code>.</p>
 <empty-line/>
-<p>Написать программу, разбирающую такой файл и применяющую изменения, несложно. Пример <code>ida_patcher.c</code> опубликован на сопроводительном сайте книги: &lt;http://www.idabook.com/chapter14/ida_patcher.c&gt;.</p>
+<p>Написать программу, разбирающую такой файл и применяющую изменения, несложно. Пример <code>ida_patcher.c</code> опубликован на сопроводительном сайте книги: <a l:href="http://www.idabook.com/chapter14/ida_patcher.c">http://www.idabook.com/chapter14/ida_patcher.c</a>.</p>
 <empty-line/>
 <subtitle>Файлы HTML</subtitle>
 <empty-line/>
@@ -4553,7 +4553,7 @@
 <empty-line/>
 <image l:href="#img_code_images_15-scenarii-ida_code_68_af853709.png"/>
 <empty-line/>
-<p>Полный расширенный сценарий опубликован на странице примеров книги: &lt;http://www.idabook.com/ch15_examples&gt;.</p>
+<p>Полный расширенный сценарий опубликован на странице примеров книги: <a l:href="http://www.idabook.com/ch15_examples">http://www.idabook.com/ch15_examples</a>.</p>
 <empty-line/>
 <subtitle>Эмуляция поведения машинного кода</subtitle>
 <empty-line/>
@@ -4687,19 +4687,19 @@
 <empty-line/>
 <subtitle>Структура каталогов</subtitle>
 <empty-line/>
-<p>**<code>bin</code>.** Сюда примеры сборки помещают готовые модули. Установка состоит в копировании из соответствующего подкаталога в каталог IDA. Здесь же находится программа окончательной обработки процессорных модулей.</p>
+<p><strong><code>bin</code>.</strong> Сюда примеры сборки помещают готовые модули. Установка состоит в копировании из соответствующего подкаталога в каталог IDA. Здесь же находится программа окончательной обработки процессорных модулей.</p>
 <empty-line/>
-<p>**<code>etc</code>.** Исходные тексты двух служебных программ для сборки некоторых модулей; готовые версии также поставляются.</p>
+<p><strong><code>etc</code>.</strong> Исходные тексты двух служебных программ для сборки некоторых модулей; готовые версии также поставляются.</p>
 <empty-line/>
-<p>**<code>include</code>.** Все заголовки открытого API: доступные структуры и функции. Основной <code>readme.txt</code> кратко описывает важные файлы. Это главная документация в духе «читайте исходный код».</p>
+<p><strong><code>include</code>.</strong> Все заголовки открытого API: доступные структуры и функции. Основной <code>readme.txt</code> кратко описывает важные файлы. Это главная документация в духе «читайте исходный код».</p>
 <empty-line/>
-<p>**<code>ldr</code>.** Исходники и сценарии сборки примеров загрузчиков; README лишь перечисляет содержимое.</p>
+<p><strong><code>ldr</code>.</strong> Исходники и сценарии сборки примеров загрузчиков; README лишь перечисляет содержимое.</p>
 <empty-line/>
-<p>**<code>lib</code>.** Библиотеки компоновки для разных компиляторов и вариантов IDA. Имена подкаталогов показывают назначение. Например, <code>x86_win_vc_32</code> в 6.1 или <code>vc.w32</code> ранее предназначен Visual Studio и 32-разрядной IDA Windows; <code>x64_mac_gcc_64</code> или прежний <code>gcc64.mac64</code> - 64-разрядной IDA OS X с GCC.</p>
+<p><strong><code>lib</code>.</strong> Библиотеки компоновки для разных компиляторов и вариантов IDA. Имена подкаталогов показывают назначение. Например, <code>x86_win_vc_32</code> в 6.1 или <code>vc.w32</code> ранее предназначен Visual Studio и 32-разрядной IDA Windows; <code>x64_mac_gcc_64</code> или прежний <code>gcc64.mac64</code> - 64-разрядной IDA OS X с GCC.</p>
 <empty-line/>
-<p>**<code>module</code>.** Примеры процессорных модулей и их сборка.</p>
+<p><strong><code>module</code>.</strong> Примеры процессорных модулей и их сборка.</p>
 <empty-line/>
-<p>**<code>plugins</code>.** Примеры подключаемых модулей. README даёт общий обзор архитектуры.</p>
+<p><strong><code>plugins</code>.</strong> Примеры подключаемых модулей. README даёт общий обзор архитектуры.</p>
 <empty-line/>
 <p><strong>Корень.</strong> Общие make-файлы, главный <code>readme.txt</code> и инструкции <code>install_xxx.txt</code> для компиляторов, например <code>install_visual.txt</code>.</p>
 <empty-line/>
@@ -4743,53 +4743,53 @@
 <empty-line/>
 <subtitle>Основные заголовочные файлы</subtitle>
 <empty-line/>
-<p>**<code>area.hpp</code>.** Определяет <code>area_t</code>, непрерывный диапазон адресов и базовый класс других диапазонов. Обычно подключается косвенно.</p>
+<p><strong><code>area.hpp</code>.</strong> Определяет <code>area_t</code>, непрерывный диапазон адресов и базовый класс других диапазонов. Обычно подключается косвенно.</p>
 <empty-line/>
-<p>**<code>auto.hpp</code>.** Работа с автоматическим анализатором и его очередями, выполняемыми, когда IDA свободна.</p>
+<p><strong><code>auto.hpp</code>.</strong> Работа с автоматическим анализатором и его очередями, выполняемыми, когда IDA свободна.</p>
 <empty-line/>
-<p>**<code>bytes.hpp</code>.** Чтение и запись байтов базы, их свойства, флаги операндов, обычные и повторяемые комментарии.</p>
+<p><strong><code>bytes.hpp</code>.</strong> Чтение и запись байтов базы, их свойства, флаги операндов, обычные и повторяемые комментарии.</p>
 <empty-line/>
-<p>**<code>dbg.hpp</code>.** Программное управление отладчиком.</p>
+<p><strong><code>dbg.hpp</code>.</strong> Программное управление отладчиком.</p>
 <empty-line/>
-<p>**<code>entry.hpp</code>.** Точки входа; у совместно используемых библиотек ими считаются экспортируемые функции и данные.</p>
+<p><strong><code>entry.hpp</code>.</strong> Точки входа; у совместно используемых библиотек ими считаются экспортируемые функции и данные.</p>
 <empty-line/>
-<p>**<code>expr.hpp</code>.** Конструкции IDC: изменение и добавление функций IDC, выполнение выражений из модуля.</p>
+<p><strong><code>expr.hpp</code>.</strong> Конструкции IDC: изменение и добавление функций IDC, выполнение выражений из модуля.</p>
 <empty-line/>
-<p>**<code>fpro.h</code>.** Альтернативные файловые функции <code>qfopen</code> и другие.</p>
+<p><strong><code>fpro.h</code>.</strong> Альтернативные файловые функции <code>qfopen</code> и другие.</p>
 <empty-line/>
-<p>**<code>frame.hpp</code>.** Работа с кадрами стека.</p>
+<p><strong><code>frame.hpp</code>.</strong> Работа с кадрами стека.</p>
 <empty-line/>
-<p>**<code>funcs.hpp</code>.** Дизассемблированные функции и сигнатуры FLIRT.</p>
+<p><strong><code>funcs.hpp</code>.</strong> Дизассемблированные функции и сигнатуры FLIRT.</p>
 <empty-line/>
-<p>**<code>gdl.hpp</code>.** Создание графов DOT и GDL.</p>
+<p><strong><code>gdl.hpp</code>.</strong> Создание графов DOT и GDL.</p>
 <empty-line/>
-<p>**<code>ida.hpp</code>.** Главный заголовок. Содержит <code>idainfo</code> и глобальную <code>inf</code> со сведениями текущей базы и параметрами настройки.</p>
+<p><strong><code>ida.hpp</code>.</strong> Главный заголовок. Содержит <code>idainfo</code> и глобальную <code>inf</code> со сведениями текущей базы и параметрами настройки.</p>
 <empty-line/>
-<p>**<code>idp.hpp</code>.** Основа процессорных модулей, включая глобальные <code>ph</code> с описанием процессора и <code>ash</code> с описанием ассемблера.</p>
+<p><strong><code>idp.hpp</code>.</strong> Основа процессорных модулей, включая глобальные <code>ph</code> с описанием процессора и <code>ash</code> с описанием ассемблера.</p>
 <empty-line/>
-<p>**<code>kernwin.hpp</code>.** Интерфейс с пользователем: аналоги <code>AskXXX</code>, позиционирование окна и сочетания клавиш.</p>
+<p><strong><code>kernwin.hpp</code>.</strong> Интерфейс с пользователем: аналоги <code>AskXXX</code>, позиционирование окна и сочетания клавиш.</p>
 <empty-line/>
-<p>**<code>lines.hpp</code>.** Форматированные цветные строки листинга.</p>
+<p><strong><code>lines.hpp</code>.</strong> Форматированные цветные строки листинга.</p>
 <empty-line/>
-<p>**<code>loader.hpp</code>.** Структуры <code>loader_t</code> и <code>plugin_t</code>, загрузка файлов и запуск подключаемых модулей.</p>
+<p><strong><code>loader.hpp</code>.</strong> Структуры <code>loader_t</code> и <code>plugin_t</code>, загрузка файлов и запуск подключаемых модулей.</p>
 <empty-line/>
-<p>**<code>name.hpp</code>.** Имена обычных адресов. Имена полей структур и кадра описаны в других заголовках.</p>
+<p><strong><code>name.hpp</code>.</strong> Имена обычных адресов. Имена полей структур и кадра описаны в других заголовках.</p>
 <empty-line/>
-<p>**<code>netnode.hpp</code>.** Класс <code>netnode</code> и низкоуровневое постоянное хранилище базы.</p>
+<p><strong><code>netnode.hpp</code>.</strong> Класс <code>netnode</code> и низкоуровневое постоянное хранилище базы.</p>
 <empty-line/>
-<p>**<code>pro.h</code>.** Общие типы и макросы, включая <code>IDA_SDK_VERSION</code> с версии 5.2 для условной сборки под разные комплекты.</p>
+<p><strong><code>pro.h</code>.</strong> Общие типы и макросы, включая <code>IDA_SDK_VERSION</code> с версии 5.2 для условной сборки под разные комплекты.</p>
 <empty-line/>
-<p>**<code>search.hpp</code>.** Различные виды поиска по базе.</p>
+<p><strong><code>search.hpp</code>.</strong> Различные виды поиска по базе.</p>
 <empty-line/>
-<p>**<code>segment.hpp</code>.** <code>segment_t</code>, производный от <code>area_t</code>, и функции разделов <code>.text</code>, <code>.data</code> и других.</p>
+<p><strong><code>segment.hpp</code>.</strong> <code>segment_t</code>, производный от <code>area_t</code>, и функции разделов <code>.text</code>, <code>.data</code> и других.</p>
 <empty-line/>
-<p>**<code>struct.hpp</code>.** <code>struc_t</code> и работа со структурами базы.</p>
+<p><strong><code>struct.hpp</code>.</strong> <code>struc_t</code> и работа со структурами базы.</p>
 <empty-line/>
-<p>**<code>typeinf.hpp</code>.** Библиотеки типов, сигнатуры функций, результаты и параметры.</p>
+<p><strong><code>typeinf.hpp</code>.</strong> Библиотеки типов, сигнатуры функций, результаты и параметры.</p>
 <empty-line/>
-<p>**<code>ua.hpp</code>.** Классы <code>op_t</code>, <code>insn_t</code>, дизассемблирование инструкций и вывод частей строки.</p>
+<p><strong><code>ua.hpp</code>.</strong> Классы <code>op_t</code>, <code>insn_t</code>, дизассемблирование инструкций и вывод частей строки.</p>
 <empty-line/>
-<p>**<code>xref.hpp</code>.** Добавление, удаление и перебор ссылок на код и данные.</p>
+<p><strong><code>xref.hpp</code>.</strong> Добавление, удаление и перебор ссылок на код и данные.</p>
 <empty-line/>
 <p>Это примерно половина поставляемых заголовков; по мере освоения стоит изучить остальные. Открытые функции API отмечены <code>ida_export</code> и только они экспортируются библиотеками компоновки. <code>idaapi</code> означает лишь соглашение <code>stdcall</code> в Windows и не делает функцию доступной. Интересную функцию без <code>ida_export</code> вызвать из модуля нельзя.</p>
 <empty-line/>
@@ -4827,7 +4827,7 @@
 <empty-line/>
 <image l:href="#img_code_images_16-komplekt-razrabotki-ida_code_1_344496a2.png"/>
 <empty-line/>
-<p>*Листинг 16-1. Объявление узлов <code>netnode</code>*</p>
+<p><emphasis>Листинг 16-1. Объявление узлов <code>netnode</code></emphasis></p>
 <empty-line/>
 <p>Только <code>n3</code> гарантированно создаётся. <code>n1</code> и <code>n2</code> могут уже существовать. В <code>n1</code> можно записывать сразу, потому что номер задан. Если имени <code>$ node 2</code> ещё нет, <code>n2</code> нужно явно создать:</p>
 <empty-line/>
@@ -4870,7 +4870,7 @@
 <empty-line/>
 <image l:href="#img_code_images_16-komplekt-razrabotki-ida_code_6_38c87a34.png"/>
 <empty-line/>
-<p>*Листинг 16-3. Запись значений <code>supval</code>*</p>
+<p><emphasis>Листинг 16-3. Запись значений <code>supval</code></emphasis></p>
 <empty-line/>
 <p><code>supset</code> принимает индекс, указатель, длину и необязательный тег. Нулевая или пропущенная длина означает строку: вычисляется <code>strlen(data) + 1</code>, и завершающий ноль сохраняется.</p>
 <empty-line/>
@@ -4878,7 +4878,7 @@
 <empty-line/>
 <image l:href="#img_code_images_16-komplekt-razrabotki-ida_code_7_63808a53.png"/>
 <empty-line/>
-<p>*Листинг 16-4. Чтение значений <code>supval</code>*</p>
+<p><emphasis>Листинг 16-4. Чтение значений <code>supval</code></emphasis></p>
 <empty-line/>
 <p>Через <code>supval</code> можно получить любые данные любого массива. Например, <code>altset</code> внутри реализована как запись <code>supval</code> размером с целое:</p>
 <empty-line/>
@@ -4918,23 +4918,23 @@
 <empty-line/>
 <subtitle>Полезные типы SDK</subtitle>
 <empty-line/>
-<p>**<code>area_t</code> (<code>area.hpp</code>).** Диапазон адресов с включительным <code>startEA</code> и исключительным <code>endEA</code>; базовый класс нескольких типов. Методы вычисляют размер и сравнивают области.</p>
+<p><strong><code>area_t</code> (<code>area.hpp</code>).</strong> Диапазон адресов с включительным <code>startEA</code> и исключительным <code>endEA</code>; базовый класс нескольких типов. Методы вычисляют размер и сравнивают области.</p>
 <empty-line/>
-<p>**<code>func_t</code> (<code>funcs.hpp</code>).** Производный от <code>area_t</code>. Хранит признаки кадра, локальных переменных и параметров. Описывает как функцию, так и её отдельные несмежные фрагменты, называемые хвостами.</p>
+<p><strong><code>func_t</code> (<code>funcs.hpp</code>).</strong> Производный от <code>area_t</code>. Хранит признаки кадра, локальных переменных и параметров. Описывает как функцию, так и её отдельные несмежные фрагменты, называемые хвостами.</p>
 <empty-line/>
-<p>**<code>segment_t</code> (<code>segment.hpp</code>).** Ещё один диапазон. Хранит имя, права чтения, записи и выполнения, вид сегмента и разрядность адресов 16, 32 или 64.</p>
+<p><strong><code>segment_t</code> (<code>segment.hpp</code>).</strong> Ещё один диапазон. Хранит имя, права чтения, записи и выполнения, вид сегмента и разрядность адресов 16, 32 или 64.</p>
 <empty-line/>
-<p>**<code>idc_value_t</code> (<code>expr.hpp</code>).** Значение IDC, способное содержать строку, целое или число с плавающей точкой. Используется при вызове IDC из скомпилированного модуля.</p>
+<p><strong><code>idc_value_t</code> (<code>expr.hpp</code>).</strong> Значение IDC, способное содержать строку, целое или число с плавающей точкой. Используется при вызове IDC из скомпилированного модуля.</p>
 <empty-line/>
-<p>**<code>idainfo</code> (<code>ida.hpp</code>).** Характеристики открытой базы. Глобальная <code>inf</code> содержит имя процессорного модуля, формат файла (<code>f_PE</code>, <code>f_MACHO</code>), точку входа <code>beginEA</code>, границы <code>minEA</code> и <code>maxEA</code>, порядок байтов <code>mf</code> и параметры из <code>ida.cfg</code>.</p>
+<p><strong><code>idainfo</code> (<code>ida.hpp</code>).</strong> Характеристики открытой базы. Глобальная <code>inf</code> содержит имя процессорного модуля, формат файла (<code>f_PE</code>, <code>f_MACHO</code>), точку входа <code>beginEA</code>, границы <code>minEA</code> и <code>maxEA</code>, порядок байтов <code>mf</code> и параметры из <code>ida.cfg</code>.</p>
 <empty-line/>
-<p>**<code>struc_t</code> (<code>struct.hpp</code>).** Описание структуры данных или кадра стека. Флаги показывают структуру или объединение, свёрнутое или развёрнутое состояние; внутри находится массив членов.</p>
+<p><strong><code>struc_t</code> (<code>struct.hpp</code>).</strong> Описание структуры данных или кадра стека. Флаги показывают структуру или объединение, свёрнутое или развёрнутое состояние; внутри находится массив членов.</p>
 <empty-line/>
-<p>**<code>member_t</code> (<code>struct.hpp</code>).** Одно поле с начальным и конечным смещением в родительской структуре.</p>
+<p><strong><code>member_t</code> (<code>struct.hpp</code>).</strong> Одно поле с начальным и конечным смещением в родительской структуре.</p>
 <empty-line/>
-<p>**<code>op_t</code> (<code>ua.hpp</code>).** Операнд инструкции. Поле <code>n</code> содержит номер с нуля, <code>type</code> один из <code>optype_t</code>, остальные поля зависят от вида адресации.</p>
+<p><strong><code>op_t</code> (<code>ua.hpp</code>).</strong> Операнд инструкции. Поле <code>n</code> содержит номер с нуля, <code>type</code> один из <code>optype_t</code>, остальные поля зависят от вида адресации.</p>
 <empty-line/>
-<p>**<code>insn_t</code> (<code>ua.hpp</code>).** Инструкция с адресом <code>ea</code>, типом <code>itype</code>, длиной <code>size</code> и массивом до шести <code>Operands</code> типа <code>op_t</code>. Для стандартных модулей <code>itype</code> берётся из <code>allins.hpp</code>; у стороннего значения задаёт разработчик. Оно обычно не связано напрямую с двоичным кодом операции.</p>
+<p><strong><code>insn_t</code> (<code>ua.hpp</code>).</strong> Инструкция с адресом <code>ea</code>, типом <code>itype</code>, длиной <code>size</code> и массивом до шести <code>Operands</code> типа <code>op_t</code>. Для стандартных модулей <code>itype</code> берётся из <code>allins.hpp</code>; у стороннего значения задаёт разработчик. Оно обычно не связано напрямую с двоичным кодом операции.</p>
 <empty-line/>
 <p>Это лишь введение в наиболее часто используемые классы, а не полный справочник.</p>
 <empty-line/>
@@ -5098,23 +5098,23 @@
 <empty-line/>
 <subtitle>Поля <code>plugin_t</code></subtitle>
 <empty-line/>
-<p>**<code>version</code>.** Версия API, обычно <code>IDP_INTERFACE_VERSION</code> из <code>idp.hpp</code>. Значение не менялось с SDK 4.9.</p>
+<p><strong><code>version</code>.</strong> Версия API, обычно <code>IDP_INTERFACE_VERSION</code> из <code>idp.hpp</code>. Значение не менялось с SDK 4.9.</p>
 <empty-line/>
-<p>**<code>flags</code>.** Битовая комбинация <code>PLUGIN_XXX</code> из <code>loader.hpp</code>, определяющая поведение. Многим модулям достаточно 0.</p>
+<p><strong><code>flags</code>.</strong> Битовая комбинация <code>PLUGIN_XXX</code> из <code>loader.hpp</code>, определяющая поведение. Многим модулям достаточно 0.</p>
 <empty-line/>
-<p>**<code>init</code>.** Указатель на функцию инициализации без параметров, возвращающую целое. IDA вызывает её, предлагая модулю загрузиться.</p>
+<p><strong><code>init</code>.</strong> Указатель на функцию инициализации без параметров, возвращающую целое. IDA вызывает её, предлагая модулю загрузиться.</p>
 <empty-line/>
-<p>**<code>term</code>.** Функция выгрузки без параметров и результата. Она освобождает память, закрывает дескрипторы и сохраняет состояние. При отсутствии действий допустим <code>NULL</code>.</p>
+<p><strong><code>term</code>.</strong> Функция выгрузки без параметров и результата. Она освобождает память, закрывает дескрипторы и сохраняет состояние. При отсутствии действий допустим <code>NULL</code>.</p>
 <empty-line/>
-<p>**<code>run</code>.** Основное действие при запуске из меню, клавишей или сценарием. Получает одно целое и ничего не возвращает.</p>
+<p><strong><code>run</code>.</strong> Основное действие при запуске из меню, клавишей или сценарием. Получает одно целое и ничего не возвращает.</p>
 <empty-line/>
-<p>**<code>comment</code>.** Строка комментария, непосредственно IDA не используется и может быть <code>NULL</code>.</p>
+<p><strong><code>comment</code>.</strong> Строка комментария, непосредственно IDA не используется и может быть <code>NULL</code>.</p>
 <empty-line/>
-<p>**<code>help</code>.** Многострочная справка, также может быть <code>NULL</code>.</p>
+<p><strong><code>help</code>.</strong> Многострочная справка, также может быть <code>NULL</code>.</p>
 <empty-line/>
-<p>**<code>wanted_name</code>.** Короткое имя для <code>Edit &gt; Plugins</code>. Уникальность не обязательна, но одинаковые имена создают неоднозначность.</p>
+<p><strong><code>wanted_name</code>.</strong> Короткое имя для <code>Edit &gt; Plugins</code>. Уникальность не обязательна, но одинаковые имена создают неоднозначность.</p>
 <empty-line/>
-<p>**<code>wanted_hotkey</code>.** Предпочитаемое сочетание, например <code>&quot;Alt-F8&quot;</code>. При конфликте оно назначается последнему запросившему модулю; пользователь может переопределить настройку.</p>
+<p><strong><code>wanted_hotkey</code>.</strong> Предпочитаемое сочетание, например <code>&quot;Alt-F8&quot;</code>. При конфликте оно назначается последнему запросившему модулю; пользователь может переопределить настройку.</p>
 <empty-line/>
 <p>Пример:</p>
 <empty-line/>
@@ -5345,7 +5345,7 @@
 <empty-line/>
 <image l:href="#img_code_images_17-arhitektura-podklyuchaemyh-moduley-ida_code_16_966a9a6c.png"/>
 <empty-line/>
-<p>**Листинг 17-2. Пример применения функции <code>choose</code>**</p>
+<p><strong>Листинг 17-2. Пример применения функции <code>choose</code></strong></p>
 <empty-line/>
 <p>При запуске этого модуля появляется окно с рисунка 17-4.</p>
 <empty-line/>
@@ -5361,13 +5361,13 @@
 <empty-line/>
 <image l:href="#img_code_images_17-arhitektura-podklyuchaemyh-moduley-ida_code_18_50be29ce.png"/>
 <empty-line/>
-<p>**Листинг 17-3. Пример применения функции <code>choose2</code>**</p>
+<p><strong>Листинг 17-3. Пример применения функции <code>choose2</code></strong></p>
 <empty-line/>
 <p>Результат показан на рисунке 17-5.</p>
 <empty-line/>
 <image l:href="#img_images_image-093-xref-1915.png"/>
 <empty-line/>
-<p>**Рисунок 17-5. Пример окна <code>choose2</code>**</p>
+<p><strong>Рисунок 17-5. Пример окна <code>choose2</code></strong></p>
 <empty-line/>
 <p>Обе функции допускают гораздо более сложное применение. Они создают модальные<sup>[4]</sup> и немодальные окна, поддерживают выбор нескольких элементов и принимают обработчики различных событий.</p>
 <empty-line/>
@@ -5428,7 +5428,7 @@
 <empty-line/>
 <image l:href="#img_images_image-094-xref-1925.png"/>
 <empty-line/>
-<p>**Рисунок 17-6. Пример окна <code>AskUsingForm_c</code>**</p>
+<p><strong>Рисунок 17-6. Пример окна <code>AskUsingForm_c</code></strong></p>
 <empty-line/>
 <p>Строка формата состоит из отдельных строк, каждая из которых описывает часть окна. Помимо полей она может содержать постоянный текст, выводимый буквально. Заголовок формы должен завершаться двумя переводами строки. Директивы поведения, например <code>STARTITEM</code>, задают начальные параметры: эта директива выбирает поле, которое первым получит фокус.</p>
 <empty-line/>
@@ -5625,7 +5625,7 @@
 <empty-line/>
 <image l:href="#img_images_image-099-xref-1976.png"/>
 <empty-line/>
-<p>**Рисунок 18-5. Ручное создание раздела <code>.text</code>**</p>
+<p><strong>Рисунок 18-5. Ручное создание раздела <code>.text</code></strong></p>
 <empty-line/>
 <p>Конечный адрес не включается в диапазон. После создания <code>.text</code> остаток исходного файла образует следующий за ним <code>seg002</code>.</p>
 <empty-line/>
@@ -6648,7 +6648,7 @@
 <empty-line/>
 <image l:href="#img_images_image-101-xref-2208.jpeg"/>
 <empty-line/>
-<p>**Рисунок 20-1. Обозначение функции как <code>__usercall</code>**</p>
+<p><strong>Рисунок 20-1. Обозначение функции как <code>__usercall</code></strong></p>
 <empty-line/>
 <p>Объявление для примера:</p>
 <empty-line/>

@@ -19,7 +19,7 @@
   <document-info>
     <author><nickname>Translator</nickname></author>
     <program-used>build_dynamic_split.py</program-used>
-    <date value="2026-07-13">2026-07-13</date>
+    <date value="2026-07-16">2026-07-16</date>
     <version>1.0</version>
   </document-info>
 </description>
@@ -2333,10 +2333,6 @@
 <empty-line/>
 <image l:href="#img_table_images_2021-10-20-using-kerberos-for-authentication-relay-attacks_table_0_39d50ee7.png"/>
 <empty-line/>
-<p>[^http-1]: Chromium и Firefox могут включать делегирование только отдельно для каждого сайта через GPO.</p>
-<empty-line/>
-<p>[^http-2]: В особых обстоятельствах .NET Framework поддерживает разрешение DNS для имён без точек.</p>
-<empty-line/>
 <p>Самый разрешительный клиент с большим отрывом — .NET 5.0. После настройки автоматической аутентификации он работает с любым узлом, поддерживает подмену произвольного SPN через публичное DNS-имя и отключение целостности посредством отката к Kerberos. Но поскольку .NET 5.0 проектировался как кроссплатформенная среда, возможно, лишь немногие библиотеки на нём вообще включают автоматическую аутентификацию.</p>
 <empty-line/>
 <subtitle>LDAP</subtitle>
@@ -2424,6 +2420,10 @@
 <p>При самостоятельном исследовании этой области следует изучать не только способ указания SPN протоколом, но и его построение реализацией. Например, RFC HTTP Negotiate описывает создание Kerberos SPN, однако каждая реализация делает это немного иначе и не по спецификации.</p>
 <empty-line/>
 <p>Особенно осторожно следует относиться к протоколам, где недоверенный сервер задаёт произвольный SPN, как AuthIP, MSRPC и DCOM. Почти наверняка при проектировании этих протоколов много лет назад никто не задумывался о злоупотреблении решением для ретрансляции сетевой аутентификации Kerberos.</p>
+<section><title><p>Примечания</p></title>
+<section id="fn_sec_2021_10_20_using_kerberos_for_authentication_relay_attacks_http-1"><title><p>[http-1]</p></title><p>Chromium и Firefox могут включать делегирование только отдельно для каждого сайта через GPO.</p></section>
+<section id="fn_sec_2021_10_20_using_kerberos_for_authentication_relay_attacks_http-2"><title><p>[http-2]</p></title><p>В особых обстоятельствах .NET Framework поддерживает разрешение DNS для имён без точек.</p></section>
+</section>
 </section>
 <section id="sec_2021_10_20_windows_exploitation_tricks_relaying_dcom_authentication">
 <title><p>Трюки эксплуатации Windows: ретрансляция аутентификации DCOM</p></title>
@@ -2662,7 +2662,7 @@
 <empty-line/>
 <image l:href="#img_code_images_2021-12-01-this-shouldnt-have-happened-a-vulnerability-postmortem_code_3_f0233644.png"/>
 <empty-line/>
-<p><emphasis>Рисунок 4. Покрытие команды <code>bar</code> является надмножеством покрытия <code>foo</code>, поэтому вход с последней будет отброшен при минимизации корпуса. Уязвимость, недостижимая через <code>bar</code>, может никогда не обнаружиться. Покрытие стека правильно сохранит оба входа.[^1]</emphasis></p>
+<p><emphasis>Рисунок 4. Покрытие команды <code>bar</code> является надмножеством покрытия <code>foo</code>, поэтому вход с последней будет отброшен при минимизации корпуса. Уязвимость, недостижимая через <code>bar</code>, может никогда не обнаружиться. Покрытие стека правильно сохранит оба входа.<a type="note" l:href="#fn_sec_2021_12_01_this_shouldnt_have_happened_a_vulnerability_postmortem_1">[1]</a></emphasis></p>
 <empty-line/>
 <p>Для решения проблемы я экспериментировал с наблюдением за стеком вызовов во время выполнения.</p>
 <empty-line/>
@@ -2735,7 +2735,9 @@
 <empty-line/>
 <p>Благодарю команду NSS за сортировку и анализ уязвимости.</p>
 <empty-line/>
-<p>[^1]: В этом минимальном примере при наличии исходников обходным решением могло бы стать сочетание инструментов data-flow из sancov, но в более сложных вариантах оно также не работает.</p>
+<section><title><p>Примечания</p></title>
+<section id="fn_sec_2021_12_01_this_shouldnt_have_happened_a_vulnerability_postmortem_1"><title><p>[1]</p></title><p>В этом минимальном примере при наличии исходников обходным решением могло бы стать сочетание инструментов data-flow из sancov, но в более сложных вариантах оно также не работает.</p></section>
+</section>
 </section>
 <section id="sec_2021_12_15_a_deep_dive_into_an_nso_zero_click_imessage_exploit_remote_code_execution">
 <title><p>Глубокое погружение в zero-click эксплойт NSO для iMessage: удалённое выполнение кода</p></title>
@@ -3065,8 +3067,6 @@
 <empty-line/>
 <image l:href="#img_table_images_2022-02-10-a-walk-through-project-zero-metrics_table_0_bc1550d3.png"/>
 <empty-line/>
-<p>[^others-1]: Для полноты в группу «Другие» входят Apache, ASWF, Avast, AWS, c-ares, Canonical, F5, Facebook, git, Github, glibc, gnupg, gnutls, gstreamer, haproxy, Hashicorp, insidesecure, Intel, Kubernetes, libseccomp, libx264, Logmein, Node.js, opencontainers, QT, Qualcomm, RedHat, Reliance, SCTPLabs, Signal, systemd, Tencent, Tor, udisks, usrsctp, Vandyke, VietTel, webrtc и Zoom.</p>
-<empty-line/>
 <p>В целом данные показывают, что почти все крупные поставщики в среднем укладываются в 90 дней. Основная часть исправлений льготного периода приходится на Apple и Microsoft — 22 из 34.</p>
 <empty-line/>
 <p>За рассматриваемое время поставщики превышали срок и льготный период примерно в 5% случаев. В этой выборке наибольшая доля у Oracle, хотя образец мал — всего около семи ошибок. Следом идёт Microsoft, превысившая 4 из 80 сроков.</p>
@@ -3076,8 +3076,6 @@
 <subtitle>Время исправления в 2019–2021 годах по числу отчётов</subtitle>
 <empty-line/>
 <image l:href="#img_table_images_2022-02-10-a-walk-through-project-zero-metrics_table_1_9fdd35e0.png"/>
-<empty-line/>
-<p>[^others-2]: Для полноты в группу «Другие» входят Adobe, Apache, ASWF, Avast, AWS, c-ares, Canonical, F5, Facebook, git, Github, glibc, gnupg, gnutls, gstreamer, haproxy, Hashicorp, insidesecure, Intel, Kubernetes, libseccomp, libx264, Logmein, Mozilla, Node.js, opencontainers, Oracle, QT, Qualcomm, RedHat, Reliance, Samsung, SCTPLabs, Signal, systemd, Tencent, Tor, udisks, usrsctp, Vandyke, VietTel, webrtc и Zoom.</p>
 <empty-line/>
 <p>Видно несколько вещей. Во-первых, общее время исправления последовательно сокращалось, особенно значительно между 2019 и 2020 годами. Microsoft, Apple и Linux в целом ускорились за рассматриваемый период; Google ускорилась в 2020-м, но снова замедлилась в 2021-м. Возможно, впечатляюще всего то, что не показанные отдельно поставщики вместе сократили время более чем вдвое, хотя это может отражать смену целей исследования, а не практик конкретных организаций.</p>
 <empty-line/>
@@ -3133,6 +3131,10 @@
 <p>В статье представлены некоторые расчёты по нашим открытым данным, которые мы планируем продолжать. Создав базовый уровень за несколько лет, мы намерены ежегодно публиковать обновление для лучшего понимания тенденций.</p>
 <empty-line/>
 <p>Для этого хотелось бы глубже видеть процессы и сроки поставщиков. Мы призываем всех публиковать агрегированные данные о времени исправления и доставки патчей для уязвимостей из внешних отчётов. Благодаря прозрачности, обмену информацией и сотрудничеству отрасль может учиться на передовых практиках, лучше понимать существующие трудности и, надеемся, делать интернет безопаснее для всех.</p>
+<section><title><p>Примечания</p></title>
+<section id="fn_sec_2022_02_10_a_walk_through_project_zero_metrics_others-1"><title><p>[others-1]</p></title><p>Для полноты в группу «Другие» входят Apache, ASWF, Avast, AWS, c-ares, Canonical, F5, Facebook, git, Github, glibc, gnupg, gnutls, gstreamer, haproxy, Hashicorp, insidesecure, Intel, Kubernetes, libseccomp, libx264, Logmein, Node.js, opencontainers, QT, Qualcomm, RedHat, Reliance, SCTPLabs, Signal, systemd, Tencent, Tor, udisks, usrsctp, Vandyke, VietTel, webrtc и Zoom.</p></section>
+<section id="fn_sec_2022_02_10_a_walk_through_project_zero_metrics_others-2"><title><p>[others-2]</p></title><p>Для полноты в группу «Другие» входят Adobe, Apache, ASWF, Avast, AWS, c-ares, Canonical, F5, Facebook, git, Github, glibc, gnupg, gnutls, gstreamer, haproxy, Hashicorp, insidesecure, Intel, Kubernetes, libseccomp, libx264, Logmein, Mozilla, Node.js, opencontainers, Oracle, QT, Qualcomm, RedHat, Reliance, Samsung, SCTPLabs, Signal, systemd, Tencent, Tor, udisks, usrsctp, Vandyke, VietTel, webrtc и Zoom.</p></section>
+</section>
 </section>
 <section id="sec_2022_03_24_racing_against_the_clock_hitting_a_tiny_kernel_race_window">
 <title><p>Гонка со временем: попадание в крошечное окно гонки в ядре</p></title>
