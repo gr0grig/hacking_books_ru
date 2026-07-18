@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0"
-             xmlns:l="http://www.w3.org/1999/xlink">
+<?xml version='1.0' encoding='UTF-8'?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
 <description>
   <title-info>
     <genre>computers</genre>
@@ -28,7 +27,7 @@
 <title><p>Введение в Phrack 33</p></title>
 <p><strong>Автор:</strong> Knight Lightning и Dispater</p>
 <empty-line/>
-<subtitle>Указатель выпуска XXXIII</subtitle>
+<section id="toc_sub_000001"><title><p>Указатель выпуска XXXIII</p></title>
 <empty-line/>
 <p>P H R A C K 3 3</p>
 <empty-line/>
@@ -52,7 +51,8 @@
 <empty-line/>
 <p>:Knight Lightning (kl@STORMKING.COM)</p>
 <empty-line/>
-<subtitle>Несколько слов от Dispater:</subtitle>
+</section>
+<section id="toc_sub_000002"><title><p>Несколько слов от Dispater:</p></title>
 <empty-line/>
 <p>В Phrack появится новая постоянная рубрика, напоминающая раздел «Письма редактору». Она будет публиковаться вторым файлом в каждом выпуске, начиная с выпуска 34. Там будут отвечать на любые вопросы, комментарии и проблемы, которые вы, читатели, хотите обсудить с Phrack публично.</p>
 <empty-line/>
@@ -60,15 +60,17 @@
 <empty-line/>
 <p>Благодаря Tuc, Phrack вскоре будет использовать интернет-листсервер. Подробности — в Phrack 34. Phrack также можно будет найти на различных анонимных FTP-сайтах в Интернете, включая анонимный FTP-сайт EFF.ORG — Unix-машины под управлением Electronic Frontier Foundation, организации, которую мы в Phrack глубоко уважаем. Журнал также доступен на анонимном FTP-сайте CS.WIDENER.EDU.</p>
 <empty-line/>
-<p>За пределами Интернета мы надеемся создать несколько систем электронных досок объявлений в качестве архивных сайтов, включая Digital Underground (812)941-9427, которую эксплуатирует The Not. Материалы и письма в Phrack можно присылать туда или через Интернет на адрес &quot;phracksub@STORMKING.COM&quot;.</p>
+<p>За пределами Интернета мы надеемся создать несколько систем электронных досок объявлений в качестве архивных сайтов, включая Digital Underground (812)941-9427, которую эксплуатирует The Not. Материалы и письма в Phrack можно присылать туда или через Интернет на адрес "phracksub@STORMKING.COM".</p>
 <empty-line/>
 <p>Новый формат будет несколько более профессиональным. Это объясняется тем, что у меня нет желания однажды оказаться в суде, как Knight Lightning. Тем не менее у меня нет намерения превращать Phrack Inc. в какой-то сухой отраслевой журнал. Лёгкость и занимательность — одна из тех вещей, которые привлекли меня в Phrack. Думаю, большинство согласится, что необходимо соблюдать баланс между весельем и делом. Если этот баланс нарушится, вам, читателям, станет скучно — и мне тоже!</p>
 <empty-line/>
 <p>Загляните в Phrack World News Special Edition IV за «подробностями» о CyberView '91 — конференции SummerCon, организованной Knight Lightning этим летом в Сент-Луисе, штат Миссури.</p>
 <empty-line/>
-<subtitle>Оглавление Phrack XXXIII</subtitle>
+</section>
+<section id="toc_sub_000003"><title><p>Оглавление Phrack XXXIII</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_001_introduction_to_phrack_33_0055_a4ee1f8377.png"/>
+</section>
 </section>
 <section id="sec_issue_033_002_phrack_xxxiii_prophile_shooting_shark">
 <title><p>Профайл Phrack XXXIII</p></title>
@@ -76,14 +78,17 @@
 <empty-line/>
 <p>В этом выпуске Phrack Profile представлен хакер, знакомый большинству из вас. Его познавательные файлы в Phrack и технических журналах Legion of Doom породили целую волну начинающих Unix-хакеров. Ваш и мой приятель...</p>
 <empty-line/>
-<subtitle>Shooting Shark</subtitle>
-<subtitle>~~~~~~~~~~~~~~</subtitle>
+<section id="toc_sub_000004"><title><p>Shooting Shark</p></title>
+</section>
+<section id="toc_sub_000005"><title><p>~~~~~~~~~~~~~~</p></title>
 <empty-line/>
-<subtitle>Личное</subtitle>
+</section>
+<section id="toc_sub_000006"><title><p>Личное</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_002_phrack_xxxiii_prophile_shooting_shark_0016_a748cf6910.png"/>
 <empty-line/>
-<subtitle>История моей хакерской карьеры</subtitle>
+</section>
+<section id="toc_sub_000007"><title><p>История моей хакерской карьеры</p></title>
 <empty-line/>
 <p>В 1984 году мне посчастливилось учиться на выпускном курсе средней школы, где действовал один из пилотных классов «Advanced Placement Computer Science». Я тогда мало что знал о компьютерах, но интерес был огромный, поэтому я записался. «Advanced Placement Computer Science» подразумевал программирование на Pascal с использованием UCSD P-System на только что вышедшем Apple //e. Pascal меня не особо увлекал — ну кому вообще нравится Pascal? — зато я с удовольствием участвовал в послеурочных сессиях по пиратству программного обеспечения, а нередко — и прямо во время уроков, пока преподаватель рассказывал о циклах DO WHILE или о чём-нибудь столь же захватывающем. Среди любимых игр того времени были ZORK II и то, что я по сей день считаю лучшей игрой для Apple II, — RESCUE RAIDERS. Несколько месяцев спустя после начала учёбы мне каким-то образом удалось уговорить маму купить мне собственный Apple //e с целыми 64К оперативной памяти, монохромным монитором и флоппи-дисководом. Первый дешёвый жёсткий диск для Apple II — Sider — стоил тогда $700 за 10 Мб, так что об этом речи не шло.</p>
 <empty-line/>
@@ -115,7 +120,8 @@
 <empty-line/>
 <p>Когда мой компьютер сломался, я просто отпустил те времена. Иногда старые знакомые как-то умудрялись меня найти и звонили по голосовой связи — к моему удивлению. Кто-то однажды сказал, что для меня создан аккаунт на BBS под названием «Catch 22» — системе, которая была, видимо, слишком хороша, чтобы долго держаться. Кажется, я позвонил туда дважды, прежде чем она закрылась. Совсем недавно мне позвонил Crimson Death, попросил написать Profile, — и вот мы здесь.</p>
 <empty-line/>
-<subtitle>Чем я занимаюсь сейчас</subtitle>
+</section>
+<section id="toc_sub_000008"><title><p>Чем я занимаюсь сейчас</p></title>
 <empty-line/>
 <p>После двух лет на факультете информатики в колледже я сменил специализацию на театральные искусства по трём причинам:</p>
 <empty-line/>
@@ -127,7 +133,8 @@
 <empty-line/>
 <p>Ах да. В октябре я ещё и женился.</p>
 <empty-line/>
-<subtitle>Люди, которых я знал</subtitle>
+</section>
+<section id="toc_sub_000009"><title><p>Люди, которых я знал</p></title>
 <empty-line/>
 <p><strong>Elric of Imrryr</strong> — Мой настоящий наставник. Он ввёл меня в это дело. Жаль, что перебрался в Лос-Анджелес.</p>
 <empty-line/>
@@ -145,7 +152,8 @@
 <empty-line/>
 <p><strong>Dr. Strangelove</strong> — Держит очень крутую BBS под названием JUST SAY YES. Звоните: (415) 922-2008. DSL, пожалуй, несёт единоличную ответственность за то, что я пересел на IBM-клоны, что в свою очередь принесло мне работу (много ли сейчас нанимают Apple //-программистов?).</p>
 <empty-line/>
-<subtitle>BBS</subtitle>
+</section>
+<section id="toc_sub_000010"><title><p>BBS</p></title>
 <empty-line/>
 <p><strong>Sherwood Forest II and III, OSUNY</strong> — Я просто считал их величайшими системами из всех когда-либо существовавших.</p>
 <empty-line/>
@@ -161,7 +169,8 @@
 <empty-line/>
 <p>И, конечно, net.telecom (оригинальный), comp.risks, rec.arts.startrek...</p>
 <empty-line/>
-<subtitle>Воспоминания</subtitle>
+</section>
+<section id="toc_sub_000011"><title><p>Воспоминания</p></title>
 <empty-line/>
 <p>Помните Alliance Teleconferencing? Кладёшь трубку, идёшь поесть, забываешь о ней, возвращаешься через 24 часа — конференция всё ещё идёт.</p>
 <empty-line/>
@@ -175,7 +184,8 @@
 <empty-line/>
 <p>Мой момент близости к величию: несколько лет назад я возвращался домой на BART, когда в мой вагон зашёл Стив Возняк с двумя детьми. Вёз их на матч Warriors. Я был единственным человеком в вагоне, который его узнал. Он подписал мне попавшийся под руку экземпляр BYTE, и мы поговорили о его новом проекте — CL-9, универсальном пульте дистанционного управления. (Знаете хоть кого-нибудь, кто действительно КУПИЛ одну из этих штук?)</p>
 <empty-line/>
-<subtitle>...И теперь вопрос</subtitle>
+</section>
+<section id="toc_sub_000012"><title><p>...И теперь вопрос</p></title>
 <empty-line/>
 <p>«Среди широкого круга фрикеров, с которыми вы встречались, считаете ли вы большинство из них компьютерными фриками-задротами?»</p>
 <empty-line/>
@@ -187,17 +197,19 @@
 <empty-line/>
 <p>Crimson Death</p>
 </section>
+</section>
 <section id="sec_issue_033_003_a_hackers_guide_to_the_internet">
 <title><p>Руководство хакера по Интернету</p></title>
 <p><strong>Автор:</strong> The Gatsby</p>
 <empty-line/>
 <p>Версия 2.00 / AXiS / 7 июля 1991 г.</p>
 <empty-line/>
-<subtitle>1. Оглавление</subtitle>
+<section id="toc_sub_000013"><title><p>1. Оглавление</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_003_a_hackers_guide_to_the_internet_0013_df0d75798a.png"/>
 <empty-line/>
-<subtitle>2. Введение</subtitle>
+</section>
+<section id="toc_sub_000014"><title><p>2. Введение</p></title>
 <empty-line/>
 <p>Первоначально этот информационный файл был опубликован в информационном бюллетене IRG, однако содержал ряд ошибок, которые я хотел исправить. Также я добавил больше технической информации.</p>
 <empty-line/>
@@ -211,7 +223,8 @@
 <empty-line/>
 <p><emphasis>Особая благодарность Haywire (он же Insanity: SysOp канала Insanity Lane), Doctor Dissector и всем участникам AXiS.</emphasis></p>
 <empty-line/>
-<subtitle>3. Глоссарий, аббревиатуры и сокращения</subtitle>
+</section>
+<section id="toc_sub_000015"><title><p>3. Глоссарий, аббревиатуры и сокращения</p></title>
 <empty-line/>
 <p><strong>ACSE</strong> — Association Control Service Element (Элемент управления сервисом ассоциаций). Используется совместно с ISO для управления ассоциациями.</p>
 <empty-line/>
@@ -299,17 +312,20 @@
 <empty-line/>
 <p><code>#</code> — Означает команды или то, что необходимо ввести.</p>
 <empty-line/>
-<subtitle>4. Что такое Интернет?</subtitle>
+</section>
+<section id="toc_sub_000016"><title><p>4. Что такое Интернет?</p></title>
 <empty-line/>
 <p>Чтобы понять Интернет, необходимо прежде всего знать, что он собой представляет. Интернет — это совокупность различных сетей. Первой из них стала ARPANET — экспериментальная глобальная сеть (WAN). ARPANET была создана в 1969 году; эта экспериментальная PSN использовала Network Control Protocol (NCP). NCP был официальным протоколом Интернета (известного тогда также как DARPA Internet или ARPA Internet) с 1970 по 1982 год. В начале 80-х DARPA разработало Transmission Control Protocol/Internet Protocol — официальный протокол и по сей день; подробнее об этом — ниже. В результате в 1983 году ARPANet разделилась на две сети: MILNET и ARPANET (обе по-прежнему входят в состав DDN).</p>
 <empty-line/>
 <p>Развитие локальных (LAN) и глобальных (WAN) сетей способствовало расширению Интернета — теперь он объединяет более 2000 сетей. В их число входят NSFNET, MILNET, NSN, ESnet и CSNET. Хотя большая часть Интернета сосредоточена в Соединённых Штатах, он также соединяет TCP/IP-сети Европы, Японии, Австралии, Канады и Мексики.</p>
 <empty-line/>
-<subtitle>5. Откуда можно получить доступ к Интернету</subtitle>
+</section>
+<section id="toc_sub_000017"><title><p>5. Откуда можно получить доступ к Интернету</p></title>
 <empty-line/>
 <p>Интернет чаще всего присутствует в локальных (LAN) и глобальных (WAN) сетях. LAN — это сети, обеспечивающие соединение и взаимодействие группы компьютеров, прежде всего для совместного использования ресурсов: накопителей данных и принтеров. LAN охватывают небольшие расстояния (менее мили) и почти всегда располагаются в пределах одного здания или комплекса. WAN — это сети, предназначенные для передачи данных на большие расстояния (многие сотни миль). Также получить доступ к Интернету можно через TymNet или Telenet посредством шлюза. Однако NUA придётся искать самостоятельно.</p>
 <empty-line/>
-<subtitle>6. TAC</subtitle>
+</section>
+<section id="toc_sub_000018"><title><p>6. TAC</p></title>
 <empty-line/>
 <p>TAC (контроллер терминального доступа) — ещё один способ получить доступ к Интернету. Это просто дозвон до терминального контроллера доступа. Для этого потребуется пароль и учётная запись. TAC обеспечивает прямой доступ к MILNET. Пример телефонного номера TAC: (800)368-2217, однако существует и немало других. Более того, в CERT циркулирует отчёт о людях, пытающихся обнаружить эти номера с помощью социальной инженерии.</p>
 <empty-line/>
@@ -323,9 +339,11 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_003_a_hackers_guide_to_the_internet_0173_9559cf06a6.png"/>
 <empty-line/>
-<subtitle>7. Основные команды</subtitle>
+</section>
+<section id="toc_sub_000019"><title><p>7. Основные команды</p></title>
 <empty-line/>
-<subtitle>7a. Основные команды TELNET</subtitle>
+</section>
+<section id="toc_sub_000020"><title><p>7a. Основные команды TELNET</p></title>
 <empty-line/>
 <p><strong>Ситуация:</strong> у вас есть учётная запись на UNIX-системе, которая является хостом в Интернете. Теперь вам открыт весь мир! После входа в UNIX-систему вы увидите командную строку, которая может выглядеть как <code>$</code> или <code>%</code> (зависит от используемой оболочки и типа Unix-системы). В командной строке доступны все обычные команды UNIX, но находясь на интернет-хосте, вы можете ввести <code>telnet</code>, что переведёт вас в командную строку telnet.</p>
 <empty-line/>
@@ -359,7 +377,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_003_a_hackers_guide_to_the_internet_0271_3e0d518f6d.png"/>
 <empty-line/>
-<subtitle>7b. Анонимный ftp на удалённый сайт</subtitle>
+</section>
+<section id="toc_sub_000021"><title><p>7b. Анонимный ftp на удалённый сайт</p></title>
 <empty-line/>
 <p>ftp (File Transfer Protocol) используется для копирования файлов с удалённого хоста на тот, на котором вы находитесь. Можно скопировать что угодно. Защита файла passwd ужесточилась, но кое-где он по-прежнему доступен (всегда стоит попробовать).</p>
 <empty-line/>
@@ -393,7 +412,8 @@
 <empty-line/>
 <p>Некоторые специальные команды, используемые в ftp-сессии: <code>cdup</code> (аналог <code>cd ..</code>) и <code>dir</code> (выводит подробный список файлов).</p>
 <empty-line/>
-<subtitle>7c. Как получить файлы через tftp</subtitle>
+</section>
+<section id="toc_sub_000022"><title><p>7c. Как получить файлы через tftp</p></title>
 <empty-line/>
 <p>tftp (Trivial File Transfer Protocol; команда пишется строчными буквами, поскольку UNIX чувствителен к регистру) — команда для передачи файлов между хостами. Иногда используется аналогично ftp: можно перемещаться по файловой системе с помощью команд UNIX. Я не буду подробно останавливаться на этой части, но расскажу о базовом формате и синтаксисе для получения нужных файлов. Кроме того, я расскажу, как «вытащить» /etc/passwd с удалённых сайтов.</p>
 <empty-line/>
@@ -423,7 +443,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_003_a_hackers_guide_to_the_internet_0482_0eac7a3033.png"/>
 <empty-line/>
-<subtitle>7d. Основы fingerring'а</subtitle>
+</section>
+<section id="toc_sub_000023"><title><p>7d. Основы fingerring'а</p></title>
 <empty-line/>
 <p>Fingering — отличный способ найти учётные записи на удалённых сайтах. Введите <code>who</code> или просто <code>finger &lt;имя_учётной_записи&gt; &lt;CR&gt;</code>, чтобы получить имена для «прощупывания». Это даст вам массу информации об учётной записи человека. Вот пример:</p>
 <empty-line/>
@@ -435,7 +456,8 @@
 <empty-line/>
 <p>Также можно попробовать позвонить отдельным пользователям и представиться системным администратором (то есть применить социальную инженерию). Однако телефонный номер присутствует в файле <code>.plan</code> (файл, отображаемый при finger'е пользователя) далеко не всегда.</p>
 <empty-line/>
-<subtitle>8. Другие сети</subtitle>
+</section>
+<section id="toc_sub_000024"><title><p>8. Другие сети</p></title>
 <empty-line/>
 <p><strong>AARNet</strong> — Australian Academic and Research Network. Поддерживает исследования различных австралийских университетов. Использует TCP/IP, DECnet и OSI (CLNS).</p>
 <empty-line/>
@@ -494,7 +516,8 @@
 <empty-line/>
 <p><strong>USENET</strong> — Сетевые новости (база сообщений Интернета). Весьма обширная база с более чем 400 различными темами, охватывающая 17 стран.</p>
 <empty-line/>
-<subtitle>9. Протоколы Интернета</subtitle>
+</section>
+<section id="toc_sub_000025"><title><p>9. Протоколы Интернета</p></title>
 <empty-line/>
 <p>TCP/IP — общий термин, обозначающий всё семейство интернет-протоколов. В него входят: IP, TCP, UDP, ICMP, ROSE, ACSE, CMIP, ISO, ARP и Ethernet для LAN. Если хотите узнать больше — обратитесь к RFC.</p>
 <empty-line/>
@@ -520,7 +543,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_003_a_hackers_guide_to_the_internet_0631_3e1ed0a915.png"/>
 <empty-line/>
-<subtitle>10. Имена хостов и адреса</subtitle>
+</section>
+<section id="toc_sub_000026"><title><p>10. Имена хостов и адреса</p></title>
 <empty-line/>
 <p>Интернет-адреса длинны и трудны для запоминания (например, 128.128.57.83), поэтому мы используем имена хостов. Все хосты, зарегистрированные в Интернете, должны иметь имена, отражающие домены, в которых они зарегистрированы. Такие имена называются Fully Qualified Domain Names (FQDN). Разберём имя по составляющим:</p>
 <empty-line/>
@@ -546,11 +570,12 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_003_a_hackers_guide_to_the_internet_0703_21e47f5754.png"/>
 </section>
+</section>
 <section id="sec_issue_033_004_fedix_on_line_information_service">
 <title><p>FEDIX — Информационный сервис онлайн</p></title>
 <p><strong>Автор:</strong> Сотрудники FEDIX</p>
 <empty-line/>
-<subtitle>Что такое FEDIX?</subtitle>
+<section id="toc_sub_000027"><title><p>Что такое FEDIX?</p></title>
 <empty-line/>
 <p>FEDIX — это онлайн-информационный сервис, связывающий сообщество высшего образования с федеральным правительством в целях содействия исследованиям, образованию и предоставлению услуг. Система обеспечивает колледжи, университеты и другие исследовательские организации точными и актуальными сведениями о федеральных ведомствах.</p>
 <empty-line/>
@@ -566,7 +591,8 @@
 <p>• НОВОСТИ И ТЕКУЩИЕ СОБЫТИЯ в участвующих ведомствах</p>
 <p>• ОБЩАЯ ИНФОРМАЦИЯ: история ведомства, бюджет, организационная структура, формулировка миссии и т.д.</p>
 <empty-line/>
-<subtitle>Участвующие ведомства</subtitle>
+</section>
+<section id="toc_sub_000028"><title><p>Участвующие ведомства</p></title>
 <empty-line/>
 <p>В настоящее время FEDIX предоставляет сведения о 7 федеральных ведомствах, разбитых на 2 общие категории:</p>
 <empty-line/>
@@ -583,22 +609,26 @@
 <empty-line/>
 <p>В будущем к FEDIX планируется присоединение дополнительных государственных ведомств.</p>
 <empty-line/>
-<subtitle>Требования к аппаратному и программному обеспечению</subtitle>
+</section>
+<section id="toc_sub_000029"><title><p>Требования к аппаратному и программному обеспечению</p></title>
 <empty-line/>
 <p>Доступ к системе возможен с любого микрокомпьютера с коммуникационным программным обеспечением (или простого терминала) и модема, работающего на скорости 1200 или 2400 бод.</p>
 <empty-line/>
-<subtitle>Часы работы</subtitle>
+</section>
+<section id="toc_sub_000030"><title><p>Часы работы</p></title>
 <empty-line/>
 <p>Система работает 24 часа в сутки, 7 дней в неделю. Исключения составляют периодическое обновление системы или техническое обслуживание.</p>
 <empty-line/>
-<subtitle>Телефонные номера</subtitle>
+</section>
+<section id="toc_sub_000031"><title><p>Телефонные номера</p></title>
 <empty-line/>
 <p>• Компьютер (линия данных): 301-258-0953 или 1-800-232-4879</p>
 <p>• HELPLINE (техническая помощь): 301-975-0103</p>
 <empty-line/>
 <p>Линия HELPLINE (для вопросов и комментариев) работает с понедельника по пятницу с 8:30 до 16:30 по восточному летнему времени, кроме федеральных праздников.</p>
 <empty-line/>
-<subtitle>Функциональные возможности системы</subtitle>
+</section>
+<section id="toc_sub_000032"><title><p>Функциональные возможности системы</p></title>
 <empty-line/>
 <p>Несмотря на широкий спектр функций поиска, просмотра и загрузки, система проста в использовании. Следующие возможности обеспечивают быстрый и удобный доступ к базам данных ведомств:</p>
 <empty-line/>
@@ -614,12 +644,14 @@
 <empty-line/>
 <p><strong>Меню служебных функций</strong> Меню служебных функций, доступное из главного меню FEDIX, позволяет изменять информацию о пользователе, устанавливать приоритетность ведомств для просмотра, выполнять поиск и загрузку информации о ведомствах, задавать меню по умолчанию при входе в систему и устанавливать протокол передачи файлов для загрузки.</p>
 <empty-line/>
-<subtitle>Указатель ключевой информации на FEDIX</subtitle>
+</section>
+<section id="toc_sub_000033"><title><p>Указатель ключевой информации на FEDIX</p></title>
 <empty-line/>
 <p>Ниже приведена ключевая информация по каждому ведомству с указанием кода меню, из которого к ней можно получить доступ. Обратите внимание, что данный список не является исчерпывающим — на FEDIX доступно значительно больше информации, чем здесь перечислено.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_004_fedix_on_line_information_service_0088_6a8cbe4d14_part01.png"/>
 <image l:href="#img__code_blocks_issue_033_004_fedix_on_line_information_service_0088_6a8cbe4d14_part02.png"/>
+</section>
 </section>
 <section id="sec_issue_033_005_lata_referance_list">
 <title><p>Справочный список LATA</p></title>
@@ -642,53 +674,63 @@
 <empty-line/>
 <p>Там, где это возможно, количество цифр обозначено символом <code>n</code> (число от 2 до 8) или <code>x</code> (любая цифра). Многоточие (<code>...</code>) указывает на переменное количество дополнительных цифр или на возможные разногласия в сведениях о количестве используемых цифр.</p>
 <empty-line/>
-<subtitle>Бесплатные услуги или услуги с оплатой по местному тарифу</subtitle>
+<section id="toc_sub_000034"><title><p>Бесплатные услуги или услуги с оплатой по местному тарифу</p></title>
 <empty-line/>
-<subtitle>Австралия</subtitle>
+</section>
+<section id="toc_sub_000035"><title><p>Австралия</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0021_6f548de548.png"/>
 <empty-line/>
-<subtitle>Бельгия</subtitle>
+</section>
+<section id="toc_sub_000036"><title><p>Бельгия</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0039_71219e45c5.png"/>
 <empty-line/>
-<subtitle>Дания</subtitle>
+</section>
+<section id="toc_sub_000037"><title><p>Дания</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0047_a1b96fbb36.png"/>
 <empty-line/>
-<subtitle>Финляндия</subtitle>
+</section>
+<section id="toc_sub_000038"><title><p>Финляндия</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0056_a730b0b68c.png"/>
 <empty-line/>
 <p>Звонок на 9800 стоит столько же, сколько местный (доступен из всех районов Финляндии), тогда как 0800 — действительно бесплатный и доступен из всех зон частных телеоператоров.</p>
 <empty-line/>
-<subtitle>Франция</subtitle>
+</section>
+<section id="toc_sub_000039"><title><p>Франция</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0067_e0b76c127d.png"/>
 <empty-line/>
 <p><code>11</code> — компьютерный справочник телефонных номеров. <code>12</code> — голосовой справочник (аналог 411 в США).</p>
 <empty-line/>
-<subtitle>Германия (Западная)</subtitle>
+</section>
+<section id="toc_sub_000040"><title><p>Германия (Западная)</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0082_bfd1c918a0.png"/>
 <empty-line/>
 <p>Для просмотра общего списка бесплатных номеров можно взять экземпляр газеты International Herald и заглянуть в спортивный раздел — там есть реклама AT&amp;T с номерами для звонков в США из различных стран. Нужно просто отбросить номер абонента и использовать только «код зоны».</p>
 <empty-line/>
-<subtitle>Ирландия</subtitle>
+</section>
+<section id="toc_sub_000041"><title><p>Ирландия</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0092_a9fdbd6e2b.png"/>
 <empty-line/>
-<subtitle>Италия</subtitle>
+</section>
+<section id="toc_sub_000042"><title><p>Италия</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0101_e3e90d189a.png"/>
 <empty-line/>
 <p>Мы не на сто процентов уверены в длине номеров для Италии. Один из способов проверить — взять <emphasis>международное</emphasis> издание еженедельного журнала типа TIME: там сплошная реклама и минимум содержания. Но там периодически допускают ошибки, например, указывают парижские номера как (01) xxxxxxxx, хотя правильно — (1) xxxxxxxx.</p>
 <empty-line/>
-<subtitle>Мексика</subtitle>
+</section>
+<section id="toc_sub_000043"><title><p>Мексика</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0111_21fb4c7642.png"/>
 <empty-line/>
-<subtitle>Нидерланды</subtitle>
+</section>
+<section id="toc_sub_000044"><title><p>Нидерланды</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0119_93d0b7ccb3.png"/>
 <empty-line/>
@@ -698,29 +740,34 @@
 <empty-line/>
 <p>Общая длина номеров варьируется от 4 до 10 цифр; тире обозначает второй сигнал готовности. Номера с префиксом 06 недоступны для звонков из-за рубежа.</p>
 <empty-line/>
-<subtitle>Новая Зеландия</subtitle>
+</section>
+<section id="toc_sub_000045"><title><p>Новая Зеландия</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0136_6737c65871.png"/>
 <empty-line/>
 <p>Это через государственного оператора — Telecom New Zealand. Clear Communications, недавно появившийся альтернативный оператор дальней связи, пока не предлагает бесплатных услуг. Когда Clear запустит такую услугу, скорее всего, она будет привязана к существующему номеру абонента (например, звоните бесплатно: 050-04-654-3210), поскольку компания не управляет выдачей номеров. На данный момент 0800 — исключительно Telecom.</p>
 <empty-line/>
-<subtitle>Северная Америка</subtitle>
+</section>
+<section id="toc_sub_000046"><title><p>Северная Америка</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0146_db75374091.png"/>
 <empty-line/>
 <p>Префикс <code>nxx</code> в номере 800 в настоящее время определяет, какой оператор дальней связи или компания по обслуживанию 800-номеров обработает звонок (а в некоторых случаях — и географический регион).</p>
 <empty-line/>
-<subtitle>Испания</subtitle>
+</section>
+<section id="toc_sub_000047"><title><p>Испания</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0158_4cb44ab126.png"/>
 <empty-line/>
 <p>Все таксофоны кнопочные, но генерируют импульсные сигналы. Соединение устанавливается очень долго.</p>
 <empty-line/>
-<subtitle>Швеция</subtitle>
+</section>
+<section id="toc_sub_000048"><title><p>Швеция</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0168_d5ec8d3b49.png"/>
 <empty-line/>
-<subtitle>Швейцария</subtitle>
+</section>
+<section id="toc_sub_000049"><title><p>Швейцария</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0176_c9aea00161.png"/>
 <empty-line/>
@@ -734,41 +781,49 @@
 <empty-line/>
 <p>Canada Direct использует 046 05 83 30.</p>
 <empty-line/>
-<subtitle>Великобритания</subtitle>
+</section>
+<section id="toc_sub_000050"><title><p>Великобритания</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0195_00f506d199.png"/>
 <empty-line/>
-<subtitle>Платные и специальные услуги</subtitle>
+</section>
+<section id="toc_sub_000051"><title><p>Платные и специальные услуги</p></title>
 <empty-line/>
-<subtitle>Австралия</subtitle>
+</section>
+<section id="toc_sub_000052"><title><p>Австралия</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0208_bddd87e76a.png"/>
 <empty-line/>
-<subtitle>Финляндия</subtitle>
+</section>
+<section id="toc_sub_000053"><title><p>Финляндия</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0221_7027b7a4ea.png"/>
 <empty-line/>
 <p>Стоимость варьируется приблизительно от 0,5 до 5 долларов США в минуту.</p>
 <empty-line/>
-<subtitle>Франция</subtitle>
+</section>
+<section id="toc_sub_000054"><title><p>Франция</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0232_b2b5b25980.png"/>
 <empty-line/>
 <p>Используется для различных информационных служб, а также чат-линий.</p>
 <empty-line/>
-<subtitle>Нидерланды</subtitle>
+</section>
+<section id="toc_sub_000055"><title><p>Нидерланды</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0243_c52b6e8cb0.png"/>
 <empty-line/>
 <p>Другие коды (например, 06-9) предшествуют звонкам по специальному тарифу (аналог номеров 900 в США). Максимальная специальная ставка в настоящее время составляет DFL 0,50 в минуту.</p>
 <empty-line/>
-<subtitle>Северная Америка</subtitle>
+</section>
+<section id="toc_sub_000056"><title><p>Северная Америка</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0255_5953537573.png"/>
 <empty-line/>
 <p>Другие префиксы обмена в кодах зон (например, 540, 720 или 915) используются для иных платных услуг: групповых чатов, других видов записанных сообщений и т. д. Они варьируются в зависимости от кода зоны в Северной Америке, и не все регионы имеют такие услуги.</p>
 <empty-line/>
-<subtitle>Швеция</subtitle>
+</section>
+<section id="toc_sub_000057"><title><p>Швеция</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0269_62b1dd2613.png"/>
 <empty-line/>
@@ -782,11 +837,13 @@
 <empty-line/>
 <p>Ещё один специальный платный номер — внутренний справочник телефонных номеров: 07975 (6,90 SEK/минута).</p>
 <empty-line/>
-<subtitle>Великобритания</subtitle>
+</section>
+<section id="toc_sub_000058"><title><p>Великобритания</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_006_international_toll_free_local_rated_and_specially_0296_37f1274491.png"/>
 <empty-line/>
 <p>Тариф, судя по всему, единый: 34 пенса в минуту в льготное время и 45 пенсов в остальное время.</p>
+</section>
 </section>
 <section id="sec_issue_033_007_phreaking_in_germany">
 <title><p>Фрикинг в Германии</p></title>
@@ -800,7 +857,7 @@
 <empty-line/>
 <p>В настоящий момент в Германии существует два основных способа фрикинга. Первый — боксинг, второй — использование радиотелефонов; оба я опишу ниже.</p>
 <empty-line/>
-<subtitle>Боксинг</subtitle>
+<section id="toc_sub_000059"><title><p>Боксинг</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_007_phreaking_in_germany_0033_53f413f727.png"/>
 <empty-line/>
@@ -810,7 +867,8 @@
 <empty-line/>
 <p>Одно существенное различие между боксингом в США и Германии — законодательство. В Германии очень строго следят за информационной безопасностью, однако законы в области фрикинга неоднозначны. Никто не знает, действительно ли фрикер что-то ворует у немецкой телефонной компании, поскольку он использует обычный номер телефона. Нам это может показаться абсурдным, но именно так там на это смотрят. Поймать фрикера с поличным в Германии — редкий случай, если вообще возможный.</p>
 <empty-line/>
-<subtitle>Радиотелефоны</subtitle>
+</section>
+<section id="toc_sub_000060"><title><p>Радиотелефоны</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_007_phreaking_in_germany_0047_b946a380d0.png"/>
 <empty-line/>
@@ -824,7 +882,8 @@
 <empty-line/>
 <p>Радиотелефоны в Германии запрещены, хотя купить их можно практически везде. Незаконным является их физическое подключение к телефонной сети. Телефонная компания там специально ищет владельцев радиотелефонов с помощью оснащённого оборудованием фургона. Как только они обнаружат подключённый радиотелефон, они приезжают с двумя полицейскими и ордером на обыск. Вам могут предъявить обвинения в чём угодно — от незаконного подключения несертифицированного оборудования до подделки документов.</p>
 <empty-line/>
-<subtitle>Заключение</subtitle>
+</section>
+<section id="toc_sub_000061"><title><p>Заключение</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_007_phreaking_in_germany_0065_a557d660f7.png"/>
 <empty-line/>
@@ -840,22 +899,25 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_007_phreaking_in_germany_0088_a5106e81c8.png"/>
 </section>
+</section>
 <section id="sec_issue_033_008_a_tcpip_tutorial_behind_the_internet">
 <title><p>Учебник по TCP/IP: За кулисами интернета</p></title>
-<subtitle>Часть первая из двух</subtitle>
+<section id="toc_sub_000062"><title><p>Часть первая из двух</p></title>
 <empty-line/>
 <p>12 сентября 1991 г.</p>
 <empty-line/>
 <p><strong>Автор:</strong> The Not</p>
 <empty-line/>
-<subtitle>Содержание</subtitle>
+</section>
+<section id="toc_sub_000063"><title><p>Содержание</p></title>
 <empty-line/>
 <p>1. Введение</p>
 <p>2. Обзор TCP/IP</p>
 <p>3. Ethernet</p>
 <p>4. ARP</p>
 <empty-line/>
-<subtitle>1. Введение</subtitle>
+</section>
+<section id="toc_sub_000064"><title><p>1. Введение</p></title>
 <empty-line/>
 <p>Данный учебник освещает лишь основные, ключевые аспекты TCP/IP и потому представляет собой «скелет» технологии TCP/IP. Здесь опущены история разработки и финансирования, аргументы в пользу её применения, а также её перспективы по сравнению с ISO OSI. Значительный объём технических сведений также не включён. Оставлен минимум информации, которую необходимо понимать специалисту, работающему в среде TCP/IP. К таким специалистам относятся системный администратор, системный программист и сетевой менеджер.</p>
 <empty-line/>
@@ -865,11 +927,13 @@
 <empty-line/>
 <p>Следующий раздел представляет собой обзор TCP/IP, после которого идут подробные описания отдельных компонентов.</p>
 <empty-line/>
-<subtitle>2. Обзор TCP/IP</subtitle>
+</section>
+<section id="toc_sub_000065"><title><p>2. Обзор TCP/IP</p></title>
 <empty-line/>
 <p>Общий термин «TCP/IP» обычно означает всё, что так или иначе связано с конкретными протоколами TCP и IP. Он может охватывать другие протоколы, приложения и даже сетевую среду. В качестве примеров протоколов можно назвать: UDP, ARP и ICMP. В качестве примеров приложений — TELNET, FTP и rcp. Более точный термин — «интернет-технология». Сеть, использующая интернет-технологию, называется «интернетом».</p>
 <empty-line/>
-<subtitle>2.1 Базовая структура</subtitle>
+</section>
+<section id="toc_sub_000066"><title><p>2.1 Базовая структура</p></title>
 <empty-line/>
 <p>Чтобы понять данную технологию, необходимо прежде всего разобраться со следующей логической структурой:</p>
 <empty-line/>
@@ -877,7 +941,8 @@
 <empty-line/>
 <p>Это логическая структура многоуровневых протоколов внутри компьютера, подключённого к интернету. Каждый компьютер, способный взаимодействовать с использованием интернет-технологии, обладает подобной логической структурой. Именно эта логическая структура определяет поведение компьютера в интернете. Прямоугольники обозначают обработку данных по мере их прохождения через компьютер, а линии, соединяющие прямоугольники, показывают путь передачи данных. Горизонтальная линия внизу представляет кабель Ethernet; «o» — это трансивер. «*» — IP-адрес, а «@» — Ethernet-адрес. Понимание данной логической структуры принципиально важно для понимания интернет-технологии; на неё ссылаются на протяжении всего учебника.</p>
 <empty-line/>
-<subtitle>2.2 Терминология</subtitle>
+</section>
+<section id="toc_sub_000067"><title><p>2.2 Терминология</p></title>
 <empty-line/>
 <p>Название единицы данных, передаваемой по интернету, зависит от того, на каком уровне стека протоколов она находится. В кратком изложении: если данные находятся в сети Ethernet, они называются кадром Ethernet; если — между драйвером Ethernet и модулем IP, они называются IP-пакетом; если — между модулем IP и модулем UDP, они называются UDP-датаграммой; если — между модулем IP и модулем TCP, они называются TCP-сегментом (в более общем смысле — транспортным сообщением); если же данные находятся в сетевом приложении, они называются сообщением приложения.</p>
 <empty-line/>
@@ -887,7 +952,8 @@
 <empty-line/>
 <p>Термины «драйвер», «модуль», «кадр Ethernet», «IP-пакет», «UDP-датаграмма», «TCP-сообщение» и «сообщение приложения» используются по мере необходимости на протяжении всего учебника.</p>
 <empty-line/>
-<subtitle>2.3 Поток данных</subtitle>
+</section>
+<section id="toc_sub_000068"><title><p>2.3 Поток данных</p></title>
 <empty-line/>
 <p>Проследим за данными по мере их прохождения вниз по стеку протоколов, показанному на рисунке 1. Для приложения, использующего TCP (Transmission Control Protocol — протокол управления передачей), данные передаются между приложением и модулем TCP. Для приложений, использующих UDP (User Datagram Protocol — протокол пользовательских датаграмм), данные передаются между приложением и модулем UDP. FTP (File Transfer Protocol — протокол передачи файлов) — типичный пример приложения, использующего TCP. Его стек протоколов в данном примере: FTP/TCP/IP/ENET. SNMP (Simple Network Management Protocol — простой протокол управления сетью) — пример приложения, использующего UDP. Его стек протоколов в данном примере: SNMP/UDP/IP/ENET.</p>
 <empty-line/>
@@ -911,7 +977,8 @@
 <empty-line/>
 <p>Работающий компьютер всегда знает свой собственный IP-адрес и Ethernet-адрес.</p>
 <empty-line/>
-<subtitle>2.4 Два сетевых интерфейса</subtitle>
+</section>
+<section id="toc_sub_000069"><title><p>2.4 Два сетевых интерфейса</p></title>
 <empty-line/>
 <p>Если компьютер подключён к двум отдельным сетям Ethernet, его структура выглядит так, как показано на рисунке 3.</p>
 <empty-line/>
@@ -931,19 +998,23 @@
 <empty-line/>
 <p>Как видно из рисунка, пересылаемый IP-пакет никогда не затрагивает модули TCP и UDP на IP-маршрутизаторе. Некоторые реализации IP-маршрутизатора не имеют модулей TCP или UDP.</p>
 <empty-line/>
-<subtitle>2.5 IP создаёт единую логическую сеть</subtitle>
+</section>
+<section id="toc_sub_000070"><title><p>2.5 IP создаёт единую логическую сеть</p></title>
 <empty-line/>
 <p>Модуль IP занимает центральное место в успехе интернет-технологии. Каждый модуль или драйвер добавляет свой заголовок к сообщению по мере его прохождения вниз по стеку протоколов. Каждый модуль или драйвер снимает соответствующий заголовок с сообщения по мере того, как оно поднимается по стеку протоколов в направлении приложения. Заголовок IP содержит IP-адрес, который строит единую логическую сеть из множества физических сетей. Это объединение физических сетей и является источником названия: интернет. Совокупность взаимосвязанных физических сетей, ограничивающих область действия IP-пакета, называется «интернетом».</p>
 <empty-line/>
-<subtitle>2.6 Независимость от физической сети</subtitle>
+</section>
+<section id="toc_sub_000071"><title><p>2.6 Независимость от физической сети</p></title>
 <empty-line/>
 <p>IP скрывает лежащее в основе сетевое аппаратное обеспечение от сетевых приложений. Если вы создаёте новую физическую сеть, вы можете ввести её в эксплуатацию, реализовав новый драйвер, который подключается к интернету под IP. Таким образом, сетевые приложения остаются нетронутыми и не подвержены изменениям в аппаратной технологии.</p>
 <empty-line/>
-<subtitle>2.7 Совместимость (Interoperability)</subtitle>
+</section>
+<section id="toc_sub_000072"><title><p>2.7 Совместимость (Interoperability)</p></title>
 <empty-line/>
 <p>Если два компьютера в интернете могут взаимодействовать, говорят, что они «совместимы» (interoperate); если реализация интернет-технологии выполнена качественно, говорят, что она обладает «интероперабельностью» (interoperability). Пользователи компьютеров общего назначения выигрывают от развёртывания интернета благодаря интероперабельности компьютеров, представленных на рынке. Как правило, приобретая компьютер, вы получаете устройство, способное работать в сети. Если компьютер не обладает интероперабельностью и она не может быть добавлена, он занимает редкую и особую нишу на рынке.</p>
 <empty-line/>
-<subtitle>2.8 После обзора</subtitle>
+</section>
+<section id="toc_sub_000073"><title><p>2.8 После обзора</p></title>
 <empty-line/>
 <p>Получив необходимые базовые сведения, мы ответим на следующие вопросы:</p>
 <empty-line/>
@@ -959,7 +1030,8 @@
 <empty-line/>
 <p>Ответы на эти вопросы будут даны по порядку — после краткого повторения основ Ethernet.</p>
 <empty-line/>
-<subtitle>3. Ethernet</subtitle>
+</section>
+<section id="toc_sub_000074"><title><p>3. Ethernet</p></title>
 <empty-line/>
 <p>Данный раздел представляет собой краткий обзор технологии Ethernet.</p>
 <empty-line/>
@@ -969,7 +1041,8 @@
 <empty-line/>
 <p>В Ethernet используется метод CSMA/CD (Carrier Sense and Multiple Access with Collision Detection — множественный доступ с контролем несущей и обнаружением коллизий). CSMA/CD означает, что все устройства взаимодействуют в единой среде, что одновременно может передавать только одно устройство, и что все они могут одновременно принимать данные. Если два устройства пытаются начать передачу в один и тот же момент, коллизия передачи обнаруживается, и оба устройства ждут случайный (но короткий) период перед следующей попыткой передачи.</p>
 <empty-line/>
-<subtitle>3.1 Аналогия с людьми</subtitle>
+</section>
+<section id="toc_sub_000075"><title><p>3.1 Аналогия с людьми</p></title>
 <empty-line/>
 <p>Хорошей аналогией технологии Ethernet служит группа людей, разговаривающих в небольшой, совершенно тёмной комнате. В данной аналогии физической сетевой средой являются звуковые волны в воздухе комнаты вместо электрических сигналов в коаксиальном кабеле.</p>
 <empty-line/>
@@ -979,13 +1052,15 @@
 <empty-line/>
 <p>У каждого человека есть уникальное имя (уникальный Ethernet-адрес), чтобы избежать путаницы. Каждый раз, когда кто-то говорит, он предваряет сообщение именем того, к кому обращается, и своим собственным именем (Ethernet-адресом получателя и отправителя соответственно), то есть: «Привет, Джейн, это Джек, ...бла-бла-бла...». Если отправитель хочет обратиться ко всем, он может сказать «всем» (широковещательный адрес): «Привет всем, это Джек, ...бла-бла-бла...».</p>
 <empty-line/>
-<subtitle>4. ARP</subtitle>
+</section>
+<section id="toc_sub_000076"><title><p>4. ARP</p></title>
 <empty-line/>
 <p>При отправке IP-пакета — как определяется Ethernet-адрес получателя?</p>
 <empty-line/>
 <p>ARP (Address Resolution Protocol — протокол разрешения адресов) используется для преобразования IP-адресов в Ethernet-адреса. Преобразование выполняется только для исходящих IP-пакетов, поскольку именно в этот момент создаются заголовок IP и заголовок Ethernet.</p>
 <empty-line/>
-<subtitle>4.1 Таблица ARP для преобразования адресов</subtitle>
+</section>
+<section id="toc_sub_000077"><title><p>4.1 Таблица ARP для преобразования адресов</p></title>
 <empty-line/>
 <p>Преобразование выполняется путём поиска в таблице. Таблица, называемая таблицей ARP, хранится в памяти и содержит строку для каждого компьютера. В ней есть столбец для IP-адреса и столбец для Ethernet-адреса. При преобразовании IP-адреса в Ethernet-адрес в таблице осуществляется поиск совпадающего IP-адреса. Ниже приведён упрощённый пример таблицы ARP:</p>
 <empty-line/>
@@ -995,13 +1070,15 @@
 <empty-line/>
 <p>Таблица ARP необходима потому, что IP-адрес и Ethernet-адрес выбираются независимо друг от друга; алгоритм для преобразования IP-адреса в Ethernet-адрес использовать нельзя. IP-адрес выбирается сетевым менеджером исходя из расположения компьютера в интернете. При перемещении компьютера в другую часть интернета его IP-адрес должен быть изменён. Ethernet-адрес выбирается производителем на основе пространства Ethernet-адресов, лицензированного производителем. При замене аппаратной платы интерфейса Ethernet меняется и Ethernet-адрес.</p>
 <empty-line/>
-<subtitle>4.2 Типичный сценарий преобразования</subtitle>
+</section>
+<section id="toc_sub_000078"><title><p>4.2 Типичный сценарий преобразования</p></title>
 <empty-line/>
 <p>В ходе обычной работы сетевое приложение, например TELNET, отправляет сообщение приложения в TCP, затем TCP отправляет соответствующее TCP-сообщение в модуль IP. IP-адрес получателя известен приложению, модулю TCP и модулю IP. На данном этапе IP-пакет сформирован и готов к передаче драйверу Ethernet, однако сначала необходимо определить Ethernet-адрес получателя.</p>
 <empty-line/>
 <p>Для поиска Ethernet-адреса получателя используется таблица ARP.</p>
 <empty-line/>
-<subtitle>4.3 Пара запрос/ответ ARP</subtitle>
+</section>
+<section id="toc_sub_000079"><title><p>4.3 Пара запрос/ответ ARP</p></title>
 <empty-line/>
 <p>Но как вообще заполняется таблица ARP? Ответ: она заполняется автоматически протоколом ARP по мере необходимости.</p>
 <empty-line/>
@@ -1025,7 +1102,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_008_a_tcpip_tutorial_behind_the_internet_0314_0dec76ea71.png"/>
 <empty-line/>
-<subtitle>4.4 Продолжение сценария</subtitle>
+</section>
+<section id="toc_sub_000080"><title><p>4.4 Продолжение сценария</p></title>
 <empty-line/>
 <p>Новая запись преобразования была автоматически внесена в таблицу буквально через несколько миллисекунд после того, как она понадобилась. Как вы помните из шага 2, исходящий IP-пакет был поставлен в очередь. Далее выполняется преобразование IP-адреса в Ethernet-адрес путём поиска в таблице ARP, после чего кадр Ethernet передаётся в сеть Ethernet. Таким образом, с учётом новых шагов 3, 4 и 5 полный сценарий для компьютера-отправителя выглядит следующим образом:</p>
 <empty-line/>
@@ -1045,11 +1123,12 @@
 <empty-line/>
 <p>Некоторые реализации IP и ARP не ставят IP-пакет в очередь в ожидании ARP-ответа. Вместо этого IP-пакет отбрасывается, а восстановление после его потери возлагается на модуль TCP или сетевое приложение UDP. Восстановление выполняется посредством тайм-аута и повторной передачи. Повторно переданное сообщение успешно отправляется в сеть, поскольку первая копия сообщения уже обеспечила заполнение таблицы ARP.</p>
 </section>
+</section>
 <section id="sec_issue_033_009_a_real_functioning_red_box_schematic">
 <title><p>Настоящая рабочая схема «Красной коробки»</p></title>
-<p><strong>Автор:</strong> R.J. &quot;BoB&quot; Dobbs</p>
+<p><strong>Автор:</strong> R.J. "BoB" Dobbs</p>
 <empty-line/>
-<subtitle>Что такое «Красная коробка»?</subtitle>
+<section id="toc_sub_000081"><title><p>Что такое «Красная коробка»?</p></title>
 <empty-line/>
 <p>По сути, «Красная коробка» — это устройство, предназначенное для того, чтобы обмануть компьютер телефонной компании, заставив его думать, что монеты опущены в таксофон. Каждый раз, когда вы бросаете монету в таксофон, аппарат сигнализирует о типе монеты одним или несколькими импульсами комбинации частот 1700 Гц и 2200 Гц. Тональные импульсы кодируются следующим образом:</p>
 <empty-line/>
@@ -1057,15 +1136,18 @@
 <p>• <strong>10 центов (дайм):</strong> два импульса по 60 миллисекунд с паузой 60 миллисекунд</p>
 <p>• <strong>25 центов (квотер):</strong> пять импульсов по 35 миллисекунд с паузами по 35 миллисекунд</p>
 <empty-line/>
-<subtitle>Как пользоваться</subtitle>
+</section>
+<section id="toc_sub_000082"><title><p>Как пользоваться</p></title>
 <empty-line/>
 <p>Просто наберите номер для звонка на дальнее расстояние (в некоторых районах сначала придётся опустить настоящий никель), дождитесь, когда компьютер ACTS потребует оплату, и нажмите кнопку «deposit» на красной коробке столько раз, сколько монет нужно симулировать. Тональные сигналы монет передаются из красной коробки в телефон через небольшой динамик, поднесённый к микрофону. Для местных звонков необходимо либо сначала опустить настоящий никель, а потом симулировать остальные монеты, либо воспользоваться оператором по номеру 0+xxx+yyyy. Будьте осторожны, когда на линии оператор — иногда он раскусывает вашу схему с «пищалкой».</p>
 <empty-line/>
-<subtitle>Принцип работы схемы</subtitle>
+</section>
+<section id="toc_sub_000083"><title><p>Принцип работы схемы</p></title>
 <empty-line/>
 <p>Каждый раз при нажатии кнопки она запускает одну половину IC1, настроенную как моностабильный мультивибратор, который активирует остальную часть схемы на время, определяемое положением переключателя выбора монеты. Это в свою очередь запускает вторую половину IC1, настроенную как астабильный мультивибратор, который генерирует импульсы с регулярными интервалами, задаваемыми потенциометром 100 кОм между выводами 12 и 13. Выход астабильного мультивибратора поочерёдно питает IC2, настроенную как генератор прямоугольных импульсов, обеспечивая необходимые частоты 1700 Гц и 2200 Гц на операционный усилитель, выполняющий роль буфера для управления динамиком.</p>
 <empty-line/>
-<subtitle>Настройка и тестирование</subtitle>
+</section>
+<section id="toc_sub_000084"><title><p>Настройка и тестирование</p></title>
 <empty-line/>
 <p>При изготовлении устройства ни в коем случае не используйте блок питания 9 В переменного тока! Также не рекомендуется использовать макетную плату. Будьте осторожны с паяльником. И то, и другое создаст вам проблемы.</p>
 <empty-line/>
@@ -1085,22 +1167,27 @@
 <empty-line/>
 <p>Наконец, установите переключатель в положение «Quarter». Настройте потенциометр 50 кОм с надписью «Quarter» до тех пор, пока при каждом нажатии кнопки не будет слышаться ровно 5 очень быстрых сигналов. Не беспокойтесь, если сигналы квотера звучат короче и быстрее, чем у никеля и дайма. Так и должно быть.</p>
 <empty-line/>
-<subtitle>Заключение</subtitle>
+</section>
+<section id="toc_sub_000085"><title><p>Заключение</p></title>
 <empty-line/>
 <p>Если всё прошло успешно, ваша красная коробка должна быть полностью откалибрована и готова к работе. Теперь следует провести финальное тестирование с таксофона с использованием тестовой линии DATL (Dial Access Test Line) для проверки монет. Наберите 09591230 и следуйте инструкциям компьютера, используя красную коробку при соответствующих запросах. Компьютер должен правильно идентифицировать все «симулированные» монеты и зафиксировать любые аномалии. При разумной осторожности ваша красная коробка прослужит вам долгие годы. Помните: мелочи не бывает!</p>
 <empty-line/>
-<subtitle>Список компонентов «Красной коробки»</subtitle>
+</section>
+<section id="toc_sub_000086"><title><p>Список компонентов «Красной коробки»</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_009_a_real_functioning_red_box_schematic_0069_27946355f8.png"/>
 <empty-line/>
-<subtitle>Принципиальная схема</subtitle>
+</section>
+<section id="toc_sub_000087"><title><p>Принципиальная схема</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_009_a_real_functioning_red_box_schematic_0090_3fac2a373b_part01.png"/>
 <image l:href="#img__code_blocks_issue_033_009_a_real_functioning_red_box_schematic_0090_3fac2a373b_part02.png"/>
 <empty-line/>
-<subtitle>Кодировка компонентов схемы</subtitle>
+</section>
+<section id="toc_sub_000088"><title><p>Кодировка компонентов схемы</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_009_a_real_functioning_red_box_schematic_0149_5ede921aab.png"/>
+</section>
 </section>
 <section id="sec_issue_033_010_the_hackers_who_came_in_from_the_cold">
 <title><p>Хакеры, пришедшие с холода</p></title>
@@ -1220,9 +1307,10 @@
 <empty-line/>
 <p>Жизнь странная штука.</p>
 <empty-line/>
-<subtitle>Список гостей CyberView '91</subtitle>
+<section id="toc_sub_000089"><title><p>Список гостей CyberView '91</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_010_the_hackers_who_came_in_from_the_cold_0143_01b46a8e54.png"/>
+</section>
 </section>
 <section id="sec_issue_033_011_phrack_world_news_issue_xxxiii_part_one">
 <title><p>Phrack World News</p></title>
@@ -1230,7 +1318,7 @@
 <empty-line/>
 <p><strong>Автор:</strong> Compiled by Crimson Death</p>
 <empty-line/>
-<subtitle>Обыск у Sir Hackalot силами полиции штата Джорджия</subtitle>
+<section id="toc_sub_000090"><title><p>Обыск у Sir Hackalot силами полиции штата Джорджия</p></title>
 <empty-line/>
 <cite><p>«Они были довольно злы, потому что ничего на меня не нашли.»</p></cite>
 <empty-line/>
@@ -1238,7 +1326,8 @@
 <empty-line/>
 <p>Не связан ли этот недавний обыск с печально известным изъятием публичного Unix-сервера Jolnet из Локпорта, штат Иллинойс, в рамках дела Phrack E911? Sir Hackalot был пользователем той системы, а в нынешних реалиях правоохранительного мышления одного этого факта вполне достаточно, чтобы оправдать очередное вторжение в гражданские права SH.</p>
 <empty-line/>
-<subtitle>Справедливая сделка для кабельных пиратов</subtitle>
+</section>
+<section id="toc_sub_000091"><title><p>Справедливая сделка для кабельных пиратов</p></title>
 <empty-line/>
 <p><emphasis>Автор: David Hartshorn</emphasis></p>
 <empty-line/>
@@ -1252,7 +1341,8 @@
 <empty-line/>
 <p>Подробности: (800)444-3474</p>
 <empty-line/>
-<subtitle>Clark Development Systems переходит к жёстким мерам</subtitle>
+</section>
+<section id="toc_sub_000092"><title><p>Clark Development Systems переходит к жёстким мерам</p></title>
 <empty-line/>
 <p><emphasis>Автор: Crimson Death (сисоп Free Speech BBS)</emphasis></p>
 <empty-line/>
@@ -1263,7 +1353,8 @@
 <empty-line/>
 <p>Мне кажется, они пытаются всех запугать. Я думаю, у ФБР есть занятия поважнее, чем гоняться за сисопами, которые не купили PC-Board. По крайней мере, надеюсь на это. Сначала они ввели ключ, необходимый для запуска бета-версии PCB: его можно было получить только введя REGISTER на Salt Air, после чего система шифровала ваше имя и выдавала ключ для регистрации беты. В бета-код версии 14.5a также была встроена дата истечения срока, но уже в первый день выхода релиза на Salt Air пираты создали программу, позволявшую генерировать собственный ключ с любым именем. Судя по всему, и эта «новая» техника Clark Systems тоже не удалась — уже взломана. Может, им стоит сосредоточиться на том, как PC-Board функционирует в качестве BBS, а не на защите от взлома. Тем более что большинство пиратских систем в любом случае не работают на PC-Board!</p>
 <empty-line/>
-<subtitle>Новый код города в Джорджии</subtitle>
+</section>
+<section id="toc_sub_000093"><title><p>Новый код города в Джорджии</p></title>
 <empty-line/>
 <p>Использование телефонной связи в Джорджии возросло настолько стремительно — вследствие роста населения и распространения таких сервисов, как факс и мобильная связь — что телефонных номеров начинает не хватать.</p>
 <empty-line/>
@@ -1275,13 +1366,15 @@
 <empty-line/>
 <p>О введении нового кода объявлено заблаговременно, чтобы клиенты могли подготовиться к изменениям.</p>
 <empty-line/>
-<subtitle>Отключение 20 июля 1991 года</subtitle>
+</section>
+<section id="toc_sub_000094"><title><p>Отключение 20 июля 1991 года</p></title>
 <empty-line/>
 <p><emphasis>Из AT&amp;T Newsbriefs (и дополнительных источников: San Francisco Chronicle (7/20/91, A5) и Dallas Times Herald (7/20/91, A20))</emphasis></p>
 <empty-line/>
 <p>Некий хулиган, перехвативший и перенаправивший конфиденциальные телефонные сообщения из систем голосовой почты мэрии \&lt;Хьюстона, штат Техас\&gt;, вынудил официальных лиц отключить телефонную систему. Город приобрёл эту высокотехнологичную телефонную систему в 1986 году за 28 миллионов долларов. Однако чиновники забыли обязать каждого сотрудника использовать пароль, позволяющий только ему самому получать или переадресовывать голосовые сообщения из его «телефонного ящика», пояснил представитель AT&amp;T Вёрджил Уайлди. В результате, по его словам, любой человек, понимающий принцип работы системы, может перенаправлять сообщения куда угодно, создавая полный хаос.</p>
 <empty-line/>
-<subtitle>Арест, связанный с Red October</subtitle>
+</section>
+<section id="toc_sub_000095"><title><p>Арест, связанный с Red October</p></title>
 <empty-line/>
 <p><emphasis>Авторы: Stickman, Luis Cipher, Orion, Haywire, Sledge и Kafka Kierkegaard</emphasis></p>
 <empty-line/>
@@ -1295,11 +1388,13 @@
 <empty-line/>
 <p>BBS Red October являлась площадкой групп THG/TSAN/NapE, имела четыре узла, 4 гигабайта жёсткого диска в онлайн-доступе и проработала четыре года.</p>
 <empty-line/>
-<subtitle>Антипиратский натиск Novell</subtitle>
+</section>
+<section id="toc_sub_000096"><title><p>Антипиратский натиск Novell</p></title>
 <empty-line/>
 <p>Обыск Novell на BBS Red October 7 августа 1991 года стал последним эпизодом продолжающейся два года антипиратской кампании. На той же неделе, когда произошёл обыск у Red October, была совершена облава и на оригинальный Wishlist BBS в Редондо-Бич, Калифорния. В апреле того же года (1991) Novell подала иск против семи реселлеров в пяти штатах, обвинённых в незаконной продаже NetWare. Осенью прошлого года было конфисковано оборудование двух жителей Теннесси, обвинённых в перепродаже NetWare через BBS. По словам Дэвида Брэдфорда, старшего вице-президента и главного юрисконсульта Novell, а также председателя Фонда защиты авторских прав Ассоциации издателей программного обеспечения, борьба с пиратством принесла свои плоды.</p>
 <empty-line/>
-<subtitle>Лотерея может использовать Nintendo как альтернативный способ участия 1 сентября 1991 года</subtitle>
+</section>
+<section id="toc_sub_000097"><title><p>Лотерея может использовать Nintendo как альтернативный способ участия 1 сентября 1991 года</p></title>
 <empty-line/>
 <p><emphasis>Взято из Minneapolis Star Tribune (раздел B)</emphasis></p>
 <empty-line/>
@@ -1309,7 +1404,8 @@
 <empty-line/>
 <p>Необходимо решить ряд вопросов: организация системы предоплаты для игроков, компьютерная безопасность и регистрация совершеннолетних. Nintendo-приставки имеются в 32% домохозяйств Миннесоты. Примерно половина пользователей приставок старше 18 лет. Участники летнего эксперимента получат приставку Nintendo, телефонный модем и лотерейный картридж.</p>
 <empty-line/>
-<subtitle>15 000 писем по следам «Кукушкиного яйца» 8 сентября 1991 года</subtitle>
+</section>
+<section id="toc_sub_000098"><title><p>15 000 писем по следам «Кукушкиного яйца» 8 сентября 1991 года</p></title>
 <empty-line/>
 <p><emphasis>Перепечатано из RISKS Digest</emphasis> <emphasis>Автор: Cliff Stoll</emphasis></p>
 <empty-line/>
@@ -1325,13 +1421,14 @@
 <empty-line/>
 <p>С уважением, Cliff Stoll cliff@cfa.harvard.edu stoll@ocf.berkeley.edu</p>
 </section>
+</section>
 <section id="sec_issue_033_012_phrack_world_news">
 <title><p>Мировые новости Phrack</p></title>
 <p><strong>Автор:</strong> Составлено Dispater</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_012_phrack_world_news_0007_c38e5511a4.png"/>
 <empty-line/>
-<subtitle>Legion of Doom открывает компанию</subtitle>
+<section id="toc_sub_000099"><title><p>Legion of Doom открывает компанию</p></title>
 <empty-line/>
 <p>Ниже приводится подборка нескольких статей Майкла Александра из журнала ComputerWorld о компании Comsec Data Security, Inc.</p>
 <empty-line/>
@@ -1339,7 +1436,8 @@
 <empty-line/>
 <p>Chris Goggans a/k/a Erik Bloodaxe 60 Braeswood Square Scott Chasin a/k/a Doc Holiday Houston, Texas 77096 Kenyon Shulman a/k/a Malefactor (713)721-6500 Robert Cupps — не бывший хакер (713)721-6579 FAX</p>
 <empty-line/>
-<subtitle>Хакеры улучшают имидж (стр. 124, 24 июня 1991 г.)</subtitle>
+</section>
+<section id="toc_sub_000100"><title><p>Хакеры улучшают имидж (стр. 124, 24 июня 1991 г.)</p></title>
 <empty-line/>
 <p>ХЬЮСТОН. Трое самопровозглашённых членов Legion of Doom — одной из самых печально известных хакерских группировок в США — заявили, что теперь хотят получать деньги за свои навыки. Вместе с бывшим биржевым трейдером они основали компанию по компьютерной безопасности Comsec Data Security, которая будет помогать корпорациям защищаться от хакеров.</p>
 <empty-line/>
@@ -1363,11 +1461,13 @@
 <empty-line/>
 <p><emphasis>(Статья сопровождается цветной фотографией всех четырёх основателей Comsec)</emphasis></p>
 <empty-line/>
-<subtitle>Предложение, от которого трудно отказаться? (стр. 82, 1 июля 1991 г.)</subtitle>
+</section>
+<section id="toc_sub_000101"><title><p>Предложение, от которого трудно отказаться? (стр. 82, 1 июля 1991 г.)</p></title>
 <empty-line/>
 <p>Том Пелетье, специалист по информационной безопасности General Motors в Детройте, говорит, что никогда не наймёт Comsec Data Security — консалтинговую компанию в области безопасности, основанную тремя бывшими членами Legion of Doom. «Не берёшь же ты неизвестно кого и не вручаешь им ключи от королевства», — сказал Пелетье. Крис Гоггинс, один из основателей Comsec, парировал: «У нас нет ключей от их королевства, но я навскидку знаю как минимум четырёх человек, у которых они есть.» Comsec предложила провести бесплатное тестирование на проникновение систем GM, чтобы доказать серьёзность намерений компании, сообщил Гоггинс. «Им нужно лишь подписать форму о том, что они не будут нас преследовать.»</p>
 <empty-line/>
-<subtitle>Группа обманула экспертов по безопасности (стр. 16, 29 июля 1991 г.)</subtitle>
+</section>
+<section id="toc_sub_000102"><title><p>Группа обманула экспертов по безопасности (стр. 16, 29 июля 1991 г.)</p></title>
 <empty-line/>
 <p><strong>«Хьюстонская Comsec одурачила консультантов, чтобы собрать информацию о безопасности»</strong></p>
 <empty-line/>
@@ -1377,7 +1477,7 @@
 <empty-line/>
 <p>Трое из четырёх основателей Comsec — самопровозглашённые бывшие члены Legion of Doom, одной из самых известных в стране хакерских группировок, по данным правоохранителей.</p>
 <empty-line/>
-<p>«В своём пресс-релизе они говорят: &quot;Наша фирма выбрала уникальный подход к стратегии продаж&quot;», — сказал один из консультантов, попросивший об анонимности по причине профессионального конфуза. «Что ж, социальная инженерия — это, безусловно, уникальная стратегия продаж.»</p>
+<p>«В своём пресс-релизе они говорят: "Наша фирма выбрала уникальный подход к стратегии продаж"», — сказал один из консультантов, попросивший об анонимности по причине профессионального конфуза. «Что ж, социальная инженерия — это, безусловно, уникальная стратегия продаж.»</p>
 <empty-line/>
 <p>Социальная инженерия — это метод, широко используемый хакерами для получения информации от готовых помочь, но ничего не подозревающих сотрудников, которая затем может быть использована для взлома компьютерной системы.</p>
 <empty-line/>
@@ -1389,7 +1489,8 @@
 <empty-line/>
 <p>Морган сообщил, что его компания получила семь или восемь звонков от консультантов по безопасности, которые follow up'ились по информации, отправленной ими «Карлу Стивенсу» — якобы вице-президенту компании.</p>
 <empty-line/>
-<subtitle>Всё та же история</subtitle>
+</section>
+<section id="toc_sub_000103"><title><p>Всё та же история</p></title>
 <empty-line/>
 <p>Все консультанты рассказали Моргану одно и то же: их связался «Стивенс», который заявил, что готовится провести аудит безопасности и ему нужна информация, чтобы продать эту идею высшему руководству. «Стивенс» попросил консультантов подготовить подробное предложение с описанием этапов аудита безопасности, ценами и прочей информацией.</p>
 <empty-line/>
@@ -1403,7 +1504,8 @@
 <empty-line/>
 <p>«Они определённо подтверждают, что звонили некоторым своим конкурентам», — сказал Майкл Кэш, адвокат, представляющий Comsec. «То, что они использовали Landmark Graphics, — это их ошибка, но это было первое название, которое пришло им в голову. Они никак не проникали в Landmark Graphics.»</p>
 <empty-line/>
-<subtitle>ФУТБОЛКИ «LEGION OF DOOM — INTERNET WORLD TOUR»!</subtitle>
+</section>
+<section id="toc_sub_000104"><title><p>ФУТБОЛКИ «LEGION OF DOOM — INTERNET WORLD TOUR»!</p></title>
 <empty-line/>
 <p>Теперь и вы можете стать обладателем официальной футболки Legion of Doom. Это та самая рубашка, которая мгновенно разошлась на хакерской конференции «Cyberview» в Сент-Луисе. Присоединяйтесь к числу гордых владельцев, в числе которых лауреат премий писатель Брюс Стерлинг, добавив этот коллекционный предмет в свой гардероб. Эта профессионально изготовленная, стопроцентно хлопковая рубашка напечатана с обеих сторон. На лицевой стороне изображена надпись «Legion of Doom Internet World Tour», а также меч и телефон, пронзающие земной шар в стиле «череп и скрещённые кости». На обороте — слова «Hacking for Jesus», а также внушительный список «остановок тура» (интернет-сайтов) и цитата Алистера Кроули. Эта футболка продаётся исключительно как сувенирный товар и ни в коей мере не пытается прославить компьютерные преступления.</p>
 <empty-line/>
@@ -1411,7 +1513,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_012_phrack_world_news_0110_48471bc1da.png"/>
 <empty-line/>
-<subtitle>Steve Jackson Games против Соединённых Штатов Америки</subtitle>
+</section>
+<section id="toc_sub_000105"><title><p>Steve Jackson Games против Соединённых Штатов Америки</p></title>
 <empty-line/>
 <p><emphasis>Статьи перепечатаны из Effector Online 1.04 и 1.08</emphasis> <emphasis>1 мая 1991 г. / 24 августа 1991 г.</emphasis></p>
 <empty-line/>
@@ -1451,7 +1554,8 @@
 <empty-line/>
 <p>Данный иск направлен на отстаивание прав небольшого успешного предпринимателя/издателя на ведение исключительно законной деятельности без неоправданного вмешательства государства. Также целью данного судебного разбирательства является твёрдое установление принципа, согласно которому законная деятельность, осуществляемая с помощью компьютерных технологий, включая компьютерные коммуникации и публикации, имеет право на те же конституционные гарантии, которые давно предоставлены печатным СМИ. Компьютеры и модемы — не менее, чем печатные станки, пишущие машинки, почта и телефоны, будучи средствами, которые американцы выбирают для общения друг с другом, — защищены нашими конституционными правами.</p>
 <empty-line/>
-<subtitle>Фактические обстоятельства и стороны:</subtitle>
+</section>
+<section id="toc_sub_000106"><title><p>Фактические обстоятельства и стороны:</p></title>
 <empty-line/>
 <p>Стив Джексон из Остина, штат Техас, — успешный представитель малого бизнеса. Его компания Steve Jackson Games — отмеченный наградами издатель приключенческих игр и соответствующих книг и журналов. Помимо книг и журналов, SJG управляет электронной BBS (Illuminati BBS) для своих клиентов и всех, кто интересуется приключенческими играми и смежными литературными жанрами.</p>
 <empty-line/>
@@ -1465,7 +1569,8 @@
 <empty-line/>
 <p>Эти ответчики — те же самые лица и организации, несущие ответственность за уголовное преследование в прошлом году электронного издателя Крейга Нейдорфа. Правительство в том деле предъявило обвинение в том, что публикация Нейдорфом материалов о системе улучшенной экстренной связи 911 представляла собой межштатную перевозку похищенного имущества. Преследование завершилось в пользу Нейдорфа в июле 1990 года, когда Нейдорф доказал, что опубликованные им материалы были общедоступны.</p>
 <empty-line/>
-<subtitle>Правовое значение:</subtitle>
+</section>
+<section id="toc_sub_000107"><title><p>Правовое значение:</p></title>
 <empty-line/>
 <p>Данное дело касается конституционных и законодательных прав издателей, ведущих свою деятельность в электронных СМИ, а не в традиционных печатных СМИ, а также прав физических лиц и компаний, использующих компьютерные технологии для общения и ведения личных и деловых дел.</p>
 <empty-line/>
@@ -1479,7 +1584,8 @@
 <empty-line/>
 <p>• <strong>Закон о конфиденциальности электронных коммуникаций и Федеральный закон о прослушивании</strong>, которые вместе запрещают правительству изымать электронные коммуникации без обоснования и надлежащего разрешения.</p>
 <empty-line/>
-<subtitle>ОБНОВЛЕНИЕ ПО ДЕЛУ STEVE JACKSON GAMES: ПРАВИТЕЛЬСТВО ПОДАЁТ ОТВЕТ</subtitle>
+</section>
+<section id="toc_sub_000108"><title><p>ОБНОВЛЕНИЕ ПО ДЕЛУ STEVE JACKSON GAMES: ПРАВИТЕЛЬСТВО ПОДАЁТ ОТВЕТ</p></title>
 <empty-line/>
 <p>После нескольких задержек EFF наконец получила ответ правительства на иск Steve Jackson Games. Наши адвокаты тщательно изучают эти документы, и вскоре мы сможем дать более подробный комментарий.</p>
 <empty-line/>
@@ -1487,7 +1593,8 @@
 <empty-line/>
 <p>«В целом этот ответ не содержит для нас ничего неожиданного. Напротив, он подтверждает, что события по данному делу разворачивались именно так, как мы и предполагали. Наша позиция по-прежнему очень сильна. Кроме того, по мере продвижения вперёд становится всё очевиднее, что дело Steve Jackson Games станет переломным судебным процессом в части распространения конституционных гарантий на данный носитель.»</p>
 <empty-line/>
-<subtitle>Федералы арестовывают «установщика логической бомбы» (1 июля 1991 г.)</subtitle>
+</section>
+<section id="toc_sub_000109"><title><p>Федералы арестовывают «установщика логической бомбы» (1 июля 1991 г.)</p></title>
 <empty-line/>
 <p><emphasis>by Michael Alexander (ComputerWorld) (стр. 10)</emphasis></p>
 <empty-line/>
@@ -1501,20 +1608,22 @@
 <empty-line/>
 <p>20 марта он создал программу под названием Cleanup, которая при запуске удалила бы программу PTP, удалила бы другой набор программ, использовавшихся для ответа на запросы правительства об информации, а затем самоуничтожилась бы без следа, — об этом рассказал Митчелл Дембин, помощник прокурора США, ведущий данное дело.</p>
 </section>
+</section>
 <section id="sec_issue_033_013_phrack_world_news_issue_33_part_3">
 <title><p>Мировые новости Phrack, выпуск XXXIII, часть третья</p></title>
 <image l:href="#img__code_blocks_issue_033_013_phrack_world_news_issue_33_part_3_0003_2aea2fa060.png"/>
 <empty-line/>
 <p><strong>Автор:</strong> Составил Dispater</p>
 <empty-line/>
-<subtitle>Пентагон открыт для хакеров!</subtitle>
+<section id="toc_sub_000110"><title><p>Пентагон открыт для хакеров!</p></title>
 <p><emphasis>9 сентября 1991 года</emphasis> <emphasis>Источник: USA Today</emphasis></p>
 <empty-line/>
 <p>ФБР расследует заявление израильского подростка о том, что во время войны в Персидском заливе он взломал компьютер Пентагона. Израильская газета в воскресенье назвала хакера — им оказался 18-летний Дери Шрайбман. В пятницу он был задержан в Иерусалиме, однако отпущен без предъявления обвинений. По сообщению «Едиот Ахронот», Шрайбман читал секретные сведения о ракете «Пэтриот» — применённой в этой войне впервые для уничтожения иракских «Скадов» в полёте.</p>
 <empty-line/>
-<p>«Нигде не было написано &quot;Вход воспрещён&quot;», — приводит слова Шрайбмана, сказанные полиции, цитата из газеты. — «Там просто написано: &quot;Добро пожаловать&quot;». Официальный ответ Пентагона: ведомство относится к «компьютерной безопасности очень серьёзно», заявил в воскресенье пресс-секретарь, капитан ВВС Сэм Гриззл. Аналитики говорят, что это не первый случай проникновения в военные компьютеры. «Не существует... системы защиты, которая была бы на 100% надёжной», — говорит Алан Сабровски, профессор Родс-колледжа в Мемфисе.</p>
+<p>«Нигде не было написано "Вход воспрещён"», — приводит слова Шрайбмана, сказанные полиции, цитата из газеты. — «Там просто написано: "Добро пожаловать"». Официальный ответ Пентагона: ведомство относится к «компьютерной безопасности очень серьёзно», заявил в воскресенье пресс-секретарь, капитан ВВС Сэм Гриззл. Аналитики говорят, что это не первый случай проникновения в военные компьютеры. «Не существует... системы защиты, которая была бы на 100% надёжной», — говорит Алан Сабровски, профессор Родс-колледжа в Мемфисе.</p>
 <empty-line/>
-<subtitle>Telesphere подана в суд кредиторами; компания вынуждена объявить о банкротстве</subtitle>
+</section>
+<section id="toc_sub_000111"><title><p>Telesphere подана в суд кредиторами; компания вынуждена объявить о банкротстве</p></title>
 <p><emphasis>Источник: Telecom Digest (comp.dcom.telecom)</emphasis></p>
 <empty-line/>
 <p>В понедельник, 19 августа, компания Telesphere Communications, Inc. была подана в суд группой из десяти кредиторов, утверждающих, что компания, наиболее известная своими услугами 900-х номеров, не оплачивает свои счета. Группа кредиторов — все они являются информационными провайдерами, пользующимися номерами 900 через Telesphere, — заявляет, что компания задолжала им в общей сложности два миллиона долларов за услуги, оказанные через телефонные развлекательные линии, спортивные прогнозы, гороскопы, линии откровенных разговоров и прочие сервисы. По их словам, Telesphere на протяжении нескольких месяцев не выплачивает им причитающиеся комиссионные. Группа кредиторов обратилась в суд по делам о банкротстве США в штате Мэриленд с требованием инициировать в отношении Telesphere принудительное банкротство по главе 7 (то есть ликвидацию компании и распределение всех активов между кредиторами).</p>
@@ -1525,7 +1634,8 @@
 <empty-line/>
 <p>Прежде базировавшаяся в Чикагском регионе (г. Оук-Брук, штат Иллинойс), Telesphere ныне расположена в Роквилле, штат Мэриленд.</p>
 <empty-line/>
-<subtitle>Хищение телефонных услуг у корпораций стремительно растёт</subtitle>
+</section>
+<section id="toc_sub_000112"><title><p>Хищение телефонных услуг у корпораций стремительно растёт</p></title>
 <p><emphasis>28 августа 1991 года</emphasis> <emphasis>Автор: Эдмунд Л. Эндрюс (New York Times)</emphasis></p>
 <empty-line/>
 <p>«Это, безусловно, крупнейший сегмент мошенничества в сфере связи», — говорит Рами Абухамдех, независимый консультант и до недавнего времени исполнительный директор Ассоциации по борьбе с мошенничеством в области связи в Маклине, штат Вирджиния. «Всё это оборудование просто ждёт ваших звонков, и управляется людьми, для которых защита телекоммуникаций не является профессией».</p>
@@ -1540,7 +1650,8 @@
 <empty-line/>
 <p>Компания Consumertronics, торгующая по каталогу из Аламогордо, штат Нью-Мексико, продаёт брошюры за 29 долларов, описывающие общие принципы взлома голосовой почты и конкретные уязвимости различных моделей. В брошюру включён список номеров 800 с указанием типов подключённых к ним систем голосовой почты. «Это в образовательных целях», — заявил владелец компании Джон Уильямс, добавив, что принимает Mastercard и Visa. Аналогичные сведения можно почерпнуть из журнала «2600 Magazine» — ежеквартального издания, посвящённого телефонному хакингу и выпускаемого в Мидл-Айленде, штат Нью-Йорк.</p>
 <empty-line/>
-<subtitle>Procter &amp; Gamble</subtitle>
+</section>
+<section id="toc_sub_000113"><title><p>Procter &amp; Gamble</p></title>
 <p><emphasis>22 августа 1991 года</emphasis> <emphasis>Источник: Telecom Digest</emphasis></p>
 <empty-line/>
 <p>12 августа 1991 года The Wall Street Journal опубликовал материал на первой полосе о расследовании, которое полиция Цинциннати провела в отношении телефонных записей по запросу компании Procter &amp; Gamble Co. — с целью установить, кто мог передать внутреннюю информацию в редакцию Wall Street Journal. Речь шла о публикациях предположительно за период с 1 марта по 10 июня 1991 года, что побудило P&amp;G обратиться за защитой по закону штата Огайо о коммерческой тайне. В связи с возможным нарушением этого закона Большое жюри выдало повестку о предоставлении записей определённых телефонных звонков, совершённых в питтсбургский офис Wall Street Journal из района Цинциннати, а также на домашний номер журналиста этого издания. Для понимания контекста: питтсбургский офис Wall Street Journal представлял интерес предположительно в силу того, что именно журналист Алеша Суэзи была ответственна за освещение деятельности Procter &amp; Gamble и работала из питтсбургского офиса.</p>
@@ -1571,17 +1682,20 @@
 <empty-line/>
 <p>Тем временем Cincinnati Post опубликовал редакционный комментарий за минувшие выходные, назвав просьбу P&amp;G о полицейском расследовании «примерно тем же, что и когда самый здоровый игрок в уличный баскетбол кричит о фоле, стоит кому-то его едва задеть». Наконец, AP в материале от 18 августа 1991 года обратило внимание на «тесные отношения» между городом Цинциннати и P&amp;G. В подтверждение этой близости мэр Цинциннати Дэвид Манн был процитирован следующим образом: «Традиция здесь такова: в любом гражданском или благотворительном начинании нужно заполучить P&amp;G на борт — и все остальные выстроятся в очередь». Как человек, проживший вблизи Цинциннати восемь лет, я могу подтвердить: отношения Procter &amp; Gamble с городом действительно были весьма тесными.</p>
 <empty-line/>
-<subtitle>Хакер обвиняется в Австралии</subtitle>
+</section>
+<section id="toc_sub_000114"><title><p>Хакер обвиняется в Австралии</p></title>
 <p><emphasis>13 августа 1991 года</emphasis></p>
 <empty-line/>
 <p>По сообщению Associated Press из Мельбурна, 20-летний студент специальности «информатика» Нахшон Эвен-Хаим обвиняется в магистратском суде Мельбурна в несанкционированном доступе к одному из компьютеров CSIRO (государственного исследовательского института Австралии), а также по 47 эпизодам незаконного использования телефонной сети Telecom Australia для несанкционированного доступа к компьютерам различных американских организаций — в том числе университетов, NASA, Лаборатории Лоуренса Ливермора и компании Execucom Systems Corp. из Остина, штат Техас, где он, по имеющимся данным, уничтожил важные файлы, включая единственную опись активов компании. По словам обвинения, полиция записала телефонные разговоры, в которых Эвен-Хаим описывал некоторые из своих действий. В рамках продолжающегося досудебного разбирательства обвиняемый пока не заявил о признании или непризнании вины.</p>
 <empty-line/>
-<subtitle>«Позвони Папе» завоёвывает популярность в США</subtitle>
+</section>
+<section id="toc_sub_000115"><title><p>«Позвони Папе» завоёвывает популярность в США</p></title>
 <p><emphasis>17 августа 1991 года</emphasis> <emphasis>Источник: Toronto Star</emphasis></p>
 <empty-line/>
 <p>Ватикан тянется к миру, однако Канада, похоже, не торопится откликнуться. В США, набрав номер 900, можно ежедневно получать духовное напутствие от Папы Иоанна Павла II. Многоязычный сервис, официально авторизованный Ватиканом и ласково прозванный «Позвони Папе», носит официальное название «Christian Messaging From the Vatican». Представитель Bell Canada сообщил, что подобного номера в Канаде не существует. Тем не менее Дес Бёрдж, директор по коммуникациям Архиепархии Торонто, считает этот платный для американских абонентов сервис хорошим способом помочь людям ощутить свою связь с Папой. (Toronto Star)</p>
 <empty-line/>
-<subtitle>PWN: Краткие заметки</subtitle>
+</section>
+<section id="toc_sub_000116"><title><p>PWN: Краткие заметки</p></title>
 <empty-line/>
 <p><strong>1.</strong> Agent Steal сидит в тюрьме в Техасе в ожидании суда по различным обвинениям, включая мошенничество с кредитными картами и угон автомобилей.</p>
 <empty-line/>
@@ -1603,7 +1717,7 @@
 <empty-line/>
 <p><strong>9.</strong> «Высокий полдень на электронном фронтире» — осенью этого года Верховный суд США может вынести решение по апелляции на приговор по делу «США против Роберта Таппана Морриса». Напомним: Моррис — бывший студент Корнеллского университета, случайно парализовавший Интернет с помощью программы-червя. Моррис также упоминается в книге «Киберпанк» Кэти Хафнер и Джона Маркоффа.</p>
 <empty-line/>
-<p><strong>10.</strong> «Компьютеризированные уголовные досье ФБР» — в системах уголовных записей ФБР и штатов по-прежнему имеются «значительные пробелы в автоматизации и полноте данных», — сообщает Бюро по оценке технологий Конгресса в исследовании «Автоматизированная проверка данных о покупателях огнестрельного оружия: проблемы и варианты решений». По оценке OTA, создание системы полной и точной «мгновенной» проверки по имени данных государственных и федеральных уголовных баз при покупке оружия займёт несколько лет и обойдётся в 200–300 миллионов долларов. ФБР до сих пор получает сведения о решениях суда (обвинительный приговор, прекращение дела, оправдание и т. д.) лишь по половине из 17 000 записей об арестах, ежедневно вносимых в систему. Таким образом, «примерно половина арестов в базе уголовных дел ФБР (&quot;Межштатный идентификационный индекс&quot;, он же &quot;Triple I&quot;) не имеет информации о судебных решениях. ФБР с трудом удаётся получать эти данные». OTA отметило, что наиболее близкая к системе мгновенной проверки практика для покупателей оружия действует в Вирджинии: из каждых 100 покупателей 94 получают одобрение в течение 90 секунд, однако из шести отказов четыре-пять впоследствии оказываются основаны на ошибочных данных (совпадение имён, арест за тяжкое преступление, не повлёкший обвинительного приговора, или судимость за проступок, не лишающая права на владение оружием). (62 стр., 3 долл. — OTA, Washington, D.C. 20510-8025, 202/224-9241; или U.S. Government Printing Office, Stock No. 052-003-01247-2, Washington, D.C. 20402-9325, 202/783-3238). (Privacy Journal, август 1991, стр. 3)</p>
+<p><strong>10.</strong> «Компьютеризированные уголовные досье ФБР» — в системах уголовных записей ФБР и штатов по-прежнему имеются «значительные пробелы в автоматизации и полноте данных», — сообщает Бюро по оценке технологий Конгресса в исследовании «Автоматизированная проверка данных о покупателях огнестрельного оружия: проблемы и варианты решений». По оценке OTA, создание системы полной и точной «мгновенной» проверки по имени данных государственных и федеральных уголовных баз при покупке оружия займёт несколько лет и обойдётся в 200–300 миллионов долларов. ФБР до сих пор получает сведения о решениях суда (обвинительный приговор, прекращение дела, оправдание и т. д.) лишь по половине из 17 000 записей об арестах, ежедневно вносимых в систему. Таким образом, «примерно половина арестов в базе уголовных дел ФБР ("Межштатный идентификационный индекс", он же "Triple I") не имеет информации о судебных решениях. ФБР с трудом удаётся получать эти данные». OTA отметило, что наиболее близкая к системе мгновенной проверки практика для покупателей оружия действует в Вирджинии: из каждых 100 покупателей 94 получают одобрение в течение 90 секунд, однако из шести отказов четыре-пять впоследствии оказываются основаны на ошибочных данных (совпадение имён, арест за тяжкое преступление, не повлёкший обвинительного приговора, или судимость за проступок, не лишающая права на владение оружием). (62 стр., 3 долл. — OTA, Washington, D.C. 20510-8025, 202/224-9241; или U.S. Government Printing Office, Stock No. 052-003-01247-2, Washington, D.C. 20402-9325, 202/783-3238). (Privacy Journal, август 1991, стр. 3)</p>
 <empty-line/>
 <p>• - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
 <empty-line/>
@@ -1612,6 +1726,7 @@
 <p>Подписка — 98 долларов в год (125 долларов для зарубежных подписчиков); предусмотрены специальные льготные тарифы для студентов и других категорий читателей. Принимаются телефонные и почтовые заказы, оплата кредитными картами.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_033_013_phrack_world_news_issue_33_part_3_0159_bf83ff6740.png"/>
+</section>
 </section>
 </section>
 </body>

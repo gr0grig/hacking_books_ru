@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0"
-             xmlns:l="http://www.w3.org/1999/xlink">
+<?xml version='1.0' encoding='UTF-8'?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
 <description>
   <title-info>
     <genre>computers</genre>
@@ -38,9 +37,10 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_001_intro_to_phrack_v_0016_280ef8c4a6.png"/>
 <empty-line/>
-<subtitle>Содержание выпуска</subtitle>
+<section id="toc_sub_000001"><title><p>Содержание выпуска</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_001_intro_to_phrack_v_0023_f482657f0a.png"/>
+</section>
 </section>
 <section id="sec_issue_005_002_phrack_pro_phile_ii_broadway_hacker">
 <title><p>Phrack Pro-Phile II: Broadway Hacker</p></title>
@@ -52,7 +52,7 @@
 <empty-line/>
 <p>Broadway Hacker — sysop of The Radio Station, phreak/hack bulletin board в Brooklyn, N.Y., area code 718.</p>
 <empty-line/>
-<subtitle>Личные данные</subtitle>
+<section id="toc_sub_000002"><title><p>Личные данные</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_002_phrack_pro_phile_ii_broadway_hacker_0018_ee55b99f2f.png"/>
 <empty-line/>
@@ -70,19 +70,23 @@
 <empty-line/>
 <p>Он сделал принципом не вступать в группы, хотя в прошлом его приглашали во многие.</p>
 <empty-line/>
-<subtitle>Интересы</subtitle>
+</section>
+<section id="toc_sub_000003"><title><p>Интересы</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_002_phrack_pro_phile_ii_broadway_hacker_0049_42f56a44eb.png"/>
 <empty-line/>
-<subtitle>Любимые вещи Broadway Hacker</subtitle>
+</section>
+<section id="toc_sub_000004"><title><p>Любимые вещи Broadway Hacker</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_002_phrack_pro_phile_ii_broadway_hacker_0061_8777927276.png"/>
 <empty-line/>
-<subtitle>Самые запомнившиеся события</subtitle>
+</section>
+<section id="toc_sub_000005"><title><p>Самые запомнившиеся события</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_002_phrack_pro_phile_ii_broadway_hacker_0070_4827e31392.png"/>
 <empty-line/>
-<subtitle>Люди, которых стоит упомянуть</subtitle>
+</section>
+<section id="toc_sub_000006"><title><p>Люди, которых стоит упомянуть</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_002_phrack_pro_phile_ii_broadway_hacker_0077_acd3054b37.png"/>
 <empty-line/>
@@ -100,6 +104,7 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_002_phrack_pro_phile_ii_broadway_hacker_0093_37287abef1.png"/>
 </section>
+</section>
 <section id="sec_issue_005_003_hacking_the_dec_10">
 <title><p>Взлом системы DEC-10</p></title>
 <p><strong>Автор:</strong> Carrier Culprit</p>
@@ -108,13 +113,13 @@
 <empty-line/>
 <p>Примечание: Этот файл был распространён по ошибке — он не был завершён. Перед вами новое исправленное издание. Если вы видите мой файл на каком-либо AE, BBS, Catfur и это не исправленное издание — пожалуйста, попросите сисопа удалить его. Спасибо.</p>
 <empty-line/>
-<subtitle>Часть I: Вход в систему и основные команды</subtitle>
+<section id="toc_sub_000007"><title><p>Часть I: Вход в систему и основные команды</p></title>
 <empty-line/>
 <p>Примечание: Сисопы могут скачать этот файл, но пожалуйста сохраняйте соответствующие указания об авторстве.</p>
 <empty-line/>
 <p>Добро пожаловать в мир взлома DEC-10!</p>
 <empty-line/>
-<p>Есть один способ распознать DEC-10: вы увидите приглашение &quot;.&quot;. Сначала появится небольшое приветственное сообщение, похожее на приветствие при входе на BBS. Например:</p>
+<p>Есть один способ распознать DEC-10: вы увидите приглашение ".". Сначала появится небольшое приветственное сообщение, похожее на приветствие при входе на BBS. Например:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_003_hacking_the_dec_10_0021_2c81774fb2.png"/>
 <empty-line/>
@@ -156,21 +161,21 @@
 <empty-line/>
 <p>Есть и другие полезные команды, доступные даже без аккаунта. Вы можете получить доступ к Decnet, о котором я расскажу позже — это очень интересно для хакера.</p>
 <empty-line/>
-<p>Также существует команда &quot;Help Phone&quot;. Она выводит список телефонных номеров различных служб, связанных с DEC. Например:</p>
+<p>Также существует команда "Help Phone". Она выводит список телефонных номеров различных служб, связанных с DEC. Например:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_003_hacking_the_dec_10_0084_fd4ca53d73.png"/>
 <empty-line/>
 <p>Наиболее важными для вас будут номера оператора DEC-10 и персонала DEC-10.</p>
 <empty-line/>
-<p>Самая важная команда на DEC-10 — &quot;Systat&quot;: она выводит список PPN, время, выполняемое задание и время работы. Получив PPN, можно начинать подбирать пароли. Использование systat — самый простой и лёгкий способ узнать PPN. Проще набирать &quot;SY&quot; вместо &quot;Systat&quot; — это одно и то же, просто сокращение.</p>
+<p>Самая важная команда на DEC-10 — "Systat": она выводит список PPN, время, выполняемое задание и время работы. Получив PPN, можно начинать подбирать пароли. Использование systat — самый простой и лёгкий способ узнать PPN. Проще набирать "SY" вместо "Systat" — это одно и то же, просто сокращение.</p>
 <empty-line/>
-<p>Вот небольшой пример того, что вы получите, выполнив команду &quot;sy&quot;:</p>
+<p>Вот небольшой пример того, что вы получите, выполнив команду "sy":</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_003_hacking_the_dec_10_0106_52b07cb52b.png"/>
 <empty-line/>
 <p>Вместе с вышеуказанным будет и ещё кое-что, но вдаваться в это не нужно — вот почему я это не включил. Также будет больше подзаголовков помимо Run Time, Who, What и Job — не заморачивайтесь и на этом.</p>
 <empty-line/>
-<p>Всё достаточно наглядно. Для начинающих поясню: столбец Job не важен. Столбец Who показывает, кто находится в системе. [OPR] означает оператора, а числа вроде 24,2 — обычные пользователи с PPN. Следующий столбец — &quot;What&quot; — показывает, что они выполняют или чем занимаются в данный момент. Run Time — время входа в систему, в военном формате. В systat также можно найти: структуры файловой системы, занятые устройства, сегменты высоты и структуру диска. Пока не беспокойтесь об этом.</p>
+<p>Всё достаточно наглядно. Для начинающих поясню: столбец Job не важен. Столбец Who показывает, кто находится в системе. [OPR] означает оператора, а числа вроде 24,2 — обычные пользователи с PPN. Следующий столбец — "What" — показывает, что они выполняют или чем занимаются в данный момент. Run Time — время входа в систему, в военном формате. В systat также можно найти: структуры файловой системы, занятые устройства, сегменты высоты и структуру диска. Пока не беспокойтесь об этом.</p>
 <empty-line/>
 <p>Итак, вы наконец получили несколько PPN. Следующий шаг — войти в систему с помощью описанной процедуры Log, ввести PPN вида xx,xx и попытаться подобрать пароли.</p>
 <empty-line/>
@@ -206,7 +211,7 @@
 <empty-line/>
 <p>Примечание: Вам всё равно может потребоваться войти в систему.</p>
 <empty-line/>
-<p>Итак, мы в системе после её верификации. Что делать? Для начала ещё раз посмотрим на &quot;systat&quot;. Мы замечаем, что ещё один пользователь вошёл в систему, но он находится в &quot;exe&quot; — это значит, что он ничего не делает или отключён. Иными словами, не обращайте на это внимания.</p>
+<p>Итак, мы в системе после её верификации. Что делать? Для начала ещё раз посмотрим на "systat". Мы замечаем, что ещё один пользователь вошёл в систему, но он находится в "exe" — это значит, что он ничего не делает или отключён. Иными словами, не обращайте на это внимания.</p>
 <empty-line/>
 <p>Если захотите сменить пароль, введите:</p>
 <empty-line/>
@@ -238,7 +243,7 @@
 <empty-line/>
 <p>Также встречаются файлы с расширениями: dat, bas, cmd, pcl, bin, hlp и другие.</p>
 <empty-line/>
-<p>1. Exe — исполняемые файлы, которые можно запускать из приглашения &quot;.&quot;.</p>
+<p>1. Exe — исполняемые файлы, которые можно запускать из приглашения ".".</p>
 <empty-line/>
 <p>2. Txt — текстовые файлы, которые могут содержать информацию, данные и многое другое. Это самые распространённые файлы, которые вы встретите у большинства пользователей с публичным каталогом — и, по моему опыту, наиболее популярные на DEC-10.</p>
 <empty-line/>
@@ -397,11 +402,13 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_003_hacking_the_dec_10_0462_82708d2700.png"/>
 <empty-line/>
-<subtitle>Decnet</subtitle>
+</section>
+<section id="toc_sub_000008"><title><p>Decnet</p></title>
 <empty-line/>
-<p>Поддерживается всеми компьютерами Digital. Для доступа введите 'Decnet' и попробуйте подобрать пароль. Decnet поддерживает такие узлы, как VMS, TOPS10 (операционная система для DEC-10), TOPS20 и другие. Аккаунты системных операторов могут пригодиться, если нужен пароль Decnet: попробуйте их пароль. Нередко пароль к Decnet — просто &quot;Decnet&quot;. Формат: Set Host xxxx</p>
+<p>Поддерживается всеми компьютерами Digital. Для доступа введите 'Decnet' и попробуйте подобрать пароль. Decnet поддерживает такие узлы, как VMS, TOPS10 (операционная система для DEC-10), TOPS20 и другие. Аккаунты системных операторов могут пригодиться, если нужен пароль Decnet: попробуйте их пароль. Нередко пароль к Decnet — просто "Decnet". Формат: Set Host xxxx</p>
 <empty-line/>
-<subtitle>Acsnet</subtitle>
+</section>
+<section id="toc_sub_000009"><title><p>Acsnet</p></title>
 <empty-line/>
 <p>Это, пожалуй, моё любимое. Поддерживает DEC-10 и многие другие компьютеры. При входе вы увидите что-то вроде:</p>
 <empty-line/>
@@ -423,6 +430,7 @@
 <empty-line/>
 <p>[КОНЕЦ] Исправленное издание (C) Апрель, 1986</p>
 </section>
+</section>
 <section id="sec_issue_005_004_hand_to_hand_combat">
 <title><p>Рукопашный бой</p></title>
 <p><strong>Автор:</strong> bad boy in black</p>
@@ -437,23 +445,26 @@
 <empty-line/>
 <p>Итак, позвольте обсудить некоторые основы, которые вам необходимо знать в любой боевой ситуации.</p>
 <empty-line/>
-<subtitle>Стойка</subtitle>
+<section id="toc_sub_000010"><title><p>Стойка</p></title>
 <empty-line/>
 <p>Лучшая стойка при встрече с противником — поставить ноги на ширину плеч, руки вытянуть вперёд параллельно друг другу и согнуть в локтях. Держите колени слегка согнутыми и стойте на подушечках стоп.</p>
 <empty-line/>
 <p>Помните: вы всегда должны сохранять эту стойку в те моменты, когда не наносите удары по противнику.</p>
 <empty-line/>
-<subtitle>Равновесие</subtitle>
+</section>
+<section id="toc_sub_000011"><title><p>Равновесие</p></title>
 <empty-line/>
 <p>Всегда важно сохранять равновесие. Если вы используете описанную выше стойку, вам не придётся об этом беспокоиться. Если же вы всё-таки потеряете равновесие хотя бы на секунду — можете попрощаться с жизнью, поскольку противник, скорее всего, убьёт вас.</p>
 <empty-line/>
-<subtitle>Агрессивность</subtitle>
+</section>
+<section id="toc_sub_000012"><title><p>Агрессивность</p></title>
 <empty-line/>
 <p>Всегда будьте агрессивны и всегда атакуйте. Не просто стойте в стороне и защищайтесь от ударов противника — в конечном счёте он всё равно убьёт вас. Если вы не проявляете агрессии, противник решит, что вы боитесь, и получит над вами преимущество.</p>
 <empty-line/>
 <p>Отличный приём — кричать на противника. Если вы начнёте орать на него, это здорово его напугает, а кроме того, позволит набрать больше кислорода в лёгкие, что придаст вам больше сил.</p>
 <empty-line/>
-<subtitle>Природное оружие</subtitle>
+</section>
+<section id="toc_sub_000013"><title><p>Природное оружие</p></title>
 <empty-line/>
 <p>Ваше природное оружие — это: ребро ладони любой руки, основание ладони, пальцы, согнутые во втором суставе, ваш ботинок, локоть, колени, зубы, указательный и средний пальцы, образующие форму «V», и кулак. Только эти части тела являются одними из мощнейших видов оружия, которые вы можете использовать.</p>
 <empty-line/>
@@ -461,95 +472,118 @@
 <empty-line/>
 <p>Теперь, когда вы знаете основы боя, позвольте перечислить лучшие места для ударов по противнику.</p>
 <empty-line/>
-<subtitle>Висок</subtitle>
+</section>
+<section id="toc_sub_000014"><title><p>Висок</p></title>
 <empty-line/>
 <p>Сильный удар в висок обеспечивает мгновенную смерть, поскольку там близко к поверхности кожи проходят крупная артерия и нерв. Удар средней силы вызовет сильную боль и сотрясение мозга, тогда как сильный удар убьёт противника мгновенно. Лучший способ ударить в висок — ребром ладони, а если противник лежит на земле, можно ударить его носком ботинка.</p>
 <empty-line/>
-<subtitle>Глаза</subtitle>
+</section>
+<section id="toc_sub_000015"><title><p>Глаза</p></title>
 <empty-line/>
 <p>Глаза — отличное место для удара, поскольку хороший удар в глаза вызывает временную или постоянную слепоту. Чтобы ослепить противника, сложите указательный и средний пальцы в форму «V» и вонзите их в его глаза, удерживая пальцы прямыми. Также можно выдавить глаза большим пальцем.</p>
 <empty-line/>
-<subtitle>Нос</subtitle>
+</section>
+<section id="toc_sub_000016"><title><p>Нос</p></title>
 <empty-line/>
 <p>Нос — ещё одно превосходное место для атаки. Ударьте по переносице ребром ладони — это вызовет перелом, сильную боль, временную слепоту и даже смерть. Или можно ударить основанием ладони снизу вверх, вбив нос в мозг. При достаточной силе удара носовая кость пробьёт мозг, и противник погибнет.</p>
 <empty-line/>
-<subtitle>Верхняя губа</subtitle>
+</section>
+<section id="toc_sub_000017"><title><p>Верхняя губа</p></title>
 <empty-line/>
 <p>В верхней губе близко к поверхности кожи расположено множество нервов, поэтому удар ребром ладони вызывает сильную боль, а при достаточной мощи — потерю сознания.</p>
 <empty-line/>
-<subtitle>Рот</subtitle>
+</section>
+<section id="toc_sub_000018"><title><p>Рот</p></title>
 <empty-line/>
 <p>Если противник лежит на земле, ударьте его по рту каблуком ботинка. Поскольку в зубах проходит множество вен и артерий, будет обильное кровотечение, которое напугает противника и нарушит его концентрацию при защите других частей тела.</p>
 <empty-line/>
-<subtitle>Подбородок</subtitle>
+</section>
+<section id="toc_sub_000019"><title><p>Подбородок</p></title>
 <empty-line/>
 <p>По подбородку следует бить только основанием ладони, поскольку о подбородок противника можно сломать пальцы. Используйте основание ладони и нанесите противнику очень мощный удар снизу вверх. Это вызовет сильнейший дискомфорт.</p>
 <empty-line/>
-<subtitle>Кадык</subtitle>
+</section>
+<section id="toc_sub_000020"><title><p>Кадык</p></title>
 <empty-line/>
 <p>Обычно противник хорошо защищает эту часть тела, но если вам выпадет возможность — нанесите резкий удар ребром ладони. При достаточной силе удара вы раздробите его трахею, и он умрёт. Также можно сдавить кадык пальцами.</p>
 <empty-line/>
-<subtitle>Пищевод</subtitle>
+</section>
+<section id="toc_sub_000021"><title><p>Пищевод</p></title>
 <empty-line/>
 <p>Если вам удастся схватить противника за шею, надавите большими пальцами на пищевод (расположен ниже кадыка). Сильное давление будет очень болезненным, перекроет доступ кислорода в лёгкие, и противник быстро умрёт.</p>
 <empty-line/>
-<subtitle>Шея</subtitle>
+</section>
+<section id="toc_sub_000022"><title><p>Шея</p></title>
 <empty-line/>
 <p>Очень сильный удар ребром ладони по основанию шеи обычно её ломает. Однако если удар недостаточно силён, противник может просто потерять сознание — поэтому обязательно ударьте его в висок или сверните шею, чтобы убедиться, что он мёртв. Шея — лучшее место для удара, если вам нужна тишина: это быстро, и противник падает без единого звука.</p>
 <empty-line/>
-<subtitle>Ключица</subtitle>
+</section>
+<section id="toc_sub_000023"><title><p>Ключица</p></title>
 <empty-line/>
 <p>Ключица — чрезвычайно чувствительная часть тела. Резкий удар по ней ребром ладони или локтем причиняет противнику невыносимую боль. Также, надавив пальцем на ключицу, можно поставить противника на колени.</p>
 <empty-line/>
-<subtitle>Плечо</subtitle>
+</section>
+<section id="toc_sub_000024"><title><p>Плечо</p></title>
 <empty-line/>
 <p>Плечо легко вывихнуть, и для этого требуется немного силы. Однако делать это нужно быстро. Схватите руку противника и заведите её ему за спину, затем резко дёрните вверх. Должен послышаться хлопок — это значит, что вы вывихнули плечо противника. Существуют и другие способы сделать это, но данный — самый простой.</p>
 <empty-line/>
-<subtitle>Подмышка</subtitle>
+</section>
+<section id="toc_sub_000025"><title><p>Подмышка</p></title>
 <empty-line/>
 <p>Хотя добраться до неё сложно, в подмышке расположена разветвлённая нервная сеть. Если противник лежит на земле, поднимите его руку и ударьте его ногой в подмышечную впадину. Это вызовет сильную боль. Тем не менее это не самое распространённое место для удара в драке, но всё же стоит держать его в уме.</p>
 <empty-line/>
-<subtitle>Рёбра</subtitle>
+</section>
+<section id="toc_sub_000026"><title><p>Рёбра</p></title>
 <empty-line/>
 <p>Удар по рёбрам пальцами, согнутыми во втором суставе, весьма болезнен, а при достаточной силе вызывает сильнейшую боль и переломы. Используйте только пальцы, согнутые во втором суставе, — это причиняет наибольший вред.</p>
 <empty-line/>
-<subtitle>Солнечное сплетение</subtitle>
+</section>
+<section id="toc_sub_000027"><title><p>Солнечное сплетение</p></title>
 <empty-line/>
 <p>Солнечное сплетение расположено на груди, в маленькой «V»-образной точке, где заканчивается рёберная дуга. Там сосредоточено большое количество нервов, поэтому удар суставом среднего пальца может вызвать сильную боль и даже потерю сознания.</p>
 <empty-line/>
-<subtitle>Плавающие рёбра</subtitle>
+</section>
+<section id="toc_sub_000028"><title><p>Плавающие рёбра</p></title>
 <empty-line/>
 <p>Плавающие рёбра — это нижние рёбра, расположенные спереди и по бокам тела противника. Используйте ребро ладони, каблук или носок ботинка. Удар причинит боль и оглушит противника.</p>
 <empty-line/>
-<subtitle>Позвоночник</subtitle>
+</section>
+<section id="toc_sub_000029"><title><p>Позвоночник</p></title>
 <empty-line/>
 <p>Удар каблуком ботинка по позвоночнику может парализовать или убить противника. Нижняя часть позвоночника между почками противника — лучшее место для удара, поскольку это наименее защищённый участок. Атаковать позвоночник вы сможете только тогда, когда противник лежит на земле или повернулся к вам спиной.</p>
 <empty-line/>
-<subtitle>Почки</subtitle>
+</section>
+<section id="toc_sub_000030"><title><p>Почки</p></title>
 <empty-line/>
 <p>В почках проходят два крупных нерва, близко к поверхности кожи. Сильный удар по почкам вызывает смерть. Для удара по почкам можно использовать кулак или ребро ладони. Также подойдёт удар каблуком ботинка.</p>
 <empty-line/>
-<subtitle>Пах</subtitle>
+</section>
+<section id="toc_sub_000031"><title><p>Пах</p></title>
 <empty-line/>
 <p>Пах — хорошее место для удара, если вам выпадет такая возможность. Как правило, противник защищает эту область лучше всего, но если шанс представится — ударьте коленом снизу вверх или кулаком. Боль, которую при этом испытает противник, вам нетрудно представить.</p>
 <empty-line/>
-<subtitle>Копчик</subtitle>
+</section>
+<section id="toc_sub_000032"><title><p>Копчик</p></title>
 <empty-line/>
 <p>Копчик расположен над анусом и является очень чувствительной частью тела, поскольку там сосредоточено множество спинномозговых нервов. Бейте по копчику носком ботинка. Боль от такого удара — невыносимая.</p>
 <empty-line/>
-<subtitle>Локоть</subtitle>
+</section>
+<section id="toc_sub_000033"><title><p>Локоть</p></title>
 <empty-line/>
 <p>Локоть легко сломать или вывихнуть. Заведите руку противника ему за спину и основанием ладони надавите на его локоть вовнутрь, пока он не хрустнет или не выскочит из сустава. Когда рука противника выйдет из строя, вы получаете значительное преимущество над ним.</p>
 <empty-line/>
-<subtitle>Пальцы</subtitle>
+</section>
+<section id="toc_sub_000034"><title><p>Пальцы</p></title>
 <empty-line/>
 <p>Пальцы следует ломать, поскольку со сломанными пальцами противник практически беспомощен. Схватите руку противника одной рукой, а другой отгибайте пальцы вверх, пока они не сломаются. Достаточно сломать первые два пальца. Это также помогает разорвать захват.</p>
 <empty-line/>
-<subtitle>Колено</subtitle>
+</section>
+<section id="toc_sub_000035"><title><p>Колено</p></title>
 <empty-line/>
 <p>Колено можно уничтожить, ударив по нему боковой частью ботинка снизу вверх. Это разорвёт связки и хрящи. Такой удар вызывает невыносимую боль и лишает противника возможности передвигаться. Когда колено выведено из строя, вы получаете значительное преимущество.</p>
 <empty-line/>
-<subtitle>Лодыжка</subtitle>
+</section>
+<section id="toc_sub_000036"><title><p>Лодыжка</p></title>
 <empty-line/>
 <p>Если противник лежит на земле, схватите его за лодыжку и скручивайте, пока она не сломается. Это сделает ходьбу для него практически невозможной, и тогда его будет легко добить.</p>
 <empty-line/>
@@ -557,7 +591,8 @@
 <empty-line/>
 <p>Позвольте поговорить ещё о нескольких важных вещах, которые следует помнить в бою.</p>
 <empty-line/>
-<subtitle>Тактика</subtitle>
+</section>
+<section id="toc_sub_000037"><title><p>Тактика</p></title>
 <empty-line/>
 <p>Всегда старайтесь выбить противника из равновесия. Для этого можно броситься на него и сделать вид, что наносите удар. Это заставит его отпрянуть и потерять равновесие.</p>
 <empty-line/>
@@ -565,7 +600,8 @@
 <empty-line/>
 <p>Используйте любые подручные предметы. Имеется в виду следующее: бросьте ему в глаза песок, отбивайте его удары с помощью толстой ветки или любого другого материала, который можно использовать против него в качестве оружия.</p>
 <empty-line/>
-<subtitle>Запрещённые приёмы</subtitle>
+</section>
+<section id="toc_sub_000038"><title><p>Запрещённые приёмы</p></title>
 <empty-line/>
 <p>В ситуации жизни и смерти не существует ни запрещённых приёмов, ни правил. Хотя удар в пах в школе считается подлым приёмом, это весьма действенный способ вывести противника из строя. Просто бейте, где можете, и добивайте его, когда он упал. Тогда он уже не поднимется.</p>
 <empty-line/>
@@ -575,13 +611,14 @@
 <empty-line/>
 <p>Если вам понравился этот файл и вы хотите отработать описанные приёмы — найдите партнёра, которому тоже это интересно, и отрабатывайте каждый вид удара. Поначалу действуйте медленно и помните, что эти методы смертоносны и для своей эффективности не требуют большой силы — так что не перестарайтесь с партнёром.</p>
 <empty-line/>
-<p>Некоторые из вас могут решить, что одной практики недостаточно и хотелось бы узнать больше, чем я изложил выше. Что ж, существует несколько хороших книг с иллюстрациями по этой теме, которые освещают её куда подробнее, чем я могу сделать в этом файле. Книга, которую я главным образом использовал при написании этого файла, — «Полевое руководство Корпуса морской пехоты по физической безопасности» (&quot;The Marine Corps Field Manual on Physical Security&quot;). Её можно достать в хорошем книжном магазине, или, если у вас есть знакомый морской пехотинец, он легко раздобудет вам экземпляр.</p>
+<p>Некоторые из вас могут решить, что одной практики недостаточно и хотелось бы узнать больше, чем я изложил выше. Что ж, существует несколько хороших книг с иллюстрациями по этой теме, которые освещают её куда подробнее, чем я могу сделать в этом файле. Книга, которую я главным образом использовал при написании этого файла, — «Полевое руководство Корпуса морской пехоты по физической безопасности» ("The Marine Corps Field Manual on Physical Security"). Её можно достать в хорошем книжном магазине, или, если у вас есть знакомый морской пехотинец, он легко раздобудет вам экземпляр.</p>
 <empty-line/>
-<p>Также существуют лагеря, где можно провести 1–2 недели и научиться всевозможным вещам: обращению с оружием, детальному рукопашному бою, проведению рейдов и многому другому. Инструкторы, ведущие эти программы, отлично подготовлены и имеют многолетний опыт. Однако, как правило, для участия в этих программах необходимо быть старше 18 лет, а также относиться к делу очень серьёзно. Это не из тех программ, где можно сказать: «Тайм-аут, мне нужно отдохнуть». Они не остановятся ради вас. Подробнее об этих программах можно узнать из журналов вроде &quot;Soldier of Fortune&quot; и других изданий аналогичной тематики.</p>
+<p>Также существуют лагеря, где можно провести 1–2 недели и научиться всевозможным вещам: обращению с оружием, детальному рукопашному бою, проведению рейдов и многому другому. Инструкторы, ведущие эти программы, отлично подготовлены и имеют многолетний опыт. Однако, как правило, для участия в этих программах необходимо быть старше 18 лет, а также относиться к делу очень серьёзно. Это не из тех программ, где можно сказать: «Тайм-аут, мне нужно отдохнуть». Они не остановятся ради вас. Подробнее об этих программах можно узнать из журналов вроде "Soldier of Fortune" и других изданий аналогичной тематики.</p>
 <empty-line/>
 <p>^*^</p>
 <empty-line/>
 <p>Ну что ж, на сегодня всё. Возможно, в будущем я смогу рассмотреть более занятные темы — например, бой с ножом и другое летальное оружие, применяемое в схватке. Если вам понравился этот файл — дайте знать, и я продолжу эту тему.</p>
+</section>
 </section>
 <section id="sec_issue_005_005_digital_multiplex_system_dms_100">
 <title><p>Digital Multiplex System (DMS) 100</p></title>
@@ -591,7 +628,7 @@
 <empty-line/>
 <p>Примечание: <strong>IBN</strong> означает <strong>Integrated Business Network</strong>.</p>
 <empty-line/>
-<subtitle>DMS-100</subtitle>
+<section id="toc_sub_000039"><title><p>DMS-100</p></title>
 <empty-line/>
 <p>DMS-100/IBN состоит из electronic business sets и standard telephones, data units и attendant consoles, находящихся на premises клиента; а также DMS-100 digital switching и supporting hardware/software, находящихся на premises телефонной компании. Вместе они создают integrated business communications network, предоставляющую необычное сочетание функций и преимуществ.</p>
 <empty-line/>
@@ -608,33 +645,40 @@
 <p>• <strong>Station Message Detail Recording</strong>: предоставляет подробную запись long distance charges, включая originating number, time and duration, authorization code и т. д.</p>
 <p>• <strong>Direct Inward System Access (DISA)</strong>: позволяет персоналу компании использовать экономящие средства company facilities для long distance calling даже вне компании.</p>
 <empty-line/>
-<subtitle>System features and benefits</subtitle>
+</section>
+<section id="toc_sub_000040"><title><p>System features and benefits</p></title>
 <empty-line/>
 <p>Примечание: ниже перечислены все features, но подробно выделены только важные.</p>
 <empty-line/>
-<subtitle>Attendant console</subtitle>
+</section>
+<section id="toc_sub_000041"><title><p>Attendant console</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_005_digital_multiplex_system_dms_100_0035_2770bb0f0e.png"/>
 <empty-line/>
-<subtitle>Console features</subtitle>
+</section>
+<section id="toc_sub_000042"><title><p>Console features</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_005_digital_multiplex_system_dms_100_0050_fd11bbfc24.png"/>
 <empty-line/>
-<subtitle>Electronic business sets</subtitle>
+</section>
+<section id="toc_sub_000043"><title><p>Electronic business sets</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_005_digital_multiplex_system_dms_100_0071_3274b2bca1.png"/>
 <empty-line/>
-<subtitle>Additional programmable features</subtitle>
+</section>
+<section id="toc_sub_000044"><title><p>Additional programmable features</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_005_digital_multiplex_system_dms_100_0086_c9ae3ed71a.png"/>
 <empty-line/>
-<subtitle>Data unit</subtitle>
+</section>
+<section id="toc_sub_000045"><title><p>Data unit</p></title>
 <empty-line/>
 <p>DMS-100/IBN Data Unit делает доступ к информации таким же простым для изучения и использования, как телефон. Он может применяться как standalone device или подключаться к Business Set либо standard telephone для integrated voice and data telephone telecommunications.</p>
 <empty-line/>
 <p>Он передаёт данные по simple 2-wire loops на скоростях до 56 kb/s, используя proprietary Time Compression Multiplexing technology от Northern Telecom. Он совместим с существующим computer and data terminal equipment и доступен в разных low-speed and high-speed models, соответствующих existing terminal capacity.</p>
 <empty-line/>
-<subtitle>Benefits</subtitle>
+</section>
+<section id="toc_sub_000046"><title><p>Benefits</p></title>
 <empty-line/>
 <p>• Комбинируется с Business Set или standard telephone, предоставляя integrated voice/data communications.</p>
 <p>• Data unit и telephone могут работать одновременно вместе или полностью независимо друг от друга.</p>
@@ -642,9 +686,11 @@
 <p>• Ring Again, то есть постоянный redial busy numbers.</p>
 <p>• Speed Calling.</p>
 <empty-line/>
-<subtitle>Контакты для дополнительной информации</subtitle>
+</section>
+<section id="toc_sub_000047"><title><p>Контакты для дополнительной информации</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_005_digital_multiplex_system_dms_100_0122_17747650b2.png"/>
+</section>
 </section>
 <section id="sec_issue_005_006_a_new_anarchy_toy">
 <title><p>Новая анархистская игрушка!</p></title>
@@ -656,11 +702,12 @@
 <empty-line/>
 <p>Эта новая «бомба» на самом деле не особо разрушительна, хотя я бы не хотел получить летящий осколок прямо в голову. Используйте её, чтобы пугать собак и просто устраивать переполох.</p>
 <empty-line/>
-<subtitle>Материалы</subtitle>
+<section id="toc_sub_000048"><title><p>Материалы</p></title>
 <empty-line/>
 <p>Вам понадобятся: 1 гайка достаточно большого размера, 2 болта одинакового размера, оба подходящие по размеру для этой гайки. Также понадобится коробка деревянных кухонных спичек типа «чиркай о любую поверхность».</p>
 <empty-line/>
-<subtitle>Конструкция</subtitle>
+</section>
+<section id="toc_sub_000049"><title><p>Конструкция</p></title>
 <empty-line/>
 <p>Итак, всё нашли? Приступим. Возьмите один из болтов и гайку и вкрутите болт примерно на 1/4 длины гайки. Должно выглядеть примерно так:</p>
 <empty-line/>
@@ -668,9 +715,11 @@
 <empty-line/>
 <p>Теперь возьмите спички — на их конце должен быть двухцветный кончик. Аккуратно срежьте верхний слой (это удобно делать лезвием бритвы), стараясь не поджечь спички. Готово? Отлично. Теперь возьмите примерно четыре-пять головок, а если хочется чего-то поэкстремальнее и они туда помещаются — попробуйте шесть. Вставьте головки (белую часть) в зазор между свободным концом болта и гайкой. Затем осторожно вкрутите второй болт с другой стороны достаточно плотно. Теперь у вас есть два болта, соединённых гайкой, а между ними зажаты спичечные головки.</p>
 <empty-line/>
-<subtitle>И что дальше?</subtitle>
+</section>
+<section id="toc_sub_000050"><title><p>И что дальше?</p></title>
 <empty-line/>
 <p>Возьмите эту штуку и бросьте её во что-нибудь твёрдое — например, в асфальт — и бросайте достаточно сильно и на достаточное расстояние. Это может быть очень весело, а делается за считанные секунды.</p>
+</section>
 </section>
 <section id="sec_issue_005_007_wide_area_networks_part_1">
 <title><p>Wide-Area Networks, часть 1</p></title>
@@ -684,7 +733,7 @@
 <empty-line/>
 <p>Эти файлы <strong>не</strong> являются hacker's tutorial или guide по этим системам.</p>
 <empty-line/>
-<subtitle>ARPANET</subtitle>
+<section id="toc_sub_000051"><title><p>ARPANET</p></title>
 <empty-line/>
 <p>ARPANET, являющаяся крупным компонентом NSFnet, National Science Foundation Network, началась в 1969 году как R&amp;D project под управлением DARPA, Department of Defense Advanced Research Projects Agency. ARPANET была экспериментом по resource sharing и предоставляла survivable, multiply connected, high bandwidth communications links со скоростью 56 kilobits per second между крупными существующими computational resources и computer users в academic, industrial and government research laboratories.</p>
 <empty-line/>
@@ -710,7 +759,8 @@
 <empty-line/>
 <p>В рамках NSFnet initiative ряд университетов запросил connection to ARPANET. Каждый такой campus обязался установить campus network gateway, доступный всем, чтобы со временем пользователи могли использовать ARPANET для доступа к NSF supercomputer centers из своей собственной local computing environment. Дополнительные запросы на подключение к ARPANET рассматриваются NSF.</p>
 <empty-line/>
-<subtitle>CSNET</subtitle>
+</section>
+<section id="toc_sub_000052"><title><p>CSNET</p></title>
 <empty-line/>
 <p>Создание сети для computer science research впервые было предложено в 1974 году advisory committee for computer science при NSF. Целью сети должна была стать поддержка collaboration among researchers, resource sharing и, в частности, support isolated researchers in the smaller universities.</p>
 <empty-line/>
@@ -746,6 +796,7 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_007_wide_area_networks_part_1_0086_69a63d0d9b.png"/>
 </section>
+</section>
 <section id="sec_issue_005_008_short_wave_radio_hacking">
 <title><p>Short-Wave Radio Hacking</p></title>
 <p><strong>Автор:</strong> The Seker <strong>Написано эксклюзивно для:</strong> Metal Shop Private</p>
@@ -762,7 +813,7 @@
 <empty-line/>
 <p>Для начала нужен receiver с coverage не менее 500 kHz-30 MHz и resolution больше 100 Hz, а также high quality antenna. Обычно их можно найти в electronics stores. Также потребуется interface и RTTY software для конкретного computer. Ищите дополнительную информацию в журналах вроде <emphasis>Amateur Radio</emphasis> или <emphasis>Ham Radio Today</emphasis>. Ещё одно хорошее место для проверки — CB store.</p>
 <empty-line/>
-<subtitle>News agencies</subtitle>
+<section id="toc_sub_000053"><title><p>News agencies</p></title>
 <empty-line/>
 <p>От них можно найти всевозможные материалы. Можно даже перехватить story, отправляемую в press. Они обычно работают на скорости 66/7 words a minute, 50 baud.</p>
 <empty-line/>
@@ -776,7 +827,8 @@
 <empty-line/>
 <p>Это делается, чтобы держать channels открытыми для reception.</p>
 <empty-line/>
-<subtitle>Conferences</subtitle>
+</section>
+<section id="toc_sub_000054"><title><p>Conferences</p></title>
 <empty-line/>
 <p>Ещё одна интересная вещь, которую я нашёл, — channels, вокруг которых собирались amateurs. Я часто сталкивался с людьми из других стран, которые даже не говорили по-английски. Я даже встречал других hackers со всего мира.</p>
 <empty-line/>
@@ -784,13 +836,15 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_008_short_wave_radio_hacking_0049_9382019878.png"/>
 <empty-line/>
-<subtitle>Packet radio</subtitle>
+</section>
+<section id="toc_sub_000055"><title><p>Packet radio</p></title>
 <empty-line/>
 <p>Новое развитие в radio transmission — packet radio. Судя по тому, что я видел, это похоже на digital packet switching networks, например Compuserve, Telenet, Tymnet и т. д., только медленнее.</p>
 <empty-line/>
 <p>Фактически Compuserve исследовала способ дешёвой передачи своих services.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_008_short_wave_radio_hacking_0069_6f337b5103.png"/>
+</section>
 </section>
 <section id="sec_issue_005_009_mobile_telephone_communications">
 <title><p>Mobile Telephone Communications</p></title>
@@ -804,7 +858,7 @@
 <empty-line/>
 <p>Mobile telephone facilities соединяются с обычной fixed-position telephone system, однако base units могут принадлежать Radio Common Carrier (RCC). RCC, управляющие mobile telephone systems, получают charges от telephone company за использование обычной phone system.</p>
 <empty-line/>
-<subtitle>Diagram</subtitle>
+<section id="toc_sub_000056"><title><p>Diagram</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_009_mobile_telephone_communications_0018_5ebe6a1a69.png"/>
 <empty-line/>
@@ -818,13 +872,15 @@
 <empty-line/>
 <p>Область, где это работает, называется subscriber's home area. Когда subscriber mobile telephone service покидает service area, он называется roamer. Поскольку mobile unit находится вне service area, нужны special preparations, чтобы продолжить communications to/from that mobile unit.</p>
 <empty-line/>
-<subtitle>Signalling</subtitle>
+</section>
+<section id="toc_sub_000057"><title><p>Signalling</p></title>
 <empty-line/>
 <p>Mobile signalling tones выбираются, как touch tones, так, чтобы избежать возможного reproduction of the signalling tone on the voice link, которое могло бы вызвать signalling mistake. IMTS, Improved Mobile Telephone Service, использует in-band signalling tones from 1300 Hz to 2200 Hz.</p>
 <empty-line/>
 <p>Другой метод signalling — MTS, Mobile Telephone System. MTS старше IMTS и использует in-band signalling tones from 600 Hz to 1500 Hz, а некоторые используют 2805 Hz в manual operation.</p>
 <empty-line/>
-<subtitle>Call completion</subtitle>
+</section>
+<section id="toc_sub_000058"><title><p>Call completion</p></title>
 <empty-line/>
 <p>В этом примере предположим, что call placed from a normal telephone to a mobile unit. Сначала base station выбирает один idle channel и помещает на него 2000 Hz idle tone. Все on-hook mobile units, active in that service area, находят и lock onto channel, который несёт 2000 Hz idle tone. Теперь каждый mobile unit listens for its specific number on that channel. Когда idle channel становится busy, выбирается новый channel для использования, и процесс повторяется.</p>
 <empty-line/>
@@ -844,7 +900,8 @@
 <empty-line/>
 <p>Для outgoing call placed by the mobile subscriber, mobile unit must already be locked on the idle channel. Если unit не locked, warning light flashes, сообщая пользователю о problem. Это похоже на re-order signal. Если unit уже на idle channel, calling number будет отправлен control terminal for billing purposes.</p>
 <empty-line/>
-<subtitle>Cellular telephones</subtitle>
+</section>
+<section id="toc_sub_000059"><title><p>Cellular telephones</p></title>
 <empty-line/>
 <p>Чтобы улучшить mobile telephone service, решив проблемы вроде малого числа users и высокой цены, AT&amp;T invented the Cellular Concept, or AMPS, Advanced Mobile Phone System. Это cellular phone concept, используемая в major cities. Los Angeles, California, сейчас имеет крупнейшую cellular communication system in the world.</p>
 <empty-line/>
@@ -856,7 +913,8 @@
 <empty-line/>
 <p>Cellular communications areas divided into several cells, like a honeycomb.</p>
 <empty-line/>
-<subtitle>Diagram</subtitle>
+</section>
+<section id="toc_sub_000060"><title><p>Diagram</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_009_mobile_telephone_communications_0100_17a7501a3f.png"/>
 <empty-line/>
@@ -868,17 +926,19 @@
 <empty-line/>
 <p>Надеюсь, этот файл оказался полезен всем, кому любопытны более technical aspects of the telephone system.</p>
 <empty-line/>
-<subtitle>References</subtitle>
+</section>
+<section id="toc_sub_000061"><title><p>References</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_009_mobile_telephone_communications_0127_274f9fefe3.png"/>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_009_mobile_telephone_communications_0134_dec31daccb.png"/>
 </section>
+</section>
 <section id="sec_issue_005_010_phrack_world_news_iv_part_1">
 <title><p>Phrack World News IV, часть 1</p></title>
 <p><strong>Составил:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>Phrack Inc. против Master Lock Company</subtitle>
+<section id="toc_sub_000062"><title><p>Phrack Inc. против Master Lock Company</p></title>
 <empty-line/>
 <p><strong>1 апреля 1986 года</strong></p>
 <empty-line/>
@@ -924,7 +984,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_010_phrack_world_news_iv_part_1_0063_70b6e2cf3f.png"/>
 <empty-line/>
-<subtitle>Lex Luthor говорит о TWCB</subtitle>
+</section>
+<section id="toc_sub_000063"><title><p>Lex Luthor говорит о TWCB</p></title>
 <empty-line/>
 <p><strong>Воскресенье, 22 марта 1986 года</strong></p>
 <empty-line/>
@@ -944,7 +1005,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_010_phrack_world_news_iv_part_1_0085_e8c61e434a.png"/>
 <empty-line/>
-<subtitle>TRASk, Animator, Ogre Ogre busted</subtitle>
+</section>
+<section id="toc_sub_000064"><title><p>TRASk, Animator, Ogre Ogre busted</p></title>
 <empty-line/>
 <p><strong>408 under siege</strong></p>
 <empty-line/>
@@ -982,7 +1044,8 @@
 <empty-line/>
 <p><strong>Информация предоставлена:</strong> BelGarion 408 в интервью с Knight Lightning.</p>
 <empty-line/>
-<subtitle>Robin Hood и The Sultan busted</subtitle>
+</section>
+<section id="toc_sub_000065"><title><p>Robin Hood и The Sultan busted</p></title>
 <empty-line/>
 <p><strong>408 under siege</strong></p>
 <empty-line/>
@@ -1015,7 +1078,8 @@
 <empty-line/>
 <p><strong>Информация предоставлена:</strong> Robin Hood во время интервью с Knight Lightning.</p>
 <empty-line/>
-<subtitle>TWCB: Peter снова арестован</subtitle>
+</section>
+<section id="toc_sub_000066"><title><p>TWCB: Peter снова арестован</p></title>
 <empty-line/>
 <p><strong>TAP trouble</strong></p>
 <empty-line/>
@@ -1037,7 +1101,8 @@
 <empty-line/>
 <p>Broadway Hacker действительно kicked TWCB off The Radio Station. Позже он welcome them back on, но теперь, из-за их refusal to call, его invitation больше не действует.</p>
 <empty-line/>
-<subtitle>SBS Acquisition Completed</subtitle>
+</section>
+<section id="toc_sub_000067"><title><p>SBS Acquisition Completed</p></title>
 <empty-line/>
 <p><strong>Март 1986 года</strong></p>
 <empty-line/>
@@ -1049,11 +1114,12 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_010_phrack_world_news_iv_part_1_0192_84cf47991a.png"/>
 </section>
+</section>
 <section id="sec_issue_005_011_phrack_world_news_iv_part_2">
 <title><p>Phrack World News IV, часть 2</p></title>
 <p><strong>Составил:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>More Computel</subtitle>
+<section id="toc_sub_000068"><title><p>More Computel</p></title>
 <empty-line/>
 <p><strong>Воскресенье, 29 марта 1986 года</strong></p>
 <empty-line/>
@@ -1071,7 +1137,8 @@
 <empty-line/>
 <p>Примечание редактора: Thomas Covenant добавил, что слышал, будто Computel is unregistered and plans on staying that way. Поэтому Better Business Bureau ничего не может сделать.</p>
 <empty-line/>
-<subtitle>Dr. Who in trouble</subtitle>
+</section>
+<section id="toc_sub_000069"><title><p>Dr. Who in trouble</p></title>
 <empty-line/>
 <p><strong>Вторник, 31 марта 1986 года</strong></p>
 <empty-line/>
@@ -1091,7 +1158,8 @@
 <empty-line/>
 <p>Примечание редактора: Lex Luthor также упомянул, что Dr. Who is being sued by AllNet.</p>
 <empty-line/>
-<subtitle>Members of 2300 Club busted</subtitle>
+</section>
+<section id="toc_sub_000070"><title><p>Members of 2300 Club busted</p></title>
 <empty-line/>
 <p><strong>Cleveland</strong></p>
 <empty-line/>
@@ -1099,7 +1167,8 @@
 <empty-line/>
 <p>2300 Club теперь сравнивается и treated as a miniature mafia местными властями. Это главным образом из-за other crimes, including the blowing up of cars. King Blotto был, по крайней мере в какой-то момент, member of this group. Нет абсолютно никакой информации о том, что King Blotto был busted или всё ещё является member of the 2300 Club.</p>
 <empty-line/>
-<subtitle>New phreak/hack group</subtitle>
+</section>
+<section id="toc_sub_000071"><title><p>New phreak/hack group</p></title>
 <empty-line/>
 <p><strong>6 апреля 1986 года</strong></p>
 <empty-line/>
@@ -1109,7 +1178,8 @@
 <empty-line/>
 <p><strong>Информация предоставлена:</strong> Dark Creaper through interview by Knight Lightning.</p>
 <empty-line/>
-<subtitle>Oryan Quest busted / 415 gets hit again</subtitle>
+</section>
+<section id="toc_sub_000072"><title><p>Oryan Quest busted / 415 gets hit again</p></title>
 <empty-line/>
 <p><strong>6 апреля 1986 года</strong></p>
 <empty-line/>
@@ -1136,7 +1206,8 @@
 <empty-line/>
 <p>AT&amp;T Mail была accessible through an 800 number, which Oryan Quest did call direct.</p>
 <empty-line/>
-<subtitle>Несколько слов от Oryan</subtitle>
+</section>
+<section id="toc_sub_000073"><title><p>Несколько слов от Oryan</p></title>
 <empty-line/>
 <cite><p>I have no intention of quitting hacking.</p></cite>
 <empty-line/>
@@ -1152,7 +1223,8 @@
 <empty-line/>
 <p><strong>Информация предоставлена:</strong> Oryan Quest through interview by Knight Lightning.</p>
 <empty-line/>
-<subtitle>Overlord 815 arrested for check fraud</subtitle>
+</section>
+<section id="toc_sub_000074"><title><p>Overlord 815 arrested for check fraud</p></title>
 <empty-line/>
 <cite><p>The only reason I got caught was greed.</p></cite>
 <empty-line/>
@@ -1176,7 +1248,8 @@
 <empty-line/>
 <p><strong>Информация предоставлена:</strong> Overlord (815) during interview with Knight Lightning.</p>
 <empty-line/>
-<subtitle>TAP: latest news from TWCB</subtitle>
+</section>
+<section id="toc_sub_000075"><title><p>TAP: latest news from TWCB</p></title>
 <empty-line/>
 <p><strong>8 апреля 1986 года</strong></p>
 <empty-line/>
@@ -1200,7 +1273,8 @@
 <empty-line/>
 <p><strong>Информация предоставлена:</strong> TWCB Inc. during interview with Knight Lightning.</p>
 <empty-line/>
-<subtitle>Quick notes</subtitle>
+</section>
+<section id="toc_sub_000076"><title><p>Quick notes</p></title>
 <empty-line/>
 <p>23 марта 1986 года The Radio Station BBS in New York celebrated its one year anniversary. Теперь у неё one meg of storage online.</p>
 <empty-line/>
@@ -1224,15 +1298,17 @@
 <empty-line/>
 <p>Captain Crunch of 512 stated that an auto-dial program he wrote and uploaded was copied by TWCB Inc., who then claimed it as their own and signed their name in it.</p>
 </section>
+</section>
 <section id="sec_issue_005_012_phrack_world_news_iv_part_3">
 <title><p>Новости мира Phrack, выпуск 4, часть 3</p></title>
 <p><strong>Автор:</strong> Knight Lightning</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_005_012_phrack_world_news_iv_part_3_0007_9fa7b9e6db.png"/>
 <empty-line/>
-<subtitle>Закат фрикинга во Флориде: история Teltec</subtitle>
+<section id="toc_sub_000077"><title><p>Закат фрикинга во Флориде: история Teltec</p></title>
 <empty-line/>
-<subtitle>Интервью с Surfer Bill, проведённое The Firelord</subtitle>
+</section>
+<section id="toc_sub_000078"><title><p>Интервью с Surfer Bill, проведённое The Firelord</p></title>
 <empty-line/>
 <p><emphasis>Записано и оформлено Knight Lightning</emphasis></p>
 <empty-line/>
@@ -1320,13 +1396,15 @@
 <empty-line/>
 <p>— Knight Lightning</p>
 <empty-line/>
-<subtitle>Телефонные показания, март 1986 года</subtitle>
+</section>
+<section id="toc_sub_000079"><title><p>Телефонные показания, март 1986 года</p></title>
 <empty-line/>
 <p>Председатель Билл МакГоуэн обратился к Подкомитету Палаты представителей по телекоммуникациям. В ходе показаний на недавно возобновившихся слушаниях по конкуренции в телефонной отрасли МакГоуэн выступил против «диверсификационной лихорадки» компаний Bell Operating Companies (BOCs). Он сообщил парламентскому подкомитету, что отрасль всё ещё находится в процессе перехода к полной конкуренции, и предостерёг от замены регулируемой монополии семью нерегулируемыми.</p>
 <empty-line/>
 <p><emphasis>Информация взята из MCI World, март 1986 года</emphasis></p>
 <empty-line/>
-<subtitle>Арест Kaptain Krash</subtitle>
+</section>
+<section id="toc_sub_000080"><title><p>Арест Kaptain Krash</p></title>
 <empty-line/>
 <p>Kaptain Krash был пойман на краже конференц-связи компании American Telephone &amp; Telegraph (AT&amp;T) через 800-й PBX, опубликованный на P-80. Родители изолировали его от других членов андерграунда.</p>
 <empty-line/>
@@ -1336,13 +1414,15 @@
 <empty-line/>
 <p><emphasis>Информация предоставлена F.R. Communications Newsline Service (c) 1986</emphasis></p>
 <empty-line/>
-<subtitle>Metal Shop Private наводит порядок</subtitle>
+</section>
+<section id="toc_sub_000081"><title><p>Metal Shop Private наводит порядок</p></title>
 <empty-line/>
 <p>13 апреля 1986 года Taran King и Knight Lightning провели очередную чистку журнала пользователей, удалив более 100 аккаунтов с Metal Shop Private. Это было сделано главным образом для того, чтобы устранить «мёртвые» аккаунты, засоряющие журнал, и исключить лишние записи, снижающие безопасность борды.</p>
 <empty-line/>
 <p>Желающие стать членами Metal Shop Private должны связаться с Taran King или Knight Lightning по электронной почте. После этого их кандидатуры будут обсуждены со Staff Metal Shop и т. д.</p>
 <empty-line/>
-<subtitle>Дэн Паскуале ищет новых развлечений</subtitle>
+</section>
+<section id="toc_sub_000082"><title><p>Дэн Паскуале ищет новых развлечений</p></title>
 <empty-line/>
 <p>Это сообщение главным образом адресовано сисопам бордов. Замечаете ли вы увеличение звонков из кода 415 NPA? В разговоре с Дэном Паскуале (см. статью о Phoenix Phortress в PWN III) High Evolutionary узнал, что Дэн планирует попробовать свои силы на иногородних бордах — «ради развлечения». Стоит помнить, что Дэн Паскуале управлял Phoenix Phortress BBS и как таковой видел посты для других фрик- и хак-бордов. К тому же, по нехорошей привычке, многие пользователи бордов, по всей видимости, используют одинаковые пароли в нескольких местах. Поэтому существует вероятность, что Дэн сможет войти на борды под чужим именем.</p>
 <empty-line/>
@@ -1358,13 +1438,15 @@
 <empty-line/>
 <p><emphasis>Часть информации предоставлена Broadway Hacker / High Evolutionary / Oryan Quest</emphasis></p>
 <empty-line/>
-<subtitle>Максфилд высказывается</subtitle>
+</section>
+<section id="toc_sub_000083"><title><p>Максфилд высказывается</p></title>
 <empty-line/>
 <p>В детройтской газете Джон Максфилд дал интервью репортёру. Хотя у меня нет ни самой статьи, ни всех относящихся к ней фактов, известно, что среди упомянутых имён значатся: Phantom Phreaker, High Evolutionary, Scan Man, Music Major, The Bootleg и Slave Driver.</p>
 <empty-line/>
 <p>Предполагается, что Максфилд получил эти имена с P-80. Впрочем, это чистые домыслы.</p>
 <empty-line/>
 <p><emphasis>Информация предоставлена различными источниками</emphasis></p>
+</section>
 </section>
 </section>
 </body>

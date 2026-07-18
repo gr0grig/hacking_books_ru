@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0"
-             xmlns:l="http://www.w3.org/1999/xlink">
+<?xml version='1.0' encoding='UTF-8'?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
 <description>
   <title-info>
     <genre>computers</genre>
@@ -36,7 +35,7 @@
 <empty-line/>
 <p>P H R A C K В О З В Р А Щ А Е Т С Я !@#$!@#$!@#$</p>
 <empty-line/>
-<subtitle>Оглавление</subtitle>
+<section id="toc_sub_000001"><title><p>Оглавление</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_001_introduction_0043_00f42873c3.png"/>
 <empty-line/>
@@ -60,7 +59,8 @@
 <empty-line/>
 <p>Phrack Magazine Volume 10 Number 57, August 11, 2001. ISSN 1068-1035 Contents Copyright (c) 2001 Phrack Magazine. All Rights Reserved. Никакая часть не может быть воспроизведена полностью или частично без письменного разрешения редакторов. Phrack Magazine распространяется среди широкой публики бесплатно, настолько часто, насколько это возможно.</p>
 <empty-line/>
-<subtitle>Контакт с редакцией</subtitle>
+</section>
+<section id="toc_sub_000002"><title><p>Контакт с редакцией</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_001_introduction_0093_766add9e3f.png"/>
 <empty-line/>
@@ -68,7 +68,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_001_introduction_0106_14a91113d8.png"/>
 <empty-line/>
-<subtitle>Отказ от ответственности</subtitle>
+</section>
+<section id="toc_sub_000003"><title><p>Отказ от ответственности</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_001_introduction_0142_046de11f10.png"/>
 <empty-line/>
@@ -80,19 +81,21 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_001_introduction_0174_91a8781345.png"/>
 </section>
+</section>
 <section id="sec_issue_057_002_loopback">
 <title><p>LOOPBACK</p></title>
 <p><strong>Автор:</strong> phrackstaff</p>
 <empty-line/>
 <p>В этом месяце мы представляем рубрику Loopback, составленную из комментариев, опубликованных на сайте phrack.org. Приятного чтения!</p>
 <empty-line/>
-<subtitle>[0x00]</subtitle>
+<section id="toc_sub_000004"><title><p>[0x00]</p></title>
 <empty-line/>
 <p>эй, я читал phrack ещё примерно в 95-м, думал, что он умер, но проверил — и не могу поверить, что есть phrack 56, снимаю шляпу перед вами, просто хотел спросить, когда выйдет 57-й?</p>
 <empty-line/>
 <cite><p>[ Phrack57 вышел ПРЯМО СЕЙЧАС.... ]</p></cite>
 <empty-line/>
-<subtitle>[0x01]</subtitle>
+</section>
+<section id="toc_sub_000005"><title><p>[0x01]</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_002_loopback_0023_6f557f6796.png"/>
 <empty-line/>
@@ -101,7 +104,8 @@
 <cite><p>[ УнгаУнга БугаБуга.</p></cite>
 <cite><p>Упс, мы только что раскрыли имя отправителя, его почтовый клиент и адрес электронной почты. ]</p></cite>
 <empty-line/>
-<subtitle>[0x02]</subtitle>
+</section>
+<section id="toc_sub_000006"><title><p>[0x02]</p></title>
 <empty-line/>
 <p>Я французский программист и веду проект по переводу статей phrack на французский язык. Пишу вам, чтобы сделать этот переводческий проект чем-то вроде «официального» переводческого проекта phrack.</p>
 <empty-line/>
@@ -113,13 +117,15 @@
 <cite><p>что означает «переводчик — предатель»: смысл теряется при переводе.</p></cite>
 <cite><p>Французам следует учить английский. ]</p></cite>
 <empty-line/>
-<subtitle>[0x03]</subtitle>
+</section>
+<section id="toc_sub_000007"><title><p>[0x03]</p></title>
 <empty-line/>
 <p>хочу рекомендовать фраку можете помочь мне</p>
 <empty-line/>
 <cite><p>[ ??? ]</p></cite>
 <empty-line/>
-<subtitle>[0x04]</subtitle>
+</section>
+<section id="toc_sub_000008"><title><p>[0x04]</p></title>
 <empty-line/>
 <p>coma@irrelevant, 2001-07-26 Вступление к phrack 56-1</p>
 <empty-line/>
@@ -127,7 +133,8 @@
 <empty-line/>
 <cite><p>[ Очевидно, это извращённый бред одноразового психа. ]</p></cite>
 <empty-line/>
-<subtitle>[0x05]</subtitle>
+</section>
+<section id="toc_sub_000009"><title><p>[0x05]</p></title>
 <empty-line/>
 <p>tweeterbeeter@beehive.honeycomb.org, 2001-08-01 Phrack Loopback, phrack 56-2</p>
 <empty-line/>
@@ -135,13 +142,15 @@
 <empty-line/>
 <cite><p>[ Кто-нибудь, позвоните MixMaster Mike и скажите ему, что его услуги больше не нужны! ]</p></cite>
 <empty-line/>
-<subtitle>[0x06]</subtitle>
+</section>
+<section id="toc_sub_000010"><title><p>[0x06]</p></title>
 <empty-line/>
 <p>Эй, Меня зовут Роэй, но в сети я известен как Cosmo-OOC. Я умеренный хакер, не великий, но и не ламер и не пользователь троянов. Я написал немало руководств и статей о хакинге и компьютерах. Принимаете ли вы таких от новых пользователей?</p>
 <empty-line/>
 <cite><p>[ http://www.phrack.org/howto ]</p></cite>
 <empty-line/>
-<subtitle>[0x07]</subtitle>
+</section>
+<section id="toc_sub_000011"><title><p>[0x07]</p></title>
 <empty-line/>
 <p>bargdiggler@hotmail.com, 2001-07-31 Коммуникации мобильных телефонов, phrack 5-9</p>
 <empty-line/>
@@ -151,7 +160,8 @@
 <empty-line/>
 <cite><p>[ Я не совсем уверен как, но в качестве замены попробуйте соединить два стакана натянутой ниткой между ними. ]</p></cite>
 <empty-line/>
-<subtitle>[0x08]</subtitle>
+</section>
+<section id="toc_sub_000012"><title><p>[0x08]</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_002_loopback_0115_61aaa87777.png"/>
 <empty-line/>
@@ -162,7 +172,8 @@
 <cite><p>[ Да, у них есть горячая линия. Просто позвоните по номеру (888) 282-0870 (бесплатно @#$)</p></cite>
 <cite><p>или зайдите на их сайт: http://3483937961/ ]</p></cite>
 <empty-line/>
-<subtitle>[0x09]</subtitle>
+</section>
+<section id="toc_sub_000013"><title><p>[0x09]</p></title>
 <empty-line/>
 <p>papaskin@papaskin.com, 2001-07-27 Project Loki: ICMP Tunneling, phrack 49-6</p>
 <empty-line/>
@@ -170,7 +181,8 @@
 <empty-line/>
 <cite><p>[ Вы <emphasis>молитесь</emphasis> найти Loki на вашем первичном DNS-сервере? А вот безумная мысль: может быть, тот «подозрительный» DNS-трафик — это... DNS-трафик. ]</p></cite>
 <empty-line/>
-<subtitle>[0x0a]</subtitle>
+</section>
+<section id="toc_sub_000014"><title><p>[0x0a]</p></title>
 <empty-line/>
 <p>prepressnews@hotmail.com, 2001-07-26 Screwing Over Your Local McDonald's, phrack 45-19</p>
 <empty-line/>
@@ -178,7 +190,8 @@
 <empty-line/>
 <cite><p>[ Слышал, что теперь интернет есть на компьютерах. Можете попробовать воспользоваться им. ]</p></cite>
 <empty-line/>
-<subtitle>[0x0b]</subtitle>
+</section>
+<section id="toc_sub_000015"><title><p>[0x0b]</p></title>
 <empty-line/>
 <p>aristides_15@lycos.com, 2001-07-26 The Legion of Doom &amp; The Occult, phrack 36-6</p>
 <empty-line/>
@@ -190,7 +203,8 @@
 <empty-line/>
 <cite><p>[ Вы думаете, мы шутим с такими вещами? На самом деле, всё, что вы читаете в Phrack, на 100% ложь, включая это предложение. ]</p></cite>
 <empty-line/>
-<subtitle>[0x0c]</subtitle>
+</section>
+<section id="toc_sub_000016"><title><p>[0x0c]</p></title>
 <empty-line/>
 <p>baniasadi@37.com, 2001-07-23 Hacking Voice Mail Systems, phrack 11-4</p>
 <empty-line/>
@@ -198,7 +212,8 @@
 <empty-line/>
 <cite><p>[ СКОЛЬКО РАЗ мне ещё говорить? Снимите кляп перед тем, как писать нам, вы, чокнутый фетишист. ]</p></cite>
 <empty-line/>
-<subtitle>[0x0d]</subtitle>
+</section>
+<section id="toc_sub_000017"><title><p>[0x0d]</p></title>
 <empty-line/>
 <p>antigovernment@louish.com, 2001-07-11 Phrack World News XXIII Part 2, phrack 23-12</p>
 <empty-line/>
@@ -206,7 +221,8 @@
 <empty-line/>
 <cite><p>[ К сожалению, я сломал машину времени Phrack, а то бы точно прыгнул в будущее и принёс оттуда статьи, которые не были бы «устаревшими» в момент публикации. Тупица. ]</p></cite>
 <empty-line/>
-<subtitle>[0x0e]</subtitle>
+</section>
+<section id="toc_sub_000018"><title><p>[0x0e]</p></title>
 <empty-line/>
 <p>general_failure@operamail.com, 2001-07-06 Introduction to PBX's, phrack 3-9</p>
 <empty-line/>
@@ -216,7 +232,8 @@
 <empty-line/>
 <cite><p>[ Жаль разочаровывать, но, как и динозавры, Phrack на самом деле — тщательно сконструированная мистификация: на самом деле он существует всего около 15 минут. ]</p></cite>
 <empty-line/>
-<subtitle>[0x0f]</subtitle>
+</section>
+<section id="toc_sub_000019"><title><p>[0x0f]</p></title>
 <empty-line/>
 <p>general_failure@operamail.com, 2001-07-06 A Brief introduction to CCS7, phrack 51-15</p>
 <empty-line/>
@@ -226,7 +243,8 @@
 <empty-line/>
 <cite><p>[ Надо.. сдержать.. соблазн.. высмеять.. твой.. ник.. ]</p></cite>
 <empty-line/>
-<subtitle>[0x10]</subtitle>
+</section>
+<section id="toc_sub_000020"><title><p>[0x10]</p></title>
 <empty-line/>
 <p>n.damus@caramail.com, 2001-06-26 VisaNet Operations Part II, phrack 46-16</p>
 <empty-line/>
@@ -234,7 +252,8 @@
 <empty-line/>
 <cite><p>[ Это что-то вроде предложения? С сожалением отказываюсь. ]</p></cite>
 <empty-line/>
-<subtitle>[0x11]</subtitle>
+</section>
+<section id="toc_sub_000021"><title><p>[0x11]</p></title>
 <empty-line/>
 <p>eyberg@umr.edu, 2001-06-22 Phrack Loopback, phrack 56-2</p>
 <empty-line/>
@@ -256,7 +275,8 @@
 <empty-line/>
 <p>-cyn0n</p>
 <empty-line/>
-<subtitle>[0x12]</subtitle>
+</section>
+<section id="toc_sub_000022"><title><p>[0x12]</p></title>
 <empty-line/>
 <p>i love cox, 2001-07-21 Knight Line I Part 3, phrack 32-12</p>
 <empty-line/>
@@ -264,7 +284,8 @@
 <empty-line/>
 <cite><p>[ Столько злобы для такого молодого человека. Ах да, и, думаю, ты хотел написать «cock», а не «cox». ]</p></cite>
 <empty-line/>
-<subtitle>[0x13]</subtitle>
+</section>
+<section id="toc_sub_000023"><title><p>[0x13]</p></title>
 <empty-line/>
 <p>cyhotrex@yahoo.com, 2001-07-18 Index, phrack 6-1</p>
 <empty-line/>
@@ -272,7 +293,8 @@
 <empty-line/>
 <cite><p>[ Конечно. Программирую своё «оружие судного дня» (tm), которое придёт и научит тебя всему, что нужно знать. ]</p></cite>
 <empty-line/>
-<subtitle>[0x14]</subtitle>
+</section>
+<section id="toc_sub_000024"><title><p>[0x14]</p></title>
 <empty-line/>
 <p>vdehart@hvc.rr.com, 2001-07-10 An Overview of Prepaid Calling Cards, phrack 47-13</p>
 <empty-line/>
@@ -280,7 +302,8 @@
 <empty-line/>
 <cite><p>[ Для тебя? Любой из тех, что ты упомянул, подойдёт... ]</p></cite>
 <empty-line/>
-<subtitle>[0x15]</subtitle>
+</section>
+<section id="toc_sub_000025"><title><p>[0x15]</p></title>
 <empty-line/>
 <p>Tigerbyte@hotmail.com, 2001-07-06 Introduction to PAM, phrack 56-13</p>
 <empty-line/>
@@ -288,7 +311,8 @@
 <empty-line/>
 <cite><p>[ Да, абсолютно необходимо начинать читать Phrack с выпуска первого, статьи первой, и продолжать по порядку. ]</p></cite>
 <empty-line/>
-<subtitle>[0x16]</subtitle>
+</section>
+<section id="toc_sub_000026"><title><p>[0x16]</p></title>
 <empty-line/>
 <p>general_failure@operamail.com, 2001-07-06 A Brief introduction to CCS7, phrack 51-15</p>
 <empty-line/>
@@ -298,7 +322,8 @@
 <empty-line/>
 <cite><p>[ Надо.. сдержать.. соблазн.. высмеять.. твой.. ник.. ]</p></cite>
 <empty-line/>
-<subtitle>[0x17]</subtitle>
+</section>
+<section id="toc_sub_000027"><title><p>[0x17]</p></title>
 <empty-line/>
 <p>pepelic@hotmail.com, 2001-07-01 The #hack FAQ (Part 1), phrack 47-5</p>
 <empty-line/>
@@ -310,7 +335,8 @@
 <empty-line/>
 <cite><p>[ Взломать для безопасности? Не надо начинать этот спор... ]</p></cite>
 <empty-line/>
-<subtitle>[0x18]</subtitle>
+</section>
+<section id="toc_sub_000028"><title><p>[0x18]</p></title>
 <empty-line/>
 <p>n.damus@caramail.com, 2001-06-26 VisaNet Operations Part II, phrack 46-16</p>
 <empty-line/>
@@ -320,11 +346,12 @@
 <empty-line/>
 <p><emphasis>[EOF]</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_057_003_linenoise">
 <title><p>LINENOISE</p></title>
 <p><strong>Автор:</strong> phrackstaff</p>
 <empty-line/>
-<subtitle>0x00 — Дополнение к статье о маршрутизаторах-бастионах на Cisco IOS</subtitle>
+<section id="toc_sub_000029"><title><p>0x00 — Дополнение к статье о маршрутизаторах-бастионах на Cisco IOS</p></title>
 <empty-line/>
 <p>В выпуске Phrack Volume 0xa Issue 0x38 раздел Linenoise описывался как «сборная солянка» и упоминалось, что в нём есть место для исправлений и дополнений к предыдущим статьям.</p>
 <empty-line/>
@@ -404,7 +431,8 @@
 <empty-line/>
 <p>Более новые релизы IOS также предоставляют возможность копировать конфигурации на SSH-серверы и с них через scp, хотя мы сами ещё не пробовали.</p>
 <empty-line/>
-<subtitle>0x01 — Метод обхода NIDS под названием «SeolMa»</subtitle>
+</section>
+<section id="toc_sub_000030"><title><p>0x01 — Метод обхода NIDS под названием «SeolMa»</p></title>
 <empty-line/>
 <p>Недавно в ходе нескольких простых тестов было выявлено новое уникальное свойство TCP. Оно было обнаружено при помещении срочных (Urgent) TCP-данных в середину обычного потока TCP-данных и может использоваться для обхода сигнатурного анализа большинства IDS, особенно NIDS.</p>
 <empty-line/>
@@ -453,17 +481,20 @@
 <p>• Oh, Jae Yong (syndcate@orgio.net)</p>
 <p>• Yoon, Young Min (scipio21@yahoo.co.kr)</p>
 <empty-line/>
-<subtitle>SeolMa.c</subtitle>
+</section>
+<section id="toc_sub_000031"><title><p>SeolMa.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_003_linenoise_0219_59b4cde2c4_part01.png"/>
 <image l:href="#img__code_blocks_issue_057_003_linenoise_0219_59b4cde2c4_part02.png"/>
 <image l:href="#img__code_blocks_issue_057_003_linenoise_0219_59b4cde2c4_part03.png"/>
 <empty-line/>
-<subtitle>0x02 — Комитет по предотвращению мошенничества в сфере телекоммуникаций (TFPC)</subtitle>
+</section>
+<section id="toc_sub_000032"><title><p>0x02 — Комитет по предотвращению мошенничества в сфере телекоммуникаций (TFPC)</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> nemesystm, участник dhc. http://dhcorp.cjb.net : neme-dhc@hushmail.com</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+</section>
+<section id="toc_sub_000033"><title><p>Введение</p></title>
 <empty-line/>
 <p>В этой статье я расскажу о TFPC и о том, чем этот комитет на самом деле занимается. Я возьму один из вопросов, рассматривавшихся на заседании TFPC, разберу его содержание и то, что произойдёт в ближайшем будущем, чтобы чётче обозначить деятельность TFPC. Я также добавил некоторые дополнительные сведения: почтовый адрес и другие антифродовые инициативы — на случай, если вы захотите написать в TFPC или изучить похожие организации.</p>
 <empty-line/>
@@ -471,7 +502,8 @@
 <empty-line/>
 <p>nemesystm</p>
 <empty-line/>
-<subtitle>Чем занимается TFPC</subtitle>
+</section>
+<section id="toc_sub_000034"><title><p>Чем занимается TFPC</p></title>
 <empty-line/>
 <p>Согласно руководящим принципам на сайте TFPC (1): «TFPC — открытый отраслевой комитет в составе Carrier Liaison Committee (CLC). TFPC предоставляет открытую площадку для обсуждения и добровольного урегулирования общеотраслевых вопросов, связанных с мошенничеством в сфере телекоммуникаций, и способствует обмену информацией по этим темам.» (2)</p>
 <empty-line/>
@@ -493,11 +525,13 @@
 <empty-line/>
 <p>Думаю, это немного прояснило картину.</p>
 <empty-line/>
-<subtitle>Кто входит в TFPC</subtitle>
+</section>
+<section id="toc_sub_000035"><title><p>Кто входит в TFPC</p></title>
 <empty-line/>
 <p>Членами TFPC являются ряд операторов, в том числе Ameritech, AT&amp;T, Bellsouth, Bell Canada, British Telecom, Sprint и Verizon (5). Членом TFPC может быть организация, компания или государственное ведомство, затронутые телекоммуникационным мошенничеством. Поскольку TFPC обсуждает конфиденциальную информацию, требуется подписание соглашения о неразглашении (6). При вступлении в TFPC также необходимо уплатить членский взнос. Взнос относительно невелик и является скорее жестом доброй воли (7).</p>
 <empty-line/>
-<subtitle>Что они решают — разбор конкретного случая</subtitle>
+</section>
+<section id="toc_sub_000036"><title><p>Что они решают — разбор конкретного случая</p></title>
 <empty-line/>
 <p>В своей беспредельной мудрости ;) TFPC решил сделать один из вопросов общедоступным. Вопрос, который мне удалось получить, — Issue #0131 (8), с подзаголовком: «Идентификация поставщиков услуг для коммутируемых звонков».</p>
 <empty-line/>
@@ -513,7 +547,8 @@
 <empty-line/>
 <p>На мой взгляд, это рецепт катастрофы. Что, если достаточно озлобленный человек раздобудет SPI компании X? Этот человек питает к компании X сильную неприязнь. Он подключается к основной телефонной линии и регулярно звонит в самые дорогостоящие места. Компания, обрабатывающая звонки, распознаёт SPI как принадлежащий компании X. Компания X получает счёт и думает: не беда, выставим счёт тому, кто звонил. Когда компания X обнаружит, что никто из её клиентов этих звонков не совершал, деньги уже потеряны. Выбор из приведённых ниже вариантов решения определит то, каким именно образом будет осуществлена атака.</p>
 <empty-line/>
-<subtitle>Альтернативы — продолжение разбора</subtitle>
+</section>
+<section id="toc_sub_000037"><title><p>Альтернативы — продолжение разбора</p></title>
 <empty-line/>
 <p>Как уже говорилось, существует несколько решений проблемы SPI. Вот они:</p>
 <empty-line/>
@@ -555,11 +590,13 @@
 <empty-line/>
 <p>Проблемы с LIDB: потенциальная перегрузка запросами LIDB; невозможность пакетной обработки для внеплановых загрузок; потенциальные задержки установления вызовов из-за возросшего числа запросов.</p>
 <empty-line/>
-<subtitle>Что же будет выбрано?</subtitle>
+</section>
+<section id="toc_sub_000038"><title><p>Что же будет выбрано?</p></title>
 <empty-line/>
 <p>На данный момент окончательного решения не принято: вся эта информация направлена в OBF (Order &amp; Billing Forum) для подготовки RFP (Request For Process), после чего будет принято итоговое решение. Судя по всему, «победителем» в итоге окажется альтернатива E.</p>
 <empty-line/>
-<subtitle>Дополнительная информация</subtitle>
+</section>
+<section id="toc_sub_000039"><title><p>Дополнительная информация</p></title>
 <empty-line/>
 <p>Почтовый адрес TFPC (6):</p>
 <empty-line/>
@@ -573,15 +610,18 @@
 <p>• http://www.iir.com/nwccc/nwccc.htm — National White Collar Crime Center (NWCCC)</p>
 <p>• http://www.fraud.org — National Fraud Information Center (NFIC)</p>
 <empty-line/>
-<subtitle>Заключение</subtitle>
+</section>
+<section id="toc_sub_000040"><title><p>Заключение</p></title>
 <empty-line/>
 <p>Судя по масштабу планирования, составу участников и объёму проделанной работы, можно быть уверенным: как только решение будет принято, все члены приступят к его реализации. Это усложняет жизнь фрикерам. Поскольку информация об обнаруженной одной компанией проблеме распространяется между всеми остальными компаниями, тем, кто не хочет, чтобы их методы стали известны, требуется всё большая осторожность. Я не думаю, что комитеты наподобие TFPC смогут устранить все ошибки в телефонных сетях. Эта статья показала: с введением решения для одной проблемы открывается другая потенциальная уязвимость. Я уверен, что таких примеров гораздо больше.</p>
 <empty-line/>
-<subtitle>Источники</subtitle>
+</section>
+<section id="toc_sub_000041"><title><p>Источники</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_003_linenoise_0492_38df89888b.png"/>
 <empty-line/>
 <p><emphasis>EOF</emphasis></p>
+</section>
 </section>
 <section id="sec_issue_057_004_phrack_editorial_policy">
 <title><p>Редакционная политика Phrack</p></title>
@@ -595,7 +635,7 @@
 <p>&gt;</p>
 <cite><p>— William Gosling [Gosling, 1995]</p></cite>
 <empty-line/>
-<subtitle>1. Введение</subtitle>
+<section id="toc_sub_000042"><title><p>1. Введение</p></title>
 <empty-line/>
 <p>Поскольку редактирование Phrack перешло от единоличного управления одного человека (route) к группе «команды phrack», имеет смысл заново сформулировать редакционную политику журнала.</p>
 <empty-line/>
@@ -611,7 +651,8 @@
 <empty-line/>
 <p>Именно в этом всегда была суть Phrack, и так будет впредь. Каждый из разделов ниже описывает вещи, о которых следует помнить, если вы намерены написать и прислать статью в журнал.</p>
 <empty-line/>
-<subtitle>2. Темы для исследований</subtitle>
+</section>
+<section id="toc_sub_000043"><title><p>2. Темы для исследований</p></title>
 <empty-line/>
 <p>Мы никогда не будем указывать авторам, на какие конкретные технологические области им следует ориентироваться. Выбор темы целиком остаётся за вами — при условии, разумеется, что она так или иначе связана с информационной безопасностью.</p>
 <empty-line/>
@@ -619,7 +660,8 @@
 <empty-line/>
 <p>Хорошим примером подобного мышления служит редакторская колонка route в Phrack 53. Его статья описывает свойства серверо-центричных атак, хорошо знакомых большинству специалистов. Помимо этого, он говорит о клиенто-центричных атаках — идее, которая кажется очевидной лишь задним числом и безусловно заслуживает куда большего внимания.</p>
 <empty-line/>
-<subtitle>3. Изложение простым языком</subtitle>
+</section>
+<section id="toc_sub_000044"><title><p>3. Изложение простым языком</p></title>
 <empty-line/>
 <p>Несколько статей Phrack были «переведены на понятный язык» для широкой аудитории сторонними ресурсами — в частности, интернет-изданиями. Они брали идеи из статей Phrack и объясняли их с помощью языка и аналогий, доступных своим читателям. Такие концепции, как распределённый отказ в обслуживании или переполнение буфера, не требуют от читателя глубокого технического понимания для осмысления заложенной идеи.</p>
 <empty-line/>
@@ -629,7 +671,8 @@
 <empty-line/>
 <p>По этим причинам мы поощряем подачу материалов в Phrack, написанных языком без излишней технической перегруженности. Мы понимаем, однако, что это непросто, когда речь идёт о темах, технических по своей природе.</p>
 <empty-line/>
-<subtitle>4. Полное раскрытие идеи</subtitle>
+</section>
+<section id="toc_sub_000045"><title><p>4. Полное раскрытие идеи</p></title>
 <empty-line/>
 <p>Хорошая статья становится отличной, когда излагаемая идея доведена до своего полного и логичного завершения.</p>
 <empty-line/>
@@ -643,7 +686,8 @@
 <empty-line/>
 <p>Мы призываем представлять идеи в полном объёме, не рассматривая технологию в отрыве от контекста.</p>
 <empty-line/>
-<subtitle>5. Использование ссылок</subtitle>
+</section>
+<section id="toc_sub_000046"><title><p>5. Использование ссылок</p></title>
 <empty-line/>
 <p>Добавление ссылок на другие работы стало почти стандартной практикой для статей Phrack. Это очень хорошо, поскольку позволяет читателю продолжить изучение конкретной темы.</p>
 <empty-line/>
@@ -655,13 +699,16 @@
 <empty-line/>
 <p>Включайте в статью любые предложения по дальнейшей работе. Возможно, вам известна родственная техника, которая могла бы сработать, но у вас не нашлось времени её проверить — упомяните об этом в статье.</p>
 <empty-line/>
-<subtitle>6. Заключение</subtitle>
+</section>
+<section id="toc_sub_000047"><title><p>6. Заключение</p></title>
 <empty-line/>
 <p>Эту статью ни в коем случае не следует воспринимать как попытку принудить авторов писать статьи для Phrack каким-то определённым образом. Это лишь ряд наблюдений о том, что делалось в прошлом и что, возможно, поддаётся улучшению в будущем. Удачи в написании!</p>
 <empty-line/>
-<subtitle>7. Литература</subtitle>
+</section>
+<section id="toc_sub_000048"><title><p>7. Литература</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_004_phrack_editorial_policy_0095_0b802ef683.png"/>
+</section>
 </section>
 <section id="sec_issue_057_005_writing_shellcode_for_ia_64">
 <title><p>НАПИСАНИЕ ШЕЛЛКОДА ДЛЯ IA-64</p></title>
@@ -692,23 +739,26 @@
 <p>• Ссылки</p>
 <p>• Благодарности</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+<section id="toc_sub_000049"><title><p>Введение</p></title>
 <empty-line/>
 <p>В этой статье описаны техники, необходимые для написания шеллкода под IA-64, а также то, что я сам узнал в ходе этой работы. Хотя IA-64 способна выполнять код IA-32, это не тема данной статьи. Примеры кода рассчитаны на Linux, однако большая часть материала применима ко всем операционным системам, работающим на IA-64.</p>
 <empty-line/>
-<subtitle>Общая картина</subtitle>
+</section>
+<section id="toc_sub_000050"><title><p>Общая картина</p></title>
 <empty-line/>
 <p>IA-64 — наследник IA-32, ранее известной как архитектура i386, реализованной во всех процессорах класса PC: Pentium, Athlon и прочих. Разработка ведётся Intel и HP с 1994 года; архитектура реализована в чипе Itanium. IA-64, по всей видимости, станет основной архитектурой для Unix-рабочих станций HP и SGI, а также для Microsoft Windows. Это 64-битная архитектура, способная выполнять 64-битную целочисленную арифметику аппаратно и адресовать 2^64 байт памяти. Особо интересна возможность параллельного выполнения кода, для которой используется специальный бинарный формат.</p>
 <empty-line/>
 <p>Перейдём к деталям.</p>
 <empty-line/>
-<subtitle>EPIC</subtitle>
+</section>
+<section id="toc_sub_000051"><title><p>EPIC</p></title>
 <empty-line/>
 <p>В традиционных архитектурах параллельное выполнение кода обеспечивается самим чипом: считанные инструкции анализируются, переупорядочиваются и группируются аппаратно в режиме реального времени, что допускает лишь весьма консервативные предположения.</p>
 <empty-line/>
 <p>EPIC расшифровывается как «Explicit Parallel Instruction Computing» — явное параллельное вычисление инструкций. Суть в том, что код разбивается на независимые части на этапе компиляции: ассемблерный код уже должен содержать информацию о зависимостях.</p>
 <empty-line/>
-<subtitle>Инструкции</subtitle>
+</section>
+<section id="toc_sub_000052"><title><p>Инструкции</p></title>
 <empty-line/>
 <p>Размер инструкции фиксирован и составляет 41 бит. Каждая инструкция состоит из пяти полей:</p>
 <empty-line/>
@@ -724,7 +774,8 @@
 <empty-line/>
 <p>Также заметьте, что существуют сокращённые инструкции, например <code>mov</code>, которая по сути является операцией сложения с регистром r0 (константой 0) в качестве второго аргумента.</p>
 <empty-line/>
-<subtitle>Бандлы</subtitle>
+</section>
+<section id="toc_sub_000053"><title><p>Бандлы</p></title>
 <empty-line/>
 <p>В скомпилированном коде инструкции группируются в «бандлы» по три штуки. В каждый бандл включено пятибитное поле шаблона, указывающее, какие аппаратные блоки требуются для выполнения. В итоге длина бандла составляет 128 бит. Изящно, не правда ли?</p>
 <empty-line/>
@@ -736,7 +787,8 @@
 <empty-line/>
 <p>Независимые области кода между стопами называются группами инструкций. Используя присущую им параллельную семантику, Itanium, например, способен выполнять до двух бандлов одновременно — при наличии достаточного числа исполнительных блоков для набора инструкций, заданного шаблонами. В следующих реализациях эти числа несомненно возрастут.</p>
 <empty-line/>
-<subtitle>Типы инструкций и шаблоны</subtitle>
+</section>
+<section id="toc_sub_000054"><title><p>Типы инструкций и шаблоны</p></title>
 <empty-line/>
 <p>Существуют различные типы инструкций, сгруппированные по требуемому аппаратному блоку. В одном бандле допускаются только определённые комбинации. Типы инструкций: A (целочисленные ALU), I (целочисленные не-ALU), M (память), F (числа с плавающей точкой), B (ветвления) и L+X (расширенные). Слоты X также могут содержать <code>break.i</code> и <code>nop.i</code> из соображений совместимости.</p>
 <empty-line/>
@@ -744,7 +796,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_005_writing_shellcode_for_ia_64_0108_0b56fa4cd9.png"/>
 <empty-line/>
-<subtitle>Регистры</subtitle>
+</section>
+<section id="toc_sub_000055"><title><p>Регистры</p></title>
 <empty-line/>
 <p>Это не исчерпывающий список; если нужен полный — обратитесь к [1].</p>
 <empty-line/>
@@ -770,13 +823,15 @@
 <empty-line/>
 <p>Все поля, кроме последнего, могут быть изменены только с уровня привилегий 0 (см. ниже).</p>
 <empty-line/>
-<subtitle>Список регистров</subtitle>
+</section>
+<section id="toc_sub_000056"><title><p>Список регистров</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_005_writing_shellcode_for_ia_64_0196_129cebc970.png"/>
 <empty-line/>
 <p>Дополнительно: LC должен быть сохранён.</p>
 <empty-line/>
-<subtitle>Машина стека регистров</subtitle>
+</section>
+<section id="toc_sub_000057"><title><p>Машина стека регистров</p></title>
 <empty-line/>
 <p>IA-64 предоставляет стек регистров. Существует фрейм регистров, состоящий из входных (in), локальных (loc) и выходных (out) регистров. Для выделения фрейма стека используется инструкция <code>alloc</code> (см. [1]). При вызове функции фрейм сдвигается так, что прежние выходные регистры становятся новыми входными. Обратите внимание: фрейм стека необходимо выделять даже тогда, когда нужен доступ только к входным регистрам.</p>
 <empty-line/>
@@ -784,7 +839,8 @@
 <empty-line/>
 <p>Машина стека регистров также обеспечивает ротацию регистров. Это позволяет выполнять modulo-scheduling — подробнее в главе об оптимизации. Упомянутая выше инструкция <code>alloc</code> задаёт, сколько регистров общего назначения вращается; область ротации всегда начинается с r32 и перекрывает локальные и выходные регистры. Помимо этого, вращаются предикатные регистры p16..p63 и регистры с плавающей точкой f32..f127.</p>
 <empty-line/>
-<subtitle>Конфликты зависимостей</subtitle>
+</section>
+<section id="toc_sub_000058"><title><p>Конфликты зависимостей</p></title>
 <empty-line/>
 <p>Конфликты зависимостей формально делятся на три категории.</p>
 <empty-line/>
@@ -800,15 +856,18 @@
 <empty-line/>
 <p>Возникают, когда инструкции в блоке, помеченном для параллельного выполнения, разделяют регистры или поля памяти. Это приводит к неопределённому поведению и должно быть предотвращено программистом. Именно этот тип конфликтов доставит вам больше всего хлопот — особенно при попытке написать компактный код!</p>
 <empty-line/>
-<subtitle>Выравнивание и порядок байтов</subtitle>
+</section>
+<section id="toc_sub_000059"><title><p>Выравнивание и порядок байтов</p></title>
 <empty-line/>
 <p>Как и во многих других архитектурах, данные и код необходимо выравнивать. В IA-64 код должен быть выровнен по границам 16 байт и хранится в порядке байтов от младшего к старшему (little endian). Поля данных следует выравнивать в соответствии с их размером: 8-битный <code>char</code> — по границе 1 байта. Существует специальное правило для 10-байтных чисел с плавающей точкой (если они когда-нибудь понадобятся): их нужно выравнивать по границам 16 байт. Порядок байтов данных управляется битом <code>UM.be</code> в пользовательской маске (<code>be</code> означает «big endian enable»). В Linux на IA-64 по умолчанию используется little endian.</p>
 <empty-line/>
-<subtitle>Защита памяти</subtitle>
+</section>
+<section id="toc_sub_000060"><title><p>Защита памяти</p></title>
 <empty-line/>
 <p>Память разделена на несколько виртуальных страниц. Существует набор регистров ключей защиты (PKR), содержащих все ключи, необходимые процессу. PKR управляет операционная система. Перед разрешением обращения к памяти ключ соответствующей области памяти (хранящийся в буфере ассоциативной трансляции, TLB) сравнивается со всеми ключами PKR. Если совпадения нет, генерируется исключение Key Miss. При наличии совпадающего ключа проверяются права на чтение, запись и выполнение. Права доступа вычисляются на основе поля прав доступа ключа, уровня привилегий страницы памяти и текущего уровня привилегий выполняемого кода (подробнее см. [1]). Если выполняемая операция не покрывается вычисленными правами, генерируется исключение Key Permission Fault.</p>
 <empty-line/>
-<subtitle>Уровни привилегий</subtitle>
+</section>
+<section id="toc_sub_000061"><title><p>Уровни привилегий</p></title>
 <empty-line/>
 <p>Существует четыре уровня привилегий, пронумерованных от 0 до 3, где 0 — наиболее привилегированный. Системные инструкции и регистры могут вызываться только с уровня 0. Текущий уровень привилегий (CPL) хранится в <code>PSR.cpl</code>. Следующие инструкции изменяют CPL:</p>
 <empty-line/>
@@ -824,7 +883,8 @@
 <empty-line/>
 <p>Сбрасывает CPL к предыдущему значению.</p>
 <empty-line/>
-<subtitle>Язык ассемблера GCC IA-64</subtitle>
+</section>
+<section id="toc_sub_000062"><title><p>Язык ассемблера GCC IA-64</p></title>
 <empty-line/>
 <p>Как вы, наверное, уже поняли, для программирования подобного чипа ассемблер в норме не используется. Техники оптимизации очень сложно применять вручную (хотя это и возможно). Ассемблер всегда будет нужен для вызова процессорных операций, которые языки программирования не поддерживают напрямую, для кодирования алгоритмов и, конечно, для шеллкода.</p>
 <empty-line/>
@@ -840,17 +900,20 @@
 <empty-line/>
 <p>Стопы кодируются добавлением <code>;;</code> к последней инструкции группы. Символические имена используются для ссылки на процедуры, как обычно.</p>
 <empty-line/>
-<subtitle>Список полезных инструкций</subtitle>
+</section>
+<section id="toc_sub_000063"><title><p>Список полезных инструкций</p></title>
 <empty-line/>
 <p>Хотя в любом случае придётся обратиться к [3], вот несколько инструкций, с которых стоит начать:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_005_writing_shellcode_for_ia_64_0307_bc2e003729.png"/>
 <empty-line/>
-<subtitle>Оптимизация</subtitle>
+</section>
+<section id="toc_sub_000064"><title><p>Оптимизация</p></title>
 <empty-line/>
 <p>В IA-64 существует ряд техник оптимизации. Однако поскольку тема данной статьи — не написание быстрого кода, здесь они не рассматриваются. За подробностями обратитесь к [5], особенно обратите внимание на Modulo Scheduling. Эта техника позволяет перекрывать несколько итераций цикла, что ведёт к очень компактному коду.</p>
 <empty-line/>
-<subtitle>Аспекты программирования</subtitle>
+</section>
+<section id="toc_sub_000065"><title><p>Аспекты программирования</p></title>
 <empty-line/>
 <p><strong>Стек:</strong> Как и в IA-32, стек растёт в сторону младших адресов памяти. На стеке хранятся только локальные переменные.</p>
 <empty-line/>
@@ -860,19 +923,23 @@
 <empty-line/>
 <p><strong>Получение аппаратуры:</strong> Обратитесь к [2] или [7] для экспериментов с IA-64, если у вас нет собственного оборудования.</p>
 <empty-line/>
-<subtitle>Пример кода</subtitle>
+</section>
+<section id="toc_sub_000066"><title><p>Пример кода</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_005_writing_shellcode_for_ia_64_0344_4c5eb88070_part01.png"/>
 <image l:href="#img__code_blocks_issue_057_005_writing_shellcode_for_ia_64_0344_4c5eb88070_part02.png"/>
 <image l:href="#img__code_blocks_issue_057_005_writing_shellcode_for_ia_64_0344_4c5eb88070_part03.png"/>
 <empty-line/>
-<subtitle>Ссылки</subtitle>
+</section>
+<section id="toc_sub_000067"><title><p>Ссылки</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_005_writing_shellcode_for_ia_64_0454_0db677ebdc.png"/>
 <empty-line/>
-<subtitle>Благодарности</subtitle>
+</section>
+<section id="toc_sub_000068"><title><p>Благодарности</p></title>
 <empty-line/>
 <p>palmers, skyper и scut из team teso honx и homek из dudelab</p>
+</section>
 </section>
 <section id="sec_issue_057_006_taranis">
 <title><p>TARANIS</p></title>
@@ -884,11 +951,12 @@
 <empty-line/>
 <p>URL: http://www.bitland.net/taranis</p>
 <empty-line/>
-<subtitle>Краткое описание</subtitle>
+<section id="toc_sub_000069"><title><p>Краткое описание</p></title>
 <empty-line/>
 <p>Taranis перенаправляет трафик на коммутаторном оборудовании путём отправки поддельных ethernet-пакетов. Это не то же самое, что атака ARP-отравления: данный метод воздействует исключительно на коммутатор и не опирается на ARP-пакеты. Помимо этого, инструмент практически невидим — отправляемые им пакеты не появляются ни на каком другом порту коммутатора. Уклонение от обнаружения со стороны IDS, прослушивающей порт мониторинга, сводится к простой замене типа пакета, отправляемого потоком подделки пакетов.</p>
 <empty-line/>
-<subtitle>Как это работает</subtitle>
+</section>
+<section id="toc_sub_000070"><title><p>Как это работает</p></title>
 <empty-line/>
 <p>Для начала — немного истории. В старые добрые времена существовал стандарт 10base5, или толстый Ethernet. Префикс «10» означал скорость 10 Мбит/с, а суффикс «5» указывал на максимальную длину кабеля в 500 метров. Применялся коаксиальный кабель, схожий с тем, что используется в кабельном телевидении. (Разница — в максимальном импедансе кабеля: телевизионный — 75 Ом, ethernet — 50 Ом.) Коаксиальный кабель состоит из центрального провода, окружённого слоем изолятора, который, в свою очередь, заключён в экран из тонкой многожильной проволоки. Всё это покрыто ещё одним, более тонким изолирующим слоем. Сеть на основе толстого Ethernet имела общую магистраль и ряд трансиверов, подключавшихся к ней. Если общая часть кабеля выходила из строя или грызуны перегрызали её, вся сеть прекращала работу. Поскольку кабель, как правило, прокладывался по потолкам и стенам, ремонт был весьма неудобным делом. Длинные участки кабеля требовали установки репитеров — небольших устройств для усиления сигнала.</p>
 <empty-line/>
@@ -934,7 +1002,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_006_taranis_0103_bc9b18a96b.png"/>
 <empty-line/>
-<subtitle>Настройка</subtitle>
+</section>
+<section id="toc_sub_000071"><title><p>Настройка</p></title>
 <empty-line/>
 <p>Taranis разрабатывался под FreeBSD 4.3. Также собирается под OpenBSD и Linux. Если вы портируете его на другую платформу — присылайте diff-файлы, они будут интегрированы в релиз.</p>
 <empty-line/>
@@ -944,7 +1013,8 @@
 <empty-line/>
 <p>После этого пересоберите ядро.</p>
 <empty-line/>
-<subtitle>Switchtest</subtitle>
+</section>
+<section id="toc_sub_000072"><title><p>Switchtest</p></title>
 <empty-line/>
 <p>Switchtest был написан в процессе разработки Taranis. Он включён в дистрибутив на случай, если кто-то захочет протестировать свои коммутаторы и IP-стеки. Нам не удалось найти коммутатор, который по умолчанию переходил бы в режим хаба при получении большого количества пакетов с произвольными исходными ethernet-адресами. Возможно, кому-то другому это удастся.</p>
 <empty-line/>
@@ -954,7 +1024,8 @@
 <empty-line/>
 <p>Вероятно, это приведёт к значительным потерям пакетов, однако TCP-приложения могут оказаться способны продолжать работу в таких условиях.</p>
 <empty-line/>
-<subtitle>Вопросы и ответы</subtitle>
+</section>
+<section id="toc_sub_000073"><title><p>Вопросы и ответы</p></title>
 <empty-line/>
 <p><strong>В:</strong> Откуда взялось название? <strong>О:</strong> Taranis — имя бога в древней Галлии. Когда я не могу придумать название, я беру что-нибудь наугад с www.pantheon.org.</p>
 <empty-line/>
@@ -968,11 +1039,12 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_006_taranis_0149_91a8781345.png"/>
 </section>
+</section>
 <section id="sec_issue_057_007_icmp_os_fingerprinting">
 <title><p>Методы удалённого определения ОС по TCP/IP-стеку на основе ICMP</p></title>
 <p><strong>Авторы:</strong> Ofir Arkin &amp; Fyodor Yarochkin</p>
 <empty-line/>
-<subtitle>Подход к ICMP-фингерпринтингу</subtitle>
+<section id="toc_sub_000074"><title><p>Подход к ICMP-фингерпринтингу</p></title>
 <empty-line/>
 <p>TCP-фингерпринтинг для удалённого определения операционной системы уже достаточно стар и широко известен. Здесь мы хотим представить альтернативный метод определения ОС удалённого хоста, основанный на анализе ICMP-ответов, получаемых от целевой машины. Для различных платформ достигнут определённый уровень точности, который в ряде случаев — для некоторых систем или классов платформ (например, Win*) — существенно превышает точность методов, основанных на TCP-фингерпринтинге.</p>
 <empty-line/>
@@ -980,21 +1052,25 @@
 <empty-line/>
 <p>Метод ICMP-фингерпринтинга основан на обнаруженных различиях в ICMP-ответах разных операционных систем (преимущественно из-за некорректной или непоследовательной реализации), которые были выявлены Ofir Arkin в рамках его исследовательского проекта «ICMP Usage in Scanning». Впоследствии эти открытия были сведены в логическое дерево принятия решений, которое Ofir назвал «проект X», и практически реализованы в инструменте <code>Xprobe</code>.</p>
 <empty-line/>
-<subtitle>Соотношение информации и шума при ICMP-фингерпринтинге</subtitle>
+</section>
+<section id="toc_sub_000075"><title><p>Соотношение информации и шума при ICMP-фингерпринтинге</p></title>
 <empty-line/>
 <p>Как уже отмечалось, число датаграмм, которые необходимо отправить и получить для удалённого фингерпринтинга целевой машины с помощью ICMP-зондов, невелико. Очень невелико. Фактически можно отправить одну датаграмму и получить один ответ — этого достаточно для идентификации до восьми различных операционных систем (или классов ОС). Максимальное количество датаграмм, используемых нашим инструментом на текущей стадии разработки, равно четырём. Столько же ответов потребуется проанализировать. Это делает ICMP-фингерпринтинг очень эффективным с точки зрения времени.</p>
 <empty-line/>
 <p>ICMP-зонды могут быть сформированы так, чтобы оставаться практически незаметными. На данный момент для определения типа удалённой ОС не используются деформированные, сломанные или повреждённые датаграммы — в отличие от распространённых методов фингерпринтинга. Текущий базовый анализ направлен на проверку получаемых ICMP-ответов на корректные пакеты, а не на формирование некорректных пакетов. Подобный трафик в изобилии встречается в среднестатистической сети на ежедневной основе, и очень немногие IDS-системы настроены на его обнаружение (а те, которые настроены, по всей видимости, генерируют много шума и плохо сконфигурированы).</p>
 <empty-line/>
-<subtitle>Почему это до сих пор работает?</subtitle>
+</section>
+<section id="toc_sub_000076"><title><p>Почему это до сих пор работает?</p></title>
 <empty-line/>
 <p>Наш метод оказался жизнеспособным благодаря унаследованному хаосу в реализациях различных TCP/IP-стеков: различной поддержке стандартов RFC при обработке ICMP (оригинальный RFC 792, дополнительный RFC 1122 и т.д.), частичной или неполной поддержке ICMP (различные ICMP-запросы поддерживаются не везде), низкой значимости данных в ICMP-сообщениях об ошибках (кто вообще проверяет все поля исходной датаграммы?!), а также ошибкам и недопониманиям при реализации протокола ICMP.</p>
 <empty-line/>
-<subtitle>Что именно мы анализируем</subtitle>
+</section>
+<section id="toc_sub_000077"><title><p>Что именно мы анализируем</p></title>
 <empty-line/>
 <p>Для идентификации типа удалённой операционной системы в ICMP-фингерпринтинге используется ряд OS-специфичных различий.</p>
 <empty-line/>
-<subtitle>Поля IP «нарушающей» датаграммы, подлежащие анализу</subtitle>
+</section>
+<section id="toc_sub_000078"><title><p>Поля IP «нарушающей» датаграммы, подлежащие анализу</p></title>
 <empty-line/>
 <p><strong>Поле IP Total Length (общая длина IP)</strong></p>
 <empty-line/>
@@ -1020,7 +1096,8 @@
 <empty-line/>
 <p>То же самое может происходить и с контрольной суммой UDP-заголовка.</p>
 <empty-line/>
-<subtitle>Поля IP-заголовка ответного ICMP-пакета</subtitle>
+</section>
+<section id="toc_sub_000079"><title><p>Поля IP-заголовка ответного ICMP-пакета</p></title>
 <empty-line/>
 <p><strong>Биты приоритета (Precedence bits)</strong></p>
 <empty-line/>
@@ -1089,7 +1166,8 @@
 <empty-line/>
 <p>Некоторые операционные системы игнорируют RFC 1349 при отправке ICMP echo reply и не воспроизводят значение поля TOS из соответствующего ICMP echo request.</p>
 <empty-line/>
-<subtitle>ICMP-заголовки ответного ICMP-пакета</subtitle>
+</section>
+<section id="toc_sub_000080"><title><p>ICMP-заголовки ответного ICMP-пакета</p></title>
 <empty-line/>
 <p><strong>Размер цитирования в ICMP-сообщениях об ошибках</strong></p>
 <empty-line/>
@@ -1107,7 +1185,8 @@
 <empty-line/>
 <p>Поскольку ошибки, допущенные программистами TCP/IP-стеков, различны и специфичны для каждой операционной системы, их анализ может дать потенциальному атакующему возможность делать предположения о типе целевой ОС.</p>
 <empty-line/>
-<subtitle>Дополнительные приёмы и особенности</subtitle>
+</section>
+<section id="toc_sub_000081"><title><p>Дополнительные приёмы и особенности</p></title>
 <empty-line/>
 <p><strong>Использование ненулевых значений поля code в ICMP echo request</strong></p>
 <empty-line/>
@@ -1127,13 +1206,15 @@
 <empty-line/>
 <p>Некоторые TCP/IP-стеки поддерживают эти сообщения и отвечают на некоторые из этих запросов.</p>
 <empty-line/>
-<subtitle>Реализация Xprobe</subtitle>
+</section>
+<section id="toc_sub_000082"><title><p>Реализация Xprobe</p></title>
 <empty-line/>
 <p>В настоящее время Xprobe использует жёстко закодированное логическое дерево, разработанное Ofir Arkin в рамках «Проекта X». Изначально UDP-датаграмма отправляется на закрытый порт, чтобы инициировать ICMP-сообщение об ошибке: ICMP unreachable/port unreach. (Это накладывает ограничение: на целевой системе должен быть хотя бы один нефильтрованный порт без запущенного сервиса; в общем случае могут использоваться и другие способы инициации ICMP unreach-пакета — об этом будет сказано далее.) Кроме того, несколько тестов (содержимое ICMP unreach, биты DF, TOS и т.д.) могут быть объединены в один запрос, поскольку они не влияют друг на друга.</p>
 <empty-line/>
 <p>После получения ICMP-датаграммы о недостижимости её содержимое анализируется и принимается диагностическое решение: если согласно логическому дереву требуются дополнительные тесты, отправляются дальнейшие запросы.</p>
 <empty-line/>
-<subtitle>Логическое дерево</subtitle>
+</section>
+<section id="toc_sub_000083"><title><p>Логическое дерево</p></title>
 <empty-line/>
 <p>Краткое описание организации логического дерева:</p>
 <empty-line/>
@@ -1145,7 +1226,8 @@
 <empty-line/>
 <p>Одна из серьёзных проблем логического дерева — крайняя болезненность добавления в него новых типов ОС. Порой для «вписывания» одного описания приходится переделывать часть всего логического дерева. Именно поэтому наше пристальное внимание привлёк метод фингерпринтинга на основе сигнатур.</p>
 <empty-line/>
-<subtitle>Подход на основе сигнатур</subtitle>
+</section>
+<section id="toc_sub_000084"><title><p>Подход на основе сигнатур</p></title>
 <empty-line/>
 <p>Метод на основе сигнатур — это то, на чём мы сосредоточены в данный момент и что, по нашему убеждению, станет более устойчивым, надёжным и гибким методом удалённого ICMP-фингерпринтинга.</p>
 <empty-line/>
@@ -1161,7 +1243,8 @@
 <p>• ICMP Information request</p>
 <p>• ICMP Address mask request</p>
 <empty-line/>
-<subtitle>Планы по развитию</subtitle>
+</section>
+<section id="toc_sub_000085"><title><p>Планы по развитию</p></title>
 <empty-line/>
 <p>Планируется реализовать следующее (обсуждения и предложения всегда приветствуются):</p>
 <empty-line/>
@@ -1172,7 +1255,8 @@
 <p>• В будущих реализациях для снижения вероятности обнаружения будут использоваться пакеты с реальными прикладными данными</p>
 <p>• Будут включены другие возможности сетевого картирования (идентификация роли узла в сети, поиск закрытого UDP-порта, тесты достижимости и т.д.)</p>
 <empty-line/>
-<subtitle>Код и ресурсы</subtitle>
+</section>
+<section id="toc_sub_000086"><title><p>Код и ресурсы</p></title>
 <empty-line/>
 <p>Текущий реализованный код и дополнительная документация доступны по следующим адресам:</p>
 <empty-line/>
@@ -1184,23 +1268,25 @@
 <empty-line/>
 <p>Ofir Arkin &lt;ofir@sys-security.com&gt; Fyodor Yarochkin &lt;fygrave@tigerteam.net&gt;</p>
 </section>
+</section>
 <section id="sec_issue_057_008_vudo_malloc_exploitation">
 <title><p>Vudo — объект, которому суеверно приписывают магические свойства</p></title>
 <p><strong>Дисклеймер редакции:</strong></p>
 <empty-line/>
 <p>В этом выпуске Phrack представлены две похожие статьи о техниках эксплуатации на основе malloc. Первая подробно объясняет реализацию интерфейса malloc в библиотеке GNU C и то, как её можно использовать для эксплуатации переполнений буфера в области heap. Вторая статья носит более практический характер и знакомит с идеей переполнений malloc, охватывая реализации System V и GNU C Library. Если тема вам незнакома, возможно, лучше начать со второй статьи. Однако для серьёзного изучения техники без статьи MaXX не обойтись.</p>
 <empty-line/>
-<p><strong>Автор:</strong> Michel &quot;MaXX&quot; Kaempf &lt;maxx@synnergy.net&gt;</p>
+<p><strong>Автор:</strong> Michel "MaXX" Kaempf &lt;maxx@synnergy.net&gt;</p>
 <empty-line/>
 <p>Copyright (C) 2001 Synnergy Networks</p>
 <empty-line/>
 <p>Эту статью можно было бы назвать «Smashing The Heap For Fun And Profit»... действительно, здесь рассматривается аллокатор памяти, используемый библиотекой GNU C (Doug Lea's Malloc), и связанные с ним техники повреждения heap. Однако статья названа «Vudo — объект, которому суеверно приписывают магические свойства», поскольку в ней также разбирается недавняя уязвимость в Sudo и соответствующий эксплойт Vudo.</p>
 <empty-line/>
-<subtitle>Содержание</subtitle>
+<section id="toc_sub_000087"><title><p>Содержание</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_008_vudo_malloc_exploitation_0025_c809032a9a.png"/>
 <empty-line/>
-<subtitle>1 - Введение</subtitle>
+</section>
+<section id="toc_sub_000088"><title><p>1 - Введение</p></title>
 <empty-line/>
 <p>Sudo (superuser do) позволяет системному администратору предоставлять определённым пользователям (или группам пользователей) возможность выполнять некоторые (или все) команды от имени root или другого пользователя с записью команд и аргументов в журнал. — http://www.courtesan.com/sudo/index.html</p>
 <empty-line/>
@@ -1216,17 +1302,21 @@
 <empty-line/>
 <p>• применяет эту информацию к ошибке Sudo и представляет рабочий эксплойт для Red Hat Linux/Intel 6.2 (Zoot) sudo-1.6.1-1.</p>
 <empty-line/>
-<subtitle>2 - «Потенциальная проблема безопасности»</subtitle>
+</section>
+<section id="toc_sub_000089"><title><p>2 - «Потенциальная проблема безопасности»</p></title>
 <empty-line/>
-<subtitle>2.1 - Реальная проблема</subtitle>
+</section>
+<section id="toc_sub_000090"><title><p>2.1 - Реальная проблема</p></title>
 <empty-line/>
-<subtitle>2.1.1 - Уязвимая функция</subtitle>
+</section>
+<section id="toc_sub_000091"><title><p>2.1.1 - Уязвимая функция</p></title>
 <empty-line/>
 <p>Уязвимая функция <code>do_syslog()</code> находится в файле <code>logging.c</code> из архива Sudo. Она вызывается двумя другими функциями, <code>log_auth()</code> и <code>log_error()</code>, для записи сообщений об авторизации/отказе и сообщений об ошибках через syslog. Если сообщение длиннее MAXSYSLOGLEN (960) символов, <code>do_syslog()</code> разбивает его на части, стараясь разделить по границе слова, если это возможно (слова разделяются пробелами).</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_008_vudo_malloc_exploitation_0107_092bd4a22a.png"/>
 <empty-line/>
-<subtitle>2.1.2 - Нарушение сегментации</subtitle>
+</section>
+<section id="toc_sub_000092"><title><p>2.1.2 - Нарушение сегментации</p></title>
 <empty-line/>
 <p>Крис Уилсон обнаружил, что длинные аргументы командной строки вызывают аварийное завершение Sudo во время выполнения <code>do_syslog()</code>:</p>
 <empty-line/>
@@ -1236,7 +1326,8 @@
 <empty-line/>
 <p>Этот segfault возникает только при передаче длинных аргументов командной строки, потому что цикл[7] должен выполняться многократно, чтобы достичь конца heap (после конца буфера msg, но до конца heap, могут встречаться символы SPACE, заставляющие <code>do_syslog()</code> выходить из цикла[7]). Следовательно, длина строки <code>msg</code> должна быть кратно больше MAXSYSLOGLEN, поскольку цикл[1] работает, пока count не достигает <code>(strlen(msg)/MAXSYSLOGLEN + 1)</code>.</p>
 <empty-line/>
-<subtitle>2.2 - Нереальный эксплойт</subtitle>
+</section>
+<section id="toc_sub_000093"><title><p>2.2 - Нереальный эксплойт</p></title>
 <empty-line/>
 <p>Падение при незаконной операции чтения — одно, а возможность выполнить незаконную операцию записи для получения привилегий root — совсем другое. К сожалению, <code>do_syslog()</code> изменяет heap только в двух местах: строка[5] и строка[6]. Если <code>do_syslog()</code> ошибочно перезаписывает символ на строке[5], воспользоваться этим нужно во время одного из вызовов syslog(3) между строками[5] и[6], поскольку ошибочно перезаписанный символ немедленно восстанавливается на строке[6].</p>
 <empty-line/>
@@ -1246,7 +1337,8 @@
 <empty-line/>
 <p>Первая серия вызовов malloc была выполнена <code>log_auth()</code> для выделения памяти под буфер <code>msg</code>, но вторая серия была выполнена... syslog(3). Возможно, эксплойт Sudo не такой уж нереальный.</p>
 <empty-line/>
-<subtitle>2.3 - Повреждение heap</subtitle>
+</section>
+<section id="toc_sub_000094"><title><p>2.3 - Повреждение heap</p></title>
 <empty-line/>
 <p>Однако действительно ли возможно изменить конкретный байт граничного тега, расположенного после буфера <code>msg</code> (или, в более общем смысле, перезаписать на строке[5] произвольный символ после конца <code>msg</code> байтом NUL)? Если эксплойт Sudo опирается исключительно на содержимое буфера <code>msg</code> (который, к счастью, состоит из различных строк, заданных пользователем: текущий рабочий каталог, команда sudo и так далее), ответ — нет. Это утверждение доказывается ниже.</p>
 <empty-line/>
@@ -1270,7 +1362,8 @@
 <empty-line/>
 <p>Кроме того, после того как <code>p</code> был вытолкнут за пределы буфера <code>msg</code> циклом[7], между <code>p</code> и <code>(p + MAXSYSLOGLEN)</code> не должно быть символа NUL, чтобы успешно пройти проверку[2]. Эксплойту Sudo снова придётся опираться на содержимое памяти после <code>msg</code>.</p>
 <empty-line/>
-<subtitle>2.4 - Промежуточный вывод</subtitle>
+</section>
+<section id="toc_sub_000095"><title><p>2.4 - Промежуточный вывод</p></title>
 <empty-line/>
 <p>Эксплойт Sudo должен:</p>
 <empty-line/>
@@ -1280,7 +1373,8 @@
 <empty-line/>
 <p>Но для выполнения этих задач необходимо глубокое понимание внутренней работы malloc.</p>
 <empty-line/>
-<subtitle>3 - Doug Lea's Malloc</subtitle>
+</section>
+<section id="toc_sub_000096"><title><p>3 - Doug Lea's Malloc</p></title>
 <empty-line/>
 <p>Doug Lea's Malloc (или сокращённо dlmalloc) — это аллокатор памяти, используемый библиотекой GNU C (доступен в каталоге malloc исходного дерева библиотеки). Он управляет heap и, соответственно, предоставляет функции calloc(3), malloc(3), free(3) и realloc(3) для выделения и освобождения динамической памяти.</p>
 <empty-line/>
@@ -1288,11 +1382,13 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_008_vudo_malloc_exploitation_0244_ebe1111cbd.png"/>
 <empty-line/>
-<subtitle>3.1 - Аллокатор памяти</subtitle>
+</section>
+<section id="toc_sub_000097"><title><p>3.1 - Аллокатор памяти</p></title>
 <empty-line/>
 <p>«Это не самый быстрый, не самый экономичный по пространству, не самый переносимый и не самый настраиваемый malloc, который когда-либо писали. Однако он входит в число самых быстрых, будучи при этом среди наиболее экономичных, переносимых и настраиваемых. Последовательный баланс между этими факторами даёт хороший аллокатор общего назначения для программ, интенсивно использующих malloc».</p>
 <empty-line/>
-<subtitle>3.1.1 - Цели</subtitle>
+</section>
+<section id="toc_sub_000098"><title><p>3.1.1 - Цели</p></title>
 <empty-line/>
 <p>Основные проектные цели этого аллокатора: максимальная совместимость, максимальная переносимость, минимальное использование пространства, минимальное время, максимальная настраиваемость, максимальная локальность, максимальное обнаружение ошибок, минимальные аномалии. Некоторые из этих целей критически важны с точки зрения повреждения heap и последующей эксплуатации вызовов malloc:</p>
 <empty-line/>
@@ -1306,11 +1402,13 @@
 <empty-line/>
 <p>• <strong>Максимальное обнаружение ошибок</strong>: «Аллокаторы должны предоставлять некоторые средства обнаружения повреждений из-за перезаписи памяти, множественных освобождений и так далее». К счастью для атакующего, разбивающего heap для выполнения произвольного кода, библиотека GNU C не активирует эти механизмы обнаружения ошибок по умолчанию (опция компиляции <code>MALLOC_DEBUG</code> и отладочные хуки malloc: <code>__malloc_hook</code>, <code>__free_hook</code> и т.д.).</p>
 <empty-line/>
-<subtitle>3.1.2 - Алгоритмы</subtitle>
+</section>
+<section id="toc_sub_000099"><title><p>3.1.2 - Алгоритмы</p></title>
 <empty-line/>
 <p>«В то время как слияние через граничные теги и стратегия наилучшего совпадения через бины представляют собой основные идеи алгоритма, дальнейшие соображения привели к ряду эвристических улучшений. Они включают сохранение локальности, сохранение wilderness, отображение памяти».</p>
 <empty-line/>
-<subtitle>3.1.2.1 - Граничные теги</subtitle>
+</section>
+<section id="toc_sub_000100"><title><p>3.1.2.1 - Граничные теги</p></title>
 <empty-line/>
 <p>Блоки памяти, управляемые Doug Lea's Malloc, «несут с собой поля информации о размере как перед блоком, так и после него. Это обеспечивает две важные возможности:</p>
 <empty-line/>
@@ -1324,7 +1422,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_008_vudo_malloc_exploitation_0283_7d137a68d2.png"/>
 <empty-line/>
-<subtitle>3.1.2.2 - Бины</subtitle>
+</section>
+<section id="toc_sub_000101"><title><p>3.1.2.2 - Бины</p></title>
 <empty-line/>
 <p>«Доступные блоки хранятся в бинах, сгруппированных по размеру», как упомянуто в 3.1.2.2 и 3.2.3. В зависимости от своего размера свободный блок помещается dlmalloc в бин, соответствующий нужному диапазону размеров (бины подробно описаны в 3.4):</p>
 <empty-line/>
@@ -1340,13 +1439,15 @@
 <empty-line/>
 <p>Эти алгоритмы реализованы через функцию <code>chunk_alloc()</code> (вызываемую, например, malloc(3)) и макрос <code>frontlink()</code>, подробно описанные в 3.5.1 и 3.4.2.</p>
 <empty-line/>
-<subtitle>3.1.2.3 - Сохранение локальности</subtitle>
+</section>
+<section id="toc_sub_000102"><title><p>3.1.2.3 - Сохранение локальности</p></title>
 <empty-line/>
 <p>«В текущей версии malloc вариант next-fit используется только в ограниченном контексте, который сохраняет локальность в тех случаях, когда это меньше всего конфликтует с другими целями: если блок точно нужного размера недоступен, используется (и снова разделяется) наиболее недавно разделённое пространство, если оно достаточно велико; иначе используется стратегия наилучшего совпадения».</p>
 <empty-line/>
 <p>Эта характеристика, реализованная в функции <code>chunk_alloc()</code>, оказалась существенной для эксплойта Sudo. Благодаря этой функции эксплойт мог направить целую серию вызовов malloc(3) в конкретную свободную область памяти и, следовательно, защитить другую свободную область памяти, которая должна была оставаться нетронутой (и которая иначе была бы выделена на шаге наилучшего совпадения алгоритма malloc).</p>
 <empty-line/>
-<subtitle>3.1.2.4 - Сохранение wilderness</subtitle>
+</section>
+<section id="toc_sub_000103"><title><p>3.1.2.4 - Сохранение wilderness</p></title>
 <empty-line/>
 <p>«Блок wilderness (так назван Ким-Фонгом Во) представляет собой пространство, граничащее с самым верхним адресом, выделенным из системы. Поскольку он находится на границе, это единственный блок, который может быть произвольно расширен (через sbrk в Unix), чтобы стать больше (если только sbrk не завершается ошибкой из-за исчерпания всей памяти).</p>
 <empty-line/>
@@ -1354,17 +1455,20 @@
 <empty-line/>
 <p>Блок wilderness — один из самых опасных противников для атакующего, пытающегося эксплуатировать неправильное управление heap. Поскольку этот блок памяти обрабатывается специально внутренними процедурами dlmalloc (как подробно описано в 3.5), атакующий редко сможет выполнить произвольный код, если повредит исключительно граничный тег, связанный с блоком wilderness.</p>
 <empty-line/>
-<subtitle>3.1.2.5 - Отображение памяти</subtitle>
+</section>
+<section id="toc_sub_000104"><title><p>3.1.2.5 - Отображение памяти</p></title>
 <empty-line/>
 <p>«В дополнение к расширению областей выделения общего назначения через sbrk, большинство версий Unix поддерживают системные вызовы, такие как mmap, которые выделяют отдельную несмежную область памяти для использования программой. Это обеспечивает второй вариант в malloc для удовлетворения запроса памяти. [...] текущая версия malloc использует mmap только если (1) запрос превышает (динамически регулируемый) порог размера (по умолчанию 1 МБ) и (2) запрошенное пространство недоступно в существующей арене и должно быть получено через sbrk».</p>
 <empty-line/>
 <p>По этим двум причинам, а также потому что переменные окружения, изменяющие поведение механизма отображения памяти (<code>MALLOC_MMAP_THRESHOLD_</code> и <code>MALLOC_MMAP_MAX_</code>), не загружаются при запуске программ с битами SUID или SGID, полное знание механизма отображения памяти не обязательно при злоупотреблении вызовами malloc. Однако оно будет кратко рассмотрено в 3.3.4 и 3.5.</p>
 <empty-line/>
-<subtitle>3.2 - Блоки памяти</subtitle>
+</section>
+<section id="toc_sub_000105"><title><p>3.2 - Блоки памяти</p></title>
 <empty-line/>
 <p>Heap делится Doug Lea's Malloc на непрерывные блоки памяти. Структура heap меняется при вызовах функций malloc (блоки могут выделяться, освобождаться, разделяться, объединяться), но все процедуры соблюдают инвариант: ни один свободный блок физически не граничит с другим свободным блоком (два смежных неиспользуемых блока всегда объединяются в один более крупный блок).</p>
 <empty-line/>
-<subtitle>3.2.1 - Обзор публичных процедур</subtitle>
+</section>
+<section id="toc_sub_000106"><title><p>3.2.1 - Обзор публичных процедур</p></title>
 <empty-line/>
 <p>Блоки памяти, управляемые dlmalloc, выделяются и освобождаются через четыре основные публичные процедуры:</p>
 <empty-line/>
@@ -1384,7 +1488,8 @@
 <empty-line/>
 <p>calloc(3) ведёт себя как malloc(3) (вызывает <code>chunk_alloc()</code> аналогичным образом), за исключением того, что calloc(3) обнуляет выделенный блок перед возвратом пользователю. calloc(3) не рассматривается в данной статье.</p>
 <empty-line/>
-<subtitle>3.2.2 - Ключевые характеристики</subtitle>
+</section>
+<section id="toc_sub_000107"><title><p>3.2.2 - Ключевые характеристики</p></title>
 <empty-line/>
 <p>Когда пользователь вызывает dlmalloc для выделения динамической памяти, эффективный размер выделяемого блока (количество байт, реально изолируемых в heap) никогда не равен размеру, запрошенному пользователем. Эта разница — следствие наличия граничных тегов до и после буфера, возвращаемого пользователю, и результат выравнивания по 8 байтам, упомянутого в 3.1.1.</p>
 <empty-line/>
@@ -1394,7 +1499,8 @@
 <empty-line/>
 <p>• <strong>Минимальный выделяемый размер</strong>: когда malloc(3) вызывается с аргументом размера ноль, Doug Lea's Malloc фактически выделяет 16 байт в heap (минимальный выделяемый размер, равный размеру граничного тега).</p>
 <empty-line/>
-<subtitle>3.2.3 - Свободные блоки</subtitle>
+</section>
+<section id="toc_sub_000108"><title><p>3.2.3 - Свободные блоки</p></title>
 <empty-line/>
 <p>Доступные блоки хранятся в нескольких местах:</p>
 <empty-line/>
@@ -1404,9 +1510,11 @@
 <empty-line/>
 <p>• остаток наиболее недавно разделённого (не верхнего) блока всегда свободен и никогда не включается ни в один бин.</p>
 <empty-line/>
-<subtitle>3.3 - Граничные теги</subtitle>
+</section>
+<section id="toc_sub_000109"><title><p>3.3 - Граничные теги</p></title>
 <empty-line/>
-<subtitle>3.3.1 - Структура</subtitle>
+</section>
+<section id="toc_sub_000110"><title><p>3.3.1 - Структура</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_008_vudo_malloc_exploitation_0374_771fe0d1ee.png"/>
 <empty-line/>
@@ -1422,15 +1530,16 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_008_vudo_malloc_exploitation_0418_1c6eb63a97.png"/>
 <empty-line/>
-<p>Хотя пользователь никогда не должен использовать больше байт, чем запросил, количество байт, зарезервированных для пользователя Doug Lea's Malloc, может фактически превышать объём запрошенной динамической памяти (из-за выравнивания по 8 байтам). Фактически, область памяти, в которой пользователь может хранить данные без повреждения heap, начинается в <code>mem</code> и заканчивается в (включая) поле <code>prev_size</code> блока <code>nextchunk</code> (это поле <code>prev_size</code> не используется dlmalloc, поскольку <code>chunk</code> выделен, и поэтому может содержать пользовательские данные для экономии), и таким образом имеет длину <code>((&quot;nextchunk&quot; + 4) - &quot;mem&quot;)</code> байт.</p>
+<p>Хотя пользователь никогда не должен использовать больше байт, чем запросил, количество байт, зарезервированных для пользователя Doug Lea's Malloc, может фактически превышать объём запрошенной динамической памяти (из-за выравнивания по 8 байтам). Фактически, область памяти, в которой пользователь может хранить данные без повреждения heap, начинается в <code>mem</code> и заканчивается в (включая) поле <code>prev_size</code> блока <code>nextchunk</code> (это поле <code>prev_size</code> не используется dlmalloc, поскольку <code>chunk</code> выделен, и поэтому может содержать пользовательские данные для экономии), и таким образом имеет длину <code>(("nextchunk" + 4) - "mem")</code> байт.</p>
 <empty-line/>
-<p>Но размер этой области, <code>((&quot;nextchunk&quot; + 4) - &quot;mem&quot;)</code>, также равен <code>((&quot;nextchunk&quot; + 4) - (&quot;chunk&quot; + 8))</code>, что, конечно, равно <code>((&quot;nextchunk&quot; - &quot;chunk&quot;) - 4)</code>. Поскольку <code>(&quot;nextchunk&quot; - &quot;chunk&quot;)</code> — эффективный размер блока <code>chunk</code>, размер области памяти, в которой пользователь может хранить данные без повреждения heap, равен эффективному размеру блока минус 4 байта.</p>
+<p>Но размер этой области, <code>(("nextchunk" + 4) - "mem")</code>, также равен <code>(("nextchunk" + 4) - ("chunk" + 8))</code>, что, конечно, равно <code>(("nextchunk" - "chunk") - 4)</code>. Поскольку <code>("nextchunk" - "chunk")</code> — эффективный размер блока <code>chunk</code>, размер области памяти, в которой пользователь может хранить данные без повреждения heap, равен эффективному размеру блока минус 4 байта.</p>
 <empty-line/>
 <p>• Свободные блоки хранятся в круговых двусвязных списках (описанных в 3.4.2) и выглядят так:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_008_vudo_malloc_exploitation_0436_12b0d46b1d.png"/>
 <empty-line/>
-<subtitle>3.3.2 - Размер блока</subtitle>
+</section>
+<section id="toc_sub_000111"><title><p>3.3.2 - Размер блока</p></title>
 <empty-line/>
 <p>Когда пользователь запрашивает <code>req</code> байт динамической памяти (например, через malloc(3) или realloc(3)), dlmalloc сначала вызывает <code>request2size()</code> для преобразования <code>req</code> в пригодный размер <code>nb</code> (эффективный размер выделяемого блока памяти, включая накладные расходы). Макрос <code>request2size()</code> мог бы просто добавить 8 байт к <code>req</code> и выглядеть так:</p>
 <empty-line/>
@@ -1456,7 +1565,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_008_vudo_malloc_exploitation_0516_7be8d50b43.png"/>
 <empty-line/>
-<subtitle>3.3.3 - Поле prev_size</subtitle>
+</section>
+<section id="toc_sub_000112"><title><p>3.3.3 - Поле prev_size</p></title>
 <empty-line/>
 <p>Если блок памяти, расположенный непосредственно перед блоком <code>p</code>, выделен (как dlmalloc определяет, выделен ли предыдущий блок, подробно описано в 3.3.4), то 4 байта поля <code>prev_size</code> блока <code>p</code> не используются dlmalloc и поэтому могут содержать пользовательские данные (для экономии).</p>
 <empty-line/>
@@ -1464,7 +1574,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_008_vudo_malloc_exploitation_0531_fa558cd549.png"/>
 <empty-line/>
-<subtitle>3.3.4 - Поле size</subtitle>
+</section>
+<section id="toc_sub_000113"><title><p>3.3.4 - Поле size</p></title>
 <empty-line/>
 <p>Поле <code>size</code> граничного тега хранит эффективный размер (в байтах) связанного блока памяти и дополнительную статусную информацию. Эта информация хранится в 2 наименее значимых битах, которые иначе были бы не использованы (поскольку, как подробно описано в 3.3.2, размер блока всегда кратен 8 байтам, и 3 наименее значимых бита поля <code>size</code> всегда были бы равны 0).</p>
 <empty-line/>
@@ -1490,11 +1601,13 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_008_vudo_malloc_exploitation_0574_4d28e02f78.png"/>
 <empty-line/>
-<subtitle>3.4 - Бины</subtitle>
+</section>
+<section id="toc_sub_000114"><title><p>3.4 - Бины</p></title>
 <empty-line/>
 <p>«Доступные блоки хранятся в бинах, сгруппированных по размеру», как упомянуто в 3.1.2.2 и 3.2.3. Два исключения — это остаток наиболее недавно разделённого (не верхнего) блока памяти и самый верхний доступный блок (блок wilderness), которые обрабатываются специально и никогда не включаются ни в один бин.</p>
 <empty-line/>
-<subtitle>3.4.1 - Индексирование бинов</subtitle>
+</section>
+<section id="toc_sub_000115"><title><p>3.4.1 - Индексирование бинов</p></title>
 <empty-line/>
 <p>Бинов достаточно много (128), и в зависимости от своего размера (эффективного размера, а не размера, запрошенного пользователем) свободный блок памяти помещается dlmalloc в бин, соответствующий нужному диапазону размеров. Для нахождения индекса этого бина (128 бинов хранятся в массиве) dlmalloc вызывает макросы <code>smallbin_index()</code> и <code>bin_index()</code>.</p>
 <empty-line/>
@@ -1512,7 +1625,8 @@
 <empty-line/>
 <p>• И так далее.</p>
 <empty-line/>
-<subtitle>3.4.2 - Связывание блоков в списках бинов</subtitle>
+</section>
+<section id="toc_sub_000116"><title><p>3.4.2 - Связывание блоков в списках бинов</p></title>
 <empty-line/>
 <p>Свободные блоки памяти хранятся в круговых двусвязных списках. На каждый бин приходится один такой список, изначально пустой, поскольку в начале весь heap состоит из одного блока (никогда не включаемого ни в один бин) — блока wilderness. Бин — это не что иное, как пара указателей (прямой и обратный), служащих заголовком связанного двусвязного списка.</p>
 <empty-line/>
@@ -1530,11 +1644,13 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_008_vudo_malloc_exploitation_0636_4712196a2b.png"/>
 <empty-line/>
-<subtitle>3.5 - Основные публичные процедуры</subtitle>
+</section>
+<section id="toc_sub_000117"><title><p>3.5 - Основные публичные процедуры</p></title>
 <empty-line/>
 <p>Конечная цель атакующего, которому удалось разбить heap процесса, — выполнить произвольный код. Doug Lea's Malloc можно заставить достичь этой цели после успешного повреждения heap либо благодаря макросу <code>unlink()</code>, либо благодаря макросу <code>frontlink()</code>, оба из которых представлены выше и подробно описаны в 3.6. Следующее описание алгоритмов malloc(3), free(3) и realloc(3) поэтому сосредоточено на этих двух внутренних макросах.</p>
 <empty-line/>
-<subtitle>3.5.1 - Алгоритм malloc(3)</subtitle>
+</section>
+<section id="toc_sub_000118"><title><p>3.5.1 - Алгоритм malloc(3)</p></title>
 <empty-line/>
 <p>Функция malloc(3), названная <code>__libc_malloc()</code> в библиотеке GNU C (malloc() — лишь weak-символ) и <code>mALLOc()</code> в файле malloc.c, в первую очередь выполняет код, на который указывает <code>__malloc_hook</code>, если этот отладочный хук не равен NULL (но обычно он равен). Затем malloc(3) преобразует запрошенный объём динамической памяти в пригодный вид (через <code>request2size()</code>, представленный в 3.3.2) и вызывает внутреннюю функцию <code>chunk_alloc()</code>, которая предпринимает первый успешный из следующих шагов:</p>
 <empty-line/>
@@ -1586,7 +1702,8 @@
 <empty-line/>
 <p>После успешного расширения блок wilderness разделяется так же, как на шаге[4], но в случае неудачи в <code>mALLOc()</code> возвращается указатель NULL.</p>
 <empty-line/>
-<subtitle>3.5.2 - Алгоритм free(3)</subtitle>
+</section>
+<section id="toc_sub_000119"><title><p>3.5.2 - Алгоритм free(3)</p></title>
 <empty-line/>
 <p>Функция free(3), названная <code>__libc_free()</code> в библиотеке GNU C и <code>fREe()</code> в файле malloc.c, в первую очередь выполняет код, на который указывает <code>__free_hook</code>, если этот отладочный хук не равен NULL, и затем различает следующие случаи:</p>
 <empty-line/>
@@ -1610,7 +1727,8 @@
 <empty-line/>
 <p>• <strong>[4.3]</strong> Полученный после слияния блок помещается в свой двусвязный список (через макрос <code>frontlink()</code>), или становится новым <code>last_remainder</code>, если старый <code>last_remainder</code> был слит с освобождаемым блоком.</p>
 <empty-line/>
-<subtitle>3.5.3 - Алгоритм realloc(3)</subtitle>
+</section>
+<section id="toc_sub_000120"><title><p>3.5.3 - Алгоритм realloc(3)</p></title>
 <empty-line/>
 <p>Функция realloc(3), названная <code>__libc_realloc()</code> в библиотеке GNU C и <code>rEALLOc()</code> в файле malloc.c, в первую очередь выполняет код, на который указывает <code>__realloc_hook</code>, если он не равен NULL, и затем различает следующие случаи:</p>
 <empty-line/>
@@ -1640,11 +1758,14 @@
 <empty-line/>
 <p>• <strong>[5.4.2]</strong> Иначе перевыделяемый блок освобождается через <code>chunk_free()</code> (его содержимое предварительно копируется во вновь выделенный блок). Наконец, блок, возвращённый <code>chunk_alloc()</code>, возвращается в <code>rEALLOc()</code>.</p>
 <empty-line/>
-<subtitle>3.6 - Выполнение произвольного кода</subtitle>
+</section>
+<section id="toc_sub_000121"><title><p>3.6 - Выполнение произвольного кода</p></title>
 <empty-line/>
-<subtitle>3.6.1 - Техника unlink()</subtitle>
+</section>
+<section id="toc_sub_000122"><title><p>3.6.1 - Техника unlink()</p></title>
 <empty-line/>
-<subtitle>3.6.1.1 - Концепция</subtitle>
+</section>
+<section id="toc_sub_000123"><title><p>3.6.1.1 - Концепция</p></title>
 <empty-line/>
 <p>Если атакующему удаётся заставить dlmalloc обработать тщательно созданный поддельный блок памяти (или блок, чьи поля <code>fd</code> и <code>bk</code> были повреждены) макросом <code>unlink()</code>, он сможет перезаписать любое целое число в памяти значением по своему выбору и, следовательно, в конечном итоге выполнить произвольный код.</p>
 <empty-line/>
@@ -1658,7 +1779,8 @@
 <empty-line/>
 <p>Эта техника <code>unlink()</code>, впервые введённая Solar Designer, иллюстрируется proof of concept в 3.6.1.2 и была успешно использована против определённых уязвимых версий таких программ, как браузеры Netscape, traceroute и slocate.</p>
 <empty-line/>
-<subtitle>3.6.1.2 - Proof of concept</subtitle>
+</section>
+<section id="toc_sub_000124"><title><p>3.6.1.2 - Proof of concept</p></title>
 <empty-line/>
 <p>Программа ниже содержит типичное переполнение буфера, поскольку атакующий может перезаписать (на строке[3]) данные, хранящиеся непосредственно после конца первого буфера, если первый аргумент, переданный программе (argv[1]), длиннее 666 байт:</p>
 <empty-line/>
@@ -1685,9 +1807,11 @@
 <image l:href="#img__code_blocks_issue_057_008_vudo_malloc_exploitation_0853_f246367f60_part01.png"/>
 <image l:href="#img__code_blocks_issue_057_008_vudo_malloc_exploitation_0853_f246367f60_part02.png"/>
 <empty-line/>
-<subtitle>3.6.2 - Техника frontlink()</subtitle>
+</section>
+<section id="toc_sub_000125"><title><p>3.6.2 - Техника frontlink()</p></title>
 <empty-line/>
-<subtitle>3.6.2.1 - Концепция</subtitle>
+</section>
+<section id="toc_sub_000126"><title><p>3.6.2.1 - Концепция</p></title>
 <empty-line/>
 <p>В качестве альтернативы атакующий может эксплуатировать макрос <code>frontlink()</code> для злоупотребления программами, некорректно управляющими heap. Техника <code>frontlink()</code> менее гибкая и сложнее в реализации, чем техника <code>unlink()</code>, однако она может быть интересным вариантом, поскольку её предусловия отличаются. Хотя никакого эксплойта, применяющего эту технику <code>frontlink()</code> в реальных условиях, не известно, proof of concept представлен в 3.6.2.2, и это был один из возможных методов против уязвимости Sudo.</p>
 <empty-line/>
@@ -1707,7 +1831,8 @@
 <empty-line/>
 <p>-- Но даже если содержимое или размер блока, расположенного перед блоком <code>P</code>, не контролируются атакующим, он может попытаться сохранить допустимый машинный код в поле <code>prev_size</code> блока <code>P</code>.</p>
 <empty-line/>
-<subtitle>3.6.2.2 - Proof of concept</subtitle>
+</section>
+<section id="toc_sub_000127"><title><p>3.6.2.2 - Proof of concept</p></title>
 <empty-line/>
 <p>Программа ниже уязвима к переполнению буфера: хотя атакующий не может переполнить (на строке[7]) первый буфер, выделенный динамически в heap (на строке[1]), содержимым argv[2] (поскольку размер этого первого буфера в точности равен размеру argv[2]), он может переполнить (на строке[9]) четвёртый буфер, выделенный динамически в heap (на строке[4]), содержимым argv[1]. Размер области памяти, зарезервированной для пользователя в четвёртом блоке, равен 668 (request2size(666) - 4) байтам, так что если размер argv[1] больше или равен 676 (668 + 2*4) байтам, атакующий может перезаписать поля <code>size</code> и <code>fd</code> следующего непрерывного граничного тега.</p>
 <empty-line/>
@@ -1730,9 +1855,11 @@
 <image l:href="#img__code_blocks_issue_057_008_vudo_malloc_exploitation_1025_98ac472b47_part01.png"/>
 <image l:href="#img__code_blocks_issue_057_008_vudo_malloc_exploitation_1025_98ac472b47_part02.png"/>
 <empty-line/>
-<subtitle>4 - Эксплуатация уязвимости Sudo</subtitle>
+</section>
+<section id="toc_sub_000128"><title><p>4 - Эксплуатация уязвимости Sudo</p></title>
 <empty-line/>
-<subtitle>4.1 - Теория</subtitle>
+</section>
+<section id="toc_sub_000129"><title><p>4.1 - Теория</p></title>
 <empty-line/>
 <p>Для эксплуатации уязвимости Sudo, и как упомянуто в 2.4, атакующий должен перезаписать байт граничного тега, расположенного непосредственно после конца буфера <code>msg</code>, и воспользоваться этим ошибочно перезаписанным байтом до его восстановления.</p>
 <empty-line/>
@@ -1879,7 +2006,8 @@
 <empty-line/>
 <p>Этот шеллкод был впоследствии выполнен в начале последнего вызова malloc(3), поскольку повреждённый отладочный хук <code>__malloc_hook</code> был прочитан и выполнен.</p>
 <empty-line/>
-<subtitle>4.2 - Практика</subtitle>
+</section>
+<section id="toc_sub_000130"><title><p>4.2 - Практика</p></title>
 <empty-line/>
 <p>Для успешного получения привилегий root через эксплойт Vudo пользователю не обязательно присутствовать в файле sudoers, но нужно знать свой пароль пользователя. Дополнительно необходимо предоставить три аргумента командной строки:</p>
 <empty-line/>
@@ -1905,7 +2033,8 @@
 <image l:href="#img__code_blocks_issue_057_008_vudo_malloc_exploitation_1492_ef61bacd04_part10.png"/>
 <image l:href="#img__code_blocks_issue_057_008_vudo_malloc_exploitation_1492_ef61bacd04_part11.png"/>
 <empty-line/>
-<subtitle>5 - Благодарности</subtitle>
+</section>
+<section id="toc_sub_000131"><title><p>5 - Благодарности</p></title>
 <empty-line/>
 <p>Спасибо Тодду Миллеру за захватывающую уязвимость, Крису Уилсону за её обнаружение, Дагу Ли за превосходный аллокатор и Solar Designer за технику <code>unlink()</code>.</p>
 <empty-line/>
@@ -1915,9 +2044,11 @@
 <empty-line/>
 <p>Спасибо Phrack за профессиональную работу и привет superluck ;)</p>
 <empty-line/>
-<subtitle>6 - Заключение</subtitle>
+</section>
+<section id="toc_sub_000132"><title><p>6 - Заключение</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_008_vudo_malloc_exploitation_2052_566cd27cbe.png"/>
+</section>
 </section>
 <section id="sec_issue_057_009_once_upon_a_free">
 <title><p>Однажды в free()...</p></title>
@@ -1942,7 +2073,7 @@
 <empty-line/>
 <p>Примечательно, что большинство реализаций malloc легко переносимы и не зависят от архитектуры. Большинство из них просто строят интерфейс поверх системного вызова <code>brk</code>, и это поведение можно изменить через <code>#define</code>. Все встреченные мной реализации написаны на ANSI C и выполняют минимальные проверки корректности — или не выполняют их вовсе. В большинстве из них есть специальный флаг компиляции, включающий утверждения и дополнительные проверки, которые по умолчанию отключены в финальных сборках из соображений производительности. Некоторые реализации предлагают дополнительные проверки надёжности для обнаружения переполнений буфера — они предназначены для выявления ошибок в процессе разработки, но не для противодействия эксплуатации в финальных релизах.</p>
 <empty-line/>
-<subtitle>Хранение управляющей информации «вместе с данными»</subtitle>
+<section id="toc_sub_000133"><title><p>Хранение управляющей информации «вместе с данными»</p></title>
 <empty-line/>
 <p>Большинство реализаций malloc объединяет поведение по хранению собственной управляющей информации — списков занятых и свободных блоков, размеров блоков памяти и прочих данных — непосредственно в пространстве кучи. Поскольку вся концепция malloc/free основана на динамических потребностях приложения, управляющая информация сама занимает переменный объём данных. По этой причине реализация, как правило, не может просто зарезервировать некоторое количество памяти для собственных нужд, а хранит управляющую информацию «в полосе данных» — прямо перед блоками памяти, выделенными приложению, и после них.</p>
 <empty-line/>
@@ -1952,13 +2083,15 @@
 <empty-line/>
 <p>Чтобы провести такую атаку, необходимо глубоко разобраться во внутреннем устройстве целевой реализации. В этой статье рассматриваются широко применяемая GNU C Library и реализация System V, а также методы получения контроля над процессом через переполнения буферов в malloc-выделенных областях памяти в системах Linux, Solaris и IRIX.</p>
 <empty-line/>
-<subtitle>Реализация malloc в System V</subtitle>
+</section>
+<section id="toc_sub_000134"><title><p>Реализация malloc в System V</p></title>
 <empty-line/>
 <p>IRIX и Solaris используют реализацию, основанную на самонастраивающихся бинарных деревьях. Теоретическая основа этой реализации описана в [2].</p>
 <empty-line/>
 <p>Базовая идея состоит в хранении списков одинаково размерных фрагментов malloc в бинарном дереве. Если выделить два фрагмента одного размера, они окажутся в одном узле и в одном списке этого узла. Дерево упорядочено по размеру элементов.</p>
 <empty-line/>
-<subtitle>Структура TREE</subtitle>
+</section>
+<section id="toc_sub_000135"><title><p>Структура TREE</p></title>
 <empty-line/>
 <p>Определение структуры TREE находится в <code>mallint.h</code> вместе с удобными макросами для доступа к её полям. Файл <code>mallint.h</code> можно найти в дистрибутиве исходных кодов операционной системы Solaris [4]. Хотя я не могу подтвердить, что IRIX основан на тех же исходниках, ряд сходств указывает на это. Интерфейс malloc внутренне создаёт одинаковую разметку памяти и функции, за исключением некоторых выравниваний по 64 бита. Исходники Solaris вполне подходят и для написания эксплойтов под IRIX.</p>
 <empty-line/>
@@ -2072,7 +2205,8 @@
 <empty-line/>
 <p>Существует множество других способов проэксплуатировать управление памятью System V malloc — значительно больше, чем в реализации GNU. Это следствие динамической структуры дерева, которая порой затрудняет понимание. Если вы дочитали до этого места, уверен, что вы сами найдёте способы эксплуатировать переполнения буферов malloc.</p>
 <empty-line/>
-<subtitle>Реализация GNU C Library</subtitle>
+</section>
+<section id="toc_sub_000136"><title><p>Реализация GNU C Library</p></title>
 <empty-line/>
 <p>GNU C Library хранит информацию о фрагментах памяти, запрошенных приложением, в так называемых «блоках» (chunks). Они выглядят следующим образом (адаптировано из <code>malloc.c</code>):</p>
 <empty-line/>
@@ -2170,7 +2304,8 @@
 <empty-line/>
 <p>Где <code>|</code> — граница блока (именно отсюда начинается переполнение). Два последующих отрицательных числа нужны для прохождения нескольких проверок в <code>free()</code> и для избежания нулевых байт. Затем корректно закодированный адрес <code>(retloc - 12)</code> и адрес возврата, который вернёт управление на <code>jmp-ahead</code>. Буфер перед <code>|</code> такой же, как и в любом x86-эксплойте, за исключением первых 12 байт — нужно учитывать дополнительную операцию записи, выполняемую макросом <code>unlink</code>.</p>
 <empty-line/>
-<subtitle>Off-by-one / Off-by-five</subtitle>
+</section>
+<section id="toc_sub_000137"><title><p>Off-by-one / Off-by-five</p></title>
 <empty-line/>
 <p>Можно перезаписывать произвольные указатели даже в тех случаях, когда переполнение составляет лишь пять байт или — в особых ситуациях — один байт. При пятибайтовом переполнении разметка памяти должна выглядеть так:</p>
 <empty-line/>
@@ -2188,7 +2323,8 @@
 <empty-line/>
 <p>Отличный обзор и описание реализации malloc в GNU C Library можно найти в справочном руководстве по GNU C Library [3]. Оно достойно прочтения и в части, не связанной с malloc.</p>
 <empty-line/>
-<subtitle>Возможные препятствия и как с ними справиться</subtitle>
+</section>
+<section id="toc_sub_000138"><title><p>Возможные препятствия и как с ними справиться</p></title>
 <empty-line/>
 <p>Как и в случае с любой новой техникой эксплуатации, найдутся люди, убеждённые, что у них есть «идеальное» решение — в голове или в виде патча к функциям malloc. Такие люди — нередко никогда не написавшие ни одного эксплойта — создают ложное чувство безопасности. Хочу сказать несколько слов об этих подходах и о том, почему они, как правило, не работают.</p>
 <empty-line/>
@@ -2214,21 +2350,24 @@
 <empty-line/>
 <p>Подобная защита вряд ли существенно изменит механизм управления блоками malloc, поскольку текущий код доказал свою эффективность. Функция malloc играет ключевую роль в общей производительности системы, поэтому здесь нельзя вольничать. Такая защита может ввести лишь несколько дополнительных проверок — она не в состоянии проверять полную согласованность при каждом вызове <code>malloc()</code>. И именно здесь её слабость: стоит захватить управление над одним блоком управляющей информации malloc, и можно захватить управление над другими блоками. Поскольку блоки обходятся либо по хранимым указателям (SysV), либо по хранимым длинам (GlibC), можно «создавать» новые блоки. Проверка корректности в худшем случае должна предполагать несогласованность всех блоков и обходить их все. Но это съест слишком много производительности, поэтому обнаружить переполнения malloc без потери производительности попросту невозможно. Значит, «MallocGuard» либо не появится, либо окажется бесполезной защитой — в традиции бесполезных псевдозащит. Как говорит один мой знакомый: «на любую защиту найдётся антизащита».</p>
 <empty-line/>
-<subtitle>Благодарности</subtitle>
+</section>
+<section id="toc_sub_000139"><title><p>Благодарности</p></title>
 <empty-line/>
 <p>Хочу поблагодарить всех вычитчиков и редакторов. За крайне необходимые исправления благодарю MaXX, написавшего более подробную статью о malloc в GNU C Library в этом выпуске Phrack, — уважение ему! :)</p>
 <empty-line/>
-<subtitle>Ссылки</subtitle>
+</section>
+<section id="toc_sub_000140"><title><p>Ссылки</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_009_once_upon_a_free_0632_81e2d056da.png"/>
 <empty-line/>
 <p><emphasis>|=[ EOF ]=---------------------------------------------------------------|</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_057_010_against_the_system_rise_of_the_robots">
 <title><p>Against the System: Rise of the Robots</p></title>
 <p><strong>Автор:</strong> Michal Zalewski &lt;lcamtuf@bos.bindview.com&gt;</p>
 <empty-line/>
-<subtitle>[1] Введение</subtitle>
+<section id="toc_sub_000141"><title><p>[1] Введение</p></title>
 <empty-line/>
 <cite><p>«[...] большое различие между вебом и традиционными хорошо контролируемыми</p></cite>
 <cite><p>коллекциями заключается в том, что в вебе практически нет никакого контроля</p></cite>
@@ -2249,7 +2388,8 @@
 <empty-line/>
 <p>Агенты работают практически незаметно: люди привыкли к их повсеместному присутствию. А краулеры медленно движутся вперёд в нескончаемом цикле. Они работают систематически, не захлёбываясь от избытка данных — они ползут, без всякого «взрыва» активности. Неделя за неделей они пробуют новые хосты — осторожно, не перегружая сетевые каналы, не генерируя подозрительного трафика; бесконечное рекуррентное исследование никогда не прекращается. Заметите ли вы, что они несут в себе червя? Возможно...</p>
 <empty-line/>
-<subtitle>[2] Пример</subtitle>
+</section>
+<section id="toc_sub_000142"><title><p>[2] Пример</p></title>
 <empty-line/>
 <p>Когда эта мысль пришла мне в голову, я решил провести простейший тест — просто чтобы убедиться, что я прав. Я «нацелился», если это правильное слово, на краулеры общего назначения, индексирующие веб. Я создал очень короткий HTML-документ и разместил его где-то. И подождал несколько недель. И тогда они пришли. AltaVista, Lycos и десятки других. Они нашли новые ссылки и энергично забрали их, затем пропали на несколько дней.</p>
 <empty-line/>
@@ -2275,7 +2415,8 @@
 <empty-line/>
 <p>Существует целая армия роботов — разных видов, разных функций, разного уровня интеллекта. И эти роботы будут делать всё, что вы им прикажете. Это пугает.</p>
 <empty-line/>
-<subtitle>[3] Социальный аспект</subtitle>
+</section>
+<section id="toc_sub_000143"><title><p>[3] Социальный аспект</p></title>
 <empty-line/>
 <p>Кто виновен, если веб-краулер скомпрометировал вашу систему? Самый очевидный ответ: автор исходной веб-страницы, которую посетил краулер. Но авторов веб-страниц трудно отследить, а цикл индексирования веб-краулера занимает недели. Сложно определить, когда именно конкретная страница появилась в сети — она может быть доставлена столькими способами, обработана другими роботами ещё раньше; в SMTP-протоколе и многих других нет механизма отслеживания, к которому мы могли бы обратиться. Кроме того, многие краулеры не помнят, откуда они «узнали» новые URL. Дополнительные проблемы создают флаги индексирования — например, <code>noindex</code> без опции <code>nofollow</code>. Во многих случаях личность автора и происхождение атаки установить не удастся, тогда как компрометации будут происходить.</p>
 <empty-line/>
@@ -2285,15 +2426,18 @@
 <empty-line/>
 <p>С другой стороны, успешная фильтрация контента с целью устранения вредоносного кода кажется почти невозможной, если принять во внимание количество и широкое разнообразие известных уязвимостей — не говоря уже о целевых атаках (подробнее о проприетарных решениях и их уязвимостях — см. список литературы, [B]). Таким образом, проблема остаётся. Дополнительная сложность состоит в том, что не все краулер-боты находятся под юрисдикцией США, что делает всю проблему ещё более запутанной (во многих странах американский подход вызывает как минимум споры).</p>
 <empty-line/>
-<subtitle>[4] Защита</subtitle>
+</section>
+<section id="toc_sub_000144"><title><p>[4] Защита</p></title>
 <empty-line/>
 <p>Как было сказано выше, у самого веб-краулера крайне ограниченные возможности защиты и уклонения из-за широкого разнообразия веб-уязвимостей. Одна из более разумных идей защиты — использование надёжного и актуального программного обеспечения, однако — очевидно — эта концепция крайне непопулярна по ряду причин: www.google.com с включённым фильтром уникальных документов возвращает 62 100 совпадений по запросу «cgi vulnerability» (см. также список литературы, [D]).</p>
 <empty-line/>
 <p>Ещё один рубеж обороны от ботов — стандартный механизм исключения роботов <code>/robots.txt</code> (спецификации — см. список литературы, [C]). Цена, которую придётся за это заплатить, — частичное или полное исключение вашего сайта из поисковых систем, что в большинстве случаев нежелательно. Кроме того, некоторые роботы сломаны и не соблюдают <code>/robots.txt</code>, переходя по прямой ссылке на новый сайт.</p>
 <empty-line/>
-<subtitle>[5] Список литературы</subtitle>
+</section>
+<section id="toc_sub_000145"><title><p>[5] Список литературы</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_010_against_the_system_rise_of_the_robots_0218_5a12364c22.png"/>
+</section>
 </section>
 <section id="sec_issue_057_011_holistic_attack_detection">
 <title><p>Целостные подходы к обнаружению атак</p></title>
@@ -2315,13 +2459,13 @@
 <p>— Дуглас Р. Хофштадтер [Hofstadter, 1979].</p>
 <empty-line/>
 <cite><p>«Как ни странно, одной из вещей, которая меня подтолкнула, была шутка — название</p></cite>
-<cite><p>книги Дугласа Адамса &quot;Детективное агентство Дирка Джентли&quot;. Я подумал: интересная</p></cite>
+<cite><p>книги Дугласа Адамса "Детективное агентство Дирка Джентли". Я подумал: интересная</p></cite>
 <cite><p>формулировка — что значит раскрывать преступление целостно? Это значит, что надо</p></cite>
-<cite><p>&quot;раскрыть&quot; не только само преступление, но и весь мир, в котором оно произошло.»</p></cite>
+<cite><p>"раскрыть" не только само преступление, но и весь мир, в котором оно произошло.»</p></cite>
 <empty-line/>
 <p>— Алан Мур [Moore, 2000].</p>
 <empty-line/>
-<subtitle>1. Введение</subtitle>
+<section id="toc_sub_000146"><title><p>1. Введение</p></title>
 <empty-line/>
 <p>Эта статья посвящена различным подходам к проблеме обнаружения атак.</p>
 <empty-line/>
@@ -2331,7 +2475,8 @@
 <empty-line/>
 <p>Будет сделан обзор существующей исследовательской литературы, описана пример-архитектура корпоративного мониторинга безопасности, использующая целостный подход, а в заключительном разделе сформулированы прогнозы относительно будущего мониторинга безопасности.</p>
 <empty-line/>
-<subtitle>2. Постановка проблемы</subtitle>
+</section>
+<section id="toc_sub_000147"><title><p>2. Постановка проблемы</p></title>
 <empty-line/>
 <p>Современные корпоративные сети генерируют огромное количество данных о состоянии среды в реальном времени: о статусе безопасности, систем, сети, приложений и т.д. Технологии и архитектуры сетевого управления со временем эволюционировали, чтобы решать задачи, связанные с обработкой больших объёмов событийных данных: применяются корреляция событий, их сокращение и анализ первопричин. Технологии и архитектуры мониторинга безопасности, однако, ещё не достигли той же степени зрелости. Большинство, если не все, технологии мониторинга безопасности ориентированы на максимально детальное сообщение о событиях низкого уровня (таких как обнаруженные атаки). Такой подход полезен в небольшой среде, но терпит неудачу в корпоративной по следующим причинам:</p>
 <empty-line/>
@@ -2348,7 +2493,8 @@
 <empty-line/>
 <p>Традиционные подходы к обнаружению атак сосредоточены исключительно на анализе, основанном на редукционизме. В этой статье пропагандируется целостный подход, который может работать совместно с традиционными редукционистскими методами и добавлять дополнительную ценность. Эти понятия описаны ниже.</p>
 <empty-line/>
-<subtitle>3. Редукционизм и холизм</subtitle>
+</section>
+<section id="toc_sub_000148"><title><p>3. Редукционизм и холизм</p></title>
 <empty-line/>
 <p>Традиционные технологии мониторинга безопасности — такие как сетевые и хостовые IDS (системы обнаружения вторжений) и хостовые средства контроля целостности — работают на редукционистской основе. Редукционистский подход основан на убеждении, что целое можно в значительной мере понять, изучив его составные части; то есть можно сделать вывод о существовании атаки, если можно сделать конкретное наблюдение. Такие инструменты пытаются обнаружить несанкционированные изменения или сопоставить текущую активность с известными индикаторами злоупотреблений.</p>
 <empty-line/>
@@ -2356,7 +2502,8 @@
 <empty-line/>
 <p>Ещё один способ описать это различие таков: редукционистские методы рассуждают индуктивно — они переходят от частных наблюдений к предполагаемым истинам. Холистические методы поступают наоборот — они начинают с общих знаний и предсказывают конкретный набор наблюдений. На практике решение сложных задач лучше всего достигается длинными цепочками смешанных индуктивных и дедуктивных умозаключений, которые плетут нить между наблюдениями и внутренними моделями.</p>
 <empty-line/>
-<subtitle>4. Эпифеномены и проблема цепочки соединений</subtitle>
+</section>
+<section id="toc_sub_000149"><title><p>4. Эпифеномены и проблема цепочки соединений</p></title>
 <empty-line/>
 <p>Следующая цитата из [Hofstadter, 1979]:</p>
 <empty-line/>
@@ -2365,14 +2512,14 @@
 <cite><p>операционная система, по всей видимости, справляется с тридцатью пятью пользователями</p></cite>
 <cite><p>с большим комфортом, но примерно при тридцати пяти пользователях время отклика вдруг</p></cite>
 <cite><p>резко возрастает, становясь настолько медленным, что проще выйти из системы, пойти</p></cite>
-<cite><p>домой и подождать до более позднего времени. Шутя, я сказал: &quot;Ну, это просто</p></cite>
+<cite><p>домой и подождать до более позднего времени. Шутя, я сказал: "Ну, это просто</p></cite>
 <cite><p>исправить — найдите в операционной системе место, где хранится число '35', и измените</p></cite>
-<cite><p>его на '60'!&quot;. Все засмеялись. Суть, конечно, в том, что такого места не существует.</p></cite>
+<cite><p>его на '60'!". Все засмеялись. Суть, конечно, в том, что такого места не существует.</p></cite>
 <cite><p>Откуда же тогда берётся критическое число — 35 пользователей? Ответ: это видимое</p></cite>
-<cite><p>следствие общей организации системы — &quot;эпифеномен&quot;.</p></cite>
+<cite><p>следствие общей организации системы — "эпифеномен".</p></cite>
 <p>&gt;</p>
-<cite><p>Аналогично можно спросить о спринтере: &quot;Где хранится '9,3', что позволяет ему</p></cite>
-<cite><p>пробежать 100 ярдов за 9,3 секунды?&quot;. Очевидно, нигде. Его результат — следствие</p></cite>
+<cite><p>Аналогично можно спросить о спринтере: "Где хранится '9,3', что позволяет ему</p></cite>
+<cite><p>пробежать 100 ярдов за 9,3 секунды?". Очевидно, нигде. Его результат — следствие</p></cite>
 <cite><p>того, как он сложён, какова его реакция, миллиона факторов, взаимодействующих во</p></cite>
 <cite><p>время бега. Результат вполне воспроизводим, но нигде в его теле не хранится. Он</p></cite>
 <cite><p>распределён по всем клеткам его тела и проявляется только в самом акте спринта.»</p></cite>
@@ -2397,7 +2544,8 @@
 <empty-line/>
 <p>Эти примеры показывают, что можно обнаруживать атаки способом, не опирающимся на обнаружение отдельных техник атаки.</p>
 <empty-line/>
-<subtitle>5. Обнаружение вторжений на основе стратегии атаки</subtitle>
+</section>
+<section id="toc_sub_000150"><title><p>5. Обнаружение вторжений на основе стратегии атаки</p></title>
 <empty-line/>
 <p>Ещё одно преимущество холистических методов, работающих на «более высоком» уровне вывода, чем редукционистские, проявляется в области анализа стратегий атак.</p>
 <empty-line/>
@@ -2411,7 +2559,8 @@
 <empty-line/>
 <p>Разумеется, холистическая модель по-прежнему опирается на данные, собранные из среды с помощью редукционистских техник, — это обсуждается вместе с другими вопросами в следующем разделе.</p>
 <empty-line/>
-<subtitle>6. Пример модели системы корпоративного мониторинга безопасности</subtitle>
+</section>
+<section id="toc_sub_000151"><title><p>6. Пример модели системы корпоративного мониторинга безопасности</p></title>
 <empty-line/>
 <p>Применение холистического подхода к обнаружению атак особенно полезно в корпоративных средах. В таких средах большое количество генераторов событий может сообщать столь значительный объём данных, что задача обнаружения атак внутри этого набора данных реалистично решаема только программно — именно здесь холистические методы могут принести пользу.</p>
 <empty-line/>
@@ -2433,7 +2582,8 @@
 <empty-line/>
 <p>Структура атак, использующих автоматизированных агентов, как в [Jitsu et al., 2000], или распределённых агентов, как в [Stewart, 2000], вероятно, будет наиболее простой для кодификации, поскольку они применяют техники, основанные на запрограммированных внутренних правилах.</p>
 <empty-line/>
-<subtitle>7. Заключительные замечания</subtitle>
+</section>
+<section id="toc_sub_000152"><title><p>7. Заключительные замечания</p></title>
 <empty-line/>
 <p>Трудности, возникающие при мониторинге безопасности корпоративных сред, породили недавний спрос на аутсорсинговые управляемые услуги мониторинга безопасности. Такие компании, как Guardent (www.guardent.com), Counterpane (www.counterpane) и Internet Security Systems (www.issx.com), предлагают управляемые услуги безопасности. Эти компании применяют технологии, частично основанные на холистическом подходе, — например, описанные в [Counterpane, 2001].</p>
 <empty-line/>
@@ -2441,17 +2591,19 @@
 <empty-line/>
 <p>С точки зрения атакующих, вскоре будет уже недостаточно маскироваться от обнаружения конкретными технологиями. Атаки, пытающиеся скрыться от обнаружения конкретными подходами к обнаружению вторжений (например, путём модуляции шеллкода для обхода конкретных сигнатур) и/или от обнаружения конкретными продуктами, станут менее эффективными. Следующее поколение технологий мониторинга безопасности и обнаружения вторжений будет применять стратегию, основанную на холистических методах, в которых базовая форма и структура атак кодифицируется и впоследствии может распознаваться.</p>
 <empty-line/>
-<subtitle>8. Список литературы</subtitle>
+</section>
+<section id="toc_sub_000153"><title><p>8. Список литературы</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_011_holistic_attack_detection_0299_9f94764e4b.png"/>
+</section>
 </section>
 <section id="sec_issue_057_012_nids_mpp">
 <title><p>Сетевые системы обнаружения вторжений на архитектуре массового параллельного процессинга</p></title>
 <p><strong>Автор:</strong> Wanderley J. Abreu Jr. &lt;storm@stormdev.net&gt;</p>
 <empty-line/>
-<p><emphasis>&quot;Nam et Ipsa Scientia Potestas Est&quot;</emphasis> — Francis Bacon</p>
+<p><emphasis>"Nam et Ipsa Scientia Potestas Est"</emphasis> — Francis Bacon</p>
 <empty-line/>
-<subtitle>1. Введение</subtitle>
+<section id="toc_sub_000154"><title><p>1. Введение</p></title>
 <empty-line/>
 <p>Одна из самых сложных задач в области безопасности — с абсолютной уверенностью обнаруживать вредоносные атаки в момент их совершения и принимать наиболее эффективные меры для их регистрации, блокировки и предотвращения в будущем.</p>
 <empty-line/>
@@ -2465,7 +2617,8 @@
 <empty-line/>
 <p>Статья не претендует на предоставление абсолютного решения проблемы ложных срабатываний и пропущенных атак в сетевых IDS, однако делает ещё один шаг в направлении этой утопии.</p>
 <empty-line/>
-<subtitle>2. Байесовский коэффициент обнаружения (BDR)</subtitle>
+</section>
+<section id="toc_sub_000155"><title><p>2. Байесовский коэффициент обнаружения (BDR)</p></title>
 <empty-line/>
 <p>В 1761 году преподобный Томас Байес предложил концепцию управления логическим выводом, позволяющую определять степень уверенности в различных возможных выводах на основе имеющейся совокупности свидетельств. Таким образом, для получения логически обоснованного прогноза необходимо использовать теорему Байеса.</p>
 <empty-line/>
@@ -2523,7 +2676,8 @@
 <empty-line/>
 <p>Из сказанного следует, что байесовский коэффициент обнаружения растёт по мере снижения частоты ложных срабатываний.</p>
 <empty-line/>
-<subtitle>3. Нормальное распределение</subtitle>
+</section>
+<section id="toc_sub_000156"><title><p>3. Нормальное распределение</p></title>
 <empty-line/>
 <p>Чтобы определить рост BDR, необходимо знать стандартный BDR существующих систем обнаружения вторжений. Для этого воспользуемся методом нормального распределения.</p>
 <empty-line/>
@@ -2539,7 +2693,8 @@
 <empty-line/>
 <p>Где m — среднее, s — стандартное отклонение, p — константа 3,14159, e — основание натурального логарифма, равное 2,718282. x может принимать любое значение от -бесконечности до +бесконечности.</p>
 <empty-line/>
-<subtitle>3.1. Среднее значение</subtitle>
+</section>
+<section id="toc_sub_000157"><title><p>3.1. Среднее значение</p></title>
 <empty-line/>
 <p>Среднее арифметическое — это то, что обычно называют средним, и оно определяется как:</p>
 <empty-line/>
@@ -2547,7 +2702,8 @@
 <empty-line/>
 <p>Где n — количество значений.</p>
 <empty-line/>
-<subtitle>3.2. Стандартное отклонение</subtitle>
+</section>
+<section id="toc_sub_000158"><title><p>3.2. Стандартное отклонение</p></title>
 <empty-line/>
 <p>Стандартное отклонение — это мера разброса распределения. Оно вычисляется как среднее квадратичное отклонение каждого числа от среднего:</p>
 <empty-line/>
@@ -2557,7 +2713,8 @@
 <empty-line/>
 <p>Определим экспериментальный метод, в котором X будет являться BDR для наиболее известных IDS на рынке, и посмотрим, насколько наш прототип на базе MPP-платформы отличается от их результатов с помощью метода нормального распределения и стандартного отклонения.</p>
 <empty-line/>
-<subtitle>4. Экспериментальная среда</subtitle>
+</section>
+<section id="toc_sub_000159"><title><p>4. Экспериментальная среда</p></title>
 <empty-line/>
 <p>Соберём экспериментальные данные для определения стандарта BDR для IDS. Возьмём стандартные установки 10 IDS плюс наш прототип — итого 11 — работающих в следующей конфигурации:</p>
 <empty-line/>
@@ -2575,7 +2732,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_012_nids_mpp_0186_09a218173d.png"/>
 <empty-line/>
-<subtitle>4.1. Среда MPP</subtitle>
+</section>
+<section id="toc_sub_000160"><title><p>4.1. Среда MPP</p></title>
 <empty-line/>
 <p>Теперь необходимо определить сетевую топологию и стандартную операционную систему для нашего прототипа.</p>
 <empty-line/>
@@ -2591,7 +2749,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_012_nids_mpp_0231_7e6239d88d.png"/>
 <empty-line/>
-<subtitle>5. Эксперимент</subtitle>
+</section>
+<section id="toc_sub_000161"><title><p>5. Эксперимент</p></title>
 <empty-line/>
 <p>Тестировавшиеся NIDS:</p>
 <empty-line/>
@@ -2607,7 +2766,8 @@
 <p>• Network ICE</p>
 <p>• MPP NIDS Prototype</p>
 <empty-line/>
-<subtitle>5.1. Результаты</subtitle>
+</section>
+<section id="toc_sub_000162"><title><p>5.1. Результаты</p></title>
 <empty-line/>
 <p><strong>Snort</strong></p>
 <empty-line/>
@@ -2653,7 +2813,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_012_nids_mpp_0522_7b2c1d49da.png"/>
 <empty-line/>
-<subtitle>4.2. Нормальное распределение</subtitle>
+</section>
+<section id="toc_sub_000163"><title><p>4.2. Нормальное распределение</p></title>
 <empty-line/>
 <p>Используя метод нормального распределения, определим, какую оценку по шкале от 1 до 10 получит наш прототип NIDS.</p>
 <empty-line/>
@@ -2679,11 +2840,13 @@
 <empty-line/>
 <p>Наш прототип набрал 6,64 балла в нашем тесте. На данном этапе читателю предлагается самостоятельно провести аналогичные расчёты для всех NIDS — и станет ясно, что наш прототип достиг наилучшего результата среди всех протестированных систем.</p>
 <empty-line/>
-<subtitle>6. Почему?</subtitle>
+</section>
+<section id="toc_sub_000164"><title><p>6. Почему?</p></title>
 <empty-line/>
 <p>Почему наш прототип так существенно отличается от остальных NIDS, если он построен практически на тех же концепциях?</p>
 <empty-line/>
-<subtitle>6.1. Блоки E, A, D, R и «C»</subtitle>
+</section>
+<section id="toc_sub_000165"><title><p>6.1. Блоки E, A, D, R и «C»</p></title>
 <empty-line/>
 <p>Используя CIDF (Common Intrusion Detection Framework), мы выделяем 4 основных типа блоков:</p>
 <empty-line/>
@@ -2694,7 +2857,8 @@
 <empty-line/>
 <p>Что такое «C»-блоки? Это блоки проверки избыточности, которые используют методы CRC для проверки того, является ли истинное срабатывание действительно истинным. C-блоки могут определить, формирует ли E-блок обоснованный отчёт или A-блок генерирует реальное истинное срабатывание на основании этого отчёта. Поскольку мы работаем с MPP-средой, данный узел может присутствовать на всех машинах, распределяя полезную нагрузку по числу имеющихся блоков.</p>
 <empty-line/>
-<subtitle>6.2. CISL</subtitle>
+</section>
+<section id="toc_sub_000166"><title><p>6.2. CISL</p></title>
 <empty-line/>
 <p>Блоки нашего прототипа используют язык CISL (Common Intrusion Specification Language) для взаимодействия друг с другом. Этот язык передаёт следующие виды информации:</p>
 <empty-line/>
@@ -2702,15 +2866,18 @@
 <p>• Результаты анализа: описание системных аномалий и обнаруженных атак.</p>
 <p>• Предписания по реагированию: остановка определённых действий или изменение спецификаций безопасности компонентов.</p>
 <empty-line/>
-<subtitle>6.3. Прозрачные блоки NIDS</subtitle>
+</section>
+<section id="toc_sub_000167"><title><p>6.3. Прозрачные блоки NIDS</p></title>
 <empty-line/>
 <p>Все блоки, кроме некоторых E-блоков, используют метод, широко применяемый в межсетевых экранах и прокси-серверах для управления входящим/исходящим сетевым трафиком к определённым машинам. Он называется «прозрачностью блока» (Box Transparency): снижает необходимость замены программного обеспечения и переобучения пользователей. Метод позволяет контролировать, кто или что способен видеть машину, тем самым сводя к минимуму избыточный сетевой трафик.</p>
 <empty-line/>
-<subtitle>6.4. Распределение полезной нагрузки и туннелирование от E-блока к A-блоку</subtitle>
+</section>
+<section id="toc_sub_000168"><title><p>6.4. Распределение полезной нагрузки и туннелирование от E-блока к A-блоку</p></title>
 <empty-line/>
 <p>В программной среде MPI (Message Passing Interface), используя Beowulf в качестве кластерной платформы, можно распределить разбор сетевой полезной нагрузки A-блоков по всем машинам кластера, что максимизирует производительность как A-блоков, так и C-блоков. Весь сетевой трафик, кроме данных отчётов от E-блоков, поступающих по зашифрованному туннельному протоколу, блокируется с целью максимизации скорости передачи данных кластера и DSM (распределённой общей памяти).</p>
 <empty-line/>
-<subtitle>7. Выводы</subtitle>
+</section>
+<section id="toc_sub_000169"><title><p>7. Выводы</p></title>
 <empty-line/>
 <p>Хотя в данной статье не рассматривались ни методы атак, ни модели обнаружения NIDS, необходимо добавить, что никто не эксплуатирует NIDS в конфигурации по умолчанию, поэтому при хорошо настроенной системе можно достичь более высоких показателей.</p>
 <empty-line/>
@@ -2718,27 +2885,29 @@
 <empty-line/>
 <p>Как было сказано во введении, эта статья не является окончательным решением проблемы измерения производительности NIDS или подлинным панацеей от ложных срабатываний (вряд ли какая-либо статья может ею стать), однако предоставляет читателю относительно простой способ измерить эффективность своей NIDS-среды и предлагает ещё один подход к выполнению этой сложной задачи.</p>
 <empty-line/>
-<subtitle>8. Библиография</subtitle>
+</section>
+<section id="toc_sub_000170"><title><p>8. Библиография</p></title>
 <empty-line/>
-<p>AMOROSO, Edward G. (1999), &quot;Intrusion Detection&quot;, Intrusion NetBook, USA.</p>
+<p>AMOROSO, Edward G. (1999), "Intrusion Detection", Intrusion NetBook, USA.</p>
 <empty-line/>
-<p>AXELSON, Stefan (1999) — &quot;The Base-Rate Fallacy and its Implications for the Difficulty of Intrusion Detection&quot;, www.ce.chalmers.se/staff/sax/difficulty.ps, Sweden.</p>
+<p>AXELSON, Stefan (1999) — "The Base-Rate Fallacy and its Implications for the Difficulty of Intrusion Detection", www.ce.chalmers.se/staff/sax/difficulty.ps, Sweden.</p>
 <empty-line/>
-<p>BUNDY, Alan (1997), &quot;Artificial Inteligence Techniques&quot;, Springer-Verlag Berlin Heidelberg, Germany.</p>
+<p>BUNDY, Alan (1997), "Artificial Inteligence Techniques", Springer-Verlag Berlin Heidelberg, Germany.</p>
 <empty-line/>
-<p>BUYYA, Rajkumar (1999), &quot;High Performance Cluster Computing: Architectures and Systems&quot;, Prentice Hall, USA.</p>
+<p>BUYYA, Rajkumar (1999), "High Performance Cluster Computing: Architectures and Systems", Prentice Hall, USA.</p>
 <empty-line/>
-<p>KAEO, Merike (1999), &quot;Designing Network Security&quot;, Macmillan Technical Publishing, USA.</p>
+<p>KAEO, Merike (1999), "Designing Network Security", Macmillan Technical Publishing, USA.</p>
 <empty-line/>
-<p>LEORNARD, Thomas (1999), &quot;Bayesian Methods: An Analysis for Statisticians and Interdisciplinary Researchers&quot;, Cambridge Univ Press, UK.</p>
+<p>LEORNARD, Thomas (1999), "Bayesian Methods: An Analysis for Statisticians and Interdisciplinary Researchers", Cambridge Univ Press, UK.</p>
 <empty-line/>
-<p>NORTHCUTT, Stephen (1999), &quot;Network Intrusion Detection: An Analyst's Handbook&quot;, New Riders Publishing, USA.</p>
+<p>NORTHCUTT, Stephen (1999), "Network Intrusion Detection: An Analyst's Handbook", New Riders Publishing, USA.</p>
 <empty-line/>
-<p>PATEL, Jagdish K. (1996), &quot;Handbook of the Normal Distribution&quot;, Marcel Dekker, USA.</p>
+<p>PATEL, Jagdish K. (1996), "Handbook of the Normal Distribution", Marcel Dekker, USA.</p>
 <empty-line/>
-<p>STERLING, Thomas L. (1999), &quot;How to Build a Beowulf: A Guide to the Implementation and Application of PC Clusters&quot;, MIT Press, USA.</p>
+<p>STERLING, Thomas L. (1999), "How to Build a Beowulf: A Guide to the Implementation and Application of PC Clusters", MIT Press, USA.</p>
 <empty-line/>
-<subtitle>9. Благодарности</subtitle>
+</section>
+<section id="toc_sub_000171"><title><p>9. Благодарности</p></title>
 <empty-line/>
 <p>\#Segfault at IRCSNET — спасибо за веселье и моральную поддержку</p>
 <empty-line/>
@@ -2760,11 +2929,12 @@
 <empty-line/>
 <p><emphasis>|=[ EOF ]=---------------------------------------------------------------=|</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_057_013_ssl_mitm_dca">
 <title><p>Haaaang on snoopy, snoopy hang on. (SSL для развлечения и наживы)</p></title>
 <p><strong>Автор:</strong> Stealth &lt;stealth@segfault.net&gt;</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+<section id="toc_sub_000172"><title><p>Введение</p></title>
 <empty-line/>
 <p>SSL версии 3, известный как SSLv3, или текущая версия 3.1, также известная как TLS, предоставляет механизм безопасной передачи данных по сети с обнаружением изменённых или повторно воспроизведённых пакетов. Он удовлетворяет всем требованиям, которые предъявляются к защищённой системе — например, для управления банковскими счетами.</p>
 <empty-line/>
@@ -2772,7 +2942,8 @@
 <empty-line/>
 <p>В этой статье я проведу вас по тем частям SSL, которые важны для нас и необходимы для понимания. Вещи, с которыми мы не работаем напрямую, — например, процедура SSL-рукопожатия — здесь подробно не рассматриваются; обратитесь к ссылкам в конце, если вам интересно.</p>
 <empty-line/>
-<subtitle>1. Зачем нужен SSL</subtitle>
+</section>
+<section id="toc_sub_000173"><title><p>1. Зачем нужен SSL</p></title>
 <empty-line/>
 <p>SSL был разработан для обеспечения:</p>
 <empty-line/>
@@ -2800,7 +2971,8 @@
 <empty-line/>
 <p>В итоге мы сможем просматривать данные в открытом виде, изменять их по своему усмотрению, записывать, отправлять с задержкой, в неправильном порядке или повторно. Это будет реализовано посредством атаки «человек посередине», при которой эксплуатируется ряд уязвимостей в интерактивных SSL-клиентах — в частности, подход «переложи решение на пользователя».</p>
 <empty-line/>
-<subtitle>2. Сертификаты X.509</subtitle>
+</section>
+<section id="toc_sub_000174"><title><p>2. Сертификаты X.509</p></title>
 <empty-line/>
 <p>Сертификаты X.509 являются неотъемлемой частью SSL. Сервер отправляет свой сертификат клиенту в ходе SSL-рукопожатия. Сертификат X.509 содержит уникальное имя (DN) издателя, DN субъекта, версию и серийный номер, выбранные алгоритмы, временной промежуток действия ключа и, разумеется, открытый ключ субъекта.</p>
 <empty-line/>
@@ -2828,7 +3000,8 @@
 <empty-line/>
 <p>Для достижения достаточно высокого уровня безопасности сертификаты должны быть подписаны CA (либо собственным, как в этом примере, либо публичным), чей открытый ключ есть у клиента для проверки сертификата. Если у клиента нет открытого ключа CA для проверки целостности сертификата, он предлагает пользователю принять или отклонить его. Это «требование» для интерактивных клиентов в сочетании с тем фактом, что существует огромное количество «популярных» сайтов с сертификатами, для которых ни у кого по умолчанию нет ключа для надлежащей проверки, в конечном счёте сделает SSL бесполезным для распространённых интерактивных SSL-клиентов, таких как браузер Netscape.</p>
 <empty-line/>
-<subtitle>3. Как встать посередине</subtitle>
+</section>
+<section id="toc_sub_000175"><title><p>3. Как встать посередине</p></title>
 <empty-line/>
 <p>Как мы убедились, сертификаты X.509 являются важной частью SSL. Их задача — доказать клиенту, что он общается именно с тем сервером, с которым ожидает, и что при этом используется правильный ключ.</p>
 <empty-line/>
@@ -2854,7 +3027,8 @@
 <empty-line/>
 <p>Чтобы видеть трафик в открытом виде, нужно модифицировать наш (виртуальный) ретранслятор, добавив вызовы <code>SSL_accept()</code> и <code>SSL_connect()</code>. После принятия соединения через <code>accept()</code> мы подключаемся <code>connect()</code> к реальному серверу и вызываем <code>SSL_connect()</code>. Затем вызываем <code>SSL_accept()</code>. Предположив, что мы предварительно выполнили инициализацию — загрузили файл ключа и т. д., — SSL-клиент теперь получит сертификат ретранслятора. Очевидно, это будет подозрительно: когда пользователь заходит на сайт компании А, а получает сертификат компании Б или «MiM», он, скорее всего, немного удивится. Мы решим эту проблему. Порядок вызовов <code>SSL_connect()</code> и <code>SSL_accept()</code> у нас уже правильный, и сейчас я объясню почему.</p>
 <empty-line/>
-<subtitle>4. DCA — динамическая сборка сертификата</subtitle>
+</section>
+<section id="toc_sub_000176"><title><p>4. DCA — динамическая сборка сертификата</p></title>
 <empty-line/>
 <p>Мы уже можем видеть открытый текст соединения через <code>SSL_read()</code> и пересылать его на целевой сервер через <code>SSL_write()</code>, если пользователь SSL-клиента просто примет сертификат. Теперь пора решить вторую часть задачи: подделку сертификата.</p>
 <empty-line/>
@@ -2876,7 +3050,7 @@
 <empty-line/>
 <p>Беря почти пустой сертификат (все поля RDN отсутствуют, кроме C — Country), <code>do_dca()</code> заполняет этот X.509-сертификат содержимым X.509-сертификата, полученного в ходе SSL-рукопожатия с сервером ранее. Мы извлекаем поля L, ST, O, CN, OU и Email (при их наличии) и помещаем их в наш сертификат, который будет показан SSL-клиенту. Это делается с помощью не очень изящного разбора строк и функций <code>X509_()</code>, предоставляемых OpenSSL.</p>
 <empty-line/>
-<p>В поле OU издателя мы добавляем пробел <code>&quot; &quot;</code>, который не будет виден в окне SSL-клиента, но отличает его от сохранённых сертификатов публичных CA. Пользователю будет предложено принять сертификат от «известного CA» (потому что пользователь видит имя, но не видит добавленного пробела; SSL-клиент не может найти подходящий открытый ключ для этого CA и выводит запрос), который он, скорее всего, примет.</p>
+<p>В поле OU издателя мы добавляем пробел <code>" "</code>, который не будет виден в окне SSL-клиента, но отличает его от сохранённых сертификатов публичных CA. Пользователю будет предложено принять сертификат от «известного CA» (потому что пользователь видит имя, но не видит добавленного пробела; SSL-клиент не может найти подходящий открытый ключ для этого CA и выводит запрос), который он, скорее всего, примет.</p>
 <empty-line/>
 <p>Неплохо, правда? В качестве особого бонуса мы можем использовать поля субъекта (CN и др.) в качестве полей издателя — тогда бывший сертификат, подписанный публичным CA, станет самоподписанным. Поскольку самоподписанные сертификаты обычно показываются пользователю, он не сможет понять, что это подделка.</p>
 <empty-line/>
@@ -2890,7 +3064,7 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_013_ssl_mitm_dca_0246_f3031fd2f2.png"/>
 <empty-line/>
-<p>Как видите, открытый ключ отличается от прежнего (без mimd), поскольку это ключ самого mimd. Поле C содержит значения «US» и «EU», но в Netscape отображается только второе — разницы нет. Видите пробел в поле OU? Поскольку исходный сертификат не содержал поля OU, теперь оно содержит просто <code>&quot; &quot;</code>. Не важно. Данные издателя взяты из исходного поля издателя в X.509-сертификате.</p>
+<p>Как видите, открытый ключ отличается от прежнего (без mimd), поскольку это ключ самого mimd. Поле C содержит значения «US» и «EU», но в Netscape отображается только второе — разницы нет. Видите пробел в поле OU? Поскольку исходный сертификат не содержал поля OU, теперь оно содержит просто <code>" "</code>. Не важно. Данные издателя взяты из исходного поля издателя в X.509-сертификате.</p>
 <empty-line/>
 <p>Теперь попробуем использовать поля субъекта в качестве полей издателя. Для данного примера это несколько избыточно, поскольку сертификат не подписан публичным CA, — но в случае, если важный публичный CA подписал сертификат, поддельный самоподписанный может оказаться полезной игрушкой:</p>
 <empty-line/>
@@ -2898,7 +3072,8 @@
 <empty-line/>
 <p>Единственное отличие между этими двумя вариантами в том, что в поле издателя теперь появился CN, которого там раньше не было. С публичными CA эффект был бы более выраженным, как я уже упоминал.</p>
 <empty-line/>
-<subtitle>5. Заключение</subtitle>
+</section>
+<section id="toc_sub_000177"><title><p>5. Заключение</p></title>
 <empty-line/>
 <p>Итог: пользователь, работающий в Интернете с интерактивным клиентом в его нынешнем виде, НЕ МОЖЕТ ЗНАТЬ, что его соединение подвергается атаке «человек посередине». У него нет никакого способа отличить ситуацию «браузер запрашивает подтверждение, потому что компания использует неизвестный CA» от «неизвестный CA — это mimd». Даже если он уже посещал сайт и сохранил сертификат (!), он всё равно может попасть в эту ловушку. Внимательный пользователь МОЖЕТ заметить, что ему предлагают принять сертификат, подписанный «RSA Data Security» или «Verisign», и усомниться. Включение режима самоподписания в mimd рассеет его сомнения.</p>
 <empty-line/>
@@ -2908,15 +3083,17 @@
 <empty-line/>
 <p>Segfault Consortium за предоставление тестовой среды и различным людям за вычитку статьи. Если что-то неверно — их вина. :)</p>
 <empty-line/>
-<subtitle>Ссылки</subtitle>
+</section>
+<section id="toc_sub_000178"><title><p>Ссылки</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_013_ssl_mitm_dca_0371_fde1ce0b0e.png"/>
+</section>
 </section>
 <section id="sec_issue_057_014_architecture_spanning_shellcode">
 <title><p>Architecture Spanning Shellcode</p></title>
 <p><strong>Автор:</strong> eugene@gravitino.net</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+<section id="toc_sub_000179"><title><p>Введение</p></title>
 <empty-line/>
 <p>На вечеринке Defcon8 по случаю четвёртого испытания caezar'а [1] участникам предлагалось написать шеллкод, способный выполняться на двух и более процессорных платформах. Ниже приведено моё решение (не забудьте заглянуть в раздел благодарностей).</p>
 <empty-line/>
@@ -2930,7 +3107,8 @@
 <empty-line/>
 <p>Если требуется поддержка дополнительных платформ, для каждой из них нужно добавить соответствующую пару инструкций «прыжок / NOP».</p>
 <empty-line/>
-<subtitle>Архитектура MIPS</subtitle>
+</section>
+<section id="toc_sub_000180"><title><p>Архитектура MIPS</p></title>
 <empty-line/>
 <p>Краткое введение в архитектуру MIPS и написание MIPS-шеллкода было дано scut'ом в phrack 56 [2], а также командой LSD в их статье [8].</p>
 <empty-line/>
@@ -2944,7 +3122,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_014_architecture_spanning_shellcode_0050_41bab2d108.png"/>
 <empty-line/>
-<subtitle>Архитектура Sparc</subtitle>
+</section>
+<section id="toc_sub_000181"><title><p>Архитектура Sparc</p></title>
 <empty-line/>
 <p>Подобно MIPS, Sparc является RISC-архитектурой. Все инструкции Sparc занимают 32 бита, а два старших бита задают класс инструкции [4]:</p>
 <empty-line/>
@@ -2966,11 +3145,13 @@
 <empty-line/>
 <p>Как видно, многие поля уже содержат предопределённые значения, с которыми нам нужно считаться.</p>
 <empty-line/>
-<subtitle>Архитектура PPC</subtitle>
+</section>
+<section id="toc_sub_000182"><title><p>Архитектура PPC</p></title>
 <empty-line/>
 <p>PowerPC — ещё одна RISC-архитектура, применяемая такими вендорами, как IBM и Apple. Подробнее см. статью LSD [8].</p>
 <empty-line/>
-<subtitle>Архитектура x86</subtitle>
+</section>
+<section id="toc_sub_000183"><title><p>Архитектура x86</p></title>
 <empty-line/>
 <p>Тема переполнения буфера и написания шеллкода для архитектуры x86 была исчерпывающе разобрана ранее. Хорошее введение — статья Aleph1 в phrack 49 [3].</p>
 <empty-line/>
@@ -2980,7 +3161,8 @@
 <empty-line/>
 <p>Заметим, что «OS spanning» шеллкод не ограничен платформой x86 — ту же идею можно применить к любой аппаратной платформе и любой операционной системе.</p>
 <empty-line/>
-<subtitle>Собираем всё вместе: межархитектурный шеллкод</subtitle>
+</section>
+<section id="toc_sub_000184"><title><p>Собираем всё вместе: межархитектурный шеллкод</p></title>
 <empty-line/>
 <p>Как уже было сказано, наш шеллкод (первая попытка) выглядит следующим образом:</p>
 <empty-line/>
@@ -3008,7 +3190,8 @@
 <empty-line/>
 <p>Работает!</p>
 <empty-line/>
-<subtitle>Добавление новых архитектур</subtitle>
+</section>
+<section id="toc_sub_000185"><title><p>Добавление новых архитектур</p></title>
 <empty-line/>
 <p>Теоретически межархитектурный шеллкод не привязан ни к конкретной операционной системе, ни к конкретной аппаратной архитектуре. Значит, можно написать шеллкод, работающий более чем на двух архитектурах. Формат такого шеллкода (вторая попытка) для трёх архитектур будет выглядеть так:</p>
 <empty-line/>
@@ -3045,13 +3228,15 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_014_architecture_spanning_shellcode_0504_f8361cb1cc.png"/>
 <empty-line/>
-<subtitle>Заключение</subtitle>
+</section>
+<section id="toc_sub_000186"><title><p>Заключение</p></title>
 <empty-line/>
 <p>Межархитектурный шеллкод — это специально сконструированный код, который выполняется по-разному в зависимости от архитектуры, на которой запущен. Это достигается за счёт использования последовательности байт, которая по-разному интерпретируется на разных архитектурах.</p>
 <empty-line/>
 <p>Кросс-операционный шеллкод — специально сконструированный код, выполняющийся на нескольких операционных системах, работающих на одной платформе. Это достигается настройкой регистров и стека таким образом, чтобы удовлетворить требованиям всех целевых операционных систем.</p>
 <empty-line/>
-<subtitle>Благодарности</subtitle>
+</section>
+<section id="toc_sub_000187"><title><p>Благодарности</p></title>
 <empty-line/>
 <p>Greg Hoglund — за совместную работу над этой идеей на вечеринке испытания</p>
 <empty-line/>
@@ -3059,15 +3244,17 @@
 <empty-line/>
 <p>gravitino.net, GHI, skyper, spoonm</p>
 <empty-line/>
-<subtitle>Ссылки</subtitle>
+</section>
+<section id="toc_sub_000188"><title><p>Ссылки</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_014_architecture_spanning_shellcode_0559_f311406a7b.png"/>
+</section>
 </section>
 <section id="sec_issue_057_015_writing_ia32_alphanumeric_shellcodes">
 <title><p>Написание алфавитно-цифровых шеллкодов для IA32</p></title>
 <p><strong>Автор:</strong> rix@hert.org</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+<section id="toc_sub_000189"><title><p>Введение</p></title>
 <empty-line/>
 <p>Сегодня всё больше и больше эксплойтов приходится писать на ассемблере — в особенности для создания классических шеллкодов (при переполнениях буфера, атаках форматной строки и т. д.).</p>
 <empty-line/>
@@ -3083,7 +3270,8 @@
 <p>• имена пользователей и пароли</p>
 <p>• ...</p>
 <empty-line/>
-<subtitle>Используемые инструкции</subtitle>
+</section>
+<section id="toc_sub_000190"><title><p>Используемые инструкции</p></title>
 <empty-line/>
 <p>Прежде чем приступать к изучению конкретных техник, рассмотрим инструкции IA32, которые окажутся для нас полезными.</p>
 <empty-line/>
@@ -3201,7 +3389,8 @@
 <p>• <code>1 XOR b = NOT b</code> =&gt; легко инвертируем значения с помощью регистров, содержащих 0xFFFFFFFF.</p>
 <p>• <code>a XOR b = c</code>, <code>b XOR c = a</code>, <code>a XOR c = b</code> =&gt; легко находим XOR-дополнение байта.</p>
 <empty-line/>
-<subtitle>Классические операции</subtitle>
+</section>
+<section id="toc_sub_000191"><title><p>Классические операции</p></title>
 <empty-line/>
 <p>Теперь рассмотрим различные методы, позволяющие реализовать максимум стандартных низкоуровневых операций из разрешённого набора инструкций.</p>
 <empty-line/>
@@ -3247,11 +3436,12 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_015_writing_ia32_alphanumeric_shellcodes_0325_020e60ef02.png"/>
 <empty-line/>
-<p>Теперь ESP указывает на строку <code>&quot;abcdef&quot;</code>, записанную в стеке. Можно также использовать префикс инструкции <code>o16</code> для непосредственного помещения 16-битного значения:</p>
+<p>Теперь ESP указывает на строку <code>"abcdef"</code>, записанную в стеке. Можно также использовать префикс инструкции <code>o16</code> для непосредственного помещения 16-битного значения:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_015_writing_ia32_alphanumeric_shellcodes_0334_f1debe7fd3.png"/>
 <empty-line/>
-<subtitle>Методы</subtitle>
+</section>
+<section id="toc_sub_000192"><title><p>Методы</p></title>
 <empty-line/>
 <p>Теперь скомбинируем некоторые из этих интересных операций для эффективной генерации алфавитно-цифровых шеллкодов. Мы собираемся создать алфавитно-цифровой движок, который будет строить наш исходный (неалфавитно-цифровой) шеллкод. Предлагаем 2 различные техники.</p>
 <empty-line/>
@@ -3326,7 +3516,8 @@
 <empty-line/>
 <p>Обратите внимание: эти регистры выделяются случайным образом для обеспечения базовых возможностей полиморфизма (см. <code>alphanumeric_get_register()</code> в asc.c).</p>
 <empty-line/>
-<subtitle>Некоторые архитектуры и соображения</subtitle>
+</section>
+<section id="toc_sub_000193"><title><p>Некоторые архитектуры и соображения</p></title>
 <empty-line/>
 <p>Теперь проанализируем различные общие архитектуры и соображения по генерации алфавитно-цифровых шеллкодов.</p>
 <empty-line/>
@@ -3370,7 +3561,8 @@
 <empty-line/>
 <p>Как видим, возможности поистине безграничны!</p>
 <empty-line/>
-<subtitle>ASC — компилятор алфавитно-цифровых шеллкодов</subtitle>
+</section>
+<section id="toc_sub_000194"><title><p>ASC — компилятор алфавитно-цифровых шеллкодов</p></title>
 <empty-line/>
 <p>ASC реализует некоторые из предложенных выше техник. Рассмотрим доступные опции.</p>
 <empty-line/>
@@ -3378,11 +3570,11 @@
 <empty-line/>
 <p>Эти опции позволяют задать техники и архитектуру, которые алфавитно-цифровой шеллкод будет использовать для построения исходного шеллкода.</p>
 <empty-line/>
-<p><code>-a[ddress] stack|&lt;r32&gt;</code> — позволяет задать начальный адрес шеллкода (полезно для техники патчей). <code>&quot;stack&quot;</code> означает получение адреса из стека. <code>&lt;r32&gt;</code> задаёт регистр, содержащий начальный адрес.</p>
+<p><code>-a[ddress] stack|&lt;r32&gt;</code> — позволяет задать начальный адрес шеллкода (полезно для техники патчей). <code>"stack"</code> означает получение адреса из стека. <code>&lt;r32&gt;</code> задаёт регистр, содержащий начальный адрес.</p>
 <empty-line/>
-<p><code>-m[ode] stack|patches</code> — позволяет выбрать тип генерируемого алфавитно-цифрового шеллкода. <code>&quot;stack&quot;</code> генерирует шеллкод в стеке. <code>&quot;patches&quot;</code> генерирует шеллкод путём XOR-патчей.</p>
+<p><code>-m[ode] stack|patches</code> — позволяет выбрать тип генерируемого алфавитно-цифрового шеллкода. <code>"stack"</code> генерирует шеллкод в стеке. <code>"patches"</code> генерирует шеллкод путём XOR-патчей.</p>
 <empty-line/>
-<p><code>-s[tack] call|jmp|null|ret</code> — задаёт метод возврата к исходному шеллкоду в стеке (если <code>-m stack</code>). <code>&quot;call&quot;</code> использует инструкцию CALL ESP. <code>&quot;jmp&quot;</code> использует JMP ESP. <code>&quot;null&quot;</code> не возвращается к коду (если исходный код идёт сразу за алфавитно-цифровым шеллкодом). <code>&quot;ret&quot;</code> использует PUSH ESP и RET.</p>
+<p><code>-s[tack] call|jmp|null|ret</code> — задаёт метод возврата к исходному шеллкоду в стеке (если <code>-m stack</code>). <code>"call"</code> использует инструкцию CALL ESP. <code>"jmp"</code> использует JMP ESP. <code>"null"</code> не возвращается к коду (если исходный код идёт сразу за алфавитно-цифровым шеллкодом). <code>"ret"</code> использует PUSH ESP и RET.</p>
 <empty-line/>
 <p><strong>ОПЦИИ ОТЛАДКИ:</strong></p>
 <empty-line/>
@@ -3425,7 +3617,8 @@
 <image l:href="#img__code_blocks_issue_057_015_writing_ia32_alphanumeric_shellcodes_0731_e08cf152a8_part01.png"/>
 <image l:href="#img__code_blocks_issue_057_015_writing_ia32_alphanumeric_shellcodes_0731_e08cf152a8_part02.png"/>
 <empty-line/>
-<subtitle>Заключение</subtitle>
+</section>
+<section id="toc_sub_000195"><title><p>Заключение</p></title>
 <empty-line/>
 <p>Написание алфавитно-цифровых шеллкодов для IA32 в итоге вполне реализуемо. Но использование только алфавитно-цифровых адресов — менее тривиальная задача. Это, по сути, главная проблема, возникающая при простом желании использовать только алфавитно-цифровые символы.</p>
 <empty-line/>
@@ -3444,9 +3637,10 @@
 <empty-line/>
 <p>rix@hert.org</p>
 <empty-line/>
-<subtitle>Код</subtitle>
+</section>
+<section id="toc_sub_000196"><title><p>Код</p></title>
 <empty-line/>
-<p>Должен компилироваться на любом Linux-компьютере командой <code>&quot;gcc -o asc asc.c&quot;</code>. Распространяется под условиями GNU GENERAL PUBLIC LICENSE. По вопросам и комментариям обращайтесь к автору (rix@hert.org).</p>
+<p>Должен компилироваться на любом Linux-компьютере командой <code>"gcc -o asc asc.c"</code>. Распространяется под условиями GNU GENERAL PUBLIC LICENSE. По вопросам и комментариям обращайтесь к автору (rix@hert.org).</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_015_writing_ia32_alphanumeric_shellcodes_0852_34d6c10206_part01.png"/>
 <image l:href="#img__code_blocks_issue_057_015_writing_ia32_alphanumeric_shellcodes_0852_34d6c10206_part02.png"/>
@@ -3476,11 +3670,12 @@
 <image l:href="#img__code_blocks_issue_057_015_writing_ia32_alphanumeric_shellcodes_0852_34d6c10206_part26.png"/>
 <image l:href="#img__code_blocks_issue_057_015_writing_ia32_alphanumeric_shellcodes_0852_34d6c10206_part27.png"/>
 </section>
+</section>
 <section id="sec_issue_057_016_cupass_netuserchangepassword">
 <title><p>CUPASS И ПРОБЛЕМА NETUSERCHANGEPASSWORD</p></title>
 <p><strong>Автор:</strong> Doc Holiday / THC &lt;holiday@TheHackersChoice.com&gt;</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+<section id="toc_sub_000197"><title><p>Введение</p></title>
 <empty-line/>
 <p>У Microsoft есть известная проблема в Windows NT 4, позволяющая злоумышленнику изменить пароль любого пользователя при определённых/стандартных обстоятельствах.</p>
 <empty-line/>
@@ -3494,7 +3689,8 @@
 <empty-line/>
 <p>Doc Holiday / THC</p>
 <empty-line/>
-<subtitle>Протоколы смены пароля</subtitle>
+</section>
+<section id="toc_sub_000198"><title><p>Протоколы смены пароля</p></title>
 <empty-line/>
 <p>Для начала расскажу немного о возможностях смены пароля в среде Windows NT/W2K.</p>
 <empty-line/>
@@ -3511,7 +3707,8 @@
 <empty-line/>
 <p>Поскольку в реализации протокола NUCP от Microsoft имеется уязвимость, рассмотрим его подробнее.</p>
 <empty-line/>
-<subtitle>Выбор протокола</subtitle>
+</section>
+<section id="toc_sub_000199"><title><p>Выбор протокола</p></title>
 <empty-line/>
 <p>Мы видим, что в среде Microsoft существует множество протоколов смены пароля. Теперь покажу, в каких случаях используется NUCP.</p>
 <empty-line/>
@@ -3529,13 +3726,15 @@
 <empty-line/>
 <p>Если программа использует метод NUCP через интерфейс Active Directory Services Interface (ADSI), интерфейс IaDSUser сначала пытается сменить пароль по протоколу LDAP, а затем методом NUCP.</p>
 <empty-line/>
-<subtitle>Вызов функции NUCP</subtitle>
+</section>
+<section id="toc_sub_000200"><title><p>Вызов функции NUCP</p></title>
 <empty-line/>
 <p>Теперь мы знаем, что существует много способов сменить пароль пользователя, и в каких случаях применяется NUCP.</p>
 <empty-line/>
 <p>Рассмотрим подробнее саму функцию NetUserChangePassword. (Более подробную информацию можно найти в SDK Microsoft!)</p>
 <empty-line/>
-<subtitle>Прототип</subtitle>
+</section>
+<section id="toc_sub_000201"><title><p>Прототип</p></title>
 <empty-line/>
 <p>Прототип функции NetUserChangePassword определён в <code>lmaccess.h</code> и выглядит следующим образом:</p>
 <empty-line/>
@@ -3543,7 +3742,8 @@
 <empty-line/>
 <p>Параметры описаны последовательно ниже.</p>
 <empty-line/>
-<subtitle>Параметры</subtitle>
+</section>
+<section id="toc_sub_000202"><title><p>Параметры</p></title>
 <empty-line/>
 <p><strong>domainname</strong></p>
 <empty-line/>
@@ -3561,7 +3761,8 @@
 <empty-line/>
 <p>Указатель на завершаемую нулём строку Unicode, задающую новый пароль пользователя на сервере или в домене.</p>
 <empty-line/>
-<subtitle>Возвращаемые значения</subtitle>
+</section>
+<section id="toc_sub_000203"><title><p>Возвращаемые значения</p></title>
 <empty-line/>
 <p>Возвращаемые значения определены в <code>LMERR.H</code> и <code>WINERROR.H</code>.</p>
 <empty-line/>
@@ -3601,7 +3802,8 @@
 <empty-line/>
 <p>Перечисленные возвращаемые значения обрабатываются CUPASS. Для всех остальных выводится числовое значение, и для его расшифровки можно обратиться к указанным файлам.</p>
 <empty-line/>
-<subtitle>Дополнительные сведения о вызове NUCP API</subtitle>
+</section>
+<section id="toc_sub_000204"><title><p>Дополнительные сведения о вызове NUCP API</p></title>
 <empty-line/>
 <p>Функция NUCP доступна только на платформах Windows NT и Windows 2000.</p>
 <empty-line/>
@@ -3611,7 +3813,8 @@
 <empty-line/>
 <p>Для успешного использования NUCP необходимо скомпоновать программу с библиотекой <code>Netapi32.lib</code>!</p>
 <empty-line/>
-<subtitle>Необходимые права для NUCP</subtitle>
+</section>
+<section id="toc_sub_000205"><title><p>Необходимые права для NUCP</p></title>
 <empty-line/>
 <p>NUCP является частью функций управления сетью Microsoft. Эти функции делятся на группы: NetFileFunctions, ScheduleFunctions, ServerFunctions, UserFunctions и другие.</p>
 <empty-line/>
@@ -3625,7 +3828,8 @@
 <empty-line/>
 <p>Рассмотрим необходимые права подробнее.</p>
 <empty-line/>
-<subtitle>Windows NT</subtitle>
+</section>
+<section id="toc_sub_000206"><title><p>Windows NT</p></title>
 <empty-line/>
 <p>Функции запроса — NetGroupEnum, NetUserEnum и другие — могут выполняться всеми аутентифицированными пользователями.</p>
 <empty-line/>
@@ -3635,7 +3839,8 @@
 <empty-line/>
 <p>Если этот параметр не включён, пользователь может сменить пароль любого другого пользователя при условии, что знает актуальный пароль.</p>
 <empty-line/>
-<subtitle>Windows 2000</subtitle>
+</section>
+<section id="toc_sub_000207"><title><p>Windows 2000</p></title>
 <empty-line/>
 <p>Функции запроса — NetGroupEnum, NetUserEnum и другие — могут выполняться всеми аутентифицированными пользователями, включая анонимных, если параметр политики RestrictAnonymous разрешает анонимный доступ.</p>
 <empty-line/>
@@ -3661,13 +3866,15 @@
 <empty-line/>
 <p>Мои исследования показывают, что CUPASS всё равно угадывает пароль, однако изменить его не может из-за недостаточных прав на объект AD!</p>
 <empty-line/>
-<subtitle>Анонимное подключение</subtitle>
+</section>
+<section id="toc_sub_000208"><title><p>Анонимное подключение</p></title>
 <empty-line/>
 <p>Есть ещё один момент, которому я уделил мало внимания, — проблема анонимного пользователя, известная также как проблема NULL-пользователя.</p>
 <empty-line/>
 <p>Рассмотрим кратко, как настройки анонимной безопасности влияют на проблему NUCP.</p>
 <empty-line/>
-<subtitle>W2K</subtitle>
+</section>
+<section id="toc_sub_000209"><title><p>W2K</p></title>
 <empty-line/>
 <p>Значение следующего параметра реестра регулирует поведение операционной системы в отношении NULL USER CONNECT:</p>
 <empty-line/>
@@ -3683,7 +3890,8 @@
 <empty-line/>
 <p>Эти настройки одинаковы для рядового сервера W2K и контроллера домена W2K с AD!</p>
 <empty-line/>
-<subtitle>NT4</subtitle>
+</section>
+<section id="toc_sub_000210"><title><p>NT4</p></title>
 <empty-line/>
 <p>Значение следующего параметра реестра регулирует поведение операционной системы в отношении NULL USER CONNECT:</p>
 <empty-line/>
@@ -3695,7 +3903,8 @@
 <empty-line/>
 <p>Если RestrictAnonymous установлен в 1 (перечисление учётных записей и имён SAM запрещено), CUPASS по-прежнему работает нормально.</p>
 <empty-line/>
-<subtitle>Общее</subtitle>
+</section>
+<section id="toc_sub_000211"><title><p>Общее</p></title>
 <empty-line/>
 <p>Процесс, вызывающий функцию NetUserChangePassword, в ряде случаев должен обладать привилегией <code>SE_CHANGE_NOTIFY_NAME</code> (за исключением системной учётной записи и членов локальной группы «Администраторы»). По умолчанию эта привилегия включена для каждой учётной записи, но может быть отключена администратором.</p>
 <empty-line/>
@@ -3703,11 +3912,13 @@
 <empty-line/>
 <p>Это заявление Microsoft. Я проверял, но не нашёл случая, в котором это право было бы необходимо для вызова функции NUCP.</p>
 <empty-line/>
-<subtitle>Политики и журналирование</subtitle>
+</section>
+<section id="toc_sub_000212"><title><p>Политики и журналирование</p></title>
 <empty-line/>
 <p>Рассмотрим параметры политик, влияющие на проблему NUCP.</p>
 <empty-line/>
-<subtitle>Политики учётных записей</subtitle>
+</section>
+<section id="toc_sub_000213"><title><p>Политики учётных записей</p></title>
 <empty-line/>
 <p><strong>Политика паролей</strong></p>
 <empty-line/>
@@ -3729,7 +3940,8 @@
 <empty-line/>
 <p>Тем не менее «Администратор» по-прежнему может войти в систему локально на этой машине!</p>
 <empty-line/>
-<subtitle>Политика аудита</subtitle>
+</section>
+<section id="toc_sub_000214"><title><p>Политика аудита</p></title>
 <empty-line/>
 <p>Рассмотрим, какие события аудита необходимо включить, чтобы увидеть атаку CUPASS в журналах безопасности целевой машины.</p>
 <empty-line/>
@@ -3757,13 +3969,15 @@
 <empty-line/>
 <p>Протестируйте CUPASS в своей среде и изучите собственные журналы!</p>
 <empty-line/>
-<subtitle>Заключение</subtitle>
+</section>
+<section id="toc_sub_000215"><title><p>Заключение</p></title>
 <empty-line/>
 <p>Надеюсь, эта статья дала вам общее представление о проблеме NetUserChangePassword и непоследовательной реализации безопасности и функций API от Microsoft.</p>
 <empty-line/>
 <p>Статья не исчерпывает тему полностью, поскольку существует слишком много различных ситуаций и конфигураций, которые я не успел проверить в своё короткое свободное время.</p>
 <empty-line/>
-<subtitle>Благодарности</subtitle>
+</section>
+<section id="toc_sub_000216"><title><p>Благодарности</p></title>
 <empty-line/>
 <p>Привет Van Hauser'у, вдохновившему меня на этот материал, ganymed'у, mindmaniac'у и всем остальным участникам THC, VAX'у, подбросившему меня до HAL2001, ребятам из TESO, Seth'у, Rookie и всем остальным, кто меня знает...</p>
 <empty-line/>
@@ -3771,12 +3985,14 @@
 <empty-line/>
 <p>Хорошего дня, и встретимся на HAL2001!</p>
 <empty-line/>
-<subtitle>Исходный код CUPASS</subtitle>
+</section>
+<section id="toc_sub_000217"><title><p>Исходный код CUPASS</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_016_cupass_netuserchangepassword_0336_a1485ac842_part01.png"/>
 <image l:href="#img__code_blocks_issue_057_016_cupass_netuserchangepassword_0336_a1485ac842_part02.png"/>
 <image l:href="#img__code_blocks_issue_057_016_cupass_netuserchangepassword_0336_a1485ac842_part03.png"/>
 <image l:href="#img__code_blocks_issue_057_016_cupass_netuserchangepassword_0336_a1485ac842_part04.png"/>
+</section>
 </section>
 <section id="sec_issue_057_017_script_kiddy_manual_to_hal2001">
 <title><p>ScRiPt KiDdY MaNuAl To HaL2001</p></title>
@@ -3786,7 +4002,7 @@
 <empty-line/>
 <p>PWN — это новости о сцене и из сцены. Вы можете отправлять материалы для PWN напрямую на disorder@phrack.org или объявить о своих новостях на http://www.phrack.org/disorder.</p>
 <empty-line/>
-<subtitle>Копы, преступления и HAL 2001 (http://www.hal2001.org)</subtitle>
+<section id="toc_sub_000218"><title><p>Копы, преступления и HAL 2001 (http://www.hal2001.org)</p></title>
 <empty-line/>
 <p>_или ScRiPt KiDdY MaNuAl To HaL2001_</p>
 <empty-line/>
@@ -3796,11 +4012,13 @@
 <empty-line/>
 <p>Мы считаем, что в мире сегодня происходят важные вещи. Вещи, с которыми стоит бороться. Правительства и крупные корпорации в основном захватывают власть и выстраивают механизмы контроля. Это может звучать сложно или странно, но подумайте о новых законах, позволяющих мгновенно следить за кем угодно. Подумайте о компьютерных базах данных, которые в реальном времени знают, где находится каждый. Подумайте о камерах повсюду. Подумайте о том, что вас заставляют платить каждый раз за всё, что вы смотрите или слушаете. Подумайте о вашей коллекции MP3. Подумайте о тюрьме.</p>
 <empty-line/>
-<subtitle>Заставляя нас всех выглядеть плохо</subtitle>
+</section>
+<section id="toc_sub_000219"><title><p>Заставляя нас всех выглядеть плохо</p></title>
 <empty-line/>
 <p>Эй, давайте не будем обманывать друг друга: в детстве мы и сами были не ангелы. Но прямо сейчас влиятельные люди по всему миру хотели бы представить HAL2001 как сборище опасных личностей, жаждущих всё разрушить. Хотя может казаться крутым, что влиятельные люди считают вас опасным, вы лишь играете им на руку, если дефейсите сайты отсюда или устраиваете мать всех DDoS-атак. Вы помогаете сторонникам жёсткого курса, которые говорят, что от нас нет никакого толка. Им нет дела до дефейснутых сайтов. Им нет дела до DDoS-атак. Чёрт, их руководство даже не умеет держать мышку. Им важно выставить нас всех угрозой, чтобы получить общественную поддержку и упрятать нас всех за решётку.</p>
 <empty-line/>
-<subtitle>Подставляя себя под удар</subtitle>
+</section>
+<section id="toc_sub_000220"><title><p>Подставляя себя под удар</p></title>
 <empty-line/>
 <p>Но если вас не беспокоит ничего из вышесказанного, вот ещё одна причина не делать глупостей на HAL: почти нигде на земле шансы быть арестованным не настолько высоки, как на HAL2001. Представители голландских правоохранительных органов (да: копы) присутствуют здесь в большом количестве. А общественное мнение таково, что они в последнее время арестовали недостаточно людей за компьютерные преступления. Поэтому они испытывают сильное давление и должны кого-нибудь задержать. Кого угодно...</p>
 <empty-line/>
@@ -3808,7 +4026,8 @@
 <empty-line/>
 <p>И если HAL хоть чем-то похож на своих предшественников, то здесь разгуливают сотрудники разведок внутренней безопасности большинства развитых стран, и они отслеживают, не высовывается ли кто-то из их страны с дурными намерениями. HAL — отличное место, чтобы стать заметным, причём самыми разными и нередко весьма интересными способами.</p>
 <empty-line/>
-<subtitle>Лишая нас всех связи</subtitle>
+</section>
+<section id="toc_sub_000221"><title><p>Лишая нас всех связи</p></title>
 <empty-line/>
 <p>Как и на HIP97, власти заблаговременно подготовили и подписали приказы, готовые к исполнению, чтобы обрубить наш канал в мир, если сеть HAL станет источником слишком многих проблем. Да, вы правильно прочитали: обрубить канал. 100% потеря пакетов.</p>
 <empty-line/>
@@ -3816,19 +4035,22 @@
 <empty-line/>
 <p>Так что сделайте одолжение себе и всем нам — пожалуйста, не будьте тупыми. А если вы всё же настаиваете на том, чтобы устроить неприятности, подумайте вот о чём: если вам всё-таки удастся оставить нас без связи, возможно, вам стоит надеяться, что копы доберутся до вас первыми.</p>
 <empty-line/>
-<subtitle>Взрослейте</subtitle>
+</section>
+<section id="toc_sub_000222"><title><p>Взрослейте</p></title>
 <empty-line/>
 <p>Если в вас это есть, сейчас — отличное время повзрослеть. Живите в хакерском сообществе так, чтобы это выходило за рамки дефейса сайтов и DDoS-атак. Существование после стадии скрипт-кидди открывает немало наград: вы чаще будете ощущать, что сделали что-то полезное, люди не будут смотреть на вас косо, и вы, возможно, даже познакомитесь с девушками.</p>
 <empty-line/>
 <p>Пожалуй, ещё важнее другое: мы как сообщество <emphasis>нуждаемся</emphasis> в том, чтобы вы выросли. Как мы уже сказали: правительства и крупные корпорации с пугающей скоростью берут наш мир под контроль. Хакеры лучше других способны понять, что происходит, и что-то с этим сделать. Это одна из причин, по которым их демонизируют силы, стремящиеся следить за каждым шагом всего населения. Ещё предстоит создать множество технологий для защиты приватности, и целое новое поколение должно осознать, что его свободы разрушаются. Ваша помощь была бы бесценна.</p>
 <empty-line/>
-<subtitle>Fun</subtitle>
+</section>
+<section id="toc_sub_000223"><title><p>Fun</p></title>
 <empty-line/>
 <p>http://www.microsoft.com/office/clippy/images/rollover_4.gif</p>
 <empty-line/>
 <p>N0 L0GZ == N0 CRIME !</p>
 <empty-line/>
 <p>_EOF_</p>
+</section>
 </section>
 <section id="sec_issue_057_018_phrack_extraction_utility">
 <title><p>Утилита извлечения Phrack</p></title>
@@ -3838,7 +4060,7 @@
 <empty-line/>
 <p>Исходный код и предварительно скомпилированные версии (Windows, Unix, ...) доступны по адресу: http://www.phrack.org/misc.</p>
 <empty-line/>
-<subtitle>extract4.c — основная реализация на C (Phrack Staff и sirsyko)</subtitle>
+<section id="toc_sub_000224"><title><p>extract4.c — основная реализация на C (Phrack Staff и sirsyko)</p></title>
 <empty-line/>
 <p>Главная утилита извлечения, написанная на языке C. Обрабатывает файлы с тегами вида <code>&lt;++&gt; путь/к/файлу !CRC32</code> ... <code>&lt;--&gt;</code>, создаёт иерархическую структуру каталогов, при необходимости проверяет контрольные суммы CRC32.</p>
 <empty-line/>
@@ -3865,26 +4087,30 @@
 <image l:href="#img__code_blocks_issue_057_018_phrack_extraction_utility_0061_095f44dfa1_part05.png"/>
 <image l:href="#img__code_blocks_issue_057_018_phrack_extraction_utility_0061_095f44dfa1_part06.png"/>
 <empty-line/>
-<subtitle>extract.pl — реализация на Perl (Daos &lt;daos@nym.alias.net&gt;)</subtitle>
+</section>
+<section id="toc_sub_000225"><title><p>extract.pl — реализация на Perl (Daos &lt;daos@nym.alias.net&gt;)</p></title>
 <empty-line/>
 <p>Минималистичный скрипт на Perl, реализующий базовое извлечение файлов по тегам <code>&lt;++&gt;</code> / <code>&lt;--&gt;</code>. Создаёт каталоги при необходимости, записывает содержимое в соответствующие файлы.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_018_phrack_extraction_utility_0365_3fa53082c5.png"/>
 <empty-line/>
-<subtitle>extract.awk — реализация на AWK (sirsyko)</subtitle>
+</section>
+<section id="toc_sub_000226"><title><p>extract.awk — реализация на AWK (sirsyko)</p></title>
 <empty-line/>
 <p>Скрипт на AWK, реализующий аналогичную функциональность. Обрабатывает теги открытия и закрытия, создаёт промежуточные каталоги и записывает содержимое файлов.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_018_phrack_extraction_utility_0391_6b650e3af5.png"/>
 <empty-line/>
-<subtitle>extract.sh — реализация на Shell (sirsyko)</subtitle>
+</section>
+<section id="toc_sub_000227"><title><p>extract.sh — реализация на Shell (sirsyko)</p></title>
 <empty-line/>
 <p>Shell-скрипт, написанный 9 сентября 1997 года для команды Phrack. Создаёт все каталоги относительно текущего рабочего каталога. Использует переменную <code>IFS</code> для разбора путей — намеренное архитектурное решение (во избежание обработки абсолютных путей).</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_057_018_phrack_extraction_utility_0422_7e05bccfcb_part01.png"/>
 <image l:href="#img__code_blocks_issue_057_018_phrack_extraction_utility_0422_7e05bccfcb_part02.png"/>
 <empty-line/>
-<subtitle>extract.py — реализация на Python (Timmy 2tone &lt;_spoon_@usa.net&gt;)</subtitle>
+</section>
+<section id="toc_sub_000228"><title><p>extract.py — реализация на Python (Timmy 2tone &lt;_spoon_@usa.net&gt;)</p></title>
 <empty-line/>
 <p>Реализация на Python с использованием классов и объектно-ориентированного подхода. Включает класс-заглушку <code>Datasink</code> для подавления вывода при ошибках открытия файла, а также вспомогательную функцию создания каталогов <code>mkdirs_if_any</code>.</p>
 <empty-line/>
@@ -3892,7 +4118,8 @@
 <image l:href="#img__code_blocks_issue_057_018_phrack_extraction_utility_0485_e9f9f34502_part02.png"/>
 <image l:href="#img__code_blocks_issue_057_018_phrack_extraction_utility_0485_e9f9f34502_part03.png"/>
 <empty-line/>
-<subtitle>extract-win.c — реализация для Windows (Fotonik &lt;fotonik@game-master.com&gt;)</subtitle>
+</section>
+<section id="toc_sub_000229"><title><p>extract-win.c — реализация для Windows (Fotonik &lt;fotonik@game-master.com&gt;)</p></title>
 <empty-line/>
 <p>Win32-версия утилиты извлечения, написанная 22 августа 1998 года. Использует стандартный диалог открытия файла Windows (<code>GetOpenFileName</code>) и создаёт иерархию каталогов через вспомогательную функцию <code>PowerCreateDirectory</code>. Актуальные версии (исходный код и исполняемый файл) размещались на сайте автора: http://www.altern.com/fotonik</p>
 <empty-line/>
@@ -3901,6 +4128,7 @@
 <image l:href="#img__code_blocks_issue_057_018_phrack_extraction_utility_0609_25ac2d61f1_part03.png"/>
 <empty-line/>
 <p><emphasis>— конец файла —</emphasis></p>
+</section>
 </section>
 </section>
 </body>

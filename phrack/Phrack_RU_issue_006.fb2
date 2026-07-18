@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0"
-             xmlns:l="http://www.w3.org/1999/xlink">
+<?xml version='1.0' encoding='UTF-8'?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
 <description>
   <title-info>
     <genre>computers</genre>
@@ -40,9 +39,10 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_001_introduction_0017_280ef8c4a6.png"/>
 <empty-line/>
-<subtitle>Содержание выпуска</subtitle>
+<section id="toc_sub_000001"><title><p>Содержание выпуска</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_001_introduction_0024_9738feb87c.png"/>
+</section>
 </section>
 <section id="sec_issue_006_002_phrack_pro_phile_3_user_groups_and_clubs">
 <title><p>Phrack Pro-Phile 3: User Groups and Clubs</p></title>
@@ -50,7 +50,7 @@
 <empty-line/>
 <p>Добро пожаловать в третий выпуск Phrack Pro-Phile. Информация здесь изначально должна была появиться как специальный выпуск PWN, но вместо этого стала Phrack Pro-Phile данного выпуска. Taran King и я собрали много сведений о разных clubs and groups сегодняшнего и вчерашнего дня и скомпилировали их в форме, которую вы сейчас увидите.</p>
 <empty-line/>
-<subtitle>Extasyy Elite</subtitle>
+<section id="toc_sub_000002"><title><p>Extasyy Elite</p></title>
 <empty-line/>
 <p>История Extasyy Elite печальна: group буквально была destroyed by its own members. The Poltergeist сдал всю Extasyy после того, как его busted for carding. Это привело authorities к The Mentor, который украл 30 Apple //e. Bust Mentor почти привёл к The Protestor, но, к счастью, The Mentor успел предупредить Protestor. См. Phrack World News Issue III.</p>
 <empty-line/>
@@ -62,7 +62,8 @@
 <empty-line/>
 <p>Extasyy hanging out on Hack Net BBS and FWSO, BBS in Colorado.</p>
 <empty-line/>
-<subtitle>Fargo 4A</subtitle>
+</section>
+<section id="toc_sub_000003"><title><p>Fargo 4A</p></title>
 <empty-line/>
 <p>Эта group started on a conference, состоявшей из Bioc Agent 003, TUC, Big Brother, Quasi-Moto, Video Warhead и Wizard of Arpanet. Они подключили к conference несколько Directory Assistants, и каждый участник assumed a role of some sort of telco agent.</p>
 <empty-line/>
@@ -70,19 +71,23 @@
 <empty-line/>
 <p>Считается, что Wizard of ARPAnet был busted by John Maxfield, а BIOC completely retired from the phreak world. Эта group была unofficially disbanded, но несколько её members всё ещё active.</p>
 <empty-line/>
-<subtitle>Five-O</subtitle>
+</section>
+<section id="toc_sub_000004"><title><p>Five-O</p></title>
 <empty-line/>
 <p>Довольно новая IBM kracking group, formerly the Imperial Warlords. Сейчас они re-kracking software and claiming it to be original by themselves. Они известны тем, что помещают insulting messages toward certain people inside their re-kracked software.</p>
 <empty-line/>
-<subtitle>IBM Syndicate</subtitle>
+</section>
+<section id="toc_sub_000005"><title><p>IBM Syndicate</p></title>
 <empty-line/>
 <p>Эта group была formed around April 6, 1986. Charter members included Dark Creaper (916), Brew Associates (215), Major Havoc (301) и ещё один человек, handle которого сейчас мне неизвестен. Это была new phreak/hack/pirate group. К сожалению, эта group, как и многие другие, умерла within its first month.</p>
 <empty-line/>
-<subtitle>Icub (International Computer Underground Bandits)</subtitle>
+</section>
+<section id="toc_sub_000006"><title><p>Icub (International Computer Underground Bandits)</p></title>
 <empty-line/>
 <p>Это hack/phreak group, whose main emphasis is on phreaking. Она based in Memphis, Tennessee. В ней 10 members, и единственный semi-active member left is Doc Holiday. Больше о группе известно мало, кроме того, что она inactive и никаких announced plans to revive it не было.</p>
 <empty-line/>
-<subtitle>LOD/H: Legion Of Doom / Hackers</subtitle>
+</section>
+<section id="toc_sub_000007"><title><p>LOD/H: Legion Of Doom / Hackers</p></title>
 <empty-line/>
 <p>Эти две groups очень тесно переплетены. Обе были formed on Plovernet. Founding member был Lex Luthor. Through the years были LOD/H bulletin boards вроде Blottoland, LOD, FOD и т. д. Сегодня есть Catch 22 и новая LOD BBS, supposedly being run by King Blotto.</p>
 <empty-line/>
@@ -92,7 +97,8 @@
 <empty-line/>
 <p>LOD/H известна как одна из oldest and most knowledgeable of all groups. В прошлом они написали many extensive g-philes about various topics. Please forgive any mistakes in the member list, since this list was provided by Lex Luthor approximately 1 1/2 - 2 months ago.</p>
 <empty-line/>
-<subtitle>Metal Communications</subtitle>
+</section>
+<section id="toc_sub_000008"><title><p>Metal Communications</p></title>
 <empty-line/>
 <p>Очень большая group, написавшая many files throughout its existence. Некоторые boards в её menagerie включают Speed Demon Elite, Metal AE, Metal Works AE, Metalland I и несколько других.</p>
 <empty-line/>
@@ -106,7 +112,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_002_phrack_pro_phile_3_user_groups_and_clubs_0100_cb8999b5fc.png"/>
 <empty-line/>
-<subtitle>PAG / PAP</subtitle>
+</section>
+<section id="toc_sub_000009"><title><p>PAG / PAP</p></title>
 <empty-line/>
 <p><strong>PAG:</strong> Phreaks Against Geeks. <strong>PAP:</strong> Phreaks Against Phreaks Against Geeks.</p>
 <empty-line/>
@@ -116,7 +123,8 @@
 <empty-line/>
 <p>Вся эта nonsense really started on the Dartmouth system и была mainly a feud between phreaks in the Boston (617) area until TWCB got involved.</p>
 <empty-line/>
-<subtitle>The Administration</subtitle>
+</section>
+<section id="toc_sub_000010"><title><p>The Administration</p></title>
 <empty-line/>
 <p>Эта group была sort of in two parts: The Administration and Team Hackers '86. Membership:</p>
 <empty-line/>
@@ -124,7 +132,8 @@
 <empty-line/>
 <p>Group temporarily disbanded for reasons dealing with security, but now is back together. Другие новости об этой group см. в текущем PWN.</p>
 <empty-line/>
-<subtitle>The Nihilist Order</subtitle>
+</section>
+<section id="toc_sub_000011"><title><p>The Nihilist Order</p></title>
 <empty-line/>
 <p>Эта group на самом деле была loosely connected bunch of friends and phreaks, not a true club. Она based in Fremont and Sunnyvale, California. Её started by TRASk and The Highwayman.</p>
 <empty-line/>
@@ -136,7 +145,8 @@
 <empty-line/>
 <p>Одна из boards in the Nihilist Order's network — Shattered World Elite, sysoped by TRASk. The group is currently inactive.</p>
 <empty-line/>
-<subtitle>The P.H.I.R.M.</subtitle>
+</section>
+<section id="toc_sub_000012"><title><p>The P.H.I.R.M.</p></title>
 <empty-line/>
 <p>Довольно новая group, recently accused, without proof, of being fed invested.</p>
 <empty-line/>
@@ -150,7 +160,8 @@
 <empty-line/>
 <p>Rumored that Blade Runner is the same person as Archangel and/or The Stingray.</p>
 <empty-line/>
-<subtitle>TPM (The Punk Mafia)</subtitle>
+</section>
+<section id="toc_sub_000013"><title><p>TPM (The Punk Mafia)</p></title>
 <empty-line/>
 <p>При последней проверке в этой group было eight members. Полный список:</p>
 <empty-line/>
@@ -158,13 +169,15 @@
 <empty-line/>
 <p>Group will be going through a rebirth this summer. Их main goals include burglary, fraud, hacking and phreaking. Most recently The Godfather retired and Ninja NYC came very close to being busted. См. Phrack World News Issue V.</p>
 <empty-line/>
-<subtitle>The Racketeers</subtitle>
+</section>
+<section id="toc_sub_000014"><title><p>The Racketeers</p></title>
 <empty-line/>
 <p>Новая Apple pirating group была assembled by Apple Rebel. Membership now includes:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_002_phrack_pro_phile_3_user_groups_and_clubs_0202_11f522da1c.png"/>
 <empty-line/>
-<subtitle>Tribunal Of Knowledge</subtitle>
+</section>
+<section id="toc_sub_000015"><title><p>Tribunal Of Knowledge</p></title>
 <empty-line/>
 <p>Эта group formed very recently by Blue Buccaneer and High Evolutionary with one purpose in mind: get together to trade knowledge and information, and discuss this information until all members had a good working knowledge of it. Final result would be g-philes written by the group about the topic. В целом это была хорошая идея.</p>
 <empty-line/>
@@ -172,13 +185,15 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_002_phrack_pro_phile_3_user_groups_and_clubs_0216_7cd6ee6fa7.png"/>
 <empty-line/>
-<subtitle>2300 Club</subtitle>
+</section>
+<section id="toc_sub_000016"><title><p>2300 Club</p></title>
 <empty-line/>
 <p>Based in Cleveland, Ohio. 2300 Club теперь compared and treated as miniature mafia by local authorities. Это mainly for crimes including the blowing up of cars. Two of the members were caught for fraudulent use of a credit card and one has been arrested for car theft. Which members that refers to, I don't know, but membership included:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_002_phrack_pro_phile_3_user_groups_and_clubs_0229_b061cc300d.png"/>
 <empty-line/>
-<subtitle>2600 Club / New 2600 Club</subtitle>
+</section>
+<section id="toc_sub_000017"><title><p>2600 Club / New 2600 Club</p></title>
 <empty-line/>
 <p>Both groups are no longer in existence. Originally started as a local group of friends in St. Louis, Missouri, it gained members quickly, too quickly. As membership grew, unity and productivity lessened until the groups finally broke up.</p>
 <empty-line/>
@@ -188,13 +203,16 @@
 <empty-line/>
 <p>2600 Club had no relation to 2600 Magazine.</p>
 <empty-line/>
-<subtitle>Warelords</subtitle>
+</section>
+<section id="toc_sub_000018"><title><p>Warelords</p></title>
 <empty-line/>
 <p>There are 13 members in the Warelords, based in California, Maryland, Tennessee, Washington D.C. and Wyoming. Billibuster, a member of the group, said that the Warelords are a phreaking and carding group that also writes programs and sells them. He claims that they are not pirates. The group isn't very active.</p>
 <empty-line/>
-<subtitle>Other groups</subtitle>
+</section>
+<section id="toc_sub_000019"><title><p>Other groups</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_002_phrack_pro_phile_3_user_groups_and_clubs_0265_e1958377ca.png"/>
+</section>
 </section>
 <section id="sec_issue_006_003_the_techno_revolution">
 <title><p>The Techno-Revolution</p></title>
@@ -230,7 +248,7 @@
 <empty-line/>
 <p>Прежде всего хочу сказать, что я не несу никакой ответственности за любой ущерб, причинённый в результате использования информации из этого файла.</p>
 <empty-line/>
-<subtitle>Дождь искр из ниоткуда</subtitle>
+<section id="toc_sub_000020"><title><p>Дождь искр из ниоткуда</p></title>
 <empty-line/>
 <p>Этот трюк обычно выполняется с пустой зажигалкой. Разберите верхнюю часть, стараясь не потерять кремень и пружину, которые находятся под колёсиком поджига. Выбросьте всё остальное, если только в зажигалке не осталось немного жидкости, которую можно использовать для некоторых других вещей из этого файла. Сохраните кремень и пружину.</p>
 <empty-line/>
@@ -238,7 +256,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_004_fun_with_bic_lighter_0019_8f25e25391.png"/>
 <empty-line/>
-<subtitle>Что делать с оставшимся корпусом зажигалки</subtitle>
+</section>
+<section id="toc_sub_000021"><title><p>Что делать с оставшимся корпусом зажигалки</p></title>
 <empty-line/>
 <p>Подожгите одну из опор колёсика поджига, положите зажигалку перевёрнутой в угол и бегите со всех ног! Она неплохо рванёт. Можно также взять корпус, слегка обернуть его бумажным полотенцем, поджечь полотенце, отойти назад и выстрелить в него из пневматики. Весело. Экспериментируйте, но никогда не прокалывайте зажигалку, пока держите её в руках — это было бы неразумно.</p>
 <empty-line/>
@@ -247,6 +266,7 @@
 <p>Вопросы и комментарии? Свяжитесь со мной на 2400 Baud Exchange 404-925-9657.</p>
 <empty-line/>
 <p>The Leftist. ^*^</p>
+</section>
 </section>
 <section id="sec_issue_006_005_unix_nasties">
 <title><p>Пакости в Unix</p></title>
@@ -258,7 +278,7 @@
 <empty-line/>
 <p><strong>Предисловие:</strong> Я не призываю использовать НИ ОДИН из методов, описанных в этом файле. Unix — крутая операционная система, возможно, одна из лучших систем из когда-либо разработанных во многих отношениях. Если у вас есть доступ к Unix-системе, вам следует ИЗУЧИТЬ UNIX И ИЗУЧИТЬ C, потому что именно там деньги в компьютерном мире. Однако Unix — относительно незащищённая операционная система, которую легко испортить. Данный файл объясняет несколько способов сделать это.</p>
 <empty-line/>
-<subtitle>Обвал системы</subtitle>
+<section id="toc_sub_000022"><title><p>Обвал системы</p></title>
 <empty-line/>
 <p>В Unix нет встроенных ограничений на максимальный объём дискового пространства для каждого пользователя. Таким образом, один пользователь может захватить всё дисковое пространство системы и фактически лишить всех остальных возможности записи на диск. Простой способ захватить всё дисковое пространство — создавать подкаталог за подкаталогом, пока это будет возможно. Вот несколько способов сделать это.</p>
 <empty-line/>
@@ -284,7 +304,8 @@
 <empty-line/>
 <p>и выйдите из системы. Это запустит процесс в фоновом режиме, что позволит вам отключиться. Однако выходите из системы БЫСТРО, поскольку если вы использовали первый вариант файла crash, он также будет безудержно пожирать фоновые процессы, что тоже в некоторой степени навредит системе. Что подводит нас к следующему разделу...</p>
 <empty-line/>
-<subtitle>Значительное замедление системы</subtitle>
+</section>
+<section id="toc_sub_000023"><title><p>Значительное замедление системы</p></title>
 <empty-line/>
 <p>Существует много способов сделать это — метод заключается в создании достаточно большого числа фоновых процессов. Вот один конкретный пример. Создайте файл с именем <code>slow1</code> со следующими строками:</p>
 <empty-line/>
@@ -302,7 +323,8 @@
 <empty-line/>
 <p>Это создаст 25 фоновых процессов, каждый из которых запустит ещё 25 фоновых процессов. После того как все они будут запущены, система едва будет двигаться.</p>
 <empty-line/>
-<subtitle>Порча каталога</subtitle>
+</section>
+<section id="toc_sub_000024"><title><p>Порча каталога</p></title>
 <empty-line/>
 <p>Многие команды работы с файлами используют параметры с «-». Создайте файл, имя которого начинается с «-», следующим образом:</p>
 <empty-line/>
@@ -312,7 +334,8 @@
 <empty-line/>
 <p>Создайте пару сотен файлов, имена которых начинаются с «-»... тому, кому посчастливится иметь дело с этими новыми файлами, придётся по-настоящему помучиться — скорее всего, ему просто придётся завести новый логин.</p>
 <empty-line/>
-<subtitle>Заключение</subtitle>
+</section>
+<section id="toc_sub_000025"><title><p>Заключение</p></title>
 <empty-line/>
 <p>Использование любого из этих методов крайне безответственно, и если бы кто-нибудь проделал это с моей Unix-системой, я бы был очень зол. Именно поэтому я настоятельно рекомендую никогда не использовать эти трюки.</p>
 <empty-line/>
@@ -322,9 +345,10 @@
 <empty-line/>
 <p>Для получения дополнительной информации о саботаже и взломе UNIX смотрите следующие статьи:</p>
 <empty-line/>
-<p>Ritchie, Dennis M. [он написал Unix] &quot;On the Security of UNIX.&quot; Programmers Manual for UNIX System III Volume II. Supplementary Documents.</p>
+<p>Ritchie, Dennis M. [он написал Unix] "On the Security of UNIX." Programmers Manual for UNIX System III Volume II. Supplementary Documents.</p>
 <empty-line/>
-<p>Filipski, Alan and Hanko, James. &quot;Making UNIX Secure.&quot; BYTE Magazine, April 1986, pp 113-128.</p>
+<p>Filipski, Alan and Hanko, James. "Making UNIX Secure." BYTE Magazine, April 1986, pp 113-128.</p>
+</section>
 </section>
 <section id="sec_issue_006_006_smoke_bomb">
 <title><p>Дымовая бомба</p></title>
@@ -332,7 +356,7 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_006_smoke_bomb_0007_1030e4662b.png"/>
 <empty-line/>
-<subtitle>Ингредиенты</subtitle>
+<section id="toc_sub_000026"><title><p>Ингредиенты</p></title>
 <empty-line/>
 <p>• Селитра (нитрат калия)</p>
 <p>• Сахар</p>
@@ -342,7 +366,8 @@
 <p>• Жестяная банка из-под кофе</p>
 <p>• Сигарета</p>
 <empty-line/>
-<subtitle>Инструкция</subtitle>
+</section>
+<section id="toc_sub_000027"><title><p>Инструкция</p></title>
 <empty-line/>
 <p>Смешайте сахар и селитру в соотношении 3:1 (сахар:селитра) и нагревайте на слабом огне до полного расплавления смеси. (Когда смесь готова, она выглядит как липкие белые комки.) В процессе нагревания необходимо постоянно помешивать, а при первых признаках дыма — немедленно снять с огня. Однажды у меня партия рванула прямо в лицо, и рабочая комната была заполнена дымом добрых полчаса. С небольшими партиями работать проще и безопаснее.</p>
 <empty-line/>
@@ -350,7 +375,8 @@
 <empty-line/>
 <p>Подожгите окурок и неторопливо уйдите — у вас есть около 5 минут, чтобы обзавестись надёжным алиби.</p>
 <empty-line/>
-<subtitle>Примечания</subtitle>
+</section>
+<section id="toc_sub_000028"><title><p>Примечания</p></title>
 <empty-line/>
 <p>Селитру можно найти в местной аптеке.</p>
 <empty-line/>
@@ -359,6 +385,7 @@
 <p>Говорят, что четверти фунта этого вещества достаточно, чтобы заполнить дымом целый городской квартал. Не знаю, так ли это на самом деле, но общественный туалет оно точно заполняет на ура.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_006_smoke_bomb_0045_ceedc3c43c.png"/>
+</section>
 </section>
 <section id="sec_issue_006_007_cellular_telephones">
 <title><p>Cellular Telephones</p></title>
@@ -402,7 +429,7 @@
 <empty-line/>
 <p>Эти файлы covering general information on wide-area networks, например ARPANET, CSNET, BITNET, MFENET, UUCP and USENET, но могут содержать информацию, связанную и с другими networks, не выделенными здесь особо. Эти файлы <strong>не</strong> являются hacker's tutorial/guide по этим systems.</p>
 <empty-line/>
-<subtitle>BITNET</subtitle>
+<section id="toc_sub_000029"><title><p>BITNET</p></title>
 <empty-line/>
 <p>В 1981 году City University of New York (CUNY) surveyed universities on the East Coast of the U.S. and Canada, asking whether there was interest in creating an easy-to-use, economical network for interuniversity communication between scholars. Response was positive. Многие разделяли CUNY belief in the importance of computer-assisted communication between scholars. Первый link новой network, called BITNET, был established between CUNY and Yale University in May 1981.</p>
 <empty-line/>
@@ -426,7 +453,8 @@
 <empty-line/>
 <p>BITNET, with support from the NSFnet Program, is now examining ways to provide ARPANET-like services to existing BITNET sites. The project, similar to CSNET CYPRESS project, will explore a strategy to provide an optional path to the use of TCP-IP procedures on existing 9.6-kbps leased lines. The possibility of upgrading these lines to multiple alternate links, providing higher reliability and availability, or to higher-speed 56-kbps links is also being studied. The project will offer a higher level of service to BITNET sites choosing this path and also enable a low-cost connection to NSFnet.</p>
 <empty-line/>
-<subtitle>MFENET</subtitle>
+</section>
+<section id="toc_sub_000030"><title><p>MFENET</p></title>
 <empty-line/>
 <p>MFENET, DOE's magnetic fusion energy research network, was established in the mid-1970s to support access to the MFE Cray 1 supercomputer at Lawrence Livermore National Laboratory. The network uses 56-kbs satellite links and is designed to provide terminal access to the Cray Time-Sharing System, CTSS, also developed at Lawrence Livermore Laboratory.</p>
 <empty-line/>
@@ -436,7 +464,8 @@
 <empty-line/>
 <p>The combination of CTSS operating system and MFENET protocols creates an effective interactive computing environment for researchers using Cray supercomputers. For this reason, two new NSF national supercomputer centers, San Diego (SDSC) and Illinois, chose CTSS operating system. In SDSC's case, MFENET protocols were also chosen to support SDSC Consortium network. In Illinois case, a project to implement TCP-IP protocols for CTSS has been funded by the NSFnet program, and these developments will be shared with SDSC and DOE to provide a migration path for SDSC Consortium network.</p>
 <empty-line/>
-<subtitle>UUCP and USENET</subtitle>
+</section>
+<section id="toc_sub_000031"><title><p>UUCP and USENET</p></title>
 <empty-line/>
 <p>UUCP network started in the 1970s to provide electronic mail and file transfer between UNIX systems. The network is host-based store-and-forward network using dialup telephone circuits and operates by having each member site dial up the next UUCP host computer and send and receive files and electronic mail messages. The network uses addresses based on the physical path established by this sequence of dialup connections.</p>
 <empty-line/>
@@ -444,7 +473,8 @@
 <empty-line/>
 <p>USENET is a UNIX news facility based on the UUCP network that provides a news bulletin board service. Neither UUCP nor USENET has central management; volunteers maintain and distribute routing tables for the network. Each member site pays its own costs and agrees to carry traffic. Despite reliance on mutual cooperation and anarchic management style, the network operates and provides a useful, if somewhat unreliable, low-cost service to its members. Over the years the network grew into a worldwide network with thousands of computers participating.</p>
 <empty-line/>
-<subtitle>Other wide-area networks</subtitle>
+</section>
+<section id="toc_sub_000032"><title><p>Other wide-area networks</p></title>
 <empty-line/>
 <p>Of necessity this file on wide-area networks has been incomplete. Other networks of interest include:</p>
 <empty-line/>
@@ -464,11 +494,12 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_008_wide_area_networks_part_2_0084_69a63d0d9b.png"/>
 </section>
+</section>
 <section id="sec_issue_006_009_phrack_world_news_v_part_1">
 <title><p>Phrack World News V, часть 1</p></title>
 <p><strong>Составил и написал:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>Where is Taran King?</subtitle>
+<section id="toc_sub_000033"><title><p>Where is Taran King?</p></title>
 <empty-line/>
 <p><strong>10 мая 1986 года</strong></p>
 <empty-line/>
@@ -486,7 +517,8 @@
 <empty-line/>
 <p>Metal Shop Private вернётся, когда Taran выйдет, hopefully sometime in June.</p>
 <empty-line/>
-<subtitle>Metal Shop AE</subtitle>
+</section>
+<section id="toc_sub_000034"><title><p>Metal Shop AE</p></title>
 <empty-line/>
 <p><strong>27 апреля 1986 года</strong></p>
 <empty-line/>
@@ -498,7 +530,8 @@
 <empty-line/>
 <p>Чтобы upload files for distribution in Phrack Inc., обязательно upload them to drive E, which will save your file to a non-public viewable drive, where it will stay until it is edited for Phrack.</p>
 <empty-line/>
-<subtitle>Mark Tabas and Karl Marx busted</subtitle>
+</section>
+<section id="toc_sub_000035"><title><p>Mark Tabas and Karl Marx busted</p></title>
 <empty-line/>
 <p><strong>2 мая 1986 года</strong></p>
 <empty-line/>
@@ -516,7 +549,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_009_phrack_world_news_v_part_1_0055_1df799baa2.png"/>
 <empty-line/>
-<subtitle>FBI/Wylon in action</subtitle>
+</section>
+<section id="toc_sub_000036"><title><p>FBI/Wylon in action</p></title>
 <empty-line/>
 <p>2 мая 1986 года homes of Cheap Shades and Kleptic Wizard received visits from Edward P. Nowicki, Special Agent of the Federal Bureau of Investigation.</p>
 <empty-line/>
@@ -536,7 +570,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_009_phrack_world_news_v_part_1_0077_6e18621f77.png"/>
 <empty-line/>
-<subtitle>Administration nominations?</subtitle>
+</section>
+<section id="toc_sub_000037"><title><p>Administration nominations?</p></title>
 <empty-line/>
 <p><strong>6 мая 1986 года</strong></p>
 <empty-line/>
@@ -554,7 +589,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_009_phrack_world_news_v_part_1_0108_b395f892bf.png"/>
 <empty-line/>
-<subtitle>Trouble in Texas</subtitle>
+</section>
+<section id="toc_sub_000038"><title><p>Trouble in Texas</p></title>
 <empty-line/>
 <p><strong>2 июня 1986 года</strong></p>
 <empty-line/>
@@ -570,7 +606,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_009_phrack_world_news_v_part_1_0126_c140b4f9d1.png"/>
 <empty-line/>
-<subtitle>Ninja NYC / Sigmund Fraud: close calls</subtitle>
+</section>
+<section id="toc_sub_000039"><title><p>Ninja NYC / Sigmund Fraud: close calls</p></title>
 <empty-line/>
 <p>Sigmund Fraud, famous for his incredible proficiency at <code>social engineering</code>, is now laying incredibly low after what is considered the closest call of his life.</p>
 <empty-line/>
@@ -592,7 +629,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_009_phrack_world_news_v_part_1_0150_2f18fa16f9.png"/>
 <empty-line/>
-<subtitle>Telecomputist: printed newsletter</subtitle>
+</section>
+<section id="toc_sub_000040"><title><p>Telecomputist: printed newsletter</p></title>
 <empty-line/>
 <p><strong>8 июня 1986 года</strong></p>
 <empty-line/>
@@ -614,11 +652,12 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_009_phrack_world_news_v_part_1_0188_a341faffea.png"/>
 </section>
+</section>
 <section id="sec_issue_006_010_phrack_world_news_v_part_2">
 <title><p>Phrack World News V, часть 2</p></title>
 <p><strong>Составил и написал:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>Captain Midnight's sneak attack</subtitle>
+<section id="toc_sub_000041"><title><p>Captain Midnight's sneak attack</p></title>
 <empty-line/>
 <p><strong>12 мая 1986 года</strong></p>
 <empty-line/>
@@ -646,7 +685,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_010_phrack_world_news_v_part_2_0038_a047f3c0ac.png"/>
 <empty-line/>
-<subtitle>News on Captain Midnight</subtitle>
+</section>
+<section id="toc_sub_000042"><title><p>News on Captain Midnight</p></title>
 <empty-line/>
 <p><strong>28 апреля 1986 года</strong></p>
 <empty-line/>
@@ -674,7 +714,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_010_phrack_world_news_v_part_2_0074_bad717dc7a.png"/>
 <empty-line/>
-<subtitle>David Lightman</subtitle>
+</section>
+<section id="toc_sub_000043"><title><p>David Lightman</p></title>
 <empty-line/>
 <p>I have spoken with several people about Captain Midnight. I have spoken to everyone above. David Pritchard tried to tell me this:</p>
 <empty-line/>
@@ -746,7 +787,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_010_phrack_world_news_v_part_2_0155_ccbc70a302.png"/>
 <empty-line/>
-<subtitle>Captain Midnight busted!</subtitle>
+</section>
+<section id="toc_sub_000044"><title><p>Captain Midnight busted!</p></title>
 <empty-line/>
 <p><strong>6 июня 1986 года</strong></p>
 <empty-line/>
@@ -762,7 +804,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_010_phrack_world_news_v_part_2_0173_9294d79285.png"/>
 <empty-line/>
-<subtitle>Who is Ralph Meola?</subtitle>
+</section>
+<section id="toc_sub_000045"><title><p>Who is Ralph Meola?</p></title>
 <empty-line/>
 <p><strong>20 мая 1986 года</strong></p>
 <empty-line/>
@@ -790,11 +833,12 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_010_phrack_world_news_v_part_2_0213_47ae78c459.png"/>
 </section>
+</section>
 <section id="sec_issue_006_011_phrack_world_news_v_part_3">
 <title><p>Phrack World News V, часть 3</p></title>
 <p><strong>Составил и написал:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>Cracking down on abuse</subtitle>
+<section id="toc_sub_000046"><title><p>Cracking down on abuse</p></title>
 <empty-line/>
 <p>Эта статья взята из январского выпуска <emphasis>MCI World</emphasis>, monthly newsletter, published by MCI for its employees.</p>
 <empty-line/>
@@ -830,13 +874,15 @@
 <empty-line/>
 <p>MCI had developed software to detect illegal entry into its network, and it is expected that the spread of dial 1 service, in which authorization codes are not used, will help reduce the incidence of telephone fraud.</p>
 <empty-line/>
-<subtitle>Comments from The Bootleg</subtitle>
+</section>
+<section id="toc_sub_000047"><title><p>Comments from The Bootleg</p></title>
 <empty-line/>
 <p>You reckon they mean us?</p>
 <empty-line/>
 <p>What's wrong with them, can't they take a joke?</p>
 <empty-line/>
-<subtitle>The many faces of fraud</subtitle>
+</section>
+<section id="toc_sub_000048"><title><p>The many faces of fraud</p></title>
 <empty-line/>
 <p>Следующая статья взята из январского выпуска <emphasis>MCI World</emphasis>, monthly newsletter, published by MCI for its employees.</p>
 <empty-line/>
@@ -896,7 +942,8 @@
 <empty-line/>
 <p><strong>Bowens:</strong> We want to reduce fraud to the lowest possible level. One of MCI's goals is to cut fraud by more than half in 1986. We want to be the industry leader in curbing this illegal activity.</p>
 <empty-line/>
-<subtitle>Broadway Hacker turned fed informant?</subtitle>
+</section>
+<section id="toc_sub_000049"><title><p>Broadway Hacker turned fed informant?</p></title>
 <empty-line/>
 <p><strong>2 июня 1986 года</strong></p>
 <empty-line/>
@@ -914,11 +961,12 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_006_011_phrack_world_news_v_part_3_0125_4f6950c91f.png"/>
 </section>
+</section>
 <section id="sec_issue_006_012_phrack_world_news_v_part_4">
 <title><p>Новости Phrack World News, выпуск 5, часть 4</p></title>
 <p><strong>Автор:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>Требуются законы для взрослых против компьютерных преступников</subtitle>
+<section id="toc_sub_000050"><title><p>Требуются законы для взрослых против компьютерных преступников</p></title>
 <empty-line/>
 <p>По материалам Дейва Скидмора (Associated Press)</p>
 <empty-line/>
@@ -958,7 +1006,7 @@
 <empty-line/>
 <p>1) «Запрещает несанкционированный доступ к компьютеру» (Да неужели?) «и отменяет требование доказывать, что информация в компьютере была использована или изменена». Что это вообще за закон?! Правительство может просто арестовать человека и при этом ничего не доказывать? ДА ВЫ ШУТИТЕ!</p>
 <empty-line/>
-<p>2) «Запрещает &quot;пиратские BBS&quot;». Когда же эти люди наконец выучат правильную терминологию? Пираты торгуют варезом, а не «секретными паролями и кодами». Суть в том, что поскольку это федеральный закон, он будет действовать во всех штатах. Речь идёт уже не об игрушечных законах штатов. Разве не ужасно будет, если само по себе содержание BBS станет преступлением? Кроме того, я думал, у нас есть свобода слова и печати. Снова: ДА ВЫ ШУТИТЕ!</p>
+<p>2) «Запрещает "пиратские BBS"». Когда же эти люди наконец выучат правильную терминологию? Пираты торгуют варезом, а не «секретными паролями и кодами». Суть в том, что поскольку это федеральный закон, он будет действовать во всех штатах. Речь идёт уже не об игрушечных законах штатов. Разве не ужасно будет, если само по себе содержание BBS станет преступлением? Кроме того, я думал, у нас есть свобода слова и печати. Снова: ДА ВЫ ШУТИТЕ!</p>
 <empty-line/>
 <p>3) «и штраф в 250 000 долларов за умышленное причинение ущерба компьютерной программе или базе данных на сумму свыше 1000 долларов». Прошу прощения, но разве можно «умышленно» уничтожить данные? И разве четверть миллиона долларов — не слишком много для подростка на карманных деньгах? И такая сумма за ущерб в 1000 долларов? Чёрт, вот бы моя страховая компания так же платила, когда я разбиваю машину. Ещё раз: ДА ВЫ ШУТИТЕ!</p>
 <empty-line/>
@@ -966,7 +1014,8 @@
 <empty-line/>
 <p><emphasis>Написано Blue Buccaneer</emphasis></p>
 <empty-line/>
-<subtitle>Компьютерные дети — или преступники?</subtitle>
+</section>
+<section id="toc_sub_000051"><title><p>Компьютерные дети — или преступники?</p></title>
 <empty-line/>
 <p>Мистер Слиппери, 12 лет, никогда не думал, что игра на домашнем компьютере — что-то большее, чем безобидное развлечение, пока однажды таинственный звонок от незнакомца не доказал обратное. «Мне позвонил какой-то чудак и предложил деньги за то, чтобы я уничтожил банковские записи», — рассказал Слиппери, упомянутый под своим хакерским псевдонимом. «Тут я понял, что это невероятный способ отмывать деньги. И что по-настоящему умный человек в такие дела не лезет, потому что это явно попахивало организованной преступностью».</p>
 <empty-line/>
@@ -1018,15 +1067,17 @@
 <empty-line/>
 <p>Несколько замечаний от KL: я предполагаю, что кардинговое пособие Music Major представляло собой четыре сообщения, опубликованных на подборде по кардингу на Stronghold East. Если это так, то в момент написания статьи или незадолго до него Максфилд находился на SE. Этот пост, по всей видимости, был сделан ещё до МАССОВОЙ чистки пользователей на Stronghold East.</p>
 <empty-line/>
-<subtitle>Список узлов BITNET</subtitle>
+</section>
+<section id="toc_sub_000052"><title><p>Список узлов BITNET</p></title>
 <empty-line/>
 <p>[Список из 2491 записи — опущен как справочные данные]</p>
+</section>
 </section>
 <section id="sec_issue_006_013_phrack_world_news_v_part_5">
 <title><p>Мировые новости Phrack, выпуск 5, часть 5</p></title>
 <p><strong>Автор:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>Дэниел Зигмонд: настоящий журналист или внештатный агент ФБР?</subtitle>
+<section id="toc_sub_000053"><title><p>Дэниел Зигмонд: настоящий журналист или внештатный агент ФБР?</p></title>
 <p><emphasis>20 мая 1986 г.</emphasis></p>
 <empty-line/>
 <p>Данная статья не отдаёт предпочтение ни одной из вышеупомянутых точек зрения, однако попытается рассмотреть свидетельства и факты, касающиеся обоих утверждений.</p>
@@ -1067,7 +1118,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>Как одолеть Ричарда Проктора в 4 простых шага!</subtitle>
+</section>
+<section id="toc_sub_000054"><title><p>Как одолеть Ричарда Проктора в 4 простых шага!</p></title>
 <p><emphasis>10 июня 1986 г.</emphasis></p>
 <empty-line/>
 <p>Кто этот новый следователь в Атланте? Что делает его сегодня новейшей и, возможно, наибольшей угрозой для мира фрикеров? Следующая информация касается следователя MCI по имени Ричард Проктор, также известного как Джон Проктор.</p>
@@ -1096,7 +1148,8 @@
 <empty-line/>
 <p><emphasis>Информация предоставлена Holophax Phreaker и The Infiltrator</emphasis></p>
 <empty-line/>
-<subtitle>Кратко</subtitle>
+</section>
+<section id="toc_sub_000055"><title><p>Кратко</p></title>
 <empty-line/>
 <p>Stronghold East теперь работает на новом Apple //e — благодаря своим друзьям из AMEX. Прежде SE работал на Franklin Ace. <emphasis>3 мая 1986 г.</emphasis> Совсем недавно жёсткий диск SE вышел из строя, и до приобретения нового ProDos Apple net они работают на Phlash-Net, написанном Phlash Gordon.</p>
 <empty-line/>
@@ -1125,6 +1178,7 @@
 <p>The Guardian Demon (215), по всей видимости, был арестован за злоупотребление Metrophone, однако официальные обвинения ещё не предъявлены.</p>
 <empty-line/>
 <p>Jester Sluggo официально завершил работу со всеми досками и теперь занимается исключительно хакингом. Он сохранит свои контакты в мире фрикеров. Сисопы просят удалить его аккаунты.</p>
+</section>
 </section>
 </section>
 </body>

@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0"
-             xmlns:l="http://www.w3.org/1999/xlink">
+<?xml version='1.0' encoding='UTF-8'?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
 <description>
   <title-info>
     <genre>computers</genre>
@@ -30,9 +29,10 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_008_001_index_0007_8552368d4f.png"/>
 <empty-line/>
-<subtitle>Contents</subtitle>
+<section id="toc_sub_000001"><title><p>Contents</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_008_001_index_0014_20b7840ae0.png"/>
+</section>
 </section>
 <section id="sec_issue_008_002_phrack_pro_phile_v_tuc">
 <title><p>Phrack Pro-Phile V: TUC</p></title>
@@ -44,7 +44,7 @@
 <empty-line/>
 <p>Tuc — sysop of RACS III, TUCBBS, telecom enthusiasts' bulletin board in Stony Point, N.Y., area 914.</p>
 <empty-line/>
-<subtitle>Personal</subtitle>
+<section id="toc_sub_000002"><title><p>Personal</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_008_002_phrack_pro_phile_v_tuc_0018_8665851410.png"/>
 <empty-line/>
@@ -62,19 +62,23 @@
 <empty-line/>
 <p>Tuc has been involved with various groups in his lifetime, in the order he joined them: The Warelords, The Knights of Shadow, Apple Mafia and, at the same time as Apple Mafia, Fargo 4A.</p>
 <empty-line/>
-<subtitle>Interests</subtitle>
+</section>
+<section id="toc_sub_000003"><title><p>Interests</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_008_002_phrack_pro_phile_v_tuc_0052_89ad50d51d.png"/>
 <empty-line/>
-<subtitle>Tuc's favorite things</subtitle>
+</section>
+<section id="toc_sub_000004"><title><p>Tuc's favorite things</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_008_002_phrack_pro_phile_v_tuc_0061_eb318499c7.png"/>
 <empty-line/>
-<subtitle>Most memorable experiences</subtitle>
+</section>
+<section id="toc_sub_000005"><title><p>Most memorable experiences</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_008_002_phrack_pro_phile_v_tuc_0071_5ad63542c0.png"/>
 <empty-line/>
-<subtitle>Some people to mention</subtitle>
+</section>
+<section id="toc_sub_000006"><title><p>Some people to mention</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_008_002_phrack_pro_phile_v_tuc_0078_1ab7db5d6a.png"/>
 <empty-line/>
@@ -89,6 +93,7 @@
 <p>Thank you for your time, Tuc.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_008_002_phrack_pro_phile_v_tuc_0094_8552368d4f.png"/>
+</section>
 </section>
 <section id="sec_issue_008_003_city_wide_centrex">
 <title><p>The City Wide Centrex</p></title>
@@ -109,7 +114,7 @@
 <empty-line/>
 <p>Use of CCIS trunks to replace tie trunks results in the need for fewer total trunks and trunk groups. Remote access reduces the total number of customer trunks required and centralizes customer facilities at one location. All switches need LCCIS so that information can be passed between locations.</p>
 <empty-line/>
-<subtitle>Intercom Dialing</subtitle>
+<section id="toc_sub_000007"><title><p>Intercom Dialing</p></title>
 <empty-line/>
 <p>Intercom dialing gives the customer the ability to dial extension numbers, intercom, to other locations. This is done either by dialing the interlocation intercom number or by a speed call code which contains an interlocation intercom number. The customer has the option of routing these interlocation intercom calls via simulated private or public facilities.</p>
 <empty-line/>
@@ -121,7 +126,8 @@
 <empty-line/>
 <p>The terminating office recognizes the incoming call as such. If two-way simulated private facilities are used, the count on facilities at the terminating office is incremented. The use of two-way simulated private facilities for a call is based on the location identifier of the calling line and whether simulated private facilities were used on the outgoing side.</p>
 <empty-line/>
-<subtitle>Centrex Attendant Console</subtitle>
+</section>
+<section id="toc_sub_000008"><title><p>Centrex Attendant Console</p></title>
 <empty-line/>
 <p>The tie trunks are replaced by CCIS trunks; therefore some changes are required in the use of the attendant console. The changes are as follows:</p>
 <empty-line/>
@@ -136,7 +142,8 @@
 <empty-line/>
 <p>The originating, incoming and CCIS incoming registers are used to save information at both the originating and terminating offices. These registers include the CWC group, CWC location identifier, a CWC call type and an indicator whether simulated facilities were used at the originating.</p>
 <empty-line/>
-<subtitle>Remote Access to Private Facilities</subtitle>
+</section>
+<section id="toc_sub_000009"><title><p>Remote Access to Private Facilities</p></title>
 <empty-line/>
 <p>Remote access to private facilities allows the CWC customer to access physical private trunks and simulated facilities at a single location. This allows customers to consolidate their private facilities at one location. The number of trunks required is reduced.</p>
 <empty-line/>
@@ -191,7 +198,8 @@
 <empty-line/>
 <p>After processing at the main location is complete, the remote access register is set up to identify the next type of function. Then, the main location returns a CCIS remote message to the remote location. The information returned from the main location is always in the same format and is saved on the OR.</p>
 <empty-line/>
-<subtitle>Features</subtitle>
+</section>
+<section id="toc_sub_000010"><title><p>Features</p></title>
 <empty-line/>
 <p>The CWC group is allowed many features. Here is a list of them.</p>
 <empty-line/>
@@ -230,6 +238,7 @@
 <empty-line/>
 <p>This file is based on the AT&amp;T document for the CWC.</p>
 </section>
+</section>
 <section id="sec_issue_008_004_integrated_services_digital_network">
 <title><p>Интегрированная цифровая сеть связи</p></title>
 <p><strong>Автор:</strong> Dr. Doom</p>
@@ -240,7 +249,7 @@
 <p>2. интервью с руководителем центра эксплуатации междугородной связи AT&amp;T, которого далее я буду называть мистером R;</p>
 <p>3. несколько общих статей об ISDN из бюллетеней Southwestern Bell.</p>
 <empty-line/>
-<subtitle>Определение ISDN</subtitle>
+<section id="toc_sub_000011"><title><p>Определение ISDN</p></title>
 <empty-line/>
 <p><strong>Определение CCITT:</strong> сквозная цифровая сеть, поддерживающая широкий набор служб, доступ к которым осуществляется через набор стандартных многоцелевых пользовательско-сетевых интерфейсов.</p>
 <empty-line/>
@@ -250,7 +259,8 @@
 <empty-line/>
 <p>Это лишь вершина айсберга, если говорить об ISDN. В этом файле будет разобрано и описано, как интегрированная цифровая сеть связи будет работать после внедрения.</p>
 <empty-line/>
-<subtitle>Сигнализация вне полосы</subtitle>
+</section>
+<section id="toc_sub_000012"><title><p>Сигнализация вне полосы</p></title>
 <empty-line/>
 <p>Для сети, способной предоставлять такие расширенные службы, как идентификация вызывающей стороны, необходима сигнализация вне полосы. До конца 1970-х, когда AT&amp;T ввела междугородный коммутатор 4ESS и CCIS в национальную сеть, коммутаторы общались друг с другом по тем же каналам, по которым передавались наш голос или данные, то есть внутри полосы. В то время вся сигнализация между коммутаторами должна была ограничиваться типом сигналов, который помещался в голосовой канал, и поэтому предлагать какие-либо продвинутые службы было невозможно.</p>
 <empty-line/>
@@ -265,7 +275,8 @@
 <p>1. вся емкость каналов, несущих информацию, доступна пользователю;</p>
 <p>2. сигнальный канал <code>D</code> позволяет распределенную обработку по всей сети ISDN.</p>
 <empty-line/>
-<subtitle>Интерфейсы ISDN</subtitle>
+</section>
+<section id="toc_sub_000013"><title><p>Интерфейсы ISDN</p></title>
 <empty-line/>
 <p>CCITT определил два основных интерфейса, которые будут использоваться вместе с каналами <code>D</code> и <code>B</code>.</p>
 <empty-line/>
@@ -279,7 +290,8 @@
 <empty-line/>
 <p>Эти несколько каналов также являются основой для широкого использования видеотелефонов. Точно так же, как можно передавать данные по каналу 1 и говорить голосом по каналу 2, можно передавать видео по каналу 1, позволяя сторонам видеть друг друга, и разговаривать по каналу 2.</p>
 <empty-line/>
-<subtitle>Устройства ISDN</subtitle>
+</section>
+<section id="toc_sub_000014"><title><p>Устройства ISDN</p></title>
 <empty-line/>
 <p>AT&amp;T Technologies, Advanced Micro Devices и Intel сейчас разрабатывают оборудование, совместимое с ISDN. Пока что в материалах SWB и AT&amp;T чаще всего обсуждаются две основные конструкции.</p>
 <empty-line/>
@@ -293,43 +305,53 @@
 <p>2. город и штат;</p>
 <p>3. полный адрес для этого номера.</p>
 <empty-line/>
-<subtitle>Строительные блоки ISDN AT&amp;T</subtitle>
+</section>
+<section id="toc_sub_000015"><title><p>Строительные блоки ISDN AT&amp;T</p></title>
 <empty-line/>
 <p>AT&amp;T выделила несколько “строительных блоков”, которые в итоге должны быть развернуты по всей стране и образовать ISDN.</p>
 <empty-line/>
-<subtitle>1. Узел служб AT&amp;T Communications</subtitle>
+</section>
+<section id="toc_sub_000016"><title><p>1. Узел служб AT&amp;T Communications</p></title>
 <empty-line/>
 <p>Узел служб - это шлюз клиента к семейству узловых служб AT&amp;T Communications, включая MEGACOM, MEGACOM 800 и Acunet. Первый узел служб был введен в эксплуатацию в 1985 году в Филадельфии, штат Пенсильвания.</p>
 <empty-line/>
-<subtitle>2. Интегрированный доступ</subtitle>
+</section>
+<section id="toc_sub_000017"><title><p>2. Интегрированный доступ</p></title>
 <empty-line/>
 <p>Он позволяет клиентам объединять коммутируемые услуги и услуги выделенных линий по одному каналу DS-1 к узлу служб.</p>
 <empty-line/>
-<subtitle>3. Внеполосная сигнализация</subtitle>
+</section>
+<section id="toc_sub_000018"><title><p>3. Внеполосная сигнализация</p></title>
 <empty-line/>
 <p>Она обсуждалась выше.</p>
 <empty-line/>
-<subtitle>4. CCS7</subtitle>
+</section>
+<section id="toc_sub_000019"><title><p>4. CCS7</p></title>
 <empty-line/>
 <p>Сеть общей канальной сигнализации CCS7 скоро заменит CCIS как способ внеполосной сигнализации между сетевыми коммуникационными объектами AT&amp;T. Благодаря более длинному формату сообщений и многоуровневой структуре CCS7 будет поддерживать новые функции.</p>
 <empty-line/>
-<subtitle>5. Цифровая магистральная сеть</subtitle>
+</section>
+<section id="toc_sub_000020"><title><p>5. Цифровая магистральная сеть</p></title>
 <empty-line/>
 <p>Эта общенациональная сеть AT&amp;T включает обширные световодные и цифровые радиомаршруты. К концу 1988 года эти цифровые световодные маршруты дойдут до Европы через световодную систему TAT-8 и через Тихий океан с HAW-4/TPC-3.</p>
 <empty-line/>
-<subtitle>6. Интеллектуальная программно-управляемая сеть AT&amp;T Communications</subtitle>
+</section>
+<section id="toc_sub_000021"><title><p>6. Интеллектуальная программно-управляемая сеть AT&amp;T Communications</p></title>
 <empty-line/>
 <p>Она приносит более продвинутые программные службы, перечисленные в пункте 1.</p>
 <empty-line/>
-<subtitle>Эксплуатация ISDN AT&amp;T</subtitle>
+</section>
+<section id="toc_sub_000022"><title><p>Эксплуатация ISDN AT&amp;T</p></title>
 <empty-line/>
-<subtitle>Транспорт доступа</subtitle>
+</section>
+<section id="toc_sub_000023"><title><p>Транспорт доступа</p></title>
 <empty-line/>
 <p>Ваш сигнал DS-1 передается от вашего оборудования ISDN к какому-либо узлу служб AT&amp;T Communications.</p>
 <empty-line/>
 <p>Ваша линия попадает в AT&amp;T по тарифу от местного оператора связи, то есть Southwestern Bell, GTE или того, кому принадлежит ваш местный коммутатор, либо от AT&amp;T. Прямая линия к узлу служб AT&amp;T обходит вашу местную коммутацию.</p>
 <empty-line/>
-<subtitle>Узел служб AT&amp;T</subtitle>
+</section>
+<section id="toc_sub_000024"><title><p>Узел служб AT&amp;T</p></title>
 <empty-line/>
 <p>Ваш местный узел служб AT&amp;T - это служебная станция, которая действует как шлюз ко всем новым узловым службам ISDN AT&amp;T. Такой узел обычно состоит из:</p>
 <empty-line/>
@@ -345,7 +367,8 @@
 <empty-line/>
 <p>Когда линия завершается на DACS, он служит распределителем интегрированного доступа и отправляет вызов либо на 1PSS, пакетный коммутатор, для пакетной службы Acunet, либо на 4ESS, а затем в итоге дальше в сеть AT&amp;T.</p>
 <empty-line/>
-<subtitle>Межузловая сеть AT&amp;T</subtitle>
+</section>
+<section id="toc_sub_000025"><title><p>Межузловая сеть AT&amp;T</p></title>
 <empty-line/>
 <p>В межузловой сети AT&amp;T сейчас развертывает как цифровые световодные, так и цифровые радиосистемы.</p>
 <empty-line/>
@@ -359,7 +382,8 @@
 <empty-line/>
 <p>В области цифрового радио системы на 4 Гбит/с, такие как TD-90 и TD-180, дают средство для быстрого расширения цифровой связности.</p>
 <empty-line/>
-<subtitle>ISDN и цифровые коммутаторы</subtitle>
+</section>
+<section id="toc_sub_000026"><title><p>ISDN и цифровые коммутаторы</p></title>
 <empty-line/>
 <p>AT&amp;T переделала коммутационные модули 5E так, чтобы они были полностью совместимы с ISDN, но многие существующие 5E и другие коммутаторы были изготовлены без поддержки ISDN. Чтобы закрыть эту потребность, AT&amp;T выпустила интерфейсы ISDN, которые модульно подключаются к системе. Ниже приведена схема коммутационного модуля 5ESS с интерфейсами.</p>
 <empty-line/>
@@ -372,7 +396,8 @@
 <empty-line/>
 <p>Эти блоки позволяют местному коммутатору 5ESS или другому цифровому коммутатору обслуживать как клиентов ISDN, так и клиентов без ISDN. Эти интерфейсы встроены в коммутационный модуль так, чтобы клиенты ISDN могли сохранять все прежние услуги Bell, например местные звонки. Обратите также внимание, что все линии, независимо от того, ISDN это или нет, завершаются на ISLU.</p>
 <empty-line/>
-<subtitle>Идентификация вызывающей стороны</subtitle>
+</section>
+<section id="toc_sub_000027"><title><p>Идентификация вызывающей стороны</p></title>
 <empty-line/>
 <p>Служба расширенной идентификации вызывающей стороны AT&amp;T ISDN, кратко упомянутая во вступлении к этому файлу, будет введена вместе с ISDN.</p>
 <empty-line/>
@@ -390,13 +415,15 @@
 <empty-line/>
 <p>Если подумать, это довольно просто, и это один из примеров того, как когда-то раздробленная сеть снова работает совместно.</p>
 <empty-line/>
-<subtitle>Несколько примеров использования CP ID</subtitle>
+</section>
+<section id="toc_sub_000028"><title><p>Несколько примеров использования CP ID</p></title>
 <empty-line/>
 <p>Это может использоваться крупными компаниями, принимающими телефонные заказы, чтобы мгновенно выводить запись о кредите человека, его прошлых заказах и так далее еще до того, как оператор ответит на звонок.</p>
 <empty-line/>
 <p>Когда кто-то входит в компьютерную систему, исходящий номер записывается в журнал пользователя вместе с именем учетной записи и прочими данными. Поэтому, если произошел несанкционированный вход, они могут связаться с властями или наблюдать за этим номером, пока не соберут достаточно доказательств для преследования. То же самое верно для междугородных dialup-систем. Они будут записывать исходящий номер вместе с кодом и счетом, делая использование MCI довольно опасным.</p>
 <empty-line/>
-<subtitle>Новости ISDN от SWB</subtitle>
+</section>
+<section id="toc_sub_000029"><title><p>Новости ISDN от SWB</p></title>
 <empty-line/>
 <p>Следующая статья была взята из техасской публикации Southwestern Bell <code>Telephone Times</code> и называется “Форум пользователей упрощает ISDN”:</p>
 <empty-line/>
@@ -420,7 +447,8 @@
 <empty-line/>
 <p>На этом хорошая небольшая статья заканчивается; кстати, в ней содержалось несколько интересных крупиц информации.</p>
 <empty-line/>
-<subtitle>Заключение</subtitle>
+</section>
+<section id="toc_sub_000030"><title><p>Заключение</p></title>
 <empty-line/>
 <p>ISDN - очень сложный план, который радикально изменит телекоммуникационную картину в этой стране и за рубежом. Хотя AT&amp;T хвасталась в своих технических журналах, что сможет завершить свою сеть с поддержкой ISDN к началу 1987 года, по словам нашего знакомого мистера R, руководителя AT&amp;T, эта дата, похоже, все время отодвигается, и он рассчитывает на крупномасштабную ISDN не раньше конца 1988 или 1989 года.</p>
 <empty-line/>
@@ -429,6 +457,7 @@
 <p>Надеюсь, вам было интересно читать этот файл об ISDN. Я буду искать новую информацию по этой теме.</p>
 <empty-line/>
 <p>Если у вас еще нет номера и паролей нового пользователя для Metromedia BBS, отправьте мне, Dr. Doom, письмо на любой из досок, где я бываю.</p>
+</section>
 </section>
 <section id="sec_issue_008_005_junction_box_modeming">
 <title><p>Искусство работы с модемом через распределительную коробку</p></title>
@@ -442,7 +471,7 @@
 <empty-line/>
 <p>Существует два основных типа сельских распределительных коробок: жилые (Residential) и групповые (Group). Начну с жилых — их проще найти и проще использовать. Для полноценной работы с распределительной коробкой необходимо выполнить ряд условий. Прежде всего, у вас должен быть портативный компьютер со встроенным модемом или хотя бы телефонная трубка, если вы просто хотите бесплатно звонить друзьям. В качестве компьютера рекомендую что-нибудь вроде Radio Shack Model 100: компактный, недорогой — правда, только 300 бод и всего 32 КБ памяти.</p>
 <empty-line/>
-<subtitle>Жилые распределительные коробки</subtitle>
+<section id="toc_sub_000031"><title><p>Жилые распределительные коробки</p></title>
 <empty-line/>
 <p>Жилые распределительные коробки можно найти почти в любой сельской местности в нескольких метрах от дороги, как правило, скрытых под зарослями местных сорняков. Пробирайтесь сквозь заросли и вскрывайте коробку. Одни открываются поворотом или скручиванием, другие реально заперты и требуют чуть больше терпения. Открыв коробку, вы увидите не менее 4 пар проводов (возможно, больше). Вас интересует только пара, содержащая красный и зелёный провод.</p>
 <empty-line/>
@@ -452,11 +481,13 @@
 <empty-line/>
 <p>Если вы не хотите причинять постоянного ущерба коробке, просто снимите изоляцию с проводов линии и подключите красный и зелёный концы кабеля модема к ним. В этом случае подключение будет выглядеть примерно так, как будто подняли параллельную трубку. Набирайте и наслаждайтесь. Конечно, если кто-то в доме поднимет трубку, он услышит несущую и удивится, поэтому старайтесь ограничивать активность теми же упомянутыми выше часами — если только вы точно не знаете, кого именно обираете и когда они пользуются телефоном. Преимущество этого способа в том, что после зачистки проводов каждый следующий сеанс требует минимум усилий.</p>
 <empty-line/>
-<subtitle>Групповые распределительные коробки</subtitle>
+</section>
+<section id="toc_sub_000032"><title><p>Групповые распределительные коробки</p></title>
 <empty-line/>
 <p>Что делать, если вам повезёт найти групповую коробку? Вы столкнётесь с большим количеством проводов: от 10 пар до 100, если использовать коробку на окраине небольшого города. Найти нужную пару несколько сложнее — если только LOC не делал ремонт на этой коробке в последние пару месяцев: тогда многие провода уже будут разобраны по парам. Если вам не так повезло, берите несколько проводов и пробуйте по очереди. Здесь тоже есть выбор между зачисткой и обрезкой проводов, но преимущество состоит в том, что этой коробкой можно пользоваться около 4–6 месяцев, не ища новую.</p>
 <empty-line/>
-<subtitle>Почему приходится искать новые коробки</subtitle>
+</section>
+<section id="toc_sub_000033"><title><p>Почему приходится искать новые коробки</p></title>
 <empty-line/>
 <p>Когда вы используете распределительную коробку таким образом, вы фактически добавляете нелегальный параллельный аппарат к чужой линии. Все совершённые звонки будут отражаться в счёте законных владельцев. Если вы делаете один-два коротких или средней длины звонка в неделю, проблем, скорее всего, не возникнет. Однако если вы используете коробку слишком активно и люди начинают регулярно жаловаться в отдел по выставлению счетов на лишние звонки, там позвонят по этим номерам и услышат несущую модема. Это наведёт их на мысль, что либо кто-то лжёт в доме законного владельца, либо кто-то врезался в их телефонную линию. На сегодняшний день на Среднем Западе LOC требуется около 2–3 месяцев, чтобы осознать, что кто-то играет с их распределительной коробкой. После этого они приезжают, чинят провода и, как правило, устанавливают на месте более новую запирающуюся коробку, чтобы пресечь незаконное использование. Я пока не доводил LOC до крайних мер, но можно предположить: по мере того как работа с распределительными коробками становится популярнее среди тех из нас, у кого есть ноутбуки, LOC может найти способ поймать нас на горячем.</p>
 <empty-line/>
@@ -464,13 +495,14 @@
 <empty-line/>
 <p><emphasis>[Постскриптум от Thomas Covenant: Я бы рекомендовал один из так называемых «портативных» AT-совместимых компьютеров. Отличная тактовая частота, 1200 бод и экран побольше. А почему бы не взять с собой пикниковый обед и немного выпивки? Как только начнёте — вы там на весь день!]</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_008_006_compuserve_info">
 <title><p>Информация о CompuServe</p></title>
 <p><strong>Автор:</strong> Morgoth и Lotus</p>
 <empty-line/>
 <p>С момента своего скромного начала в Дублине, штат Огайо, CompuServe, или CIS, как он будет именоваться в этой статье, вырос и стал крупнейшей в стране системой, ориентированной на развлечения и широкую аудиторию пользователей. Данный файл разделён на две части. Первая — как получить собственный идентификатор CIS и как продлить его срок действия на относительно долгое время. Некоторым из вас эта часть может показаться давно знакомой. Вторая часть — информация о том, что делать, уже находясь в системе: трюки и советы, которые помогут вам держаться подальше от неприятностей или, наоборот, их создавать.</p>
 <empty-line/>
-<subtitle>Идентификационный номер CompuServe</subtitle>
+<section id="toc_sub_000034"><title><p>Идентификационный номер CompuServe</p></title>
 <empty-line/>
 <p>Идентификационный номер CompuServe состоит из двух частей: номера проекта и номера программиста. Пример: <code>70007,1460</code>. Именно этот идентификатор будет вас представлять в системе в любое время. При входе в систему помимо идентификатора вам также будет предложено ввести пароль. Пароль состоит из двух слов, разделённых разделителем (<code>-</code>, <code>:</code>, <code>.</code> и т.д.). Пароль может представлять собой любые два слова на усмотрение пользователя, включая случайный набор символов, что делает подбор идентификатора путём взлома пароля практически, если не полностью, невозможным.</p>
 <empty-line/>
@@ -482,11 +514,13 @@
 <empty-line/>
 <p>На первый пароль наложены определённые ограничения. Из-за того, что хакеры используют снапаки, CompuServe установила систему, которая запрещает идентификаторам без второго пароля входить в любые онлайн-игры. Это касается всего диапазона — от популярного MegaWars до YGI и вплоть до Casino. Именно поэтому второй пароль так важен.</p>
 <empty-line/>
-<subtitle>Совместное использование аккаунта</subtitle>
+</section>
+<section id="toc_sub_000035"><title><p>Совместное использование аккаунта</p></title>
 <empty-line/>
 <p>Если аккаунтом пользуется более одного человека, что, как правило, и происходит, следует учитывать ряд ограничений. Один и тот же идентификатор больше не может входить в симулятор CB более одного раза. При попытке появится сообщение «exceeding job limit» («превышение лимита задач»), и вы вернётесь в предыдущее меню. По одному идентификатору можно одновременно зайти в SIG, однако оба пользователя не могут одновременно войти в режим Conference внутри SIG. Лучший способ общения между двумя пользователями на одном идентификаторе — зайти в любой форум, например CBMART, и одному из них войти в режим Conference. Там двое пользователей могут использовать команду <code>/SEN</code> для обмена сообщениями между SIG и Conference. Это несколько запутанно, но другого способа нет. Кроме того, каждый раз, когда на вашем экране появляется сообщение «exceeding job limit», сотрудники CIS ставят небольшую «красную отметку» рядом с вашим именем. Если это происходит слишком часто, они начинают выяснять, не пользуется ли несколько человек одним и тем же идентификатором.</p>
 <empty-line/>
-<subtitle>Специальные идентификаторы</subtitle>
+</section>
+<section id="toc_sub_000036"><title><p>Специальные идентификаторы</p></title>
 <empty-line/>
 <p>Итак, вы вошли в CompuServe — на что следует обращать внимание? Как уже упоминалось, идентификатор пользователя состоит из формата <code>[номер проекта, номер программиста]</code>. Номер программиста особого значения не имеет, а вот номер проекта — важен. Ниже перечислены некоторые из них, о которых стоит знать, находясь онлайн:</p>
 <empty-line/>
@@ -494,11 +528,13 @@
 <empty-line/>
 <p>Находясь в CB, остерегайтесь идентификаторов <code>70000</code>, и особенно <code>70006</code>, или номеров «Wizard». У идентификаторов Wizard есть особые функции. Главная из них называется autogag, или <code>/GAG</code>. Она позволяет обладателю такого идентификатора в некотором роде выдворять любого пользователя из системы. Фактически это делает «заглушённого» (<code>/GAG</code>-нутого) пользователя невидимым для всех: он не будет отображаться в списке <code>/UST</code>, и всё, что он печатает, не будет видно на экране других пользователей. Что-то вроде кнопки отключения звука на телевизоре. Главой службы безопасности CIS является Dan Pisker, который в CB использует псевдонимы «Dan'l» или «Ghost» с идентификатором <code>70000</code>.</p>
 <empty-line/>
-<subtitle>Мониторинг</subtitle>
+</section>
+<section id="toc_sub_000037"><title><p>Мониторинг</p></title>
 <empty-line/>
 <p>Это весьма популярная тема среди пользователей CompuServe, однако если разобраться, всё достаточно просто. CIS способна отслеживать ВСЕГО, что говорится в системе. Однако это не означает, что они так и делают. Для мониторинга <code>/TALK</code> в форуме или в CB CIS сначала необходимо получить постановление суда — это якобы столь же незаконно, как и прослушивание телефонной линии. Тем не менее это уже происходило — для поимки крупных хакеров в системе. Команда <code>/SEN</code> в SIG предположительно также не поддаётся мониторингу — её статус аналогичен статусу <code>/TALK</code>. Режим <code>/SCR</code> в CB или в SIG однозначно поддаётся мониторингу, особенно если ключ <code>/SCR</code> введён на открытом канале. Старайтесь свести разговоры в <code>/SCR</code> к минимуму. Что касается всего остального — всё сказанное на открытом канале вполне определённо видит КТО-ТО в большом кресле в Огайо. Меня ничуть не удивило бы, если они нанимают людей для ежедневного просмотра стенограмм CB в поисках такого рода материала. Кроме того, находясь в режиме Conference в SIG, всегда проверяйте статус канала командой <code>/STA</code>. Если <code>/STA</code> когда-либо вернёт, что на канале больше людей, чем показывает функция <code>/USERS</code>, можете быть уверены — канал прослушивается.</p>
 <empty-line/>
-<subtitle>Узлы (Nodes)</subtitle>
+</section>
+<section id="toc_sub_000038"><title><p>Узлы (Nodes)</p></title>
 <empty-line/>
 <p>При входе в систему через CIS вы подключаетесь через узел. Узел обозначается тремя буквами, указывающими на местонахождение компьютера, через который вы подключаетесь к CompuServe. Пример: «NYJ» (Нью-Йорк). Однако существуют особые узлы, о которых стоит знать.</p>
 <empty-line/>
@@ -518,11 +554,12 @@
 <empty-line/>
 <p>(c) 1986 Morgoth/Lotus</p>
 </section>
+</section>
 <section id="sec_issue_008_007_fun_with_automatic_tellers">
 <title><p>Развлечения с банкоматами</p></title>
 <p><strong>Автор:</strong> +++The Mentor+++</p>
 <empty-line/>
-<subtitle>Предисловие</subtitle>
+<section id="toc_sub_000039"><title><p>Предисловие</p></title>
 <empty-line/>
 <p>Это не самая простая афера в исполнении, поскольку требует либо продвинутых хакерских навыков (TRW или банки), либо серьёзной смелости (рыться в мусоре частного лица или просто взломать помещение) — однако она вполне может окупиться суммой в $500 (пятьсот долларов) в день.</p>
 <empty-line/>
@@ -530,7 +567,8 @@
 <empty-line/>
 <p>Всё это выросло из идеи, которую Poltergeist высказал примерно год назад, ещё до того, как стал осведомителем против Extasyy. Cisban Evil Priest (Android Pope) и я сам успешно воплощали её в жизнь, пока нас не арестовали и не определили на службу государству. Риск есть, но не больше, чем в некоторых более изощрённых кардинг-схемах, гуляющих в сети.</p>
 <empty-line/>
-<subtitle>Шаг первый: выбор жертвы</subtitle>
+</section>
+<section id="toc_sub_000040"><title><p>Шаг первый: выбор жертвы</p></title>
 <empty-line/>
 <p>Первый шаг — определить цель. Тип человека, который вам нужен, — богатый. Очень богатый.</p>
 <empty-line/>
@@ -538,11 +576,13 @@
 <empty-line/>
 <p>Вместо этого ищите кого-то, кто, например, владеет сетью магазинов корма для свиней или чем-то столь же неприметным. Мы нацелились на джентльмена, весьма активного на рынке серебра: он владеет несколькими шахтами в Южной Африке и не хочет, чтобы это стало широко известным (пикеты его не прельщали).</p>
 <empty-line/>
-<subtitle>Шаг второй: абонентский ящик</subtitle>
+</section>
+<section id="toc_sub_000041"><title><p>Шаг второй: абонентский ящик</p></title>
 <empty-line/>
 <p>Следующий шаг — арендовать абонентский ящик (P.O. box) на имя этого человека. Extasyy написал неплохой файл о том, как получить ящик на вымышленное имя — не знаю, сохранился ли он. Если нет, в сети есть несколько других. (Да, я знаю: слабодушные уже отсеялись. Тот, кто дошёл до этого места без паники, скорее всего, сойдёт с рук.)</p>
 <empty-line/>
-<subtitle>Шаг третий: разведка банковских данных</subtitle>
+</section>
+<section id="toc_sub_000042"><title><p>Шаг третий: разведка банковских данных</p></title>
 <empty-line/>
 <p>Теперь начинается самое интересное — для этого потребуется разведка. Вам нужны довольно серьёзные сведения о банковских делах этого человека.</p>
 <empty-line/>
@@ -552,7 +592,8 @@
 <empty-line/>
 <p><strong>2a)</strong> [необязательно] По возможности выясните, есть ли у него банкоматная карта (ATM-карта). Знать номера или что-то подобное не нужно — достаточно просто знать, существует ли карта. Это тоже можно выяснить по телефону при должном умении убеждать.</p>
 <empty-line/>
-<subtitle>Шаг четвёртый: действие</subtitle>
+</section>
+<section id="toc_sub_000043"><title><p>Шаг четвёртый: действие</p></title>
 <empty-line/>
 <p><strong>3)</strong> Вооружившись этой информацией, переходите к действиям.</p>
 <empty-line/>
@@ -570,7 +611,8 @@
 <empty-line/>
 <p><strong>g)</strong> Начните снимать максимально допустимую дневную сумму (в большинстве случаев $500 в день), каждый раз используя другой банкомат. Поскольку на многих из них установлены камеры — надевайте шляпу и куртку, или лыжную маску, если хотите быть совсем осторожным. Чтобы вдвое сократить количество поездок, подходите к банкомату за несколько минут до полуночи: снимите $500 незадолго до полуночи и ещё $500 сразу после. Это уменьшает число поездок, однако полиция или сотрудники банка могут заметить закономерность и начать следить за банкоматами около полуночи. Действуйте по своему усмотрению.</p>
 <empty-line/>
-<subtitle>Заключение</subtitle>
+</section>
+<section id="toc_sub_000044"><title><p>Заключение</p></title>
 <empty-line/>
 <p>Перед использованием карты убедитесь, что с неё стёрты все отпечатки пальцев. Как правило, первым признаком того, что вас раскрыли, станет то, что банкомат заберёт карту. Также избегайте использовать банкоматы в собственном городе, если только это не крупный город (Чикаго, Милуоки, Даллас и т. д.).</p>
 <empty-line/>
@@ -580,13 +622,15 @@
 <empty-line/>
 <p>+++The Mentor+++ 20 июня</p>
 </section>
+</section>
 <section id="sec_issue_008_008_phrack_world_news_vii_part_1">
 <title><p>Phrack World News</p></title>
-<subtitle>Выпуск седьмой, часть первая</subtitle>
+<section id="toc_sub_000045"><title><p>Выпуск седьмой, часть первая</p></title>
 <empty-line/>
 <p><strong>Составил и написал:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>На домашнем фронте</subtitle>
+</section>
+<section id="toc_sub_000046"><title><p>На домашнем фронте</p></title>
 <empty-line/>
 <p>Ну что ж, за последние несколько недель здесь произошло много всякого. Для начала мне позвонил Ральф Меола. Видимо, кто-то оставил его секретарше сообщение, будто я звонил. До этого человек по имени Стив тоже оставил сообщение, и Ральф решил, что это был Slave Driver. Сначала он позвонил Стиву, главным образом чтобы обсудить письмо, отправленное ему через PWN, выпуск V. В конце концов он добрался и до звонка мне. Сказано было не слишком много, но он хотел прояснить некоторые заблуждения по поводу его столкновения с Sigmund Fraud. Меола утверждает, что он никогда не угрожал Sigmund Fraud, требуя получить его учетную запись на Stronghold East. Более того, он говорит, что звонил ему только потому, что SF разместил несколько телефонных карт AT&amp;T на неназванной BBS западного побережья. Публично Sigmund Fraud по-прежнему утверждает, что его первоначальные слова были правдой, но в частном порядке признал, что лгал.</p>
 <empty-line/>
@@ -596,7 +640,8 @@
 <empty-line/>
 <p>Metal Shop AE пока не работает, потому что Cheap Shades уехал в колледж, но с тех пор он запустил новую систему, известную как Quick Shop. Все бывшие участники MS AE были внесены в журнал BBS QS. Metal Shop Brewery потеряла модем, а ее жесткий диск сгорел, так что на некоторое время она исчезнет.</p>
 <empty-line/>
-<subtitle>От сотрудников TeleComputist</subtitle>
+</section>
+<section id="toc_sub_000047"><title><p>От сотрудников TeleComputist</p></title>
 <empty-line/>
 <p>Мы приносим извинения за неоригинальность бесплатного выпуска. Бесплатный выпуск был сделан с намерением завоевать доверие публики, и, поступая так, мы не позаботились о том, чтобы подготовить полностью оригинальный материал. Однако будущие выпуски будут намного короче и будут содержать только оригинальную информацию от самих редакторов.</p>
 <empty-line/>
@@ -606,7 +651,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_008_008_phrack_world_news_vii_part_1_0027_23391e5c5e.png"/>
 <empty-line/>
-<subtitle>Аресты в Бостоне</subtitle>
+</section>
+<section id="toc_sub_000048"><title><p>Аресты в Бостоне</p></title>
 <empty-line/>
 <p><strong>9 августа 1986 года</strong></p>
 <empty-line/>
@@ -626,7 +672,8 @@
 <empty-line/>
 <p>Ниже приводится интерпретация тех же событий, описанная <code>Concord Journal</code>. Настоящие имена вовлеченных фрикеров были скрыты.</p>
 <empty-line/>
-<subtitle>Обвинение в краже компьютера</subtitle>
+</section>
+<section id="toc_sub_000049"><title><p>Обвинение в краже компьютера</p></title>
 <empty-line/>
 <p>Восемнадцатилетнему жителю Конкорда 5 августа 1986 года было предъявлено обвинение в краже компьютера стоимостью 3300 долларов, PDP-11/23 с программным обеспечением Venix, из Гарвардского университета, а также переносной стереосистемы из неизвестного магазина. По словам полиции, для оплаты этих предметов он использовал чеки, о которых, как утверждается, знал, что они поддельные.</p>
 <empty-line/>
@@ -640,7 +687,8 @@
 <empty-line/>
 <p><strong>Информация предоставлена The Clashmaster</strong></p>
 <empty-line/>
-<subtitle>Портрет типичного компьютерного преступника</subtitle>
+</section>
+<section id="toc_sub_000050"><title><p>Портрет типичного компьютерного преступника</p></title>
 <empty-line/>
 <p><strong>11 августа 1986 года</strong></p>
 <empty-line/>
@@ -656,7 +704,8 @@
 <empty-line/>
 <p>За эти преступления четыре пятых пойманных должны были заплатить штраф, выполнять общественные работы или и то и другое, либо отбыть менее шести месяцев в тюрьме. Почти в одной пятой случаев единственным наказанием преступника было возмещение ущерба.</p>
 <empty-line/>
-<subtitle>Несколько замечаний от Sally Ride:::Space Cadet</subtitle>
+</section>
+<section id="toc_sub_000051"><title><p>Несколько замечаний от Sally Ride:::Space Cadet</p></title>
 <empty-line/>
 <p>Меня это бесит! Как они смеют предполагать, что мы не гениальные компьютерные программисты! О, подождите, я знаю, почему они испортили статистику. Они не поймали гениев, поэтому мы искажаем статистический перекос, потому что все еще свободны.</p>
 <empty-line/>
@@ -664,7 +713,8 @@
 <empty-line/>
 <p><strong>Информация предоставлена Sally Ride:::Space Cadet</strong></p>
 <empty-line/>
-<subtitle>Дэн Паскуале: все еще враждебен или уже древняя история?</subtitle>
+</section>
+<section id="toc_sub_000052"><title><p>Дэн Паскуале: все еще враждебен или уже древняя история?</p></title>
 <empty-line/>
 <p><strong>8 сентября 1986 года</strong></p>
 <empty-line/>
@@ -682,7 +732,8 @@
 <empty-line/>
 <p>За дополнительной информацией о Дэне Паскуале и Phoenix Phortress обращайтесь к прошлым выпускам Phrack World News.</p>
 <empty-line/>
-<subtitle>Zigmond разоблачен</subtitle>
+</section>
+<section id="toc_sub_000053"><title><p>Zigmond разоблачен</p></title>
 <empty-line/>
 <p><strong>1 сентября 1986 года</strong></p>
 <empty-line/>
@@ -700,7 +751,8 @@
 <empty-line/>
 <p><strong>Информация предоставлена и исследована Lucifer 666</strong></p>
 <empty-line/>
-<subtitle>Maxfield наносит новый удар</subtitle>
+</section>
+<section id="toc_sub_000054"><title><p>Maxfield наносит новый удар</p></title>
 <empty-line/>
 <p><strong>20 августа 1986 года</strong></p>
 <empty-line/>
@@ -712,7 +764,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_008_008_phrack_world_news_vii_part_1_0137_42e79b150e.png"/>
 <empty-line/>
-<subtitle>Сообщение 41</subtitle>
+</section>
+<section id="toc_sub_000055"><title><p>Сообщение 41</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_008_008_phrack_world_news_vii_part_1_0150_1f7f1c1650.png"/>
 <empty-line/>
@@ -730,7 +783,8 @@
 <empty-line/>
 <p>Майк Вендленд The I-Team WDIV, Detroit, MI.</p>
 <empty-line/>
-<subtitle>Сообщение 42</subtitle>
+</section>
+<section id="toc_sub_000056"><title><p>Сообщение 42</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_008_008_phrack_world_news_vii_part_1_0177_b40ff84c6b.png"/>
 <empty-line/>
@@ -738,7 +792,8 @@
 <empty-line/>
 <p>The Reaper, он же Cable Pair.</p>
 <empty-line/>
-<subtitle>Сообщение 43</subtitle>
+</section>
+<section id="toc_sub_000057"><title><p>Сообщение 43</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_008_008_phrack_world_news_vii_part_1_0192_af0de1ffe8.png"/>
 <empty-line/>
@@ -754,7 +809,8 @@
 <empty-line/>
 <p>По словам John F. Maxfield, единственная причина, по которой была создана эта подставная доска, - показать, “что сейчас происходит во фрикерско-хакерском сообществе”. Он сказал, что никаких юридических действий предпринято не будет, и, кроме того, это раздуло его “досье” на многих людей.</p>
 <empty-line/>
-<subtitle>Короткие заметки PWN</subtitle>
+</section>
+<section id="toc_sub_000058"><title><p>Короткие заметки PWN</p></title>
 <empty-line/>
 <p>В NPA 514, Канада, есть доска объявлений Alpha Center, которую ведет парень по имени Майк Холмс. Он пишет книгу о личностях фрикеров и хакеров. Майк будет спрашивать ваше настоящее имя, адрес, номер телефона и другие вещи, но это не является полностью обязательным. Доска работает только на 300 бод.</p>
 <empty-line/>
@@ -818,13 +874,15 @@
 <empty-line/>
 <p><strong>KL</strong></p>
 </section>
+</section>
 <section id="sec_issue_008_009_phrack_world_news_vii_part_2">
 <title><p>Phrack World News</p></title>
-<subtitle>Выпуск седьмой, часть вторая</subtitle>
+<section id="toc_sub_000059"><title><p>Выпуск седьмой, часть вторая</p></title>
 <empty-line/>
 <p><strong>Составил и написал:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>P-80: подставная доска?</subtitle>
+</section>
+<section id="toc_sub_000060"><title><p>P-80: подставная доска?</p></title>
 <empty-line/>
 <p><strong>28 августа 1986 года</strong></p>
 <empty-line/>
@@ -1046,7 +1104,8 @@
 <empty-line/>
 <p>Последние слова Scan Man содержали угрозу: если это повлияет на его домашнюю жизнь, он лично выследит авторов и участников и застрелит их из своей винтовки.</p>
 <empty-line/>
-<subtitle>Заметки от KL</subtitle>
+</section>
+<section id="toc_sub_000061"><title><p>Заметки от KL</p></title>
 <empty-line/>
 <p>Одна вещь, которую я должен упомянуть, - тот факт, что Pirate-80 никогда не была арестована или расследована. Я имею в виду, что попасть туда не так уж трудно, и коды развешаны повсюду, куда ни посмотри. Сколько досок вы знаете, которые были арестованы за наличие кодов? Один пример связан с номерами кредитных карт, принадлежавшими Richard Sandza, автору “The Night Of The Hackers” и “The Revenge Of The Hackers”, обе статьи были напечатаны в журнале <code>Newsweek</code>.</p>
 <empty-line/>
@@ -1069,6 +1128,7 @@
 <p>И другими анонимными источниками.</p>
 <empty-line/>
 <p>P.S. Для тех, кому интересно: это расследование было начато после перехвата служебной записки от Larry Algard, Pacific Northwest Bell, его начальнику George Reay. Что было в записке? Несколько вещей, но главным образом она говорила о январской конференции CFCA, Communications Fraud Control Association, в Майами, Флорида, где Larry встретил некоего Scott Higgonbotham, директора по безопасности TMC, Tele-Marketing Company, который рассказал ему, что управляет “подставной” доской объявлений под названием Pirate 80 в Западной Вирджинии.</p>
+</section>
 </section>
 </section>
 </body>

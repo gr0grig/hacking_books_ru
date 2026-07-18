@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0"
-             xmlns:l="http://www.w3.org/1999/xlink">
+<?xml version='1.0' encoding='UTF-8'?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
 <description>
   <title-info>
     <genre>computers</genre>
@@ -40,7 +39,7 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_002_001_phrack_index_0025_303d9c0310.png"/>
 <empty-line/>
-<subtitle>Содержание выпуска</subtitle>
+<section id="toc_sub_000001"><title><p>Содержание выпуска</p></title>
 <empty-line/>
 <p>В этот выпуск Phrack Inc. входят следующие файлы:</p>
 <empty-line/>
@@ -53,6 +52,7 @@
 <p>7. MCI Overview — Knight Lightning</p>
 <p>8. Hacking RSTS — Data Line</p>
 <p>9. Phreak World News — Knight Lightning</p>
+</section>
 </section>
 <section id="sec_issue_002_002_prevention_of_the_billing_office_blues">
 <title><p>Как избежать проблем с биллинговым офисом</p></title>
@@ -83,7 +83,7 @@
 <empty-line/>
 <p><strong>Автор:</strong> Man-Tooth</p>
 <empty-line/>
-<subtitle>Трубочные, или «зип»-пистолеты</subtitle>
+<section id="toc_sub_000002"><title><p>Трубочные, или «зип»-пистолеты</p></title>
 <empty-line/>
 <p>Широко известные под названием «зип»-пистолеты, самоделки из трубок используются малолетними хулиганами уже многие годы. Современные боевики делают их просто ради интереса или чтобы выстрелить один раз при покушении или в ходе беспорядков, а затем выбросить при угрозе поимки.</p>
 <empty-line/>
@@ -117,13 +117,14 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_002_003_homemade_guns_pipe_zip_guns_0054_d83bbd61c4.png"/>
 </section>
+</section>
 <section id="sec_issue_002_004_how_to_make_blow_darts">
 <title><p>Как сделать духовые дротики</p></title>
 <p><strong>Автор:</strong> The Pyro</p>
 <empty-line/>
 <p>Духовые дротики легко изготовить, и все необходимые материалы можно найти у вас дома. При правильной конструкции такие дротики летят на большое расстояние и обладают хорошей проникающей способностью.</p>
 <empty-line/>
-<subtitle>Необходимые материалы</subtitle>
+<section id="toc_sub_000003"><title><p>Необходимые материалы</p></title>
 <empty-line/>
 <p>• Небольшой кусок дерева</p>
 <p>• Игла для швейной машины</p>
@@ -133,13 +134,15 @@
 <p>• Клей</p>
 <p>• Ножницы</p>
 <empty-line/>
-<subtitle>Изготовление</subtitle>
+</section>
+<section id="toc_sub_000004"><title><p>Изготовление</p></title>
 <empty-line/>
 <p>Вбейте два гвоздя в доску примерно на расстоянии двух дюймов друг от друга. Туго намотайте нитку вокруг обоих гвоздей. Количество витков нитки определяет вес и устойчивость дротика. Когда решите, что витков достаточно, обрежьте нитку у гвоздя примерно на расстоянии полудюйма. Возьмите этот небольшой пучок нитки и нанесите каплю клея на сложенный конец. Вид клея очень важен. Рекомендую использовать густой клей (ничего жидкого, вроде клея Elmer's). Прикрепите пучок к игле и держите до полного высыхания.</p>
 <empty-line/>
 <p>Другой вид дротика можно сделать из ватных палочек. Такой дротик работает хуже первого, но иногда его проще сделать. Для начала вам понадобятся ватные палочки с пластиковым стержнем. Обрежьте палочку близко к одному концу. Вставьте швейную иглу в ватную палочку и зафиксируйте её, слегка оплавив пластик зажигалкой. Такой дротик недолговечен, так как вата легко слезает.</p>
 <empty-line/>
-<subtitle>Духовые трубки</subtitle>
+</section>
+<section id="toc_sub_000005"><title><p>Духовые трубки</p></title>
 <empty-line/>
 <p>Обычные соломинки для коктейлей отлично подходят в качестве духовой трубки для таких дротиков. Другой вариант можно сделать из дешёвой шариковой ручки, разобрав её и использовав корпус. Подойдёт любой длинный цилиндрический предмет диаметром с соломинку.</p>
 <empty-line/>
@@ -152,6 +155,7 @@
 <p>(&gt; ========================================================================= Received: (from UNKNOWN@HACKERVILLE for HATCHET@VALHALLA via XTC) (UNKNOWN-0481; 185 LINES); Tun, 07 Oct 88 21:12:54 CDT Date: Tun, 07 Oct 88 21:12 CDT To: HATCHET From: UNKNOWN@HACKERVILLE</p>
 <empty-line/>
 <p>Comment: converted from FBICIADATA format at 666</p>
+</section>
 </section>
 <section id="sec_issue_002_005_tac_dialups_taken_from_arpanet">
 <title><p>TAC Dialups, взятые из ARPANET</p></title>
@@ -188,7 +192,7 @@
 <title><p>К универсальным информационным сервисам через ISDN</p></title>
 <p><strong>Автор:</strong> Taran King <strong>Источник:</strong> информационный бюллетень PROTO, AT&amp;T Bell Laboratories</p>
 <empty-line/>
-<subtitle>Фаза первая: настоящее</subtitle>
+<section id="toc_sub_000006"><title><p>Фаза первая: настоящее</p></title>
 <empty-line/>
 <p>Сегодняшняя локальная сеть, хотя она всё ещё в значительной степени ориентирована на голосовую связь, уже находится на пути к универсальным информационным сервисам. Оптоволоконные lightguide-линии резко расширяют ёмкость локальных сетей, помогая снижать стоимость и повышать спрос на высокополосные сервисы эпохи информации. Кроме того, публичные сети становятся всё более цифровыми и всё лучше приспособленными для передачи данных и специальных сервисов.</p>
 <empty-line/>
@@ -206,7 +210,8 @@
 <empty-line/>
 <cite><p>«Наложенные сети помогают телекоммуникационным компаниям эффективно удовлетворять растущий спрос на цифровую передачу и специальные сервисы», — говорит Stan Johnston, менеджер по рыночному планированию направления Network Systems Evolution в AT&amp;T Network Systems. — «Однако их интеграция в единую сеть была бы ещё эффективнее».</p></cite>
 <empty-line/>
-<subtitle>Фаза вторая: Integrated Services Digital Network (ISDN)</subtitle>
+</section>
+<section id="toc_sub_000007"><title><p>Фаза вторая: Integrated Services Digital Network (ISDN)</p></title>
 <empty-line/>
 <p>ISDN — это концепция, которой AT&amp;T привержена, и это основа универсальных информационных сервисов.</p>
 <empty-line/>
@@ -222,13 +227,15 @@
 <empty-line/>
 <p>Предоставляя интегрированный цифровой доступ к сетям, ISDN сделает важный шаг к цели универсальных информационных сервисов. Однако наложенные сети продолжат делить между собой задачу транспорта. А сообщениям, которым нужно меньше 144 000 бит в секунду, не потребуется вся выделенная им полоса, поэтому часть ёмкости останется недоиспользованной.</p>
 <empty-line/>
-<subtitle>Фаза третья: универсальные информационные сервисы</subtitle>
+</section>
+<section id="toc_sub_000008"><title><p>Фаза третья: универсальные информационные сервисы</p></title>
 <empty-line/>
 <p>Укоренённые в плодородной почве коммутаторов 5ESS, ISDN-оборудования и технологий вроде широкополосного пакетного транспорта, универсальные информационные сервисы принесут плоды в 1990-е годы.</p>
 <empty-line/>
 <p>На одном типе сети будут висеть сервисы, отличающиеся друг от друга так же, как яблоки, апельсины и груши. Подобно тому как в ISDN был интегрирован доступ к сети, транспортные функции будут всё больше интегрироваться мощным новым сетевым оборудованием, развившимся из оборудования, созданного для ISDN.</p>
 <empty-line/>
 <p>Там, где раньше клиенты получали ISDN-каналы стандартного размера, они будут получать большую полосу для больших задач и маленькую полосу для маленьких задач.</p>
+</section>
 </section>
 <section id="sec_issue_002_007_mci_overview">
 <title><p>Обзор MCI</p></title>
@@ -243,7 +250,7 @@
 <p>• MCI International</p>
 <p>• MCI Digital Information Services</p>
 <empty-line/>
-<subtitle>MCI Telecommunications</subtitle>
+<section id="toc_sub_000009"><title><p>MCI Telecommunications</p></title>
 <empty-line/>
 <p>MCI Telecommunications предоставляет внутреннюю межштатную дальнюю связь во всех 50 штатах, а также в Пуэрто-Рико, на Виргинских островах США и в основных зонах вызова Канады. Также компания уполномочена предоставлять различные уровни внутристатной дальней связи в некоторых штатах.</p>
 <empty-line/>
@@ -251,47 +258,58 @@
 <empty-line/>
 <p>Совокупные капитальные вложения в сеть дальней связи MCI составляют примерно 2 миллиарда долларов. Сеть MCI, вторая по размеру в США, использует microwave, оптоволокно, спутниковые и различные цифровые технологии передачи.</p>
 <empty-line/>
-<subtitle>Абоненты внутренней дальней связи, на 10/84</subtitle>
+</section>
+<section id="toc_sub_000010"><title><p>Абоненты внутренней дальней связи, на 10/84</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_002_007_mci_overview_0028_d1540f33f2.png"/>
 <empty-line/>
-<subtitle>Операционные показатели, на 10/84</subtitle>
+</section>
+<section id="toc_sub_000011"><title><p>Операционные показатели, на 10/84</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_002_007_mci_overview_0038_684ba4b9b3.png"/>
 <empty-line/>
-<subtitle>MCI Airsignal</subtitle>
+</section>
+<section id="toc_sub_000012"><title><p>MCI Airsignal</p></title>
 <empty-line/>
 <p>MCI Airsignal предоставляет сервисы персональной доставки сообщений и автомобильной телефонной связи. MCI Message Service предлагается более чем в 50 городских агломерациях. В 1984 году сервис должен начаться в Нью-Йорке, Baltimore-Washington, Лос-Анджелесе и Чикаго. Автомобильная телефонная связь MCI предлагается на 20 рынках.</p>
 <empty-line/>
-<subtitle>Сервис персональной доставки сообщений</subtitle>
+</section>
+<section id="toc_sub_000013"><title><p>Сервис персональной доставки сообщений</p></title>
 <empty-line/>
-<subtitle>Alphanumeric Message Service</subtitle>
+</section>
+<section id="toc_sub_000014"><title><p>Alphanumeric Message Service</p></title>
 <empty-line/>
 <p>Показывает сообщение длиной до 40 символов, используя буквы и/или цифры. Имеет память и возможность повторного вызова сообщения. Оповещает абонента беззвучным визуальным сигналом или мягким тоном.</p>
 <empty-line/>
-<subtitle>Display Message Service</subtitle>
+</section>
+<section id="toc_sub_000015"><title><p>Display Message Service</p></title>
 <empty-line/>
 <p>Показывает сообщение длиной до 24 цифр, например телефонный номер, биржевые котировки, показатели продаж или кодированные сообщения. Имеет память и возможность повторного вызова. Оповещает клиента о сообщении беззвучным визуальным сигналом или мягким тоном.</p>
 <empty-line/>
-<subtitle>Tone Message Service</subtitle>
+</section>
+<section id="toc_sub_000016"><title><p>Tone Message Service</p></title>
 <empty-line/>
 <p>Уведомляет клиента о сообщении мягким тоном.</p>
 <empty-line/>
-<subtitle>Voice Message Service</subtitle>
+</section>
+<section id="toc_sub_000017"><title><p>Voice Message Service</p></title>
 <empty-line/>
 <p>Принимает сообщение настоящим голосом звонящего.</p>
 <empty-line/>
-<subtitle>Express Message Service</subtitle>
+</section>
+<section id="toc_sub_000018"><title><p>Express Message Service</p></title>
 <empty-line/>
 <p>Принимает и хранит сообщения. Мгновенно оповещает абонента через pager, когда сообщение получено.</p>
 <empty-line/>
-<subtitle>Автомобильная телефонная связь</subtitle>
+</section>
+<section id="toc_sub_000019"><title><p>Автомобильная телефонная связь</p></title>
 <empty-line/>
 <p>Этот сервис позволяет клиентам совершать звонки или принимать звонки из любой точки мира, 24 часа в сутки, пока они едут в автомобиле. С появлением новой cellular technology и качество, и доступность автомобильной телефонной связи должны значительно улучшиться.</p>
 <empty-line/>
 <p>MCI уже получила франшизы на эксплуатацию нового вида мобильной телефонной связи, cellular telephone, в Миннеаполисе и Питтсбурге, а также получила благоприятные решения от судей административного права FCC, разрешающие сервис в Los Angeles, Denver-Boulder и Kansas City. MCI подала заявки на лицензии для предоставления cellular service в 81 городской агломерации.</p>
 <empty-line/>
-<subtitle>Филиалы продаж MCI Airsignal</subtitle>
+</section>
+<section id="toc_sub_000020"><title><p>Филиалы продаж MCI Airsignal</p></title>
 <empty-line/>
 <p>Personal Message Service / Conventional Mobile Phone Service:</p>
 <empty-line/>
@@ -301,13 +319,16 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_002_007_mci_overview_0107_bcae0cb93f.png"/>
 <empty-line/>
-<subtitle>MCI International</subtitle>
+</section>
+<section id="toc_sub_000021"><title><p>MCI International</p></title>
 <empty-line/>
 <p>MCI International предоставляет private-line voice service в несколько зарубежных стран, а также сервисы данных и сообщений, включая telex, cablegram, leased channel и packet switching communications, более чем в 200 зарубежных точек. MCI вошла в две новые области сервиса: международную телефонную связь с прямым набором и международную электронную почту с доставкой бумажных копий.</p>
 <empty-line/>
-<subtitle>International Record Services</subtitle>
+</section>
+<section id="toc_sub_000022"><title><p>International Record Services</p></title>
 <empty-line/>
-<subtitle>Telex Service</subtitle>
+</section>
+<section id="toc_sub_000023"><title><p>Telex Service</p></title>
 <empty-line/>
 <p>Telex Service, внутренний и международный, позволяет мгновенно вести двустороннюю письменную коммуникацию с другими абонентами по всему миру. Клиенты могут отправлять сообщения в любое время, даже если принимающий терминал оставлен без оператора.</p>
 <empty-line/>
@@ -315,13 +336,15 @@
 <empty-line/>
 <p>Абонентам, подключённым к собственной telex-сети MCI International, компания предлагает World Message Services — пакет коммуникационных предложений, включающий telex, cablegram и MCI Mail. Доступны различные улучшения сервиса, которые экономят время, повышают операционную эффективность и упрощают ведение записей для пользователей telex.</p>
 <empty-line/>
-<subtitle>Cablegram Service</subtitle>
+</section>
+<section id="toc_sub_000024"><title><p>Cablegram Service</p></title>
 <empty-line/>
 <p>Cablegram Service, традиционное средство международной письменной коммуникации, предлагает гибкость доставки и экономичные тарифы для более коротких сообщений. Cablegrams могут доставляться практически в любую зарубежную точку.</p>
 <empty-line/>
 <p>Абоненты с telex-терминалами или различными другими типами оборудования могут получить доступ к TELUS cablegram switch и воспользоваться такими улучшениями сервиса, как сокращённая адресация и departmental billing.</p>
 <empty-line/>
-<subtitle>Leased Channel Service</subtitle>
+</section>
+<section id="toc_sub_000025"><title><p>Leased Channel Service</p></title>
 <empty-line/>
 <p>Leased Channel Service предоставляет эксклюзивную линию между американской фирмой и её зарубежным офисом для частной связи 24 часа в сутки. Каждый leased channel MCI International настраивается под потребности конкретного клиента: teleprinter, facsimile, voice и/или data traffic.</p>
 <empty-line/>
@@ -329,43 +352,53 @@
 <empty-line/>
 <p>Voice/data leases можно сконфигурировать под широкий набор коммуникационных потребностей. Например, один канал может ночью нести data traffic от компьютера, в рабочие часы — голосовую связь, а в любое время — одновременные teleprinter messages. Каналы данных могут обслуживать требования к трафику на любой скорости от 1200 бит в секунду до 1,544 мегабита в секунду.</p>
 <empty-line/>
-<subtitle>IMPACS Service</subtitle>
+</section>
+<section id="toc_sub_000026"><title><p>IMPACS Service</p></title>
 <empty-line/>
 <p>IMPACS Service использует packet-switching technology для предоставления международной связи между терминалами данных и компьютерами. IMPACS предлагает online, real-time connections и позволяет взаимодействовать многим типам несовместимых систем. Сервис IMPACS обеспечивает практически безошибочную передачу благодаря возможностям сети по обнаружению ошибок и повторной передаче.</p>
 <empty-line/>
-<subtitle>Instalink Service</subtitle>
+</section>
+<section id="toc_sub_000027"><title><p>Instalink Service</p></title>
 <empty-line/>
 <p>Instalink Service позволяет зарубежным компаниям использовать обычное telex-оборудование для доступа к удалённым вычислительным системам и базам данных в США. Абоненты могут получать данные из computer-based information service или использовать вычислительную систему, подключающуюся к packet-switching network в США.</p>
 <empty-line/>
-<subtitle>International Facsimile Service</subtitle>
+</section>
+<section id="toc_sub_000028"><title><p>International Facsimile Service</p></title>
 <empty-line/>
 <p>International Facsimile Service позволяет абонентам быстро и эффективно отправлять копии оригинальных документов за рубеж, даже когда ни отправитель, ни получатель не имеют факсимильного оборудования или когда их оборудование несовместимо.</p>
 <empty-line/>
-<subtitle>Datel Service</subtitle>
+</section>
+<section id="toc_sub_000029"><title><p>Datel Service</p></title>
 <empty-line/>
 <p>Datel Service предоставляет автоматическую или согласованную голосом передачу данных на скоростях до 2400 бит в секунду. Через Datel можно передавать как цифровой, так и аналоговый facsimile traffic. Средства Datel подготовлены для обеспечения высококачественной передачи. Коммутационный центр MCI International позволяет взаимодействовать несовместимым терминалам.</p>
 <empty-line/>
-<subtitle>Maritime Services</subtitle>
+</section>
+<section id="toc_sub_000030"><title><p>Maritime Services</p></title>
 <empty-line/>
 <p>Maritime Services обеспечивают мгновенный высококачественный контакт между судами в море или морскими буровыми установками, а также между этими объектами и наземными абонентами по всему миру.</p>
 <empty-line/>
-<subtitle>International Voice Services</subtitle>
+</section>
+<section id="toc_sub_000031"><title><p>International Voice Services</p></title>
 <empty-line/>
-<subtitle>Private Line Service</subtitle>
+</section>
+<section id="toc_sub_000032"><title><p>Private Line Service</p></title>
 <empty-line/>
 <p>Private Line Service предоставляет быстрый и простой доступ к одному зарубежному месту по экономичному ежемесячному тарифу. Эта технически эффективная система максимизирует использование ёмкости линии, распознавая периоды простоя и назначая говорящего на путь передачи только тогда, когда путь нужен.</p>
 <empty-line/>
 <p>Пользователи могут набрать четырёхзначный extension с обычного делового телефона, чтобы выйти на ключевое зарубежное местоположение.</p>
 <empty-line/>
-<subtitle>International Mail Services</subtitle>
+</section>
+<section id="toc_sub_000033"><title><p>International Mail Services</p></title>
 <empty-line/>
 <p>Абоненты World Message Service могут получить доступ к внутренним предложениям MCI Mail по электронной почте и доставке бумажных копий. Кроме того, MCI International разрабатывает быстрые и недорогие сервисы, которые будут доставлять электронные сообщения и высококачественные печатные документы по всему миру.</p>
 <empty-line/>
-<subtitle>Customer Service</subtitle>
+</section>
+<section id="toc_sub_000034"><title><p>Customer Service</p></title>
 <empty-line/>
 <p>Customer Trouble Reporting Assistance Center в MCI International занимается обращениями клиентов, такими как вопросы обслуживания оборудования и качества сервиса. Специалисты клиентской поддержки, дежурящие 24 часа в сутки в рабочие дни, отвечают на вопросы и электронно маршрутизируют сервисные запросы техническим специалистам по всей стране.</p>
 <empty-line/>
-<subtitle>MCI Digital Information Services Corp.</subtitle>
+</section>
+<section id="toc_sub_000035"><title><p>MCI Digital Information Services Corp.</p></title>
 <empty-line/>
 <p>MCI Digital Information Services, новейшее подразделение MCI, предоставляет высокоскоростную, недорогую и чувствительную ко времени доставку сообщений — MCI Mail — либо электронно, либо в виде бумажных копий.</p>
 <empty-line/>
@@ -377,7 +410,8 @@
 <empty-line/>
 <p>Для MCI Mail нет платы за регистрацию, ежемесячных сервисных сборов или платы за connect time. MCI Mail можно использовать практически с любого персонального компьютера, word processor, электронной пишущей машинки, терминала данных, telex или другого цифрового коммуникационного устройства. Доступ к сервису выполняется через местный телефонный звонок или номер 800.</p>
 <empty-line/>
-<subtitle>MCI Mail</subtitle>
+</section>
+<section id="toc_sub_000036"><title><p>MCI Mail</p></title>
 <empty-line/>
 <p>• <strong>Instant</strong> — доставка в «электронный» почтовый ящик.</p>
 <p>• <strong>Four-hour</strong> — бумажная доставка курьером в 17 крупных городских агломераций независимо от точки отправления.</p>
@@ -389,6 +423,7 @@
 <p>Скоро ищите новые файлы про MCI на Metal Shop.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_002_007_mci_overview_0203_e34a2fd38c.png"/>
+</section>
 </section>
 <section id="sec_issue_002_008_hackers_guide_to_rsts_e_8_0">
 <title><p>Руководство хакера по RSTS-E 8.0</p></title>
@@ -462,11 +497,12 @@
 <title><p>Phreak World News</p></title>
 <p><strong>Составил:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>Spitfire Hacker покидает мир фрикинга</subtitle>
+<section id="toc_sub_000037"><title><p>Spitfire Hacker покидает мир фрикинга</p></title>
 <empty-line/>
 <p>Spitfire Hacker ушёл из phreaking world в декабре из-за отсутствия компьютера. Сейчас он работает и пытается заработать достаточно денег, чтобы получить другой компьютер. Он говорит, что планирует вернуться к ноябрю 1986 года.</p>
 <empty-line/>
-<subtitle>MCI ужесточает меры</subtitle>
+</section>
+<section id="toc_sub_000038"><title><p>MCI ужесточает меры</p></title>
 <empty-line/>
 <p>Dr. Crash был пойман за MCI scanning. В начале декабря Dr. Crash запустил scanner на MCI; MCI отследила его и сказала остановиться. К сожалению, Dr. Hack, ещё один человек из 314, позже той же ночью начал scanning того же порта.</p>
 <empty-line/>
@@ -476,19 +512,22 @@
 <empty-line/>
 <p>Также в новостях этого выпуска: Jester Sluggo попрощался со St. Louis и теперь вернулся домой, на Cross-Bar Territory.</p>
 <empty-line/>
-<subtitle>Анонс Metal Shop AE</subtitle>
+</section>
+<section id="toc_sub_000039"><title><p>Анонс Metal Shop AE</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_002_009_phreak_world_news_0023_6499c1d37b.png"/>
 <empty-line/>
 <p>Если вы хотите стать участником этой доски, свяжитесь с Cheap Shades, Knight Lightning или Taran King, чтобы получить общий пароль.</p>
 <empty-line/>
-<subtitle>Metal Shop Private</subtitle>
+</section>
+<section id="toc_sub_000040"><title><p>Metal Shop Private</p></title>
 <empty-line/>
 <p>Metal Shop теперь официально является частной BBS. 2 января Taran King и Knight Lightning удалили 241 пользователя из списка пользователей Metal Shop.</p>
 <empty-line/>
 <p>Теперь в этой системе есть общие пароли и пароли новых пользователей. Если вы хотите стать участником Metal Shop, свяжитесь с Taran King, Knight Lightning или Cheap Shades на любой BBS, где они бывают.</p>
 <empty-line/>
-<subtitle>Extasyy Elite распущена</subtitle>
+</section>
+<section id="toc_sub_000041"><title><p>Extasyy Elite распущена</p></title>
 <empty-line/>
 <p>Следующие данные не были полностью исследованы и могут считаться слухами.</p>
 <empty-line/>
@@ -504,7 +543,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_002_009_phreak_world_news_0054_1de8116afa.png"/>
 <empty-line/>
-<subtitle>Legion of Doom против Stronghold East Elite</subtitle>
+</section>
+<section id="toc_sub_000042"><title><p>Legion of Doom против Stronghold East Elite</p></title>
 <empty-line/>
 <p>Каким-то образом The Maelstrom нашёл секретную LOD VMS в 305 и решил написать о ней на Stronghold East.</p>
 <empty-line/>
@@ -516,13 +556,15 @@
 <empty-line/>
 <p>Всем читателям настоятельно рекомендуется <strong>не звонить туда</strong>, поскольку Compu-Phreak уже злится, а паролей у вас всё равно нет.</p>
 <empty-line/>
-<subtitle>Dartmouth заброшен</subtitle>
+</section>
+<section id="toc_sub_000043"><title><p>Dartmouth заброшен</p></title>
 <empty-line/>
 <p>После уничтожения пароля <code>58107s 12-27-65</code> к системе Dartmouth, похоже, она была оставлена фрикерами.</p>
 <empty-line/>
 <p>Это хорошо, потому что в основном она только создаёт неприятности. Многие пользователи в этой системе подвергаются impersonation, и постоянно запускаются ложные слухи.</p>
 <empty-line/>
 <p>Лучший способ провести конференцию — tele-conference. Начните одну сегодня.</p>
+</section>
 </section>
 </section>
 </body>

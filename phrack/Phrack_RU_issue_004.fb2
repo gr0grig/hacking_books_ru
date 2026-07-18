@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0"
-             xmlns:l="http://www.w3.org/1999/xlink">
+<?xml version='1.0' encoding='UTF-8'?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
 <description>
   <title-info>
     <genre>computers</genre>
@@ -38,7 +37,7 @@
 <empty-line/>
 <p>Crimson Death — sysop <strong>Hell Phrozen Over</strong>, частной phreak/hack bulletin board в Philadelphia, PA, код зоны 215.</p>
 <empty-line/>
-<subtitle>Личное</subtitle>
+<section id="toc_sub_000001"><title><p>Личное</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_004_001_phrack_pro_phile_i_crimson_death_0022_31f603227a.png"/>
 <empty-line/>
@@ -75,7 +74,8 @@
 <empty-line/>
 <p>Ниже приведены выдержки из его проекта <strong>Death Plan File, Inc.</strong> Надеюсь, этот phile покажется вам интересным.</p>
 <empty-line/>
-<subtitle>Интересы</subtitle>
+</section>
+<section id="toc_sub_000002"><title><p>Интересы</p></title>
 <empty-line/>
 <p>• Krista</p>
 <p>• компьютеры, особенно программирование моей BBS</p>
@@ -94,11 +94,13 @@
 <p>• parapsychology</p>
 <p>• comedy</p>
 <empty-line/>
-<subtitle>Любимые вещи Crimson Death</subtitle>
+</section>
+<section id="toc_sub_000003"><title><p>Любимые вещи Crimson Death</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_004_001_phrack_pro_phile_i_crimson_death_0093_71f041752c.png"/>
 <empty-line/>
-<subtitle>Самые памятные переживания</subtitle>
+</section>
+<section id="toc_sub_000004"><title><p>Самые памятные переживания</p></title>
 <empty-line/>
 <p>• смерть отца;</p>
 <p>• влюбиться;</p>
@@ -106,9 +108,10 @@
 <p>• заболеть лейкемией;</p>
 <p>• вырвать в бутылку Hawaiian Punch;</p>
 <p>• Tabas с одной ногой за балконом в The Palace;</p>
-<p>• когда за ним гнался 6'8&quot; homo на P-Con IV.</p>
+<p>• когда за ним гнался 6'8" homo на P-Con IV.</p>
 <empty-line/>
-<subtitle>Люди, которых стоит упомянуть</subtitle>
+</section>
+<section id="toc_sub_000005"><title><p>Люди, которых стоит упомянуть</p></title>
 <empty-line/>
 <p>• <strong>Schoolgirl</strong> — самый милый человек на Datanet. Hugs!</p>
 <p>• <strong>The Heretic</strong> — странный, но cool.</p>
@@ -120,7 +123,8 @@
 <p>• <strong>Blue Buccaneer</strong> — за всё, что он сделал, uploads, posts и так далее, и за то, что он cool guy.</p>
 <p>• <strong>Maxwell Smart &amp; The Baron</strong> — просто cool people.</p>
 <empty-line/>
-<subtitle>Люди, которым Crimson Death хотел бы кое-что сказать</subtitle>
+</section>
+<section id="toc_sub_000006"><title><p>Люди, которым Crimson Death хотел бы кое-что сказать</p></title>
 <empty-line/>
 <p><strong>Krista</strong> — человеку, которого я держу ближе всего к сердцу, кого люблю и берегу даже больше, чем самого себя; и за то, что она остаётся собой.</p>
 <empty-line/>
@@ -128,7 +132,7 @@
 <empty-line/>
 <p><strong>The Videosmith</strong> — за то, что познакомил меня с мистическим миром phreaking, был моим наставником в этом «мистическом мире», но прежде всего за то, что был другом.</p>
 <empty-line/>
-<p><strong>The Executioner</strong> — который иногда может быть эгоистичным придурком, но показал мне, что ему действительно не всё равно, на Phreak Con, когда 6'8&quot; ogre хотел мою задницу.</p>
+<p><strong>The Executioner</strong> — который иногда может быть эгоистичным придурком, но показал мне, что ему действительно не всё равно, на Phreak Con, когда 6'8" ogre хотел мою задницу.</p>
 <empty-line/>
 <p><strong>Red Devil</strong> — который терпел все мои выходки и не выбил из меня дерьмо, хотя мог. Извини за это.</p>
 <empty-line/>
@@ -136,7 +140,8 @@
 <empty-line/>
 <p><strong>Everyone Else who I didn't mention</strong> — тем, кто, как я знаю, переживает; и людям, которые терпят мои недостатки.</p>
 <empty-line/>
-<subtitle>Total losers</subtitle>
+</section>
+<section id="toc_sub_000007"><title><p>Total losers</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_004_001_phrack_pro_phile_i_crimson_death_0145_41f0d76df7.png"/>
 <empty-line/>
@@ -144,7 +149,8 @@
 <empty-line/>
 <p>Да, какое-то время я был лысым, но сейчас уже нет. Но даже если бы был, это не то, над чем стоит издеваться. Мне всё равно, кто это и что он вам сделал, потому что насмехаться над болезнью — чистый идиотизм. Никто не понимает, пока это не случится с ним или с кем-то, кого он любит.</p>
 <empty-line/>
-<subtitle>Завершение</subtitle>
+</section>
+<section id="toc_sub_000008"><title><p>Завершение</p></title>
 <empty-line/>
 <p>Надеюсь, вам понравился этот phile. Ждите новых Phrack Pro-Philes в ближайшем будущем.</p>
 <empty-line/>
@@ -159,6 +165,7 @@
 <p>Спасибо за ваше время, Robb.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_004_001_phrack_pro_phile_i_crimson_death_0169_37287abef1.png"/>
+</section>
 </section>
 <section id="sec_issue_004_002_ringback_codes_for_314_npa">
 <title><p>Ringback Codes for the 314 NPA</p></title>
@@ -198,7 +205,7 @@
 <empty-line/>
 <p>Тон 2600 Гц можно использовать для сброса удлинителя: после получения неверного кода отправьте 2600 Гц, и вы вернётесь к начальному тону (аналогично Sprint), после чего можно пробовать другие коды. Получив код в службе MAX, не давайте звонку пройти. Если вы не слышите звонка, переходящего в запись, — положите трубку и сохраните этот код для последующего использования.</p>
 <empty-line/>
-<subtitle>Примечания по MAX</subtitle>
+<section id="toc_sub_000009"><title><p>Примечания по MAX</p></title>
 <empty-line/>
 <p>• Если вы ожидаете на начальном тоне более 15 секунд, система сразу перейдёт к записи: «We have received insufficient digits to process your call. Please call customer service.»</p>
 <p>• MAX нельзя использовать для «синей коробки» (blue box), если только ваш дозвон не перестаёт возвращаться к начальному тону после отправки 2600 Гц.</p>
@@ -217,6 +224,7 @@
 <empty-line/>
 <p><emphasis>Конец файла</emphasis> 02/21/86</p>
 </section>
+</section>
 <section id="sec_issue_004_005_breaching_and_clearing_obstacles">
 <title><p>Прорыв и преодоление заграждений</p></title>
 <p><strong>Автор:</strong> Taran King Sysop of Metal Shop Private</p>
@@ -227,7 +235,7 @@
 <empty-line/>
 <p>Для тех из вас, кому интересны боевые аспекты веселья — вот небольшой файл о прорыве и преодолении заграждений. Описанные техники может использовать анархист, чтобы устроить хаос в городе, или наёмник, чтобы помочь себе в любой боевой ситуации или военно-тактической игре.</p>
 <empty-line/>
-<subtitle>ЗАВАЛ (АБАТИС)</subtitle>
+<section id="toc_sub_000010"><title><p>ЗАВАЛ (АБАТИС)</p></title>
 <empty-line/>
 <p>Завал — это заграждение, создаваемое путём спиливания деревьев так, чтобы их кроны перекрещивались и были направлены в сторону ожидаемого противника. Наиболее эффективен для остановки транспортных средств в лесу (или на улице с деревьями вдоль дороги). Деревья оставляют прикреплёнными к пням как можно выше, чтобы затруднить их удаление. Это заграждение может быть усилено минами и ловушками-сюрпризами.</p>
 <empty-line/>
@@ -241,7 +249,8 @@
 <p>2. Зачистить весь район от сил противника.</p>
 <p>3. Устранить заграждение. Мины и ловушки необходимо обнаружить; их можно обезвредить, потянув за растяжки кошками-крючьями и длинными верёвками. Используйте сапёрный инструмент или взрывчатку, чтобы отрезать деревья от пней, затем вытащите брёвна с дороги с помощью мощного автомобиля или грузовика.</p>
 <empty-line/>
-<subtitle>БРЕВЕНЧАТЫЕ СРУБЫ</subtitle>
+</section>
+<section id="toc_sub_000011"><title><p>БРЕВЕНЧАТЫЕ СРУБЫ</p></title>
 <empty-line/>
 <p>Бревенчатый сруб — заграждение, построенное из брёвен, земли и камней. Брёвна используются для создания треугольных срубов, заполненных землёй и камнями. Применяются для блокирования узких дорог и теснин.</p>
 <empty-line/>
@@ -255,11 +264,13 @@
 <p>2. Зачистить весь район от сил противника.</p>
 <p>3. Устранить заграждение. Используйте оружие прямой наводки, взрывчатку, сапёрный инструмент и технику для разрушения заграждения.</p>
 <empty-line/>
-<subtitle>ВОРОНКИ И ПРОТИВОТАНКОВЫЕ РВЫ</subtitle>
+</section>
+<section id="toc_sub_000012"><title><p>ВОРОНКИ И ПРОТИВОТАНКОВЫЕ РВЫ</p></title>
 <empty-line/>
 <p>Воронки и противотанковые рвы — ямы в дороге или на местности, вырытые (взорванные) для остановки транспортных средств. Иногда в противотанковые рвы укладывают колючую проволоку, мины и химические вещества, чтобы создать дополнительные трудности для экипажей танков. В остальном они преодолеваются путём засыпки грунтом с помощью бульдозера, вталкивающего края ямы внутрь. Для обрушения краёв также может применяться взрывчатка.</p>
 <empty-line/>
-<subtitle>ПРОВОЛОЧНЫЕ ЗАГРАЖДЕНИЯ</subtitle>
+</section>
+<section id="toc_sub_000013"><title><p>ПРОВОЛОЧНЫЕ ЗАГРАЖДЕНИЯ</p></title>
 <empty-line/>
 <p>Проволока используется для отделения пехоты от бронетехники, а также в качестве дорожных заграждений против колёсных транспортных средств.</p>
 <empty-line/>
@@ -271,9 +282,11 @@
 <p>4. Уничтожьте обозначенные мины с помощью взрывчатки или кошек-крючьев.</p>
 <p>5. Обозначьте расчищенный проход.</p>
 <empty-line/>
-<subtitle>...И ДЛЯ ТЕХ, КТО ДЕЙСТВИТЕЛЬНО СЕРЬЁЗНО НАСТРОЕН...</subtitle>
+</section>
+<section id="toc_sub_000014"><title><p>...И ДЛЯ ТЕХ, КТО ДЕЙСТВИТЕЛЬНО СЕРЬЁЗНО НАСТРОЕН...</p></title>
 <empty-line/>
-<subtitle>МИННЫЕ ПОЛЯ</subtitle>
+</section>
+<section id="toc_sub_000015"><title><p>МИННЫЕ ПОЛЯ</p></title>
 <empty-line/>
 <p>Чтобы сохранить темп наступления, группа должна быть готова к прорыву через минные поля.</p>
 <empty-line/>
@@ -289,6 +302,7 @@
 <p>Этот файл написан скорее для анархиста, чем для любителя военных игр — поскольку вторых значительно меньше. Так что не стесняйтесь использовать описанные техники для небольшого веселья, а не упрекайте меня в том, что вы никогда не играете в военные игры.</p>
 <empty-line/>
 <p>TARAN KING Sysop of Metal Shop Private</p>
+</section>
 </section>
 <section id="sec_issue_004_006_crashing_dec_10">
 <title><p>Крах DEC-10</p></title>
@@ -350,7 +364,7 @@
 <empty-line/>
 <p>Angel добавил, что в конечном счёте будет ясно установлено: преференциальное обращение с Centrex не оправдано. Если это произойдёт, клиенты Centrex, даже те, у кого есть price stability packages, могут оказаться привязанными к сервису с растущими тарифами.</p>
 <empty-line/>
-<subtitle>Trunk equivalency и спор о тарифах</subtitle>
+<section id="toc_sub_000016"><title><p>Trunk equivalency и спор о тарифах</p></title>
 <empty-line/>
 <p>Большинство федеральных вопросов, связанных с регулированием Centrex, возникло как ответ на действия штатов. Например, NATA резко возражала против trunk equivalency rates, разрешённых рядом комиссий штатов.</p>
 <empty-line/>
@@ -380,7 +394,8 @@
 <empty-line/>
 <cite><p>«Чуть меньше половины нашей общей базы в 400 000 линий перешло на контракт», — сказал Lee Armagost, division manager for tariffs and costs в Illinois Bell. — «И успех концепции продолжается».</p></cite>
 <empty-line/>
-<subtitle>Detariffing и deregulation</subtitle>
+</section>
+<section id="toc_sub_000017"><title><p>Detariffing и deregulation</p></title>
 <empty-line/>
 <p>При всём успехе BOC в получении более низких ставок Centrex некоторые компании добились ещё большего: они убедили регуляторов штатов detariff Centrex service для новых клиентов, а в одном случае полностью deregulate его.</p>
 <empty-line/>
@@ -396,7 +411,7 @@
 <empty-line/>
 <p>Далее последовали, по словам Smith, «девять месяцев интенсивной работы», в ходе которых регуляторы, представители компании и консультанты Anderson &amp; Co. разбирали процедуры отделения Centrex от rate base и создавали safeguards against cross-subsidies.</p>
 <empty-line/>
-<cite><p>«Central office — это не что-то с маленьким отсеком &quot;для service A&quot; и другим маленьким отсеком &quot;для service B&quot;», — сказал Smith об учётной проблеме.</p></cite>
+<cite><p>«Central office — это не что-то с маленьким отсеком "для service A" и другим маленьким отсеком "для service B"», — сказал Smith об учётной проблеме.</p></cite>
 <empty-line/>
 <p>NATA согласна с этим описанием. По словам юриста NATA Angel, организация утверждает, что поскольку competitive Centrex services должны работать вперемешку с regulated facilities, FCC должна остановить detariffing и deregulating сервиса или приказать изолировать его в отдельной дочерней компании вместе с другими competitive products.</p>
 <empty-line/>
@@ -410,7 +425,8 @@
 <empty-line/>
 <p>Когда соглашение Centron закончится, штат снова выйдет на рынок PBX. Сотрудник команды Anderson сказал, что staff всё ещё убеждён: он может улучшить собственную программу с собственным switch.</p>
 <empty-line/>
-<subtitle>Centrex и путь к ISDN</subtitle>
+</section>
+<section id="toc_sub_000018"><title><p>Centrex и путь к ISDN</p></title>
 <empty-line/>
 <p>В некоторых BOC когда-то feature-poor Centrex догнал PBX во многих отношениях. Там, где телефонные компании проталкивают цифровые возможности в свои сети, они также проталкивают цифровые возможности в Centrex. Pacific Bell, например, может предлагать fully digital Centrex service из многих своих metropolitan central offices.</p>
 <empty-line/>
@@ -422,7 +438,8 @@
 <empty-line/>
 <p>NATA, ведущая наступление против изменений в Centrex service, ведёт свою борьбу на четырёх фронтах в FCC.</p>
 <empty-line/>
-<subtitle>Четыре фронта NATA в FCC</subtitle>
+</section>
+<section id="toc_sub_000019"><title><p>Четыре фронта NATA в FCC</p></title>
 <empty-line/>
 <p>1. Прошлой осенью NATA попросила FCC либо остановить detariffing и deregulation Centrex штатами, либо приказать separation of commingled facilities. FCC не отреагировала на жалобу.</p>
 <empty-line/>
@@ -460,13 +477,15 @@
 <empty-line/>
 <p>Семь RBOC финансируются куда лучше, добавил он, но «они успешно рисуют себя underdogs».</p>
 <empty-line/>
-<subtitle>Примечание</subtitle>
+</section>
+<section id="toc_sub_000020"><title><p>Примечание</p></title>
 <empty-line/>
 <p>Leslie Albin — freelance writer из Chevy Chase, Maryland.</p>
 <empty-line/>
 <p>Следите за Part 1 of Centrex Renaissance: <strong>The Technology</strong>, автор John D. Bray.</p>
 <empty-line/>
-<subtitle>Послесловие Jester Sluggo</subtitle>
+</section>
+<section id="toc_sub_000021"><title><p>Послесловие Jester Sluggo</p></title>
 <empty-line/>
 <p>Текст выше был написан прежде всего для людей, занимающихся marketing telephone technologies. В интересах phreaking world я надеюсь, что вы сможете сосредоточиться на деловой стороне telecommunications, которая может быть в вашем будущем.</p>
 <empty-line/>
@@ -482,11 +501,12 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_004_007_centrex_renaissance_the_regulations_0161_e0e315e8d9.png"/>
 </section>
+</section>
 <section id="sec_issue_004_008">
 <title><p>008_</p></title>
 <image l:href="#img__code_blocks_issue_004_008__0003_5988381234.png"/>
 <empty-line/>
-<p>Также известен как: &quot;КРИСТАЛЛ&quot;, &quot;МЕТ&quot;, &quot;КРЭНК&quot;, &quot;СПИД&quot; и т.д..........</p>
+<p>Также известен как: "КРИСТАЛЛ", "МЕТ", "КРЭНК", "СПИД" и т.д..........</p>
 <empty-line/>
 <p>Написано и проверено: Левым (The Leftist).</p>
 <empty-line/>
@@ -562,13 +582,14 @@
 <title><p>Phrack World News III, часть 1</p></title>
 <p><strong>Составил:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>MCI работает с BOC</subtitle>
+<section id="toc_sub_000022"><title><p>MCI работает с BOC</p></title>
 <empty-line/>
 <p>PacBell и MCI объединили усилия, чтобы создать Security Pacific Data Transmission Corporation. Также было объявлено, что сейчас проходят полевые испытания Project Victoria: интегрированного сервиса voice-data-video для домов и малых предприятий.</p>
 <empty-line/>
 <p>BOC означает Bell Operating Company; так называли небольшие компании, сформированные после распада AT&amp;T.</p>
 <empty-line/>
-<subtitle>2600 Magazine против Computel</subtitle>
+</section>
+<section id="toc_sub_000023"><title><p>2600 Magazine против Computel</p></title>
 <empty-line/>
 <p><strong>Среда, 26 февраля 1986 года</strong></p>
 <empty-line/>
@@ -596,7 +617,8 @@
 <empty-line/>
 <p><strong>Информацию предоставил:</strong> 2600 Magazine</p>
 <empty-line/>
-<subtitle>Mister Carding арестован</subtitle>
+</section>
+<section id="toc_sub_000024"><title><p>Mister Carding арестован</p></title>
 <empty-line/>
 <p>Mister Carding впервые начал заниматься тем, от чего происходит его имя, летом 1984 года. С тех пор он накопил товаров примерно на 45 000 долларов.</p>
 <empty-line/>
@@ -630,7 +652,8 @@
 <empty-line/>
 <p><strong>Информацию предоставил:</strong> Mister Carding</p>
 <empty-line/>
-<subtitle>Boston Strangler пойман на scanning</subtitle>
+</section>
+<section id="toc_sub_000025"><title><p>Boston Strangler пойман на scanning</p></title>
 <empty-line/>
 <p>Boston Strangler был пойман на scanning. Он сканировал не extender, а prefix в своём родном городе. Телефонная компания отключила его линию, и теперь Boston Strangler, возможно, придётся идти в суд. Он утверждает, что находится под 1XB, но это сомнительно.</p>
 <empty-line/>
@@ -638,7 +661,8 @@
 <empty-line/>
 <p><strong>Информацию предоставил:</strong> taRfruS</p>
 <empty-line/>
-<subtitle>AT&amp;T судится с BOC</subtitle>
+</section>
+<section id="toc_sub_000026"><title><p>AT&amp;T судится с BOC</p></title>
 <empty-line/>
 <p>American Telephone and Telegraph, как утверждается, подаёт иск на 80 миллионов долларов против Bell Operating Companies. В январе 1986 года AT&amp;T подала жалобу в FCC, утверждая, что определённые BOC должны AT&amp;T 80 миллионов долларов, потому что не выполнили конкретные обязанности, входившие в их billing and collection contracts.</p>
 <empty-line/>
@@ -646,7 +670,8 @@
 <empty-line/>
 <p><strong>Информацию предоставил:</strong> Jester Sluggo</p>
 <empty-line/>
-<subtitle>Speed Demon Elite: вернётся ли он?</subtitle>
+</section>
+<section id="toc_sub_000027"><title><p>Speed Demon Elite: вернётся ли он?</p></title>
 <empty-line/>
 <p>Слухи правдивы: Radical Rocker действительно забыл оплатить телефонный счёт, и в результате Speed Demon Elite был отключён.</p>
 <empty-line/>
@@ -658,7 +683,8 @@
 <empty-line/>
 <p><strong>Информацию предоставил:</strong> Radical Rocker <strong>Спасибо за investigative reporting:</strong> Taran King</p>
 <empty-line/>
-<subtitle>Private Sector повреждён и возвращается</subtitle>
+</section>
+<section id="toc_sub_000028"><title><p>Private Sector повреждён и возвращается</p></title>
 <empty-line/>
 <p>Private Sector, который должен был быть возвращён к 16 февраля 1986 года, оказался повреждён в руках властей. По их словам, «одна из карт взорвалась». Они заявили, что это случилось до того, как они успели стереть два «незаконных» файла, найденных на жёстком диске. Поэтому теперь им пришлось удерживать его немного дольше.</p>
 <empty-line/>
@@ -672,7 +698,8 @@
 <empty-line/>
 <p><strong>Информацию предоставил:</strong> 2600 Magazine</p>
 <empty-line/>
-<subtitle>TelePub'86</subtitle>
+</section>
+<section id="toc_sub_000029"><title><p>TelePub'86</p></title>
 <empty-line/>
 <p>Встреча TelePub 1986 года, первоначально запланированная Sigmund Fraud, прошла на втором этаже Days Inn Hotel по адресу 440 W. 57th St., New York, NY. Предположительно это была первая встреча TelePub с 1980 года, когда такая встреча проходила в Washington DC. Некоторые называли комнату встречи «The Colosseum».</p>
 <empty-line/>
@@ -704,7 +731,8 @@
 <empty-line/>
 <p>Большая часть этой информации пришла от Slave Driver и Sigmund Fraud.</p>
 <empty-line/>
-<subtitle>Metal Shop Brewery</subtitle>
+</section>
+<section id="toc_sub_000030"><title><p>Metal Shop Brewery</p></title>
 <empty-line/>
 <p>В семье Metal Shop появился новый участник, тем самым завершив Metal Shop Triad.</p>
 <empty-line/>
@@ -732,11 +760,12 @@
 <empty-line/>
 <p>Metal Shop Brewery работает на DoubleDos и является сильным сторонником Phrack Newsletter. IBM pirates, звоните сегодня.</p>
 </section>
+</section>
 <section id="sec_issue_004_010_phreak_world_news_iii_part_2">
 <title><p>Phrack World News III, часть 2</p></title>
 <p><strong>Составил:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>Возрождение TAP</subtitle>
+<section id="toc_sub_000031"><title><p>Возрождение TAP</p></title>
 <empty-line/>
 <p>Встречи TAP в New York шли не слишком хорошо: каждую неделю приходило всё меньше людей, и посещать их становилось бессмысленно. Chesire Catalyst зарабатывает примерно 1000 долларов в месяц, не печатая TAP, и на самом деле не видит причины запускать его снова. Теперь TAP переходит к The W(hack)o Cracko Brothers, Inc.</p>
 <empty-line/>
@@ -800,7 +829,8 @@
 <empty-line/>
 <p><strong>Девиз TAP:</strong> Help US fight Your fight! - Join Tap's WAR!</p>
 <empty-line/>
-<subtitle>Отчёт о статусе Phrack/TAP</subtitle>
+</section>
+<section id="toc_sub_000032"><title><p>Отчёт о статусе Phrack/TAP</p></title>
 <empty-line/>
 <p>Независимо от ситуации с TAP, Phrack продолжит публиковаться. TWCB этим не очень доволен, но нам, честно говоря, всё равно.</p>
 <empty-line/>
@@ -808,7 +838,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_004_010_phreak_world_news_iii_part_2_0089_56d772c48a.png"/>
 <empty-line/>
-<subtitle>Monty Python уходит</subtitle>
+</section>
+<section id="toc_sub_000033"><title><p>Monty Python уходит</p></title>
 <empty-line/>
 <p>Следующее сообщение появилось на Stronghold East Elite в воскресенье, 9 февраля 1986 года, в 4:50:53 PM.</p>
 <empty-line/>
@@ -824,7 +855,8 @@
 <empty-line/>
 <p>Примечание редактора: Monty Python попросил сохранить его account на Stronghold East активным, чтобы время от времени смотреть, что нового. Также Monty Python дополнительно заявил, что может вернуться в phreak world этим летом.</p>
 <empty-line/>
-<subtitle>Конец The Sprinter</subtitle>
+</section>
+<section id="toc_sub_000034"><title><p>Конец The Sprinter</p></title>
 <empty-line/>
 <p>На первой странице выпуска Seattle P-I от среды, 12 февраля 1986 года, были заголовки: <strong>COMPUTER INVASION CHARGED</strong>. Молодого человека из Kirkland обвиняли в snooping. Среди основных моментов статьи были такие:</p>
 <empty-line/>
@@ -848,7 +880,8 @@
 <empty-line/>
 <p>Большая часть этой информации была предоставлена Sally Ride (Space Cadet), The Guardian Demon и Jester Sluggo.</p>
 <empty-line/>
-<subtitle>Несколько коротких заметок</subtitle>
+</section>
+<section id="toc_sub_000035"><title><p>Несколько коротких заметок</p></title>
 <empty-line/>
 <p>The Matrix, ранее на <code>415-922-1370</code>, не работает из-за поломки жёсткого диска. Dr. Strangelove говорит, что как только сможет достать другой жёсткий диск, Matrix вернётся.</p>
 <empty-line/>
@@ -872,11 +905,12 @@
 <empty-line/>
 <p>Feyd Rautha НЕ был busted, но ушёл из phreak world. По его собственным словам, он <code>phazed out</code>, то есть заскучал от phreaking. Слово всем, особенно sysops: теперь есть другой Feyd Rautha. Он находится в area 612, Minneapolis. Не путайте его со старым elite, упомянутым здесь.</p>
 </section>
+</section>
 <section id="sec_issue_004_011_phreak_world_news_iii_part_3">
 <title><p>Phrack World News III, часть 3</p></title>
 <p><strong>Составил:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>Extasyy revisited</subtitle>
+<section id="toc_sub_000036"><title><p>Extasyy revisited</p></title>
 <empty-line/>
 <p>Это продолжение статьи, появившейся в Phrack World News Issue Number One, о распаде Extasyy Elite.</p>
 <empty-line/>
@@ -929,7 +963,8 @@
 <empty-line/>
 <p>Эта информация была предоставлена The Protestor, с некоторыми частями от The Mentor.</p>
 <empty-line/>
-<subtitle>The Radio Station BBS</subtitle>
+</section>
+<section id="toc_sub_000037"><title><p>The Radio Station BBS</p></title>
 <empty-line/>
 <p>Там, где когда-то стояла знаменитая bulletin board <strong>The Broadway Show</strong>, теперь стоит <strong>The Radio Station</strong>. Когда Broadway Hacker думал, что переезжает в Washington D.C., он снял Broadway Show и отдал линию <code>718/615-0580</code> другому человеку, который должен был вести новую BBS. Однако с тех пор Broadway Hacker под handle Program Director снова управляет board, но remote sysop Sigmund Fraud теперь полностью отвечает за неё. Он validates, он нанимает subboard sysops.</p>
 <empty-line/>
@@ -947,7 +982,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_004_011_phreak_world_news_iii_part_3_0089_9d89558639.png"/>
 <empty-line/>
-<subtitle>Phoenix Phortress stings 7</subtitle>
+</section>
+<section id="toc_sub_000038"><title><p>Phoenix Phortress stings 7</p></title>
 <empty-line/>
 <p><strong>415 under siege</strong></p>
 <empty-line/>
@@ -998,6 +1034,7 @@
 <p>Изначально составил Maxwell's Demon of The Dange Gang, переработал Knight Lightning. Этот файл содержит части статей из следующих газет:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_004_011_phreak_world_news_iii_part_3_0157_1fd1e71987.png"/>
+</section>
 </section>
 </section>
 </body>

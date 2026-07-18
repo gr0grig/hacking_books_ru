@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0"
-             xmlns:l="http://www.w3.org/1999/xlink">
+<?xml version='1.0' encoding='UTF-8'?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
 <description>
   <title-info>
     <genre>computers</genre>
@@ -36,7 +35,7 @@
 <empty-line/>
 <p>Dispater последние несколько месяцев переезжал по всей стране — это и стало основной причиной задержки выпуска. Однако теперь, когда он обосновался, всё самое интересное вот-вот начнётся. Он скоро ответит на вашу почту и, будем надеяться, к выпуску 40 всё устроится. А пока вы можете насладиться разнообразными тематическими статьями и письмами в Loopback этого выпуска, включая «Рецензию на игру HACKER от Steve Jackson Games» авторства Deluge. Особая благодарность Mentor и Steve Jackson за экземпляр игры и потрясающе оформленный постер. «Ассоциация системных администраторов безопасности» — мой любимый! ;)</p>
 <empty-line/>
-<p>Ещё одна проблема, которую необходимо упомянуть, касается потенциальных подписчиков. По какой-то причине на адрес &quot;phracksub@stormking.com&quot; поступают сотни запросов от людей, желающих попасть в список рассылки. Так это не работает. Вы должны подписаться самостоятельно — мы не можем и не будем делать это за вас. Инструкции приведены далее в этом файле. До сих пор мы уведомляли людей об их ошибке и высылали им инструкции, но впредь будем игнорировать подобные запросы. Любой, кто достаточно умён, чтобы читать Phrack, способен разобраться, как подписаться самостоятельно.</p>
+<p>Ещё одна проблема, которую необходимо упомянуть, касается потенциальных подписчиков. По какой-то причине на адрес "phracksub@stormking.com" поступают сотни запросов от людей, желающих попасть в список рассылки. Так это не работает. Вы должны подписаться самостоятельно — мы не можем и не будем делать это за вас. Инструкции приведены далее в этом файле. До сих пор мы уведомляли людей об их ошибке и высылали им инструкции, но впредь будем игнорировать подобные запросы. Любой, кто достаточно умён, чтобы читать Phrack, способен разобраться, как подписаться самостоятельно.</p>
 <empty-line/>
 <p>В рубрике Phrack Pro-Phile — рассказ о Shadow Hawk 1: первом хакере, когда-либо привлечённом к ответственности по Закону о компьютерном мошенничестве и злоупотреблениях 1986 года. Многие не знают, что Роберт Моррис-младший не был первым — Shadow Hawk 1 судили как несовершеннолетнего, поэтому многие подробности его дела не стали достоянием общественности. Стоит, однако, отметить, что те же люди (Уильям Дж. Кук и Генри Клупфель), ответственные за преследование SH1 в 1989 году, в 1990-м вернулись, чтобы наброситься на Knight Lightning... но на этот раз правительство и Bellcore потерпели неудачу, и теперь и Кук, и Клупфель (среди прочих) привлечены к ответственности в федеральном суде Остина, штат Техас (см. Steve Jackson Games v. United States).</p>
 <empty-line/>
@@ -58,19 +57,20 @@
 <empty-line/>
 <p>В Phrack некоторые из нас считают, что хороших вирусов не существует, и выступают против их создания и распространения. Другие (например, Dispater) просто считают вирусы почти такими же скучными, как и людей, сделавших карьеру на их уничтожении. Тем не менее мы не согласны с методами, предложенными этой организацией, и будем следить за ситуацией.</p>
 <empty-line/>
-<subtitle>Особая благодарность за помощь в создании этого выпуска</subtitle>
+<section id="toc_sub_000001"><title><p>Особая благодарность за помощь в создании этого выпуска</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_001_introduction_phrack_39_0061_c952271cc4.png"/>
 <empty-line/>
 <p><strong>Мы вернулись — и мы Phrack!</strong></p>
 <empty-line/>
-<subtitle>Как подписаться на журнал Phrack</subtitle>
+</section>
+<section id="toc_sub_000002"><title><p>Как подписаться на журнал Phrack</p></title>
 <empty-line/>
 <p>Распространение Phrack теперь осуществляется с помощью программного обеспечения Listserv. Все участники списка рассылки Phrack, состоявшие в нём до получения вами этого письма, были удалены из списка.</p>
 <empty-line/>
 <p>Если вы хотите повторно подписаться на Phrack Inc., следуйте приведённым ниже инструкциям:</p>
 <empty-line/>
-<p>1. Отправьте электронное письмо на адрес &quot;LISTSERV@STORMKING.COM&quot;. Письмо должно быть отправлено с того аккаунта, на который вы хотите получать Phrack.</p>
+<p>1. Отправьте электронное письмо на адрес "LISTSERV@STORMKING.COM". Письмо должно быть отправлено с того аккаунта, на который вы хотите получать Phrack.</p>
 <empty-line/>
 <p>2. Оставьте поле «Тема:» пустым.</p>
 <empty-line/>
@@ -80,15 +80,16 @@
 <p>4. НЕ оставляйте свой адрес в поле имени!</p>
 <p>(Это поле предназначено исключительно для использования персоналом PHRACK, поэтому, пожалуйста, укажите полное имя.)</p>
 <empty-line/>
-<p>После получения подтверждения вы будете добавлены в список рассылки Phrack. Если вы не получите это сообщение в течение 48 часов, отправьте ещё одно. Если вы ВСЁ ЕЩЁ не получили сообщение, свяжитесь с &quot;SERVER@STORMKING.COM&quot;.</p>
+<p>После получения подтверждения вы будете добавлены в список рассылки Phrack. Если вы не получите это сообщение в течение 48 часов, отправьте ещё одно. Если вы ВСЁ ЕЩЁ не получили сообщение, свяжитесь с "SERVER@STORMKING.COM".</p>
 <empty-line/>
-<p>В дальнейшем вы будете получать рассылку с адреса &quot;PHRACK@STORMKING.COM&quot;.</p>
+<p>В дальнейшем вы будете получать рассылку с адреса "PHRACK@STORMKING.COM".</p>
 <empty-line/>
-<p>По любым вопросам, связанным с этой процедурой, обращайтесь по адресу &quot;SERVER@STORMKING.COM&quot; с подробным описанием проблемы.</p>
+<p>По любым вопросам, связанным с этой процедурой, обращайтесь по адресу "SERVER@STORMKING.COM" с подробным описанием проблемы.</p>
 <empty-line/>
 <p>После подписки вам должно прийти письмо с подтверждением.</p>
 <empty-line/>
-<subtitle>Содержание выпуска</subtitle>
+</section>
+<section id="toc_sub_000003"><title><p>Содержание выпуска</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_001_introduction_phrack_39_0105_35cdc3dd45.png"/>
 <empty-line/>
@@ -98,7 +99,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_001_introduction_phrack_39_0129_89afcdc975.png"/>
 <empty-line/>
-<subtitle>Специальное объявление</subtitle>
+</section>
+<section id="toc_sub_000004"><title><p>Специальное объявление</p></title>
 <empty-line/>
 <p><strong>KNIGHT LIGHTNING ВЫСТУПИТ НА SURVEILLANCE EXPO '92</strong> Вашингтон, округ Колумбия</p>
 <empty-line/>
@@ -120,13 +122,14 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_001_introduction_phrack_39_0154_7f87c877ce.png"/>
 </section>
+</section>
 <section id="sec_issue_039_002_phrack_loopback">
 <title><p>Phrack Loopback</p></title>
 <p><strong>Автор:</strong> Редакция Phrack</p>
 <empty-line/>
 <p>Phrack Loopback — это форум для вас, читателей, где вы можете задавать вопросы, высказывать проблемы и обсуждать любые темы. Здесь же редакция Phrack делится своими рекомендациями, обозревая различные заслуживающие внимания материалы: журналы, программное обеспечение, каталоги, железо и прочее.</p>
 <empty-line/>
-<subtitle>Обзор игры HACKER от Steve Jackson Games</subtitle>
+<section id="toc_sub_000005"><title><p>Обзор игры HACKER от Steve Jackson Games</p></title>
 <empty-line/>
 <p><emphasis>Автор обзора: Deluge</emphasis></p>
 <empty-line/>
@@ -138,11 +141,11 @@
 <empty-line/>
 <p>Настолько заинтриговало, что я выложил за неё двадцать баксов — и считаю, что потратил их не зря. Не надо говорить мне, что Steve Jackson Games ничего для вас не значит (вздох). Ладно, вот что пишет сам Стив во введении к игре:</p>
 <empty-line/>
-<p>«В 1990 году офис Steve Jackson Games был обыскан Секретной службой США в ходе &quot;охоты на хакеров&quot;, которая катастрофически вышла из-под контроля. Мы лишились нескольких компьютеров, модемов и другого оборудования. Хуже того — мы лишились рукописей нескольких незаконченных игр, прежде всего _GURPS Cyberpunk_, который агент Секретной службы на следующий день назвал &quot;руководством по компьютерным преступлениям&quot;. Компания была вынуждена уволить половину сотрудников и едва избежала банкротства.</p>
+<p>«В 1990 году офис Steve Jackson Games был обыскан Секретной службой США в ходе "охоты на хакеров", которая катастрофически вышла из-под контроля. Мы лишились нескольких компьютеров, модемов и другого оборудования. Хуже того — мы лишились рукописей нескольких незаконченных игр, прежде всего _GURPS Cyberpunk_, который агент Секретной службы на следующий день назвал "руководством по компьютерным преступлениям". Компания была вынуждена уволить половину сотрудников и едва избежала банкротства.</p>
 <empty-line/>
 <p>«В конечном счёте большую часть имущества нам вернули (хотя кое-что было повреждено или уничтожено). Секретная служба признала, что мы никогда не были целью их расследования. Мы подали иск против должностных лиц и ведомств, несущих ответственность.</p>
 <empty-line/>
-<p>«Но с самого дня обыска игроки спрашивают нас: &quot;Когда вы сделаете игру об этом?&quot; Ладно. Сдаёмся. Вот она. Наслаждайтесь.»</p>
+<p>«Но с самого дня обыска игроки спрашивают нас: "Когда вы сделаете игру об этом?" Ладно. Сдаёмся. Вот она. Наслаждайтесь.»</p>
 <empty-line/>
 <p>Ну что ж... все хотят выглядеть как можно лучше, верно? Чтобы узнать настоящую подоплёку всей этой истории, стоит порыться в старых выпусках CUD, где можно найти копию ордера, санкционировавшего обыск. Скажу вам, что Лойд Бланкеншип является автором _GURPS Cyberpunk_ для SJG — делайте выводы сами.</p>
 <empty-line/>
@@ -176,7 +179,8 @@
 <empty-line/>
 <p>Муахахахахахаха!</p>
 <empty-line/>
-<subtitle>Список рассылки CPSR</subtitle>
+</section>
+<section id="toc_sub_000006"><title><p>Список рассылки CPSR</p></title>
 <empty-line/>
 <p>Computer Professionals for Social Responsibility (CPSR) организовали сервер списков рассылки для: (1) архивирования материалов, связанных с CPSR, и предоставления к ним доступа по запросу; (2) распространения относительно официальных, кратких объявлений CPSR (например, пресс-релизов, анонсов конференций и обновлений проектов). Доступ осуществляется по электронной почте через Internet и Bitnet. Трафик будет небольшим; список настроен так, что публиковать сообщения могут только правление и персонал CPSR. Поскольку подписка самостоятельная, материалы легко доступны широкой аудитории.</p>
 <empty-line/>
@@ -198,7 +202,8 @@
 <empty-line/>
 <p>Надеемся, что этот новый сервис придётся вам по вкусу.</p>
 <empty-line/>
-<subtitle>TRW разрешает проверку</subtitle>
+</section>
+<section id="toc_sub_000007"><title><p>TRW разрешает проверку</p></title>
 <empty-line/>
 <p>По данным USA Today, начиная с 30 апреля, вы можете бесплатно получить копию своего кредитного отчёта TRW один раз в год, написав по адресу:</p>
 <empty-line/>
@@ -214,7 +219,8 @@
 <p>• Имя супруга(и).</p>
 <p>• Фотокопию счёта, счёта за коммунальные услуги, водительского удостоверения или иного документа, подтверждающего связь вашего имени с адресом, на который следует выслать отчёт.</p>
 <empty-line/>
-<subtitle>Компьютер POWER живёт!</subtitle>
+</section>
+<section id="toc_sub_000008"><title><p>Компьютер POWER живёт!</p></title>
 <empty-line/>
 <p>Неужели слова пророка Абрахама Эпштейна сбываются? (Помните его переписку в Loopback выпуска Phrack 36?)</p>
 <empty-line/>
@@ -249,11 +255,13 @@
 <empty-line/>
 <p>Абрахам Эпштейн [Big Daddy Plastic Recycling Corporation] [Plastic Operations With Energy Resources (POWER)]</p>
 <empty-line/>
-<subtitle>Крупное предупреждение о вирусах</subtitle>
+</section>
+<section id="toc_sub_000009"><title><p>Крупное предупреждение о вирусах</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_002_phrack_loopback_0152_303684e2f8.png"/>
 <empty-line/>
-<subtitle>Аудиосвязь</subtitle>
+</section>
+<section id="toc_sub_000010"><title><p>Аудиосвязь</p></title>
 <empty-line/>
 <p><strong>Автор: Mr. Upsetter</strong></p>
 <empty-line/>
@@ -261,7 +269,8 @@
 <empty-line/>
 <p>Какое-то время назад мне пришла в голову безумная идея — подключить выход аудиоразъёма Macintosh к телефонной линии. Поскольку в Macintosh встроено аппаратное обеспечение для синтеза звука, я мог бы синтезировать любое количество полезных звуков и воспроизводить их по телефону. Например, с помощью программы редактирования звука вроде SoundEdit легко синтезировать тональные сигналы прогресса вызова, тоны DTMF и MF, red box, green box и другие сигнальные тоны. Именно этим я и занялся. Я создал набор синтезированных звуков в виде звуковых ресурсов с помощью SoundEdit, а затем написал стек HyperCard для их воспроизведения. Оставалось лишь собрать схему для согласования аудиосигнала из наушникового разъёма Mac с телефонной линией.</p>
 <empty-line/>
-<subtitle>Принцип работы схемы</subtitle>
+</section>
+<section id="toc_sub_000011"><title><p>Принцип работы схемы</p></title>
 <empty-line/>
 <p>Я разработал простую пассивную схему, которая отлично справляется с задачей. Вот принципиальная схема:</p>
 <empty-line/>
@@ -269,19 +278,22 @@
 <empty-line/>
 <p>VR1 — это ограничитель перенапряжения 300 В для защиты от кратковременных высоких напряжений. Конденсатор C1 связывает телефонную линию с трансформатором T1, блокируя постоянное напряжение линии, но пропуская переменный аудиосигнал. Трансформатор согласует импеданс телефонной линии с импедансом наушникового разъёма. Диоды D1 и D2 обеспечивают ограничение для дополнительной защиты от напряжения звонка (обратите внимание на маркировку полярности на схеме). Они будут ограничивать любой сигнал выше 7 вольт. Резистор R1 снижает громкость аудиосигнала с Mac до разумного уровня. В итоге получается схема, которая изолирует Mac от опасных напряжений телефонной линии и обеспечивает качественную аудиосвязь с ней.</p>
 <empty-line/>
-<subtitle>Сборка и использование схемы</subtitle>
+</section>
+<section id="toc_sub_000012"><title><p>Сборка и использование схемы</p></title>
 <empty-line/>
 <p>Эту несложную схему легко собрать (если вы умеете работать с электроникой). Лично я предпочитаю пайку. К входному концу схемы нужно подключить отрезок экранированного аудиокабеля со штекером 1/8 дюйма (моно). К концу со стороны телефонной линии подключается стандартный телефонный разъём RJ11. Хотя схема защищает от опасных напряжений телефонной линии, лучше отключать её, когда она не используется. Не стоит рисковать чем-то плохим для вашего новенького Quadra 900, правда?</p>
 <empty-line/>
 <p>Когда аудиосвязь между вашим Mac и телефонной линией установлена, возможности безграничны. Используйте встроенный в HyperCard набор DTMF для автонабора или создайте стек памяти-набора. Разговаривайте с людьми через Macintalk. Воспроизводите любимые звуки Ren and Stimpy для друзей. Проигрывайте тон обратного вызова, чтобы «переключить» людей на «добавочный номер». Создайте и используйте набор синтезированных тонов MF. Попробуйте перехитрить COCOT с помощью синтезированных сигналов «занято» и «перегрузка».</p>
 <empty-line/>
-<subtitle>Но и это ещё не всё...</subtitle>
+</section>
+<section id="toc_sub_000013"><title><p>Но и это ещё не всё...</p></title>
 <empty-line/>
 <p>Нет Macintosh? Не беда, потому что схема работает и с другими устройствами. Вы можете использовать её с 8-омным наушниковым выходом кассетных магнитофонов, радиоприёмников, сканеров и т.д. Вероятно, она подойдёт и для любого другого компьютера при наличии подходящего аудио ЦАП-оборудования и программного обеспечения для создания звуков.</p>
 <empty-line/>
 <p>Все комплектующие доступны в Mouser Electronics. Звоните по номеру 800-346-6873 для получения бесплатного каталога.</p>
 <empty-line/>
-<subtitle>Спасибо, Disk Jockey!</subtitle>
+</section>
+<section id="toc_sub_000014"><title><p>Спасибо, Disk Jockey!</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_002_phrack_loopback_0226_d74818a349.png"/>
 <empty-line/>
@@ -291,7 +303,8 @@
 <empty-line/>
 <p>-Sarlo</p>
 <empty-line/>
-<subtitle>Читатель отвечает Knight Lightning и Phrack</subtitle>
+</section>
+<section id="toc_sub_000015"><title><p>Читатель отвечает Knight Lightning и Phrack</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_002_phrack_loopback_0243_04f51b5786.png"/>
 <empty-line/>
@@ -301,7 +314,7 @@
 <empty-line/>
 <p>Вы говорите:</p>
 <empty-line/>
-<cite><p>«Короче — я говорю от лица хакерского сообщества в целом: &quot;ПОШЁЛ ТЫ, ПРИДУРОК! Ползи обратно под свой камень, откуда выполз, и прямиком в ад!&quot;»</p></cite>
+<cite><p>«Короче — я говорю от лица хакерского сообщества в целом: "ПОШЁЛ ТЫ, ПРИДУРОК! Ползи обратно под свой камень, откуда выполз, и прямиком в ад!"»</p></cite>
 <empty-line/>
 <p>Во-первых, вы не говорите от моего имени и ещё пяти человек в этом колледже. Я всегда придерживался мнения, что ЕДИНСТВЕННЫЙ способ продвигать дело компьютерного андерграунда — это уничтожать оппонентов логикой, а не скотскими высказываниями. Да, вы имеете право высказываться — но почему не взять этого Dale Drew и не разнести его логикой? Как только вы опускаетесь до уровня Dale Drew, вы выглядите столь же нелепо, как и он.</p>
 <empty-line/>
@@ -318,6 +331,7 @@
 <image l:href="#img__code_blocks_issue_039_002_phrack_loopback_0274_61c364638d_part01.png"/>
 <image l:href="#img__code_blocks_issue_039_002_phrack_loopback_0274_61c364638d_part02.png"/>
 </section>
+</section>
 <section id="sec_issue_039_003_phrack_pro_phile_shadow_hawk">
 <title><p>Phrack Pro-Phile: Shadow Hawk 1</p></title>
 <p><strong>Автор:</strong> Dispater</p>
@@ -328,7 +342,7 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_003_phrack_pro_phile_shadow_hawk_0013_9c792057c8.png"/>
 <empty-line/>
-<subtitle>Личные сведения</subtitle>
+<section id="toc_sub_000016"><title><p>Личные сведения</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_003_phrack_pro_phile_shadow_hawk_0021_9612862087.png"/>
 <empty-line/>
@@ -360,7 +374,8 @@
 <empty-line/>
 <p>Я категорически против того, чтобы воспринимать всё слишком серьёзно. Если научишься этому — ты уже победил!</p>
 <empty-line/>
-<subtitle>Любимое у (_&gt;Shadow Hawk 1&lt;_)</subtitle>
+</section>
+<section id="toc_sub_000017"><title><p>Любимое у (_&gt;Shadow Hawk 1&lt;_)</p></title>
 <empty-line/>
 <p><strong>Работа:</strong> Нигилистический онтолог.</p>
 <empty-line/>
@@ -378,18 +393,21 @@
 <empty-line/>
 <p><strong>Секс:</strong> Да.</p>
 <empty-line/>
-<subtitle>Самое memorable событие</subtitle>
+</section>
+<section id="toc_sub_000018"><title><p>Самое memorable событие</p></title>
 <empty-line/>
 <p>Вернуться домой и обнаружить дом, полный агентов Секретной службы, ФБР, АНБ, РУМО и AT&amp;T — после того как неплохо накурился с соседями, — а затем наблюдать, как они забирают всё электронное, что не выглядело как бытовой прибор, КРОМЕ явно краденых/опасных предметов: цифрового счётчика мощности, He-Ne лазера и банок с химикатами для изготовления бомб. ВЫСШИЙ КЛАСС ЮМОРА!</p>
 <empty-line/>
-<subtitle>Люди, которых стоит упомянуть</subtitle>
+</section>
+<section id="toc_sub_000019"><title><p>Люди, которых стоит упомянуть</p></title>
 <empty-line/>
 <p>• Спасибо Биллу Куку за то, что не оставил камня на камне в моей личной жизни!</p>
 <p>• Спасибо «моему» адвокату, Карен Плант, за то, что МНОГИЕ камни остались неперевёрнутыми при определении моей судьбы!</p>
 <p>• Спасибо федеральной системе правосудия США за то, что приговорила меня к 9 месяцам в «учреждении для несовершеннолетних» (плюс конфисковала имущество на тысячи долларов — часть законного, часть нет), при этом позволяя взломщикам, политикам и авторам вирусов отделываться лёгким испугом!</p>
 <p>• Спасибо операции Sun-Devil, без которой легендарный Ripco BBS всё ещё существовал бы в своей первоначальной форме!</p>
 <empty-line/>
-<subtitle>Ещё кое-что</subtitle>
+</section>
+<section id="toc_sub_000020"><title><p>Ещё кое-что</p></title>
 <empty-line/>
 <p>Хочу поблагодарить всех замечательных людей в Lunatic Labs за то, что не удалили мою учётку, пока я путешествовал по Южной Дакоте. Привет всем моим НАСТОЯЩИМ друзьям (вы знаете, кто вы) и всем НЕНАСТОЯЩИМ тоже! Где бы я был без вас? Спасибо всем, кто любит меня достаточно сильно, чтобы хотеть контролировать мой разум. И, конечно, СПАСИБО хак/фрик-сообществу в целом — не только за то, что оно, как и большинство контркультур, стало декадентским и пресным, но и за то, что всё эти годы не даёт мне покоя!</p>
 <empty-line/>
@@ -397,11 +415,13 @@
 <empty-line/>
 <p><strong>Внутренние шутки:</strong> HALOHALOHALOHALOHALOHALOHALOHALOHALOSKSKSKSKSKSKSKSKSKSKSKSKSK eaerlyeaerlyeaerlyeaerlyeaerlyeaerly... the gwampismobile shall ride again!</p>
 <empty-line/>
-<subtitle>Вопрос и ответ</subtitle>
+</section>
+<section id="toc_sub_000021"><title><p>Вопрос и ответ</p></title>
 <empty-line/>
 <p><strong>Среди фриков, с которыми вам доводилось общаться, большинство из них — компьютерные задроты?</strong></p>
 <empty-line/>
 <p>Что касается «задротства» — каждый волен преследовать свои интересы. Важно помнить, что социальная эволюция и умственная эволюция не обязательно происходят одновременно или мгновенно (как правило).</p>
+</section>
 </section>
 <section id="sec_issue_039_004_network_miscellany_v">
 <title><p>Сетевые разности V</p></title>
@@ -411,7 +431,7 @@
 <empty-line/>
 <p><emphasis>Network Miscellany основан Taran King</emphasis></p>
 <empty-line/>
-<subtitle>Сервер Netfind Университета Колорадо</subtitle>
+<section id="toc_sub_000022"><title><p>Сервер Netfind Университета Колорадо</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_004_network_miscellany_v_0014_32ea759955.png"/>
 <empty-line/>
@@ -447,11 +467,13 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_004_network_miscellany_v_0074_fc84c4e0b3.png"/>
 <empty-line/>
-<subtitle>Коммерческие сети, доступные из Интернета</subtitle>
+</section>
+<section id="toc_sub_000023"><title><p>Коммерческие сети, доступные из Интернета</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Roman Kanala (kanala@sc2a.unige.ch), CUEPE, Женевский университет</p>
 <empty-line/>
-<subtitle>1. Интернет → X.400</subtitle>
+</section>
+<section id="toc_sub_000024"><title><p>1. Интернет → X.400</p></title>
 <empty-line/>
 <p>Адрес X.400 в форме:</p>
 <empty-line/>
@@ -461,7 +483,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_004_network_miscellany_v_0102_62e983573e.png"/>
 <empty-line/>
-<subtitle>2. Из любой X.400-сети в Интернет</subtitle>
+</section>
+<section id="toc_sub_000025"><title><p>2. Из любой X.400-сети в Интернет</p></title>
 <empty-line/>
 <p>Мой интернет-адрес</p>
 <empty-line/>
@@ -475,7 +498,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_004_network_miscellany_v_0124_ae42880b06.png"/>
 <empty-line/>
-<subtitle>3. MCI Mail → Интернет (через шлюз)</subtitle>
+</section>
+<section id="toc_sub_000026"><title><p>3. MCI Mail → Интернет (через шлюз)</p></title>
 <empty-line/>
 <p>Если вы находитесь в США и используете MCI Mail, вы можете писать на интернет-адреса следующим образом:</p>
 <empty-line/>
@@ -483,11 +507,13 @@
 <empty-line/>
 <p>Доступ к шлюзу из MCI Mail в Интернет осуществляется путём указания имени пользователя, как если бы он был в службе EMS. Когда в качестве имени EMS используется INTERNET, например, в США, это означает, что сообщение будет обрабатываться через NRI (Reston VA). При запросе почтового ящика MBX пользователь вводит интернет-адрес получателя.</p>
 <empty-line/>
-<subtitle>4. Интернет → MCI Mail</subtitle>
+</section>
+<section id="toc_sub_000027"><title><p>4. Интернет → MCI Mail</p></title>
 <empty-line/>
 <p>Общая форма адреса: <code>username@mcimail.com</code>, где имя пользователя может быть в одном из двух форматов: либо полное имя пользователя, либо числовой номер ящика в виде только цифр, предварённых тремя нулями, например <code>0001234567@mcimail.com</code> (адрес 1234567 вымышленный).</p>
 <empty-line/>
-<subtitle>5. AppleLink → Интернет или Bitnet</subtitle>
+</section>
+<section id="toc_sub_000028"><title><p>5. AppleLink → Интернет или Bitnet</p></title>
 <empty-line/>
 <p>Интернет-адрес используется с суффиксом <code>@INTERNET#</code>, например:</p>
 <empty-line/>
@@ -495,35 +521,41 @@
 <empty-line/>
 <p>(здесь cgeuge52 — bitnet-адрес sc2a.unige.ch)</p>
 <empty-line/>
-<subtitle>6. Интернет или Bitnet → AppleLink</subtitle>
+</section>
+<section id="toc_sub_000029"><title><p>6. Интернет или Bitnet → AppleLink</p></title>
 <empty-line/>
 <p>Адрес AppleLink используется как имя пользователя в Интернете на узле <code>AppleLink.Apple.Com</code>, например:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_004_network_miscellany_v_0159_1384dee9c6.png"/>
 <empty-line/>
-<subtitle>7. CompuServe → Интернет</subtitle>
+</section>
+<section id="toc_sub_000030"><title><p>7. CompuServe → Интернет</p></title>
 <empty-line/>
 <p>В поле адреса CompuServe введите символ <code>&gt;</code> («больше чем»), слово <code>INTERNET</code> заглавными буквами, затем пробел и интернет-адрес, например:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_004_network_miscellany_v_0167_9a421d41a7.png"/>
 <empty-line/>
-<subtitle>8. Интернет → CompuServe</subtitle>
+</section>
+<section id="toc_sub_000031"><title><p>8. Интернет → CompuServe</p></title>
 <empty-line/>
 <p>Адрес CompuServe используется с суффиксом <code>@compuserve.com</code>. В номере почтового ящика CompuServe запятая заменяется точкой, например:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_004_network_miscellany_v_0175_d8ca6abb59.png"/>
 <empty-line/>
-<subtitle>Руководство по межсетевой почте</subtitle>
+</section>
+<section id="toc_sub_000032"><title><p>Руководство по межсетевой почте</p></title>
 <empty-line/>
 <p>Этот документ защищён авторским правом © 1990 John J. Chew. Все права защищены. Разрешение на некоммерческое распространение настоящим предоставляется при условии, что файл распространяется в полном виде, включая это уведомление об авторских правах и сведения о версии. Разрешение на коммерческое распространение можно получить, связавшись с автором, как описано ниже.</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+</section>
+<section id="toc_sub_000033"><title><p>Введение</p></title>
 <empty-line/>
 <p>Этот файл документирует способы отправки почты из одной сети в другую. Он представляет собой совокупность знаний читателей группы comp.mail.misc и многих других авторов. Если вы знаете о каких-либо исправлениях или дополнениях, пожалуйста, ознакомьтесь с документацией по формату файла и отправьте письмо автору:</p>
 <empty-line/>
 <p>John J. Chew &lt;poslfit@gpu.utcs.utoronto.ca&gt;</p>
 <empty-line/>
-<subtitle>Распространение</subtitle>
+</section>
+<section id="toc_sub_000034"><title><p>Распространение</p></title>
 <empty-line/>
 <p><strong>(новости)</strong> Этот список ежемесячно публикуется в группах новостей Usenet: comp.mail.misc и news.newusers.questions.</p>
 <empty-line/>
@@ -533,7 +565,8 @@
 <empty-line/>
 <p><strong>(Listserv)</strong> Пользователи Bitnet могут получить это руководство с Listserv на UNMVM. Отправьте письмо на LISTSERV@UNMVM с пустой темой и телом: <code>GET NETWORK GUIDE</code>. [Любезно предоставлено Art St. George]</p>
 <empty-line/>
-<subtitle>Как пользоваться этим руководством</subtitle>
+</section>
+<section id="toc_sub_000035"><title><p>Как пользоваться этим руководством</p></title>
 <empty-line/>
 <p>Каждая запись в файле описывает, как добраться из одной сети в другую. Для поддержания разумного размера файла методы, получаемые по транзитивности (A→B и B→C даёт A→B→C), опущены. Записи отсортированы сначала по исходной сети, затем по целевой. Вот типичная запись:</p>
 <empty-line/>
@@ -559,101 +592,118 @@
 <image l:href="#img__code_blocks_issue_039_004_network_miscellany_v_0248_c2f555b4c8_part04.png"/>
 <image l:href="#img__code_blocks_issue_039_004_network_miscellany_v_0248_c2f555b4c8_part05.png"/>
 <empty-line/>
-<subtitle>MUD-серверы</subtitle>
+</section>
+<section id="toc_sub_000036"><title><p>MUD-серверы</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Frosty из CyberSpace Project</p>
 <empty-line/>
-<subtitle>Серверы MUDWHO</subtitle>
+</section>
+<section id="toc_sub_000037"><title><p>Серверы MUDWHO</p></title>
 <empty-line/>
 <p>[Таблица из 5 записей — опущена]</p>
 <empty-line/>
 <p>Записи включают: Amber, DEC, Littlewood, Nova, PernWHO.</p>
 <empty-line/>
-<subtitle>AberMUD (11 серверов)</subtitle>
+</section>
+<section id="toc_sub_000038"><title><p>AberMUD (11 серверов)</p></title>
 <empty-line/>
 <p>[Таблица из 11 записей — опущена]</p>
 <empty-line/>
 <p>Серверы: Aber5@FSU, DIRT, Dragon, Eddie aber Alles, EnchantedMud, Longhorn, Mustang MUD, SpudMud, Temple, The Underground, Wolf.</p>
 <empty-line/>
-<subtitle>DikuMUD (17 серверов)</subtitle>
+</section>
+<section id="toc_sub_000039"><title><p>DikuMUD (17 серверов)</p></title>
 <empty-line/>
 <p>[Таблица из 17 записей — опущена]</p>
 <empty-line/>
 <p>Серверы: Albanian DikuMUD, AlexMUD, Alfa Diku, Austin MUD, Caltech DIKU, Copper Diku, Davis Diku, DikuMUD I, Elof DikuMUD, Epic, Grimne Diku, HypeNet, Matsci1 Diku, Mudde Pathetique, Sejnet Diku, Waterdeep, Wayne Diku.</p>
 <empty-line/>
-<subtitle>DUM (2 сервера)</subtitle>
+</section>
+<section id="toc_sub_000040"><title><p>DUM (2 сервера)</p></title>
 <empty-line/>
 <p>[Таблица из 2 записей — опущена]</p>
 <empty-line/>
 <p>Серверы: CanDUM II, DUM II.</p>
 <empty-line/>
-<subtitle>LPmud (58 серверов)</subtitle>
+</section>
+<section id="toc_sub_000041"><title><p>LPmud (58 серверов)</p></title>
 <empty-line/>
 <p>[Таблица из 58 записей — опущена]</p>
 <empty-line/>
 <p>Серверы включают: Aegolius Acadicus, After Hours, Akropolis, Allinite, BatMUD, CyberWorld, Darkemud, Darker Realms, Dartmouth LPMud, Deeper Trouble, DevMUD, DiscWorld II, Dragon's Den, End Of The Line, Finnegan's Wake, Frontier, GateWay, Genesis, Igor, ImperialMUD, Ivory Tower, Kobra, LPSwat, Marches of Antan, Middle-Earth, Muddog Mud, Mystic, NANVAENT, Nameless, Nanny, NeXT, Nemesis, Nightfall, Nightmare, Nirvana 4, Nuage, Overdrive, PaderMUD, PixieMud, QUOVADIS, Realmsmud, Ringworld, Round Table, Sky Realms, SmileyMud, StickMUD, SvenskMUD, The Mud Institute, Top Mud, Tsunami II, TubMUD, Valhalla, Valkyrie Prime, VikingMUD, Vincent's Hollow, World of Mizar.</p>
 <empty-line/>
-<subtitle>mage (1 сервер)</subtitle>
+</section>
+<section id="toc_sub_000042"><title><p>mage (1 сервер)</p></title>
 <empty-line/>
 <p>[Таблица из 1 записи — опущена]</p>
 <empty-line/>
 <p>Сервер: SynthMAGE.</p>
 <empty-line/>
-<subtitle>MOO (1 сервер)</subtitle>
+</section>
+<section id="toc_sub_000043"><title><p>MOO (1 сервер)</p></title>
 <empty-line/>
 <p>[Таблица из 1 записи — опущена]</p>
 <empty-line/>
 <p>Сервер: Lambda MOO (lambda.parc.xerox.com, порт 8888).</p>
 <empty-line/>
-<subtitle>TinyMUCK (12 серверов)</subtitle>
+</section>
+<section id="toc_sub_000044"><title><p>TinyMUCK (12 серверов)</p></title>
 <empty-line/>
 <p>[Таблица из 12 записей — опущена]</p>
 <empty-line/>
 <p>Серверы: AfterFive, Burning Metal, Crossroads, FurryMUCK, High Seas, Lawries MUD, PythonMUCK, QWest, Quartz Paradise, Time Traveller, TinyMUD Classic II, Visions.</p>
 <empty-line/>
-<subtitle>MUG (1 сервер)</subtitle>
+</section>
+<section id="toc_sub_000045"><title><p>MUG (1 сервер)</p></title>
 <empty-line/>
 <p>[Таблица из 1 записи — опущена]</p>
 <empty-line/>
 <p>Сервер: UglyMUG.</p>
 <empty-line/>
-<subtitle>TinyMUSE (5 серверов)</subtitle>
+</section>
+<section id="toc_sub_000046"><title><p>TinyMUSE (5 серверов)</p></title>
 <empty-line/>
 <p>[Таблица из 5 записей — опущена]</p>
 <empty-line/>
 <p>Серверы: Fantasia, FantasyMuse, MicroMUSE, Rhostshyl, TrekMUSE.</p>
 <empty-line/>
-<subtitle>TinyMUSH (15 серверов)</subtitle>
+</section>
+<section id="toc_sub_000047"><title><p>TinyMUSH (15 серверов)</p></title>
 <empty-line/>
 <p>[Таблица из 15 записей — опущена]</p>
 <empty-line/>
 <p>Серверы: Dungeon, Global MUSH, ImageCastle, Narnia, PernMUSH, SouthCon, Spellbound, SqueaMUSH, StingMUSH, TinyCWRU, TinyHORNS, TinyTIM II, VisionMUSH.</p>
 <empty-line/>
-<subtitle>TeenyMUD (3 сервера)</subtitle>
+</section>
+<section id="toc_sub_000048"><title><p>TeenyMUD (3 сервера)</p></title>
 <empty-line/>
 <p>[Таблица из 3 записей — опущена]</p>
 <empty-line/>
 <p>Серверы: ApexMUD, Evil!MUD, MetroMUT.</p>
 <empty-line/>
-<subtitle>TinyMUD (2 сервера)</subtitle>
+</section>
+<section id="toc_sub_000049"><title><p>TinyMUD (2 сервера)</p></title>
 <empty-line/>
 <p>[Таблица из 2 записей — опущена]</p>
 <empty-line/>
 <p>Серверы: DragonMUD, TinyWORLD.</p>
 <empty-line/>
-<subtitle>UnterMUD (9 серверов)</subtitle>
+</section>
+<section id="toc_sub_000050"><title><p>UnterMUD (9 серверов)</p></title>
 <empty-line/>
 <p>[Таблица из 9 записей — опущена]</p>
 <empty-line/>
 <p>Серверы: ChrisMUD, DECmud, DreamScape, Islandia, RealWorld, Sludge, Sunmark, WanderLand, WireHED.</p>
 <empty-line/>
-<subtitle>YAMUD (1 сервер)</subtitle>
+</section>
+<section id="toc_sub_000051"><title><p>YAMUD (1 сервер)</p></title>
 <empty-line/>
 <p>[Таблица из 1 записи — опущена]</p>
 <empty-line/>
 <p>Сервер: GooLand.</p>
 <empty-line/>
-<subtitle>Примечания</subtitle>
+</section>
+<section id="toc_sub_000052"><title><p>Примечания</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_004_network_miscellany_v_0595_598a2c6cdb.png"/>
 <empty-line/>
@@ -673,6 +723,7 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_004_network_miscellany_v_0625_1af16e7e9d.png"/>
 </section>
+</section>
 <section id="sec_issue_039_005_complete_guide_to_dialog_information_network">
 <title><p>Полное руководство по информационной сети DIALOG</p></title>
 <p><strong>Автор:</strong> Brian Oblivion</p>
@@ -681,7 +732,7 @@
 <empty-line/>
 <p><emphasis>5/9/92</emphasis></p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+<section id="toc_sub_000053"><title><p>Введение</p></title>
 <empty-line/>
 <p>С учётом обилия онлайн-баз данных в публичном и частном секторах, я считаю, что проникновение в эти базы данных и поддержание доступа к ним становится всё более важным. Рассматриваемые базы данных содержат сведения, касающиеся нашей личной жизни и окружающей среды, не говоря уже о терабайтах полезной информации, которую можно использовать для исследований и самообразования.</p>
 <empty-line/>
@@ -736,7 +787,8 @@
 <empty-line/>
 <p>ПРИМЕЧАНИЕ: Большинство сервисов DIALOG теперь доступно для определённых исследовательских учреждений, публичных и частных, на CD-ROM. Уточните наличие этого сервиса в местных публичных и университетских библиотеках. Разумеется, МНОГИЕ из наиболее интересных баз данных недоступны на CD-ROM и по-прежнему должны быть получены через сеть DIALOG.</p>
 <empty-line/>
-<subtitle>Доступ к сервисам DIALOG</subtitle>
+</section>
+<section id="toc_sub_000054"><title><p>Доступ к сервисам DIALOG</p></title>
 <empty-line/>
 <p>Следующие онлайн-сервисы доступны через DIALOG Information Services:</p>
 <empty-line/>
@@ -752,7 +804,8 @@
 <empty-line/>
 <p>Доступ ко многим сервисам DIALOG имеется в странах по всему миру, и к нему можно получить доступ через их собственные публичные сети передачи данных.</p>
 <empty-line/>
-<subtitle>Доступ по номеру 800 через Dialnet</subtitle>
+</section>
+<section id="toc_sub_000055"><title><p>Доступ по номеру 800 через Dialnet</p></title>
 <empty-line/>
 <p>Два номера 800 DIALNET доступны для подключения к сервисам Dialog из любой точки 48 смежных штатов. Доступ через эти номера не является бесплатным.</p>
 <empty-line/>
@@ -760,7 +813,8 @@
 <empty-line/>
 <p>Примечание: Я исключил все номера коммутируемого доступа для Tymnet и Sprintnet. Если вы не знаете, как их найти, получите файл по сетям X.25, и я уверен, что они где-нибудь там будут перечислены.</p>
 <empty-line/>
-<subtitle>Американские номера коммутируемого доступа DIALNET</subtitle>
+</section>
+<section id="toc_sub_000056"><title><p>Американские номера коммутируемого доступа DIALNET</p></title>
 <empty-line/>
 <p>(Все номера коммутируемого доступа DIALNET поддерживают 300, 1200 и 2400 бод)</p>
 <empty-line/>
@@ -768,13 +822,15 @@
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0112_8fc8100fee_part02.png"/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0112_8fc8100fee_part03.png"/>
 <empty-line/>
-<subtitle>Доступ к Dialog за пределами США</subtitle>
+</section>
+<section id="toc_sub_000057"><title><p>Доступ к Dialog за пределами США</p></title>
 <empty-line/>
 <p>Иностранные читатели могут получить доступ к Dialog через PDN INFONET. Следующие номера предназначены для таких пользователей.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0230_bd8572e380.png"/>
 <empty-line/>
-<subtitle>Вход в DIALOG или KNOWLEDGE INDEX (KI)</subtitle>
+</section>
+<section id="toc_sub_000058"><title><p>Вход в DIALOG или KNOWLEDGE INDEX (KI)</p></title>
 <empty-line/>
 <p>После набора соответствующего номера и установления соединения необходимо выждать 10-секундную паузу, а затем ввести букву A (либо нажать клавишу возврата каретки, или другой идентификатор терминала из таблицы ниже) прежде чем произойдёт какой-либо дальнейший отклик. Затем следуйте остальным процедурам, показанным ниже.</p>
 <empty-line/>
@@ -784,7 +840,8 @@
 <empty-line/>
 <p>После подключения к вашему сервису или файлу по умолчанию в DIALOG вы можете BEGIN («начать») один из других сервисов; например, для доступа к DIALMAIL введите BEGIN MAIL.</p>
 <empty-line/>
-<subtitle>Идентификаторы терминала DIALNET</subtitle>
+</section>
+<section id="toc_sub_000059"><title><p>Идентификаторы терминала DIALNET</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0268_400ab97d2d.png"/>
 <empty-line/>
@@ -792,11 +849,13 @@
 <empty-line/>
 <p>• Не нажимайте клавишу Backspace при ошибке при вводе «dialog» или «ki». Результатом будет переключение вашего дуплекса, поскольку клавиша Backspace обычно настроена на отправку <code>&lt;CTRL H&gt;</code> для удаления символа слева от курсора.</p>
 <empty-line/>
-<subtitle>Сообщения DIALNET</subtitle>
+</section>
+<section id="toc_sub_000060"><title><p>Сообщения DIALNET</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0289_02d9ebed1a.png"/>
 <empty-line/>
-<subtitle>Навигация в DIALOG</subtitle>
+</section>
+<section id="toc_sub_000061"><title><p>Навигация в DIALOG</p></title>
 <empty-line/>
 <p>Чтобы начать поиск, введите:</p>
 <empty-line/>
@@ -804,13 +863,15 @@
 <empty-line/>
 <p>где xxxx — номер файла базы данных. Всем базам данных в DIALOG присвоены номера файлов. Протокол поиска, используемый для работы с DIALOG, временами похож на самостоятельный язык, но его можно легко изучить и освоить.</p>
 <empty-line/>
-<subtitle>DIALOG HOMEBASE</subtitle>
+</section>
+<section id="toc_sub_000062"><title><p>DIALOG HOMEBASE</p></title>
 <empty-line/>
 <p>Я бы посоветовал новичку перейти в меню DIALOG Homebase, которое предоставляет информацию, справку, файл месяца, сведения о базах данных и тарифах, DIALINDEX, обучение DIALOG и объявления. DIALOG также предоставляет подписчикам специальные услуги, включая исходящие звонки для определённых кодов зоны. Вы можете перейти в DIALOG HOMEBASE, введя:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0332_14b5c7c2ae.png"/>
 <empty-line/>
-<subtitle>Базы данных DIALOG</subtitle>
+</section>
+<section id="toc_sub_000063"><title><p>Базы данных DIALOG</p></title>
 <empty-line/>
 <p>[Таблица из ~200 записей — опущена]</p>
 <empty-line/>
@@ -826,7 +887,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0358_1dbb7fb993.png"/>
 <empty-line/>
-<subtitle>Поиск в DIALOG</subtitle>
+</section>
+<section id="toc_sub_000064"><title><p>Поиск в DIALOG</p></title>
 <empty-line/>
 <p>После выбора базы данных вы можете SELECT («выбрать») ключевое слово для поиска. Флаг устанавливается следующим образом:</p>
 <empty-line/>
@@ -848,33 +910,39 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0434_864e5530f5.png"/>
 <empty-line/>
-<subtitle>Операторы близости (команда Select)</subtitle>
+</section>
+<section id="toc_sub_000065"><title><p>Операторы близости (команда Select)</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0450_5757147fe0.png"/>
 <empty-line/>
-<subtitle>Приоритет выполнения</subtitle>
+</section>
+<section id="toc_sub_000066"><title><p>Приоритет выполнения</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0473_ea380fcd14.png"/>
 <empty-line/>
 <p>Используйте скобки для указания другого порядка выполнения, например: <code>SELECT (SOLAR OR SUN) AND (ENERGY OR HEAT)</code>. Термины в скобках выполняются первыми.</p>
 <empty-line/>
-<subtitle>Стоп-слова (предопределённые)</subtitle>
+</section>
+<section id="toc_sub_000067"><title><p>Стоп-слова (предопределённые)</p></title>
 <empty-line/>
 <p>Следующие слова не могут быть SELECTed как отдельные термины. Компьютер вернёт набор с нулевыми результатами. Их можно заменить только операторами близости, например: <code>S GONE(2W)WIND</code></p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0485_40975419db.png"/>
 <empty-line/>
-<subtitle>Зарезервированные слова и символы</subtitle>
+</section>
+<section id="toc_sub_000068"><title><p>Зарезервированные слова и символы</p></title>
 <empty-line/>
-<p>Следующие слова и символы должны быть заключены в кавычки всякий раз, когда они SELECTed как поисковые термины или входят в них, например: <code>SELECT &quot;OR&quot;(W)GATE?</code></p>
+<p>Следующие слова и символы должны быть заключены в кавычки всякий раз, когда они SELECTed как поисковые термины или входят в них, например: <code>SELECT "OR"(W)GATE?</code></p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0497_ede2c0b896.png"/>
 <empty-line/>
-<subtitle>Усечение</subtitle>
+</section>
+<section id="toc_sub_000069"><title><p>Усечение</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0509_595aca440d.png"/>
 <empty-line/>
-<subtitle>Спецификация поля базового индекса (суффиксные коды)</subtitle>
+</section>
+<section id="toc_sub_000070"><title><p>Спецификация поля базового индекса (суффиксные коды)</p></title>
 <empty-line/>
 <p>Суффиксные коды используются для ограничения поиска определёнными полями базового индекса записи. Конкретные поля и коды варьируются в зависимости от базы данных.</p>
 <empty-line/>
@@ -884,7 +952,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0541_9d27a741b1.png"/>
 <empty-line/>
-<subtitle>Дополнительные индексы (префиксные коды)</subtitle>
+</section>
+<section id="toc_sub_000071"><title><p>Дополнительные индексы (префиксные коды)</p></title>
 <empty-line/>
 <p>Префиксные коды используются для поиска в дополнительных индексах. Конкретные поля и коды варьируются в зависимости от базы данных.</p>
 <empty-line/>
@@ -894,7 +963,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0566_4060be972d.png"/>
 <empty-line/>
-<subtitle>Поиск по диапазону</subtitle>
+</section>
+<section id="toc_sub_000072"><title><p>Поиск по диапазону</p></title>
 <empty-line/>
 <p>Двоеточие используется для указания диапазона последовательных записей для получения в логическом OR-отношении.</p>
 <empty-line/>
@@ -902,7 +972,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0580_c8f78d8b35.png"/>
 <empty-line/>
-<subtitle>Ограничивающие квалификаторы</subtitle>
+</section>
+<section id="toc_sub_000073"><title><p>Ограничивающие квалификаторы</p></title>
 <empty-line/>
 <p>Ограничивающие квалификаторы используются в операторах SELECT для ограничения поисковых терминов или наборов заданными критериями. Конкретные квалификаторы варьируются в зависимости от базы данных.</p>
 <empty-line/>
@@ -916,9 +987,11 @@
 <empty-line/>
 <p>Примечание: индексы (префиксные коды) нередко различаются от базы данных к базе данных, что иногда приводит к безрезультатным поискам. Один из способов избежать этого — посетить местную публичную или университетскую библиотеку и ознакомиться с синими листами («blue sheets») для той базы данных, которую вы собираетесь запросить. Синие листы выпускаются Dialog как услуга для пользователей. Они часто содержат полезные методики поиска, применимые к конкретной базе данных, а также список индексов (префиксных кодов), уникальных именно для этой базы.</p>
 <empty-line/>
-<subtitle>Просмотр результатов поиска</subtitle>
+</section>
+<section id="toc_sub_000074"><title><p>Просмотр результатов поиска</p></title>
 <empty-line/>
-<subtitle>Сводка команд</subtitle>
+</section>
+<section id="toc_sub_000075"><title><p>Сводка команд</p></title>
 <empty-line/>
 <p><strong>TYPE</strong> — обеспечивает непрерывное отображение результатов онлайн.</p>
 <empty-line/>
@@ -942,37 +1015,45 @@
 <empty-line/>
 <p><strong>REPORT</strong> — извлекает данные из указанных полей и формирует табличный формат только для онлайн-вывода. Указывает набор/диапазон элементов/поля. Может использоваться с отсортированным набором для указания порядка записей в таблице. Применение зависит от базы данных.</p>
 <empty-line/>
-<subtitle>Типовые форматы в библиографических файлах</subtitle>
+</section>
+<section id="toc_sub_000076"><title><p>Типовые форматы в библиографических файлах</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0661_52b963cdd0.png"/>
 <empty-line/>
 <p>ПРИМЕЧАНИЕ: Форматы также различаются от базы данных к базе данных. Смотрите синий лист базы данных для конкретных описаний форматов.</p>
 <empty-line/>
-<subtitle>Прочие команды, связанные с выводом</subtitle>
+</section>
+<section id="toc_sub_000077"><title><p>Прочие команды, связанные с выводом</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0678_56a3c83aaf.png"/>
 <empty-line/>
-<subtitle>Прочие команды</subtitle>
+</section>
+<section id="toc_sub_000078"><title><p>Прочие команды</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0713_899d5a3de2.png"/>
 <empty-line/>
-<subtitle>SEARCH\*SAVE</subtitle>
+</section>
+<section id="toc_sub_000079"><title><p>SEARCH\*SAVE</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0739_fe9372a5c4.png"/>
 <empty-line/>
-<subtitle>Просмотр SEARCH\*SAVES</subtitle>
+</section>
+<section id="toc_sub_000080"><title><p>Просмотр SEARCH\*SAVES</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0762_70c598f0a9.png"/>
 <empty-line/>
-<subtitle>Выполнение SEARCH\*SAVES</subtitle>
+</section>
+<section id="toc_sub_000081"><title><p>Выполнение SEARCH\*SAVES</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0782_4d798b1822.png"/>
 <empty-line/>
-<subtitle>Удаление SEARCH\*SAVES</subtitle>
+</section>
+<section id="toc_sub_000082"><title><p>Удаление SEARCH\*SAVES</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_005_complete_guide_to_dialog_information_network_0811_7ae8992a0a.png"/>
 <empty-line/>
-<subtitle>Прочие параметры SEARCH\*SAVE</subtitle>
+</section>
+<section id="toc_sub_000083"><title><p>Прочие параметры SEARCH\*SAVE</p></title>
 <empty-line/>
 <p><strong>ИМЕНОВАНИЕ:</strong> После команд SAVE, SAVE TEMP и SAVE SDI можно указать буквенно-цифровое имя из трёх-пяти символов. Пример: <code>SAVE TEMP SOLAR</code></p>
 <empty-line/>
@@ -980,7 +1061,8 @@
 <empty-line/>
 <p>Пример: <code>* Search for R.J.Flappjack</code></p>
 <empty-line/>
-<subtitle>Онлайн-текстовый редактор</subtitle>
+</section>
+<section id="toc_sub_000084"><title><p>Онлайн-текстовый редактор</p></title>
 <empty-line/>
 <p>Любой Search\*Save, за исключением SDI, может быть отредактирован из любой базы данных. SDI должен редактироваться в той базе данных, в которой должен храниться.</p>
 <empty-line/>
@@ -993,6 +1075,7 @@
 <empty-line/>
 <p>Кроме того, с ним можно связаться через Black Crawling Systems/VOiD Information Archives (для получения дополнительной информации напишите Brian по электронной почте). RDT приветствует любые ваши вопросы или комментарии. Увидимся на SummerCon '92.</p>
 </section>
+</section>
 <section id="sec_issue_039_006_centigram_voice_mail_system_consoles">
 <title><p>Консоли голосовой почтовой системы Centigram: правильный порядок входа, архитектурные недостатки и уязвимости безопасности</p></title>
 <p><strong>Автор:</strong> &gt;Unknown User&lt;</p>
@@ -1003,7 +1086,7 @@
 <empty-line/>
 <p>После дозвона до Centigram стандартная процедура предусматривает нажатие ^Z для активации терминала, затем ввод удалённого или консольного пароля, после чего можно переходить к обычным консольным операциям. Однако если непрерывно удерживать ^Z во время последовательности входа, программа login прервётся и запустит /cmds/qnxsh. Поведение системы при многократном нажатии escape-клавиши может быть несколько непредсказуемым, но когда появляется приглашение $, оно, как правило, не исчезает само по себе без команды «exit» или ^D. Обычно для устойчивого входа в систему при таком непредсказуемом поведении подходит следующий шаблон: непрерывно зажимать ^Z до появления приглашения $, нажать Enter, возможно, появится запрос «Enter Passcode:», нажать Enter ещё раз — приглашение $ появится снова; затем выставить нужные параметры TTY, перейти в нужный каталог и продолжать работу с консолью в обычном режиме.</p>
 <empty-line/>
-<subtitle>Начальные настройки STTY</subtitle>
+<section id="toc_sub_000085"><title><p>Начальные настройки STTY</p></title>
 <empty-line/>
 <p>В описанной выше процедуре входа у меня возникали проблемы с некорректными настройками терминала. Исправить это можно командой «stty +echo +edit», после чего всё приходит в норму. Правильные значения параметров и клавиш STTY, по всей видимости, следующие:</p>
 <empty-line/>
@@ -1011,7 +1094,8 @@
 <empty-line/>
 <p>Раскладку клавиш можно модифицировать по желанию, однако параметры, и особенно +edit, судя по всему, обязательны.</p>
 <empty-line/>
-<subtitle>Диски и каталоги</subtitle>
+</section>
+<section id="toc_sub_000086"><title><p>Диски и каталоги</p></title>
 <empty-line/>
 <p>Диски и каталоги организованы способом, отдалённо напоминающим MessDos. Вывод команды «pwd» выглядит примерно как «4:/». «4:» обозначает номер диска, «/» — начало структуры каталогов; «4:/» — корневой каталог диска 4, «3:/tmp» — каталог /tmp на диске 3, и так далее.</p>
 <empty-line/>
@@ -1023,7 +1107,8 @@
 <empty-line/>
 <p>Второй каталог, 4:/cmds, заполнен более специфическими командами, относящимися к функциям самой системы голосовой почты. Эти программы запускаются из других программ и формируют простую в использовании систему меню. Обычно эта система меню запускается сразу после ввода удалённого или консольного пароля, но при использовании описанной выше уязвимости она не запустится. Из оболочки её можно запустить простым вводом имени программы — console.</p>
 <empty-line/>
-<subtitle>Монтирование и инициализация дисков</subtitle>
+</section>
+<section id="toc_sub_000087"><title><p>Монтирование и инициализация дисков</p></title>
 <empty-line/>
 <p>Команда MOUNT без аргументов выдаёт примерно следующее:</p>
 <empty-line/>
@@ -1041,7 +1126,8 @@
 <empty-line/>
 <p>Всё просто. Диск готов к использованию: можно выполнить «mkdir 3:/tmp» или что-то подобное, перенаправлять туда файлы по желанию или использовать для любых других целей. Если что-то случайно перенаправлено на консоль через &gt;$cons, можно воспользоваться строчным редактором «led», чтобы создать временный файл, а затем утилитой «p» очистить экран консоли командой «p filename &gt;$cons», где filename содержит очищающую последовательность из 25 строк, ANSI-бомбу (если уместно), полноэкранный DobbsHead или что угодно на ваш вкус.</p>
 <empty-line/>
-<subtitle>EVMON и перехват паролей</subtitle>
+</section>
+<section id="toc_sub_000088"><title><p>EVMON и перехват паролей</p></title>
 <empty-line/>
 <p>Утилита evmon отвечает за информирование системного администратора о текущей активности в системе голосовой почты. При запуске без аргументов evmon выдаёт вывод, похожий на:</p>
 <empty-line/>
@@ -1063,7 +1149,8 @@
 <empty-line/>
 <p>Тем не менее риск может того стоить, особенно если администратор решит проверить свой ящик — тогда вы получите его пароль, и, возможно, удалённый телефонный доступ к функциям системного администратора через тоновый набор в системе голосовой почты.</p>
 <empty-line/>
-<subtitle>Управление задачами</subtitle>
+</section>
+<section id="toc_sub_000089"><title><p>Управление задачами</p></title>
 <empty-line/>
 <p>Как мы только что отметили, любую задачу, например EVMON, можно запустить в фоне, добавив в конец командной строки символ &amp;, стандартный Unix-символ «запуск в фоне». Идентификатор задачи будет выведен в шестнадцатеричном виде — аналог Unix Process ID. Программа, отвечающая за управление задачами, называется «tsk» и должна находиться в 1:/cmds/tsk. Вывод при запуске tsk без аргументов выглядит примерно так:</p>
 <empty-line/>
@@ -1085,7 +1172,8 @@
 <empty-line/>
 <p>Понимаете, о чём я?</p>
 <empty-line/>
-<subtitle>ddump</subtitle>
+</section>
+<section id="toc_sub_000090"><title><p>ddump</p></title>
 <empty-line/>
 <p>Утилита ddump используется для отображения содержимого указанных блоков диска. Пользоваться ею очень просто:</p>
 <empty-line/>
@@ -1101,7 +1189,8 @@
 <empty-line/>
 <p>И так далее — убеждаемся, что файл содержит некоторые данные. В зависимости от их объёма можно либо продолжать вести запись, либо перезапустить evmon и буферизировать предыдущий вывод.</p>
 <empty-line/>
-<subtitle>led</subtitle>
+</section>
+<section id="toc_sub_000091"><title><p>led</p></title>
 <empty-line/>
 <p>Программа «led» — это ответ Centigram на стандартный текстовый редактор. По функциональности она эквивалентна «ed» в Unix или «edlin» в MS-DOS, но имеет незначительные отличия. «led» используется для создания текстовых файлов, редактирования существующих файлов журналов или исполняемых скриптов оболочки. Введя «led [filename]», вы войдёте в редактор; если имя файла задано и файл существует, он будет загружен, а курсор установлен на строку 1. Если в командной строке не указано имя файла, файл не существует или занят, led начинает редактирование пустого буфера без имени файла.</p>
 <empty-line/>
@@ -1119,7 +1208,8 @@
 <empty-line/>
 <p>Ну, это не совсем DobbsHead. Да ладно.</p>
 <empty-line/>
-<subtitle>Утилита console</subtitle>
+</section>
+<section id="toc_sub_000092"><title><p>Утилита console</p></title>
 <empty-line/>
 <p>Программа, выступающая в роли оболочки меню для администрирования системы голосовой почты, которая обычно запускается при правильном вводе пароля, — это /cmds/console. Она предоставляет меню с различными подменю, позволяющими администратору выполнять широкий спектр задач. Поскольку большинство функций говорит само за себя, предоставляю вам самостоятельно в них разобраться; вместе с тем добавлю несколько комментариев об утилите console. Первое меню выглядит следующим образом:</p>
 <empty-line/>
@@ -1152,7 +1242,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_006_centigram_voice_mail_system_consoles_0487_c2f4a82fe3.png"/>
 <empty-line/>
-<subtitle>Взгляд на «ad»</subtitle>
+</section>
+<section id="toc_sub_000093"><title><p>Взгляд на «ad»</p></title>
 <empty-line/>
 <p>Программа «ad» используется для вывода информации о различных объектах, наиболее полезным из которых являются ящики. Дамп конкретной информации о ящике можно получить либо в формате Mailbox, либо в формате Raw Dump. Формат Mailbox выглядит следующим образом:</p>
 <empty-line/>
@@ -1165,7 +1256,8 @@
 <empty-line/>
 <p>К сожалению, пароль не отображается в формате Mailbox (увы!). Могу сразу сказать: он не отображается и нигде в формате Raw Dump. Программа «asetpass» использовалась для смены пароля тестового ящика; оба полных дампа были скачаны и сопоставлены — они совпали полностью. Таким образом, похоже, что пароли хранятся где-то в другом месте, а дамп содержит лишь ссылку на соответствующее смещение. Это означает, что пока единственный способ получить пароли ящиков — перехватывать их через EVMON.</p>
 <empty-line/>
-<subtitle>Тонкости программы входа</subtitle>
+</section>
+<section id="toc_sub_000094"><title><p>Тонкости программы входа</p></title>
 <empty-line/>
 <p>Консольная программа входа — это 1:/cmds/login. Хотя я не могу распознать какой-либо корректный ассемблер серии 8080 в этой программе (и мне говорили, что Centigram-машины работают на семействе 8080), мне удалось найти несколько интересных деталей внутри. Во-первых, консольный и удалённый пароли, судя по всему, хранятся в файле /config/rates; к сожалению, он зашифрован, и я не собираюсь пытаться взломать схему шифрования. /config/rates выглядит следующим образом:</p>
 <empty-line/>
@@ -1183,13 +1275,15 @@
 <empty-line/>
 <p>Стоит также упомянуть менее важный момент. Если на консоли не заданы пароли, простое нажатие ^Z для активации терминала запустит программу /cmds/console и выполнит вход без запроса пароля. Шансы найти Centigram в таком состоянии сегодня, пожалуй, столь же малы, как вероятность быть поражённым молнией; но лично я могу вспомнить время несколько лет назад, когда одна флоридская компания ещё не установила пароль на своём Centigram. Было очень занятно, когда большое количество людей общалось между собой голосом; ещё веселее было вклиниваться в конференции с несколькими участниками и записывать глупости среднестатистического оператора Bell.</p>
 <empty-line/>
-<subtitle>Специальные клавиши и строки</subtitle>
+</section>
+<section id="toc_sub_000095"><title><p>Специальные клавиши и строки</p></title>
 <empty-line/>
 <p>Существует ряд специальных символов и строк, важных для оболочки или выполняемой программы. Вот некоторые из них:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_006_centigram_voice_mail_system_consoles_0645_6aa0fae817.png"/>
 <empty-line/>
 <p>«Centigram Voice Mail System Consoles» написан анонимно. Файл не связан ни с какими группировками.</p>
+</section>
 </section>
 <section id="sec_issue_039_007_special_area_codes_ii">
 <title><p>Специальные коды зон II</p></title>
@@ -1199,7 +1293,7 @@
 <empty-line/>
 <p>Первый файл «Special Area Codes» появился в Phrack, выпуск 24, а здесь представлен обновлённый список префиксов, используемых в службе бесплатных звонков 800. Список показывает, какой оператор обслуживает вызовы на номера 800-XXX. Выбор маршрутизации оператора для звонков на номера 800-xxx не может быть переопределён с помощью набора 10xxx. Следует также отметить, что при звонках на номера 800 вызываемая сторона — немедленно в ряде случаев или с задержкой — получает запись номеров, с которых поступали звонки. Эта идентификация вызывающей стороны не может быть подавлена с помощью *67 или «блокировки линии», связанной с Caller-ID.</p>
 <empty-line/>
-<subtitle>Таблица маршрутизации 800-номеров</subtitle>
+<section id="toc_sub_000096"><title><p>Таблица маршрутизации 800-номеров</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_007_special_area_codes_ii_0030_a04585d5b1_part01.png"/>
 <image l:href="#img__code_blocks_issue_039_007_special_area_codes_ii_0030_a04585d5b1_part02.png"/>
@@ -1213,6 +1307,7 @@
 <image l:href="#img__code_blocks_issue_039_007_special_area_codes_ii_0030_a04585d5b1_part10.png"/>
 <image l:href="#img__code_blocks_issue_039_007_special_area_codes_ii_0030_a04585d5b1_part11.png"/>
 <image l:href="#img__code_blocks_issue_039_007_special_area_codes_ii_0030_a04585d5b1_part12.png"/>
+</section>
 </section>
 <section id="sec_issue_039_008_air_fone_frequencies">
 <title><p>Частоты Air Fone</p></title>
@@ -1240,25 +1335,28 @@
 <empty-line/>
 <p>8. Мощность ERP наземных станций при связи с воздушными судами на земле ограничена 1 Вт.</p>
 <empty-line/>
-<subtitle>Каналы «Земля — Воздух»</subtitle>
+<section id="toc_sub_000097"><title><p>Каналы «Земля — Воздух»</p></title>
 <empty-line/>
 <p><emphasis>Примечание: «GB» в таблицах обозначает Защитную Полосу (Guard Band) — серию интервалов по 3 кГц для разделения каналов связи и управляющих каналов.</emphasis></p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_008_air_fone_frequencies_0038_89151d23bb_part01.png"/>
 <image l:href="#img__code_blocks_issue_039_008_air_fone_frequencies_0038_89151d23bb_part02.png"/>
 <empty-line/>
-<subtitle>Каналы «Воздух — Земля»</subtitle>
+</section>
+<section id="toc_sub_000098"><title><p>Каналы «Воздух — Земля»</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_008_air_fone_frequencies_0127_c84579d85f_part01.png"/>
 <image l:href="#img__code_blocks_issue_039_008_air_fone_frequencies_0127_c84579d85f_part02.png"/>
 <empty-line/>
-<subtitle>Географическое распределение блоков каналов</subtitle>
+</section>
+<section id="toc_sub_000099"><title><p>Географическое распределение блоков каналов</p></title>
 <empty-line/>
 <p><emphasis>(Наземные станции, использующие один и тот же блок каналов, должны располагаться не менее чем в 300 милях друг от друга)</emphasis></p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_039_008_air_fone_frequencies_0217_7235675403_part01.png"/>
 <image l:href="#img__code_blocks_issue_039_008_air_fone_frequencies_0217_7235675403_part02.png"/>
 <image l:href="#img__code_blocks_issue_039_008_air_fone_frequencies_0217_7235675403_part03.png"/>
+</section>
 </section>
 <section id="sec_issue_039_009_the_open_barn_door">
 <title><p>Незапертые ворота: американские компании под волной иностранного шпионажа</p></title>
@@ -1272,33 +1370,38 @@
 <empty-line/>
 <p>Никто точно не знает, сколько денег теряют американские компании из-за этой чёрной дыры. Иностранные правительства отказываются комментировать разведывательную информацию о бизнесе, которую они собирают. Пострадавшие крайне редко афишируют факты шпионажа или сообщают о них властям — из опасения раскрыть уязвимости перед акционерами. Тем не менее более 30 компаний и экспертов по безопасности, с которыми связался Newsweek, утверждают, что ежегодно из-за краж торговых секретов и технологий теряются миллиарды долларов. На этой неделе судебный подкомитет Палаты представителей проводит слушания для оценки нанесённого ущерба. IBM, ставшая мишенью французских и японских разведывательных операций, оценивает потери от экономического шпионажа и пиратства программного обеспечения в 1 миллиард долларов. IBM отказывается раскрывать подробности, однако отмечает, что шпионаж «охватывает весь спектр — от пропажи товаров с погрузочных доков до людей, заглядывающих через плечо соседа в самолёте».</p>
 <empty-line/>
-<subtitle>Самые бесцеремонные</subtitle>
+<section id="toc_sub_000100"><title><p>Самые бесцеремонные</p></title>
 <empty-line/>
 <p>Французская разведка, Direction Generale de la Securite Exterieure (DGSE), наиболее беззастенчиво занималась экономическим шпионажем: по словам источников в разведывательных кругах, её агенты устанавливали жучки в авиакресла, а в гостиничных номерах бизнесменов устраивали обыски в поисках документов. Три года назад ФБР направило Парижу конфиденциальный протест после того, как установило: агенты DGSE пытались проникнуть в европейские филиалы IBM и Texas Instruments, чтобы передавать секреты французскому конкуренту. Жалоба осталась без ответа. Бюджет французской разведки в этом году был увеличен на 9 процентов — для найма 1000 новых сотрудников. Секретный доклад ЦРУ недавно предупредил об агентах французской разведки, рыщущих по территории Соединённых Штатов в поисках деловых секретов. По данным разведывательных источников, французское посольство в Вашингтоне помогало французским инженерам вести шпионаж в области технологии малозаметности, применяемой американскими производителями боевых самолётов. «Американские бизнесмены, останавливающиеся в парижских гостиницах, должны исходить из того, что содержимое их портфелей будет сфотокопировано», — говорит консультант по безопасности Пол Джойал. Официальные представители DGSE отказались от комментариев.</p>
 <empty-line/>
 <p>Французы — отнюдь не единственные, кто занимается промышленным шпионажем. Сотрудники АНБ подозревают британскую разведку в прослушивании международных телефонных переговоров американских компаний. Следователи, только что разоблачившие банду похитителей людей, которую возглавляли бывшие аргентинские разведчики и полицейские, подозревают, что эта же группировка установила около 500 прослушивающих устройств в офисах иностранных фирм в Буэнос-Айресе и сливала информацию местным компаниям. Консалтинговая фирма из Майами Ackerman Group Inc., отслеживающая случаи шпионажа, недавно предупредила клиентов о египетских агентах разведки, которые с «тревожной частотой» взламывают гостиничные номера приезжающих руководителей компаний.</p>
 <empty-line/>
-<subtitle>Методы работы шпионов</subtitle>
+</section>
+<section id="toc_sub_000101"><title><p>Методы работы шпионов</p></title>
 <empty-line/>
 <p>Жучки и взятки — излюбленный инструментарий. В ходе проверки безопасности американского производителя в Гонконге консультант Ричард Хеффермен обнаружил следы вмешательства в телефонное коммутационное оборудование, хранившееся в шкафу. Он предполагает, что агенты, маскировавшиеся под специалистов по обслуживанию, тайно проникли в помещение и перепрограммировали компьютер маршрутизации звонков — так что кто-то снаружи здания (Хеффермен так и не установил, кто именно) мог прослушивать разговоры, просто набрав код доступа на своём телефоне. Другой пример: потерпев поражение на торгах в последний момент из-за японского конкурента, крупный производитель тяжёлого оборудования из Среднего Запада нанял фирму Parvus Company из Мэриленда, укомплектованную преимущественно бывшими сотрудниками ЦРУ и АНБ. Следователи Parvus установили, что японская фирма завербовала одного из менеджеров среднего звена производителя, имевшего проблемы с наркотиками, для передачи конфиденциальной информации о заявках.</p>
 <empty-line/>
-<subtitle>Законные методы шпионажа</subtitle>
+</section>
+<section id="toc_sub_000102"><title><p>Законные методы шпионажа</p></title>
 <empty-line/>
 <p>Многие иностранные разведывательные операции формально законны. «Научно-технический потенциал этой страны доступен любому желающему, так что красть ничего и не нужно», — говорит Майкл Секора из Technology Strategic Planning, Inc. Взять, к примеру, корпоративные информационные бюллетени — отличный источник данных о квотах. Располагая такими сведениями, опытный агент может восстановить объёмы производства. Американские университеты тоже открыты нараспашку: японские инженеры, прикидывающиеся студентами, передают на родину информацию об исследовательских проектах. «Понаблюдайте за японской делегацией на экскурсии по заводу или на выставке», — советует Роберт Бёрк из Monsanto Company. — «Они снимают всё подряд на видео и подбирают каждый клочок бумаги».</p>
 <empty-line/>
-<subtitle>Компьютерные возможности</subtitle>
+</section>
+<section id="toc_sub_000103"><title><p>Компьютерные возможности</p></title>
 <empty-line/>
 <p>В прежние времена промышленный шпион захаживал в бар неподалёку от завода в расчёте на разговорчивых сотрудников. Теперь ему достаточно компьютера, модема и телефона. В Соединённых Штатах насчитывается около 10 000 компьютерных досок объявлений — неформальных электронных сетей, которые хакеры, инженеры, учёные и государственные чиновники организуют на базе своих персональных компьютеров, чтобы делиться деловыми слухами, последними разработками в области авиадвигателей и даже личными телефонными номерами сотрудников Белого дома.</p>
 <empty-line/>
 <p>Агент составляет список ключевых слов, связанных с интересующей его технологией, которые инициируют ответы с досок объявлений. Затем, прикидываясь студентом в поисках информации, он набирает с компьютера номера досок объявлений в городе, где расположено нужное предприятие, и «находит какого-нибудь доктора наук, который рад похвастаться своими знаниями», — рассказывает Томас Собчак из Application Configured Computers, Inc. Однажды Собчак обнаружил европейского агента под вымышленным именем, который задавал вопросы о двигателях подводных лодок на доске объявлений близ Гротона, штат Коннектикут. Те же вопросы под другим хакерским псевдонимом появлялись на досках объявлений в Чарлстоне, Южная Каролина, и Бремертоне, штат Вашингтон. Во всех трёх городах строятся или базируются военно-морские подводные лодки.</p>
 <empty-line/>
-<subtitle>Ответные меры</subtitle>
+</section>
+<section id="toc_sub_000104"><title><p>Ответные меры</p></title>
 <empty-line/>
 <p>Используя перехваченные телефонные переговоры, АНБ время от времени предупреждает американские компании, ставшие жертвами иностранных шпионов. Директор Гейтс пообещал активнее защищать компании от агентов за рубежом, предупреждая их о враждебных проникновениях. ФБР расширило программу экономической контрразведки. Государственный департамент также запустил пилотную программу совместно с 50 компаниями из списка Fortune 500, позволяющую их руководителям, выезжающим за рубеж, пользоваться теми же портативными защищёнными телефонами, что и американские официальные лица.</p>
 <empty-line/>
 <p>Тем не менее американские ведомства всё ещё ищут способ вступить в войну деловых разведок. ФБР не хочет, чтобы компании получили первоклассные средства шифрования, — из опасения, что бюро не сможет взломать коды при прослушивании телефонных переговоров в ходе уголовных расследований. ЦРУ действует осторожно, поскольку многие из иностранных спецслужб, «против которых вам в наибольшей мере понадобится защита, как раз являются его ближайшими союзниками», — замечает бывший сотрудник ЦРУ Джордж Карвер. Даже сами американские компании опасаются чрезмерного сближения с государственными агентами. Но при растущем числе иностранных шпионов, охотящихся за прибылью, американским компаниям необходимо прилагать больше усилий для защиты своих секретов.</p>
 <empty-line/>
-<subtitle>Как работают шпионы</subtitle>
+</section>
+<section id="toc_sub_000105"><title><p>Как работают шпионы</p></title>
 <empty-line/>
 <p><strong>ДЕНЬГИ РЕШАЮТ ВСЁ</strong></p>
 <empty-line/>
@@ -1316,13 +1419,14 @@
 <empty-line/>
 <p>Решили оставить портфель в номере? Шпионам это только на руку. Один из их излюбленных приёмов — тайно проникнуть в номер, скопировать документы и похитить компьютерные диски. Забыли где-то записать пароль? Теперь у них есть доступ ко всей корпоративной компьютерной системе.</p>
 </section>
+</section>
 <section id="sec_issue_039_010_phrack_world_news_xxxix_part_one">
 <title><p>Новости мира Phrack</p></title>
 <p><strong>Выпуск XXXIX / Часть первая из четырёх</strong></p>
 <empty-line/>
 <p><strong>Составитель:</strong> Datastream Cowboy</p>
 <empty-line/>
-<subtitle>Для некоторых хакеров понятия «правильно» и «неправильно» не работают</subtitle>
+<section id="toc_sub_000106"><title><p>Для некоторых хакеров понятия «правильно» и «неправильно» не работают</p></title>
 <empty-line/>
 <p><emphasis>11 мая 1992 г.</emphasis></p>
 <empty-line/>
@@ -1356,7 +1460,7 @@
 <empty-line/>
 <p>Они говорят на специализированном жаргоне из двоеточий, косых черт и знаков равенства. Они работают одержимо — иногда навязчиво, — чтобы расшифровать и декодировать: это хакерский аналог взлома и проникновения. Они эксплуатируют лазейки и изъяны, чтобы продемонстрировать технологическую удаль.</p>
 <empty-line/>
-<p>«Основа ценности — то, что ты знаешь», — говорит хакер. «Слово &quot;лох&quot; услышишь часто, особенно если кто-то мало на что способен».</p>
+<p>«Основа ценности — то, что ты знаешь», — говорит хакер. «Слово "лох" услышишь часто, особенно если кто-то мало на что способен».</p>
 <empty-line/>
 <p>Они обмениваются номерами кредитных карт по электронной почте и на цифровых досках объявлений, установленных на персональных компьютерах. Они торгуют кодами доступа к компьютерам, паролями, хакерскими техниками и прочей информацией.</p>
 <empty-line/>
@@ -1364,7 +1468,8 @@
 <empty-line/>
 <p>Главный вопрос для хакера, говорит он, — что ты делаешь с информацией, когда она у тебя есть. Для некоторых понятие сдержанности — нечто чуждое.</p>
 <empty-line/>
-<subtitle>Богатая история</subtitle>
+</section>
+<section id="toc_sub_000107"><title><p>Богатая история</p></title>
 <empty-line/>
 <p>Хакерству едва исполнилось 20 лет, а история его уже богата легендами.</p>
 <empty-line/>
@@ -1390,7 +1495,8 @@
 <empty-line/>
 <p>«Мы будем пытаться считывать магнитные полосы карт, — продолжил он. — Мы будем пытаться разобраться, как работают схемы паролей. Это не изменится. Должны измениться меры безопасности, которые компании обязаны принять».</p>
 <empty-line/>
-<subtitle>Angelheaded hipsters</subtitle>
+</section>
+<section id="toc_sub_000108"><title><p>Angelheaded hipsters</p></title>
 <empty-line/>
 <p>Настоящие хакеры видят себя — словами поэта Аллена Гинзберга — «ангелоголовыми хипстерами, горящими древним небесным соединением с звёздным динамо в ночных механизмах». Именно эти слова использовал Ли Фельзенштейн, конструктор компьютера Osborne-1 и сооснователь Homebrew Computer Club.</p>
 <empty-line/>
@@ -1412,7 +1518,7 @@
 <empty-line/>
 <p>Они также получили доступ к записям переговоров Стерлинга по дальней связи и разослали оскорбительные звонки многим людям, которые общались со Стерлингом.</p>
 <empty-line/>
-<p>«Большинство прочитанных мной новостных материалов упрощают проблему до тезиса &quot;хакер есть хакер есть хакер&quot;», — сказал Донн Паркер, консультант по компьютерной безопасности из SRI International в Менло-Парке.</p>
+<p>«Большинство прочитанных мной новостных материалов упрощают проблему до тезиса "хакер есть хакер есть хакер"», — сказал Донн Паркер, консультант по компьютерной безопасности из SRI International в Менло-Парке.</p>
 <empty-line/>
 <p>«В реальной жизни мы имеем дело с очень широким спектром людей, — говорит Паркер. — Он простирается от 14-летних, разыгрывающих друзей, до закоренелых малолетних правонарушителей, профессиональных преступников и международных террористов».</p>
 <empty-line/>
@@ -1428,7 +1534,8 @@
 <empty-line/>
 <p>Скорее, кредитные бюро стоит привлекать к ответственности за ненадлежащую компьютерную безопасность, считает Гольдштейн.</p>
 <empty-line/>
-<subtitle>Компании становятся жертвами масштабного мошенничества с АТС</subtitle>
+</section>
+<section id="toc_sub_000109"><title><p>Компании становятся жертвами масштабного мошенничества с АТС</p></title>
 <empty-line/>
 <p><emphasis>20 апреля 1992 г.</emphasis></p>
 <empty-line/>
@@ -1450,11 +1557,11 @@
 <empty-line/>
 <p>Гольдштейн также затронул трудности, которые создают для пользователей некоторые независимые «принадлежащие клиентам монетные» телефоны (COCOT). «Тарифы часто завышены, доступ к AT&amp;T через 10288 иногда заблокирован, в некоторых системах нет даже нормального доступа к 911, а некоторые либо блокируют 800-е звонки, либо реально пытаются брать деньги за соединение с 800-ми номерами.</p>
 <empty-line/>
-<p>«Мы даже находили COCOTы, которые при звонке &quot;за счёт вызываемого&quot; проводили списание, когда трубку брал автоответчик и звонивший вешал трубку, поняв, что никого нет дома. Они настроены на начало тарификации при обнаружении человеческого голоса, если звонящий не кладёт трубку в течение 5–10 секунд».</p>
+<p>«Мы даже находили COCOTы, которые при звонке "за счёт вызываемого" проводили списание, когда трубку брал автоответчик и звонивший вешал трубку, поняв, что никого нет дома. Они настроены на начало тарификации при обнаружении человеческого голоса, если звонящий не кладёт трубку в течение 5–10 секунд».</p>
 <empty-line/>
 <p>Делани согласился, что COCOTы, работающие подобным образом, представляют постоянную проблему для ничего не подозревающих пользователей, однако сказал, что жалоб на противоправные действия к нему не поступало. Вместе с тем он отметил, что получал жалобы на мошеннические операции с номерами 540 — местным нью-йоркским аналогом 900-х номеров. «Большинство людей не понимают, что 540-й номер является платным, и становятся жертвами подобных схем. Был случай, когда некто заставил компьютер звонить на 8000 телефонных номеров в блоках пейджеров каждую ночь. Компьютер отправлял номер 540 на пейджеры. Люди, звонившие на этот номер, получали какую-то безобидную информацию, а в конце месяца в их телефонном счёте обнаруживалось 55 долларов».</p>
 <empty-line/>
-<p>Делани продолжил: «Общественности стоит серьёзно беспокоиться о телефонном мошенничестве, особенно в Нью-Йорке, который можно назвать &quot;центром мошенничества США&quot;. Зайдите в автовокзал Port Authority и посмотрите на балкон — увидите ряды людей, занимающихся &quot;плечевым сёрфингом&quot; с биноклями. Они держат бинокли и подзорные трубы, направленные на общественные телефоны. Когда видят человека, звонящего по кредитной карте, повторяют цифры в диктофон. Потом номер продаётся, и через несколько дней им пользуются по всему городу. Люди всегда должны помнить о возможности плечевых сёрферов поблизости».</p>
+<p>Делани продолжил: «Общественности стоит серьёзно беспокоиться о телефонном мошенничестве, особенно в Нью-Йорке, который можно назвать "центром мошенничества США". Зайдите в автовокзал Port Authority и посмотрите на балкон — увидите ряды людей, занимающихся "плечевым сёрфингом" с биноклями. Они держат бинокли и подзорные трубы, направленные на общественные телефоны. Когда видят человека, звонящего по кредитной карте, повторяют цифры в диктофон. Потом номер продаётся, и через несколько дней им пользуются по всему городу. Люди всегда должны помнить о возможности плечевых сёрферов поблизости».</p>
 <empty-line/>
 <p>Гольдштейн вернулся к теме 540-х номеров, отметив, что «поскольку многие не понимают, что этот номер тарифицируется, они попадаются на рекламу и в итоге платят за мошеннические звонки. Мы публиковали в 2600 Magazine фотографию афиши, расклеенной по Нью-Йорку, в которой предлагалась помощь в аренде жилья по звонку на 540-й номер. Мелким шрифтом, почти нечитаемым, упоминается плата. Люди должны быть очень внимательны».</p>
 <empty-line/>
@@ -1462,7 +1569,8 @@
 <empty-line/>
 <p>Гольдштейн, Phiber Optik и Делани провели остаток шоу, отвечая на вопросы слушателей. «Off The Hook» выходит каждую среду вечером на нью-йоркском радио WBAI (99.5 FM). Среди недавних гостей — Майк Годвин, штатный советник Electronic Frontier Foundation, и Стив Джексон, генеральный директор Steve Jackson Games.</p>
 <empty-line/>
-<subtitle>Меняющиеся аспекты компьютерной преступности обсуждены на NYACC</subtitle>
+</section>
+<section id="toc_sub_000110"><title><p>Меняющиеся аспекты компьютерной преступности обсуждены на NYACC</p></title>
 <empty-line/>
 <p><emphasis>15 мая 1992 г.</emphasis></p>
 <empty-line/>
@@ -1480,9 +1588,9 @@
 <empty-line/>
 <p>Делани также сказал, что мошенничество с АТС будет оставаться проблемой до тех пор, пока компании, использующие АТС-системы, в полной мере не разберутся в возможностях своих систем и не примут все возможные меры для обеспечения безопасности. «Многие компании даже не подозревают, что их системы имеют функцию исходящих звонков, пока не получают дополнительные ежемесячные телефонные счета на сумму свыше 35 000 долларов. Они не понимают, что у системы есть пароли по умолчанию, которые необходимо менять, — сказал он. — Некоторых малых предпринимателей это осознание настигает уже после того, как мошеннические расходы на дальнюю связь доводят их до банкротства».</p>
 <empty-line/>
-<p>Годвин, в свою очередь, выразил обеспокоенность недостаточным признанием уникальности систем BBS и конференц-связи, из-за чего законодатели могут принимать решения на основе ошибочных представлений. «Телефонные разговоры, за исключением примитивных систем конференц-вызова, — это коммуникация &quot;один на один&quot;. Газеты, радио и телевидение — системы &quot;один ко многим&quot;, тогда как BBS — это &quot;многие ко многим&quot;, и это принципиально иначе. EFF заинтересован в том, чтобы защита по Первой поправке распространялась и на BBS».</p>
+<p>Годвин, в свою очередь, выразил обеспокоенность недостаточным признанием уникальности систем BBS и конференц-связи, из-за чего законодатели могут принимать решения на основе ошибочных представлений. «Телефонные разговоры, за исключением примитивных систем конференц-вызова, — это коммуникация "один на один". Газеты, радио и телевидение — системы "один ко многим", тогда как BBS — это "многие ко многим", и это принципиально иначе. EFF заинтересован в том, чтобы защита по Первой поправке распространялась и на BBS».</p>
 <empty-line/>
-<p>Он продолжил: «Нас также беспокоит, что правоохранительные органы будут реагировать на вызовы новых технологий неадекватными способами. ФБР и Министерство юстиции в рамках &quot;Инициативы по цифровой телефонии&quot; запросили, чтобы телефонные компании, такие как AT&amp;T и Sprint, были обязаны предоставлять правоохранительным органам средства прослушивания, невзирая на технологические изменения, делающие нынешние методы менее эффективными.</p>
+<p>Он продолжил: «Нас также беспокоит, что правоохранительные органы будут реагировать на вызовы новых технологий неадекватными способами. ФБР и Министерство юстиции в рамках "Инициативы по цифровой телефонии" запросили, чтобы телефонные компании, такие как AT&amp;T и Sprint, были обязаны предоставлять правоохранительным органам средства прослушивания, невзирая на технологические изменения, делающие нынешние методы менее эффективными.</p>
 <empty-line/>
 <p>«Такой подход фактически превратил бы компании в часть системы слежки, и мы не считаем это их функцией. Мы полагаем, что правоохранительные органы должны сами разрабатывать инструменты борьбы с преступностью. Когда был изобретён телефон, это усложнило поимку преступников. Им больше не нужно было стоять рядом, чтобы строить злодейские планы — можно было делать это по телефону. Потом государство изобрело прослушку и смогло справиться с ситуацией.</p>
 <empty-line/>
@@ -1498,7 +1606,8 @@
 <empty-line/>
 <p>Сессия вопросов и ответов продолжалась около 45 минут; большинство вопросов касались шифрования и предложения ФБР о прослушивании.</p>
 <empty-line/>
-<subtitle>Пара неловких ребят</subtitle>
+</section>
+<section id="toc_sub_000111"><title><p>Пара неловких ребят</p></title>
 <empty-line/>
 <p><emphasis>24 апреля 1992 г.</emphasis></p>
 <empty-line/>
@@ -1516,7 +1625,8 @@
 <empty-line/>
 <p>По данным официальных лиц, молодых людей поймали после того, как они якобы заказали компьютерное оборудование на 1043 доллара по номеру кредитной карты, электронно похищенному из банковских записей.</p>
 <empty-line/>
-<subtitle>Хакеры</subtitle>
+</section>
+<section id="toc_sub_000112"><title><p>Хакеры</p></title>
 <empty-line/>
 <p><emphasis>27 апреля 1992 г.</emphasis></p>
 <empty-line/>
@@ -1528,7 +1638,8 @@
 <empty-line/>
 <p>Это открытие уже привело к аресту двух хакеров из Огайо и изъятию компьютерного оборудования в трёх городах.</p>
 <empty-line/>
-<subtitle>Министерство обороны получает перехватчики факсов</subtitle>
+</section>
+<section id="toc_sub_000113"><title><p>Министерство обороны получает перехватчики факсов</p></title>
 <empty-line/>
 <p><emphasis>14 апреля 1992 г.</emphasis></p>
 <empty-line/>
@@ -1564,7 +1675,8 @@
 <empty-line/>
 <p>Г-н Кардонита сообщил, что Командование разведки ВВС будет использовать устройства только по приглашению старшего командира авиабазы.</p>
 <empty-line/>
-<subtitle>Ожидается, что дело о мошенничестве с 900-ми номерами станет прецедентом</subtitle>
+</section>
+<section id="toc_sub_000114"><title><p>Ожидается, что дело о мошенничестве с 900-ми номерами станет прецедентом</p></title>
 <empty-line/>
 <p><emphasis>2 апреля 1992 г.</emphasis></p>
 <empty-line/>
@@ -1584,13 +1696,14 @@
 <empty-line/>
 <p>По его словам, за последние два года прокуроры штатов предприняли меры против 150 организаций, предположительно злоупотреблявших 900-ми номерами.</p>
 </section>
+</section>
 <section id="sec_issue_039_011_phrack_world_news_xxxix_part2">
 <title><p>Мировые новости Phrack, выпуск XXXIX, часть вторая из четырёх</p></title>
 <image l:href="#img__code_blocks_issue_039_011_phrack_world_news_xxxix_part2_0003_32b2b81953.png"/>
 <empty-line/>
 <p><strong>Автор:</strong> Datastream Cowboy</p>
 <empty-line/>
-<subtitle>Атака кардеров — 26 мая 1992 года</subtitle>
+<section id="toc_sub_000115"><title><p>Атака кардеров — 26 мая 1992 года</p></title>
 <empty-line/>
 <p><emphasis>Джошуа Квиттнер (Joshua Quittner), газета «New York Newsday», стр. 45</emphasis></p>
 <empty-line/>
@@ -1662,7 +1775,8 @@
 <empty-line/>
 <p>— То, что они не принимают самых базовых мер безопасности, по-моему, делает их виновными в халатности, — сказал Нейдорф. — Конечно, можно арестовывать подростков и ругаться, но почему Equifax и другие кредитные бюро не предотвращают само преступление? Мне очевидно, что всё, что они делают, скорее всего, недостаточно.</p>
 <empty-line/>
-<subtitle>Краткая история кардинга</subtitle>
+</section>
+<section id="toc_sub_000116"><title><p>Краткая история кардинга</p></title>
 <empty-line/>
 <p><strong>6 сентября 1991 года.</strong> 18-летний американский эмигрант, проживающий в Израиле, арестован там за проникновение в военные, банковские компьютеры и компьютеры кредитных бюро. Полиция сообщила, что он распространял номера кредитных карт хакерам в Канаде и Соединённых Штатах, которые использовали их для снятия наличных в неустановленных объёмах.</p>
 <empty-line/>
@@ -1674,7 +1788,8 @@
 <empty-line/>
 <p><strong>22 апреля 1992 года.</strong> Двое подростков из Куинса арестованы за кардинг компьютерного оборудования.</p>
 <empty-line/>
-<subtitle>Вторжение в вашу частную жизнь — 24 мая 1992 года</subtitle>
+</section>
+<section id="toc_sub_000117"><title><p>Вторжение в вашу частную жизнь — 24 мая 1992 года</p></title>
 <empty-line/>
 <p><emphasis>Роб Джонсон (Rob Johnson), газета «The Atlanta Journal and Constitution», стр. A9</emphasis></p>
 <empty-line/>
@@ -1720,11 +1835,12 @@
 <empty-line/>
 <p>Ошеломлённый журналист увидел на экране свои кредитный отчёт и номера кредитных карт. Voodoo Child предложил воспользоваться клавиатурой — своеобразное знакомство с таинственным и пугающим сообщником, скрывавшимся в глубинах цифрового иного мира. — Давай, — сказал он. — Спрашивай что хочешь.</p>
 <empty-line/>
-<subtitle>KV4FZ: виновен в телефонном мошенничестве — 15 мая 1992 года</subtitle>
+</section>
+<section id="toc_sub_000118"><title><p>KV4FZ: виновен в телефонном мошенничестве — 15 мая 1992 года</p></title>
 <empty-line/>
 <p><emphasis>Джон Райс (John Rice, rice@ttd.teradyne.com), TELECOM Digest V12 #412</emphasis></p>
 <empty-line/>
-<p>Гербert Л. «Херб» Шёнбом (Herbert L. &quot;Herb&quot; Schoenbohm), KV4FZ, радиолюбитель c острова Сент-Кроикс, признан виновным в федеральном суде в умышленном мошенничестве против компании — перепродавца услуг дальней телефонной связи Виргинских островов. 24 апреля он был осуждён за хранение и использование до пятнадцати несанкционированных телефонных карт доступа в межштатной и международной торговле почти пять лет назад.</p>
+<p>Гербert Л. «Херб» Шёнбом (Herbert L. "Herb" Schoenbohm), KV4FZ, радиолюбитель c острова Сент-Кроикс, признан виновным в федеральном суде в умышленном мошенничестве против компании — перепродавца услуг дальней телефонной связи Виргинских островов. 24 апреля он был осуждён за хранение и использование до пятнадцати несанкционированных телефонных карт доступа в межштатной и международной торговле почти пять лет назад.</p>
 <empty-line/>
 <p>Похищенные коды дальнего телефонного доступа принадлежали компании Caribbean Automated Long Lines Service, Inc. (CALLS) с острова Сент-Томас, Американские Виргинские острова. Шёнбом был признан виновным в совершении несанкционированных звонков на сумму более $1 000, хотя обвинение утверждало, что его ответственность значительно больше.</p>
 <empty-line/>
@@ -1752,7 +1868,8 @@
 <empty-line/>
 <p>Шёнбом был очень заметной и громкой фигурой в любительских радиосетях. Некоторые радиолюбители теперь добиваются отзыва его любительской лицензии и позаботились о том, чтобы Комиссия была полностью осведомлена о его осуждении.</p>
 <empty-line/>
-<subtitle>AT&amp;T запускает программу борьбы с кражей услуг дальней связи — 13 мая 1992 года</subtitle>
+</section>
+<section id="toc_sub_000119"><title><p>AT&amp;T запускает программу борьбы с кражей услуг дальней связи — 13 мая 1992 года</p></title>
 <empty-line/>
 <p><emphasis>Вирджиния Рэндалл (Virginia Randall), United Press International/UPI</emphasis></p>
 <empty-line/>
@@ -1810,6 +1927,7 @@
 <empty-line/>
 <p>Джим Коллинз (Jim Collins), представитель MCI Communications в Вашингтоне, сообщил, что его компания в течение четырёх лет бесплатно проводит для клиентов семинары по борьбе с телефонным мошенничеством.</p>
 </section>
+</section>
 <section id="sec_issue_039_012_phrack_world_news_xxxix_3">
 <title><p>Новые телефоны срывают прослушку ФБР</p></title>
 <image l:href="#img__code_blocks_issue_039_012_phrack_world_news_xxxix_3_0003_1d20d9b6e3.png"/>
@@ -1858,7 +1976,7 @@
 <empty-line/>
 <p>Реальная опасность предложения ФБР состоит в том, что встроенные для нужд ФБР возможности прослушивания могут быть взломаны и использованы внутренними преступниками или коммерческими шпионами из иностранных государств, говорит Джерри Берман, директор Electronic Frontier Foundation — организации по защите прав пользователей компьютеров в Кембридже, штат Массачусетс.</p>
 <empty-line/>
-<p>«Каждый раз, когда проводится слушание о компьютерных хакерах, компьютерной безопасности или вторжении в сети AT&amp;T, звучит обсуждение того, что эти компании делают недостаточно для обеспечения безопасности. А теперь вот появилось целое предложение: &quot;Давайте сделаем наши компьютеры более уязвимыми.&quot; Если вы делаете их более уязвимыми для Бюро, разве вы не делаете их более уязвимыми для компьютерного вора?»</p>
+<p>«Каждый раз, когда проводится слушание о компьютерных хакерах, компьютерной безопасности или вторжении в сети AT&amp;T, звучит обсуждение того, что эти компании делают недостаточно для обеспечения безопасности. А теперь вот появилось целое предложение: "Давайте сделаем наши компьютеры более уязвимыми." Если вы делаете их более уязвимыми для Бюро, разве вы не делаете их более уязвимыми для компьютерного вора?»</p>
 <empty-line/>
 <p>Правозащитники также опасаются, что упрощение прослушивания будет стимулировать её использование — что ФБР категорически отрицает.</p>
 <empty-line/>
@@ -1872,7 +1990,7 @@
 <empty-line/>
 <p>«Сегодня прослушать телефон крайне легко: любой человек с небольшими знаниями может залезть на телефонный столб и прослушать чью-то линию», — говорит Калстром. «Когда цифровая сеть станет полностью цифровой от конца до конца, это исключит самодеятельность. С точки зрения конфиденциальности — это значительно более безопасная сеть».</p>
 <empty-line/>
-<subtitle>ФБР усиливает противостояние с компьютерными и телефонными компаниями</subtitle>
+<section id="toc_sub_000120"><title><p>ФБР усиливает противостояние с компьютерными и телефонными компаниями</p></title>
 <empty-line/>
 <p><strong>Источник:</strong> Los Angeles Times (раздел «Бизнес», часть D, стр. 2) <strong>Дата:</strong> 4 мая 1992 г.</p>
 <empty-line/>
@@ -1906,7 +2024,8 @@
 <empty-line/>
 <p><emphasis>Дополнительные статьи по этой теме см. в: Phrack 38, файл 11: «Предложение о цифровой телефонии».</emphasis></p>
 <empty-line/>
-<subtitle>ФБР добивается доступа к базам данных рассылок для использования в расследованиях</subtitle>
+</section>
+<section id="toc_sub_000121"><title><p>ФБР добивается доступа к базам данных рассылок для использования в расследованиях</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Ray Schultz (DMNews, стр. 1) <strong>Дата:</strong> 20 апреля 1992 г. <strong>Особая благодарность:</strong> The Omega и White Knight</p>
 <empty-line/>
@@ -1964,7 +2083,8 @@
 <empty-line/>
 <p>Попытка IRS в 1984 году, по имеющимся сведениям, потерпела неудачу, однако вызвала общественное возмущение и нанесла огромный репутационный ущерб отрасли. Хотя Polk, MetroMail и Donnelley отказались сдавать свои базы данных в аренду для этих целей, IRS смогло найти другие базы данных через Dunhill of Washington. Большинство отраслевых источников считают, что подобные усилия обречены на провал, поскольку базы данных полезны лишь для идентификации людей в совокупности, а не как отдельных личностей.</p>
 <empty-line/>
-<subtitle>Знаете ли вы, где находится ваш ноутбук?</subtitle>
+</section>
+<section id="toc_sub_000122"><title><p>Знаете ли вы, где находится ваш ноутбук?</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Robert Kelly (InformationWeek) <strong>Дата:</strong> 11 мая 1992 г.</p>
 <empty-line/>
@@ -1992,7 +2112,8 @@
 <empty-line/>
 <p>Подобные истории — а их немало — побудили многие американские компании декларировать озабоченность кражами ноутбуков, однако почти во всех случаях реальных мер практически не принимается. «Руководство имеет слабое представление или вовсе не представляет об уязвимости своих систем», — говорит Винн Швартау, исполнительный директор InterPact — компании по информационной безопасности в Нэшвилле. Это неудивительно, добавляет Чапник из CSI: «Безопасность обычно отстаёт от технологий на несколько лет».</p>
 <empty-line/>
-<subtitle>Наверстать упущенное</subtitle>
+</section>
+<section id="toc_sub_000123"><title><p>Наверстать упущенное</p></title>
 <empty-line/>
 <p>Тем не менее некоторые компании стараются быстро сократить этот разрыв. Boeing Corp., Grumman Corp. и Martin Marietta Corp., среди прочих, приняли строгую политику в отношении безопасности портативных данных. Она включает обучение сотрудников правилам безопасного использования ноутбуков и даже инструктаж по возвращении из командировки. По имеющимся сведениям, одна компания смогла благодаря такому разбору полётов идентифицировать один из европейских отелей как угрозу безопасности данных и внести его в список нежелательных для будущих поездок.</p>
 <empty-line/>
@@ -2008,11 +2129,13 @@
 <empty-line/>
 <p>Но что если все меры окажутся бесполезными? Аппаратное обеспечение всегда можно застраховать — а можно ли застраховать данные? Пока нет, но скоро, сообщает нэшвиллский информационный бюллетень Security Insider Report. Один стартап в ближайшее время начнёт предлагать полисы страхования данных, которые могут включать покрытие убытков от потери информации при краже портативного компьютера.</p>
 <empty-line/>
-<subtitle>Корпоративное сотрудничество</subtitle>
+</section>
+<section id="toc_sub_000124"><title><p>Корпоративное сотрудничество</p></title>
 <empty-line/>
 <p>Однако от защиты до страхования — ни одна мера не сработает, если владельцы ноутбуков не отнесутся к проблеме серьёзно. А этого не всегда происходит. Характерный пример: в конце 1980-х годов Налоговое управление обратилось в фирму Швартау с просьбой разработать план защиты конфиденциальных данных, передаваемых по телефонным линиям между 30 000 ноутбуков, которыми пользуются выездные аудиторы, и офисами IRS. Швартау нашёл решение. Однако IRS отложило свои планы по обеспечению безопасности и с тех пор ничего по этому поводу не предпринимало, утверждает он.</p>
 <empty-line/>
 <p>Даже те, кто должен разбираться в вопросе лучше других, могут стать жертвами волны компьютерных преступлений. Около 18 месяцев назад Бен Розен, председатель производителя ноутбуков Compaq Computer Corp., оставил свою машину в поезде — её немедленно украли. Розен настаивает на том, что в компьютере не было конфиденциальных данных, однако то, что в нём было, он потерял. В отличие от планов Шварцкопфа, ноутбук так и не был возвращён.</p>
+</section>
 </section>
 <section id="sec_issue_039_013_phrack_world_news_39_4">
 <title><p>Новости мирового хакерства. Выпуск XXXIX. Часть четвёртая из четырёх</p></title>
@@ -2020,7 +2143,7 @@
 <empty-line/>
 <p><strong>Автор:</strong> Datastream Cowboy</p>
 <empty-line/>
-<subtitle>Авиакомпания заявляет, что пассажир нарушил закон ради экономии — 21 апреля 1992</subtitle>
+<section id="toc_sub_000125"><title><p>Авиакомпания заявляет, что пассажир нарушил закон ради экономии — 21 апреля 1992</p></title>
 <empty-line/>
 <p><emphasis>Дель Джонс (USA Today, стр. 1B)</emphasis></p>
 <empty-line/>
@@ -2070,7 +2193,8 @@
 <empty-line/>
 <p>Авиакомпании знают о существовании мошенничества, но редко прибегают к судебным мерам, поскольку «не хотят платить за лечение больше, чем стоит болезнь», говорит Дэвис.</p>
 <empty-line/>
-<subtitle>Похитители приватности — май 1992</subtitle>
+</section>
+<section id="toc_sub_000126"><title><p>Похитители приватности — май 1992</p></title>
 <empty-line/>
 <p><emphasis>Уильям Барнхилл (AARP Bulletin)</emphasis> <emphasis>Особая благодарность: Beta-Ray Bill</emphasis></p>
 <empty-line/>
@@ -2088,7 +2212,7 @@
 <empty-line/>
 <p>Это мошенничество посягает на то, что большинство американцев считают базовой ценностью: право хранить личную информацию в тайне. Однако, по словам юристов, это право размывается: сведения, которые люди хотели бы сохранить в тайне, становятся доступны потенциальным кредиторам, работодателям и другим лицам, способным извлечь из них выгоду.</p>
 <empty-line/>
-<p>Это «вторжение в частную жизнь», по словам Морея, будет только усиливаться. «Мы наблюдаем рост числа &quot;информационных брокеров&quot;, пытающихся получить, купить и продать данные SSA, — говорит он. — По мере роста спроса на эту информацию брокеры всё активнее прибегают к противоправным методам».</p>
+<p>Это «вторжение в частную жизнь», по словам Морея, будет только усиливаться. «Мы наблюдаем рост числа "информационных брокеров", пытающихся получить, купить и продать данные SSA, — говорит он. — По мере роста спроса на эту информацию брокеры всё активнее прибегают к противоправным методам».</p>
 <empty-line/>
 <p>Подобные записи ценны, объясняет Морей, поскольку содержат сведения о доходах за всю жизнь, трудовой деятельности, текущих льготах, реквизитах прямого депозита и номерах банковских счетов.</p>
 <empty-line/>
@@ -2114,11 +2238,12 @@
 <empty-line/>
 <p><emphasis>Связанные материалы:</emphasis></p>
 <empty-line/>
-<p>• Phrack World News, выпуск 37, часть 1: «Обвинения &quot;информационных брокеров&quot;», январь 1992, из The Privacy Journal</p>
+<p>• Phrack World News, выпуск 37, часть 1: «Обвинения "информационных брокеров"», январь 1992, из The Privacy Journal</p>
 <p>• Phrack World News, выпуск 37, часть 1: «Нарушения баз данных SSA и ФБР вынудили провести оценку безопасности», 13 января 1992, Кевин М. Бэрсон (Federal Computer Week, стр. 1, 41)</p>
 <p>• Phrack World News, выпуск 38, часть 2: «Частные данные социального обеспечения проданы информационным брокерам», 29 февраля 1992, Р.А. Залдивар (San Jose Mercury News)</p>
 <empty-line/>
-<subtitle>Вирус Ultra-Max вторгается во Вселенную Marvel — 18 мая 1992</subtitle>
+</section>
+<section id="toc_sub_000127"><title><p>Вирус Ultra-Max вторгается во Вселенную Marvel — 18 мая 1992</p></title>
 <empty-line/>
 <p><emphasis>Барбара Э. Макмаллен и Джон Ф. Макмаллен (Newbytes)</emphasis></p>
 <empty-line/>
@@ -2144,17 +2269,18 @@
 <empty-line/>
 <p>Когда Ultra-Max запускает ракету, Вандер-Мэн летит вместе с ней, чтобы отключить спутник прежде, чем Ultra-Max сможет захватить всю спутниковую систему обороны США. Вандер-Мэну удаётся вывести ракету из строя и покинуть её незадолго до взрыва. Сегмент завершается тем, что Вандер-Мэн уверен в уничтожении Ultra-Max, не зная, что тот бежал в аварийной ракете с вычислительным центром. Последние слова Ultra-Max в этом сегменте: «Однако я продолжаю существовать. В конечном счёте я найду систему, с которой смогу взаимодействовать. В конечном счёте я снова вырасту».</p>
 <empty-line/>
-<p>Редактор Marvel Фабиан Ничеза сообщил Newsbytes, что сегмент «Стражей Галактики», запланированный к выходу 23 мая, разворачивается на 1000 лет в будущем и посвящён контакту Ultra-Max с компьютерами будущего. Ничеза объяснил Newsbytes, как развивалась история «The System Bytes»: «Изначальная концепция принадлежит мне. Каждый год мы выпускаем отдельный ежегодник для каждого из наших главных персонажей, и в последние годы мы ввели практику сюжетных связок по нескольким сериям. С различными сериями о Человеке-Пауке или между Мстителями и Западным Побережьем Мстителей это сделать относительно легко, но с этими сериями сложнее — они более или менее самостоятельны, особенно &quot;Стражи Галактики&quot;, действие которых происходит 1000 лет в будущем».</p>
+<p>Редактор Marvel Фабиан Ничеза сообщил Newsbytes, что сегмент «Стражей Галактики», запланированный к выходу 23 мая, разворачивается на 1000 лет в будущем и посвящён контакту Ultra-Max с компьютерами будущего. Ничеза объяснил Newsbytes, как развивалась история «The System Bytes»: «Изначальная концепция принадлежит мне. Каждый год мы выпускаем отдельный ежегодник для каждого из наших главных персонажей, и в последние годы мы ввели практику сюжетных связок по нескольким сериям. С различными сериями о Человеке-Пауке или между Мстителями и Западным Побережьем Мстителей это сделать относительно легко, но с этими сериями сложнее — они более или менее самостоятельны, особенно "Стражи Галактики", действие которых происходит 1000 лет в будущем».</p>
 <empty-line/>
 <p>Ничеза продолжил: «Мы выстроили нарастающую историю, переходя от героя-vigilante к костюмированному герою с вовлечением киборга, затем к супергерою и наконец к научно-фантастическому рассказу. В каждом случае угроза тоже нарастает, становясь подлинным испытанием для противостоящего ей героя или героев Marvel. По сути, это очень простая сюжетная линия, и мы смогли задать параметры для автора и редактора каждой из вовлечённых серий. Вы заметите, что у каждой серии свои автор и редактор, однако, думаю, вы согласитесь: сюжетная нить между историями не рвётся. Откровенно говоря, я очень доволен результатом».</p>
 <empty-line/>
-<subtitle>Новинка с компьютерным диском долго на полках не залежится — 20 апреля 1992</subtitle>
+</section>
+<section id="toc_sub_000128"><title><p>Новинка с компьютерным диском долго на полках не залежится — 20 апреля 1992</p></title>
 <empty-line/>
 <p><emphasis>Кристофер Джон Фарли (USA Today, стр. 2D)</emphasis></p>
 <empty-line/>
 <p>Исследование будущего писателем-фантастом Уильямом Гибсоном застопорилось из-за компьютерной проблемы.</p>
 <empty-line/>
-<p>«Я работаю на (компьютере Apple) и только что подхватил широко распространённый вирус Garfield, — рассказывает Гибсон, лауреат премий, автор таких книг, как &quot;Нейромант&quot; и &quot;Мона Лиза Овердрайв&quot;. — Только что купил антивирусную программу, которая его ищет. Это первый вирус, который я когда-либо поймал».</p>
+<p>«Я работаю на (компьютере Apple) и только что подхватил широко распространённый вирус Garfield, — рассказывает Гибсон, лауреат премий, автор таких книг, как "Нейромант" и "Мона Лиза Овердрайв". — Только что купил антивирусную программу, которая его ищет. Это первый вирус, который я когда-либо поймал».</p>
 <empty-line/>
 <p>В первую неделю мая Гибсон нанесёт ответный удар. Гибсон и художник Деннис Эшбо, известный своими концептуальными картинами, изображающими компьютерные вирусы, выпускают роскошно изданную арт-книгу/компьютерный диск/нечто неопределённое, со встроенным вирусом, который уничтожает программу после однократного прочтения.</p>
 <empty-line/>
@@ -2182,7 +2308,8 @@
 <empty-line/>
 <p>A. Добыть пиратскую копию; B. Посетить показ в сентябре; или же C. Стиснуть зубы и купить «Agrippa».</p>
 <empty-line/>
-<subtitle>PWN: Кратко</subtitle>
+</section>
+<section id="toc_sub_000129"><title><p>PWN: Кратко</p></title>
 <empty-line/>
 <p><strong>1. Первая жертва расследования о продаже данных</strong> <emphasis>(Newsday, 15 апреля 1992, стр. 16)</emphasis></p>
 <empty-line/>
@@ -2194,7 +2321,7 @@
 <empty-line/>
 <p><emphasis>Связанные материалы:</emphasis></p>
 <empty-line/>
-<p>• Phrack World News, выпуск 37, часть 1: «Обвинения &quot;информационных брокеров&quot;», январь 1992, из The Privacy Journal</p>
+<p>• Phrack World News, выпуск 37, часть 1: «Обвинения "информационных брокеров"», январь 1992, из The Privacy Journal</p>
 <p>• Phrack World News, выпуск 37, часть 1: «Нарушения баз данных SSA и ФБР вынудили провести оценку безопасности», 13 января 1992, Кевин М. Бэрсон (Federal Computer Week, стр. 1, 41)</p>
 <p>• Phrack World News, выпуск 38, часть 2: «Частные данные социального обеспечения проданы информационным брокерам», 29 февраля 1992, Р.А. Залдивар (San Jose Mercury News)</p>
 <p>• Phrack World News, выпуск 39, часть 4: «Похитители приватности», май 1992, Уильям Барнхилл (AARP Bulletin)</p>
@@ -2230,6 +2357,7 @@
 <p>Ламбер предполагает, что если она находится в компьютере, единственный выход для неё — победить в игре. Однако точно сказать, сколько это займёт времени, затруднительно, признаёт он.</p>
 <empty-line/>
 <p>«Пока родители не выключат машину, Патрис будет в безопасности, — сказал он. — Остальное — в её руках».</p>
+</section>
 </section>
 </section>
 </body>

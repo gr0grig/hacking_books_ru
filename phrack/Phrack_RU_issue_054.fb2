@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0"
-             xmlns:l="http://www.w3.org/1999/xlink">
+<?xml version='1.0' encoding='UTF-8'?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
 <description>
   <title-info>
     <genre>computers</genre>
@@ -30,7 +29,7 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_001_phrack54_index_0009_95620694ce.png"/>
 <empty-line/>
-<subtitle>Живём в SYN</subtitle>
+<section id="toc_sub_000001"><title><p>Живём в SYN</p></title>
 <empty-line/>
 <p>Чего нам хочется на Рождество: нормального удалённого определения операционной системы. Нормального удалённого обнаружения режима прослушивания. Нормального агентного обнаружения вторжений.</p>
 <empty-line/>
@@ -132,7 +131,7 @@
 <cite><p>«Это не инструмент, который следует воспринимать всерьёз нам или нашим клиентам...»</p></cite>
 <cite><p>— Edmund Muth, Microsoft, цитата из New York Times, о Back Orifice. (Сколько тысяч машин было захвачено с помощью BO?)</p></cite>
 <empty-line/>
-<cite><p><emphasis>deraadt\</emphasis> твой стиль настолько ни на что не похож, что само наличие у тебя этого &quot;стиля&quot; лишено смысла*</p></cite>
+<cite><p><emphasis>deraadt\</emphasis> твой стиль настолько ни на что не похож, что само наличие у тебя этого "стиля" лишено смысла*</p></cite>
 <cite><p>— Theo Deraadt, руководитель проекта OpenBSD, о коде route в этом выпуске.</p></cite>
 <empty-line/>
 <cite><p>«Так я подумал, что полезного можно сделать с этими деньгами. Я купил Nintendo 64 одной из своих сестёр, у которой лёгкая умственная отсталость. Причина в том, что врачи всегда говорили нам: всё, что стимулирует координацию рук и глаз, ей поможет.»</p></cite>
@@ -140,25 +139,28 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_001_phrack54_index_0214_cda4aab5bc.png"/>
 </section>
+</section>
 <section id="sec_issue_054_002_phrack_loopback">
 <title><p>Phrack 54 Loopback (Обратная связь)</p></title>
 <p><strong>Автор:</strong> Редакция Phrack</p>
 <empty-line/>
 <p>Phrack Loopback — это ваша возможность написать редакции Phrack с комментариями, вопросами или чем угодно ещё. Ответы, как правило, пишет редактор, если не указано иное. Сами письма могут быть отредактированы по формату, но, как правило, не по грамматике и/или орфографии. Мы стараемся не исправлять просторечия, поскольку они нередко добавляют письму колоритную перспективу.</p>
 <empty-line/>
-<subtitle>0x1</subtitle>
+<section id="toc_sub_000002"><title><p>0x1</p></title>
 <empty-line/>
 <p>Мой парень превратился в транссексуала и бросил меня ради другого мужчины. Что вы могли бы сделать, чтобы помочь мне (пожалуйста) показать ему, как сильно я его ценю? Или что мне следует делать? ЭТО письмо не розыгрыш. Это действительно произошло, и я надеялась получить от вас совет, поэтому ПОЖАЛУЙСТА не взрывайте мой компьютер. Искренне, Б.К.</p>
 <empty-line/>
 <cite><p>[ Клянусь богом, это настоящее письмо. Я такого не придумаю (саркастические комментарии здесь не нужны). ]</p></cite>
 <empty-line/>
-<subtitle>0x2</subtitle>
+</section>
+<section id="toc_sub_000003"><title><p>0x2</p></title>
 <empty-line/>
 <p>Интересный журнал у вас, но должен сказать, что мой любимый раздел — это Loopback. Письма написаны в лучшем случае терпимо, тогда как сатирические комментарии — высшего класса. Только что прочитал Loopback из #53 и просто не мог остановиться от смеха. Так держать. Как я говорю: не относитесь к жизни серьёзно — она и так вас не принимает всерьёз.</p>
 <empty-line/>
 <cite><p>[ Спасибо. Мы стараемся угодить. ]</p></cite>
 <empty-line/>
-<subtitle>0x3</subtitle>
+</section>
+<section id="toc_sub_000004"><title><p>0x3</p></title>
 <empty-line/>
 <p>Как называется система, которую использует школа? PBX? Как можно взломать систему и какие привилегии можно получить?</p>
 <empty-line/>
@@ -166,7 +168,8 @@
 <empty-line/>
 <cite><p>[ Вы сможете слушать, как школьные чиновники обсуждают, насколько вы слабоумны и как собираются оставить вас ещё на один год. ]</p></cite>
 <empty-line/>
-<subtitle>0x4</subtitle>
+</section>
+<section id="toc_sub_000005"><title><p>0x4</p></title>
 <empty-line/>
 <p>Вы никогда не задавались вопросом, как люди, называемые хакерами, продолжают докучать государственным органам и крупным корпорациям?</p>
 <empty-line/>
@@ -254,7 +257,8 @@
 <empty-line/>
 <cite><p>[ ...потому что у нас нет клиентов... ]</p></cite>
 <empty-line/>
-<subtitle>0x5</subtitle>
+</section>
+<section id="toc_sub_000006"><title><p>0x5</p></title>
 <empty-line/>
 <p>Прежде чем начну, если это неправильный адрес, которому мне следует кланяться, то приношу глубочайшие извинения.</p>
 <empty-line/>
@@ -280,7 +284,8 @@
 <empty-line/>
 <p>С уважением, -Dallor</p>
 <empty-line/>
-<subtitle>0x6</subtitle>
+</section>
+<section id="toc_sub_000007"><title><p>0x6</p></title>
 <empty-line/>
 <p>у вас есть чат? мне сказали, что вы можете научить меня кое-чему о компьютерах. я очень новый в мире компьютеров в моём преклонном возрасте. я порчу свою систему каждые 2 недели из-за того, что не знаю что делать!</p>
 <empty-line/>
@@ -290,7 +295,8 @@
 <empty-line/>
 <cite><p>[ Ша-найнай! ]</p></cite>
 <empty-line/>
-<subtitle>0x7</subtitle>
+</section>
+<section id="toc_sub_000008"><title><p>0x7</p></title>
 <empty-line/>
 <p>Привет, просто хотел поздравить вас с отличным журналом и желаю продолжать в том же духе. Также заметил, что люди могут кое-чего просить. Так вот, могу ли я получить двухэтажный особняк, Порш, Харлей-Дэвидсон, яхту, пять миллионов долларов, семь красивых девушек (по одной на каждую ночь), .................. .............................................. спасибо :-))</p>
 <empty-line/>
@@ -298,7 +304,8 @@
 <empty-line/>
 <cite><p>[ Вы поверхностный и меркантильный человек, Rundus. Люди по всему миру страдают от голода и болезней. Может быть, стоит немного подумать о них. ]</p></cite>
 <empty-line/>
-<subtitle>0x8</subtitle>
+</section>
+<section id="toc_sub_000009"><title><p>0x8</p></title>
 <empty-line/>
 <p>[ P53-02@0x12: ...я хотел бы узнать больше о зефире... ]</p>
 <empty-line/>
@@ -316,9 +323,10 @@
 <empty-line/>
 <p>Ray K.</p>
 <empty-line/>
-<cite><p>[ Следите за следующим выпуском, в котором Рэй прочитает диссертацию о карьере Питера Сколари в телевизионной индустрии под названием: «От &quot;Закадычного дружка&quot; до &quot;Дорогая, я снова пьян и безработен&quot;»... ]</p></cite>
+<cite><p>[ Следите за следующим выпуском, в котором Рэй прочитает диссертацию о карьере Питера Сколари в телевизионной индустрии под названием: «От "Закадычного дружка" до "Дорогая, я снова пьян и безработен"»... ]</p></cite>
 <empty-line/>
-<subtitle>0x9</subtitle>
+</section>
+<section id="toc_sub_000010"><title><p>0x9</p></title>
 <empty-line/>
 <p>Эй! Интересно, могли бы вы помочь мне найти кое-что?</p>
 <empty-line/>
@@ -334,7 +342,8 @@
 <empty-line/>
 <cite><p>[ Какой превосходный и уникальный никнейм! ]</p></cite>
 <empty-line/>
-<subtitle>0xa</subtitle>
+</section>
+<section id="toc_sub_000011"><title><p>0xa</p></title>
 <empty-line/>
 <p>Довольно умно......... Увидел вашу веб-страницу по телевизору........ PHRACK......бывало, что найти эту страницу оттуда, откуда ты родом, было несложно.......</p>
 <empty-line/>
@@ -354,7 +363,8 @@
 <empty-line/>
 <p>Bit-Basher......</p>
 <empty-line/>
-<subtitle>0xb</subtitle>
+</section>
+<section id="toc_sub_000012"><title><p>0xb</p></title>
 <empty-line/>
 <p>Просто решил написать, чтобы выразить обеспокоенность растущей проблемой в нашем сообществе: ламерами и идиотами.</p>
 <empty-line/>
@@ -406,7 +416,8 @@
 <empty-line/>
 <cite><p>[ Спасибо! Всегда приятно слышать, что мы хорошо работаем! ]</p></cite>
 <empty-line/>
-<subtitle>0xc</subtitle>
+</section>
+<section id="toc_sub_000013"><title><p>0xc</p></title>
 <empty-line/>
 <p>Эй, я новичок в этом. как мне начать? видишь ли, я хочу узнать некоторые коды yahoo. есть ли что-то, что мне следует знать? у меня нет ни малейшего понятия, что законно, а что нет...</p>
 <empty-line/>
@@ -418,7 +429,8 @@
 <empty-line/>
 <cite><p>[ Форма... паука-обезьянки! Форма... бискера! ]</p></cite>
 <empty-line/>
-<subtitle>0xd</subtitle>
+</section>
+<section id="toc_sub_000014"><title><p>0xd</p></title>
 <empty-line/>
 <p>сэр мне нужна помощь я знаю что вы, наверное, думаете что я какой-то ламер с AOL и Windows который никогда в жизни не станет хакером.</p>
 <empty-line/>
@@ -448,7 +460,8 @@
 <empty-line/>
 <cite><p>[ Не проблема. Оставлю это в личной переписке. ]</p></cite>
 <empty-line/>
-<subtitle>0xe</subtitle>
+</section>
+<section id="toc_sub_000015"><title><p>0xe</p></title>
 <empty-line/>
 <p>Просто просмотрел вашу веб-страницу... вы интересный человек.</p>
 <empty-line/>
@@ -472,7 +485,8 @@
 <empty-line/>
 <p>liquid, Wed Sep 16 06:24:09 1998</p>
 <empty-line/>
-<subtitle>0xf</subtitle>
+</section>
+<section id="toc_sub_000016"><title><p>0xf</p></title>
 <empty-line/>
 <p>привет всем</p>
 <empty-line/>
@@ -508,7 +522,8 @@
 <empty-line/>
 <p>TFAYD.</p>
 <empty-line/>
-<subtitle>0x10</subtitle>
+</section>
+<section id="toc_sub_000017"><title><p>0x10</p></title>
 <empty-line/>
 <p>чел, просто хочу сказать, что это очень «образовательная» информация. не могу сказать, что многому научился, но эта информация помогла мне наверстать упущенное за последние пять лет. был во флоте, чел, это отстой, но хочу поблагодарить вас всех. но, как говорится, достаточно умён, чтобы сделать это — делай, но это твоя ответственность. всем «настоящим» людям там в этом любимом мире — жаль, что они не знают реальности. в общем, это дерзко, это бомба.</p>
 <empty-line/>
@@ -516,7 +531,8 @@
 <empty-line/>
 <p>--vadaka--</p>
 <empty-line/>
-<subtitle>0x11</subtitle>
+</section>
+<section id="toc_sub_000018"><title><p>0x11</p></title>
 <empty-line/>
 <p>Привет. Я OmniLynx, и я думаю о создании нового веб-журнала для хакеров.</p>
 <empty-line/>
@@ -542,7 +558,8 @@
 <empty-line/>
 <cite><p>[ Чувак. Это иронично. Я чуть не выбрал ник «ВсегдаПрисутствующийБобёр». ]</p></cite>
 <empty-line/>
-<subtitle>0x12</subtitle>
+</section>
+<section id="toc_sub_000019"><title><p>0x12</p></title>
 <empty-line/>
 <p>Привет phrack,</p>
 <empty-line/>
@@ -554,7 +571,8 @@
 <empty-line/>
 <p>fred</p>
 <empty-line/>
-<subtitle>0x13</subtitle>
+</section>
+<section id="toc_sub_000020"><title><p>0x13</p></title>
 <empty-line/>
 <p>Три года болтаюсь в интернете. После того, как я пережил начальный восторг от «ВАУ, сколько же здесь чёртовски много программ!»</p>
 <empty-line/>
@@ -584,7 +602,8 @@
 <empty-line/>
 <cite><p>[ Я решил, что вы отстой. ]</p></cite>
 <empty-line/>
-<subtitle>0x14</subtitle>
+</section>
+<section id="toc_sub_000021"><title><p>0x14</p></title>
 <empty-line/>
 <p>я умею программировать............Если скажешь мне, как взламывать, я пришлю свои лучшие проги.......</p>
 <empty-line/>
@@ -594,13 +613,15 @@
 <empty-line/>
 <cite><p>[ Я Лотар с Холмов. ]</p></cite>
 <empty-line/>
-<subtitle>0x15</subtitle>
+</section>
+<section id="toc_sub_000022"><title><p>0x15</p></title>
 <empty-line/>
 <p>Можете ли вы связать меня с кем-нибудь в Чикаго, кто может помочь мне восстановить удалённые документы с домашнего компьютера. Спасибо</p>
 <empty-line/>
 <cite><p>[ Думаю, Эмиль свободен. Позвоните ему. ]</p></cite>
 <empty-line/>
-<subtitle>0x16</subtitle>
+</section>
+<section id="toc_sub_000023"><title><p>0x16</p></title>
 <empty-line/>
 <p>Я ХОТЕЛ БЫ УЗНАТЬ, ГДЕ Я МОГУ УЗНАТЬ, КАК ПОДКЛЮЧИТЬСЯ К И ВЗЛОМАТЬ ЛИЧНЫЕ КОМПЬЮТЕРЫ ЛЮДЕЙ, ИЛИ МОЖЕТ БЫТЬ, ВЫ ЗНАЕТЕ.</p>
 <empty-line/>
@@ -610,19 +631,22 @@
 <empty-line/>
 <p>X-3</p>
 <empty-line/>
-<subtitle>0x17</subtitle>
+</section>
+<section id="toc_sub_000024"><title><p>0x17</p></title>
 <empty-line/>
 <p>Мне нужен Заразный Вирус, чтобы повредить маленькую сеть Если у вас есть идеи, где я мог бы его получить, напишите мне</p>
 <empty-line/>
 <cite><p>[ Мне нужна любовь и понимание. Готов обменяться. ]</p></cite>
 <empty-line/>
-<subtitle>0x18</subtitle>
+</section>
+<section id="toc_sub_000025"><title><p>0x18</p></title>
 <empty-line/>
 <p>Эй... Я не увлекаюсь взломом и всем таким, но прочитал сегодня утром статью о вас и Phrack в Worcester Telegram and Gazette. Просто хотел сказать, что считаю вашу несгибаемость перед правительственным давлением очень крутой. Это не об анархии — это о правах; о свободе слова. Понимаете? В любом случае, не буду больше отнимать ваше время. Помните, у хакеров тоже есть права.</p>
 <empty-line/>
 <cite><p>[ У некоторых из нас есть ещё и хорошие левые. ]</p></cite>
 <empty-line/>
-<subtitle>0x19</subtitle>
+</section>
+<section id="toc_sub_000026"><title><p>0x19</p></title>
 <empty-line/>
 <p>Было бы неплохо иметь возможность связаться с кем-нибудь, кто мог бы выполнять для вас взлом определённым образом.</p>
 <empty-line/>
@@ -632,7 +656,8 @@
 <empty-line/>
 <cite><p>[ Попробуйте http://www.fbi.gov/fugitive/fpphome.htm. Мы обычно набираем оттуда. ]</p></cite>
 <empty-line/>
-<subtitle>0x1a</subtitle>
+</section>
+<section id="toc_sub_000027"><title><p>0x1a</p></title>
 <empty-line/>
 <p>Привет! Прежде всего, позвольте сказать, насколько невероятно потрясающим и всесильным является Phrack, особенно выпуск 52.</p>
 <empty-line/>
@@ -664,13 +689,15 @@
 <empty-line/>
 <p>Unit3</p>
 <empty-line/>
-<subtitle>0x1b</subtitle>
+</section>
+<section id="toc_sub_000028"><title><p>0x1b</p></title>
 <empty-line/>
 <p>Привет, я знаю, что буду звучать очень ламерски, задавая этот вопрос. Я очень хотел бы, чтобы вы дали мне краткое описание того, как удалённо взламывать системы. Я умею взламывать, но могу проникать в системы без логина и пароля, ну в общем спасибо в любом случае</p>
 <empty-line/>
 <cite><p>[ Вы отстой. ]</p></cite>
 <empty-line/>
-<subtitle>0x1c</subtitle>
+</section>
+<section id="toc_sub_000029"><title><p>0x1c</p></title>
 <empty-line/>
 <p>Я не очень знаю, с кем связаться по этому поводу. Это комплимент всему журналу Phrack по поводу ситуации с owning.</p>
 <empty-line/>
@@ -680,7 +707,8 @@
 <empty-line/>
 <p>SPy109</p>
 <empty-line/>
-<subtitle>0x1d</subtitle>
+</section>
+<section id="toc_sub_000030"><title><p>0x1d</p></title>
 <empty-line/>
 <p>сэр когда я скачиваю что-то с вашей страницы, это выглядит как X, O и прямоугольники.</p>
 <empty-line/>
@@ -700,7 +728,8 @@
 <empty-line/>
 <p>спасибо</p>
 <empty-line/>
-<subtitle>0x1e</subtitle>
+</section>
+<section id="toc_sub_000031"><title><p>0x1e</p></title>
 <empty-line/>
 <p>[ P53-07: Скрытый кейлоггер для Windows ]</p>
 <empty-line/>
@@ -714,7 +743,8 @@
 <empty-line/>
 <p>• Iskra</p>
 <empty-line/>
-<subtitle>0x1f</subtitle>
+</section>
+<section id="toc_sub_000032"><title><p>0x1f</p></title>
 <empty-line/>
 <p>Я вижу и слышу всё это о хакерах; однако никогда не вижу и/или не слышу о том, как это делается.</p>
 <empty-line/>
@@ -728,13 +758,14 @@
 <empty-line/>
 <cite><p>[ Спорю, что она одна из тех огненных ирландских красавиц с волнистыми рыжими волосами и блестящими зелёными глазами. Как думаете, она обратила бы на меня внимание? Сколько денег она у вас стащила... Достаточно, чтобы сбежать и завалить меня подарками? ]</p></cite>
 </section>
+</section>
 <section id="sec_issue_054_003_phrack54_linenoise">
 <title><p>Phrack 54 — Linenoise (Шум на линии)</p></title>
 <p><strong>Автор:</strong> Various (Разные авторы)</p>
 <empty-line/>
 <p>0x1&gt;-------------------------------------------------------------------------</p>
 <empty-line/>
-<subtitle>Мирный саммит r00t/h4g1s — 1998</subtitle>
+<section id="toc_sub_000033"><title><p>Мирный саммит r00t/h4g1s — 1998</p></title>
 <empty-line/>
 <p>В цифровом мире, омрачённом раздорами и конфликтами, было вполне закономерно, что две мега-супердержавы цифрового андеграунда встретились на мирной конференции там, где можно было разделить трубку мира. Среди уютной тишины мельниц Голландии представители обеих сторон обосновались на неделю переговоров в самом сердце Амстердама.</p>
 <empty-line/>
@@ -758,7 +789,8 @@
 <empty-line/>
 <p>0x2&gt;-------------------------------------------------------------------------</p>
 <empty-line/>
-<subtitle>Случай из практики: переполнение стека Linux MOUNTD</subtitle>
+</section>
+<section id="toc_sub_000034"><title><p>Случай из практики: переполнение стека Linux MOUNTD</p></title>
 <empty-line/>
 <p>Ничего нового здесь нет, но код является образцовым примером того, как делаются переполнения буфера. Даже если вы читали другие статьи о переполнениях буфера, вы можете найти здесь что-то ценное. А может и нет. Исследуемый случай — уязвимость Linux nfsd/mountd, упомянутая в предупреждении CERT от 28 августа.</p>
 <empty-line/>
@@ -774,7 +806,8 @@
 <empty-line/>
 <p>0x3&gt;-------------------------------------------------------------------------</p>
 <empty-line/>
-<subtitle>Элитное печенье с шоколадной крошкой</subtitle>
+</section>
+<section id="toc_sub_000035"><title><p>Элитное печенье с шоколадной крошкой</p></title>
 <empty-line/>
 <p><emphasis>by Juliet</emphasis></p>
 <empty-line/>
@@ -803,11 +836,13 @@
 <empty-line/>
 <p>0x4&gt;-------------------------------------------------------------------------</p>
 <empty-line/>
-<subtitle>Tadiran; Компьютерно-телефонная интеграция (CTI)</subtitle>
+</section>
+<section id="toc_sub_000036"><title><p>Tadiran; Компьютерно-телефонная интеграция (CTI)</p></title>
 <empty-line/>
 <p><emphasis>Blakboot &lt;blakboot@darkcartel.com&gt;</emphasis></p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+</section>
+<section id="toc_sub_000037"><title><p>Введение</p></title>
 <empty-line/>
 <p>Всем привет. Эта статья посвящена главным образом программному и аппаратному обеспечению Tadiran Telecommunications, используемому для синхронизации компьютерных приложений с телефонными звонками. Я буду ссылаться на системную версию 9.63.03.01 и любые её варианты просто как на «Tadiran». Из личного опыта работы с такими системами я обнаружил, что их можно настроить на выполнение самых разных задач — от таймеров транков до музыки на удержании.</p>
 <empty-line/>
@@ -815,7 +850,8 @@
 <empty-line/>
 <p>Именно проблема отсутствия безопасности и побудила меня написать эту статью. Tadiran очень уязвим для вторжения.</p>
 <empty-line/>
-<subtitle>Как всё началось</subtitle>
+</section>
+<section id="toc_sub_000038"><title><p>Как всё началось</p></title>
 <empty-line/>
 <p>Мой друг-фрик Mf-Man и я сканировали петли и нашли несущую. Мы немного покопались в системе, пока наш интерес не угас и не увёл нас в другое место.</p>
 <empty-line/>
@@ -831,7 +867,8 @@
 <empty-line/>
 <p>Ниже приведены скриншоты системы Tadiran.</p>
 <empty-line/>
-<subtitle>Система</subtitle>
+</section>
+<section id="toc_sub_000039"><title><p>Система</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_003_phrack54_linenoise_0346_312fd9d90b.png"/>
 <empty-line/>
@@ -845,9 +882,10 @@
 <empty-line/>
 <p><emphasis>(Есть и другие клавиши — похоже, они связаны с эмуляцией и прокруткой.)</emphasis></p>
 <empty-line/>
-<subtitle>Описания меню — для справки</subtitle>
+</section>
+<section id="toc_sub_000040"><title><p>Описания меню — для справки</p></title>
 <empty-line/>
-<p>Это список глобально доступных меню, доступных по вводу &quot;HELP&quot;. Все групповые имена замаскированы &quot;x&quot;.</p>
+<p>Это список глобально доступных меню, доступных по вводу "HELP". Все групповые имена замаскированы "x".</p>
 <empty-line/>
 <p>[Таблица из 48 записей — опущена]</p>
 <empty-line/>
@@ -916,21 +954,25 @@
 <empty-line/>
 <p>0x5&gt;-------------------------------------------------------------------------</p>
 <empty-line/>
-<subtitle>b t r o m — by r i q</subtitle>
+</section>
+<section id="toc_sub_000041"><title><p>b t r o m — by r i q</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_003_phrack54_linenoise_0603_393c69e09c.png"/>
 <empty-line/>
-<subtitle>Введение</subtitle>
+</section>
+<section id="toc_sub_000042"><title><p>Введение</p></title>
 <empty-line/>
 <p>Как-то раз я начал играть с itf, который появился в P52-18 (прочитайте ту статью, если хотите знать, что он делает и т.д.). Мне пришло в голову, что один хороший способ определить, установил ли кто-то троян (и впоследствии удалить его) — это починить таблицу системных вызовов. Эта программа пытается сделать именно это. Работает с Linux x86 серий 2.0 и 2.2.</p>
 <empty-line/>
-<subtitle>Устройство программы</subtitle>
+</section>
+<section id="toc_sub_000043"><title><p>Устройство программы</p></title>
 <empty-line/>
 <p>Программа сначала пытается обнаружить, используете ли вы BIG_KERNEL (bzImage) или нет (zImage). Одно из отличий — адрес ядра в памяти. BIG_KERNEL начинается с 0xc0000000, другой — с 0x00100000.</p>
 <empty-line/>
 <p>Таблица системных вызовов (sct) содержит записи всех системных вызовов. Если вы модифицируете sct, новая запись должна быть «вне диапазона». btrom попытается исправить эти «выходящие за диапазон» системные вызовы их исходными значениями. Они берутся из System.map. Под «вне диапазона» я имею в виду запись, значение которой находится вне диапазона от начала ядра до начала ядра + некоторое значение. Это значение указано в config.h.</p>
 <empty-line/>
-<subtitle>Быстрая установка</subtitle>
+</section>
+<section id="toc_sub_000044"><title><p>Быстрая установка</p></title>
 <empty-line/>
 <p><strong>Компиляция:</strong></p>
 <empty-line/>
@@ -940,7 +982,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_003_phrack54_linenoise_0632_1957805e13.png"/>
 <empty-line/>
-<subtitle>Расшифровка символов</subtitle>
+</section>
+<section id="toc_sub_000045"><title><p>Расшифровка символов</p></title>
 <empty-line/>
 <p><strong>Первая часть: обнаружение троянов</strong></p>
 <empty-line/>
@@ -950,19 +993,23 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_003_phrack54_linenoise_0661_614852f191.png"/>
 <empty-line/>
-<subtitle>Примечания</subtitle>
+</section>
+<section id="toc_sub_000046"><title><p>Примечания</p></title>
 <empty-line/>
 <p>Эта программа не удаляет троянские модули. Она отключает трояны, после чего их можно удалить командой <code>rmmod</code>.</p>
 <empty-line/>
-<subtitle>Известные ошибки</subtitle>
+</section>
+<section id="toc_sub_000047"><title><p>Известные ошибки</p></title>
 <empty-line/>
-<p>Если <code>insmod mbtrom</code> не возвращает никакого значения — значит, вы перенаправляете это сообщение через syslogd. Проверьте /etc/syslog.conf и раздел &quot;kern&quot;.</p>
+<p>Если <code>insmod mbtrom</code> не возвращает никакого значения — значит, вы перенаправляете это сообщение через syslogd. Проверьте /etc/syslog.conf и раздел "kern".</p>
 <empty-line/>
-<subtitle>История версий</subtitle>
+</section>
+<section id="toc_sub_000048"><title><p>История версий</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_003_phrack54_linenoise_0678_22a5a26e7c.png"/>
 <empty-line/>
-<subtitle>Обратная связь</subtitle>
+</section>
+<section id="toc_sub_000049"><title><p>Обратная связь</p></title>
 <empty-line/>
 <p>riq@ciudad.com.ar</p>
 <empty-line/>
@@ -980,7 +1027,8 @@
 <empty-line/>
 <p>0x6&gt;-------------------------------------------------------------------------</p>
 <empty-line/>
-<subtitle>PDM — Фильм Phrack о Пончиках</subtitle>
+</section>
+<section id="toc_sub_000050"><title><p>PDM — Фильм Phrack о Пончиках</p></title>
 <empty-line/>
 <p>Фильм прошлого выпуска Phrack Doughnut Movie (PDM): «Перекрёсток Миллера».</p>
 <empty-line/>
@@ -994,32 +1042,36 @@
 <empty-line/>
 <p>0x7&gt;-------------------------------------------------------------------------</p>
 <empty-line/>
-<subtitle>Суперэлитные люди, читающие Phrack (SEPTREP)</subtitle>
+</section>
+<section id="toc_sub_000051"><title><p>Суперэлитные люди, читающие Phrack (SEPTREP)</p></title>
 <empty-line/>
 <p><strong>Новые участники:</strong> Ron Rivest, W. Richard Stevens</p>
 <empty-line/>
 <p><strong>Почему они суперэлитны:</strong> Один из них — «R» в аббревиатуре RSA. Другой пишет библии по TCP/IP.</p>
 <empty-line/>
-<subtitle>Текущий список</subtitle>
+</section>
+<section id="toc_sub_000052"><title><p>Текущий список</p></title>
 <empty-line/>
 <p>• W. Richard Stevens</p>
 <p>• Ron Rivest</p>
 <empty-line/>
 <p><emphasis>EOF</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_054_004_parmaster_prophile">
 <title><p>Phrack 54: Профайл</p></title>
 <p><strong>Автор:</strong> ParMaster</p>
 <empty-line/>
-<subtitle>Личное</subtitle>
+<section id="toc_sub_000053"><title><p>Личное</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_004_parmaster_prophile_0011_852ab3d80e.png"/>
 <empty-line/>
-<p><strong>Происхождение псевдонима:</strong> (Цитата из книги Underground, стр. 104) «Пар получил своё полное имя — The Parmaster — в самые ранние дни своей хакерской деятельности. Тогда он принадлежал к группе подростков, занимавшихся взломом защиты от копирования программ для Apple IIe, особенно игр. У Пара был особый дар разбираться в параметрах защиты от копирования, что являлось первым шагом к обходу защитных схем производителей. Главарь [sc0tch] группы [Jedi Hackers] начал называть его &quot;мастером параметров&quot; — The ParMaster — сокращённо Пар. Когда он занялся серьёзным хакингом и развил экспертизу в сетях X.25, он сохранил это имя, поскольку оно отлично вписывалось в новую среду. &quot;Par&quot; было распространённой командой на X.25-паде — модемном шлюзе к сети X.25.»</p>
+<p><strong>Происхождение псевдонима:</strong> (Цитата из книги Underground, стр. 104) «Пар получил своё полное имя — The Parmaster — в самые ранние дни своей хакерской деятельности. Тогда он принадлежал к группе подростков, занимавшихся взломом защиты от копирования программ для Apple IIe, особенно игр. У Пара был особый дар разбираться в параметрах защиты от копирования, что являлось первым шагом к обходу защитных схем производителей. Главарь [sc0tch] группы [Jedi Hackers] начал называть его "мастером параметров" — The ParMaster — сокращённо Пар. Когда он занялся серьёзным хакингом и развил экспертизу в сетях X.25, он сохранил это имя, поскольку оно отлично вписывалось в новую среду. "Par" было распространённой командой на X.25-паде — модемном шлюзе к сети X.25.»</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_004_parmaster_prophile_0021_b6bc6f5867.png"/>
 <empty-line/>
-<subtitle>Любимое</subtitle>
+</section>
+<section id="toc_sub_000054"><title><p>Любимое</p></title>
 <empty-line/>
 <p><strong>Женщины:</strong> Блондинки с голубыми / зелёными глазами. Девушки в откровенной одежде с акцентом.</p>
 <empty-line/>
@@ -1039,13 +1091,15 @@
 <empty-line/>
 <p><strong>Выводит из себя:</strong> Боль, страдание, обиды и пытки.</p>
 <empty-line/>
-<subtitle>Увлечения</subtitle>
+</section>
+<section id="toc_sub_000055"><title><p>Увлечения</p></title>
 <empty-line/>
 <p>Мне нравится заниматься скраингом будущего и выполнять великое делание. Это очень сложно описать само по себе. Некоторые из тех, кто знает меня достаточно хорошо, иногда это замечают. Я не художник, но пытаюсь, и порой это выражается в художественных формах.</p>
 <empty-line/>
 <p>Я люблю проводить время с друзьями; иногда мне нужно побыть в одиночестве, но время, проведённое с друзьями, всегда особенное.</p>
 <empty-line/>
-<subtitle>Незабываемые события</subtitle>
+</section>
+<section id="toc_sub_000056"><title><p>Незабываемые события</p></title>
 <empty-line/>
 <p>Когда в 1991 году Секретная служба США совершила у меня обыск и забрала всё моё имущество (уже в третий раз), включая кредитные досье Президента (предположительно) и Вице-президента (однозначно) Соединённых Штатов Америки. Я сидел в тюрьме в Нью-Йорке в ожидании этапирования и не подвергался реальным угрозам или насилию — за исключением одного раза; тот случай стал для меня серьёзным инцидентом, хотя я не думаю, что за ним стоял чей-то умысел.</p>
 <empty-line/>
@@ -1057,7 +1111,8 @@
 <empty-line/>
 <p>Диснейленд.</p>
 <empty-line/>
-<subtitle>Доски, о которых стоит упомянуть</subtitle>
+</section>
+<section id="toc_sub_000057"><title><p>Доски, о которых стоит упомянуть</p></title>
 <empty-line/>
 <p>Доска, которую Mr. Zod поднял в системе sprintnet 202, принадлежащей AFOSI и используемой для обучения сотрудников тому, как ловить компьютерных хакеров <emphasis>ГЫГЫГЫ</emphasis> — интересно, они вообще когда-нибудь узнали? Это же мы были причиной того, как они её назвали? ROFLMFAO</p>
 <empty-line/>
@@ -1087,7 +1142,8 @@
 <empty-line/>
 <p>Ripco — ну, я бывал здесь нечасто, но это место сыграло столь важную роль в компьютерном подполье на протяжении многих лет, что я просто обязан хотя бы упомянуть его. Видимо, именно здесь я впервые столкнулся с l0ck. Масса других людей; это место поддерживало циркуляцию в подполье огромного количества текстовых файлов, которые иначе могли бы бесследно исчезнуть.</p>
 <empty-line/>
-<subtitle>Цитаты</subtitle>
+</section>
+<section id="toc_sub_000058"><title><p>Цитаты</p></title>
 <empty-line/>
 <cite><p>«Я не хотел, чтобы твой папа кончил на подушку с Минни-Маус у тебя на кровати, это не моя вина, я же сказала ему, что он может кончить мне в задницу» — Vamprella</p></cite>
 <empty-line/>
@@ -1101,17 +1157,19 @@
 <empty-line/>
 <cite><p>«Bilbo Baggins, как делааааа?» — Torquemada</p></cite>
 <empty-line/>
-<subtitle>Будущее компьютерного подполья</subtitle>
+</section>
+<section id="toc_sub_000059"><title><p>Будущее компьютерного подполья</p></title>
 <empty-line/>
 <p>Будущее? Хм. Я ли тот человек, которого стоит об этом спрашивать? Может быть. Многое изменилось — единственная константа это перемены. Кажется, рыцарства стало меньше. Правительство и корпорации нарисовали наш портрет. Этот портрет некрасив. У них даже есть общий психиатрический профиль, которому мы якобы все должны соответствовать. Фильмы — вроде «Хакеров» — тоже изображают нас определённым образом. Только начинающие ребята это видят и сразу воспринимают как то, чем является подполье. «Мастера обмана» тоже культивировали этот образ компьютерного подполья. В результате мы больше деремся сами с собой, чем работаем сообща ради достижения целей. Я помню времена, когда всё было иначе. Было очень мало конфронтации между хакерами, и информация текла свободно. Если хотите моё мнение — это всё один большой заговор :-). Большой заговор, чтобы держать хакеров разобщёнными и сталкивать их между собой. Люди любят говорить со мной о старых добрых временах. Это хорошо, но те времена прошли. Новый золотой век компьютерного подполья всё ещё возможен. Единственное, что мешает ему наступить, — это ты сам.</p>
 <empty-line/>
 <p><emphasis>EOF</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_054_005_linux_and_random_source_bleaching">
 <title><p>Linux и отбеливание источников случайных чисел</p></title>
 <p><strong>Автор:</strong> Phunda Menta &lt;phundie@usa.net&gt;</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+<section id="toc_sub_000060"><title><p>Введение</p></title>
 <empty-line/>
 <p>Случайные числа широко применяются в криптографии, однако получить по-настоящему случайные биты непросто. В Linux есть два полезных псевдоустройства: <code>/dev/random</code> и <code>/dev/urandom</code>. Вывод <code>/dev/random</code> представляет собой небольшой пул случайных битов, полученных из внутреннего состояния системы. Если перенаправить этот вывод на терминал и нажать несколько клавиш, можно заметить, что случайных битов становится больше. Обращения к диску, временные характеристики прерываний (IRQ), нажатия клавиш — всё это хешируется в небольшой пул энтропии, к которому можно обратиться напрямую через <code>/dev/random</code>. <code>/dev/urandom</code> — это поток, который хеширует <code>/dev/random</code> и выдаёт результат хеширования; затем хеширует последнее значение хеша и так — бесконечно. Оба источника дают вполне приемлемый поток случайных битов. По умолчанию <code>/dev/urandom</code> использует SHA (несмотря на то что в комментариях к исходному коду упоминается MD5, при взгляде на код становится очевидно: там применяется SHA).</p>
 <empty-line/>
@@ -1119,7 +1177,8 @@
 <empty-line/>
 <p>Оба источника весьма полезны, однако идеальным решением был бы аппаратный источник случайных битов.</p>
 <empty-line/>
-<subtitle>Аппаратное решение</subtitle>
+</section>
+<section id="toc_sub_000061"><title><p>Аппаратное решение</p></title>
 <empty-line/>
 <p>На большинстве современных компьютеров установлена звуковая карта, которая является отличным потенциальным источником энтропии.</p>
 <empty-line/>
@@ -1139,7 +1198,8 @@
 <empty-line/>
 <p>В качестве примечания: чтобы увидеть, как должно выглядеть хорошее случайное распределение, можно использовать вывод <code>/dev/urandom</code>. Утилита sox (входит в стандартную поставку Redhat) позволяет преобразовать поток <code>/dev/urandom</code> (тип <code>ul</code>) в формат AIFF для Mammut, Ceres или другой подходящей программы. Распределение, выдаваемое <code>/dev/urandom</code>, статистически случайно — оно покажет, чего следует добиваться, — однако сам <code>/dev/urandom</code> (по сути, SHA) остаётся псевдослучайным: полное знание предыдущих входных данных позволяет вычислить все будущие выходные значения. Со статическим шумом дело обстоит иначе.</p>
 <empty-line/>
-<subtitle>Отбеливание потока данных</subtitle>
+</section>
+<section id="toc_sub_000062"><title><p>Отбеливание потока данных</p></title>
 <empty-line/>
 <p>Статический шум из FM-источника — это искажённый белый шум. Его необходимо очистить; для этого применяется отбеливание.</p>
 <empty-line/>
@@ -1161,16 +1221,19 @@
 <empty-line/>
 <p>Если у вас есть вопросы или предложения по коду, вы можете связаться со мной по адресу: phundie@usa.net.</p>
 <empty-line/>
-<subtitle>Ссылки и дополнительные материалы</subtitle>
+</section>
+<section id="toc_sub_000063"><title><p>Ссылки и дополнительные материалы</p></title>
 <empty-line/>
 <p>RFC1750 Рекомендации по случайности для систем безопасности</p>
 <image l:href="#img__code_blocks_issue_054_005_linux_and_random_source_bleaching_0068_4b91e82ac4.png"/>
 <empty-line/>
-<subtitle>Исходный код</subtitle>
+</section>
+<section id="toc_sub_000064"><title><p>Исходный код</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_005_linux_and_random_source_bleaching_0085_dd5c23196d.png"/>
 <empty-line/>
-<subtitle>bleach/md5/md5.c</subtitle>
+</section>
+<section id="toc_sub_000065"><title><p>bleach/md5/md5.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_005_linux_and_random_source_bleaching_0097_da7743faa2_part01.png"/>
 <image l:href="#img__code_blocks_issue_054_005_linux_and_random_source_bleaching_0097_da7743faa2_part02.png"/>
@@ -1178,46 +1241,55 @@
 <image l:href="#img__code_blocks_issue_054_005_linux_and_random_source_bleaching_0097_da7743faa2_part04.png"/>
 <image l:href="#img__code_blocks_issue_054_005_linux_and_random_source_bleaching_0097_da7743faa2_part05.png"/>
 <empty-line/>
-<subtitle>bleach/md5/md5c.h</subtitle>
+</section>
+<section id="toc_sub_000066"><title><p>bleach/md5/md5c.h</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_005_linux_and_random_source_bleaching_0351_d5901e0ca4.png"/>
 <empty-line/>
-<subtitle>bleach/md5_distill.c</subtitle>
+</section>
+<section id="toc_sub_000067"><title><p>bleach/md5_distill.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_005_linux_and_random_source_bleaching_0380_3c8b9aa64f.png"/>
 <empty-line/>
-<subtitle>bleach/sha/shs.c</subtitle>
+</section>
+<section id="toc_sub_000068"><title><p>bleach/sha/shs.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_005_linux_and_random_source_bleaching_0402_52ed872e0f_part01.png"/>
 <image l:href="#img__code_blocks_issue_054_005_linux_and_random_source_bleaching_0402_52ed872e0f_part02.png"/>
 <image l:href="#img__code_blocks_issue_054_005_linux_and_random_source_bleaching_0402_52ed872e0f_part03.png"/>
 <image l:href="#img__code_blocks_issue_054_005_linux_and_random_source_bleaching_0402_52ed872e0f_part04.png"/>
 <empty-line/>
-<subtitle>bleach/sha/shs.h</subtitle>
+</section>
+<section id="toc_sub_000069"><title><p>bleach/sha/shs.h</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_005_linux_and_random_source_bleaching_0575_32b4ae957f.png"/>
 <empty-line/>
-<subtitle>bleach/sha_distill.c</subtitle>
+</section>
+<section id="toc_sub_000070"><title><p>bleach/sha_distill.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_005_linux_and_random_source_bleaching_0614_9806dc4ba0.png"/>
 <empty-line/>
-<subtitle>bleach/transmap.c</subtitle>
+</section>
+<section id="toc_sub_000071"><title><p>bleach/transmap.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_005_linux_and_random_source_bleaching_0636_abc5e58c01.png"/>
 <empty-line/>
-<subtitle>bleach/xor_distill.c</subtitle>
+</section>
+<section id="toc_sub_000072"><title><p>bleach/xor_distill.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_005_linux_and_random_source_bleaching_0690_d7a7f67ba1.png"/>
 <empty-line/>
-<subtitle>Постскриптум: эмпирические результаты</subtitle>
+</section>
+<section id="toc_sub_000073"><title><p>Постскриптум: эмпирические результаты</p></title>
 <empty-line/>
 <p><emphasis>Файл <code>bleach/random.ps.gz.uue</code> содержит UUE-закодированный сжатый PostScript-документ с графическим представлением результатов тестирования. Файл опущен как бинарный архив.</emphasis></p>
+</section>
 </section>
 <section id="sec_issue_054_006_belt_and_suspenders_openbsd_hardening">
 <title><p>Подход «и ремень, и подтяжки» (сентябрь 1998)</p></title>
 <p><strong>Автор:</strong> route|daemon9 &lt;route@infonexus.com&gt;</p>
 <empty-line/>
-<subtitle>Введение и предпосылки</subtitle>
+<section id="toc_sub_000074"><title><p>Введение и предпосылки</p></title>
 <empty-line/>
 <p>Команда проекта OpenBSD. Поставщики БЕСПЛАТНОЙ многоплатформенной UNIX-подобной операционной системы на основе 4.4BSD. Их усилия сосредоточены на переносимости, стандартизации, корректности, безопасности и криптографии. И OpenBSD действительно уделяет особое внимание двум последним пунктам. OpenBSD — попросту лучший выбор для многопользовательских сред.</p>
 <empty-line/>
@@ -1227,7 +1299,8 @@
 <empty-line/>
 <p>Данная статья является продолжением моей статьи P52-06 об усилении защиты ядра Linux. Здесь читатель найдёт несколько патчей, предназначенных для укрепления безопасности многопользовательского сервера OpenBSD. Эти патчи можно разделить на две области: ограничения приватности и ограничения исполнения (подробнее ниже). Патчи, представленные здесь, следует применять совместно с грамотным системным администрированием; если вы не умеете перекомпилировать ядро — дальше можно не читать.</p>
 <empty-line/>
-<subtitle>Получение исходных кодов</subtitle>
+</section>
+<section id="toc_sub_000075"><title><p>Получение исходных кодов</p></title>
 <empty-line/>
 <p>Вам потребуется машина с OpenBSD 2.4, полными исходными кодами ядра для вашей архитектуры, а также исходные коды следующих программ: w, who, ps, fstat и ld.so. Ниже приведены примерные инструкции по получению необходимых исходников через анонимный CVS.</p>
 <empty-line/>
@@ -1247,7 +1320,8 @@
 <p>III. Если вам нужны исходные коды ядра: (для машин на i386, для других архитектур порядок немного отличается)</p>
 <p>1. cvs get ksrc-i386 ksrc-common</p>
 <empty-line/>
-<subtitle>Патчи приватности</subtitle>
+</section>
+<section id="toc_sub_000076"><title><p>Патчи приватности</p></title>
 <empty-line/>
 <p>Протестировано на: 2.4-SNAP (актуально на 12.10.98) Автор: route</p>
 <empty-line/>
@@ -1255,11 +1329,13 @@
 <empty-line/>
 <p>В обычной ситуации, когда процессу требуется информация из общесистемной таблицы процессов, он получает её из интерфейса виртуальной памяти ядра с помощью вызовов производных kvm_*(3). Единственное требование — у процесса должны быть права на чтение из /dev/kmem (как правило, файл программы должен иметь бит sgid kmem). Я придерживаюсь точки зрения, что если вы не суперпользователь, вам незачем видеть процессы других пользователей на хосте. Патчи приватности направлены именно на это.</p>
 <empty-line/>
-<subtitle>Принцип работы патчей приватности</subtitle>
+</section>
+<section id="toc_sub_000077"><title><p>Принцип работы патчей приватности</p></title>
 <empty-line/>
 <p>Простая проверка учётных данных. Прежде чем команде разрешат выводить приватную информацию, выполняется проверка UID. Если вы не root — вы не увидите информацию о других пользователях. Из-за несколько ленивой реализации опытный хакер может обойти это ограничение. Оставляю это в качестве упражнения для читателя.</p>
 <empty-line/>
-<subtitle>Установка патчей приватности</subtitle>
+</section>
+<section id="toc_sub_000078"><title><p>Установка патчей приватности</p></title>
 <empty-line/>
 <p>I. Извлеките код из этой статьи:</p>
 <p>1. extract P54-06</p>
@@ -1276,7 +1352,8 @@
 <p>3. cd usr.bin/w; make; make install</p>
 <p>4. cd bin/ps; make; make install</p>
 <empty-line/>
-<subtitle>Патчи доверенного пути / исполнения по ACL</subtitle>
+</section>
+<section id="toc_sub_000079"><title><p>Патчи доверенного пути / исполнения по ACL</p></title>
 <empty-line/>
 <p>Протестировано на: 2.4-SNAP (актуально на 12.10.98) Автор: route</p>
 <empty-line/>
@@ -1286,11 +1363,13 @@
 <empty-line/>
 <p>Ой! Устанавливая определённые переменные окружения, пользователи всё равно могут предзагружать библиотеки и модули с произвольным кодом. Это недопустимо. Чтобы предотвратить это, мы предоставляем механизм для эффективного игнорирования переменных окружения LD_PRELOAD и LD_LIBRARY_PATH.</p>
 <empty-line/>
-<subtitle>Обзор реализации TPE</subtitle>
+</section>
+<section id="toc_sub_000080"><title><p>Обзор реализации TPE</p></title>
 <empty-line/>
 <p>Комплекс TPE состоит из 4 компонентов: встроенные в ядро механизмы, системный вызов, пользовательский агент и компонент ld.so. Компоненты, резидентные в ядре, обеспечивают проверку пути и учётных данных, а также ведение списка. Системный вызов служит каналом для передачи информации из пользовательского пространства в ядро и обратно. Пользовательский агент — это административная программа TPE для управления списком доверия (и включения/отключения проверки окружения ld.so). Компонент ld.so отвечает за очистку окружения от недопустимых переменных.</p>
 <empty-line/>
-<subtitle>Ядерный интерфейс списка доверия TPE и абстрактные типы данных</subtitle>
+</section>
+<section id="toc_sub_000081"><title><p>Ядерный интерфейс списка доверия TPE и абстрактные типы данных</p></title>
 <empty-line/>
 <p>Список доверия внутри ядра представляет собой статический массив типа <code>uid_t</code>. Решение использовать статический массив для хранения доверенных идентификаторов было принято из соображений удобства и эффективности в рантайме. По умолчанию список содержит элементы. Если по какой-то причине этого окажется недостаточно, размер можно увеличить, изменив символическую константу препроцессора TPE_ACL_SIZE (однако сначала стоит задаться вопросом, почему вам нужно больше 80 доверенных пользователей).</p>
 <empty-line/>
@@ -1300,17 +1379,20 @@
 <empty-line/>
 <p>Скорость важна при поиске, и, поскольку список упорядочен, можно выполнить бинарный поиск с наихудшим случаем O(lg N). Фактически при размере списка по умолчанию в 80 элементов гарантированно не потребуется более 7 сравнений. Для сравнения: последовательный поиск в упорядоченном списке имеет наихудший случай O(N) (80 сравнений).</p>
 <empty-line/>
-<subtitle>Защита ld.so в TPE</subtitle>
+</section>
+<section id="toc_sub_000082"><title><p>Защита ld.so в TPE</p></title>
 <empty-line/>
 <p>Динамический компоновщик — мощный инструмент, позволяющий писать небольшие программы, загружающие внешний код в рантайме. В глобальном масштабе ld.so позволяет процессам загружать произвольный внешний код для исполнения. Это может быть использовано для обхода наших ограничений исполнения. Пользователь мог бы обойти проверку доверия пути, просто динамически загрузив код посредством перенаправления библиотек или объектного кода. Это противоречит нашим интересам. Чтобы предотвратить это, мы патчим ld.so для удаления переменных окружения LD_PRELOAD и LD_LIBRARY_PATH.</p>
 <empty-line/>
 <p>Существует глобальная переменная int tpe_ld_check, которая устанавливается, сбрасывается и проверяется через системный вызов. При установленном значении ld.so проверяет окружение любого процесса с UID, отличным от 0, и вызывает unsetenv, если существуют LD_PRELOAD и/или LD_LIBRARY_PATH. Переменные по-прежнему присутствуют в окружении пользователя, но игнорируются в процессе динамической компоновки.</p>
 <empty-line/>
-<subtitle>Что TPE делает</subtitle>
+</section>
+<section id="toc_sub_000083"><title><p>Что TPE делает</p></title>
 <empty-line/>
 <p>Исполнение с доверенного пути предотвращает запуск произвольными пользователями произвольного кода. Это означает, что злоумышленники не могут выполнять эксплойты с целью получить root на вашей машине. Это также означает, что они не могут использовать вашу машину как плацдарм для атак на другие системы. Это предоставляет администратору дополнительный уровень уверенности в безопасности системы.</p>
 <empty-line/>
-<subtitle>Что TPE не делает</subtitle>
+</section>
+<section id="toc_sub_000084"><title><p>Что TPE не делает</p></title>
 <empty-line/>
 <p>TPE опирается на аудит вызовов семейства функций exec(2). Он гарантирует, что файл программы с исполняемым кодом находится в доверенном каталоге или запускается доверенным пользователем. Программы, находящиеся в доверенном каталоге, которые интерпретируют символьный код и компонуют/компилируют в рантайме (и вызывают exec с доверенного пути), могут обойти наш мандат безопасности TPE и должны проверяться иначе. Это такие программы, как perl, любые оболочки, sed, awk и т.д. Хотя злоумышленник не может просто написать скрипт в своём домашнем каталоге (ему будет отказано в правах на исполнение, поскольку он находится в недоверенном каталоге), он может передать код через командную строку или перенаправить его из файла.</p>
 <empty-line/>
@@ -1322,7 +1404,8 @@
 <empty-line/>
 <p>Другой важный момент, касающийся TPE, состоит в том, что в целом он не защищает машину от удалённых атак. Демоны, работающие от root или от доверенного UID (что обычно и бывает — иначе как бы они вообще запустились?), будут наделены правами на исполнение. Если в их коде содержатся удалённо эксплуатируемые переполнения буфера, TPE не сможет предотвратить выполнение произвольного кода.</p>
 <empty-line/>
-<subtitle>tpe_adm</subtitle>
+</section>
+<section id="toc_sub_000085"><title><p>tpe_adm</p></title>
 <empty-line/>
 <p>Пользовательский агент предельно прост в использовании. Для отображения списка доверия ядра:</p>
 <empty-line/>
@@ -1340,7 +1423,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_006_belt_and_suspenders_openbsd_hardening_0169_327bee8169.png"/>
 <empty-line/>
-<subtitle>Установка TPE</subtitle>
+</section>
+<section id="toc_sub_000086"><title><p>Установка TPE</p></title>
 <empty-line/>
 <p>I. Извлеките код из этой статьи:</p>
 <p>1. extract P54-06</p>
@@ -1398,7 +1482,7 @@
 <p>(В нём должен быть только UID 0.) tpe_adm -s trusted users: root</p>
 <empty-line/>
 <p>2. Выполните следующее от имени недоверенного пользователя (т.е. UID=1000):</p>
-<p>cat &gt; foo.c &lt;&lt; EOF ; gcc foo.c int main(int argc, char **argv){ printf(&quot;Hello world\n&quot;); } EOF ./a.out Должна появиться ошибка EPERM.</p>
+<p>cat &gt; foo.c &lt;&lt; EOF ; gcc foo.c int main(int argc, char **argv){ printf("Hello world\n"); } EOF ./a.out Должна появиться ошибка EPERM.</p>
 <empty-line/>
 <p>3. Теперь добавьте пользователя в список доверия:</p>
 <p>tpe_adm -a UID</p>
@@ -1428,7 +1512,8 @@
 <empty-line/>
 <p>12. Готово. Похлопайте себя по плечу и купите что-нибудь у Precious Roy.</p>
 <empty-line/>
-<subtitle>Код</subtitle>
+</section>
+<section id="toc_sub_000087"><title><p>Код</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_006_belt_and_suspenders_openbsd_hardening_0293_7785145838.png"/>
 <empty-line/>
@@ -1464,23 +1549,27 @@
 <empty-line/>
 <p><emphasis>EOF</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_054_007_scavenging_connections_on_dynamic_ip_networks">
 <title><p>Поиск соединений в сетях с динамическими IP-адресами</p></title>
 <p><strong>Автор:</strong> Seth McGann &lt;smm@wpi.edu&gt; (www.el8.org), 29.11.98</p>
 <empty-line/>
-<subtitle>Цель</subtitle>
+<section id="toc_sub_000088"><title><p>Цель</p></title>
 <empty-line/>
 <p>В данной статье описывается потенциально серьёзная брешь в сетях, использующих динамическое назначение IP-адресов. Речь идёт прежде всего о динамической адресации при коммутируемом доступе, которую предоставляет практически каждый провайдер. Описываемая проблема позволяет несанкционированно использовать соединения предыдущего владельца адреса — в частности, активные сессии telnet и управляющие сессии ftp. Проблема напоминает давнюю ситуацию с терминальными серверами, которые порой предоставляли уже аутентифицированную сессию пользователю, которому повезло дозвониться сразу после принудительного разрыва соединения из-за помех в линии или иных внешних факторов.</p>
 <empty-line/>
-<subtitle>Постановка проблемы</subtitle>
+</section>
+<section id="toc_sub_000089"><title><p>Постановка проблемы</p></title>
 <empty-line/>
 <p>Для реализации атаки мы опираемся на хорошо известные концепции, обычно применяемые при не-слепом спуфинге или перехвате сессий. Прежде всего необходимо понять, как выглядит соединение после внезапной потери связи. Ключевой момент состоит в том, что соединение не исчезает немедленно: отключившийся хост не имеет возможности уведомить удалённую сторону о потере канала. Если удалённая сторона попытается отправить данные и обнаружит, что хост недоступен, вышестоящий маршрутизатор сгенерирует ICMP unreachable и соединение завершится. Если же новый коммутируемый пользователь подключится прежде, чем удалённая сторона отправит следующий пакет, картина будет иной. Для TCP-соединения ядро получит пакет, адресованный незанятому порту — как правило, с установленными флагами PUSH и ACK или просто ACK — и сгенерирует RST, тем самым закрыв соединение. На входящий UDP-пакет будет сгенерирован ICMP unreachable. В любом случае соединение прекратит существование.</p>
 <empty-line/>
-<subtitle>Решение</subtitle>
+</section>
+<section id="toc_sub_000090"><title><p>Решение</p></title>
 <empty-line/>
 <p>Решение двояко. Во-первых, необходимо запретить ядру уничтожать соединения, а во-вторых, обеспечить удалённой стороне иллюзию активности, чтобы избежать таймаутов. Для UDP ответ прост: достаточно заблокировать исходящие пакеты ICMP unreachable — удалённая сторона не разорвёт соединение. Разумеется, необходимо учитывать прикладные таймауты. С TCP дело сложнее: соединения погаснут, если на них не отвечать. Чтобы вредоносные RST-пакеты не достигали удалённой стороны, мы просто блокируем весь исходящий TCP-трафик. Для поддержания диалога мы отвечаем ACK на каждый входящий пакет PUSH|ACK, соответствующим образом увеличивая номера ACK и SEQ. Данные извлекаются из пакетов с установленным флагом PUSH. Кроме того, мы можем отправлять данные обратно по соединению, выставляя в исходящих пакетах флаги PUSH и ACK.</p>
 <empty-line/>
-<subtitle>Реализация</subtitle>
+</section>
+<section id="toc_sub_000091"><title><p>Реализация</p></title>
 <empty-line/>
 <p>Чтобы ядро не уничтожало латентные соединения, первым делом блокируем весь исходящий трафик. В Linux для этого подойдёт команда вида:</p>
 <empty-line/>
@@ -1488,7 +1577,8 @@
 <empty-line/>
 <p>После этого ни RST-пакеты, ни ICMP не покидают машину. По существу мы отключаем сетевой стек ядра и берём управление в свои руки. К сожалению, это исключает использование сырых сокетов для отправки пакетов. Можно было бы применять SOCK_PACKET, однако ради переносимости выбрана другая схема: брандмауэр временно открывается для отправки пакета и тут же закрывается снова. Для захвата пакетов с интерфейса используется libpcap 0.4, для их формирования — Libnet 0.8b. Программа называется pshack.c, поскольку именно это она и делает — рассылает ACK. Помимо этого, она позволяет отвечать на активные соединения на тот случай, если вам попадётся рут-шелл, а также принимать входящие соединения и отвечать на них. Следует отметить, что в настоящее время программа работает только под Linux — из-за различий в реализации межсетевого экрана. Это незначительное ограничение будет устранено в ближайшее время. Программа должна без проблем компилироваться на RedHat 5.1 и 4.2, а также на Slackware — при единственном изменении в заголовочном файле межсетевого экрана: необходимо убрать строку <code>#include &lt;linux/tcp.h&gt;</code>.</p>
 <empty-line/>
-<subtitle>Выводы</subtitle>
+</section>
+<section id="toc_sub_000092"><title><p>Выводы</p></title>
 <empty-line/>
 <p>С помощью данной программы легко подхватить сессии telnet и ftp, а также практически любые слабонагруженные, простаивающие соединения. Наглядный пример UDP-перехвата — кража сессий ICQ. Очевидно, что потоковые соединения, такие как FTP-передача данных, будут уничтожены потоком ICMP прежде, чем их удастся перехватить. Примечательно, что хосты, отбрасывающие пакеты ICMP unreachable из опасения поддельных сообщений о недоступности, особенно уязвимы: их соединения не рвутся так быстро.</p>
 <empty-line/>
@@ -1496,7 +1586,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_007_scavenging_connections_on_dynamic_ip_networks_0045_7de99823d0.png"/>
 <empty-line/>
-<subtitle>Исходный код: pshack.c</subtitle>
+</section>
+<section id="toc_sub_000093"><title><p>Исходный код: pshack.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_007_scavenging_connections_on_dynamic_ip_networks_0054_058b4d1f05_part01.png"/>
 <image l:href="#img__code_blocks_issue_054_007_scavenging_connections_on_dynamic_ip_networks_0054_058b4d1f05_part02.png"/>
@@ -1511,6 +1602,7 @@
 <empty-line/>
 <p><emphasis>— EOF —</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_054_008_nt_web_technology_vulnerabilities">
 <title><p>Уязвимости веб-технологий NT</p></title>
 <p><strong>Автор:</strong> rain.forest.puppy / [WT] &lt;rfpuppy@iname.com&gt;</p>
@@ -1519,7 +1611,7 @@
 <empty-line/>
 <p>Но эта статья не о них. Их слишком много, и их слишком легко использовать в качестве уязвимых целей. Гораздо интереснее найти иголку в стоге сена, поэтому я сосредоточусь на нескольких более распространённых конфигурациях. Начнём.</p>
 <empty-line/>
-<subtitle>IIS 4.0</subtitle>
+<section id="toc_sub_000094"><title><p>IIS 4.0</p></title>
 <empty-line/>
 <p>IIS — неплохой веб-сервер. Он всё ещё не дотягивает до Apache, но обладает гибкими возможностями скриптинга и серверной обработки. Однако, разумеется, за всё приходится платить...</p>
 <empty-line/>
@@ -1543,7 +1635,8 @@
 <empty-line/>
 <p>Также, как правило, сайт, расположенный в <code>\inetpub\wwwroot</code>, является «основным» сайтом и может содержать другие связанные с ним материалы (например, примеры файлов и т. д. — мы вернёмся к этому позже). Это важно запомнить.</p>
 <empty-line/>
-<subtitle>FrontPage Webbots</subtitle>
+</section>
+<section id="toc_sub_000095"><title><p>FrontPage Webbots</p></title>
 <empty-line/>
 <p>Краткое описание принципа работы вебботов: FrontPage вставляет в HTML-код комментарии, задающие параметры веббота. Затем форма отправляется в <code>/_vti_bin/shtml.dll</code>, при этом передаётся URL страницы. <code>shtml.dll</code> читает указанную страницу и интерпретирует код вебботов/HTML-комментариев.</p>
 <empty-line/>
@@ -1553,13 +1646,14 @@
 <empty-line/>
 <p>Обратите внимание, что этот сайт сохраняет результаты в файл (и тот факт, что путь начинается с <code>d:\..</code>, говорит о том, что это Windows-сервер). Но более важная деталь — поле <code>u-confirmation-url</code>. На этой странице расположена большая форма для заполнения. При её отправке введённые данные сохраняются в <code>u-file</code>, а пользователь перенаправляется на <code>u-confirmation-url</code>. Не хочется раскрывать личную информацию? Просто перейдите напрямую по <code>u-confirmation-url</code>. В данном случае это была страница регистрации для загрузки пробной версии. Поскольку мне надоело каждый раз заполнять свои данные, я теперь просто перехожу на URL подтверждения и скачиваю всё что нужно, минуя форму.</p>
 <empty-line/>
-<p>К слову, если <code>bot=&quot;SaveResults&quot;</code> и <code>u-file</code> указывает на путь в структуре сайта (что нередко встречается на аккаунтах с виртуальным хостингом), вы можете просматривать содержимое этого файла. Например:</p>
+<p>К слову, если <code>bot="SaveResults"</code> и <code>u-file</code> указывает на путь в структуре сайта (что нередко встречается на аккаунтах с виртуальным хостингом), вы можете просматривать содержимое этого файла. Например:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_008_nt_web_technology_vulnerabilities_0066_183171f86c.png"/>
 <empty-line/>
 <p>означает, что можно перейти по адресу <code>http://site/_private/download.log</code> и просмотреть всю информацию, введённую другими пользователями.</p>
 <empty-line/>
-<subtitle>IIS 3.0 до IIS 4.0</subtitle>
+</section>
+<section id="toc_sub_000096"><title><p>IIS 3.0 до IIS 4.0</p></title>
 <empty-line/>
 <p>Между IIS 3.0 и IIS 4.0 есть несколько изменений. Конечно, MMC важна, но есть кое-что ещё интереснее: в системе появились ассоциации по умолчанию между определёнными расширениями файлов и .DLL. Рассмотрим конкретный пример...</p>
 <empty-line/>
@@ -1575,7 +1669,8 @@
 <empty-line/>
 <p>Я не изучал другие расширения файлов, но IIS теперь охотно обрабатывает ещё с полдюжины (стандартные — <code>.ASP</code>, <code>.IDC</code>, <code>.HTR</code>, — и менее известные — <code>.HTW</code>, <code>.IDQ</code>, <code>.IDA</code>, <code>.CER</code> и т. д.).</p>
 <empty-line/>
-<subtitle>Примеры страниц (Sample pages)</subtitle>
+</section>
+<section id="toc_sub_000097"><title><p>Примеры страниц (Sample pages)</p></title>
 <empty-line/>
 <p>Хотя размещение примеров страниц и приложений на публичном сервере — плохая идея, многие всё равно это делают. IIS 4.0 включает довольно большой и обстоятельный демонстрационный сайт «Exploration Air», в котором применяются многие веб-технологии IIS 4.0. Интересная особенность — кнопка «How It Works» в нижней части каждой страницы, которая ведёт к скрипту, преобразующему код страниц в цветные теги. Это проблема.</p>
 <empty-line/>
@@ -1587,7 +1682,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_008_nt_web_technology_vulnerabilities_0108_799848b65c.png"/>
 <empty-line/>
-<subtitle>Cold Fusion app.server 3.1</subtitle>
+</section>
+<section id="toc_sub_000098"><title><p>Cold Fusion app.server 3.1</p></title>
 <empty-line/>
 <p>Cold Fusion — довольно изобретательный язык сценариев; это удобный интерфейс для работы с базами данных через ODBC. Но я бы не упоминал его здесь, если бы у него не было проблем.</p>
 <empty-line/>
@@ -1605,7 +1701,8 @@
 <empty-line/>
 <p>отобразит содержимое <code>boot.ini</code> в окне. Совсем как программа <code>codebrws.asp</code> в IIS, мы можем использовать это для просмотра любого файла. Однако <code>exprcalc.cfm</code> позволяет указывать другие буквы дисков, тогда как <code>codebrws.asp</code> ограничен только текущим диском.</p>
 <empty-line/>
-<subtitle>Анонимная почта</subtitle>
+</section>
+<section id="toc_sub_000099"><title><p>Анонимная почта</p></title>
 <empty-line/>
 <p>Очень просто и быстро:</p>
 <empty-line/>
@@ -1613,7 +1710,8 @@
 <empty-line/>
 <p>позволяет отправлять электронную почту. Строго говоря, это не нарушение безопасности, но и приятным назвать нельзя. Необходимо заполнить значения переменных.</p>
 <empty-line/>
-<subtitle>Проблемы прокси</subtitle>
+</section>
+<section id="toc_sub_000100"><title><p>Проблемы прокси</p></title>
 <empty-line/>
 <p>Это интересная проблема, возникающая не только в CF, но и, возможно, в прокси-программах в целом. CF включает приложение «http client» по адресу:</p>
 <empty-line/>
@@ -1625,7 +1723,8 @@
 <empty-line/>
 <p>Я обращаюсь к файрволу/веб-прокси компании «снаружи». Получаю ошибку «Отказано/Несанкционированный доступ». Затем я делаю запрос через их прокси: <code>GET http://localhost/</code> — и теперь получаю «внутреннюю» веб-страницу с инструкциями по правильному использованию прокси для выхода в интернет. Да, здесь есть очевидные проблемы с настройкой (разрешение внешних запросов), но это не суть...</p>
 <empty-line/>
-<subtitle>ODBC и MS SQL Server 6.5</subtitle>
+</section>
+<section id="toc_sub_000101"><title><p>ODBC и MS SQL Server 6.5</p></title>
 <empty-line/>
 <p>Смена темы. Раз уж мы затронули веб-сервисы и базы данных, продолжим в том же духе. Перейдём к ODBC и MS SQL Server 6.5.</p>
 <empty-line/>
@@ -1659,7 +1758,7 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_008_nt_web_technology_vulnerabilities_0206_3f6df039cd.png"/>
 <empty-line/>
-<p>что является некорректным SQL и не сработает. Ну, есть индикатор комментария, который указывает MS SQL Server просто игнорировать остаток строки. Если criteria равно <code>&quot;1 SELECT * FROM sysobjects --&quot;</code>, то <code>--</code> заставляет проигнорировать остаток запроса (<code>AND y=5</code>).</p>
+<p>что является некорректным SQL и не сработает. Ну, есть индикатор комментария, который указывает MS SQL Server просто игнорировать остаток строки. Если criteria равно <code>"1 SELECT * FROM sysobjects --"</code>, то <code>--</code> заставляет проигнорировать остаток запроса (<code>AND y=5</code>).</p>
 <empty-line/>
 <p><strong>КАКИЕ МОИ ФАЙЛЫ ЗАТРОНУТЫ?</strong> Проблематичны файлы ASP и IDC. По крайней мере ASP-файлы можно исправить, но с IDC вы в некотором смысле застряли.</p>
 <empty-line/>
@@ -1775,7 +1874,8 @@
 <empty-line/>
 <p>Примечание: у нас было время (и ресурсы) для проведения тестирования пакетных SQL-уязвимостей только против MS SQL Server 6.5. Нам было бы интересно узнать от других людей, уязвимы ли также другие платформы БД (Oracle, Informix и т. д.).</p>
 <empty-line/>
-<subtitle>Заключение</subtitle>
+</section>
+<section id="toc_sub_000102"><title><p>Заключение</p></title>
 <empty-line/>
 <p>Ну что ж, на этом пока всё. Каковы выводы из вышесказанного?</p>
 <empty-line/>
@@ -1790,15 +1890,17 @@
 <empty-line/>
 <p>----[ EOF</p>
 </section>
+</section>
 <section id="sec_issue_054_009_remote_os_detection_tcp_ip_fingerprinting">
 <title><p>Удалённое определение ОС через анализ стека TCP/IP</p></title>
 <p><strong>Автор:</strong> Fyodor &lt;fyodor@dhp.com&gt; (www.insecure.org), 18 октября 1998 г.</p>
 <empty-line/>
-<subtitle>Аннотация</subtitle>
+<section id="toc_sub_000103"><title><p>Аннотация</p></title>
 <empty-line/>
 <p>В статье рассматривается, как извлечь ценную информацию о хосте, опрашивая его стек TCP/IP. Сначала представлены «классические» методы определения ОС хоста, не связанные с анализом стека. Затем описывается актуальный «уровень техники» в инструментах анализа стека. Далее следует описание многочисленных техник, позволяющих вынудить удалённый хост раскрыть информацию о себе. В заключение подробно описывается реализация этих методов в nmap и приводится снимок результатов сканирования популярных интернет-сайтов с указанием используемых ОС.</p>
 <empty-line/>
-<subtitle>Зачем это нужно</subtitle>
+</section>
+<section id="toc_sub_000104"><title><p>Зачем это нужно</p></title>
 <empty-line/>
 <p>Полагаю, полезность определения ОС вполне очевидна, поэтому этот раздел будет кратким. Один из наиболее наглядных примеров — то, что многие уязвимости зависят от версии ОС. Допустим, вы проводите тест на проникновение и обнаруживаете открытый порт 53. Если это уязвимая версия Bind, у вас будет лишь одна попытка эксплуатации, поскольку неудачная попытка приведёт к краху демона. С хорошим TCP/IP-фингерпринтером вы быстро выясните, что машина работает под управлением «Solaris 2.51» или «Linux 2.0.35», и сможете соответствующим образом подобрать шеллкод.</p>
 <empty-line/>
@@ -1808,7 +1910,8 @@
 <empty-line/>
 <p>Ещё одно возможное применение — оценка потенциальных деловых партнёров. Перед тем как выбрать нового провайдера, просканируйте его и посмотрите, какое оборудование используется. Тарифы «99 долларов в год» звучат уже не так привлекательно, когда выясняется, что у них слабые роутеры и PPP-услуги реализованы на куче Windows-машин.</p>
 <empty-line/>
-<subtitle>Классические техники</subtitle>
+</section>
+<section id="toc_sub_000105"><title><p>Классические техники</p></title>
 <empty-line/>
 <p>Анализ стека решает задачу идентификации ОС уникальным способом. Я считаю, что эта техника наиболее перспективна, однако сейчас существует немало других решений. К сожалению, вот одна из наиболее действенных из них:</p>
 <empty-line/>
@@ -1834,7 +1937,8 @@
 <empty-line/>
 <p>К другим классическим техникам относятся записи host info в DNS (редко эффективны) и социальная инженерия. Если машина прослушивает 161/udp (snmp), с помощью «snmpwalk» из дистрибутива CMU SNMP tools и имени сообщества «public» вы почти гарантированно получите массу подробной информации.</p>
 <empty-line/>
-<subtitle>Существующие программы для фингерпринтинга</subtitle>
+</section>
+<section id="toc_sub_000106"><title><p>Существующие программы для фингерпринтинга</p></title>
 <empty-line/>
 <p>Nmap — не первая программа распознавания ОС, использующая TCP/IP-фингерпринтинг. Распространённый IRC-спуфер sirc от Johan включал весьма зачаточные техники фингерпринтинга начиная с версии 3 (или ранее). Он пытается классифицировать хост по категориям «Linux», «4.4BSD», «Win95» или «Unknown», используя несколько простых тестов TCP-флагов.</p>
 <empty-line/>
@@ -1852,7 +1956,8 @@
 <empty-line/>
 <p>Одна проблема со всеми вышеописанными программами заключается в том, что они сильно ограничены в количестве тестов фингерпринтинга, что снижает детализацию ответов. Я хочу знать не просто «эта машина работает на OpenBSD, FreeBSD или NetBSD», а именно какая из них, а также иметь представление о номере версии выпуска. Точно так же я предпочту видеть «Solaris 2.6», а не просто «Solaris». Для достижения такой детализации ответов я работал над рядом техник фингерпринтинга, которые описаны в следующем разделе.</p>
 <empty-line/>
-<subtitle>Методология фингерпринтинга</subtitle>
+</section>
+<section id="toc_sub_000107"><title><p>Методология фингерпринтинга</p></title>
 <empty-line/>
 <p>Существует очень много техник для фингерпринтинга сетевых стеков. По сути, вы просто ищете вещи, которые различаются между операционными системами, и создаёте зонд для выявления этого различия. Если комбинировать достаточно много таких зондов, можно очень точно сузить круг возможных ОС. Например, nmap надёжно отличает Solaris 2.4 от Solaris 2.5-2.51 и Solaris 2.6. Он также умеет отличать ядро Linux 2.0.30 от 2.0.31-34 или 2.0.35. Вот некоторые техники:</p>
 <empty-line/>
@@ -1913,7 +2018,8 @@
 <empty-line/>
 <p><strong>Устойчивость к SYN-флуду</strong> — Некоторые операционные системы прекращают принимать новые соединения, если отправить им слишком много поддельных SYN-пакетов (подделка пакетов позволяет избежать того, чтобы ваше ядро не сбрасывало соединения). Многие операционные системы могут обработать лишь 8 пакетов. Последние ядра Linux (и ряд других ОС) допускают различные методы, такие как SYN cookies, для предотвращения превращения этого в серьёзную проблему. Таким образом, можно узнать кое-что о целевой ОС, отправив 8 пакетов с поддельным адресом источника на открытый порт, а затем проверив, можно ли самостоятельно установить соединение с этим портом. Это не было реализовано в nmap, поскольку некоторые люди огорчаются, когда их подвергают SYN-флуду. Даже объяснение, что вы всего лишь пытались определить, какую ОС они используют, может не помочь их успокоить.</p>
 <empty-line/>
-<subtitle>Реализация в nmap и результаты</subtitle>
+</section>
+<section id="toc_sub_000108"><title><p>Реализация в nmap и результаты</p></title>
 <empty-line/>
 <p>Я создал эталонную реализацию описанных выше техник определения ОС (за исключением тех, которые я сказал не включать). Я добавил её в свой сканер Nmap, который имеет то преимущество, что уже _знает_, какие порты открыты, а какие закрыты для фингерпринтинга, так что сообщать ему это не нужно. Он также переносим между Linux, *BSD и Solaris 2.51 и 2.6, и некоторыми другими операционными системами.</p>
 <empty-line/>
@@ -1959,7 +2065,8 @@
 <empty-line/>
 <p>Версия nmap с этой функциональностью находилась в шестом цикле закрытого бета-тестирования. Возможно, она вышла к тому времени, как вы читаете это в Phrack. А может, и нет. Актуальную версию смотрите на http://www.insecure.org/nmap/.</p>
 <empty-line/>
-<subtitle>Снимки популярных сайтов</subtitle>
+</section>
+<section id="toc_sub_000109"><title><p>Снимки популярных сайтов</p></title>
 <empty-line/>
 <p>Вот занятный результат всех наших усилий. Теперь мы можем взять произвольные интернет-сайты и определить, какую ОС они используют. Многие из них отключили telnet-баннеры и т.д., чтобы скрыть эту информацию. Но нашему новому фингерпринтеру это не помеха! К тому же это хороший способ разоблачить пользователей «вашей любимой кривой ОС» как ламеров :)!</p>
 <empty-line/>
@@ -1983,7 +2090,8 @@
 <empty-line/>
 <p>Ну что ж, думаю, это достаточно ясно отвечает на наш вопрос :).</p>
 <empty-line/>
-<subtitle>Благодарности</subtitle>
+</section>
+<section id="toc_sub_000110"><title><p>Благодарности</p></title>
 <empty-line/>
 <p>Единственная причина, по которой Nmap в настоящее время способен определять столь много различных операционных систем, — это то, что многие люди из команды закрытого бета-тестирования приложили немало усилий, чтобы разыскать новые и интересные машины для фингерпринтинга! В особенности Jan Koum, van Hauser, Dmess0r, David O'Brien, James W. Abendschan, Solar Designer, Chris Wilson, Stuart Stock, Mea Culpa, Lamont Granquist, Dr. Who, Jordan Ritter, Brett Eldridge и Pluvius прислали тонны IP-адресов необычных машин и/или фингерпринты машин, недоступных через Интернет.</p>
 <empty-line/>
@@ -1991,11 +2099,12 @@
 <empty-line/>
 <p>Вопросы и комментарии можно присылать на fyodor@DHP.com (если по какой-то причине это не сработает, используйте fyodor@insecure.org). Nmap можно получить по адресу http://www.insecure.org/nmap.</p>
 </section>
+</section>
 <section id="sec_issue_054_010_defeating_sniffers_and_ids">
 <title><p>Обход снифферов и систем обнаружения вторжений</p></title>
 <p><strong>Автор:</strong> horizon &lt;jmcdonal@unf.edu&gt;</p>
 <empty-line/>
-<subtitle>Обзор</subtitle>
+<section id="toc_sub_000111"><title><p>Обзор</p></title>
 <empty-line/>
 <p>Цель данной статьи — продемонстрировать методы, которые можно использовать для обхода снифферов и систем обнаружения вторжений (СОВ). В основном статья сосредоточена на введении в заблуждение типичных «хакерских» снифферов с кратким рассмотрением систем обнаружения вторжений (IDS). Тем не менее описанные методы и приведённый код могут стать хорошей отправной точкой для проведения пакетов мимо систем обнаружения. Для детального изучения техник атак против IDS рекомендуется ознакомиться с материалом по адресу: http://www.nai.com/products/security/advisory/papers/ids-html/doc000.asp.</p>
 <empty-line/>
@@ -2005,11 +2114,13 @@
 <empty-line/>
 <p>Статья разделена на три раздела: обзор применяемых техник, описание реализации и использования, а также сам код. Там, где это возможно, код реализован в достаточно переносимом формате: в виде разделяемой библиотеки, оборачивающей вызов connect(), которую можно «установить» в обычные клиентские программы с помощью LD_PRELOAD. Эта разделяемая библиотека использует сырые сокеты для создания TCP-пакетов, что должно работать на большинстве Unix-систем. Однако некоторые описываемые атаки слишком сложны для реализации через сырые сокеты, поэтому прилагаются простые патчи для ядра OpenBSD. Я работаю над аналогичными патчами для Linux, которые будут размещены на сайте rhino9 по завершении. Сайт rhino9: http://www.rhino9.ml.org/</p>
 <empty-line/>
-<subtitle>Раздел 1. Техники</subtitle>
+</section>
+<section id="toc_sub_000112"><title><p>Раздел 1. Техники</p></title>
 <empty-line/>
 <p>Первая группа трюков предназначена исключительно для обмана большинства снифферов и, скорее всего, не окажет существенного влияния на приличную систему обнаружения вторжений. Вторая группа достаточно продвинута, чтобы начать воздействовать на эффективность систем обнаружения вторжений.</p>
 <empty-line/>
-<subtitle>Атаки, специфичные для снифферов</subtitle>
+</section>
+<section id="toc_sub_000113"><title><p>Атаки, специфичные для снифферов</p></title>
 <empty-line/>
 <p><strong>1. Архитектура снифферов — отслеживание одного хоста</strong></p>
 <empty-line/>
@@ -2033,7 +2144,8 @@
 <empty-line/>
 <p>Эта техника является вариацией предыдущей и эксплуатирует тот факт, что типичный сниффер не следит за порядковыми номерами TCP-соединения. Многие снифферы имеют определённый предел объёма захватываемых данных и прекращают запись соединения после его достижения. Если после инициации соединения отправить большой объём данных с полностью неверными порядковыми номерами, ядро сбросит наши пакеты. Однако сниффер потенциально запишет все эти данные как достоверную информацию. Это приблизительная реализация атаки «tcp-7», упомянутой в статье NAI.</p>
 <empty-line/>
-<subtitle>Атаки на IDS и снифферы</subtitle>
+</section>
+<section id="toc_sub_000114"><title><p>Атаки на IDS и снифферы</p></title>
 <empty-line/>
 <p>Описанные выше техники удивительно хорошо работают против большинства снифферов, но не окажут существенного влияния на большинство IDS. Следующие шесть техник несколько сложнее, но представляют собой хорошие отправные точки для обхода более сложных сетевых мониторов.</p>
 <empty-line/>
@@ -2067,7 +2179,8 @@
 <empty-line/>
 <p>Для завершающей атаки мы отправляем 8 КБ данных с корректными порядковыми номерами и TCP-контрольными суммами. Однако TTL будет на один переход слишком коротким для достижения целевого хоста.</p>
 <empty-line/>
-<subtitle>Итоговая последовательность атак</subtitle>
+</section>
+<section id="toc_sub_000115"><title><p>Итоговая последовательность атак</p></title>
 <empty-line/>
 <p>Все эти атаки действуют согласованно для запутывания снифферов и IDS. Вот разбивка порядка их выполнения:</p>
 <empty-line/>
@@ -2075,7 +2188,8 @@
 <empty-line/>
 <p>Атаки, отмеченные звёздочкой, требуют поддержки ядра для определения корректных порядковых номеров. Теоретически это можно было бы реализовать без поддержки ядра, используя сниффер канального уровня, но это значительно усложнило бы код, поскольку потребовало бы повторной сборки фрагментов и выполнения нескольких проверочных шагов для отслеживания реального соединения. Пользователь может выбрать, какие из этих атак применять, и порядковые номера будут корректироваться автоматически.</p>
 <empty-line/>
-<subtitle>Раздел 2 — Реализация и использование</subtitle>
+</section>
+<section id="toc_sub_000116"><title><p>Раздел 2 — Реализация и использование</p></title>
 <empty-line/>
 <p>Моей основной целью при реализации этих техник было минимизировать необходимые изменения в обычном использовании системы. Пришлось разделить техники на две категории: атаки, которые могут выполняться из пользовательского контекста, и атаки, которые каким-либо образом должны поддерживаться ядром. Дополнительной целью была достаточная переносимость набора атак пользовательского уровня на другие Unix-среды, помимо OpenBSD и Linux.</p>
 <empty-line/>
@@ -2093,7 +2207,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_010_defeating_sniffers_and_ids_0167_5aaa405168.png"/>
 <empty-line/>
-<subtitle>Поддержка ядра</subtitle>
+</section>
+<section id="toc_sub_000117"><title><p>Поддержка ядра</p></title>
 <empty-line/>
 <p>Для обеспечения нескольких описанных выше техник предоставляются патчи ядра OpenBSD. Патчи подготовлены для дистрибутива версии 2.4. В ядро добавлены три переменные sysctl и один новый системный вызов. Три переменные sysctl:</p>
 <empty-line/>
@@ -2113,7 +2228,8 @@
 <empty-line/>
 <p>Системный вызов getsockinfo необходим программе пользовательского уровня для определения того, является ли сокет TCP-сокетом, а также для запроса у ядра следующего порядкового номера для отправки в следующем исходящем пакете и следующего порядкового номера, ожидаемого от его партнёра. Это позволяет программе пользовательского уровня реализовывать атаки, основанные на корректном порядковом номере с некоторым другим дефектом пакета, таким как короткий TTL или плохая TCP-контрольная сумма.</p>
 <empty-line/>
-<subtitle>Установка патча ядра</subtitle>
+</section>
+<section id="toc_sub_000118"><title><p>Установка патча ядра</p></title>
 <empty-line/>
 <p>Вот шаги по установке патчей ядра.</p>
 <empty-line/>
@@ -2121,7 +2237,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_010_defeating_sniffers_and_ids_0218_f8a9020c5e.png"/>
 <empty-line/>
-<subtitle>Код</subtitle>
+</section>
+<section id="toc_sub_000119"><title><p>Код</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_010_defeating_sniffers_and_ids_0235_05deef9690.png"/>
 <empty-line/>
@@ -2147,6 +2264,7 @@
 <empty-line/>
 <p><emphasis>EOF</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_054_011_phrack_world_news_54">
 <title><p>Phrack World News</p></title>
 <p><strong>Выпуск 54</strong></p>
@@ -2167,7 +2285,7 @@
 <empty-line/>
 <p>— disorder</p>
 <empty-line/>
-<subtitle>Содержание выпуска 54</subtitle>
+<section id="toc_sub_000120"><title><p>Содержание выпуска 54</p></title>
 <empty-line/>
 <p>• 0x1: Юные взломщики признают вину</p>
 <p>• 0x2: Выпускники ФБР получают пистолет, жетон и теперь ещё ноутбук</p>
@@ -2203,7 +2321,8 @@
 <p>• 0x20: Phrack балансирует между мирами хакеров</p>
 <p>• 0x21: Полиция слабо надеется на контроль над компьютерной преступностью</p>
 <empty-line/>
-<subtitle>0x1: Юные взломщики признают вину</subtitle>
+</section>
+<section id="toc_sub_000121"><title><p>0x1: Юные взломщики признают вину</p></title>
 <empty-line/>
 <p><strong>Источник:</strong> Wired <strong>Дата:</strong> 1:10pm, 11.Jun.98</p>
 <empty-line/>
@@ -2219,7 +2338,8 @@
 <empty-line/>
 <p>[Федералы любят тыкать пистолетом в лицо этим детишкам. Но не арестовывать их.]</p>
 <empty-line/>
-<subtitle>0x2: Выпускники ФБР получают пистолет, жетон и теперь ещё ноутбук</subtitle>
+</section>
+<section id="toc_sub_000122"><title><p>0x2: Выпускники ФБР получают пистолет, жетон и теперь ещё ноутбук</p></title>
 <empty-line/>
 <p><strong>Источник:</strong> TechWeb <strong>Дата:</strong> 7.22.98</p>
 <empty-line/>
@@ -2257,7 +2377,8 @@
 <empty-line/>
 <p>[Гипотетически... поскольку этого ещё никто не сделал.]</p>
 <empty-line/>
-<subtitle>0x3: Знакомьтесь: охотники за хакерами</subtitle>
+</section>
+<section id="toc_sub_000123"><title><p>0x3: Знакомьтесь: охотники за хакерами</p></title>
 <empty-line/>
 <p>Толпа заключённых в полосатой мультяшной робе медленно тянется вдоль тротуара под полуденным зноем. Это центр Феникса — малоэтажный высокотехнологичный город с подчёркнуто старомодным подходом к борьбе с преступностью. Из своего офиса на шестом этаже здания прокуратуры обвинитель смотрит на заключённых без малейшего сочувствия. «У людей здесь нет особого сочувствия к преступникам любого рода. И большинство из этих людей — настоящие преступники, а не раздутые ничтожества, которые кричат, требуя внимания, — с такими я и работаю!»</p>
 <empty-line/>
@@ -2265,9 +2386,10 @@
 <empty-line/>
 <p>Добропорядочные граждане округа Марикопа теперь могут спокойно ходить по улицам, но для крупных технологических компаний, переехавших в «солнечную долину», невидимая рука хакеров и компьютерных фрикеров превращается в серьёзную проблему. Будь то остаточный дух хиппи, студенческий городок или просто реакция на лютую жару, Феникс — одно из ведущих мест сосредоточения компьютерных преступников. Тэкери здесь, чтобы им помешать.</p>
 <empty-line/>
-<p>В Аризоне, пожалуй, самое жёсткое в США законодательство против хакеров, но порой Гэйл мечтает бить огнём по огню. «Мы должны документировать каждый шаг расследования. Им же не нужно нашего образования. Достаточно одного другого жулика, который покажет, как обезьянки перед клавиатурой, как скопировать преступление. Форумы были предвестниками всего этого, но сеть взорвала эту проблему до уровня отдельного человека в любой точке мира. Не нужны сложные знания, не нужно даже хорошее оборудование — один из лучших хакеров, с которыми мы когда-либо имели дело, использовал Compaq-&quot;чемоданчик&quot; 286, и сеял хаос по всему миру. Список его маршрутов по различным системам, подключённым к интернету, обеспечит меня работой в хакерском бизнесе до конца жизни — он занимает страницы».</p>
+<p>В Аризоне, пожалуй, самое жёсткое в США законодательство против хакеров, но порой Гэйл мечтает бить огнём по огню. «Мы должны документировать каждый шаг расследования. Им же не нужно нашего образования. Достаточно одного другого жулика, который покажет, как обезьянки перед клавиатурой, как скопировать преступление. Форумы были предвестниками всего этого, но сеть взорвала эту проблему до уровня отдельного человека в любой точке мира. Не нужны сложные знания, не нужно даже хорошее оборудование — один из лучших хакеров, с которыми мы когда-либо имели дело, использовал Compaq-"чемоданчик" 286, и сеял хаос по всему миру. Список его маршрутов по различным системам, подключённым к интернету, обеспечит меня работой в хакерском бизнесе до конца жизни — он занимает страницы».</p>
 <empty-line/>
-<subtitle>Как уходить от ответственности</subtitle>
+</section>
+<section id="toc_sub_000124"><title><p>Как уходить от ответственности</p></title>
 <empty-line/>
 <p>Мы переходим из её кабинета в соседнюю переговорную комнату. Тэкери с гордостью демонстрирует новый ноутбук Compaq. Её знаменитое слайд-шоу теперь хранится на жёстком диске ноутбука. На протяжении многих лет, которые она предпочла бы не считать, Тэкери показывала свои слайды полицейским и прокурорам по всей стране, объясняя, как строить дело против хакеров. Она также обучает полицейские силы по всей стране, включая агентов Секретной службы в федеральном учебном центре Джорджии. Известно, что даже плохие парни звонили ей, чтобы узнать, что предпринимают копы.</p>
 <empty-line/>
@@ -2275,7 +2397,8 @@
 <empty-line/>
 <p>«В старые времена техасские рейнджеры были очень известны поимкой грабителей банков. Они не останавливались у границы Техаса, преследуя убийцу. Они запрыгивали на лошадь и, даже пересекая границу штата, следовали куда угодно. В компьютерную эпоху мы не можем делать ничего подобного. То, что у нас сейчас есть в США, — это мешанина из законов и ведомств. Умножьте это на международный уровень, и всё выходит из-под контроля».</p>
 <empty-line/>
-<subtitle>Высокотехнологичная правоохранительная деятельность</subtitle>
+</section>
+<section id="toc_sub_000125"><title><p>Высокотехнологичная правоохранительная деятельность</p></title>
 <empty-line/>
 <p>Тэкери переехала в Аризону в 1986 году, начав карьеру прокурора в Филадельфии. Она работала в офисе генерального прокурора, возглавляя подразделение по борьбе с организованной преступностью и рэкетом, завоевавшее национальную известность своими техническими возможностями в борьбе с хакерами. Она также была мозговым центром Операции «Сандевил» — первого общенационального скоординированного рейда против хакеров. Но затем демократия сделала поворот, и она стала жертвой странного процесса, посредством которого американцы выбирают своих старших должностных лиц в сфере правопорядка. Её начальник проиграл выборы на пост генерального прокурора. Победителя не интересовали технологии, и 12 человек были уволены, включая Тэкери.</p>
 <empty-line/>
@@ -2285,19 +2408,21 @@
 <empty-line/>
 <p>Считает ли она, что это новое поколение веб-хакеров представляет реальную угрозу для людей? «Каждый ребёнок в Америке знает систему экстренной помощи 911. Если мама тонет в бассейне, трёхлетние дети уже спасали её, позвонив по 911. Хакеры атакуют систему 911, и продолжают это делать. Это не ради знаний и не ради славы, это просто акт злобного эгоизма».</p>
 <empty-line/>
-<subtitle>Крысиные норы и технический бред</subtitle>
+</section>
+<section id="toc_sub_000126"><title><p>Крысиные норы и технический бред</p></title>
 <empty-line/>
 <p>В западных штатах США личная свобода воспринимается очень серьёзно. Никто не любит идею «большого правительства», вмешивающегося в жизнь людей. Даже хакеры вызывают сочувствие, когда жалуются на преследования со стороны полиции и прокуроров. Некоторые говорят, что стали жертвами властей.</p>
 <empty-line/>
 <p>Тэкери это отрицает. «Это хакерский миф о том, что мы забираем их компьютеры и держим их вечно. В одном случае у парня было более 12 Гб данных, хранящихся в его системе — это эквивалент 15 000 книг в мягкой обложке. Лучше нам изъять весь этот материал — на одном диске могут оказаться любовные письма, рецепты поваренной книги и ваше письмо с требованием выкупа. Мы не можем взять одно, не взяв другое. Мы физически не можем скопировать такой объём. Нам намного проще забрать компьютеры, чем полгода жить у вас дома».</p>
 <empty-line/>
-<p>На экране проектора появляется убогая спальня. Повсюду банки из-под колы, мусор разбросан по неубранной кровати. В углу стоит обнажённый компьютер — без корпуса, с торчащими проводами. Тэкери называет это крысиным гнездом. У неё сотни похожих фотографий. «Ещё в Филадельфии я начала собирать фотографии компьютеров с торчащими проводами. Когда компьютерные умники выступают перед присяжными, мы называем язык, которым они говорят, &quot;технобредом&quot;. То, что вы здесь видите, — это физическая версия технобреда». Она указывает на экран. Как правило, хакеры устанавливают стереосистему в пределах досягаемости от компьютера, а нередко и бар с напитками.</p>
+<p>На экране проектора появляется убогая спальня. Повсюду банки из-под колы, мусор разбросан по неубранной кровати. В углу стоит обнажённый компьютер — без корпуса, с торчащими проводами. Тэкери называет это крысиным гнездом. У неё сотни похожих фотографий. «Ещё в Филадельфии я начала собирать фотографии компьютеров с торчащими проводами. Когда компьютерные умники выступают перед присяжными, мы называем язык, которым они говорят, "технобредом". То, что вы здесь видите, — это физическая версия технобреда». Она указывает на экран. Как правило, хакеры устанавливают стереосистему в пределах досягаемости от компьютера, а нередко и бар с напитками.</p>
 <empty-line/>
 <p>Относительно новым явлением является домашняя сеть. «В последнее время нам попадались четыре или пять домов, где у людей в доме объединены в сеть несколько систем. И это даже без запуска форума. Когда нам везёт и мы достаточно быстры, мы можем найти виновный компьютер — но самая сложная часть работы — это найти мозг за компьютером. Для этого нужна добрая старая низкотехнологичная полицейская работа».</p>
 <empty-line/>
 <p>Команда Тэкери сталкивается с ещё одной новой проблемой, вызванной колоссальным ростом объёма хранилища. «В мире компьютеров никто ничего не выбрасывает. Это усложняет нашу жизнь. Мы не хотим читать вашу электронную почту за последние пять лет — жизнь слишком коротка, и, честно говоря, она не настолько интересна. Но иногда мы ищем один кусок доказательства, а он похоронен в огромном объёме материала — что нам ещё делать?»</p>
 <empty-line/>
-<subtitle>Отслеживание или преследование?</subtitle>
+</section>
+<section id="toc_sub_000127"><title><p>Отслеживание или преследование?</p></title>
 <empty-line/>
 <p>Слайд-шоу подходит к концу. Мы не спеша спускаемся в офис другого следователя. Он показывает нам коллекцию хакерских материалов на своём компьютере. Я спрашиваю Гэйл о будущем. Она считает, что без коренных изменений в том, как полиция относится к компьютерным преступлениям, надежды нет никакой. «Полицейские управления и прокуроры по всей стране — это, откровенно говоря, военизированные организации с очень бюрократическими, многоуровневыми процессами принятия решений. Они видят необходимость в более тщательной подготовке по борьбе с бандами; они не видят необходимости в подготовке по компьютерным вопросам, потому что руководство пришло из клуба ножей и пистолетов.</p>
 <empty-line/>
@@ -2305,7 +2430,8 @@
 <empty-line/>
 <p>Мэтт МакГрат — следственный журналист, работающий на Radio 5.</p>
 <empty-line/>
-<subtitle>0x4: Министерство юстиции собирается нанимать хакеров</subtitle>
+</section>
+<section id="toc_sub_000128"><title><p>0x4: Министерство юстиции собирается нанимать хакеров</p></title>
 <empty-line/>
 <p><strong>Источник:</strong> Business Week <strong>Дата:</strong> 6 августа 1998 г.</p>
 <empty-line/>
@@ -2313,7 +2439,8 @@
 <empty-line/>
 <p>[Угу... хм... не буду туда лезть.]</p>
 <empty-line/>
-<subtitle>0x5: Гарантия от взломщиков</subtitle>
+</section>
+<section id="toc_sub_000129"><title><p>0x5: Гарантия от взломщиков</p></title>
 <empty-line/>
 <p><strong>Источник:</strong> Wired News <strong>Дата:</strong> 9:05 a.m., 5.Oct.98</p>
 <empty-line/>
@@ -2333,7 +2460,8 @@
 <empty-line/>
 <p>«Хотя я не читал соглашения, я почти уверен, что вы не получите столько, — сказал он. — Вам придётся доказать убытки, приближающиеся к этой сумме, а это, вероятно, будет крайне сложно сделать».</p>
 <empty-line/>
-<subtitle>0x6: Первая в истории страховка от хакеров</subtitle>
+</section>
+<section id="toc_sub_000130"><title><p>0x6: Первая в истории страховка от хакеров</p></title>
 <empty-line/>
 <p><strong>Источник:</strong> Reuters <strong>Дата:</strong> 14-JUN-98 <strong>Автор:</strong> Терес Полетти</p>
 <empty-line/>
@@ -2365,11 +2493,12 @@
 <empty-line/>
 <p>Тиббет сравнивает ICSA с Центром по контролю и профилактике заболеваний, поскольку организация отслеживает все хакерские атаки и тестирует каждый хакерский инструмент и вирус, которые могут найти её программисты. ICSA также известна своим центром экстренного реагирования, отслеживающим последствия известных компьютерных вирусов и помогающим компаниям в кризисных ситуациях.</p>
 <empty-line/>
-<p>«&quot;Достаточно хорошего&quot; никогда не будет достаточно совершенным, — сказал Тиббет. — Но у нас есть мотивация совершенствовать наш сервис. Если нам приходится выписывать чек, когда кого-то взламывают, это даёт нам дополнительный стимул».</p>
+<p>«"Достаточно хорошего" никогда не будет достаточно совершенным, — сказал Тиббет. — Но у нас есть мотивация совершенствовать наш сервис. Если нам приходится выписывать чек, когда кого-то взламывают, это даёт нам дополнительный стимул».</p>
 <empty-line/>
 <p>Компания сообщила, что сотрудничает с крупными национальными страховщиками, которые признают сертификацию ICSA TruSecure обязательным условием для страховых полисов от хакеров.</p>
 <empty-line/>
-<subtitle>0x7: Новое подразделение для борьбы с высокотехнологичной преступностью</subtitle>
+</section>
+<section id="toc_sub_000131"><title><p>0x7: Новое подразделение для борьбы с высокотехнологичной преступностью</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Yomiuri Shimbun <strong>Дата:</strong> 5 июня 1998 г.</p>
 <empty-line/>
@@ -2377,7 +2506,8 @@
 <empty-line/>
 <p>В прошлом году НПА зафиксировало 263 высокотехнологичных преступления — в восемь раз больше, чем в 1992 году. Высокотехнологичная преступность стояла на повестке дня саммита «Большой восьмёрки» в Великобритании в прошлом месяце, где восемь лидеров договорились отчитаться о своих усилиях по борьбе с высокотехнологичной преступностью на саммите G8 в Кёльне, Германия, в следующем году. НПА заявило, что нынешнее законодательство Японии неадекватно, и намерено добиться принятия новых законов, ограничивающих доступ к компьютерам лицам с преступными намерениями.</p>
 <empty-line/>
-<subtitle>0x8: Первое подразделение «кибервоинов» готово к оперативному статусу</subtitle>
+</section>
+<section id="toc_sub_000132"><title><p>0x8: Первое подразделение «кибервоинов» готово к оперативному статусу</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Брайан Бендер <strong>Дата:</strong> 17 июня 1998 г.</p>
 <empty-line/>
@@ -2395,7 +2525,8 @@
 <empty-line/>
 <p>Пентагон фиксирует резкий рост компьютерных атак и других попыток получить доступ или заразить информационные сети Министерства обороны. Арт Мани, старший гражданский сотрудник МО, курирующий компьютерные операции, 10 июня заявил, что Пентагон подвергается в среднем 60 кибератакам в неделю.</p>
 <empty-line/>
-<subtitle>0x9: Отслеживание глобальной киберпреступности</subtitle>
+</section>
+<section id="toc_sub_000133"><title><p>0x9: Отслеживание глобальной киберпреступности</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Клаудия Грациано <strong>Дата:</strong> 4:00 a.m., 25.Sep.98</p>
 <empty-line/>
@@ -2403,7 +2534,7 @@
 <empty-line/>
 <p>«По сути, любые мошенничества, которые можно совершить физически, в киберпространстве совершить ещё проще», — сказал Эрик Эллен, исполнительный директор Палаты, который возглавит новое подразделение.</p>
 <empty-line/>
-<p>[Ух ты.. &quot;физически&quot;.. три очка.]</p>
+<p>[Ух ты.. "физически".. три очка.]</p>
 <empty-line/>
 <p>Лондонское подразделение будет сотрудничать с Интерполом в борьбе с масштабными технологическими преступлениями — такими как отмывание денег, промышленный шпионаж и инвестиционное мошенничество, — в отличие от мелкого потребительского мошенничества вроде продажи несуществующих товаров в сети.</p>
 <empty-line/>
@@ -2427,7 +2558,8 @@
 <empty-line/>
 <p>Штаб-квартира Международной торговой палаты находится в Париже. Организация устанавливает правила, регулирующие деятельность предприятий по всему миру. Некоммерческая группа имеет консультативный статус высшего уровня при Организации Объединённых Наций, где представляет интересы бизнеса в странах мира.</p>
 <empty-line/>
-<subtitle>0xa: ФБР открывает высокотехнологичный кризисный центр</subtitle>
+</section>
+<section id="toc_sub_000134"><title><p>0xa: ФБР открывает высокотехнологичный кризисный центр</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Майкл Дж. Снаффен <strong>Дата:</strong> пятница, 20 ноября 1998 г., 9:29 EST</p>
 <empty-line/>
@@ -2465,7 +2597,8 @@
 <empty-line/>
 <p>По словам Уилкокса, вместо того чтобы увеличивать нагрузку на полевых агентов, обязанных отчитываться перед Вашингтоном, новый центр должен снизить такие требования, поскольку «мы предложим единое окно для штаба. Полевые агенты могут докладывать нам, и мы будем нести ответственность за оповещение всех, кто должен быть оповещён».</p>
 <empty-line/>
-<subtitle>0xb: ВМС борются с новым методом взлома</subtitle>
+</section>
+<section id="toc_sub_000135"><title><p>0xb: ВМС борются с новым методом взлома</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Тим Кларк <strong>Источник:</strong> CNET NEWS.COM</p>
 <empty-line/>
@@ -2477,7 +2610,8 @@
 <empty-line/>
 <p>Новый метод предполагает отправку всего двух подозрительных зондов в час на хост-компьютер — уровень активности, который обычно не обнаруживается стандартными средствами защиты. Однако, объединяя информацию, полученную в ходе этих зондов, хакеры могут собрать значительный объём знаний о сайте.</p>
 <empty-line/>
-<subtitle>0xc: Пентагон блокирует DoS-атаку</subtitle>
+</section>
+<section id="toc_sub_000136"><title><p>0xc: Пентагон блокирует DoS-атаку</p></title>
 <empty-line/>
 <p><strong>Источник:</strong> Newsbytes via NewsEdge</p>
 <empty-line/>
@@ -2507,7 +2641,8 @@
 <empty-line/>
 <p>Атаки Swarm, по имеющимся сведениям, не встретили большого одобрения среди хакеров, которые считают FloodNet злоупотреблением сетевыми ресурсами.</p>
 <empty-line/>
-<subtitle>0xd: Хакеры уходят от сотрудников центра ускорителя</subtitle>
+</section>
+<section id="toc_sub_000137"><title><p>0xd: Хакеры уходят от сотрудников центра ускорителя</p></title>
 <empty-line/>
 <p><strong>Источник:</strong> San Francisco Chronicle <strong>Дата:</strong> 06/11/98</p>
 <empty-line/>
@@ -2539,7 +2674,8 @@
 <empty-line/>
 <p>Чтобы минимизировать подобные взломы, по его словам, всё больше системных операторов используют программы шифрования, не позволяющие хакерам определять имена для входа и пароли. Однако это не простой вариант для Стэнфордского центра, поскольку программы шифрования запрещены в ряде стран, в том числе во Франции, где живут некоторые связанные с центром исследователи.</p>
 <empty-line/>
-<subtitle>0xe: Кибератаки оставляют федералов гоняться за «призраком»</subtitle>
+</section>
+<section id="toc_sub_000138"><title><p>0xe: Кибератаки оставляют федералов гоняться за «призраком»</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Боб Брюин (antenna@fcw.com)</p>
 <empty-line/>
@@ -2559,9 +2695,10 @@
 <empty-line/>
 <p>Барри Коллин, старший исследователь Института безопасности и разведки, заявил, что со временем всё труднее будет идентифицировать стратегические атаки, поскольку достаточно сложная нация, способная развернуть кибервойну против США, также будет иметь достаточно возможностей, чтобы замаскировать её под подростковую хакерскую атаку. «Они могут сделать так, чтобы это выглядело как игра, а не реальная атака», — сказал он.</p>
 <empty-line/>
-<subtitle>«Фаза охоты»</subtitle>
+</section>
+<section id="toc_sub_000139"><title><p>«Фаза охоты»</p></title>
 <empty-line/>
-<p>Безопасников также беспокоит возможность того, что атаки будут проводиться быстрыми ударами на протяжении длительного периода времени, сказал Хамре. «Фаза охоты может длиться несколько лет, что затрудняет объединение любопытных, казалось бы, не связанных между собой событий в единую картину, — сказал он. — Эти долгосрочные атаки &quot;могут охватывать несколько юрисдикций — например, энергосети или узлы управления воздушным движением в различных штатах. Наши знания об источнике таких атак и их организаторах, скорее всего, будут неточными&quot;».</p>
+<p>Безопасников также беспокоит возможность того, что атаки будут проводиться быстрыми ударами на протяжении длительного периода времени, сказал Хамре. «Фаза охоты может длиться несколько лет, что затрудняет объединение любопытных, казалось бы, не связанных между собой событий в единую картину, — сказал он. — Эти долгосрочные атаки "могут охватывать несколько юрисдикций — например, энергосети или узлы управления воздушным движением в различных штатах. Наши знания об источнике таких атак и их организаторах, скорее всего, будут неточными"».</p>
 <empty-line/>
 <p>Хамре также представил засекреченные показания на совместном закрытом заседании Подкомитета по военным закупкам и Подкомитета по военным исследованиям и разработкам Комитета Палаты представителей по национальной безопасности. По всей видимости, Хамре представил более детальные свидетельства компьютерных уязвимостей — судя по замечаниям конгрессмена Кёрта Уэлдона (республиканец от Пенсильвании), председателя Подкомитета по военным исследованиям и разработкам, назвавшего засекреченные показания Хамре «самым провокационным брифингом», который он когда-либо получал за 12 лет работы в Конгрессе.</p>
 <empty-line/>
@@ -2575,7 +2712,8 @@
 <empty-line/>
 <p>Бейтман отметил, что готовность Министерства торговли разрешить экспорт критически важных спутниковых и ракетных технологий Китаю оставила его «неубеждённым» в том, что Министерство торговли обладает той же «чувствительностью» к требованиям национальной безопасности, что и Пентагон.</p>
 <empty-line/>
-<subtitle>0xf: Конгресс атакует фонды киберзащиты</subtitle>
+</section>
+<section id="toc_sub_000140"><title><p>0xf: Конгресс атакует фонды киберзащиты</p></title>
 <empty-line/>
 <p><strong>Источник:</strong> Defense News <strong>Дата:</strong> 16.06.98</p>
 <empty-line/>
@@ -2583,7 +2721,8 @@
 <empty-line/>
 <p>[Итак, они создают все эти новые группы для борьбы с киберпреступностью... и вот чем это заканчивается?]</p>
 <empty-line/>
-<subtitle>0x10: Mudge о вендорах безопасности</subtitle>
+</section>
+<section id="toc_sub_000141"><title><p>0x10: Mudge о вендорах безопасности</p></title>
 <empty-line/>
 <p><strong>Источник:</strong> Bugtraq</p>
 <empty-line/>
@@ -2613,7 +2752,8 @@
 <empty-line/>
 <p>.mudge</p>
 <empty-line/>
-<subtitle>0x11: Новые задержки в деле Митника</subtitle>
+</section>
+<section id="toc_sub_000142"><title><p>0x11: Новые задержки в деле Митника</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Кевин Поулсен <strong>Дата:</strong> 25 ноября 1998 г., 3:33 PM PT <strong>Источник:</strong> ZDNet</p>
 <empty-line/>
@@ -2621,7 +2761,8 @@
 <empty-line/>
 <p>Кроме того, обвинение почти на неделю отстаёт с передачей перечня доказательств защите. Некоторые электронные доказательства полностью скрываются, утверждает Рэндольф.</p>
 <empty-line/>
-<subtitle>Задержки обвинения</subtitle>
+</section>
+<section id="toc_sub_000143"><title><p>Задержки обвинения</p></title>
 <empty-line/>
 <p>«В связи со значительным опозданием правительства в предоставлении материалов расследования в соответствии с предписанием суда и в связи с его продолжающимся непредоставлением определённых доказательств, защита не в состоянии компетентно завершить расследование и подготовиться к судебному разбирательству при отсутствии разумного переноса даты судебного процесса», — говорится в ходатайстве.</p>
 <empty-line/>
@@ -2629,13 +2770,15 @@
 <empty-line/>
 <p>Обвинители выступили против любой задержки. «Утверждение о том, что мы опоздали с материалами, является неправдивым, — говорит прокурор Дэвид Шиндлер. — Мы предоставили тысячи страниц материалов расследования».</p>
 <empty-line/>
-<subtitle>Правительственный «крот»?</subtitle>
+</section>
+<section id="toc_sub_000144"><title><p>Правительственный «крот»?</p></title>
 <empty-line/>
 <p>В тексте ходатайства также содержится намёк на то, что правительство заплатило Рону Остину — бывшему компаньону Митника и сотруднику предыдущего адвоката Митника — за слежку за своим клиентом.</p>
 <empty-line/>
 <p>«Остин был осведомлён о конфиденциальных переговорах между г-ном Митником и г-ном Шерманом, которые он впоследствии раскрыл правительству», — говорится в заявлении.</p>
 <empty-line/>
-<subtitle>0x12: «Чёрный ход» далеко не уходит</subtitle>
+</section>
+<section id="toc_sub_000145"><title><p>0x12: «Чёрный ход» далеко не уходит</p></title>
 <empty-line/>
 <p><strong>Источник:</strong> San Jose Mercury News</p>
 <empty-line/>
@@ -2643,7 +2786,8 @@
 <empty-line/>
 <p>Однако официальные представители администрации заявили, что комиссии, срок полномочий которой истекает в июле, просто нужно больше времени. 22-членная комиссия, назначенная министром торговли в 1996 году, пришла к выводу на заседании на прошлой неделе, что не может преодолеть технические препятствия при создании масштабной инфраструктуры, отвечающей потребностям правоохранительных органов, сообщили члены комиссии. Группе было поручено написать официальный государственный план, известный как «Стандарт федеральной обработки информации» (FIPS), с подробным описанием того, как государственным органам следует строить системы, включающие чёрные ходы.</p>
 <empty-line/>
-<subtitle>0x13: Сотрудник ICSA притворяется хакером</subtitle>
+</section>
+<section id="toc_sub_000146"><title><p>0x13: Сотрудник ICSA притворяется хакером</p></title>
 <empty-line/>
 <p><strong>Источник:</strong> Forbes Digital Tool <strong>Автор:</strong> Адам Пененберг</p>
 <empty-line/>
@@ -2667,7 +2811,8 @@
 <empty-line/>
 <p>Хакеры, конечно же.</p>
 <empty-line/>
-<subtitle>0x14: Ваш ребёнок — хакер?</subtitle>
+</section>
+<section id="toc_sub_000147"><title><p>0x14: Ваш ребёнок — хакер?</p></title>
 <empty-line/>
 <p><strong>Источник:</strong> Family PC Magazine <strong>Дата:</strong> ноябрь 1998 г. <strong>Автор:</strong> Кевин Поулсен</p>
 <empty-line/>
@@ -2681,7 +2826,8 @@
 <empty-line/>
 <p>Это случилось с моей семьёй 15 лет назад, в ходе одного из первых хакерских рейдов в стране. Тогда именно я был подростком-правонарушителем, незаконно получавшим доступ к федеральным компьютерам. Сейчас мне за тридцать, и я начал задумываться, как уберечь собственного ребёнка от того, чтобы не стать мальчиком для битья компьютерной преступности. Я считаю, что лучший подход — оставаться в курсе дел и общаться с потенциальными киберпанками.</p>
 <empty-line/>
-<subtitle>Открытые каналы связи</subtitle>
+</section>
+<section id="toc_sub_000148"><title><p>Открытые каналы связи</p></title>
 <empty-line/>
 <p>Некоторые вещи, которые вы могли бы воспринять как зловещие предупреждающие знаки, на самом деле вполне безобидны. Например, если ваш подросток называет себя «хакером», это не обязательно означает, что он на пути к неприятностям. Вопреки нагнетанию паники в СМИ, хакеры по определению не являются правонарушителями. Слово на самом деле описывает человека с талантом к технологиям, глубоким интересом к тому, как всё работает, и склонностью отвергать любые ограничения. Если ваш сын разобрал Гига Пета, подаренного ему на Рождество, он, вероятно, хакер. Если заставил его работать лучше — точно хакер. Конечно, некоторые хакеры идут дальше и испытывают свои навыки против взрослого мира корпоративных и государственных компьютерных систем.</p>
 <empty-line/>
@@ -2691,7 +2837,8 @@
 <empty-line/>
 <p>Если ваш ребёнок читает хакерские веб-сайты, прочтите их сами. Если у него есть подписка на хакерский журнал, просмотрите его и задайте вопросы. Не стесняйтесь восхищаться умностью последней хакерской техники. Затем поговорите о последствиях: растущей стоимости юридического представительства, проблемах, с которыми сталкивается осуждённый за тяжкое преступление в академической среде и на рынке труда. Начните искать альтернативы жизни в киберпреступности.</p>
 <empty-line/>
-<subtitle>Конструктивные альтернативы</subtitle>
+</section>
+<section id="toc_sub_000149"><title><p>Конструктивные альтернативы</p></title>
 <empty-line/>
 <p>Если у вашего ребёнка бунтарская жилка, я советую отказаться от попыток подавить её и попробовать направить в другое русло. Когда хакеры вырастают, они нередко находят разумную замену острым ощущениям вторжения, работая на другой стороне. Спросите вашего подростка, как он закрыл бы последние дыры в безопасности. Заставьте его задуматься. Попросите совета по защите собственной электронной почты или аккаунта у провайдера.</p>
 <empty-line/>
@@ -2703,7 +2850,8 @@
 <empty-line/>
 <p>В конечном счёте именно в этом и заключается истинный смысл хакинга.</p>
 <empty-line/>
-<subtitle>0x15: Сеть пейджинговой связи захвачена</subtitle>
+</section>
+<section id="toc_sub_000150"><title><p>0x15: Сеть пейджинговой связи захвачена</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Крис Оукс <strong>Дата:</strong> 4:00am, 24.Jul.98</p>
 <empty-line/>
@@ -2721,7 +2869,7 @@
 <empty-line/>
 <p>Получив одно непонятное сообщение — неузнаваемое ни по источнику, ни по содержанию — он предположил, что это просто «не тот номер». «Но вдруг — целый шквал», — сказал Келли. Особенно запомнилось повторяющееся сообщение: «There is only one blu bula».</p>
 <empty-line/>
-<p>«Я получил его несколько раз, — сказал он. — Ещё в двух сообщениях говорилось &quot;Mike, you're Mom drives a Passat&quot; и одно было сексуально недвусмысленным. Оба последних были подписаны &quot;Christian&quot;». Келли сообщил, что получил около 30 бессмысленных сообщений.</p>
+<p>«Я получил его несколько раз, — сказал он. — Ещё в двух сообщениях говорилось "Mike, you're Mom drives a Passat" и одно было сексуально недвусмысленным. Оба последних были подписаны "Christian"». Келли сообщил, что получил около 30 бессмысленных сообщений.</p>
 <empty-line/>
 <p>[фрагмент...]</p>
 <empty-line/>
@@ -2729,13 +2877,14 @@
 <empty-line/>
 <p>«Это прекрасный пример того, как самоуверенность в итоге может стать причиной проблемы, — сказал Питер Шипли, специалист по анализу и укреплению безопасности систем в аудиторской фирме KPMG Peat Marwick.</p>
 <empty-line/>
-<p>Хотя неясно, была ли система PageMart действительно взломана, Шипли отметил, что слабая защита от вторжений встречается слишком часто. «Я занимаюсь такими аудитами безопасности, и в большом числе виденных мной систем пароли легко угадываются — из-за предположения &quot;кому захочется это взламывать?&quot;»</p>
+<p>Хотя неясно, была ли система PageMart действительно взломана, Шипли отметил, что слабая защита от вторжений встречается слишком часто. «Я занимаюсь такими аудитами безопасности, и в большом числе виденных мной систем пароли легко угадываются — из-за предположения "кому захочется это взламывать?"»</p>
 <empty-line/>
 <p>На самом деле пейджинговые службы хранят чрезвычайно ценные данные — от адресов выставления счетов до информации о кредитных картах и не только, отметил Шипли. Не говоря уже о самих сообщениях, которые легко перехватить на их пути через эфир.</p>
 <empty-line/>
 <p>«Небольшие компании считают, что они не являются мишенями [для хакеров], — заключил Шипли из KPMG. — Но маленькие компании атакуют так же часто, как и большие. Они — ступеньки лестницы, маленькие рыбки, с которых хакеры начинают».</p>
 <empty-line/>
-<subtitle>0x16: ФБР задерживает хакера, продававшего тайные аккаунты в системе PageNet</subtitle>
+</section>
+<section id="toc_sub_000151"><title><p>0x16: ФБР задерживает хакера, продававшего тайные аккаунты в системе PageNet</p></title>
 <empty-line/>
 <p><strong>Дата:</strong> 30 июля 1998 г., 7:28 p.m. EDT <strong>Источник:</strong> Nando Times</p>
 <empty-line/>
@@ -2743,7 +2892,8 @@
 <empty-line/>
 <p>[фрагмент...]</p>
 <empty-line/>
-<subtitle>0x17: Машина EFF для взлома DES вносит честность в криптодебаты</subtitle>
+</section>
+<section id="toc_sub_000152"><title><p>0x17: Машина EFF для взлома DES вносит честность в криптодебаты</p></title>
 <empty-line/>
 <p><strong>Дата:</strong> 17 июля 1998 г.</p>
 <empty-line/>
@@ -2755,7 +2905,8 @@
 <empty-line/>
 <p>[фрагмент...]</p>
 <empty-line/>
-<subtitle>0x18: Сайт о взломах взломали</subtitle>
+</section>
+<section id="toc_sub_000153"><title><p>0x18: Сайт о взломах взломали</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Пол Феста <strong>Источник:</strong> CNET News.com <strong>Дата:</strong> 28 октября 1998 г., 11:30 a.m. PT</p>
 <empty-line/>
@@ -2773,7 +2924,8 @@
 <empty-line/>
 <p>Злоумышленник также пригрозил ударить по другому хакерскому новостному сайту — AntiOnline.</p>
 <empty-line/>
-<subtitle>0x19: От преступников к веб-поисковикам</subtitle>
+</section>
+<section id="toc_sub_000154"><title><p>0x19: От преступников к веб-поисковикам</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Кристен Филипкоски <strong>Дата:</strong> 4:00am, 15.Jul.98</p>
 <empty-line/>
@@ -2785,7 +2937,8 @@
 <empty-line/>
 <p>Поиск по сходству хорошо подходит для криминалистической работы, говорит Уилер, поскольку расследования зачастую носят случайный и несвязный характер. Например, если полиция ищет красный автомобиль, а свидетель говорит, что он был бордовым, традиционный поиск по ключевому слову не даст совпадения, поскольку не распознает, что цвета похожи.</p>
 <empty-line/>
-<subtitle>0x1a: Используете Microsoft OS в сети? Примите наши соболезнования</subtitle>
+</section>
+<section id="toc_sub_000155"><title><p>0x1a: Используете Microsoft OS в сети? Примите наши соболезнования</p></title>
 <empty-line/>
 <p><strong>Дата:</strong> 21 июля 1998 г.</p>
 <empty-line/>
@@ -2805,7 +2958,8 @@
 <empty-line/>
 <p>После 3 августа Back Orifice будет доступен на www.cultdeadcow.com бесплатно.</p>
 <empty-line/>
-<subtitle>0x1b: Эксперт по безопасности объясняет взлом сайта New York Times</subtitle>
+</section>
+<section id="toc_sub_000156"><title><p>0x1b: Эксперт по безопасности объясняет взлом сайта New York Times</p></title>
 <empty-line/>
 <p><strong>Дата:</strong> 18 сентября 1998 г. <strong>Автор:</strong> Эллен Мессмер</p>
 <empty-line/>
@@ -2829,9 +2983,10 @@
 <empty-line/>
 <p>Хотя хакерские тирады и порнография — уже достаточно неприятная находка на веб-сайте, значительно более серьёзный сценарий предполагает незаметную публикацию злоумышленником слегка изменённой информации, заставляющей читателя воспринимать её как подлинную.</p>
 <empty-line/>
-<p>«Это может закончиться как &quot;Война миров&quot;, когда люди впали в панику, не зная, что слышат на радио выдуманное», — прокомментировал Дуг Барни, новостной редактор Network World.</p>
+<p>«Это может закончиться как "Война миров", когда люди впали в панику, не зная, что слышат на радио выдуманное», — прокомментировал Дуг Барни, новостной редактор Network World.</p>
 <empty-line/>
-<subtitle>0x1c: Merriam-Webster отключили по старинке</subtitle>
+</section>
+<section id="toc_sub_000157"><title><p>0x1c: Merriam-Webster отключили по старинке</p></title>
 <empty-line/>
 <p><strong>Дата:</strong> среда, 5 августа 1998 г., 00:41:57 MDT <strong>Источник:</strong> www.m-w.com</p>
 <empty-line/>
@@ -2845,7 +3000,8 @@
 <empty-line/>
 <p>[Наверное, не стоило ставить компьютер у окна...]</p>
 <empty-line/>
-<subtitle>0x1d: Длинноволосый хакер творит чудеса</subtitle>
+</section>
+<section id="toc_sub_000158"><title><p>0x1d: Длинноволосый хакер творит чудеса</p></title>
 <empty-line/>
 <p><strong>Источник:</strong> Nando Times <strong>Дата:</strong> 20 сентября 1998 г.</p>
 <empty-line/>
@@ -2863,7 +3019,7 @@
 <empty-line/>
 <p>Вместо того чтобы воспользоваться этим знанием, Mudge встретился с компанией лицом к лицу.</p>
 <empty-line/>
-<p>«Вы понимаете, что в ваших коммуникациях между компьютерами нет никакого безопасного или &quot;надёжного&quot; шифрования?» — спросил он.</p>
+<p>«Вы понимаете, что в ваших коммуникациях между компьютерами нет никакого безопасного или "надёжного" шифрования?» — спросил он.</p>
 <empty-line/>
 <p>«Ну...»</p>
 <empty-line/>
@@ -2969,7 +3125,8 @@
 <empty-line/>
 <p>«Мы сейчас в промежуточном поколении, — сказал организатор конференции Мосс. — Есть ваши оригинальные хакеры из MIT — старая школа, — которые уже устоялись. Они отцы-основатели этой информационной революции. Есть мы — те, кто наблюдал, как компьютеры переходили от мейнфрейма к настольному ПК, а потом к ноутбуку. И есть молодое поколение, которое всегда знало компьютеры».</p>
 <empty-line/>
-<subtitle>0x1e: Вещественные доказательства</subtitle>
+</section>
+<section id="toc_sub_000159"><title><p>0x1e: Вещественные доказательства</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Беверли Хэнли <strong>Дата:</strong> 4:00am, 5.Aug.98</p>
 <empty-line/>
@@ -2987,21 +3144,21 @@
 <empty-line/>
 <p>«Это площадка, где вы можете экспериментировать с процессом и существом этих [кибер-правовых] дел, — сказала Дженнифер Мнукин, профессор права в Школе права Вирджинии в Шарлоттсвилле, которая примет участие в заседании. — Она считает, что виртуальные миры, подобные LambdaMOO, могут стать новой и более подходящей ареной для разрешения споров».</p>
 <empty-line/>
-<p>«Отчасти речь идёт о том, насколько человек может быть ранен словами, — сказала Мнукин. — Тот, кто совершает нарушение в киберпространстве, не обязательно должен нести последствия в реальных залах суда. Нечто вроде LambdaMOO &quot;кибернасилие&quot; было правомерно урегулировано в виртуальном суде. Нарушитель был выдворен из этого мира, его виртуальная личность была уничтожена — он был &quot;превращён в жабу&quot;. То, что является нарушением в одном мире, может не являться таковым в другом».</p>
+<p>«Отчасти речь идёт о том, насколько человек может быть ранен словами, — сказала Мнукин. — Тот, кто совершает нарушение в киберпространстве, не обязательно должен нести последствия в реальных залах суда. Нечто вроде LambdaMOO "кибернасилие" было правомерно урегулировано в виртуальном суде. Нарушитель был выдворен из этого мира, его виртуальная личность была уничтожена — он был "превращён в жабу". То, что является нарушением в одном мире, может не являться таковым в другом».</p>
 <empty-line/>
 <p>Виртуальные наказания также могут переходить из одного мира в другой. Чин в своём виртуальном суде предлагает идею «виртуальной кастрации» как альтернативу «химической кастрации», которую некоторые отстаивают как способ работы с сексуальными преступниками.</p>
 <empty-line/>
 <p>Августовское публичное мероприятие в Кембридже, Массачусетс, — первая возможность для Чин взаимодействовать одновременно с живой и онлайн-аудиторией с момента начала проекта Brandon 20 июня.</p>
 <empty-line/>
-<p>«Тест послужит основой для построения дигиархитектурного пространства виртуального суда в [планируемом] виртуальном музее Гуггенхайма, — сказала Чин, которая совместно с архитектором физических пространств создаст &quot;зал суда&quot; в музее. — Моя работа всегда сочетала реальное и виртуальное пространство».</p>
+<p>«Тест послужит основой для построения дигиархитектурного пространства виртуального суда в [планируемом] виртуальном музее Гуггенхайма, — сказала Чин, которая совместно с архитектором физических пространств создаст "зал суда" в музее. — Моя работа всегда сочетала реальное и виртуальное пространство».</p>
 <empty-line/>
 <p>Пользователям сети не нужно ничего, кроме подключения к интернету, чтобы настроиться на показательный процесс. Но Чин также хочет охватить аудиторию, не имеющую доступа к сетевым технологиям.</p>
 <empty-line/>
 <p>Все желающие из района Гарварда могут физически посетить инсценированный процесс. В Нью-Йорке уличная аудитория может посетить видеостену Guggenheim SoHo, состоящую из 75 смежных 40-дюймовых проекционных кубов. Видеостена будет отображать изображения из проекта Brandon, а зрители смогут взаимодействовать в запланированное время.</p>
 <empty-line/>
-<p>«Мы не уверены, как пройдёт &quot;эксперимент&quot; с аудиторией, — сказала Чин. — Может, у нас всё провалится. Но именно эта неопределённость, это ощущение, что мы исследуем новую почву в публичном взаимодействии, меня и моих коллег в Институте волнует больше всего».</p>
+<p>«Мы не уверены, как пройдёт "эксперимент" с аудиторией, — сказала Чин. — Может, у нас всё провалится. Но именно эта неопределённость, это ощущение, что мы исследуем новую почву в публичном взаимодействии, меня и моих коллег в Институте волнует больше всего».</p>
 <empty-line/>
-<p>Профессор права Мнукин рассматривает эксперимент как площадку, способную открыть диалог по вопросам кибер-права. «Что меня интересует в &quot;виртуальном праве&quot; — это то, что в нём гораздо очевиднее, чем в реальном мире, что правила пластичны и создаются самими участниками.</p>
+<p>Профессор права Мнукин рассматривает эксперимент как площадку, способную открыть диалог по вопросам кибер-права. «Что меня интересует в "виртуальном праве" — это то, что в нём гораздо очевиднее, чем в реальном мире, что правила пластичны и создаются самими участниками.</p>
 <empty-line/>
 <p>«В реальном мире легко воспринимать правовые процессы как данность, предполагать, что их нельзя легко изменить, — продолжила она. — Если виртуальные миры используются как лаборатории, проще распознать возможности для изменений — как внутри виртуальной среды, так и, возможно, в реальном мире тоже».</p>
 <empty-line/>
@@ -3009,7 +3166,8 @@
 <empty-line/>
 <p>После показательного процесса Чин переедет в Амстердам, Нидерланды, для подготовки следующей живой инсталляции проекта: «Digi Gender, Social Body: Under the Knife, Under the Spell of Anesthesia» — веб-трансляция запланирована на сентябрь 1998 года. «Встаньте, присяжные! Преступление и наказание как сетевое зрелище» запланировано на май 1999 года.</p>
 <empty-line/>
-<subtitle>0x1f: Золотой век хактивизма</subtitle>
+</section>
+<section id="toc_sub_000160"><title><p>0x1f: Золотой век хактивизма</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Ниалл МакКей <strong>Дата:</strong> 4:00 a.m., 22.Sep.98</p>
 <empty-line/>
@@ -3059,7 +3217,8 @@
 <empty-line/>
 <p>По мере того как оффлайн-протесты — защищённые в США Конституцией — вступают в следующий цифровой век, вопрос остаётся открытым: как ФБР будет проводить различие между относительно безобидными онлайн-политическими протестами и кибертерроризмом?</p>
 <empty-line/>
-<subtitle>0x20: Phrack балансирует между мирами хакеров</subtitle>
+</section>
+<section id="toc_sub_000161"><title><p>0x20: Phrack балансирует между мирами хакеров</p></title>
 <empty-line/>
 <p><strong>Источник:</strong> Nando Times <strong>Дата:</strong> 20 сентября 1998 г.</p>
 <empty-line/>
@@ -3099,7 +3258,8 @@
 <empty-line/>
 <p>«Тусовка будет делать то, что она будет делать, — сказал он. — Это как любая клика в обществе. Есть хорошие люди и есть плохие».</p>
 <empty-line/>
-<subtitle>0x21: Полиция слабо надеется на контроль над компьютерной преступностью</subtitle>
+</section>
+<section id="toc_sub_000162"><title><p>0x21: Полиция слабо надеется на контроль над компьютерной преступностью</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Роб Лемос <strong>Источник:</strong> ZDNN <strong>Дата:</strong> 6 августа 1998 г., 10:16 AM PT</p>
 <empty-line/>
@@ -3107,7 +3267,8 @@
 <empty-line/>
 <p>«Трудно предсказать, где мы окажемся через 10 лет, — сказал Скотт Чарни, начальник отдела компьютерных преступлений и интеллектуальной собственности Министерства юстиции США. — Но будет всякого рода родовые боли». Чарни собрался здесь с другими компьютерно-грамотными сотрудниками правоохранительных органов для участия в международном симпозиуме по вопросам уголовного правосудия в Университете Иллинойса в Чикаго. Симпозиум был сосредоточен на высокотехнологичной преступности, кибертерроризме и информационной войне.</p>
 <empty-line/>
-<subtitle>Невидимые преступники</subtitle>
+</section>
+<section id="toc_sub_000163"><title><p>Невидимые преступники</p></title>
 <empty-line/>
 <p>Сотрудники правоохранительных органов говорят, что одна из их наибольших задач — как это ни парадоксально — заключается в том, чтобы знать, когда совершается преступление.</p>
 <empty-line/>
@@ -3115,7 +3276,8 @@
 <empty-line/>
 <p>«Мы улучшимся, — сказала Дорис Гарднер, следователь Национального центра защиты инфраструктуры, нового федерального агентства, созданного для борьбы с компьютерными преступлениями. — Нам нужно обучаться — лучше взаимодействовать друг с другом».</p>
 <empty-line/>
-<subtitle>Ящик Пандоры</subtitle>
+</section>
+<section id="toc_sub_000164"><title><p>Ящик Пандоры</p></title>
 <empty-line/>
 <p>Но даже когда правоохранительные органы обучаются с учётом предстоящих испытаний, эксперты говорят, что киберпреступники продолжают совершенствовать свои способности.</p>
 <empty-line/>
@@ -3133,45 +3295,52 @@
 <empty-line/>
 <p><emphasis>----[ EOF</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_054_012_phrack_extraction_utility">
 <title><p>Утилита извлечения файлов Phrack Magazine</p></title>
 <p><strong>Автор:</strong> Phrack Staff</p>
 <empty-line/>
 <p>Новинка этого выпуска: версия для Win32.</p>
 <empty-line/>
-<subtitle>extract3.c</subtitle>
+<section id="toc_sub_000165"><title><p>extract3.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_012_phrack_extraction_utility_0013_3f2187a78c_part01.png"/>
 <image l:href="#img__code_blocks_issue_054_012_phrack_extraction_utility_0013_3f2187a78c_part02.png"/>
 <image l:href="#img__code_blocks_issue_054_012_phrack_extraction_utility_0013_3f2187a78c_part03.png"/>
 <image l:href="#img__code_blocks_issue_054_012_phrack_extraction_utility_0013_3f2187a78c_part04.png"/>
 <empty-line/>
-<subtitle>extract.pl</subtitle>
+</section>
+<section id="toc_sub_000166"><title><p>extract.pl</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_012_phrack_extraction_utility_0198_3bd598c6c1.png"/>
 <empty-line/>
-<subtitle>extract.awk</subtitle>
+</section>
+<section id="toc_sub_000167"><title><p>extract.awk</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_012_phrack_extraction_utility_0224_7b11cf2d2f.png"/>
 <empty-line/>
-<subtitle>extract.sh</subtitle>
+</section>
+<section id="toc_sub_000168"><title><p>extract.sh</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_012_phrack_extraction_utility_0255_20aea2c03a_part01.png"/>
 <image l:href="#img__code_blocks_issue_054_012_phrack_extraction_utility_0255_20aea2c03a_part02.png"/>
 <empty-line/>
-<subtitle>extract.py</subtitle>
+</section>
+<section id="toc_sub_000169"><title><p>extract.py</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_012_phrack_extraction_utility_0318_e2ad0e2f3d_part01.png"/>
 <image l:href="#img__code_blocks_issue_054_012_phrack_extraction_utility_0318_e2ad0e2f3d_part02.png"/>
 <image l:href="#img__code_blocks_issue_054_012_phrack_extraction_utility_0318_e2ad0e2f3d_part03.png"/>
 <empty-line/>
-<subtitle>extract-win.c (версия для Win32)</subtitle>
+</section>
+<section id="toc_sub_000170"><title><p>extract-win.c (версия для Win32)</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_054_012_phrack_extraction_utility_0442_a847cc9366_part01.png"/>
 <image l:href="#img__code_blocks_issue_054_012_phrack_extraction_utility_0442_a847cc9366_part02.png"/>
 <image l:href="#img__code_blocks_issue_054_012_phrack_extraction_utility_0442_a847cc9366_part03.png"/>
 <empty-line/>
 <p><emphasis>Конец файла</emphasis></p>
+</section>
 </section>
 </section>
 </body>

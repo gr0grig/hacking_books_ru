@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0"
-             xmlns:l="http://www.w3.org/1999/xlink">
+<?xml version='1.0' encoding='UTF-8'?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
 <description>
   <title-info>
     <genre>computers</genre>
@@ -58,7 +57,7 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_027_001_phrack_inc_newsletter_issue_xxvii_index_0037_55b2b6f875.png"/>
 <empty-line/>
-<subtitle>Содержание</subtitle>
+<section id="toc_sub_000001"><title><p>Содержание</p></title>
 <empty-line/>
 <p>1. Индекс Phrack Inc. XXVII — Taran King и Knight Lightning</p>
 <p>2. Работа с IBM VM/SP CP — Taran King</p>
@@ -73,6 +72,7 @@
 <p>11. Phrack World News XXVII/Часть 2 — Knight Lightning</p>
 <p>12. Phrack World News XXVII/Часть 3 — Knight Lightning</p>
 </section>
+</section>
 <section id="sec_issue_027_002_operating_the_ibm_vm_sp_cp">
 <title><p>Работа с IBM VM/SP CP</p></title>
 <p><strong>(IBM Virtual Machine System Product — управляющая программа)</strong></p>
@@ -81,7 +81,7 @@
 <empty-line/>
 <p><emphasis>18 мая 1989 года</emphasis></p>
 <empty-line/>
-<p>Цель данной статьи — разобраться в устройстве управляющей программы (CP) системы IBM VM/SP. По сути, CP — это отдельный уровень VM/CMS (в полноэкранных редакторах уровень CP отображается в правом нижнем углу экрана; в построчных редакторах надпись &quot;CP&quot; появляется перед командной строкой и после нажатия Enter). Задача CP — управление реальными ресурсами системы. Любая команда, требующая доступа к чему-либо за пределами вашей виртуальной машины, должна передаваться через CP. Если CMS не распознаёт введённую вами команду, она автоматически передаётся в CP.</p>
+<p>Цель данной статьи — разобраться в устройстве управляющей программы (CP) системы IBM VM/SP. По сути, CP — это отдельный уровень VM/CMS (в полноэкранных редакторах уровень CP отображается в правом нижнем углу экрана; в построчных редакторах надпись "CP" появляется перед командной строкой и после нажатия Enter). Задача CP — управление реальными ресурсами системы. Любая команда, требующая доступа к чему-либо за пределами вашей виртуальной машины, должна передаваться через CP. Если CMS не распознаёт введённую вами команду, она автоматически передаётся в CP.</p>
 <empty-line/>
 <p>Обычно пользователь попадает на уровень CP после сбоя программы или после разрыва соединения. Перейти в режим CP можно также нажатием клавиши PA1, которая является функциональной клавишей. В режиме онлайн PA1 переключает между CP и CMS; при повторном входе после разрыва соединения PA1 можно использовать наряду с командой BEGIN, о которой рассказывается ниже.</p>
 <empty-line/>
@@ -94,57 +94,65 @@
 <empty-line/>
 <p>Ниже приведён перечень доступных команд с кратким описанием их назначения, формата и соответствующего IBM-определённого класса с типом функции.</p>
 <empty-line/>
-<subtitle>(звёздочка)</subtitle>
+<section id="toc_sub_000002"><title><p>(звёздочка)</p></title>
 <empty-line/>
 <p>Из CP можно использовать команду <code>*</code> для добавления комментария в журнал терминальной консоли или на экран терминала. Иными словами, введите <code>*</code> и следом — любую строку символов, которую вы хотите видеть на экране.</p>
 <empty-line/>
 <p>Класс привилегий: ANY Тип функции: N/A</p>
 <empty-line/>
-<subtitle>#CP</subtitle>
+</section>
+<section id="toc_sub_000003"><title><p>#CP</p></title>
 <empty-line/>
 <p>Эта команда используется для выполнения CP-команды из среды команд виртуальной машины без предварительного сигнала перехода в командную среду CP. Это означает, что при наборе <code>#CP &lt;команда&gt;</code> CP получает команду непосредственно, тогда как <code>CP &lt;команда&gt;</code> лишь ставит команду в очередь CP.</p>
 <empty-line/>
 <p>Класс привилегий: ANY Тип функции: ANY</p>
 <empty-line/>
-<subtitle>ACNT</subtitle>
+</section>
+<section id="toc_sub_000004"><title><p>ACNT</p></title>
 <empty-line/>
 <p>Команда ACNT используется для создания учётных записей для вошедших в систему пользователей и сброса учётных данных. Кроме того, она закрывает спул-файл, в котором накапливаются учётные записи.</p>
 <empty-line/>
 <p>Класс привилегий: A Тип функции: O</p>
 <empty-line/>
-<subtitle>ADSTOP</subtitle>
+</section>
+<section id="toc_sub_000005"><title><p>ADSTOP</p></title>
 <empty-line/>
 <p>Команда ADSTOP используется для остановки выполнения виртуальной машины в заданной точке виртуальной инструкции. После слова ADSTOP можно указать переменную hexloc — шестисимвольное шестнадцатеричное представление виртуального адреса инструкции, на которой должно остановиться выполнение. Параметр OFF команды ADSTOP отменяет любую ранее установленную точку останова.</p>
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>ATTN</subtitle>
+</section>
+<section id="toc_sub_000006"><title><p>ATTN</p></title>
 <empty-line/>
 <p>Команда ATTN используется для выставления в очередь прерывания по вниманию на вашей виртуальной консоли.</p>
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>AUTOLOG</subtitle>
+</section>
+<section id="toc_sub_000007"><title><p>AUTOLOG</p></title>
 <empty-line/>
 <p>Эта команда позволяет пользователю войти в любую виртуальную машину, описанную в директории.</p>
 <empty-line/>
 <p>Класс привилегий: A, B Тип функции: O</p>
 <empty-line/>
-<subtitle>BACKSPAC</subtitle>
+</section>
+<section id="toc_sub_000008"><title><p>BACKSPAC</p></title>
 <empty-line/>
 <p>Команда BACKSPAC используется для перезапуска или перепозиционирования текущего вывода на реальном перфораторе или принтере.</p>
 <empty-line/>
 <p>Класс привилегий: D Тип функции: S</p>
 <empty-line/>
-<subtitle>BEGIN (или B)</subtitle>
+</section>
+<section id="toc_sub_000009"><title><p>BEGIN (или B)</p></title>
 <empty-line/>
 <p>Команда BEGIN, введённая без параметров из режима CP, возвращает пользователя в режим CMS в том месте, где он находился до разрыва соединения или перехода в CP. За командой BEGIN также может следовать шестнадцатеричный адрес, указывающий точку, с которой следует продолжить выполнение, если пользователь хочет начать с другого места.</p>
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>CHANGE (или CH)</subtitle>
+</section>
+<section id="toc_sub_000010"><title><p>CHANGE (или CH)</p></title>
 <empty-line/>
-<p>Команда CHANGE используется совместно с подкомандами и переменными. Как правило, переменная &quot;name&quot; имеет длину от 1 до 4 символов. Ниже перечислены подкоманды с описанием функций и форматов:</p>
+<p>Команда CHANGE используется совместно с подкомандами и переменными. Как правило, переменная "name" имеет длину от 1 до 4 символов. Ниже перечислены подкоманды с описанием функций и форматов:</p>
 <empty-line/>
 <p>• <strong>READER или RDR</strong> — изменяет спул-файлы считывателя.</p>
 <p>• <strong>PRINTER или PRT</strong> — изменяет спул-файлы принтера.</p>
@@ -155,19 +163,20 @@
 <p>• <strong>ALL</strong> — изменяет все ваши спул-файлы.</p>
 <p>• <strong>HOLD</strong> — запрещает печать, перфорацию или считывание файла до его освобождения.</p>
 <p>• <strong>NOHOLD</strong> — снимает с указанного файла статус HOLD пользователя.</p>
-<p>• <strong>DIST dist</strong> — изменяет дистрибутивный код на переменную &quot;dist&quot;.</p>
-<p>• <strong>COPY(\*)nnn</strong> — задаёт количество копий файла для спулинга; действительно только для файлов принтера или перфоратора. &quot;nnn&quot; — число от 1 до 255; символ &quot;\*&quot; используется в случае применения принтера 3800, чтобы копии изготавливались внутри принтера.</p>
-<p>• <strong>FLASH name nnn</strong> — указывает, что наложение форм, содержащееся в принтере 3800, должно быть суперпозиционировано на определённые страницы вывода. &quot;nnn&quot; — число от 0 до 255, означающее количество суперпозиционируемых копий.</p>
-<p>• <strong>MODIFY name (n)</strong> — позволяет изменять текст, запрещая вывод информации или добавляя метки к выводу. &quot;n&quot; выбирает ключевое слово в CHARS для текста модификации копии.</p>
+<p>• <strong>DIST dist</strong> — изменяет дистрибутивный код на переменную "dist".</p>
+<p>• <strong>COPY(\*)nnn</strong> — задаёт количество копий файла для спулинга; действительно только для файлов принтера или перфоратора. "nnn" — число от 1 до 255; символ "\*" используется в случае применения принтера 3800, чтобы копии изготавливались внутри принтера.</p>
+<p>• <strong>FLASH name nnn</strong> — указывает, что наложение форм, содержащееся в принтере 3800, должно быть суперпозиционировано на определённые страницы вывода. "nnn" — число от 0 до 255, означающее количество суперпозиционируемых копий.</p>
+<p>• <strong>MODIFY name (n)</strong> — позволяет изменять текст, запрещая вывод информации или добавляя метки к выводу. "n" выбирает ключевое слово в CHARS для текста модификации копии.</p>
 <p>• <strong>CHARS name1 (name2(name3(name4)))</strong> / <strong>CHARS name1(CH names2(CH names3(CH names4)))</strong> — задаёт таблицу размещения символов при печати файла. Допускается до 4 имён.</p>
 <p>• <strong>FCB name</strong> — управляет вертикальным интервалом вывода на странице.</p>
 <p>• <strong>FORM form2</strong> — изменяет имя спул-формы файла на form2.</p>
 <p>• <strong>NAME fn (ft)</strong> — присваивает идентификатор спул-файлу в формате CMS (имя файла и тип файла).</p>
-<p>• <strong>NAME dsname</strong> — присваивает идентификатор спул-файлу в формате, отличном от CMS, где &quot;dsname&quot; — от 1 до 24 символов, подходит для OS- или DOS-файлов.</p>
+<p>• <strong>NAME dsname</strong> — присваивает идентификатор спул-файлу в формате, отличном от CMS, где "dsname" — от 1 до 24 символов, подходит для OS- или DOS-файлов.</p>
 <empty-line/>
 <p>Класс привилегий: S, G Тип функции: D, G</p>
 <empty-line/>
-<subtitle>CLOSE (или C)</subtitle>
+</section>
+<section id="toc_sub_000011"><title><p>CLOSE (или C)</p></title>
 <empty-line/>
 <p>Команда CLOSE завершает спулинг на любом виртуальном спулированном устройстве с единичной записью или консольном устройстве. После буквы C или слова CLOSE используются следующие подкоманды:</p>
 <empty-line/>
@@ -187,43 +196,50 @@
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>COMMANDS (или COMM)</subtitle>
+</section>
+<section id="toc_sub_000012"><title><p>COMMANDS (или COMM)</p></title>
 <empty-line/>
 <p>Используйте COMMAND для получения списка команд и кодов диагностики, разрешённых к использованию.</p>
 <empty-line/>
 <p>Класс привилегий: ANY Тип функции: ANY</p>
 <empty-line/>
-<subtitle>COUPLE</subtitle>
+</section>
+<section id="toc_sub_000013"><title><p>COUPLE</p></title>
 <empty-line/>
 <p>Команда COUPLE логически соединяет ваше виртуальное недикатированное устройство с канальной связью (channel-to-channel) с виртуальным устройством другого пользователя того же типа или с другим вашим виртуальным устройством того же типа. Формат команды: <code>COUPLE vaddr1 TO userid vaddr2</code>. Переменная vaddr1 — ваш виртуальный адрес; переменные userid vaddr2 идентифицируют userid и виртуальный адрес подключаемого пользователя.</p>
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>CP</subtitle>
+</section>
+<section id="toc_sub_000014"><title><p>CP</p></title>
 <empty-line/>
 <p>Команду CP можно ставить перед обрабатываемой командой, хотя это не обязательно. Как правило, команда CP используется из режима CMS для постановки CP-функций в очередь путём набора <code>CP &lt;команда&gt;</code>.</p>
 <empty-line/>
 <p>Класс привилегий: ANY Тип функции: ANY</p>
 <empty-line/>
-<subtitle>CPTRAP</subtitle>
+</section>
+<section id="toc_sub_000015"><title><p>CPTRAP</p></title>
 <empty-line/>
 <p>Команда CPTRAP создаёт reader-файл из выбранной таблицы трассировки, интерфейса CP и записей интерфейса виртуальной машины для диагностики проблем.</p>
 <empty-line/>
 <p>Класс привилегий: C Тип функции: P</p>
 <empty-line/>
-<subtitle>DCP</subtitle>
+</section>
+<section id="toc_sub_000016"><title><p>DCP</p></title>
 <empty-line/>
 <p>Эта команда отображает содержимое реальных областей хранения на терминале.</p>
 <empty-line/>
 <p>Класс привилегий: C, E Тип функции: P</p>
 <empty-line/>
-<subtitle>DEFINE (или DEF)</subtitle>
+</section>
+<section id="toc_sub_000017"><title><p>DEFINE (или DEF)</p></title>
 <empty-line/>
 <p>Команда DEFINE в CP используется для изменения конфигурации виртуальной машины или режима работы канала. Существует ОЧЕНЬ много подкоманд, применяемых вместе с DEFINE, таких как RDR, PRT, PCH и других. Если вам нужны подробности, воспользуйтесь справкой (HELP CP DEF) — это почти 600 строк детального описания каждой подкоманды.</p>
 <empty-line/>
 <p>Класс привилегий: B, G Тип функции: R, G</p>
 <empty-line/>
-<subtitle>DETACH (или DET)</subtitle>
+</section>
+<section id="toc_sub_000018"><title><p>DETACH (или DET)</p></title>
 <empty-line/>
 <p>Команда DETACH используется для удаления виртуального устройства из виртуальной машины. Подкоманды:</p>
 <empty-line/>
@@ -233,97 +249,113 @@
 <empty-line/>
 <p>Класс привилегий: B, G Тип функции: R, G</p>
 <empty-line/>
-<subtitle>DIAL</subtitle>
+</section>
+<section id="toc_sub_000019"><title><p>DIAL</p></title>
 <empty-line/>
 <p>Команда DIAL логически подключает коммутируемую, выделенную, локально подсоединённую или удалённую BSC-терминал (Binary Synchronous Communications) к ранее вошедшей в систему многопользовательской виртуальной машине. Формат: <code>DIAL userid (vaddr)</code>, где userid — идентификатор пользователя для подключения, а vaddr — необязательный виртуальный адрес.</p>
 <empty-line/>
 <p>Класс привилегий: ANY Тип функции: ANY</p>
 <empty-line/>
-<subtitle>DISABLE</subtitle>
+</section>
+<section id="toc_sub_000020"><title><p>DISABLE</p></title>
 <empty-line/>
 <p>Команда DISABLE запрещает низкоскоростным коммуникационным линиям доступ к системе.</p>
 <empty-line/>
 <p>Класс привилегий: A, B Тип функции: R</p>
 <empty-line/>
-<subtitle>DISCONN (или DISC)</subtitle>
+</section>
+<section id="toc_sub_000021"><title><p>DISCONN (или DISC)</p></title>
 <empty-line/>
 <p>Команда DISCONNECT используется для отключения терминала от системы при продолжении работы виртуальной машины. Параметры DISC HOLD или DISC HO указывают, что коммуникационная линия не должна отключаться, что позволяет избежать повторного набора номера при следующем входе.</p>
 <empty-line/>
 <p>Класс привилегий: ANY Тип функции: ANY</p>
 <empty-line/>
-<subtitle>DISPLAY (или D)</subtitle>
+</section>
+<section id="toc_sub_000022"><title><p>DISPLAY (или D)</p></title>
 <empty-line/>
 <p>Команда DISPLAY позволяет отображать компоненты виртуальной машины на вашем терминале. В зависимости от переменной, следующей за D или DISPLAY, можно отобразить: виртуальные области хранения, ключи хранения, регистры общего назначения, регистры с плавающей точкой, управляющие регистры, векторные регистры, VAC (счётчик векторной активности), VSR (регистр векторного статуса), VMR (регистр векторной маски), PSW (слово состояния программы), CAW (слово адреса канала) и CSW (слово состояния канала).</p>
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>DMCP</subtitle>
+</section>
+<section id="toc_sub_000023"><title><p>DMCP</p></title>
 <empty-line/>
 <p>Эта команда печатает содержимое реальных областей хранения на виртуальном спулированном принтере пользователя.</p>
 <empty-line/>
 <p>Класс привилегий: C, E Тип функции: P</p>
 <empty-line/>
-<subtitle>DRAIN</subtitle>
+</section>
+<section id="toc_sub_000024"><title><p>DRAIN</p></title>
 <empty-line/>
 <p>Команда DRAIN останавливает операции спулинга на устройствах считывания указанного реального устройства после завершения обработки текущего файла.</p>
 <empty-line/>
 <p>Класс привилегий: D Тип функции: S</p>
 <empty-line/>
-<subtitle>DUMP (или DU)</subtitle>
+</section>
+<section id="toc_sub_000025"><title><p>DUMP (или DU)</p></title>
 <empty-line/>
 <p>Команда DUMP печатает содержимое различных компонентов виртуальной машины на виртуальный спулированный принтер. В зависимости от переменной после DUMP или DU, распечатываются: виртуальное PSW (слово состояния программы), регистры общего назначения, регистры с плавающей точкой, управляющие регистры, ключи хранения и виртуальные области хранения.</p>
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>ECHO (или EC)</subtitle>
+</section>
+<section id="toc_sub_000026"><title><p>ECHO (или EC)</p></title>
 <empty-line/>
 <p>По умолчанию равна 1; команда ECHO переводит терминал в режим эха, при котором любая введённая строка передаётся обратно на терминал в неизменном виде указанное количество раз в соответствии со значением переменной, следующей непосредственно за словом ECHO или EC.</p>
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>ENABLE</subtitle>
+</section>
+<section id="toc_sub_000027"><title><p>ENABLE</p></title>
 <empty-line/>
 <p>Используйте команду ENABLE для включения ранее отключённых или нераспознанных устройств, чтобы пользователи могли получить доступ к системе.</p>
 <empty-line/>
 <p>Класс привилегий: A, B Тип функции: R</p>
 <empty-line/>
-<subtitle>EXTERNAL (или EXT)</subtitle>
+</section>
+<section id="toc_sub_000028"><title><p>EXTERNAL (или EXT)</p></title>
 <empty-line/>
 <p>Команда EXTERNAL позволяет пользователю имитировать внешнее прерывание виртуальной машины и вернуть управление этой машине. Шестнадцатеричный код после слова EXTERNAL или EXT связывается с внешним прерыванием; по умолчанию используется число 40, соответствующее кнопке внешнего прерывания на системной консоли.</p>
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>FLUSH</subtitle>
+</section>
+<section id="toc_sub_000029"><title><p>FLUSH</p></title>
 <empty-line/>
 <p>Команда FLUSH останавливает и немедленно уничтожает с переводом в статус ожидания текущий вывод на указанном устройстве с единичной записью.</p>
 <empty-line/>
 <p>Класс привилегий: D Тип функции: S</p>
 <empty-line/>
-<subtitle>FORCE</subtitle>
+</section>
+<section id="toc_sub_000030"><title><p>FORCE</p></title>
 <empty-line/>
 <p>Эта команда принудительно выполняет выход любого пользователя из системы.</p>
 <empty-line/>
 <p>Класс привилегий: A Тип функции: O</p>
 <empty-line/>
-<subtitle>FREE</subtitle>
+</section>
+<section id="toc_sub_000031"><title><p>FREE</p></title>
 <empty-line/>
 <p>Используйте команду FREE для снятия системного статуса ожидания с набора спул-файлов указанного пользователя.</p>
 <empty-line/>
 <p>Класс привилегий: D Тип функции: S</p>
 <empty-line/>
-<subtitle>HALT</subtitle>
+</section>
+<section id="toc_sub_000032"><title><p>HALT</p></title>
 <empty-line/>
 <p>Команда HALT завершает любую активную программу канала на указанном реальном устройстве.</p>
 <empty-line/>
 <p>Класс привилегий: A Тип функции: O</p>
 <empty-line/>
-<subtitle>HOLD</subtitle>
+</section>
+<section id="toc_sub_000033"><title><p>HOLD</p></title>
 <empty-line/>
 <p>Команда HOLD помещает спул-файлы пользователя в системный статус ожидания.</p>
 <empty-line/>
 <p>Класс привилегий: D Тип функции: S</p>
 <empty-line/>
-<subtitle>INDICATE (или IND)</subtitle>
+</section>
+<section id="toc_sub_000034"><title><p>INDICATE (или IND)</p></title>
 <empty-line/>
 <p>Команда INDICATE позволяет отобразить на терминале использование основных системных ресурсов и конкуренцию за них. Переменные после слова INDICATE или IND выводят следующие данные:</p>
 <empty-line/>
@@ -332,7 +364,8 @@
 <empty-line/>
 <p>Класс привилегий: A, E, G Тип функции: O, A, G</p>
 <empty-line/>
-<subtitle>IPL (или I)</subtitle>
+</section>
+<section id="toc_sub_000035"><title><p>IPL (или I)</p></title>
 <empty-line/>
 <p>Как правило, используется для возврата в CMS с помощью команды <code>IPL CMS</code> или <code>I CMS</code>. Команда IPL имитирует функцию начальной загрузки программы для виртуальной машины. Подкоманды:</p>
 <empty-line/>
@@ -348,19 +381,22 @@
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>LINK</subtitle>
+</section>
+<section id="toc_sub_000036"><title><p>LINK</p></title>
 <empty-line/>
 <p>Команда LINK используется для подключения к вашей конфигурации виртуальной машины устройства, связанного с другой виртуальной машиной, на основании информации из записи директории этого пользователя. Формат: <code>LINK TO userid vaddr1 AS vaddr2 (mode) ((PASS=) password(1))</code>.</p>
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>LOADBUF</subtitle>
+</section>
+<section id="toc_sub_000037"><title><p>LOADBUF</p></title>
 <empty-line/>
 <p>На принтере 1403 команда LOADBUF загружает универсальный набор символов (UCS) с указанным образом печатной ленты или цепи. На принтерах 3203, 3211, 3212, 4245 или 4248 загружает UCS или буфер управления формой (FCB) с указанным образом. На принтере 3289 модели 4 загружает в буфер смещения шрифтов (FOB) образ ленты и FCB.</p>
 <empty-line/>
 <p>Класс привилегий: D Тип функции: S</p>
 <empty-line/>
-<subtitle>LOADVFCB</subtitle>
+</section>
+<section id="toc_sub_000038"><title><p>LOADVFCB</p></title>
 <empty-line/>
 <p>Эта команда задаёт образ буфера управления формой для различных виртуальных спулированных принтеров. Переменные, следующие за ней:</p>
 <empty-line/>
@@ -371,85 +407,99 @@
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>LOCATE</subtitle>
+</section>
+<section id="toc_sub_000039"><title><p>LOCATE</p></title>
 <empty-line/>
 <p>Используйте команду LOCATE для поиска адресов управляющих блоков CP, связанных с конкретным пользователем, устройством пользователя или реальным системным устройством.</p>
 <empty-line/>
 <p>Класс привилегий: C, E Тип функции: P</p>
 <empty-line/>
-<subtitle>LOCK</subtitle>
+</section>
+<section id="toc_sub_000040"><title><p>LOCK</p></title>
 <empty-line/>
 <p>Эта команда безвозвратно фиксирует в памяти выбранные страницы реального хранилища.</p>
 <empty-line/>
 <p>Класс привилегий: A Тип функции: O</p>
 <empty-line/>
-<subtitle>LOGOFF (или LOGOUT, или LOG)</subtitle>
+</section>
+<section id="toc_sub_000041"><title><p>LOGOFF (или LOGOUT, или LOG)</p></title>
 <empty-line/>
 <p>Используется для завершения сеанса виртуальной машины и отключения виртуальной машины от системы. Параметр HOLD (то есть <code>LOG HOLD</code>) позволяет сохранить соединение, чтобы при следующем входе не требовался повторный набор номера на коммутируемой линии.</p>
 <empty-line/>
 <p>Класс привилегий: ANY Тип функции: ANY</p>
 <empty-line/>
-<subtitle>LOGON (или LOGIN, или L)</subtitle>
+</section>
+<section id="toc_sub_000042"><title><p>LOGON (или LOGIN, или L)</p></title>
 <empty-line/>
 <p>Очевидно, команда LOGIN или LOGON используется для идентификации пользователя в системе и получения к ней доступа. После слов LOGIN, LOGON или L введите свой userid — идентификатор, назначенный вам в системе. Если в системе не включено подавление пароля, пароль можно ввести сразу после userid. ПРИМЕЧАНИЕ: если в системе включено подавление пароля (то есть вводимый пароль не отображается на экране), при попытке ввести пароль в той же строке, что и userid, вы получите системное сообщение об ошибке. Параметр NOIPL, следующий за паролем и userid, указывает, что IPL-устройство или имя из директории не должны использоваться для автоматической загрузки IPL.</p>
 <empty-line/>
 <p>Класс привилегий: ANY Тип функции: ANY</p>
 <empty-line/>
-<subtitle>MESSAGE (или MSG, или M)</subtitle>
+</section>
+<section id="toc_sub_000043"><title><p>MESSAGE (или MSG, или M)</p></title>
 <empty-line/>
 <p>Используйте команду MESSAGE для передачи текста сообщения указанному userid или основному системному оператору. <code>MSG userid msgtext</code> отправляет msgtext пользователю, указанному после userid. Если вместо userid указан символ <code>*</code>, текст отправляется самому себе. Если вместо userid указано слово OPERATOR, текст сообщения отправляется основному системному оператору независимо от его userid.</p>
 <empty-line/>
 <p>Класс привилегий: A, B, ANY Тип функции: O, ANY</p>
 <empty-line/>
-<subtitle>MIGRATE</subtitle>
+</section>
+<section id="toc_sub_000044"><title><p>MIGRATE</p></title>
 <empty-line/>
 <p>Команда MIGRATE активирует стандартные процедуры миграции страниц/таблицы подкачки или принудительно переносит страницы конкретного пользователя на вторичное устройство, даже если этот пользователь в данный момент активен.</p>
 <empty-line/>
 <p>Класс привилегий: A Тип функции: O</p>
 <empty-line/>
-<subtitle>MONITOR</subtitle>
+</section>
+<section id="toc_sub_000045"><title><p>MONITOR</p></title>
 <empty-line/>
 <p>Для инициирования или переопределения функции, генерируемой системой, либо для прекращения регистрации событий, происходящих в реальной машине, используйте команду MONITOR.</p>
 <empty-line/>
 <p>Класс привилегий: A, E Тип функции: O</p>
 <empty-line/>
-<subtitle>MSGNOH</subtitle>
+</section>
+<section id="toc_sub_000046"><title><p>MSGNOH</p></title>
 <empty-line/>
 <p>Команда MSGNOH позволяет служебной виртуальной машине отправлять сообщения указанным пользователям без стандартного заголовка, присущего команде MESSAGE.</p>
 <empty-line/>
 <p>Класс привилегий: B Тип функции: R</p>
 <empty-line/>
-<subtitle>NETWORK</subtitle>
+</section>
+<section id="toc_sub_000047"><title><p>NETWORK</p></title>
 <empty-line/>
 <p>Команда NETWORK позволяет загружать, выгружать и управлять работой контроллеров 3704 или 3705, а также управлять работой контрольной программы 3725 в режиме эмуляции 270x (EP). Кроме того, она обеспечивает управление удалёнными устройствами 3270 через линии BSC.</p>
 <empty-line/>
 <p>Класс привилегий: A Тип функции: O</p>
 <empty-line/>
-<subtitle>NOTREADY (или NOTR)</subtitle>
+</section>
+<section id="toc_sub_000048"><title><p>NOTREADY (или NOTR)</p></title>
 <empty-line/>
 <p>Команда NOTREADY заставляет виртуальное устройство, указанное после NOTREADY по адресу cuu, выглядеть так, как если бы оно перешло из состояния готовности в состояние неготовности.</p>
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>ORDER (или ORD)</subtitle>
+</section>
+<section id="toc_sub_000049"><title><p>ORDER (или ORD)</p></title>
 <empty-line/>
 <p>ORDER используется для упорядочивания закрытых спул-файлов пользователя в определённом порядке по типу устройства. К таким спул-файлам относятся файлы READER, PRINTER и PUNCH; их можно сортировать по CLASS, FORM и идентификатору спула.</p>
 <empty-line/>
 <p>Класс привилегий: D, G Тип функции: S, G</p>
 <empty-line/>
-<subtitle>PER</subtitle>
+</section>
+<section id="toc_sub_000050"><title><p>PER</p></title>
 <empty-line/>
 <p>PER позволяет отслеживать определённые события в ходе выполнения программы на виртуальной машине пользователя. Эта команда может контролировать: выборку и выполнение инструкции, выполнение успешной инструкции ветвления, выполнение инструкции, изменяющей конкретный регистр общего назначения, и выполнение инструкции в виртуальной машине, изменяющей хранилище.</p>
 <empty-line/>
 <p>Класс привилегий: A, B, C, D, E, F, G Тип функции: G</p>
 <empty-line/>
-<subtitle>PURGE (или PUR)</subtitle>
+</section>
+<section id="toc_sub_000051"><title><p>PURGE (или PUR)</p></title>
 <empty-line/>
 <p>Используйте команду PURGE для удаления из системы ваших собственных закрытых спул-файлов до их распечатки или перфорации на спулирующих устройствах, либо до их считывания пользователем. В спецификациях спул-файлов указываются файлы READER, PRINTER и PUNCH, а также параметр ALL, уничтожающий все перечисленные выше файлы.</p>
 <empty-line/>
 <p>Класс привилегий: D, G Тип функции: S, G</p>
 <empty-line/>
-<subtitle>QUERY (или Q)</subtitle>
+</section>
+<section id="toc_sub_000052"><title><p>QUERY (или Q)</p></title>
 <empty-line/>
 <p>Также доступна в режиме CMS; команда QUERY используется для определения статуса системы и конфигурации машины. Несмотря на огромное количество подкоманд QUERY, ниже перечислены элементы, которые можно запросить. Для получения подробной информации рекомендую использовать команду HELP CP QUERY — это весьма исчерпывающий текст (более 1000 строк).</p>
 <empty-line/>
@@ -475,49 +525,57 @@
 <empty-line/>
 <p>Класс привилегий: A, B, C, D, E, F, G Тип функции: O, R, P, S, A, C, G</p>
 <empty-line/>
-<subtitle>QVM</subtitle>
+</section>
+<section id="toc_sub_000053"><title><p>QVM</p></title>
 <empty-line/>
 <p>Используйте эту команду для запроса перехода из среды VM/SP в собственный режим для конкретной виртуальной машины.</p>
 <empty-line/>
 <p>Класс привилегий: A Тип функции: O</p>
 <empty-line/>
-<subtitle>READY</subtitle>
+</section>
+<section id="toc_sub_000054"><title><p>READY</p></title>
 <empty-line/>
 <p>В формате <code>READY vaddr</code> эта команда используется для выставления в очередь прерывания «конец устройства» для указанного виртуального устройства.</p>
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>REPEAT</subtitle>
+</section>
+<section id="toc_sub_000055"><title><p>REPEAT</p></title>
 <empty-line/>
 <p>Используйте команду REPEAT для увеличения количества копий выходного файла или для перевода текущего выходного файла в статус ожидания с увеличением или без увеличения числа создаваемых копий.</p>
 <empty-line/>
 <p>Класс привилегий: D Тип функции: S</p>
 <empty-line/>
-<subtitle>REQUEST (или REQ)</subtitle>
+</section>
+<section id="toc_sub_000056"><title><p>REQUEST (или REQ)</p></title>
 <empty-line/>
 <p>Просто используйте команду REQUEST для генерации прерывания по вниманию на виртуальной консоли.</p>
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>RESET</subtitle>
+</section>
+<section id="toc_sub_000057"><title><p>RESET</p></title>
 <empty-line/>
 <p>Также в формате <code>RESET vaddr</code>, эта команда используется для очистки всех ожидающих прерываний указанного виртуального устройства.</p>
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>REWIND (или REW)</subtitle>
+</section>
+<section id="toc_sub_000058"><title><p>REWIND (или REW)</p></title>
 <empty-line/>
 <p>Команда REWIND используется для перемотки реального ленточного устройства, подключённого к виртуальной машине по указанному виртуальному адресу, в формате <code>REWIND vaddr</code>.</p>
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>SAVESYS</subtitle>
+</section>
+<section id="toc_sub_000059"><title><p>SAVESYS</p></title>
 <empty-line/>
 <p>Эта команда позволяет сохранить виртуальное пространство хранения машины вместе с регистрами и PSW в их текущем состоянии. Используется в процессе создания именованных систем.</p>
 <empty-line/>
 <p>Класс привилегий: E Тип функции: A</p>
 <empty-line/>
-<subtitle>SCREEN (или SCRE)</subtitle>
+</section>
+<section id="toc_sub_000060"><title><p>SCREEN (или SCRE)</p></title>
 <empty-line/>
 <p>Используйте команду SCREEN для изменения расширенного цвета и/или параметров расширенного выделения для консоли виртуальной машины. Команду можно выполнить с любого поддерживаемого IBM терминала или из PROFILE EXEC, поскольку SCREEN не зависит от типа устройства. Однако SCREEN действительна только при наличии функции расширенного цвета на контроллере терминала.</p>
 <empty-line/>
@@ -527,73 +585,85 @@
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>SEND</subtitle>
+</section>
+<section id="toc_sub_000061"><title><p>SEND</p></title>
 <empty-line/>
 <p>Используя средство «Единый образ одной консоли» (SCIF), команда SEND передаёт команды и ответы на сообщения для консоли дополнительного пользователя на отключённые виртуальные машины для выполнения. Формат: <code>SEND (CP) userid (text)</code>.</p>
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>SET</subtitle>
+</section>
+<section id="toc_sub_000062"><title><p>SET</p></title>
 <empty-line/>
 <p>Используйте команду SET для управления различными функциями виртуальной системы. Эта команда имеет большое количество переменных, и подробности по каждой из них можно получить из справочного файла HELP CP SET.</p>
 <empty-line/>
 <p>Класс привилегий: A, B, E, F, G Тип функции: O, R, A, C, G</p>
 <empty-line/>
-<subtitle>SHUTDOWN</subtitle>
+</section>
+<section id="toc_sub_000063"><title><p>SHUTDOWN</p></title>
 <empty-line/>
 <p>Эта команда, разумеется, систематически завершает все функции виртуальных машин и сохраняет состояние системы для последующего тёплого запуска.</p>
 <empty-line/>
 <p>Класс привилегий: A Тип функции: O</p>
 <empty-line/>
-<subtitle>SLEEP (или SL)</subtitle>
+</section>
+<section id="toc_sub_000064"><title><p>SLEEP (или SL)</p></title>
 <empty-line/>
 <p>Для перевода виртуальной машины в спящий режим с сохранением отображения сообщений используйте команду SLEEP в формате <code>SLEEP nn (time-specification)</code>, где time-specification — SEC (секунды), MIN (минуты) или HR (часы), а nn — количество единиц времени для спящего режима.</p>
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>SMSG (или SM)</subtitle>
+</section>
+<section id="toc_sub_000065"><title><p>SMSG (или SM)</p></title>
 <empty-line/>
 <p>Команда SMSG используется для отправки специального сообщения виртуальной машине, запрограммированной для его приёма и обработки. Формат: <code>SMSG userid msgtext</code>, где userid — получатель сообщения, а msgtext — текст сообщения.</p>
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>SPACE</subtitle>
+</section>
+<section id="toc_sub_000066"><title><p>SPACE</p></title>
 <empty-line/>
 <p>Используйте команду SPACE для принудительного перевода вывода на указанный принтер в режим одинарного интервала для текущего активного спул-файла независимо от команд управления кареткой в самом файле.</p>
 <empty-line/>
 <p>Класс привилегий: D Тип функции: S</p>
 <empty-line/>
-<subtitle>SPMODE</subtitle>
+</section>
+<section id="toc_sub_000067"><title><p>SPMODE</p></title>
 <empty-line/>
 <p>SPMODE позволяет системному оператору установить или сбросить среду режима однопроцессорной работы.</p>
 <empty-line/>
 <p>Класс привилегий: A Тип функции: O</p>
 <empty-line/>
-<subtitle>SPOOL (или SP)</subtitle>
+</section>
+<section id="toc_sub_000068"><title><p>SPOOL (или SP)</p></title>
 <empty-line/>
 <p>Используйте команду SPOOL для изменения параметров управления спулингом, действующих для заданного виртуального спулирующего устройства или группы устройств. Команда SPOOL также может запускать или останавливать спулинг ввода/вывода виртуальной консоли. Вы можете направить файл в удалённое место, используя команду SPOOL совместно с командой TAG.</p>
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>SPTAPE</subtitle>
+</section>
+<section id="toc_sub_000069"><title><p>SPTAPE</p></title>
 <empty-line/>
 <p>Используйте эту команду для сброса спул-файлов на магнитную ленту или загрузки спул-файлов с ленты.</p>
 <empty-line/>
 <p>Класс привилегий: D Тип функции: S</p>
 <empty-line/>
-<subtitle>START</subtitle>
+</section>
+<section id="toc_sub_000070"><title><p>START</p></title>
 <empty-line/>
 <p>Команда START перезапускает спулирующее устройство после его останова или изменяет выходной класс, который оно может обслуживать.</p>
 <empty-line/>
 <p>Класс привилегий: D Тип функции: S</p>
 <empty-line/>
-<subtitle>STCP</subtitle>
+</section>
+<section id="toc_sub_000071"><title><p>STCP</p></title>
 <empty-line/>
 <p>Для изменения содержимого реального хранилища без изменения реального PSW или реальных регистров используйте команду STCP.</p>
 <empty-line/>
 <p>Класс привилегий: C Тип функции: P</p>
 <empty-line/>
-<subtitle>STORE (или ST)</subtitle>
+</section>
+<section id="toc_sub_000072"><title><p>STORE (или ST)</p></title>
 <empty-line/>
 <p>Команда STORE используется для изменения содержимого указанных регистров и областей виртуальной машины. Помимо сохранения данных виртуальной машины в нижней части хранилища, могут быть изменены:</p>
 <empty-line/>
@@ -605,7 +675,8 @@
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>SYSTEM (или SYS)</subtitle>
+</section>
+<section id="toc_sub_000073"><title><p>SYSTEM (или SYS)</p></title>
 <empty-line/>
 <p>SYSTEM используется для имитации действий кнопок RESET и RESTART на реальной консоли компьютера, а также для очистки хранилища. Переменные:</p>
 <empty-line/>
@@ -615,13 +686,15 @@
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>TAG (или TA)</subtitle>
+</section>
+<section id="toc_sub_000074"><title><p>TAG (или TA)</p></title>
 <empty-line/>
 <p>TAG имеет множество различных переменных, которые можно помечать тегами (их слишком много для перечисления здесь ввиду разных настроек каждой), однако используется она для связывания описательной информации о файле со спул-файлом.</p>
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>TERMINAL (или TERM)</subtitle>
+</section>
+<section id="toc_sub_000075"><title><p>TERMINAL (или TERM)</p></title>
 <empty-line/>
 <p>Команда TERMINAL используется для управления следующими функциями виртуальной консоли:</p>
 <empty-line/>
@@ -638,7 +711,8 @@
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>TRACE (или TR)</subtitle>
+</section>
+<section id="toc_sub_000076"><title><p>TRACE (или TR)</p></title>
 <empty-line/>
 <p>Используйте команду TRACE для трассировки указанных видов активности виртуальной машины и записи результатов на терминал, на виртуальный спулированный принтер или одновременно туда и туда. При выдаче нескольких команд TRACE операнды суммируются: операнды, указанные впервые, активируются, тогда как операнды с новыми модификаторами обновляются. Однако операнды RUN и NORUN могут быть указаны в разных функциях трассировки без конфликта.</p>
 <empty-line/>
@@ -646,25 +720,29 @@
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>TRANSFER (или TRAN)</subtitle>
+</section>
+<section id="toc_sub_000077"><title><p>TRANSFER (или TRAN)</p></title>
 <empty-line/>
 <p>Эта команда используется для передачи ваших закрытых спул-файлов указанному пользователю или в очередь, либо для возврата закрытых спул-файлов, созданных вами.</p>
 <empty-line/>
 <p>Класс привилегий: D, G Тип функции: S, G</p>
 <empty-line/>
-<subtitle>UNLOCK</subtitle>
+</section>
+<section id="toc_sub_000078"><title><p>UNLOCK</p></title>
 <empty-line/>
 <p>Используйте команду UNLOCK для разблокирования страничных фреймов, ранее заблокированных командой LOCK.</p>
 <empty-line/>
 <p>Класс привилегий: A Тип функции: O</p>
 <empty-line/>
-<subtitle>VARY</subtitle>
+</section>
+<section id="toc_sub_000079"><title><p>VARY</p></title>
 <empty-line/>
 <p>Команда VARY помечает устройство как доступное или недоступное для использования пользователем или управляющей программой.</p>
 <empty-line/>
 <p>Класс привилегий: B Тип функции: R</p>
 <empty-line/>
-<subtitle>VMDUMP (или VMD)</subtitle>
+</section>
+<section id="toc_sub_000080"><title><p>VMDUMP (или VMD)</p></title>
 <empty-line/>
 <p>Команда VMDUMP выгружает виртуальное хранилище, созданное VM/SP HPO для пользователя виртуальной машины. VMDUMP выгружает следующее:</p>
 <empty-line/>
@@ -678,7 +756,8 @@
 <empty-line/>
 <p>Класс привилегий: G Тип функции: G</p>
 <empty-line/>
-<subtitle>WARNING</subtitle>
+</section>
+<section id="toc_sub_000081"><title><p>WARNING</p></title>
 <empty-line/>
 <p>Используйте команду WARNING для передачи высокоприоритетных сообщений указанному пользователю или всем пользователям.</p>
 <empty-line/>
@@ -690,6 +769,7 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_027_002_operating_the_ibm_vm_sp_cp_0939_6fc72bee7a.png"/>
 </section>
+</section>
 <section id="sec_issue_027_003_introduction_to_midnet">
 <title><p>Введение в MIDNET</p></title>
 <p><strong>Автор:</strong> Knight Lightning</p>
@@ -700,13 +780,14 @@
 <empty-line/>
 <p><emphasis>Более глубокий взгляд на NSFnet — Национальную сеть Фонда науки</emphasis></p>
 <empty-line/>
-<subtitle>Пролог</subtitle>
+<section id="toc_sub_000082"><title><p>Пролог</p></title>
 <empty-line/>
 <p>Если вы ещё не знакомы с NSFnet, рекомендую прочитать:</p>
 <empty-line/>
 <p>«Frontiers» (Phrack Inc., Volume Two, Issue 24, File 4 of 13), а также в обязательном порядке: «NSFnet: National Science Foundation Network» (Phrack Inc., Volume Three, Issue 26, File 4 of 11).</p>
 <empty-line/>
-<subtitle>Содержание</subtitle>
+</section>
+<section id="toc_sub_000083"><title><p>Содержание</p></title>
 <empty-line/>
 <p>• Введение</p>
 <p>• Набор протоколов DOD</p>
@@ -715,7 +796,8 @@
 <p>• Передача файлов</p>
 <p>• Почта</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+</section>
+<section id="toc_sub_000084"><title><p>Введение</p></title>
 <empty-line/>
 <p>MIDNET — это региональная компьютерная сеть, входящая в состав NSFnet, Национальной сети Фонда науки. В настоящее время одиннадцать университетов центральной части США соединены друг с другом и с NSFnet через MIDnet:</p>
 <empty-line/>
@@ -752,7 +834,8 @@
 <empty-line/>
 <p>Данная глава «Саги о будущем трансцендентном» даёт общее описание протоколов и программного обеспечения, используемых в MIDnet и NSFnet. Также включено обсуждение ряда наиболее часто используемых сетевых инструментов — чтобы вы могли как можно скорее начать практически работать с сетью.</p>
 <empty-line/>
-<subtitle>Набор протоколов DOD</subtitle>
+</section>
+<section id="toc_sub_000085"><title><p>Набор протоколов DOD</p></title>
 <empty-line/>
 <p>Набор протоколов DOD включает множество различных протоколов. Каждый протокол — это спецификация того, каким образом должен осуществляться обмен данными между компьютерами. Производители компьютерного оборудования и программного обеспечения используют протокол для создания программ, а иногда и специализированного аппаратного обеспечения, реализующего предусмотренную протоколом сетевую функцию. Для разнообразного аппаратного обеспечения и операционных систем, присутствующих в сети, существуют различные реализации одного и того же протокола.</p>
 <empty-line/>
@@ -799,7 +882,8 @@
 <empty-line/>
 <p>Данный файл описывает обобщённую реализацию стандартных прикладных протоколов TCP/IP. Для получения сведений, специфичных для конкретного узла, пользователи должны обращаться к местной документации.</p>
 <empty-line/>
-<subtitle>Имена и адреса в сети</subtitle>
+</section>
+<section id="toc_sub_000086"><title><p>Имена и адреса в сети</p></title>
 <empty-line/>
 <p>В наборе протоколов DOD каждой сети присваивается уникальный идентификационный номер. Он назначается центральным органом — Сетевым информационным центром под управлением SRI (SRI-NIC) — во избежание присвоения одного и того же номера сети более чем одной сети. Например, ARPAnet имеет номер сети 10, тогда как MIDnet — более длинный номер: 128.242.</p>
 <empty-line/>
@@ -835,7 +919,8 @@
 <empty-line/>
 <p>Однако некоторые узлы в определённой мере открыты для общего доступа. Сетевым информационным центром DDN может пользоваться любой. Сервер и база данных там оказались бесценным источником информации при поиске людей, систем и других сведений, связанных с Интернетом.</p>
 <empty-line/>
-<subtitle>Telnet</subtitle>
+</section>
+<section id="toc_sub_000087"><title><p>Telnet</p></title>
 <empty-line/>
 <p>Удалённый вход подразумевает вход в удалённый компьютер с терминала, подключённого к локальному компьютеру. Telnet — стандартный протокол в наборе протоколов DOD для решения этой задачи. Программа «rlogin», поставляемая с системами Berkeley UNIX и некоторыми другими, также обеспечивает удалённый вход.</p>
 <empty-line/>
@@ -889,7 +974,8 @@
 <empty-line/>
 <p>После удалённого входа компьютер, в который вы вошли, фактически становится вашим «локальным компьютером», хотя ваш исходный «локальный компьютер» по-прежнему считает вас вошедшим в систему. Вы можете войти в третий компьютер, который тогда станет вашим «локальным компьютером», и так далее. По мере выхода из каждого сеанса предыдущий сеанс снова становится активным.</p>
 <empty-line/>
-<subtitle>Передача файлов</subtitle>
+</section>
+<section id="toc_sub_000088"><title><p>Передача файлов</p></title>
 <empty-line/>
 <p>FTP — программа, позволяющая пересылать файлы с одного компьютера на другой. «FTP» расшифровывается как «File Transfer Protocol» (Протокол передачи файлов).</p>
 <empty-line/>
@@ -939,7 +1025,8 @@
 <empty-line/>
 <p>По завершении используйте подкоманду <code>close</code> для разрыва канала связи. Вы по-прежнему будете находиться в FTP, поэтому для выхода из FTP и возврата на командный уровень необходимо ввести подкоманду <code>bye</code>. Подкоманда <code>quit</code> закроет соединение и одновременно выйдет из FTP.</p>
 <empty-line/>
-<subtitle>Почта</subtitle>
+</section>
+<section id="toc_sub_000089"><title><p>Почта</p></title>
 <empty-line/>
 <p>Электронная почта во многих отношениях является простейшим сетевым средством. Всё, что нужно сделать, — это создать сообщение (с помощью текстового редактора или на ходу) и отправить его. В отличие от FTP и Telnet, не нужно знать пароль имени пользователя на удалённом компьютере. Это обусловлено тем, что вы не можете изменять или просматривать файлы удалённого пользователя и не можете использовать его учётную запись для запуска программ. Всё, что можно сделать, — это отправить сообщение.</p>
 <empty-line/>
@@ -969,19 +1056,21 @@
 <empty-line/>
 <p><emphasis>«Стремление к знаниям не имеет конца...»</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_027_004_nua_list_for_datex_p_and_x25_networks">
 <title><p>Список NUA для сетей Datex-P и X.25</p></title>
 <p><strong>Автор:</strong> Oberdaemon</p>
 <empty-line/>
 <p><emphasis>9 апреля 1989 года</emphasis></p>
 <empty-line/>
-<subtitle>Условные обозначения</subtitle>
+<section id="toc_sub_000090"><title><p>Условные обозначения</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_027_004_nua_list_for_datex_p_and_x25_networks_0013_d990fa342e.png"/>
 <empty-line/>
 <p><strong>Примечание:</strong> В список включены также очевидно опечатанные NUA, встречавшиеся в широко распространённых списках. Есть и номера, которые не образуют корректный NUA, а являются общим префиксом (например, <code>0202 2</code> — Helpak).</p>
 <empty-line/>
-<subtitle>Формат записи</subtitle>
+</section>
+<section id="toc_sub_000091"><title><p>Формат записи</p></title>
 <empty-line/>
 <p>Каждый NUA в этом списке состоит из следующих полей:</p>
 <empty-line/>
@@ -993,7 +1082,8 @@
 <empty-line/>
 <cite><p><strong>!! Обратите внимание: большинство PAD не принимают пробелы внутри NUA !!</strong></p></cite>
 <empty-line/>
-<subtitle>Таблица NUA</subtitle>
+</section>
+<section id="toc_sub_000092"><title><p>Таблица NUA</p></title>
 <empty-line/>
 <p><emphasis>Ниже приведён полный список NUA для сетей Datex-P и X.25, охватывающий узлы в Европе, Северной Америке, Азии, Австралии и других регионах. Каждая запись содержит статус, NUA-адрес, имя узла (если известно) и описание.</emphasis></p>
 <empty-line/>
@@ -1023,7 +1113,8 @@
 <image l:href="#img__code_blocks_issue_027_004_nua_list_for_datex_p_and_x25_networks_0673_c2f0e78d84_part01.png"/>
 <image l:href="#img__code_blocks_issue_027_004_nua_list_for_datex_p_and_x25_networks_0673_c2f0e78d84_part02.png"/>
 <empty-line/>
-<subtitle>Приложение: локальные адреса на KOMETH (0228 479 110 86)</subtitle>
+</section>
+<section id="toc_sub_000093"><title><p>Приложение: локальные адреса на KOMETH (0228 479 110 86)</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_027_004_nua_list_for_datex_p_and_x25_networks_0763_c24ccaf3cf.png"/>
 <empty-line/>
@@ -1032,11 +1123,13 @@
 <p>• <strong>MAC-BBS</strong> — доска объявлений с информацией по тематике Mac. Доступ только для авторизованных пользователей (необходимо ввести имя, адрес и указать, являетесь ли вы студентом ETH, после чего ожидать несколько дней). Имя пользователя: <code>MAC</code>.</p>
 <p>• <strong>VisInfo</strong> — информационный сервер VIS (Verein der InformatikStudenten). Содержит тематические разделы с почтой из нескольких сетей и локальных источников. Есть чат (закрыт в часы пик). Свободный доступ. Имя пользователя: <code>VISINFO</code>.</p>
 <empty-line/>
-<subtitle>Приложение: локальные адреса в CERN (0228 468 114 0510)</subtitle>
+</section>
+<section id="toc_sub_000094"><title><p>Приложение: локальные адреса в CERN (0228 468 114 0510)</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_027_004_nua_list_for_datex_p_and_x25_networks_0787_e042538cc4.png"/>
 <empty-line/>
-<subtitle>Приложение: узлы сети Merit (0228 468 114 0583)</subtitle>
+</section>
+<section id="toc_sub_000095"><title><p>Приложение: узлы сети Merit (0228 468 114 0583)</p></title>
 <empty-line/>
 <p>Основные хост-компьютеры сети Merit:</p>
 <empty-line/>
@@ -1052,13 +1145,14 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_027_004_nua_list_for_datex_p_and_x25_networks_0872_da82983229.png"/>
 </section>
+</section>
 <section id="sec_issue_027_005_cosmos_computer_system_for_mainframe_operations_p">
 <title><p>COSMOS — Компьютерная система для обслуживания мейнфреймов. Часть вторая</p></title>
 <p><strong>Автор:</strong> King Arthur</p>
 <empty-line/>
 <p>В этой статье я предлагаю решения проблем компьютерной безопасности, описанных в моём предыдущем файле. Ниже перечислены простые, но нередко игнорируемые меры, которые при должном соблюдении способны существенно повысить безопасность компьютерных систем вашей компании. Эти принципы применимы не только к COSMOS, но и ко всем компьютерам во всех организациях.</p>
 <empty-line/>
-<subtitle>A) Безопасность коммутируемых линий</subtitle>
+<section id="toc_sub_000096"><title><p>A) Безопасность коммутируемых линий</p></title>
 <empty-line/>
 <p>При защите любой компьютерной системы, независимо от её типа, важно помнить следующее: единственный способ получить к ней удалённый доступ — это наличие коммутируемой линии, ведущей к этой системе. Если у вашей системы есть коммутируемое подключение, убедитесь, что вы приняли все возможные меры для его защиты. «Единственный совет, который я дам: будьте осторожны с коммутируемыми линиями», — говорит Эд Пиннес из Bellcore.</p>
 <empty-line/>
@@ -1082,7 +1176,8 @@
 <empty-line/>
 <p>4. Если коммутируемые линии не используются в ночное время или по выходным, их следует отключать. Хакеры, как правило, занимаются своими «делами» именно в эти часы. Система COSMOS позволяет ограничивать доступ в зависимости от времени суток.</p>
 <empty-line/>
-<subtitle>B) Парольная безопасность</subtitle>
+</section>
+<section id="toc_sub_000097"><title><p>B) Парольная безопасность</p></title>
 <empty-line/>
 <p>Проводя аналогию между компьютером и картотечным шкафом, пароль можно сравнить с замком на этом шкафу. Наличие учётных записей без паролей фактически означает, что шкаф стоит нараспашку. Пользователи системы зачастую выбирают пароли, которые легко запомнить. Это неразумно, особенно для базы данных с большим числом пользователей. Первыми хакеры пробуют самые очевидные варианты. Например, если известно, что MF01 — имя учётной записи для кросс-монтажного зала, хакер наверняка попробует MF01, FRAME, MDF или MAINFRAME в качестве пароля. Если хакеру известно, что начальника кросс-монтажного зала зовут Питер Пинкертон, пароли PETE или PINKERTON будут крайне неудачным выбором.</p>
 <empty-line/>
@@ -1104,7 +1199,8 @@
 <empty-line/>
 <p>8. Если вы подозреваете, что произошёл инцидент безопасности, меняйте ВСЕ пароли, а не только те, которые непосредственно связаны с этим инцидентом.</p>
 <empty-line/>
-<subtitle>C) Физическая безопасность объекта</subtitle>
+</section>
+<section id="toc_sub_000098"><title><p>C) Физическая безопасность объекта</p></title>
 <empty-line/>
 <p>Хакеры и авторы ряда статей, опубликованных в журнале 2600 Magazine, подробно описывали практику обыска мусорных контейнеров, которую сами хакеры называют «трэшинг» (trashing). Важно следить за тем, что вы выбрасываете. Во многих компаниях в мусор выбрасываются руководства по эксплуатации, содержащие конфиденциальную информацию. COSMOS сам по себе не является системой с дружественным интерфейсом. Иными словами, без предварительного знакомства с системой работать с ней крайне сложно. Беверли Крюз из Bellcore говорит: «COSMOS используется в таком количестве мест по всей стране, что я не удивлюсь, если в мусоре найдут документацию... особенно после разукрупнения AT&amp;T. Один интересный момент: в статье о COSMOS, написанной хакерами, содержалось много устаревшей информации, что говорит о том, что источник этих сведений... был давним».</p>
 <empty-line/>
@@ -1120,7 +1216,8 @@
 <empty-line/>
 <p>5. Печатающие терминалы должны проверяться на предмет того, не отображаются ли на них пароли. Если пароли выводятся на печать в открытом виде, проверьте правильность настройки режима дуплекса. Некоторые операционные системы позволяют настраивать коммутируемые линии для использования с принтерами.</p>
 <empty-line/>
-<subtitle>D) Безопасность и работа с персоналом</subtitle>
+</section>
+<section id="toc_sub_000099"><title><p>D) Безопасность и работа с персоналом</p></title>
 <empty-line/>
 <p>Когда хакер выдаёт себя за сотрудника, велика вероятность, что инцидент останется незамеченным, — если только попытка не провалилась явно. Даже если хакер говорит невпопад, сотрудники зачастую спишут звонок на неосведомлённого или некомпетентного человека. Неприятно чувствовать себя обязанным относиться с подозрением к каждому звонку с незнакомым голосом, но это необходимо.</p>
 <empty-line/>
@@ -1138,13 +1235,15 @@
 <empty-line/>
 <p>6. Если руководители будут распространять эту и другие статьи по компьютерной безопасности среди начальников отделов, уровень защищённости со стороны персонала возрастёт.</p>
 <empty-line/>
-<subtitle>E) Общие меры безопасности</subtitle>
+</section>
+<section id="toc_sub_000100"><title><p>E) Общие меры безопасности</p></title>
 <empty-line/>
 <p>Компания Bellcore недавно направила пакет документов всем системным администраторам систем COSMOS. В пакете подробно описаны процедуры безопасности, применимые к COSMOS и Unix-системам. Если вы получили этот пакет, рекомендуется перечитать его ещё раз, чтобы убедиться в защищённости ваших систем. Крюз говорит: «В прошлом году... ко мне обратился сотрудник одной из операционных компаний с проблемой безопасности COSMOS. Всё, что мы сделали, — предоставили им документацию, которая напомнила им о существующих функциях безопасности... В операционной системе COSNIX есть встроенные средства защиты... Мы не дали им ничего нового. Эти функции уже были там; мы лишь порекомендовали задействовать их все».</p>
 <empty-line/>
 <p>Если вы не уверены, что в полной мере используете доступные функции безопасности, обратитесь к поставщикам ваших компьютерных систем и запросите документацию по вопросам безопасности. Выясните, какие функции защиты вы, возможно, не используете. Существуют также сторонние программные компании, предлагающие пакеты безопасности для различных операционных систем и компьютеров.</p>
 <empty-line/>
 <p>Компьютерная безопасность — крайне деликатная тема. Многие предпочитают делать вид, что компьютерной преступности не существует. Поскольку проблема реальна, лучшее, что можно сделать, — изучать её и искать оптимальные решения. Чем больше людей будут писать и сообщать о компьютерной безопасности, тем легче остальным будет защитить себя. Я хотел бы, чтобы Bellcore опубликовала руководящие принципы безопасности, доступные всей телекоммуникационной отрасли. Помните: цепь прочна ровно настолько, насколько прочно её самое слабое звено.</p>
+</section>
 </section>
 <section id="sec_issue_027_006_looking_around_in_decnet">
 <title><p>Исследование сети DECNET</p></title>
@@ -1168,7 +1267,7 @@
 <empty-line/>
 <p>Настоящий хакер, однажды войдя в такую учётную запись, наверняка найдёт способы получить системные привилегии. Это требует глубоких знаний ядра VMS и является уже другой историей, которой я здесь касаться не буду.</p>
 <empty-line/>
-<subtitle>Что такое DECNET?</subtitle>
+<section id="toc_sub_000101"><title><p>Что такое DECNET?</p></title>
 <empty-line/>
 <p>DECNET — это средство, с помощью которого компьютеры компании Digital Equipment Corporation (DEC) могут быть соединены друг с другом. Каждый компьютер в этой сети имеет адрес, который обычно задаётся в виде x.y, где x — номер области (целое число), а y — номер узла в этой области, принимающий значения от 1 до 1023. Для обращения к узлам DECNET указывается единственное число, которое можно вычислить из x и y по следующей формуле:</p>
 <empty-line/>
@@ -1176,7 +1275,8 @@
 <empty-line/>
 <p>Узлы, особенно локальные (имеющие тот же номер области, что и ваш текущий узел), нередко имеют присвоенные им имена, чтобы их было легче запоминать.</p>
 <empty-line/>
-<subtitle>Интересные команды DECNET</subtitle>
+</section>
+<section id="toc_sub_000102"><title><p>Интересные команды DECNET</p></title>
 <empty-line/>
 <p>Чтобы получить (первый) список доступных узлов DECNET, попробуйте команду:</p>
 <empty-line/>
@@ -1184,7 +1284,7 @@
 <empty-line/>
 <p>Знак <code>$</code> (как и в последующих примерах) является стандартным приглашением VMS и вводить его не нужно. Эта команда выдаст список (будем надеяться) достижимых узлов. Каждая строка вывода содержит сетевой адрес в форме x.y и, как правило, имя, под которым известен данный узел.</p>
 <empty-line/>
-<p>Ваш текущий узел упоминается в первой строке: &quot;VAX/VMS network status for local node X.Y Name&quot;. В большинстве случаев далее вы увидите список локальных узлов и строку &quot;The next hop to the nearest area router is node XX.YY&quot;. Этот узел содержит больше информации о DECNET, чем тот, на котором вы сейчас находитесь. Если у вас есть учётная запись на указанном узле, войдите туда и попробуйте снова. Если нет — что ж, поиграйте с перечисленными локальными узлами и изучите команду NCP, описанную далее.</p>
+<p>Ваш текущий узел упоминается в первой строке: "VAX/VMS network status for local node X.Y Name". В большинстве случаев далее вы увидите список локальных узлов и строку "The next hop to the nearest area router is node XX.YY". Этот узел содержит больше информации о DECNET, чем тот, на котором вы сейчас находитесь. Если у вас есть учётная запись на указанном узле, войдите туда и попробуйте снова. Если нет — что ж, поиграйте с перечисленными локальными узлами и изучите команду NCP, описанную далее.</p>
 <empty-line/>
 <p>Итак, что можно делать с теми узлами, которые были упомянуты в выводе? Первая команда:</p>
 <empty-line/>
@@ -1210,7 +1310,8 @@
 <empty-line/>
 <p>Вместо открытия DCL-процедуры файл foo.com будет выполнен. Чтобы удобно пользоваться этой возможностью, были написаны программы для интерактивного взаимодействия с удалённым хостом. Командная процедура NETDCL.COM выполняет эту задачу и приводится в Приложении A (далее в этом файле). Изучите эту DCL-процедуру, чтобы узнать больше о возможностях DECNET.</p>
 <empty-line/>
-<subtitle>Ключ к универсальному знанию</subtitle>
+</section>
+<section id="toc_sub_000103"><title><p>Ключ к универсальному знанию</p></title>
 <empty-line/>
 <p>Среди программ на VAX есть одна жемчужина — NCP. Она охотно предоставит информацию обо всей сети DECNET. Запустить эту программу можно командой <code>MCR NCP</code> или выполнив <code>SET DEF SYS$SYSTEM</code> и затем <code>RUN NCP</code>. Воспользуйтесь встроенной справкой NCP (Network Control Program — программа управления сетью), чтобы узнать больше.</p>
 <empty-line/>
@@ -1222,20 +1323,23 @@
 <empty-line/>
 <p>А затем снова выполнить команду <code>SHOW KNOWN NODES</code>. Эта возможность должна обеспечить вас почти бесконечным списком имён и номеров узлов.</p>
 <empty-line/>
-<subtitle>Заключение</subtitle>
+</section>
+<section id="toc_sub_000104"><title><p>Заключение</p></title>
 <empty-line/>
 <p>В DECNET доступно немало приятных возможностей. Возможно, я знаю не все из них, но надеюсь, что данная статья показала вам мощные инструменты, доступные в VMS для того, чтобы сделать работу в сети удобнее.</p>
 <empty-line/>
 <p><strong>ПРЕДУПРЕЖДЕНИЕ:</strong> У автора был неприятный опыт общения с некоторыми администраторами узлов, которым не нравилось, что к их машинам обращаются через DECNET. Да, это оборотная сторона медали: каждая активность в DECNET записывается в протокольный файл, который ежемесячно распечатывается и удаляется. Поэтому следует соблюдать осторожность при использовании DECNET.</p>
 <empty-line/>
-<subtitle>Приложение A</subtitle>
+</section>
+<section id="toc_sub_000105"><title><p>Приложение A</p></title>
 <empty-line/>
 <p><strong>Процедура NETDCL.COM</strong> (иногда называемая TELL.COM, NET.COM)</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_027_006_looking_around_in_decnet_0115_510228ae1c_part01.png"/>
 <image l:href="#img__code_blocks_issue_027_006_looking_around_in_decnet_0115_510228ae1c_part02.png"/>
 <empty-line/>
-<subtitle>Приложение B</subtitle>
+</section>
+<section id="toc_sub_000106"><title><p>Приложение B</p></title>
 <empty-line/>
 <p><strong>ALLUSER.PAS</strong> — Вывод всех зарегистрированных пользователей</p>
 <empty-line/>
@@ -1244,13 +1348,14 @@
 <empty-line/>
 <p>Эта статья была написана Deep Thought из Западной Германии. Если вам понравилась статья — предоставьте мне доступ, если я однажды загляну на ваш BBS!</p>
 </section>
+</section>
 <section id="sec_issue_027_007_the_making_of_a_hacker">
 <title><p>Становление хакера</p></title>
 <p><strong>Автор:</strong> Framstag (Западная Германия)</p>
 <empty-line/>
 <p><emphasis>2 июня 1989 года</emphasis></p>
 <empty-line/>
-<subtitle>Пролог для тех, кто не знаком с VMS</subtitle>
+<section id="toc_sub_000107"><title><p>Пролог для тех, кто не знаком с VMS</p></title>
 <empty-line/>
 <p>DECnet — это сеть для машин компании DEC, в большинстве случаев речь идёт о VAX-системах. DECnet позволяет выполнять следующее:</p>
 <p>• электронная почта</p>
@@ -1302,6 +1407,7 @@
 <empty-line/>
 <p><emphasis>С особой благодарностью Schrulli B. за помощь в переводе.</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_027_008_sending_fake_mail_in_unix">
 <title><p>Отправка поддельной почты в Unix</p></title>
 <p><strong>Автор:</strong> Dark OverLord</p>
@@ -1322,7 +1428,7 @@
 <empty-line/>
 <p><emphasis>10 мая 1989 г.</emphasis></p>
 <empty-line/>
-<subtitle>Защита почты США</subtitle>
+<section id="toc_sub_000108"><title><p>Защита почты США</p></title>
 <empty-line/>
 <p>Ответственность за защиту почты США и почтовой системы в целом несёт Служба почтовой инспекции. Являясь правоохранительным и ревизионным подразделением Почтовой службы США, Инспекционная служба представляет собой высокоспециализированную профессиональную организацию, осуществляющую следственные, правоохранительные и ревизионные функции, необходимые для стабильной и надёжной работы почтовой системы.</p>
 <empty-line/>
@@ -1332,7 +1438,8 @@
 <empty-line/>
 <p>Деятельность ведомства вносит жизненно важный вклад в защиту экономики страны. Охранные и правоохранительные функции Инспекционной службы обеспечивают американскому бизнесу уверенность в безопасном обмене денежными средствами и ценными бумагами через почту США, а клиентам почты — гарантию неприкосновенности корреспонденции при её передаче в любые точки мира. Ревизии обеспечивают стабильность финансовых операций, помогают контролировать расходы и повышать эффективность Почтовой службы.</p>
 <empty-line/>
-<subtitle>Почтовые инспекторы</subtitle>
+</section>
+<section id="toc_sub_000109"><title><p>Почтовые инспекторы</p></title>
 <empty-line/>
 <p>Почтовые инспекторы — это оперативно-следственные агенты Почтовой службы США. Сегодня почти две трети своего рабочего времени они тратят на расследование и раскрытие почтовых преступлений. Наделённые законодательными полномочиями на производство арестов, они задерживают нарушителей закона и тесно сотрудничают с прокурорами США при рассмотрении дел в суде. В круг их обязанностей также входят профилактика преступлений, ревизия почтовых операций, расследование несчастных случаев и широкий спектр других служебных и ревизионных вопросов.</p>
 <empty-line/>
@@ -1344,7 +1451,8 @@
 <empty-line/>
 <p>Все кандидаты на должность почтового инспектора обязаны успешно пройти следующие этапы: вступительный экзамен; всестороннюю проверку биографических данных, включающую медицинское освидетельствование; прохождение Центра оценки кандидатов; и все этапы базового курса подготовки.</p>
 <empty-line/>
-<subtitle>Деятельность Инспекционной службы</subtitle>
+</section>
+<section id="toc_sub_000110"><title><p>Деятельность Инспекционной службы</p></title>
 <empty-line/>
 <p><emphasis>Уголовные расследования и профилактика почтовых преступлений составляют наибольшую долю в деятельности Инспекционной службы.</emphasis></p>
 <empty-line/>
@@ -1362,7 +1470,8 @@
 <empty-line/>
 <p>Финансовые ревизии обеспечивают независимую проверку адекватности и эффективности систем контроля, подтверждают наличие активов и надлежащее соблюдение мер их защиты. Операционные ревизии проводятся для оказания помощи руководству почты в организации эффективной и надёжной работы Почтовой службы.</p>
 <empty-line/>
-<subtitle>Служба безопасности</subtitle>
+</section>
+<section id="toc_sub_000111"><title><p>Служба безопасности</p></title>
 <empty-line/>
 <p>Офицеры почтовой полиции обеспечивают защиту почтовых отправлений, почтовых ценностей, сотрудников, объектов и транспортных средств Почтовой службы. Являясь частью правоохранительной команды, они помогают почтовым инспекторам соблюдать определённые почтовые законы и нормативные акты на территории почтовых объектов и обеспечивают мобильное реагирование в экстренных ситуациях, связанных с Почтовой службой.</p>
 <empty-line/>
@@ -1372,29 +1481,35 @@
 <empty-line/>
 <p>Опыт в военном или гражданском правоохранении, промышленной безопасности или аналогичных сферах деятельности является преимуществом при поступлении на должности в Службу безопасности. Все принятые на работу проходят четырёхнедельный курс подготовки в учебном центре Инспекционной службы.</p>
 <empty-line/>
-<subtitle>Взаимодействие с другими ведомствами</subtitle>
+</section>
+<section id="toc_sub_000112"><title><p>Взаимодействие с другими ведомствами</p></title>
 <empty-line/>
 <p>Инспекционная служба оказывает полное содействие всем местным и федеральным следственным и прокурорским органам в правоохранительной деятельности в целях обеспечения более надёжной защиты населения. Почтовые инспекторы участвуют в работе национальных оперативных групп Министерства юстиции, направленных на пресечение широко распространённых преступных действий организованного характера. Почтовые инспекторы также тесно сотрудничают с внешними аудиторами, оказывая поддержку при сертификации финансовой отчётности Почтовой службы.</p>
 <empty-line/>
-<subtitle>Процент обвинительных приговоров</subtitle>
+</section>
+<section id="toc_sub_000113"><title><p>Процент обвинительных приговоров</p></title>
 <empty-line/>
 <p>Инспекционная служба стабильно поддерживает высокий процент обвинительных приговоров — около 98% от числа дел, переданных в суд, — что не превзойдено ни одним другим федеральным правоохранительным органом.</p>
 <empty-line/>
-<subtitle>Юрисдикция, почтовые законы и охрана</subtitle>
+</section>
+<section id="toc_sub_000114"><title><p>Юрисдикция, почтовые законы и охрана</p></title>
 <empty-line/>
 <p>Инспекционная служба осуществляет следственную юрисдикцию приблизительно в отношении 85 почтовых законодательных актов. Их можно разделить на две категории: уголовные действия против почты, почтовых объектов или почтового персонала; и уголовное злоупотребление почтовой системой.</p>
 <empty-line/>
-<subtitle>ПОЧТОВОЕ МОШЕННИЧЕСТВО</subtitle>
+</section>
+<section id="toc_sub_000115"><title><p>ПОЧТОВОЕ МОШЕННИЧЕСТВО</p></title>
 <empty-line/>
 <p>Вся преступная деятельность с использованием почты США с целью обмана подпадает под юрисдикцию Службы почтовой инспекции. Закон о почтовом мошенничестве является старейшим законом о защите прав потребителей в Соединённых Штатах и представляет собой одно из наиболее эффективных прокурорских инструментов в борьбе с беловоротничковой и организованной преступностью. Ежегодно вследствие почтового мошенничества теряются миллионы долларов, причём жертвами становятся не только малоимущие и пожилые граждане, но и предприниматели, и рядовые потребители. К распространённым схемам относятся: страховые, банковские и фиктивные расчётные мошенничества; земельные аферы и мошенничество с авансовыми платежами; франчайзинговые схемы; мошенничество с надомной работой и поддельными дипломами; благотворительные схемы; продвижение фальшивых средств лечения, косметических приборов, чудодейственных диет и сексуальных стимуляторов; цепные письма, лотереи и предложения о покупке рекламной продукции.</p>
 <empty-line/>
 <p>Хотя почтовые инспекторы не имеют законодательных полномочий выступать посредниками при урегулировании неудовлетворительных финансовых или имущественных сделок, осуществлённых через почту, их расследования нередко приводят к прекращению мошеннических или сомнительных операций. Административные приказы о прекращении доставки почты могут выдаваться для предотвращения продолжающегося ущерба для населения в период сбора достаточных доказательств для уголовного преследования в судах, а также в случаях, когда можно доказать наличие ложных заявлений, но не обязательно мошеннического умысла. Инспекционная служба играет ведущую роль в защите прав потребителей благодаря реализации образовательных программ, направленных на предотвращение схем почтового мошенничества, и усилиям по разрешению жалоб, связанных с недопониманием между потребителями и продавцами или ненадлежащей деловой практикой.</p>
 <empty-line/>
-<subtitle>ОРГАНИЗОВАННАЯ ПРЕСТУПНОСТЬ</subtitle>
+</section>
+<section id="toc_sub_000116"><title><p>ОРГАНИЗОВАННАЯ ПРЕСТУПНОСТЬ</p></title>
 <empty-line/>
 <p>Расследования почтовыми инспекторами дел, связанных с организованной преступностью, чаще всего касаются хищений и сбыта крупных объёмов марочных запасов и ценных бумаг организованными преступными группами, взламывающими почтовые отделения; страховых и инвестиционных мошенничеств; а также спланированных банкротств и схем, направленных на разграбление активов компаний. Закон о контроле над организованной преступностью 1970 года прямо включает нарушение Закона о почтовом мошенничестве в число «рэкетирских действий». Почтовые инспекторы прикомандированы к оперативным группам Министерства юстиции по борьбе с организованной преступностью, действующим в различных точках страны.</p>
 <empty-line/>
-<subtitle>ХИЩЕНИЕ/ВЗЛОМ/ОГРАБЛЕНИЕ ПОЧТЫ</subtitle>
+</section>
+<section id="toc_sub_000117"><title><p>ХИЩЕНИЕ/ВЗЛОМ/ОГРАБЛЕНИЕ ПОЧТЫ</p></title>
 <empty-line/>
 <p>Расследование хищений почтовых отправлений составляет значительную часть обязанностей Инспекционной службы и чаще всего связано с похищением чеков, продовольственных купонов или иных оборотных ценных бумаг. Приоритетное внимание уделяется крупным преступным группировкам, изощрённым операциям по сбыту похищенного, масштабным хищениям и реализации профилактических программ.</p>
 <empty-line/>
@@ -1402,29 +1517,36 @@
 <empty-line/>
 <p>Вооружённые ограбления создают угрозу жизни сотрудников почты и населения и потому являются приоритетными для расследования. Объектами таких преступлений, как правило, становятся почтовые объекты, транспортные средства, перевозящие почту, и отдельные сотрудники — прежде всего почтальоны.</p>
 <empty-line/>
-<subtitle>НАРКОТИКИ</subtitle>
+</section>
+<section id="toc_sub_000118"><title><p>НАРКОТИКИ</p></title>
 <empty-line/>
 <p>Незаконный оборот наркотиков, наркотических средств и других контролируемых веществ через почту расследуется совместно с другими федеральными и региональными правоохранительными органами.</p>
 <empty-line/>
-<subtitle>ПОРНОГРАФИЯ</subtitle>
+</section>
+<section id="toc_sub_000119"><title><p>ПОРНОГРАФИЯ</p></title>
 <empty-line/>
 <p>Инспекционная служба расследует нарушения Закона о почтовой непристойности, принятого в 1865 году, который запрещает пересылку непристойных материалов через почту США. Это включает расследование преступлений, связанных с детской порнографией, предполагающей сексуальное насилие или эксплуатацию детей, на основании законов, принятых в 1977 и 1984 годах.</p>
 <empty-line/>
-<subtitle>ВЗРЫВНЫЕ УСТРОЙСТВА</subtitle>
+</section>
+<section id="toc_sub_000120"><title><p>ВЗРЫВНЫЕ УСТРОЙСТВА</p></title>
 <empty-line/>
 <p>Расследование инцидентов, связанных с угрозами применения взрывных устройств и зажигательных предметов, пересылаемых по почте или направленных против почтового имущества или деятельности, входит в юрисдикцию Инспекционной службы.</p>
 <empty-line/>
-<subtitle>ВЫМОГАТЕЛЬСТВО</subtitle>
+</section>
+<section id="toc_sub_000121"><title><p>ВЫМОГАТЕЛЬСТВО</p></title>
 <empty-line/>
 <p>На Инспекционную службу возложена следственная ответственность в случаях, когда почта используется для вымогательства денег или имущества путём угрозы нанесения ущерба репутации лица или обвинения его в совершении преступления.</p>
 <empty-line/>
-<subtitle>ИНЫЕ ЗАПРЕЩЁННЫЕ ПОЧТОВЫЕ ОТПРАВЛЕНИЯ</subtitle>
+</section>
+<section id="toc_sub_000122"><title><p>ИНЫЕ ЗАПРЕЩЁННЫЕ ПОЧТОВЫЕ ОТПРАВЛЕНИЯ</p></title>
 <empty-line/>
 <p>Рассылка ядов или других вредных веществ, запрещённых законом, расследуется почтовыми инспекторами.</p>
 <empty-line/>
-<subtitle>Помощь со стороны населения</subtitle>
+</section>
+<section id="toc_sub_000123"><title><p>Помощь со стороны населения</p></title>
 <empty-line/>
 <p>В большинстве случаев Инспекционная служба вынуждена опираться на бдительность и внимательность получателей почтовых отправлений, которые должны сообщать о возможной преступной или вредоносной деятельности с использованием почты. О любых подозрительных нарушениях почтовых законов или злоупотреблениях почтой следует сообщать местному постмастеру для передачи информации почтовому инспектору. Оперативные действия со стороны клиентов почты и почтовых инспекторов играют ключевую роль в профилактике и раскрытии преступлений.</p>
+</section>
 </section>
 <section id="sec_issue_027_010_phrack_world_news_issue_xxvii_part_1">
 <title><p>Phrack World News</p></title>
@@ -1448,7 +1570,7 @@
 <empty-line/>
 <p><emphasis>«Настоящее будущее у тебя за спиной... И это только начало!»</emphasis></p>
 <empty-line/>
-<subtitle>Судья отклонил сделку о признании вины Митника как слишком мягкую — 25 апреля 1989</subtitle>
+<section id="toc_sub_000124"><title><p>Судья отклонил сделку о признании вины Митника как слишком мягкую — 25 апреля 1989</p></title>
 <empty-line/>
 <p>Выдержки из материала Ким Мёрфи (Los Angeles Times)</p>
 <empty-line/>
@@ -1462,7 +1584,8 @@
 <empty-line/>
 <p>И прокуроры, и адвокаты защиты были удивлены. Адвокат Митника сказал, что не знает, согласится ли его клиент на признание вины с более длительным сроком заключения. Это может затруднить предъявление обвинений предполагаемым сообщникам Митника. Если дело Митника дойдёт до суда, для его осуждения потребуются показания как минимум одного из его сообщников, а те не стали бы давать показания без получения иммунитета от уголовного преследования.</p>
 <empty-line/>
-<subtitle>Хакер-компьютерщик работает над новой сделкой о признании вины — 6 мая 1989</subtitle>
+</section>
+<section id="toc_sub_000125"><title><p>Хакер-компьютерщик работает над новой сделкой о признании вины — 6 мая 1989</p></title>
 <empty-line/>
 <p>Выдержки из Los Angeles Herald Examiner</p>
 <empty-line/>
@@ -1470,7 +1593,8 @@
 <empty-line/>
 <p>Митник, 25 лет, из Панорама-Сити (Калифорния), в марте предложил отбыть один год в тюрьме и признать себя виновным в компьютерном мошенничестве и владении несанкционированными кодами дальней телефонной связи.</p>
 <empty-line/>
-<subtitle>Обновление по делу Митника — 10 мая 1989</subtitle>
+</section>
+<section id="toc_sub_000126"><title><p>Обновление по делу Митника — 10 мая 1989</p></title>
 <empty-line/>
 <p>Выдержки из Los Angeles Times</p>
 <empty-line/>
@@ -1480,7 +1604,8 @@
 <empty-line/>
 <p>По просьбе DEC Митник поможет компании выявить и устранить уязвимости в её программном обеспечении безопасности, чтобы защититься от других хакеров. Он также будет сотрудничать в расследовании правительством дела Леонарда ДиЧикко, хакера-сообщника. (ДиЧикко — это тот самый «друг», который сдал Митника властям.)</p>
 <empty-line/>
-<subtitle>Кеннет Сиани высказывается о Кевине Митнике — 23 мая 1989</subtitle>
+</section>
+<section id="toc_sub_000127"><title><p>Кеннет Сиани высказывается о Кевине Митнике — 23 мая 1989</p></title>
 <empty-line/>
 <p>Кевин Митник — хакер, «настолько опасный, что ему даже нельзя пользоваться телефоном». «Он может разрушить вашу жизнь с помощью клавиатуры». «Вооружён клавиатурой и считается опасным».</p>
 <empty-line/>
@@ -1512,7 +1637,8 @@
 <p>• «Dark Side Hacker Seen As Electronic Terrorist» (01/08/89) PWN XXIII, Часть 1</p>
 <p>• «Mitnick Plea Bargains» (03/16/89) PWN XXV, Часть 1</p>
 <empty-line/>
-<subtitle>Сеть компьютерного взлома в Детройте — 25 мая 1989</subtitle>
+</section>
+<section id="toc_sub_000128"><title><p>Сеть компьютерного взлома в Детройте — 25 мая 1989</p></title>
 <empty-line/>
 <p>Взято из San Jose Mercury News (Knight-Ridder News Service)</p>
 <empty-line/>
@@ -1538,7 +1664,8 @@
 <empty-line/>
 <p><emphasis>Особая благодарность Jedi за дополнительную информацию</emphasis></p>
 <empty-line/>
-<subtitle>HR 1504 — Закон о предотвращении злоупотребления пейджерами — 22 мая 1989</subtitle>
+</section>
+<section id="toc_sub_000129"><title><p>HR 1504 — Закон о предотвращении злоупотребления пейджерами — 22 мая 1989</p></title>
 <empty-line/>
 <p><emphasis>«Пейджеры не совершают преступлений — это делают конгрессмены.»</emphasis></p>
 <empty-line/>
@@ -1556,7 +1683,8 @@
 <empty-line/>
 <cite><p>«Логика Закона о предотвращении злоупотребления пейджерами открывает дверь для законов, обязывающих нас подписывать обещания, что мы, клянёмся, не будем использовать эти вещи в незаконных целях при покупке. Де Токвиль, выдающийся наблюдатель нашей нации, предупреждал, что наша свобода будет исчезать через принятие тихих, кажущихся невинными и благонамеренными законов — таких законов, как H.R. 1504.»</p></cite>
 <empty-line/>
-<subtitle>Ассоциация исследования компьютерных угроз (Великобритания) — 31 марта 1989</subtitle>
+</section>
+<section id="toc_sub_000130"><title><p>Ассоциация исследования компьютерных угроз (Великобритания) — 31 марта 1989</p></title>
 <empty-line/>
 <p>Для тех, кто интересуется: в Соединённом Королевстве была создана зонтичная организация для координации информации и исследований во всех аспектах компьютерной безопасности. В первую очередь одной из главных задач организации станет борьба с угрозой компьютерных вирусов — она будет выступать в роли информационного центра по вирусам и программному обеспечению для контроля над ними.</p>
 <empty-line/>
@@ -1578,7 +1706,8 @@
 <empty-line/>
 <p>CoTra, The Computer Threat Research Association, c/o 144 Sheerstock, Haddenham, Bucks. HP17 8EX</p>
 <empty-line/>
-<subtitle>Странный отдел часов Таможенной службы — 1 мая 1989</subtitle>
+</section>
+<section id="toc_sub_000131"><title><p>Странный отдел часов Таможенной службы — 1 мая 1989</p></title>
 <empty-line/>
 <p>Написано Ванессой Джо Гримм (Government Computer News, стр. 6)</p>
 <empty-line/>
@@ -1602,13 +1731,14 @@
 <empty-line/>
 <p>Остальная часть статьи посвящена действиям Линды Гиббс, которая узнала об инциденте и сообщила о нём инспектору General после того, как не смогла остановить происходящее. Гиббс также утверждала, что целью этих действий было использование свободных средств конца года для покрытия перерасхода по контракту с Northrop Corp. Она также заявила, что была переведена на другую должность и не получала никаких новых обязанностей.</p>
 </section>
+</section>
 <section id="sec_issue_027_011_phrack_world_news_xxvii_part_2">
 <title><p>Phrack World News — Мировые новости Phrack</p></title>
 <image l:href="#img__code_blocks_issue_027_011_phrack_world_news_xxvii_part_2_0005_e69bc74dc6.png"/>
 <empty-line/>
 <p><strong>Автор:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>Роберт Т. Моррис отчислен из Корнелла — 25 мая 1989 г.</subtitle>
+<section id="toc_sub_000132"><title><p>Роберт Т. Моррис отчислен из Корнелла — 25 мая 1989 г.</p></title>
 <empty-line/>
 <p><emphasis>Источник: New York Times</emphasis></p>
 <empty-line/>
@@ -1622,7 +1752,8 @@
 <empty-line/>
 <p>• - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
 <empty-line/>
-<subtitle>Министерство юстиции осторожничает в компьютерном деле — 28 мая 1989 г.</subtitle>
+</section>
+<section id="toc_sub_000133"><title><p>Министерство юстиции осторожничает в компьютерном деле — 28 мая 1989 г.</p></title>
 <empty-line/>
 <p><emphasis>Автор: Мэтью Спина (Syracuse Herald-American)</emphasis></p>
 <empty-line/>
@@ -1679,7 +1810,8 @@
 <empty-line/>
 <p>\* — Статья не была непосредственно посвящена Роберту Моррису, однако упоминала его в контексте инцидента с интернет-червём.</p>
 <empty-line/>
-<subtitle>Психологическая игра SouthernNet против хакеров — апрель 1989 г.</subtitle>
+</section>
+<section id="toc_sub_000134"><title><p>Психологическая игра SouthernNet против хакеров — апрель 1989 г.</p></title>
 <empty-line/>
 <p><strong>ВНИМАНИЕ! Ваш звонок перехвачен!</strong></p>
 <empty-line/>
@@ -1717,7 +1849,8 @@
 <empty-line/>
 <p><emphasis>[Неужели кто-то в это поверил и действительно позвонил «Hacker Tracker'у»? — KL]</emphasis></p>
 <empty-line/>
-<subtitle>Что происходит: расходы на компьютерную безопасность растут — 4 июня 1989 г.</subtitle>
+</section>
+<section id="toc_sub_000135"><title><p>Что происходит: расходы на компьютерную безопасность растут — 4 июня 1989 г.</p></title>
 <empty-line/>
 <p><emphasis>Источник: Gannett Westchester Newspapers</emphasis></p>
 <empty-line/>
@@ -1729,11 +1862,13 @@
 <empty-line/>
 <p>• - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
 <empty-line/>
-<subtitle>Комментарий Delta-Master</subtitle>
+</section>
+<section id="toc_sub_000136"><title><p>Комментарий Delta-Master</p></title>
 <empty-line/>
 <p>Не знаю, как вы, но меня начинает раздражать путаница в общественном восприятии хакеров, особенно когда в ней допускаются откровенные ошибки. Серьёзно: я лично знаю лишь нескольких хакеров старше 21 года. Не менее раздражает и то, что газеты ставят знак равенства между грубыми компьютерными преступниками и хакерами-интеллектуалами (то есть вами). Разве нет? Запомните ключевую фразу: «32% ИЗ ТЕХ, КТО БЫЛ ЗАДЕРЖАН». Ну что ж, такова цена газетных ошибок.</p>
 <empty-line/>
-<subtitle>Комиссия по коммунальному обслуживанию запрещает компании-операторы — 24 апреля 1989 г.</subtitle>
+</section>
+<section id="toc_sub_000137"><title><p>Комиссия по коммунальному обслуживанию запрещает компании-операторы — 24 апреля 1989 г.</p></title>
 <empty-line/>
 <p><emphasis>Автор: Джерри Страуд (St. Louis Post-Dispatch)</emphasis></p>
 <empty-line/>
@@ -1769,7 +1904,8 @@
 <p>• Вывешивать на видном месте наименование компании, подробный порядок подачи жалоб и инструкцию о том, как выйти на оператора местной телефонной компании и других операторов дальней связи.</p>
 <p>• Переключать экстренные вызовы на местную телефонную компанию или American Telephone &amp; Telegraph Co. до тех пор, пока альтернативный поставщик услуг не докажет, что в состоянии самостоятельно обрабатывать экстренные вызовы.</p>
 <empty-line/>
-<subtitle>Факс-атака — 13 мая 1989 г.</subtitle>
+</section>
+<section id="toc_sub_000138"><title><p>Факс-атака — 13 мая 1989 г.</p></title>
 <empty-line/>
 <p><emphasis>Источник: The Ann Arbor News</emphasis></p>
 <empty-line/>
@@ -1785,7 +1921,8 @@
 <empty-line/>
 <p>Пресс-секретарь О'Нилла Джон Л. Сандберг сообщил, что губернатор ещё не принял решения о подписании законопроекта. Но помощники губернатора отметили: настойчивая лоббистская кампания наглядно продемонстрировала, насколько раздражающими бывают нежелательные сообщения. Неудобства усугублялись тем, что офис губернатора не мог воспользоваться факсом для получения информации о весеннем паводке в штате.</p>
 <empty-line/>
-<subtitle>NYNEX представляет шлюз Info-Look — 28 апреля 1989 г.</subtitle>
+</section>
+<section id="toc_sub_000139"><title><p>NYNEX представляет шлюз Info-Look — 28 апреля 1989 г.</p></title>
 <empty-line/>
 <p>Представляем новый сервис для доступа к информации и многому другому — прямо с вашего персонального компьютера!</p>
 <empty-line/>
@@ -1825,7 +1962,8 @@
 <empty-line/>
 <p><emphasis>[INFO-LOOK уже работает в Bell South и Bell Atlantic.]</emphasis></p>
 <empty-line/>
-<subtitle>Pacific Bell планирует доступ к компьютерным ресурсам — 9 июня 1989 г.</subtitle>
+</section>
+<section id="toc_sub_000140"><title><p>Pacific Bell планирует доступ к компьютерным ресурсам — 9 июня 1989 г.</p></title>
 <empty-line/>
 <p><emphasis>Источник: Santa Cruz Sentinel (Раздел B)</emphasis></p>
 <empty-line/>
@@ -1839,7 +1977,8 @@
 <empty-line/>
 <p>По словам Конрада, виды доступных сервисов ограничены лишь фантазией разработчиков. PacBell будет зарабатывать на продаже компаниям доступа к телекоммуникационным линиям.</p>
 <empty-line/>
-<subtitle>Доски объявлений Аргентины — 5 июня 1989 г.</subtitle>
+</section>
+<section id="toc_sub_000141"><title><p>Доски объявлений Аргентины — 5 июня 1989 г.</p></title>
 <empty-line/>
 <p>Код страны = 54 (Аргентина) Код города = 1 (Буэнос-Айрес)</p>
 <empty-line/>
@@ -1851,13 +1990,14 @@
 <empty-line/>
 <p><emphasis>Предоставлено: Noli</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_027_012_phrack_world_news_issue_xxvii_part_3">
 <title><p>Phrack World News — Выпуск XXVII, Часть 3</p></title>
 <image l:href="#img__code_blocks_issue_027_012_phrack_world_news_issue_xxvii_part_3_0003_9a318b1a01.png"/>
 <empty-line/>
 <p><strong>Автор:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>Один из «хитрых хакеров» Клиффорда Столла мёртв (самоубийство?)</subtitle>
+<section id="toc_sub_000142"><title><p>Один из «хитрых хакеров» Клиффорда Столла мёртв (самоубийство?)</p></title>
 <empty-line/>
 <p><emphasis>5 июня 1989 года</emphasis></p>
 <empty-line/>
@@ -1871,7 +2011,8 @@
 <empty-line/>
 <cite><p>[Иллюминаты... КГБ... как угодно... -KL]</p></cite>
 <empty-line/>
-<subtitle>Illuminatus!</subtitle>
+</section>
+<section id="toc_sub_000143"><title><p>Illuminatus!</p></title>
 <empty-line/>
 <p><emphasis>14 июня 1989 года</emphasis></p>
 <empty-line/>
@@ -1893,7 +2034,8 @@
 <p>• «KGB Computer Break-Ins Alleged In West Germany» (3.03.89)</p>
 <p>• «News From The KGB/Wily Hackers» (7.03.89)</p>
 <empty-line/>
-<subtitle>Загадочный хакер перенаправил звонки в службу пробации на секс-линию</subtitle>
+</section>
+<section id="toc_sub_000144"><title><p>Загадочный хакер перенаправил звонки в службу пробации на секс-линию</p></title>
 <empty-line/>
 <p><emphasis>13 июня 1989 года</emphasis></p>
 <empty-line/>
@@ -1917,7 +2059,8 @@
 <empty-line/>
 <p>Технические специалисты по безопасности из Southern Bell и AT&amp;T пытаются отследить источник взлома, сообщил Пассмор.</p>
 <empty-line/>
-<subtitle>Взлом ради конкурентного преимущества</subtitle>
+</section>
+<section id="toc_sub_000145"><title><p>Взлом ради конкурентного преимущества</p></title>
 <empty-line/>
 <p><emphasis>12 мая 1989 года</emphasis></p>
 <empty-line/>
@@ -1929,7 +2072,8 @@
 <empty-line/>
 <p>Компьютерные эксперты установили, что злоумышленник просматривал файлы. Власти сообщили, что Шапиро досконально знал систему безопасности WTVT, поскольку сам участвовал в её создании, работая там менеджером по заданиям, прежде чем был переманен со станции WTVT в октябре.</p>
 <empty-line/>
-<subtitle>Руководители отдела новостей телестанции уволены после обвинений во взломе ресурсов конкурента</subtitle>
+</section>
+<section id="toc_sub_000146"><title><p>Руководители отдела новостей телестанции уволены после обвинений во взломе ресурсов конкурента</p></title>
 <empty-line/>
 <p>Тампа, Флорида. Флоридская телестанция уволила двух руководителей отдела новостей на фоне сообщений о том, что один из них якобы взломал компьютерную систему конкурирующей станции и похитил конфиденциальную информацию.</p>
 <empty-line/>
@@ -1947,7 +2091,8 @@
 <empty-line/>
 <cite><p>[Ещё одна статья, посвящённая этому делу, — «Television Editor Charged In Raid On Rival's Files» (8 февраля 1989 года). Она была опубликована в Phrack World News, выпуск XXIV/Часть 2. -KL]</p></cite>
 <empty-line/>
-<subtitle>Сведения в Национальном информационном центре по преступности повлекли повторный незаконный арест</subtitle>
+</section>
+<section id="toc_sub_000147"><title><p>Сведения в Национальном информационном центре по преступности повлекли повторный незаконный арест</p></title>
 <empty-line/>
 <p><emphasis>14 мая 1989 года</emphasis></p>
 <empty-line/>
@@ -1961,7 +2106,8 @@
 <empty-line/>
 <p>Ранее он получил компенсацию в размере $7 000 от округа за 12-дневное заключение под стражей в 1986 году, прежде чем выяснилось, что был задержан не тот человек. В ходе последнего инцидента его держали под стражей семь дней, после чего освободили без каких-либо объяснений.</p>
 <empty-line/>
-<subtitle>Ещё один случай незаконного заключения</subtitle>
+</section>
+<section id="toc_sub_000148"><title><p>Ещё один случай незаконного заключения</p></title>
 <empty-line/>
 <p><emphasis>18 мая 1989 года</emphasis></p>
 <empty-line/>
@@ -1975,7 +2121,8 @@
 <empty-line/>
 <p>Ещё один инцидент, схожий с описанными выше случаями, произошёл с Ричардом Лоуренсом Скларом — профессором политологии Калифорнийского университета в Лос-Анджелесе. Компьютер спутал его с беглецом, разыскиваемым по делу о махинациях с недвижимостью в Аризоне. Прежде чем ФБР выяснило, что задержан не тот человек, Склар, которому было 58 лет, провёл двое суток в условиях унизительного обыска, перемещался из одного места содержания в другое и был закован в наручники вместе с членами банд и другими лицами, совершившими насильственные преступления. Подробнее об этом деле и деле Терри Дина Рогана см. «FBI National Crime Information Center Data Bank» (13 февраля 1989 года), опубликованную в Phrack World News, выпуск XXIV/Часть 2 (а также в Washington Post).</p>
 <empty-line/>
-<subtitle>TRW и Администрация социального обеспечения</subtitle>
+</section>
+<section id="toc_sub_000149"><title><p>TRW и Администрация социального обеспечения</p></title>
 <empty-line/>
 <p><emphasis>12 мая 1989 года</emphasis></p>
 <empty-line/>
@@ -1987,7 +2134,8 @@
 <empty-line/>
 <cite><p>[Связанная статья «Verifying Social Security Numbers» (11 апреля 1989 года) была опубликована в Phrack World News, выпуск XXVI/Часть 3 (а также в New York Times в тот же день). -KL]</p></cite>
 <empty-line/>
-<subtitle>Краткие заметки Phrack World News XXVII</subtitle>
+</section>
+<section id="toc_sub_000150"><title><p>Краткие заметки Phrack World News XXVII</p></title>
 <empty-line/>
 <p>1. Сети BITNET и CSNET объединяются в новую сеть, которой присвоено текущее название ONENET.</p>
 <empty-line/>
@@ -2032,6 +2180,7 @@
 <p>11. <strong>Бесплатные звонки с телефонов-автоматов New York Telephone (10 июня 1989 года)</strong> (San Francisco Chronicle, стр. 2). 24 таксофона вдоль шоссе Long Island Expressway оказались фактически бесплатными из-за программного/базоданного сбоя. Ими активно пользовались для международных звонков те, кто обнаружил упущение, — в том числе для многочисленных звонков в Пакистан (когда полиция прибыла на место после сообщения о стрельбе, она обнаружила 15 пакистанцев, пользовавшихся этими телефонами). Оценки суммы невозмещённых расходов на звонки не поступало.</p>
 <empty-line/>
 <p><strong><emphasis>* КОНЕЦ </emphasis></strong>*</p>
+</section>
 </section>
 </section>
 </body>
