@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0"
-             xmlns:l="http://www.w3.org/1999/xlink">
+<?xml version='1.0' encoding='UTF-8'?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
 <description>
   <title-info>
     <genre>computers</genre>
@@ -40,9 +39,10 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_007_001_intro_index_0018_8552368d4f.png"/>
 <empty-line/>
-<subtitle>Featured in this Phrack Inc.</subtitle>
+<section id="toc_sub_000001"><title><p>Featured in this Phrack Inc.</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_007_001_intro_index_0025_238481b1df.png"/>
+</section>
 </section>
 <section id="sec_issue_007_002_phrack_pro_phile_iv_scan_man">
 <title><p>Phrack Pro-Phile IV: Scan Man</p></title>
@@ -54,7 +54,7 @@
 <empty-line/>
 <p>Scan Man — sysop of Pirate 80, P-80, telecom enthusiasts' bulletin board in Charleston, West Virginia, area 304.</p>
 <empty-line/>
-<subtitle>Personal</subtitle>
+<section id="toc_sub_000002"><title><p>Personal</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_007_002_phrack_pro_phile_iv_scan_man_0018_461bc746a7.png"/>
 <empty-line/>
@@ -80,19 +80,23 @@
 <empty-line/>
 <cite><p>If you're any damn good at all, you're going to get a reputation whether you like it or not.</p></cite>
 <empty-line/>
-<subtitle>Interests</subtitle>
+</section>
+<section id="toc_sub_000003"><title><p>Interests</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_007_002_phrack_pro_phile_iv_scan_man_0064_e281b6b930.png"/>
 <empty-line/>
-<subtitle>Scan Man's favorite things</subtitle>
+</section>
+<section id="toc_sub_000004"><title><p>Scan Man's favorite things</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_007_002_phrack_pro_phile_iv_scan_man_0074_af414b0107.png"/>
 <empty-line/>
-<subtitle>Most memorable experiences</subtitle>
+</section>
+<section id="toc_sub_000005"><title><p>Most memorable experiences</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_007_002_phrack_pro_phile_iv_scan_man_0083_c809294678.png"/>
 <empty-line/>
-<subtitle>Some people to mention</subtitle>
+</section>
+<section id="toc_sub_000006"><title><p>Some people to mention</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_007_002_phrack_pro_phile_iv_scan_man_0090_83332572a9.png"/>
 <empty-line/>
@@ -109,6 +113,7 @@
 <p>Thank you for your time, Scan Man.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_007_002_phrack_pro_phile_iv_scan_man_0108_8552368d4f.png"/>
+</section>
 </section>
 <section id="sec_issue_007_003_the_conscience_of_a_hacker">
 <title><p>The Conscience of a Hacker</p></title>
@@ -174,7 +179,7 @@
 <empty-line/>
 <p>Chilton Corp. — крупная кредитная компания, расположенная на Greenville Ave. в Далласе, штат Техас. Именно здесь многие организации, в которые вы подаёте заявки на кредит, проверяют кредитные истории вас и ваших соседей. В отличие от других кредитных систем вроде TRW и CBI, эта содержит записи о людях с хорошей кредитной историей и не затирает часть номеров самих карт. Вся информация полная и включает полные номера карт, а также банк-эмитент, лимит, суммы платежей, просрочки, номер социального страхования, текущий и прежний адреса, а также текущее и прежнее место работы. Всё, что нужно для доступа к этой информации, — полное имя и адрес вашей «жертвы».</p>
 <empty-line/>
-<subtitle>Как взломать Chilton</subtitle>
+<section id="toc_sub_000007"><title><p>Как взломать Chilton</p></title>
 <empty-line/>
 <p>Система Chilton находится в Далласе, прямой dial-up (300/1200) — 214-783-6868. Переведите терминал в полудуплексный режим и жмите Return примерно 10 раз, пока система не начнёт эхом отражать нажатия. Существует команда для подключения к E-mail, которую можно ввести до того, как начать нажимать Return. Нажимая Return, вы тем самым указываете, что хотите попасть в кредитную систему. Про E-mail я рассказывать не буду — там нет ничего особо интересного. Если всё же хотите туда залезть, попробуйте варианты вида <code>/x**</code> (x = A, B, C и т.д.). Весь ввод — только в верхнем регистре. Итак, возвращаясь к кредитной части: после эхо-ответа на Return можно ввести <code>DTS Ctrl-S</code>, если очень нужно узнать дату и время, либо сразу переходить к делу. Под «делом» я имею в виду:</p>
 <empty-line/>
@@ -212,11 +217,13 @@
 <empty-line/>
 <p>Несмотря на то что номера кредитных карт отображаются, кредитное мошенничество блокируется простым фактом: сроки действия карт не показываются. Ни одна компания, делающая реальный запрос по человеку, не нуждается в этой информации, а во избежание мошеннического или ненадлежащего использования данных сроки были исключены. Любопытный факт: в какой-то момент истории компании в системе был небольшой флаг, обозначавший наличие записи о наркотиках. Его убрали как не относящееся к задачам системы — он появился лишь потому, что Borg Warner, компания-владелец Chilton, хотела совать нос в личную жизнь людей. У компьютера 10-линейный ротари, так что если только одновременно не позвонят 11 человек, шансы нарваться на занятую линию практически нулевые.</p>
 <empty-line/>
-<subtitle>Отказ от ответственности</subtitle>
+</section>
+<section id="toc_sub_000008"><title><p>Отказ от ответственности</p></title>
 <empty-line/>
 <p>Информация в этом файле носит учебный характер и предназначена для ознакомления с данной системой и принципами её работы. Она не призывает к мошенническому использованию кредитных карт или иным действиям, которые могут быть расценены как незаконные или аморальные. Автор, а также редакторы, издатели и распространители данного информационного бюллетеня не несут никакой ответственности за действия или намерения читателей этого материала.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_007_004_hacking_chilton_credimatic_0076_90c1ca7600.png"/>
+</section>
 </section>
 <section id="sec_issue_007_005_programming_rsts_e_passwords">
 <title><p>Программирование RSTS/E. Часть 1: Пароли</p></title>
@@ -224,17 +231,19 @@
 <empty-line/>
 <p><emphasis>(c) 22 мая 1986 г.</emphasis></p>
 <empty-line/>
-<subtitle>Предисловие</subtitle>
+<section id="toc_sub_000009"><title><p>Предисловие</p></title>
 <empty-line/>
 <p>Этот документ — первый в серии материалов об операционной системе RSTS/E. Все файлы основаны на версии 8.0, поскольку она практически полностью совместима с предыдущими релизами. При необходимости я указал различия между V8.x и V9.x.</p>
 <empty-line/>
 <p>Отдельная благодарность High Evolutionary за то, что подтолкнул меня написать эти файлы; Night Stalker — за обмен информацией; и всем прочим RSTS-хакерам, внёсшим свой вклад тем или иным образом.</p>
 <empty-line/>
-<subtitle>История</subtitle>
+</section>
+<section id="toc_sub_000010"><title><p>История</p></title>
 <empty-line/>
 <p>Операционная система RSTS/E (Resource System Time Sharing / Environment) была разработана для серии мини-компьютеров PDP/11 производства DEC (Digital Equipment Corporation). При её создании во главу угла ставилось удобство использования — как для пользователя, так и для хакера. Именно поэтому в системе осталось немало упущенных ошибок, делающих её весьма уязвимой. В более поздних версиях, особенно серии 9.x, безопасность паролей была существенно улучшена и стала надёжнее, но ошибок по-прежнему хватает, чтобы было через что пролезть.</p>
 <empty-line/>
-<subtitle>Вход в систему</subtitle>
+</section>
+<section id="toc_sub_000011"><title><p>Вход в систему</p></title>
 <empty-line/>
 <p>Вкратце: найдите действующий номер и подключитесь. Нажмите c/r (возврат каретки) несколько раз или введите:</p>
 <empty-line/>
@@ -262,7 +271,8 @@
 <empty-line/>
 <p>Не забывайте пробовать имена, марки автомобилей, предметы, название компании (в разных вариациях) и т.д. Большинство людей выбирают пароли, так или иначе связанные с их личной жизнью. Потратьте немного времени и угадайте...</p>
 <empty-line/>
-<subtitle>Вы внутри!</subtitle>
+</section>
+<section id="toc_sub_000012"><title><p>Вы внутри!</p></title>
 <empty-line/>
 <p>Как только вам удастся взломать действующий пароль — привилегированный или нет, — рекомендую сначала выяснить, кто сейчас в системе. Для этого достаточно ввести:</p>
 <empty-line/>
@@ -296,11 +306,13 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_007_005_programming_rsts_e_passwords_0121_71cb059445.png"/>
 <empty-line/>
-<subtitle>Получение привилегий</subtitle>
+</section>
+<section id="toc_sub_000013"><title><p>Получение привилегий</p></title>
 <empty-line/>
 <p>Если взломать привилегированный аккаунт не удалось — не паникуйте. Есть ещё несколько способов получить права сисопа. Они работают не всегда, но попробовать стоит.</p>
 <empty-line/>
-<subtitle>Системный журнал</subtitle>
+</section>
+<section id="toc_sub_000014"><title><p>Системный журнал</p></title>
 <empty-line/>
 <p>На многих системах RSTS/E до версии V9.0 один аккаунт предназначен для хранения системного журнала — записи всего, что делаете вы и все остальные. Как правило, это аккаунт <code>1,101</code>, <code>1,2</code> или <code>0,1</code>, но стоит уточнить через поиск в директории. Введите:</p>
 <empty-line/>
@@ -324,7 +336,8 @@
 <empty-line/>
 <p>Это распространённые пароли для такого аккаунта. Если ни один не подошёл — дальше без подсказок не обойтись, разве что придумаете что-то сами.</p>
 <empty-line/>
-<subtitle>Системные баги</subtitle>
+</section>
+<section id="toc_sub_000015"><title><p>Системные баги</p></title>
 <empty-line/>
 <p>При создании операционных систем такой сложности, как RSTS/E, неизбежно появляются ошибки в работе или безопасности (иногда я не уверен, намеренные они или нет). Ими нередко можно воспользоваться. Один из известных мне — <code>RPGDMP.TSK</code>. Чтобы его использовать, введите:</p>
 <empty-line/>
@@ -336,11 +349,13 @@
 <empty-line/>
 <p>Если вы найдёте другие похожие баги, я был бы рад, если бы вы связались со мной и сообщили о них.</p>
 <empty-line/>
-<subtitle>Получение паролей</subtitle>
+</section>
+<section id="toc_sub_000016"><title><p>Получение паролей</p></title>
 <empty-line/>
 <p>Теперь, когда вы, будем надеяться, получили привилегии, можно продолжить. Сбор паролей — это своего рода мера безопасности, подобная созданию резервной копии программы. Способов достать пароли несколько; самый простой — использовать привилегии, но об этом — в следующем файле. Здесь я опишу метод-ловушку и трюк, который я люблю использовать и называю «почтовым методом».</p>
 <empty-line/>
-<subtitle>Ловушка (Decoy)</subtitle>
+</section>
+<section id="toc_sub_000017"><title><p>Ловушка (Decoy)</p></title>
 <empty-line/>
 <p>Ловушка, которую нередко называют «Троянским конём» (хотя это несколько другое), — это программа, имитирующая <code>login.bac</code>. Когда ничего не подозревающий пользователь вводит свой аккаунт и пароль, ваша программа сохраняет их в файл, который вы потом сможете прочитать. Вот короткая программа, которую я написал для этой задачи:</p>
 <empty-line/>
@@ -362,7 +377,8 @@
 <empty-line/>
 <p>Должны распечататься аккаунт и пароль. Если запускать программу каждый раз перед отключением на несколько дней, вы накопите приличный запас действующих аккаунтов.</p>
 <empty-line/>
-<subtitle>Почта (Mail)</subtitle>
+</section>
+<section id="toc_sub_000018"><title><p>Почта (Mail)</p></title>
 <empty-line/>
 <p>Чтобы запустить почту, введите:</p>
 <empty-line/>
@@ -385,6 +401,7 @@
 <p>Можно просто поговорить с ними в реальном времени. Или если вам каким-то образом (например, через мусор) удастся достать список всех пользователей с номерами телефонов — можно позвонить им и заговорить зубы.</p>
 <empty-line/>
 <p>ПРИМЕЧАНИЕ: Этот документ предназначен исключительно в информационных целях. Автор ни в коей мере не несёт ответственности за то, как он будет использован. Сисопы могут свободно публиковать его по своему усмотрению при условии, что содержащаяся информация не изменяется и все права признаются за The Seker.</p>
+</section>
 </section>
 <section id="sec_issue_007_006">
 <title><p>Volume One, Issue 7, Phile 6 of 10</p></title>
@@ -410,23 +427,26 @@
 <title><p>Троянские кони в UNIX</p></title>
 <p><strong>Автор:</strong> Shooting Shark (Tiburon Systems / R0DENTZWARE) — 26.06.86</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+<section id="toc_sub_000019"><title><p>Введение</p></title>
 <empty-line/>
 <p>«Безопасность UNIX» — это оксюморон. Система легко поддаётся взлому методом перебора (большинство UNIX-систем не сбрасывают соединение после N неудачных попыток входа, и существует ряд стандартных логинов — root, bin, sys, uucp). Как только вы в системе, можно легко поставить её на колени (см. мою предыдущую статью в Phrack — «UNIX Nasty Tricks»), или, если вы немного знаете C, можно заставить систему работать на вас: полностью обойти барьеры безопасности, создать собственные учётные записи, читать чужие файлы и так далее. В этом файле описаны подобные способы с примерами кода на C, которые вы можете реализовать самостоятельно.</p>
 <empty-line/>
-<subtitle>Требования</subtitle>
+</section>
+<section id="toc_sub_000020"><title><p>Требования</p></title>
 <empty-line/>
 <p>Вам понадобится рабочая учётная запись на UNIX-системе. Для наилучших результатов это должна быть достаточно полноценная версия UNIX (например, 4.2bsd или AT&amp;T System V), работающая на настоящей машине (PDP/11, VAX, Pyramid и т.п.). Если вы учитесь и имеете аккаунт на школьном сервере — он подойдёт отлично.</p>
 <empty-line/>
-<subtitle>Примечания</subtitle>
+</section>
+<section id="toc_sub_000021"><title><p>Примечания</p></title>
 <empty-line/>
-<p>Этот файл навеян статьёй из апрельского номера BYTE за 1986 год под названием «Making UNIX Secure». В той статье авторы пишут: «Мы предоставляем эту информацию так, чтобы она была, надеемся, интересной и полезной, но не доходила до уровня &quot;поваренной книги взломщика&quot;. Мы намеренно опустили многие детали.» Я следую общей канве той статьи, приводя конкретные примеры методов, которых они лишь коснулись.</p>
+<p>Этот файл навеян статьёй из апрельского номера BYTE за 1986 год под названием «Making UNIX Secure». В той статье авторы пишут: «Мы предоставляем эту информацию так, чтобы она была, надеемся, интересной и полезной, но не доходила до уровня "поваренной книги взломщика". Мы намеренно опустили многие детали.» Я следую общей канве той статьи, приводя конкретные примеры методов, которых они лишь коснулись.</p>
 <empty-line/>
 <p>Не по теме: где-то бродит некий тип под ником «Lord British» (не ТОТ Lord British...). Это послание для LB: «Fuck off and die.»</p>
 <empty-line/>
 <p>Итак, начнём...</p>
 <empty-line/>
-<subtitle>Проект первый: охота на пароли</subtitle>
+</section>
+<section id="toc_sub_000022"><title><p>Проект первый: охота на пароли</p></title>
 <empty-line/>
 <p>Это можно реализовать, имея лишь минимальные знания UNIX и C. Однако вам нужен доступ к терминалу, которым пользуются многие — например, в компьютерном классе вашего учебного заведения.</p>
 <empty-line/>
@@ -465,7 +485,8 @@
 <empty-line/>
 <p>Следующие проекты можно реализовать на удалённой системе — например, на VAX в Мичигане, который вы взломали, или на UNIX-системе Дартмута, или на любой другой. Однако они требуют некоторых знаний языка C. Они не для новичков в UNIX.</p>
 <empty-line/>
-<subtitle>Проект второй: чтение чужих файлов</subtitle>
+</section>
+<section id="toc_sub_000023"><title><p>Проект второй: чтение чужих файлов</p></title>
 <empty-line/>
 <p>Когда кто-то запускает программу, он является владельцем созданного процесса, и эта программа может делать всё то, что мог бы сделать он сам: удалять файл в его директории или открывать свои файлы для чтения другими.</p>
 <empty-line/>
@@ -493,7 +514,8 @@
 <empty-line/>
 <p>А вот очень изящный способ применить описанный приём:</p>
 <empty-line/>
-<subtitle>Проект третий: стать суперпользователем</subtitle>
+</section>
+<section id="toc_sub_000024"><title><p>Проект третий: стать суперпользователем</p></title>
 <empty-line/>
 <p>Напишите программу, которую вы сможете убедить кого-то запустить. Где-нибудь в ней поместите строку:</p>
 <empty-line/>
@@ -527,11 +549,12 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_007_007_unix_trojan_horses_0265_b6e528a004.png"/>
 </section>
+</section>
 <section id="sec_issue_007_008_phrack_world_news_vi_part_1">
 <title><p>Phrack World News VI, часть 1</p></title>
 <p><strong>Составил и написал:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>Oryan QUEST против Dan Pasquale</subtitle>
+<section id="toc_sub_000025"><title><p>Oryan QUEST против Dan Pasquale</p></title>
 <empty-line/>
 <p><strong>21 июня 1986 года</strong></p>
 <empty-line/>
@@ -553,7 +576,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_007_008_phrack_world_news_vi_part_1_0027_7223c3ebbe.png"/>
 <empty-line/>
-<subtitle>Marx and Tabas: the full story</subtitle>
+</section>
+<section id="toc_sub_000026"><title><p>Marx and Tabas: the full story</p></title>
 <empty-line/>
 <p><strong>1 июля 1986 года</strong></p>
 <empty-line/>
@@ -577,7 +601,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_007_008_phrack_world_news_vi_part_1_0059_60beda6687.png"/>
 <empty-line/>
-<subtitle>The Saga Of Mad Hacker</subtitle>
+</section>
+<section id="toc_sub_000027"><title><p>The Saga Of Mad Hacker</p></title>
 <empty-line/>
 <p><strong>15 июля 1986 года</strong></p>
 <empty-line/>
@@ -595,7 +620,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_007_008_phrack_world_news_vi_part_1_0079_3d5e78c545.png"/>
 <empty-line/>
-<subtitle>Lock Lifter busted</subtitle>
+</section>
+<section id="toc_sub_000028"><title><p>Lock Lifter busted</p></title>
 <empty-line/>
 <p><strong>2 июля 1986 года</strong></p>
 <empty-line/>
@@ -611,7 +637,8 @@
 <empty-line/>
 <p>Arthur Dent has now confirmed that Lock Lifter did not make the call in question and that there is definitely a fed or someone with Lock Lifter's BBS passwords. Sysops be warned.</p>
 <empty-line/>
-<subtitle>Daniel Zigmond: the plot thickens</subtitle>
+</section>
+<section id="toc_sub_000029"><title><p>Daniel Zigmond: the plot thickens</p></title>
 <empty-line/>
 <p><strong>13 июля 1986 года</strong></p>
 <empty-line/>
@@ -637,7 +664,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_007_008_phrack_world_news_vi_part_1_0127_7a6490f5b0.png"/>
 <empty-line/>
-<subtitle>TeleComputist: subscribe now</subtitle>
+</section>
+<section id="toc_sub_000030"><title><p>TeleComputist: subscribe now</p></title>
 <empty-line/>
 <p><strong>25 июля 1986 года</strong></p>
 <empty-line/>
@@ -655,11 +683,12 @@
 <empty-line/>
 <p>KL's notes: both Taran King and I have seen the first issue, and it is damn good. This is not a scam. We know the TeleComputist staff personally, and they will not rip you off. The newsletter itself is of fine quality both in its print and content. The sample issue was merely a shadow of the upcoming issues, and it will continue to get better as time goes on. It is definitely worth the twelve dollars for the year subscription.</p>
 </section>
+</section>
 <section id="sec_issue_007_009_phrack_world_news_vi_part_2">
 <title><p>Phrack World News VI, часть 2</p></title>
 <p><strong>Составил и написал:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>U.S. Telecom retiring Uninet</subtitle>
+<section id="toc_sub_000031"><title><p>U.S. Telecom retiring Uninet</p></title>
 <empty-line/>
 <p><strong>26 мая 1986 года</strong></p>
 <empty-line/>
@@ -681,9 +710,11 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_007_009_phrack_world_news_vi_part_2_0027_b0da32caf0.png"/>
 <empty-line/>
-<subtitle>P-80 Newsfile</subtitle>
+</section>
+<section id="toc_sub_000032"><title><p>P-80 Newsfile</p></title>
 <empty-line/>
-<subtitle>Computer Crime Bill amended</subtitle>
+</section>
+<section id="toc_sub_000033"><title><p>Computer Crime Bill amended</p></title>
 <empty-line/>
 <p><strong>14 мая 1986 года</strong></p>
 <empty-line/>
@@ -699,7 +730,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_007_009_phrack_world_news_vi_part_2_0048_ff7ddad2d8.png"/>
 <empty-line/>
-<subtitle>House Committee approves new Computer Crime Bill</subtitle>
+</section>
+<section id="toc_sub_000034"><title><p>House Committee approves new Computer Crime Bill</p></title>
 <empty-line/>
 <p><strong>14 мая 1986 года</strong></p>
 <empty-line/>
@@ -729,7 +761,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_007_009_phrack_world_news_vi_part_2_0080_f728df14d3.png"/>
 <empty-line/>
-<subtitle>Access to government computers clarified</subtitle>
+</section>
+<section id="toc_sub_000035"><title><p>Access to government computers clarified</p></title>
 <empty-line/>
 <p><strong>9 июня 1986 года</strong></p>
 <empty-line/>
@@ -739,7 +772,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_007_009_phrack_world_news_vi_part_2_0092_ff7ddad2d8.png"/>
 <empty-line/>
-<subtitle>TAP Interviews II, by Dead Lord</subtitle>
+</section>
+<section id="toc_sub_000036"><title><p>TAP Interviews II, by Dead Lord</p></title>
 <empty-line/>
 <p><strong>14 июля 1986 года</strong></p>
 <empty-line/>
@@ -783,7 +817,8 @@
 <empty-line/>
 <p>It has been said that Dead Lord's phone number has been disconnected by outside sources several times in the past and that the entire TAP Meeting attendees group is out to cause him major physical damage.</p>
 <empty-line/>
-<subtitle>Quicknotes</subtitle>
+</section>
+<section id="toc_sub_000037"><title><p>Quicknotes</p></title>
 <empty-line/>
 <p>MOB RULES was indicted on five counts of wire fraud by the Secret Service; the charges dated back to 1984. This is supposedly part of the reason that The Marauder took down Twilight Zone, but this is pure rumor.</p>
 <empty-line/>
@@ -793,11 +828,12 @@
 <empty-line/>
 <p>The rumor that Carrier Culprit was busted is untrue, but he did receive a call from AT&amp;T Security regarding Alliance Teleconferencing Services.</p>
 </section>
+</section>
 <section id="sec_issue_007_010_phrack_world_news_vi_part_3">
 <title><p>Phrack World News VI, часть 3</p></title>
 <p><strong>Составил и написал:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>HoloPhax Phreaker vs. USA</subtitle>
+<section id="toc_sub_000038"><title><p>HoloPhax Phreaker vs. USA</p></title>
 <empty-line/>
 <p><strong>16 июля 1986 года</strong></p>
 <empty-line/>
@@ -863,7 +899,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_007_010_phrack_world_news_vi_part_3_0122_073a8b1401.png"/>
 <empty-line/>
-<subtitle>Lightman's stories: hoax or fact?</subtitle>
+</section>
+<section id="toc_sub_000039"><title><p>Lightman's stories: hoax or fact?</p></title>
 <empty-line/>
 <p><strong>20 июля 1986 года</strong></p>
 <empty-line/>
@@ -904,6 +941,7 @@
 <p>That evening, I learned from The Safe Cracker that David Lightman was not actually busted and that he had received a call from AT&amp;T Security about Blue Boxing. This could mean that they knew he boxed, however he lives in an ESS area, or that he was on a boxed Alliance Teleconference. Either way it matters little. Now nobody can get in touch with him and the message on his mailbox has changed.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_007_010_phrack_world_news_vi_part_3_0169_6bc98821e4.png"/>
+</section>
 </section>
 </section>
 </body>

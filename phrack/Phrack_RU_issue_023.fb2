@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0"
-             xmlns:l="http://www.w3.org/1999/xlink">
+<?xml version='1.0' encoding='UTF-8'?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
 <description>
   <title-info>
     <genre>computers</genre>
@@ -44,7 +43,7 @@
 <empty-line/>
 <p>Knight Lightning &amp; Taran King (C483307@UMCVMB) (C488869@UMCVMB)</p>
 <empty-line/>
-<subtitle>Содержание</subtitle>
+<section id="toc_sub_000001"><title><p>Содержание</p></title>
 <empty-line/>
 <p>1. Индекс Phrack Inc. XXIII — Knight Lightning &amp; Taran King</p>
 <p>2. Phrack Prophile XXIII: The Mentor — Taran King</p>
@@ -58,6 +57,7 @@
 <p>10. Большой Брат онлайн — Thumpr (особая благодарность Hatchet Molly)</p>
 <p>11–12. Phrack World News XXIII — Knight Lightning</p>
 </section>
+</section>
 <section id="sec_issue_023_002_phrack_pro_phile_xxiii_the_mentor">
 <title><p>Phrack Pro-Phile XXIII</p></title>
 <p><strong>Автор:</strong> Taran King</p>
@@ -66,83 +66,101 @@
 <empty-line/>
 <p>Добро пожаловать в Phrack Pro-Phile XXIII. Рубрика Phrack Pro-Phile была создана для того, чтобы рассказывать сообществу о людях, завершивших активную деятельность, либо сыгравших значительную или неоднозначную роль в нашей среде. В этом выпуске — пользователь и сисоп, оставивший заметный след благодаря своим досками, опубликованным статьям и общей фрикерско-хакерской активности...</p>
 <empty-line/>
-<subtitle>The Mentor</subtitle>
+<section id="toc_sub_000002"><title><p>The Mentor</p></title>
 <empty-line/>
-<p><strong>Хэндл:</strong> The Mentor <strong>Имя:</strong> Loyd <strong>Прошлые хэндлы:</strong> Одна статья для Phrack была написана под именем The Neuromancer — из соображений безопасности, актуальных на тот момент. <strong>Происхождение хэндла:</strong> Серия «Серый Ленсмен» Э.Э. «Дока» Смита <strong>Дата рождения:</strong> 1965 <strong>Текущий возраст:</strong> 23 <strong>Рост:</strong> 5' 10&quot; (177 см) <strong>Вес:</strong> 200 фунтов (90 кг) <strong>Цвет глаз:</strong> Карие <strong>Цвет волос:</strong> Каштановый <strong>Компьютеры:</strong> (в порядке владения) TRS-80, Apple //e, Amiga 1000, PC/AT <strong>Сисоп:</strong> The Phoenix Project (512-441-3088)</p>
+<p><strong>Хэндл:</strong> The Mentor <strong>Имя:</strong> Loyd <strong>Прошлые хэндлы:</strong> Одна статья для Phrack была написана под именем The Neuromancer — из соображений безопасности, актуальных на тот момент. <strong>Происхождение хэндла:</strong> Серия «Серый Ленсмен» Э.Э. «Дока» Смита <strong>Дата рождения:</strong> 1965 <strong>Текущий возраст:</strong> 23 <strong>Рост:</strong> 5' 10" (177 см) <strong>Вес:</strong> 200 фунтов (90 кг) <strong>Цвет глаз:</strong> Карие <strong>Цвет волос:</strong> Каштановый <strong>Компьютеры:</strong> (в порядке владения) TRS-80, Apple //e, Amiga 1000, PC/AT <strong>Сисоп:</strong> The Phoenix Project (512-441-3088)</p>
 <empty-line/>
-<subtitle>Начало пути в мире фрикинга и хакинга</subtitle>
+</section>
+<section id="toc_sub_000003"><title><p>Начало пути в мире фрикинга и хакинга</p></title>
 <empty-line/>
 <p>Когда ему было 13 лет, отец одного из друзей — преподаватель местного университета — дал ему аккаунты на одном из университетских PDP 11/70. Это стало его первым знакомством с большими машинами, и он заразился навсегда. Он продолжал пользоваться университетским оборудованием на протяжении всей средней школы, со временем перебравшись на DEC-10, а затем на VAX 8600.</p>
 <empty-line/>
 <p>Само собой, поскольку он не был студентом, добыча аккаунтов порой была делом непростым — и он начал писать фальшивые фронтенды, троянские программы и другие хакерские утилиты. Интерес Лойда к хакингу рос, и вскоре ему уже хотелось проникать <emphasis>везде</emphasis>, а не только в местные системы.</p>
 <empty-line/>
-<subtitle>Начало работы с фрикерско-хакерскими BBS</subtitle>
+</section>
+<section id="toc_sub_000004"><title><p>Начало работы с фрикерско-хакерскими BBS</p></title>
 <empty-line/>
 <p>С примерно 1982 года он крутился на варезных досках, многие из которых одновременно служили фрикерскими площадками. Именно там он раздобыл номера Sherwood Forest и P-80 — и начал звонить вовне.</p>
 <empty-line/>
-<subtitle>Знакомые в мире фрикинга и хакинга</subtitle>
+</section>
+<section id="toc_sub_000005"><title><p>Знакомые в мире фрикинга и хакинга</p></title>
 <empty-line/>
 <p>ANI Failure, Android Pope, Bad Subscript, Control C, Crimson Death, The Dictator, Doom Prophet, Erik Bloodaxe, Ferrod Sensor, Forest Ranger, Hatchet Molly, Knight Lightning, The Leftist, Lone Wolf, Lucifer 666, Phantom Phreaker, Phase Jitter, Phlash Gordon, Phrozen Ghost, The Protestor, Surfer Bob, Taran King, Terminal Technocrat, Tuc, The Ubiquitous Hacker, The Urvile/Necron 99.</p>
 <empty-line/>
-<subtitle>Как приобретался опыт</subtitle>
+</section>
+<section id="toc_sub_000006"><title><p>Как приобретался опыт</p></title>
 <empty-line/>
 <p>Хакингом. Можно перечитать все gfile'ы на свете, но пока ты не выйдешь и не начнёшь ломать сам — останешься новичком. Взлом систем нарастает как снежный ком: первая может даться с трудом, но дальше становится всё проще и проще.</p>
 <empty-line/>
-<subtitle>Источники знаний</subtitle>
+</section>
+<section id="toc_sub_000007"><title><p>Источники знаний</p></title>
 <empty-line/>
 <p>Все, кто был готов помочь ему на старте, плюс реальный практический опыт.</p>
 <empty-line/>
-<subtitle>Памятные фрикерско-хакерские BBS</subtitle>
+</section>
+<section id="toc_sub_000008"><title><p>Памятные фрикерско-хакерские BBS</p></title>
 <empty-line/>
 <p>Sherwood Forest, The Protestor's Shack, Metal Shop (когда она только ушла в приват), Stalag-13, Catch-22, Hacker's Hideout, Arisia, The Phoenix Project, Tuc's Board — RACS III (LOGONIT)</p>
 <empty-line/>
-<subtitle>Работа и образование</subtitle>
+</section>
+<section id="toc_sub_000009"><title><p>Работа и образование</p></title>
 <empty-line/>
 <p>Степень бакалавра по информатике; работает программистом компьютерной графики.</p>
 <empty-line/>
-<subtitle>Конвенции и занятия вне телефонных звонков</subtitle>
+</section>
+<section id="toc_sub_000010"><title><p>Конвенции и занятия вне телефонных звонков</p></title>
 <empty-line/>
 <p>Занимал высокие места в национальном рейтинге по фехтованию на сабле в 1985 и 1986 годах; серьёзный коллекционер научной фантастики и ролевой игрок; играет на гитаре, бас-гитаре и клавишных в разных группах.</p>
 <empty-line/>
-<subtitle>Достижения (ньюслеттеры, файлы и т.д.)</subtitle>
+</section>
+<section id="toc_sub_000011"><title><p>Достижения (ньюслеттеры, файлы и т.д.)</p></title>
 <empty-line/>
 <p>Написал не менее полудюжины файлов для Phrack; публиковался в LOD/H Technical Journal и ньюслеттере P/HUN; несколько раз вёл неизменно популярную колонку «Hackin' Off» в Thrasher.</p>
 <empty-line/>
-<subtitle>Хакерско-фрикерские группы</subtitle>
+</section>
+<section id="toc_sub_000012"><title><p>Хакерско-фрикерские группы</p></title>
 <empty-line/>
 <p>В настоящее время активный член Legion of Doom / Legion of Hackers; ранее состоял в PhoneLine Phantoms, The Racketeers и Extasyy Elite (смешно).</p>
 <empty-line/>
-<subtitle>Аресты</subtitle>
+</section>
+<section id="toc_sub_000013"><title><p>Аресты</p></title>
 <empty-line/>
 <p>Арест привёл к его уходу «на покой» примерно на год. По его мнению, каждому стоит взять паузу: это помогает расставить всё по местам.</p>
 <empty-line/>
-<subtitle>Интересы</subtitle>
+</section>
+<section id="toc_sub_000014"><title><p>Интересы</p></title>
 <empty-line/>
 <p>VAX-компьютеры, сети с коммутацией пакетов, компьютерная графика.</p>
 <empty-line/>
-<subtitle>Любимые вещи</subtitle>
+</section>
+<section id="toc_sub_000015"><title><p>Любимые вещи</p></title>
 <empty-line/>
 <p>Жена, кот, китайская кухня, блюз, джаз, дорогостоящие UUCP-аккаунты, аккаунты без паролей, DCL, Modula-2, двойная буферизация, Stevie Ray Vaughan.</p>
 <empty-line/>
-<subtitle>Наиболее запоминающиеся события</subtitle>
+</section>
+<section id="toc_sub_000016"><title><p>Наиболее запоминающиеся события</p></title>
 <empty-line/>
 <p>Женитьба (уже 6 месяцев!); арест прямо посреди лекции по политологии и препровождение в тюрьму; как он утащил Control C от рисования LMOS-диаграмм для компании пьяных старшеклассниц; SummerCon в целом; как Knight Lightning вскочил на кровать и заорал «Teletrial!»; как он вёл 45-минутный разговор о блюбоксинге и фрикинге в спортзале с каким-то мужиком, а потом выяснилось, что тот отвечает за безопасность в местной телефонной компании; как он затроянил программу Star Trek на DEC-10 своего колледжа, и все, кто её запускал, в следующий раз при входе в систему выполняли его фальшивый фронтенд...</p>
 <empty-line/>
-<subtitle>Отдельные слова</subtitle>
+</section>
+<section id="toc_sub_000017"><title><p>Отдельные слова</p></title>
 <empty-line/>
 <p><strong>Android Pope</strong> — нужен же кому-то напарник по неприятностям! <strong>Erik Bloodaxe</strong> — смотри выше. <strong>Compuphreak</strong> — за помощь в начале пути и ответы на кучу глупых вопросов (ладно, объясни мне ещё раз, что за штука этот дивертер...). <strong>The Maelstrom</strong> — смотри выше. <strong>The Urvile</strong> — d00d.</p>
 <empty-line/>
-<subtitle>Внутренние шутки</subtitle>
+</section>
+<section id="toc_sub_000018"><title><p>Внутренние шутки</p></title>
 <empty-line/>
 <p>«Ты думаешь, это хорошая идея — делать это перед посадкой в самолёт?», «Господи, хоть бы люди нашли другое место, куда плеваться.», «Привет, ты, наверное, Дэн. Держи.», «Если меня арестуют, я сожгу твой дом вместе с тобой и всей твоей семьёй.», «Поверь мне. Тебе нужно ещё пиво.», «Этот коридор, кажется, никогда не кончается!», «Как мило с их стороны — упаковать всё это для нас!», «Все вышли! Немедленно!», «Ты что, правда собираешься трогать ту девушку?», «Если нас остановят — пристрелим их, едем в Нью-Йорк и меняем личность. Беспроигрышный план.», «Ты правда хочешь поговорить о телефонах?», «Не могу поверить, что ты довёл его до слёз. Это грустно.», «Мистер Леттерман?», «Вы говорите на DCL?», «Нет, ты идиот, ГЕРМАНИЯ!!!!», «Смотри, делаешь вот так, потом вводишь вот это, и — бах! Кодов на несколько дней.», «Мэм, мне жаль вам это говорить, но ваш сын — компьютерный преступник.», «Почём гранатомёт? С боеприпасами или без?», «К этому моменту ты уже догадался — тебя провели.», «Ну что ж, если ты будешь работать в тюрьме, может, поможешь им с компьютерами.», «Нет, она правда хочет нас обоих!», «Что в портфеле?», «Это пистолет старшего брата, офицер.», «Bell Communications Research представляет...», «Заплачу 500 долларов за последние четыре цифры его номера. Хотя бы намекни.»</p>
 <empty-line/>
-<subtitle>Фрикеры и хакеры, которых ты встречал, — в основном компьютерные ботаники?</subtitle>
+</section>
+<section id="toc_sub_000019"><title><p>Фрикеры и хакеры, которых ты встречал, — в основном компьютерные ботаники?</p></title>
 <empty-line/>
 <p>Как ни странно, лучшие из тех, кого он знал, — нет. Зато среди позёров таких хватает.</p>
 <empty-line/>
 <p>Спасибо за уделённое время, Лойд...</p>
 <empty-line/>
 <p><strong>TARAN KING</strong></p>
+</section>
 </section>
 <section id="sec_issue_023_003_subdivisions">
 <title><p>Subdivisions («Подразделения»)</p></title>
@@ -179,7 +197,7 @@
 <empty-line/>
 <cite><p>_[Эта статья была отредактирована для настоящей публикации. — KL]_</p></cite>
 <empty-line/>
-<subtitle>Mad Hatter: информатор? (31 июля 1987 года)</subtitle>
+<section id="toc_sub_000020"><title><p>Mad Hatter: информатор? (31 июля 1987 года)</p></title>
 <empty-line/>
 <p>Мы в Phrack Inc. раскопали значительный объём информации, который привёл нас к убеждению, что Mad Hatter является информатором какой-либо правоохранительной организации.</p>
 <empty-line/>
@@ -212,7 +230,8 @@
 <empty-line/>
 <p><strong>Взято из Phrack World News, выпуск XI:</strong></p>
 <empty-line/>
-<subtitle>Phortune 500: новейшая организация фрикдома (16 февраля 1987 года)</subtitle>
+</section>
+<section id="toc_sub_000021"><title><p>Phortune 500: новейшая организация фрикдома (16 февраля 1987 года)</p></title>
 <empty-line/>
 <p>Для тех, кому это хоть немного интересно: Phortune 500 — это группа любителей телекоммуникаций, цель которых — распространять информацию, а также углублять собственные знания в области телекоммуникаций. Эта новая группа была основана:</p>
 <empty-line/>
@@ -248,13 +267,15 @@
 <empty-line/>
 <cite><p><strong>«Будущее — это сейчас»</strong></p></cite>
 </section>
+</section>
 <section id="sec_issue_023_004_utopia_bitnet_intro">
 <title><p>Утопия</p></title>
 <image l:href="#img__code_blocks_issue_023_004_utopia_bitnet_intro_0003_f3f87f8b1d.png"/>
 <empty-line/>
-<subtitle>Глава первая «Саги о грядущем трансцендентном»</subtitle>
+<section id="toc_sub_000022"><title><p>Глава первая «Саги о грядущем трансцендентном»</p></title>
 <empty-line/>
-<subtitle>Введение в мир Bitnet</subtitle>
+</section>
+<section id="toc_sub_000023"><title><p>Введение в мир Bitnet</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Knight Lightning</p>
 <empty-line/>
@@ -270,7 +291,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>Происхождение BITNET</subtitle>
+</section>
+<section id="toc_sub_000024"><title><p>Происхождение BITNET</p></title>
 <empty-line/>
 <p><emphasis>by Jester Sluggo</emphasis></p>
 <empty-line/>
@@ -282,7 +304,8 @@
 <empty-line/>
 <p><strong>Примечание:</strong> NetNorth — канадское подразделение Bitnet, EARN — европейское. Все они напрямую соединены и вместе образуют единую сеть, а не три отдельных. Нередко её обозначают как BITNET/NetNorth/EARN.</p>
 <empty-line/>
-<subtitle>Основы Bitnet</subtitle>
+</section>
+<section id="toc_sub_000025"><title><p>Основы Bitnet</p></title>
 <empty-line/>
 <p>Чтобы разобраться в этом файле, нужно для начала иметь базовое представление о мейнфреймах, идентификаторах пользователей и тому подобных вещах. Поскольку большинство читателей Phrack — компьютерные энтузиасты, весьма вероятно, что вы с этим уже знакомы. Если нет — поищите документацию по теме. «Руководство начинающего хакера» за авторством The Mentor, опубликованное в Phrack Inc. XXII, содержит сведения, которые могут оказаться полезными. Концепции, изложенные в этом файле, не слишком сложны для понимания, однако приступать к ним совершенно неподготовленным тоже не стоит.</p>
 <empty-line/>
@@ -306,7 +329,8 @@
 <empty-line/>
 <p>Ваш идентификатор пользователя в сочетании с именем узла составляет ваш «сетевой адрес». Он обычно записывается в формате userid@node (читается «userid на node»). Например, мой узел — UMCVMB, мой userid — C483307. Следовательно, мой сетевой адрес — C483307@UMCVMB. Зная userid@node человека в сети, я могу с ним общаться, и он — со мной. Я встретил в сетях немало интересных людей. Используя возможности прямого общения в Bitnet, я могу разговаривать с ними в режиме реального времени. Вы тоже так можете — нужно знать лишь несколько команд. Об этом рассказывается во второй части.</p>
 <empty-line/>
-<subtitle>Сообщения</subtitle>
+</section>
+<section id="toc_sub_000026"><title><p>Сообщения</p></title>
 <empty-line/>
 <p>Существует три основных способа общения через Bitnet: MAIL (почта), MESSAGE (сообщение) и FILE (файл). Почему для конкретной задачи выбирается тот или иной способ — станет ясно после небольшого пояснения.</p>
 <empty-line/>
@@ -346,7 +370,8 @@
 <empty-line/>
 <p>Тем не менее сообщения весьма далеки от бесполезности. Как я покажу во второй главе, TELL и SEND чрезвычайно удобны для работы с многочисленными серверами Bitnet.</p>
 <empty-line/>
-<subtitle>Файлы</subtitle>
+</section>
+<section id="toc_sub_000027"><title><p>Файлы</p></title>
 <empty-line/>
 <p>Файлы (FILES) — ещё один способ общения через Bitnet. Текстовые файлы и программы, хранящиеся на вашем компьютере, можно передавать пользователям на других узлах. Именно так я распространяю выпуски Phrack — не только по стране, но и по всему миру. Пользователи VM/CMS применяют синтаксис вида:</p>
 <empty-line/>
@@ -374,7 +399,8 @@
 <empty-line/>
 <p>SEND/FILE и SENDFILE удобны для отправки программ или больших объёмов данных — например, выпусков Phrack — по сети. Однако для повседневного общения их использовать не стоит, поскольку есть способ куда удобнее — MAIL.</p>
 <empty-line/>
-<subtitle>Почта</subtitle>
+</section>
+<section id="toc_sub_000028"><title><p>Почта</p></title>
 <empty-line/>
 <p>Другой форме общения в Bitnet дали весьма меткое название: MAIL (нередко называемая «электронной почтой» или «e-mail»). Как и обычная почта, она предполагает адрес получателя, обратный адрес и текст. Программное обеспечение для отправки почты различается от площадки к площадке, поэтому за информацией обращайтесь к местной документации. На моём узле обратный адрес (ваш адрес) автоматически вставляется в письмо. Это изложение даёт общее представление о том, как выглядит типичное письмо и как оно работает.</p>
 <empty-line/>
@@ -390,7 +416,8 @@
 <empty-line/>
 <p>Недостаток почты — она действительно медленнее, чем сообщения. Чем длиннее письмо, тем дольше оно добирается из точки А в точку Б.</p>
 <empty-line/>
-<subtitle>Заключение</subtitle>
+</section>
+<section id="toc_sub_000029"><title><p>Заключение</p></title>
 <empty-line/>
 <p>Не отчаивайтесь — это лишь конец данного файла. Лучшие возможности Bitnet ещё впереди. Присоединяйтесь ко мне во второй главе «Саги о грядущем трансцендентном» — «Основания на горизонте».</p>
 <empty-line/>
@@ -404,13 +431,15 @@
 <empty-line/>
 <p>Communications Of The ACM</p>
 </section>
+</section>
 <section id="sec_issue_023_005_foundations_upon_the_horizon">
 <title><p>Основы на горизонте</p></title>
 <image l:href="#img__code_blocks_issue_023_005_foundations_upon_the_horizon_0003_26e0c26bbf.png"/>
 <empty-line/>
-<subtitle>Глава вторая «Саги о Грядущем Трансцендентном»</subtitle>
+<section id="toc_sub_000030"><title><p>Глава вторая «Саги о Грядущем Трансцендентном»</p></title>
 <empty-line/>
-<subtitle>Серверы и сервисы в мире Bitnet</subtitle>
+</section>
+<section id="toc_sub_000031"><title><p>Серверы и сервисы в мире Bitnet</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Knight Lightning</p>
 <empty-line/>
@@ -418,7 +447,8 @@
 <empty-line/>
 <p>Добро пожаловать во вторую главу «Саги о Грядущем Трансцендентном». В этом файле я расскажу о серверах и сервисах Bitnet (хотя некоторые из них присутствуют и в других сетях). Вы узнаете, что такое серверы, чем они отличаются друг от друга, как ими пользоваться, и лучше поймёте, как эти «Основы на горизонте» превращают Bitnet в настоящую виртуальную утопию.</p>
 <empty-line/>
-<subtitle>Что такое сервер?</subtitle>
+</section>
+<section id="toc_sub_000032"><title><p>Что такое сервер?</p></title>
 <empty-line/>
 <p>Одна из наиболее полезных возможностей Bitnet — разнообразие файловых серверов, серверов имён, ретрансляторов и прочего. Их часто называют «виртуальными машинами» или «серверными машинами».</p>
 <empty-line/>
@@ -454,7 +484,8 @@
 <empty-line/>
 <p>Вторая проблема состоит в том, что многие серверы совмещают сразу две, а порой и три категории функций. Например, LISTSERV работает одновременно как сервер списков рассылки и как файловый сервер. Многие серверы LISTSERV модифицированы и для работы в роли сервера имён, однако справляются с этой функцией не слишком эффективно. Если вы пока не понимаете этой терминологии — не переживайте: всё лучшее ещё впереди.</p>
 <empty-line/>
-<subtitle>Файловые серверы</subtitle>
+</section>
+<section id="toc_sub_000033"><title><p>Файловые серверы</p></title>
 <empty-line/>
 <p>Помните: сервер работает на userid, во многом похожем на ваш. Как и у вас, у него есть множество возможностей, в том числе хранение файлов (пожалуй, с куда большим объёмом). Программа, запущенная на файловом сервере, позволяет ему отправлять вам файлы из своего каталога, а также список доступных файлов. Это могут быть программы или текстовые файлы. Такие серверы можно рассматривать как аналоги дозвонных досок объявлений или AE Lines в мире Bitnet.</p>
 <empty-line/>
@@ -472,7 +503,8 @@
 <empty-line/>
 <p>Во многих случаях файлы организованы в подкаталоги или списки файлов, что усложняет запрос. Это делает документацию по конкретному серверу ещё более необходимой. Некоторые файловые серверы предлагают программы, которые сами отправляют команды серверу вместо вас.</p>
 <empty-line/>
-<subtitle>Серверы имён</subtitle>
+</section>
+<section id="toc_sub_000034"><title><p>Серверы имён</p></title>
 <empty-line/>
 <p>Серверы имён выполняют две функции: помогают найти адрес конкретного человека или найти людей с определёнными интересами. Поиск людей по интересам я здесь рассматривать не буду — вряд ли вам это потребуется. Серверов, позволяющих реально искать людей, не так уж много; вот их список:</p>
 <empty-line/>
@@ -492,7 +524,8 @@
 <empty-line/>
 <p>В любом случае настоятельно рекомендую зарегистрироваться на <code>UMNEWS@MAINE</code> и <code>BITSERVE@CUNYVM</code>. Это популярные общенациональные серверы, которые часто используются для поиска людей.</p>
 <empty-line/>
-<subtitle>Форумы, дайджесты и электронные журналы</subtitle>
+</section>
+<section id="toc_sub_000035"><title><p>Форумы, дайджесты и электронные журналы</p></title>
 <empty-line/>
 <p>Концепция списков рассылки получила новую жизнь с появлением компьютерных сетей. Почти каждый состоит в каком-нибудь списке рассылки: журналы, счета или буклеты от конгрессмена. Компьютерные сети привнесли в списки рассылки принципиально новые скорость и функциональность, как вы сами убедитесь.</p>
 <empty-line/>
@@ -514,7 +547,8 @@
 <empty-line/>
 <p><strong>ЭЛЕКТРОННЫЕ ЖУРНАЛЫ</strong> развивают концепцию дайджеста на шаг вперёд. Эти рассылки фактически воспроизводят структуру и формат «настоящих» журналов. Bitnet служит удобным и недорогим каналом их распространения. Периодичность выпуска варьируется от еженедельной до ежеквартальной или «когда редактор сочтёт нужным» (немного напоминает выпуски Phrack). Это наиболее формальный и структурированный способ общения в Bitnet. Если дайджест — это просто набор писем, сгруппированных по темам, то электронный журнал включает статьи, колонки и рубрики. Пожалуй, единственное, чего в нём нет в отличие от бумажного журнала, — реклама. Bitnet NetMonth и NetWeek — одни из лучших журналов в Bitnet; в них содержится полезная информация для тех, кто знает, что ищет. О том, как подписаться на эти журналы и другие виды медиа, я расскажу в следующей части файла.</p>
 <empty-line/>
-<subtitle>Серверы списков рассылки</subtitle>
+</section>
+<section id="toc_sub_000036"><title><p>Серверы списков рассылки</p></title>
 <empty-line/>
 <p>В предыдущем разделе я упомянул, что одни серверы используются для управления списками рассылки. Сервер, выполняющий эту функцию, называется «сервером списков» (list server). Почти все они имеют userid <code>LISTSERV</code> — например, <code>LISTSERV@BITNIC</code>. Один такой сервер способен управлять подписками на множество списков рассылки. Другая концепция, связанная с LISTSERV, — идентификаторы списков (list-ids), но они сравнительно несущественны и различаются от сервера к серверу, поэтому здесь я их не рассматриваю. Если вы хотите узнать о них подробнее, обратитесь к ближайшему LISTSERV и запросите документацию командой HELP.</p>
 <empty-line/>
@@ -534,7 +568,8 @@
 <empty-line/>
 <p><emphasis>Примечание.</emphasis> Если вы работаете в VAXcluster, команды SUBSCRIBE и UNSUBSCRIBE следует отправлять на LISTSERV по ПОЧТЕ.</p>
 <empty-line/>
-<subtitle>Ретрансляторы (Relays)</subtitle>
+</section>
+<section id="toc_sub_000037"><title><p>Ретрансляторы (Relays)</p></title>
 <empty-line/>
 <p>Ретранслятор, пожалуй, один из наиболее понятных типов серверов. Если вы пользовались CB Simulator на CompuServe или знакомы с Diversi-Dials (или, возможно, ALTOS Chat), вы быстро ухватите суть. Идея ретранслятора — дать возможность более чем двум людям вести беседу с помощью интерактивных сообщений. Без серверов-ретрансляторов это было бы невозможно.</p>
 <empty-line/>
@@ -589,11 +624,13 @@
 <image l:href="#img__code_blocks_issue_023_005_foundations_upon_the_horizon_0301_f7dea164dc_part01.png"/>
 <image l:href="#img__code_blocks_issue_023_005_foundations_upon_the_horizon_0301_f7dea164dc_part02.png"/>
 <empty-line/>
-<subtitle>Заключение</subtitle>
+</section>
+<section id="toc_sub_000038"><title><p>Заключение</p></title>
 <empty-line/>
 <p>Что же лежит за пределами Bitnet? Существует множество других сетей, схожих с Bitnet как по функциям, так и по сервисам. О том, как отправлять почту в эти сети, пойдёт речь в следующей главе «Саги о Грядущем Трансцендентном» — «Лимб до бесконечности».</p>
 <empty-line/>
 <p>:Knight Lightning</p>
+</section>
 </section>
 <section id="sec_issue_023_006_utopia_bitnet_members">
 <title><p>Индексный файл UTOPIA 1</p></title>
@@ -613,11 +650,12 @@
 <empty-line/>
 <p>Ниже приведён список организаций — членов сети BITNET по состоянию на декабрь 1988 года, сгруппированных по штатам США.</p>
 <empty-line/>
-<subtitle>AK — Аляска</subtitle>
+<section id="toc_sub_000039"><title><p>AK — Аляска</p></title>
 <empty-line/>
 <p>• University of Alaska</p>
 <empty-line/>
-<subtitle>AL — Алабама</subtitle>
+</section>
+<section id="toc_sub_000040"><title><p>AL — Алабама</p></title>
 <empty-line/>
 <p>• Auburn University</p>
 <p>• Samford University</p>
@@ -625,20 +663,23 @@
 <p>• University of Alabama at Birmingham</p>
 <p>• University of South Alabama</p>
 <empty-line/>
-<subtitle>AR — Арканзас</subtitle>
+</section>
+<section id="toc_sub_000041"><title><p>AR — Арканзас</p></title>
 <empty-line/>
 <p>• University of Arkansas</p>
 <p>• University of Arkansas at Little Rock</p>
 <p>• University of Arkansas for Medical Sciences</p>
 <empty-line/>
-<subtitle>AZ — Аризона</subtitle>
+</section>
+<section id="toc_sub_000042"><title><p>AZ — Аризона</p></title>
 <empty-line/>
 <p>• Arizona State University</p>
 <p>• Maricopa County Community College District</p>
 <p>• Northern Arizona University</p>
 <p>• University of Arizona</p>
 <empty-line/>
-<subtitle>CA — Калифорния</subtitle>
+</section>
+<section id="toc_sub_000043"><title><p>CA — Калифорния</p></title>
 <empty-line/>
 <p>• California Institute of Technology</p>
 <p>• California Polytechnic State University-San Luis Obispo</p>
@@ -670,7 +711,8 @@
 <p>• University of California Santa Cruz</p>
 <p>• University of Southern California</p>
 <empty-line/>
-<subtitle>CO — Колорадо</subtitle>
+</section>
+<section id="toc_sub_000044"><title><p>CO — Колорадо</p></title>
 <empty-line/>
 <p>• Colorado School of Mines</p>
 <p>• Colorado State University</p>
@@ -681,7 +723,8 @@
 <p>• University of Colorado Health Sciences Center</p>
 <p>• University of Denver</p>
 <empty-line/>
-<subtitle>CT — Коннектикут</subtitle>
+</section>
+<section id="toc_sub_000045"><title><p>CT — Коннектикут</p></title>
 <empty-line/>
 <p>• Connecticut College</p>
 <p>• Connecticut State University System</p>
@@ -691,7 +734,8 @@
 <p>• Wesleyan University</p>
 <p>• Yale University</p>
 <empty-line/>
-<subtitle>DC — Округ Колумбия</subtitle>
+</section>
+<section id="toc_sub_000046"><title><p>DC — Округ Колумбия</p></title>
 <empty-line/>
 <p>• American University</p>
 <p>• Catholic University of America</p>
@@ -707,11 +751,13 @@
 <p>• The World Bank</p>
 <p>• University of the District of Columbia</p>
 <empty-line/>
-<subtitle>DE — Делавэр</subtitle>
+</section>
+<section id="toc_sub_000047"><title><p>DE — Делавэр</p></title>
 <empty-line/>
 <p>• University of Delaware</p>
 <empty-line/>
-<subtitle>FL — Флорида</subtitle>
+</section>
+<section id="toc_sub_000048"><title><p>FL — Флорида</p></title>
 <empty-line/>
 <p>• Florida Central Regional Data Center</p>
 <p>• Florida Northeast Regional Data Center</p>
@@ -722,31 +768,36 @@
 <p>• University of North Florida</p>
 <p>• University of West Florida</p>
 <empty-line/>
-<subtitle>GA — Джорджия</subtitle>
+</section>
+<section id="toc_sub_000049"><title><p>GA — Джорджия</p></title>
 <empty-line/>
 <p>• Emory University</p>
 <p>• Georgia Institute of Technology</p>
 <p>• Georgia State University</p>
 <p>• University of Georgia Athens</p>
 <empty-line/>
-<subtitle>HI — Гавайи</subtitle>
+</section>
+<section id="toc_sub_000050"><title><p>HI — Гавайи</p></title>
 <empty-line/>
 <p>• The Center for Cultural &amp; Tech Exchange Btwn East and West</p>
 <p>• University of Hawaii</p>
 <empty-line/>
-<subtitle>IA — Айова</subtitle>
+</section>
+<section id="toc_sub_000051"><title><p>IA — Айова</p></title>
 <empty-line/>
 <p>• Drake University</p>
 <p>• Grinnell College</p>
 <p>• Iowa State University</p>
 <p>• University of Iowa</p>
 <empty-line/>
-<subtitle>ID — Айдахо</subtitle>
+</section>
+<section id="toc_sub_000052"><title><p>ID — Айдахо</p></title>
 <empty-line/>
 <p>• Boise State University</p>
 <p>• University of Idaho</p>
 <empty-line/>
-<subtitle>IL — Иллинойс</subtitle>
+</section>
+<section id="toc_sub_000053"><title><p>IL — Иллинойс</p></title>
 <empty-line/>
 <p>• Argonne National Laboratory</p>
 <p>• College of DuPage</p>
@@ -763,7 +814,8 @@
 <p>• University of Illinois at Urbana-Champaign</p>
 <p>• University of Illinois Chicago</p>
 <empty-line/>
-<subtitle>IN — Индиана</subtitle>
+</section>
+<section id="toc_sub_000054"><title><p>IN — Индиана</p></title>
 <empty-line/>
 <p>• Ball State University</p>
 <p>• Indiana State University</p>
@@ -774,27 +826,31 @@
 <p>• University of Notre Dame</p>
 <p>• Valparaiso University</p>
 <empty-line/>
-<subtitle>KS — Канзас</subtitle>
+</section>
+<section id="toc_sub_000055"><title><p>KS — Канзас</p></title>
 <empty-line/>
 <p>• Kansas State University</p>
 <p>• University of Kansas</p>
 <p>• University of Kansas Medical Center</p>
 <p>• Wichita State University</p>
 <empty-line/>
-<subtitle>KY — Кентукки</subtitle>
+</section>
+<section id="toc_sub_000056"><title><p>KY — Кентукки</p></title>
 <empty-line/>
 <p>• Transylvania University</p>
 <p>• University of Kentucky</p>
 <p>• University of Louisville</p>
 <empty-line/>
-<subtitle>LA — Луизиана</subtitle>
+</section>
+<section id="toc_sub_000057"><title><p>LA — Луизиана</p></title>
 <empty-line/>
 <p>• Louisiana State University</p>
 <p>• Louisiana State University Medical Center</p>
 <p>• Tulane University</p>
 <p>• University of New Orleans</p>
 <empty-line/>
-<subtitle>MA — Массачусетс</subtitle>
+</section>
+<section id="toc_sub_000058"><title><p>MA — Массачусетс</p></title>
 <empty-line/>
 <p>• Amherst College</p>
 <p>• Babson College</p>
@@ -819,7 +875,8 @@
 <p>• Williams College</p>
 <p>• Worcester Polytechnic Institute</p>
 <empty-line/>
-<subtitle>MD — Мэриленд</subtitle>
+</section>
+<section id="toc_sub_000059"><title><p>MD — Мэриленд</p></title>
 <empty-line/>
 <p>• American Assoc of State Colleges Univs (AASCU) Meeting</p>
 <p>• Biotechnology Research Center</p>
@@ -836,13 +893,15 @@
 <p>• Uniformed Services University of the Health Sciences</p>
 <p>• University of Maryland</p>
 <empty-line/>
-<subtitle>ME — Мэн</subtitle>
+</section>
+<section id="toc_sub_000060"><title><p>ME — Мэн</p></title>
 <empty-line/>
 <p>• Bowdoin College</p>
 <p>• The Jackson Laboratory</p>
 <p>• University of Maine</p>
 <empty-line/>
-<subtitle>MI — Мичиган</subtitle>
+</section>
+<section id="toc_sub_000061"><title><p>MI — Мичиган</p></title>
 <empty-line/>
 <p>• Albion College</p>
 <p>• Central Michigan University</p>
@@ -854,7 +913,8 @@
 <p>• University of Michigan</p>
 <p>• Wayne State University</p>
 <empty-line/>
-<subtitle>MN — Миннесота</subtitle>
+</section>
+<section id="toc_sub_000062"><title><p>MN — Миннесота</p></title>
 <empty-line/>
 <p>• Control Data Corporation</p>
 <p>• Gustavus Adolphus College</p>
@@ -864,7 +924,8 @@
 <p>• University of Minnesota at Morris</p>
 <p>• University of Minnesota Duluth</p>
 <empty-line/>
-<subtitle>MO — Миссури</subtitle>
+</section>
+<section id="toc_sub_000063"><title><p>MO — Миссури</p></title>
 <empty-line/>
 <p>• Northeast Missouri State University</p>
 <p>• Saint Louis University</p>
@@ -872,17 +933,20 @@
 <p>• University of Missouri</p>
 <p>• Washington University</p>
 <empty-line/>
-<subtitle>MS — Миссисипи</subtitle>
+</section>
+<section id="toc_sub_000064"><title><p>MS — Миссисипи</p></title>
 <empty-line/>
 <p>• Mississippi State University</p>
 <p>• University of Mississippi</p>
 <p>• University of Southern Mississippi</p>
 <empty-line/>
-<subtitle>MT — Монтана</subtitle>
+</section>
+<section id="toc_sub_000065"><title><p>MT — Монтана</p></title>
 <empty-line/>
 <p>• Montana State University</p>
 <empty-line/>
-<subtitle>NC — Северная Каролина</subtitle>
+</section>
+<section id="toc_sub_000066"><title><p>NC — Северная Каролина</p></title>
 <empty-line/>
 <p>• Appalachian State University</p>
 <p>• Davidson College</p>
@@ -898,23 +962,27 @@
 <p>• University of North Carolina at Greensboro</p>
 <p>• University of North Carolina Gen Ad Cntrl Off Ed Comptng Srvs</p>
 <empty-line/>
-<subtitle>ND — Северная Дакота</subtitle>
+</section>
+<section id="toc_sub_000067"><title><p>ND — Северная Дакота</p></title>
 <empty-line/>
 <p>• North Dakota Higher Education Computer Network</p>
 <empty-line/>
-<subtitle>NE — Небраска</subtitle>
+</section>
+<section id="toc_sub_000068"><title><p>NE — Небраска</p></title>
 <empty-line/>
 <p>• University of Nebraska - Omaha</p>
 <p>• University of Nebraska Computer Services Network</p>
 <p>• University of Nebraska Lincoln</p>
 <p>• University of Nebraska Medical Center</p>
 <empty-line/>
-<subtitle>NH — Нью-Гэмпшир</subtitle>
+</section>
+<section id="toc_sub_000069"><title><p>NH — Нью-Гэмпшир</p></title>
 <empty-line/>
 <p>• Dartmouth College</p>
 <p>• University of New Hampshire</p>
 <empty-line/>
-<subtitle>NJ — Нью-Джерси</subtitle>
+</section>
+<section id="toc_sub_000070"><title><p>NJ — Нью-Джерси</p></title>
 <empty-line/>
 <p>• BITNET Network Information Center</p>
 <p>• Drew University</p>
@@ -934,17 +1002,20 @@
 <p>• Trenton State College</p>
 <p>• University of Medicine &amp; Dentistry of New Jersey</p>
 <empty-line/>
-<subtitle>NM — Нью-Мексико</subtitle>
+</section>
+<section id="toc_sub_000071"><title><p>NM — Нью-Мексико</p></title>
 <empty-line/>
 <p>• Los Alamos National Laboratory</p>
 <p>• New Mexico State University</p>
 <p>• University of New Mexico</p>
 <empty-line/>
-<subtitle>NV — Невада</subtitle>
+</section>
+<section id="toc_sub_000072"><title><p>NV — Невада</p></title>
 <empty-line/>
 <p>• University of Nevada</p>
 <empty-line/>
-<subtitle>NY — Нью-Йорк</subtitle>
+</section>
+<section id="toc_sub_000073"><title><p>NY — Нью-Йорк</p></title>
 <empty-line/>
 <p>• American Institute of Physics</p>
 <p>• American Physical Society</p>
@@ -1006,7 +1077,8 @@
 <p>• University of Rochester</p>
 <p>• Vassar College</p>
 <empty-line/>
-<subtitle>OH — Огайо</subtitle>
+</section>
+<section id="toc_sub_000074"><title><p>OH — Огайо</p></title>
 <empty-line/>
 <p>• Bowling Green State University</p>
 <p>• Case Western Reserve University</p>
@@ -1030,13 +1102,15 @@
 <p>• Xavier University</p>
 <p>• Youngstown State University</p>
 <empty-line/>
-<subtitle>OK — Оклахома</subtitle>
+</section>
+<section id="toc_sub_000075"><title><p>OK — Оклахома</p></title>
 <empty-line/>
 <p>• Oklahoma State University</p>
 <p>• University of Oklahoma Norman Campus</p>
 <p>• University of Tulsa</p>
 <empty-line/>
-<subtitle>OR — Орегон</subtitle>
+</section>
+<section id="toc_sub_000076"><title><p>OR — Орегон</p></title>
 <empty-line/>
 <p>• Lewis and Clark College</p>
 <p>• Oregon State University</p>
@@ -1045,7 +1119,8 @@
 <p>• Shriners Hospital for Crippled Children</p>
 <p>• University of Oregon</p>
 <empty-line/>
-<subtitle>PA — Пенсильвания</subtitle>
+</section>
+<section id="toc_sub_000077"><title><p>PA — Пенсильвания</p></title>
 <empty-line/>
 <p>• Allegheny College</p>
 <p>• Annenberg Research Institute</p>
@@ -1071,29 +1146,34 @@
 <p>• Villanova University</p>
 <p>• West Chester University of Pennsylvania</p>
 <empty-line/>
-<subtitle>PR — Пуэрто-Рико</subtitle>
+</section>
+<section id="toc_sub_000078"><title><p>PR — Пуэрто-Рико</p></title>
 <empty-line/>
 <p>• National Astronomy and Ionosphere Center</p>
 <p>• University of Puerto Rico</p>
 <empty-line/>
-<subtitle>RI — Род-Айленд</subtitle>
+</section>
+<section id="toc_sub_000079"><title><p>RI — Род-Айленд</p></title>
 <empty-line/>
 <p>• Brown University</p>
 <p>• University of Rhode Island</p>
 <empty-line/>
-<subtitle>SC — Южная Каролина</subtitle>
+</section>
+<section id="toc_sub_000080"><title><p>SC — Южная Каролина</p></title>
 <empty-line/>
 <p>• Clemson University</p>
 <p>• Medical University of South Carolina</p>
 <p>• The Citadel, The Military College of South Carolina</p>
 <p>• University of South Carolina</p>
 <empty-line/>
-<subtitle>SD — Южная Дакота</subtitle>
+</section>
+<section id="toc_sub_000081"><title><p>SD — Южная Дакота</p></title>
 <empty-line/>
 <p>• Dakota State College</p>
 <p>• South Dakota State University</p>
 <empty-line/>
-<subtitle>TN — Теннесси</subtitle>
+</section>
+<section id="toc_sub_000082"><title><p>TN — Теннесси</p></title>
 <empty-line/>
 <p>• East Tennessee State University</p>
 <p>• Oak Ridge National Laboratory</p>
@@ -1105,7 +1185,8 @@
 <p>• University of Tennessee at Memphis</p>
 <p>• Vanderbilt University</p>
 <empty-line/>
-<subtitle>TX — Техас</subtitle>
+</section>
+<section id="toc_sub_000083"><title><p>TX — Техас</p></title>
 <empty-line/>
 <p>• Abilene Christian University</p>
 <p>• Baylor University</p>
@@ -1135,13 +1216,15 @@
 <p>• University of Texas Southwestern Medical Center at Dallas</p>
 <p>• University of Texas System</p>
 <empty-line/>
-<subtitle>UT — Юта</subtitle>
+</section>
+<section id="toc_sub_000084"><title><p>UT — Юта</p></title>
 <empty-line/>
 <p>• Brigham Young University</p>
 <p>• University of Utah</p>
 <p>• Utah State University</p>
 <empty-line/>
-<subtitle>VA — Вирджиния</subtitle>
+</section>
+<section id="toc_sub_000085"><title><p>VA — Вирджиния</p></title>
 <empty-line/>
 <p>• College of William and Mary</p>
 <p>• Continuous Electron Beam Accelerator Facility</p>
@@ -1157,14 +1240,16 @@
 <p>• Virginia Community College System</p>
 <p>• Virginia Polytechnic Institute and State University</p>
 <empty-line/>
-<subtitle>VT — Вермонт</subtitle>
+</section>
+<section id="toc_sub_000086"><title><p>VT — Вермонт</p></title>
 <empty-line/>
 <p>• Middlebury College</p>
 <p>• Norwich University</p>
 <p>• Saint Michael's College</p>
 <p>• University of Vermont</p>
 <empty-line/>
-<subtitle>WA — Вашингтон (штат)</subtitle>
+</section>
+<section id="toc_sub_000087"><title><p>WA — Вашингтон (штат)</p></title>
 <empty-line/>
 <p>• Fred Hutchinson Cancer Research Center</p>
 <p>• Pacific Lutheran University</p>
@@ -1172,7 +1257,8 @@
 <p>• Washington State University</p>
 <p>• Western Washington University</p>
 <empty-line/>
-<subtitle>WI — Висконсин</subtitle>
+</section>
+<section id="toc_sub_000088"><title><p>WI — Висконсин</p></title>
 <empty-line/>
 <p>• Lawrence University</p>
 <p>• Marquette University</p>
@@ -1184,14 +1270,17 @@
 <p>• University of Wisconsin Madison</p>
 <p>• University of Wisconsin Milwaukee</p>
 <empty-line/>
-<subtitle>WV — Западная Вирджиния</subtitle>
+</section>
+<section id="toc_sub_000089"><title><p>WV — Западная Вирджиния</p></title>
 <empty-line/>
 <p>• Marshall University</p>
 <p>• West Virginia Network for Educational Telecomputing</p>
 <empty-line/>
-<subtitle>WY — Вайоминг</subtitle>
+</section>
+<section id="toc_sub_000090"><title><p>WY — Вайоминг</p></title>
 <empty-line/>
 <p>• University of Wyoming</p>
+</section>
 </section>
 <section id="sec_issue_023_008_getting_serious_about_vms_hacking">
 <title><p>Серьёзный взгляд на взлом VMS</p></title>
@@ -1215,7 +1304,7 @@
 <empty-line/>
 <p>Хорошим источником информации, разумеется, служит исходный код самой VMS. Проще всего изучать его через набор микрофиш, которые DEC поставляет всем крупным заказчикам системы. Основное неудобство — для работы с ними нужен фиш-ридер. Микрофиши необходимы, если вы намерены вносить изменения в системный код, — если только вы не собираетесь дизассемблировать всё, что нужно. Система VMS написана на BLISS-32 и FORTRAN. BLISS вполне читаем, однако если вы планируете патчить программы, реализованные на FORTRAN, стоит иметь под рукой знатока этого языка. Микрофиши всегда содержат текущий релиз, поэтому они полезны для проверки актуальности сведений из «Internals and Data Structures».</p>
 <empty-line/>
-<subtitle>Инструменты хакера</subtitle>
+<section id="toc_sub_000091"><title><p>Инструменты хакера</p></title>
 <empty-line/>
 <p>Есть несколько программ, полезных при исследовании VMS-системы.</p>
 <empty-line/>
@@ -1223,7 +1312,8 @@
 <empty-line/>
 <p>Ещё один полезный инструмент — утилита <code>PATCH</code>, вызываемая одноимённой командой. Поскольку VMS распространяется только в бинарном виде, обновления системы обычно поставляются в форме патчей для исполняемых файлов. Патчи можно вводить непосредственно в виде инструкций ассемблера. В сочетании с микрофишами с исходным кодом <code>PATCH</code> становится мощным инструментом для модификации и доработки операционной системы VMS.</p>
 <empty-line/>
-<subtitle>Привилегии</subtitle>
+</section>
+<section id="toc_sub_000092"><title><p>Привилегии</p></title>
 <empty-line/>
 <p>Чтобы делать на VMS-системе что-то интересное, как правило, нужны привилегии. Ниже перечислены некоторые из тех, что полезны в повседневной практике.</p>
 <empty-line/>
@@ -1233,11 +1323,13 @@
 <empty-line/>
 <p><code>SHARE</code> — позволяет процессу назначать каналы несовместно используемым устройствам, к которым уже назначены каналы. Это можно использовать для предотвращения зависания терминалов и назначения каналов системным почтовым ящикам.</p>
 <empty-line/>
-<subtitle>Состояния процессов и блок управления процессом</subtitle>
+</section>
+<section id="toc_sub_000093"><title><p>Состояния процессов и блок управления процессом</p></title>
 <empty-line/>
 <p>Приступая к хакингу ядра, обратите особое внимание на поле <code>PCB$L_STS</code>. Оно отражает статус процесса. Интересные биты — <code>PCB$V_DELPEN</code>, <code>PCB$V_NOACNT</code> и <code>PCB$V_BATCH</code>. Установка этих битов позволяет добиться поразительных эффектов.</p>
 <empty-line/>
-<subtitle>Укрытие</subtitle>
+</section>
+<section id="toc_sub_000094"><title><p>Укрытие</p></title>
 <empty-line/>
 <p>Приятная возможность — оставаться невидимым для системного администратора. Существует много способов скрыться от <code>SHOW USERS</code>, однако скрыться от <code>SHOW SYSTEM</code> — совсем другая история: эта команда не использует стандартные системные вызовы для получения списка запущенных процессов. Скрыться от SDA ещё сложнее — он напрямую читает структуры данных ядра. Тем не менее невидимость для <code>SHOW USERS</code> полезна на небольших системах, где лишний пользователь может поднять тревогу у оператора.</p>
 <empty-line/>
@@ -1245,39 +1337,47 @@
 <empty-line/>
 <p>Если об этом забыть, счётчик интерактивных заданий окажется неверным. Если он уйдёт в отрицательные значения, начнутся странные эффекты, которые поставят в тупик любого системного администратора.</p>
 <empty-line/>
-<subtitle>Учёт и аудит</subtitle>
+</section>
+<section id="toc_sub_000095"><title><p>Учёт и аудит</p></title>
 <empty-line/>
 <p>Самая неприятная вещь в VMS начиная с релиза 4.2 — механизм аудита безопасности. Он позволяет системному администратору протоколировать практически любое событие, связанное с безопасностью: обращения к файлам, неудачные попытки входа в систему, изменения базы данных авторизации пользователей — всё это можно отслеживать, записывать в журнал и выводить на системный принтер. Первое, что нужно выяснить на незнакомой системе, — уровень бдительности администратора. Статус системы учёта легко определить командой <code>SHOW ACCOUNTING</code>. Как правило, включено всё, кроме учёта образов (IMAGE). Если IMAGE-учёт также включён — это первый сигнал к осторожности. Второй шаг — проверка состояния системы аудита безопасности. Для выполнения команды <code>SHOW AUDIT</code> нужна привилегия <code>SECURITY</code>.</p>
 <empty-line/>
 <p>Если аудит не включён и IMAGE-учёт не ведётся, система обычно не настроена на повышенную защиту. Такие системы — подходящий полигон для хакера: здесь не нужно быть столь же осторожным, как на грамотно администрируемой машине.</p>
 <empty-line/>
-<subtitle>Учёт ресурсов</subtitle>
+</section>
+<section id="toc_sub_000096"><title><p>Учёт ресурсов</p></title>
 <empty-line/>
 <p>Основная цель ведения учёта — необходимость тарифицировать пользователям потреблённые ресурсы (процессорное время, использование принтера и т. д.). С другой стороны, учёт может быть весьма полезен для отслеживания нарушителей. К счастью, учётная информация хранится в обычной файловой системе, а значит, ненужные записи можно из неё удалить. Главный инструмент для работы с учётными файлами — утилита <code>ACCOUNTING</code>. Она позволяет собирать данные из учётных файлов, выводить их в удобочитаемом виде и, что особенно важно, редактировать учётные файлы — то есть удалять из них записи, которые не должны попасть в отчёты. Ключевой квалификатор команды <code>ACCOUNTING</code> — <code>/BINARY</code>.</p>
 <empty-line/>
-<subtitle>Даты доступа к файлам</subtitle>
+</section>
+<section id="toc_sub_000097"><title><p>Даты доступа к файлам</p></title>
 <empty-line/>
 <p>Один из способов обнаружить нежелательных гостей — проверить модифицированные системные файлы. К счастью, существуют способы изменить дату модификации в заголовке файла. Это делается через системные вызовы RMS, однако средствами чистого DCL удобного способа нет. В свободном доступе имеется несколько утилит для подобных операций — поищите в каталоге DECUS.</p>
 <empty-line/>
-<subtitle>OPCOM</subtitle>
+</section>
+<section id="toc_sub_000098"><title><p>OPCOM</p></title>
 <empty-line/>
 <p>OPCOM — процесс, протоколирующий системные и значимые с точки зрения безопасности события (монтирование лент и дисков, сообщения аудита безопасности и т. д.). OPCOM принимает сообщения через устройство-почтовый ящик, форматирует их, записывает в операторский журнал (<code>SYS$MANAGER:OPERATOR.LOG</code>) и оповещает всех операторов. Кроме того, он выводит все сообщения на стандартный вывод — обычно это системная консоль <code>_OPA0:</code>. При запуске OPCOM на стандартный вывод отправляется сообщение о том, что операторский журнал инициализирован. Поэтому убивать OPCOM ради сохранения анонимности не рекомендуется: системный администратор, скорее всего, забеспокоится, увидев, что журнал был инициализирован без очевидной причины. Элегантное решение — приостановить OPCOM на то время, пока операторские сообщения не должны проходить. Пока OPCOM приостановлен, все сообщения будут буферизоваться в почтовом ящике, откуда их может прочитать любой процесс с достаточными привилегиями — таким образом OPCOM не получит эти сообщения после перезапуска.</p>
 <empty-line/>
 <p>Однако у этого решения есть один изъян: OPCOM всегда держит незавершённую операцию чтения на этом почтовом ящике, и она сохраняется даже при приостановке процесса. Без глубокого хакинга ядра избавиться от этого запроса на чтение невозможно. Поэтому простое решение — сразу после приостановки OPCOM сгенерировать безобидное операторское сообщение. После этого ваш процесс (который может быть DCL-процедурой) читает все последующие сообщения из почтового ящика OPCOM до тех пор, пока вы не сочтёте, что OPCOM можно возобновить. Кстати, почтовый ящик для сообщений OPCOM является временным и не имеет назначенного логического имени. Для получения информации об имени устройства понадобится SDA.</p>
 <empty-line/>
-<subtitle>Командные процедуры</subtitle>
+</section>
+<section id="toc_sub_000099"><title><p>Командные процедуры</p></title>
 <empty-line/>
 <p>Рано или поздно потребуются DCL-процедуры для автоматизации рутинных операций. Важно не оставлять на чужой системе подозрительные командные файлы — их легко обнаружит системный администратор. К счастью, командный файл можно удалить, пока он ещё выполняется. Хорошей практикой является делать именно так, используя лексическую функцию <code>F$ENVIRONMENT</code>. Если в ходе работы процедуры требуется обращаться к самому командному файлу, достаточно назначить на него канал с помощью команды <code>OPEN</code>.</p>
 <empty-line/>
-<subtitle>Пигибэкинг</subtitle>
+</section>
+<section id="toc_sub_000100"><title><p>Пигибэкинг</p></title>
 <empty-line/>
 <p>Как правило, добавлять новые привилегированные учётные записи на чужую систему — плохая идея. Лучше воспользоваться учётными записями, которые не использовались несколько месяцев, и спрятать привилегированные программы или пигибэки, получающие привилегии от вызывающего посредством какого-либо механизма. Пигибэк — это фрагмент кода, встраиваемый в привилегированную системную программу и предоставляющий привилегии и/или особые возможности вызывающим, обладающим определённой характеристикой (например, специальным именем процесса). Следите за тем, чтобы не изменились размеры файлов и даты — это вызовет подозрения.</p>
 <empty-line/>
-<subtitle>Заключение</subtitle>
+</section>
+<section id="toc_sub_000101"><title><p>Заключение</p></title>
 <empty-line/>
 <p>Эта статья лишь пытается дать представление о том, насколько интересен хакинг ядра VMS и какие возможности он открывает. Она, разумеется, не является исчерпывающей, и многие детали намеренно опущены. Надеемся, она оказалась полезным и/или интересным чтением.</p>
 <empty-line/>
 <p><emphasis>(C) 1989 VAXBusters International. Вы вправе распространять эту работу при условии, что не будете выдавать её за свою.</emphasis></p>
+</section>
 </section>
 <section id="sec_issue_023_009_can_you_find_out_if_your_telephone_is_tapped">
 <title><p>Можете ли вы узнать, прослушивается ли ваш телефон?</p></title>
@@ -1309,13 +1409,14 @@
 <empty-line/>
 <p>Высокие расходы ограничивают и правительственное прослушивание. В прошлом году среднесуточные затраты ФБР на один подслушивающий аппарат составляли 600 долларов с учётом установки устройства, аренды телефонных линий для соединения жучков с прослушивающими пунктами ФБР, мониторинга переговоров и машинописи стенограмм. Принимая во внимание информативность переговоров большинства людей, оно того не стоит. Судебные материалы по делам о слежке ФБР показали: когда записываются откровенные разговоры, результатом чаще всего становится стенограмма, лишённая какой-либо ценности, — пустая или невразумительная.</p>
 <empty-line/>
-<subtitle>Мифы о противодействии прослушиванию</subtitle>
+<section id="toc_sub_000102"><title><p>Мифы о противодействии прослушиванию</p></title>
 <empty-line/>
 <p>Расхожие представления о том, как противодействовать электронной слежке, почти сплошь ошибочны или просто неверны. Говорят, что Роберт Ф. Кеннеди, будучи сенатором, однажды поверг посетителя в изумление, вскочив и с силой опустив каблуки на пол своего кабинета. Он объяснил, что таким образом сбивает жучок, который мог подсадить Дж. Эдгар Гувер. Дурачился ли он или нет, эксперты уверяют: это не дало бы никакого результата, кроме синяков на каблуках сенатора Кеннеди. Бывший сенатор от Техаса Ральф Ярборо жаловался, что с приближением каждого избирательного сезона качество связи в телефоне его кабинета ухудшалось, поскольку ток истощался многочисленными прослушивающими устройствами, подключёнными политическими противниками. Те, кто считает, что плохое качество связи и щелчки на линии вызваны прослушиванием, воздают прослушивателям меньше чести, а AT&amp;T — больше, чем заслуживает каждый из них. Современные подслушивающие устройства нередко питаются от собственных аккумуляторов или потребляют столь мало тока, что на фоне обычных колебаний питания их невозможно засечь даже чувствительными амперметрами.</p>
 <empty-line/>
 <p>Щелчки на линии могут быть вызваны ненадёжными контактами в телефоне, кабелях или оборудовании АТС, намокшими кабелями, неисправными коммутаторами на АТС и скачками напряжения при зарядке аккумуляторов на АТС. Современное подслушивающее устройство записывает разговор на аппарат, который бесшумно включается и выключается по мере того, как вы говорите. Подслушивающее устройство рассчитано на работу без посторонних шумов; ваш телефон — нет. Если слова, произнесённые в частной беседе или по телефону, начинают возвращаться к вам из неожиданных источников, прежде всего следует тщательно осмотреть комнату или комнаты, которые могут прослушиваться.</p>
 <empty-line/>
-<subtitle>Обнаружение государственного прослушивания</subtitle>
+</section>
+<section id="toc_sub_000103"><title><p>Обнаружение государственного прослушивания</p></title>
 <empty-line/>
 <p>Если прослушивает федеральное правительство, ни вы, ни почти никто, кроме самых опытных специалистов по нейтрализации жучков, этого не обнаружат. Уже много лет никто не раскрыл ни одного прослушивающего устройства Министерства юстиции, поскольку сама телефонная компания нередко подключается к линии и соединяет её с прослушивающим пунктом ФБР. Жучки ФБР стали настолько совершенными, что стандартные методы обнаружения также не позволяют их выявить. Однако прослушивание, которое устраивают многие частные сыщики, нередко настолько примитивно, что его может обнаружить даже другой дилетант. Комнатные жучки бывают двух типов: крошечные микрофоны, передающие перехваченные разговоры по проводу на сторону, и маленькие радиопередатчики, транслирующие услышанное по радио.</p>
 <empty-line/>
@@ -1323,13 +1424,15 @@
 <empty-line/>
 <p>Кроме того, проверьте наличие аналогичных устройств вдоль телефонных проводов в комнате, а также в розетке или коробке, где телефон подключён к плинтусу. Следует также отвинтить микрофонный и слуховой капсюль и проверить, нет ли подозрительных проводов или предметов. Даже эксперт не распознает новинку, продающуюся нелегально, — «прослушанный» микрофонный капсюль, выглядящий в точности как тот, что стоит в вашем телефоне и который можно поменять за несколько секунд. После проверки телефона осмотрите подозрительные маленькие чёрные коробочки, подключённые к телевизорам, радиоприёмникам, лампам и часам.</p>
 <empty-line/>
-<subtitle>Практические советы по поиску жучков</subtitle>
+</section>
+<section id="toc_sub_000104"><title><p>Практические советы по поиску жучков</p></title>
 <empty-line/>
 <p>Также проверьте вентиляционные каналы отопительных и кондиционирующих систем на наличие микрофонов с проводами, уходящими обратно в каналы. Жучки-радиопередатчики с собственными батарейками можно установить быстро, но и обнаружить их несколько проще. Проверяйте под столами и стульями, между подушками дивана. Помните: они должны располагаться вблизи места вероятного разговора для обеспечения хорошего приёма. Иногда радиожучки так искусно спрятаны, что обнаружить их практически невозможно. Один немецкий производитель рекламирует «прослушанные» авторучки, которыми действительно можно писать, настольные зажигалки, которые действительно зажигают огонь, и портфели, в которых действительно носят бумаги.</p>
 <empty-line/>
 <p>Замечая, что владелец таких предметов может удалиться с деликатных переговоров, оставив позади своё электронное ухо, компания указывает, что «очевидно, микрофон подобного типа открывает безграничные возможности на конференциях, переговорах, встречах и т. п.». Если вы подозреваете, что ваш телефон прослушивается, а визуальный осмотр ничего не даёт, можно обратиться в телефонную компанию с просьбой проверить линию. По оценкам American Telephone and Telegraph Company, ежегодно она получает около десяти тысяч подобных запросов от абонентов. Эти проверки, а также плановое техническое обслуживание позволяют ежегодно выявлять около двухсот пятидесяти подслушивающих устройств. При обнаружении свидетельств прослушивания компания сверяется с ФБР и местной полицией в штатах, где законы разрешают полицейское прослушивание по судебным ордерам. До недавнего времени, если прослушивание было санкционировано судом, абоненту сообщали, что «незаконных устройств» на линии нет. Это настолько выбивало из колеи людей, запросивших проверку, что теперь телефонная компания, по имеющимся сведениям, сообщает всем абонентам о любых обнаруженных устройствах. Если это оборачивается преждевременным разглашением сведений о санкционированном ФБР прослушивании — это головная боль, которую AT&amp;T с удовольствием оставляет на откуп правительству и его подозреваемому.</p>
 <empty-line/>
-<subtitle>Профессиональная нейтрализация подслушивающих устройств</subtitle>
+</section>
+<section id="toc_sub_000105"><title><p>Профессиональная нейтрализация подслушивающих устройств</p></title>
 <empty-line/>
 <p>Тем, кто сделал всё вышеперечисленное и всё равно испытывает подозрения, следующим шагом будет привлечение специалиста для обследования помещения. Тщательная работа включает в себя детальный осмотр помещения — в том числе рентгенографию настольных украшений и других предметов, которые могут содержать скрытые радиопередатчики, — использование металлодетекторов для поиска скрытых микрофонов, проверку электропроводки на признаки нестандартных токов, применение чувствительного детектора радиоволн для обнаружения паразитных сигналов, которые может излучать скрытый жучок, а также использование измерителя напряжённости радиополя для определения его местонахождения.</p>
 <empty-line/>
@@ -1341,13 +1444,15 @@
 <empty-line/>
 <p>Это может показаться слишком очевидным, чтобы упоминать, но не обсуждайте свои подозрения относительно прослушивания в присутствии предполагаемого жучка. У. Р. Мозли, директор отдела расследований агентства Burns, утверждает, что в большинстве случаев жертва прослушивания сама сообщает подслушивателю, что собирается вызвать специалиста по нейтрализации жучков, давая тем самым подслушивателю возможность замести следы.</p>
 <empty-line/>
-<subtitle>Максимальная защита за деньги</subtitle>
+</section>
+<section id="toc_sub_000106"><title><p>Максимальная защита за деньги</p></title>
 <empty-line/>
 <p>Для тех, кто хочет купить столько приватности, сколько позволяют средства, компания Dektor продаёт консоль размером с манхэттенскую телефонную книгу, которую можно поставить на рабочий стол всего за 3500 долларов. Она непрерывно проверяет всевозможные способы, которыми можно использовать ваш телефон и электрические линии для перехвата разговоров. Устройство заблокирует любую попытку превратить ваш телефон в жучок, выявит любой «гармонический жучок», подавит телефонное прослушивание с помощью передатчика, транслирующего подслушиваемые разговоры, обнаружит любое использование электрических линий в целях прослушивания и издаст пронзительный сигнал «бип-бип!», если кто-то снимет параллельную трубку.</p>
 <empty-line/>
 <p>При всей изощрённости этого устройства есть одна вещь, которую его создатели не возьмутся обеспечить, — обнаружение прослушивания со стороны ФБР. Поскольку соединение осуществляется в месте, куда ни один специалист по нейтрализации жучков не получит доступа, а агенты ведут мониторинг на оборудовании, которое не выявит ни один прибор, вы просто никогда не сможете знать наверняка, слушает ли вас правительство. Поэтому если вы бизнесмен и думаете, что вас прослушивают конкуренты, — скорее всего, вы ошибаетесь. Если вы супруг или любовник, чьи амуры стали достоянием общественности, подслушивающее устройство можно найти, но дальнейших действий, вероятно, не последует. А если вас слушает самое большое ухо из всех — правительство, — вы никогда не узнаете об этом наверняка, пока не получите своё «уведомление о прослушивании».</p>
 <empty-line/>
 <p><emphasis>VaxCat</emphasis></p>
+</section>
 </section>
 <section id="sec_issue_023_010_big_brother_online">
 <title><p>Big Brother Online</p></title>
@@ -1365,7 +1470,7 @@
 <empty-line/>
 <p>Рассмотрев деятельность ФБР, Робертс переходит к обсуждению того, почему слежка ФБР за системами BBS является незаконной. По его мнению, подобная слежка нарушает Первую, Четвёртую и Пятую поправки к Конституции. Однако наиболее убедительным оказывается его аргумент, касающийся Закона о конфиденциальности электронных коммуникаций 1987 года (Electronic Communications Privacy Act, ECPA). Этот закон был принят в качестве поправки к Федеральному закону о прослушивании телефонных переговоров 1968 года и изначально предназначался для защиты корпоративных компьютерных систем от вторжения «хакеров». Но, как и в случае со многими хорошими законами, он написан настолько широко, что может — и де-факто применяется — в отношении систем, находящихся в частной собственности, в том числе досок объявлений. Робертс (вкратце) рассматривает, как этот закон можно использовать для защиты <emphasis>вашей</emphasis> доски объявлений от слежки со стороны федеральных органов.</p>
 <empty-line/>
-<subtitle>Как защитить свою BBS</subtitle>
+<section id="toc_sub_000107"><title><p>Как защитить свою BBS</p></title>
 <empty-line/>
 <p>Не храните сообщения дольше 180 дней. Закон составлен таким образом, что сообщения возрастом менее 180 дней пользуются более высокой степенью защиты, чем более старые. Поэтому для максимальной защиты системы очищайте, архивируйте или перезагружайте базу сообщений примерно каждые 150 дней. Это может показаться абсурдным, но усложнит процедуру (добавит бюрократических препон) получения правительством ордера на обыск и обязательного уведомления оператора/подписчика службы о предстоящем обыске. Робертс не вполне чётко излагает эту позицию, однако его посыл однозначен: чем чаще вы обновляете базу сообщений, тем лучше вы защищены.</p>
 <empty-line/>
@@ -1375,7 +1480,8 @@
 <empty-line/>
 <p>Подобное сообщение (или аналогичное ему) сделает использование вашей BBS агентом ФБР или иным государственным соглядатаем уголовным преступлением согласно ECPA.</p>
 <empty-line/>
-<subtitle>Заключение рукописи</subtitle>
+</section>
+<section id="toc_sub_000108"><title><p>Заключение рукописи</p></title>
 <empty-line/>
 <p>Рукопись завершается обсуждением методов верификации пользователей и алгоритма действий при обнаружении агента ФБР на вашей доске. В целом я нашёл книгу Робертса умеренно полезной. Она скорее разожгла аппетит к дальнейшему изучению темы, нежели ответила на все мои вопросы. Если вы хотите приобрести экземпляр, он продаётся за $5.00 (включая почтовые расходы). Обращайтесь:</p>
 <empty-line/>
@@ -1385,7 +1491,8 @@
 <empty-line/>
 <p>Рукопись, к слову, насчитывает около 20 страниц и содержит ссылки на другие разоблачительные материалы об ФБР. Полное наименование ECPA для самостоятельного ознакомления: 18 USC 2701.</p>
 <empty-line/>
-<subtitle>Дополнительные комментарии</subtitle>
+</section>
+<section id="toc_sub_000109"><title><p>Дополнительные комментарии</p></title>
 <empty-line/>
 <p>Главная слабость книги — и она весьма очевидна — состоит в том, что Робертс не приводит никаких доказательств мониторинга ФБР систем BBS. Он утверждает, что такой мониторинг ведётся, но не приводит ни одного конкретного примера. Тем не менее его доводы вполне логичны. Как он сам указывает, BBS представляют собой разновидность «издания», которое не проходит редакторский контроль перед «публикацией». Это мгновенный источник новостей, способный вызвать весьма серьёзное беспокойство у ФБР. Робертсу следовало бы подкрепить свою книгу соответствующими доказательствами. Чтобы восполнить этот пробел, приведу несколько примеров.</p>
 <empty-line/>
@@ -1395,11 +1502,13 @@
 <empty-line/>
 <p>• В ходе знаменитого разгрома Inner Circle и группы 414s ФБР несколько месяцев вело мониторинг электронной почты, прежде чем нанести удар. Хотя владельцы взломанных систем (в частности, Western Union) сами пригласили ФБР для изучения своих файлов, это наглядно показывает, что ФБР прекрасно умеет применять электронную слежку при расследовании преступлений.</p>
 <empty-line/>
-<subtitle>Выводы</subtitle>
+</section>
+<section id="toc_sub_000110"><title><p>Выводы</p></title>
 <empty-line/>
 <p>Нет никаких оснований полагать, что правительство <emphasis>не</emphasis> ведёт мониторинг вашей системы BBS. Напротив, есть немало веских оснований считать, что оно это делает! Научитесь защищаться. Законы и нормативные акты, способные защитить вашу свободу слова, существуют — главное, уметь их применять. Принимайте все возможные меры для защиты своих прав — независимо от того, управляете вы андеграундной системой или нет. У правительства нет никакого оправдания для нарушения ваших прав, и вы должны сделать всё от вас зависящее, чтобы защитить себя.</p>
 <empty-line/>
 <p>Я не связан с Робертсом, его книгой или организацией The FBI Project, если не считать того, что являюсь в целом довольным покупателем. Я не юрист, и Робертс — тоже. Настоящий текстовый файл не предоставляет никаких гарантий. Читайте и используйте его по своему усмотрению. Последствия или выгода — ваш выбор. Но прежде всего — оставайтесь свободными.</p>
+</section>
 </section>
 <section id="sec_issue_023_011_phrack_world_news_xxiii">
 <title><p>Phrack World News</p></title>
@@ -1407,7 +1516,7 @@
 <empty-line/>
 <p><strong>Автор:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>Возвращение в настоящее</subtitle>
+<section id="toc_sub_000111"><title><p>Возвращение в настоящее</p></title>
 <empty-line/>
 <p>Добро пожаловать в Phrack World News, выпуск XXIII. В этом номере — материалы о Chaos Computer Club, новые подробности о печально известном Кевине Митнике и детали истории об австрало-американской хакерской группировке, деятельность которой была пресечена.</p>
 <empty-line/>
@@ -1415,7 +1524,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>Вооружён клавиатурой и признан опасным — 28 декабря 1988</subtitle>
+</section>
+<section id="toc_sub_000112"><title><p>Вооружён клавиатурой и признан опасным — 28 декабря 1988</p></title>
 <empty-line/>
 <p>Продолжение истории о деле Кевина Митника в номере Los Angeles Times от 24 декабря 1988 года сообщает, что федеральный магистрат отказался освободить Митника под залог 23 декабря 1988 года:</p>
 <empty-line/>
@@ -1429,7 +1539,8 @@
 <empty-line/>
 <p>Адвокат Митника заявил, что у прокуроров нет доказательств для новых обвинений.</p>
 <empty-line/>
-<subtitle>Хакер с тёмной стороны — электронный террорист — 8 января 1989</subtitle>
+</section>
+<section id="toc_sub_000113"><title><p>Хакер с тёмной стороны — электронный террорист — 8 января 1989</p></title>
 <empty-line/>
 <p><emphasis>By John Johnson, Los Angeles Times</emphasis></p>
 <empty-line/>
@@ -1457,7 +1568,8 @@
 <empty-line/>
 <p>В чём был мотив Митника за десятилетие хакерства? Судя по всему, не в деньгах... Друзья говорили, что он делал всё это исключительно ради вызова. [Его бывший офицер по надзору говорит:] «В нём есть очень мстительная жилка. Очень много людей подверглось преследованиям. Они звонят мне постоянно». Его мастерство владения компьютером было его «источником самоуважения», — сказал один из друзей.</p>
 <empty-line/>
-<subtitle>Отчёт о Chaos Communication Congress 88 — 3 января 1989</subtitle>
+</section>
+<section id="toc_sub_000114"><title><p>Отчёт о Chaos Communication Congress 88 — 3 января 1989</p></title>
 <empty-line/>
 <p><emphasis>Наблюдение за Chaos Communication Congress 1988, Гамбург</emphasis></p>
 <empty-line/>
@@ -1487,7 +1599,8 @@
 <empty-line/>
 <p><emphasis>Особая благодарность д-ру Клаусу Бруннштайну, Гамбургский университет</emphasis></p>
 <empty-line/>
-<subtitle>Chaos Communication Congress 1988 в Гамбурге</subtitle>
+</section>
+<section id="toc_sub_000115"><title><p>Chaos Communication Congress 1988 в Гамбурге</p></title>
 <empty-line/>
 <p><emphasis>Автор: Terra из Chaos Computer Club</emphasis></p>
 <empty-line/>
@@ -1505,13 +1618,14 @@
 <empty-line/>
 <p>Одна из главных целей CCC — заставить людей задуматься об этих вопросах, чтобы судьба мира решалась не только помешанными на компьютерах. «Мы ещё не знаем, является ли компьютер подарком или бомбой замедленного действия, но он НЕПРЕМЕННО изменит жизнь каждого — и очень скоро».</p>
 </section>
+</section>
 <section id="sec_issue_023_012_phrack_world_news_xxiii_2">
 <title><p>Phrack World News, выпуск XXIII, часть 2</p></title>
 <image l:href="#img__code_blocks_issue_023_012_phrack_world_news_xxiii_2_0003_925ece3e05.png"/>
 <empty-line/>
 <p><strong>Автор:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>Хакеры — новое социальное движение? 29 декабря 1988</subtitle>
+<section id="toc_sub_000116"><title><p>Хакеры — новое социальное движение? 29 декабря 1988</p></title>
 <empty-line/>
 <p>Проектный курс отделения политологии Свободного университета Берлина провёл научное исследование хакерской сцены. В своей работе авторы — Уве Йонас, Ютта Кальке, Эва Лишке и Тобиас Рубишон — пытаются ответить на вопрос: являются ли хакеры новым социальным движением? Их вывод состоит в том, что в понимании самих хакеров несанкционированное использование компьютерных систем не обязательно является политическим актом.</p>
 <empty-line/>
@@ -1529,7 +1643,8 @@
 <empty-line/>
 <p><emphasis>Информация предоставлена Chaos Computer Club</emphasis></p>
 <empty-line/>
-<subtitle>Хакеры взломали сети американских банков 17 января 1989</subtitle>
+</section>
+<section id="toc_sub_000117"><title><p>Хакеры взломали сети американских банков 17 января 1989</p></title>
 <empty-line/>
 <p><emphasis>По материалам The Australian</emphasis></p>
 <empty-line/>
@@ -1551,7 +1666,8 @@
 <empty-line/>
 <p>Вчера полиция штата Виктория получила шестимесячный архив данных с резервных лент трёх досок объявлений.</p>
 <empty-line/>
-<subtitle>Арест хакера в Сиракузском университете 20 января 1989</subtitle>
+</section>
+<section id="toc_sub_000118"><title><p>Арест хакера в Сиракузском университете 20 января 1989</p></title>
 <empty-line/>
 <p>Кевин Эшфорд (он же The Grim Phreaker) — аспирант кафедры информатики Сиракузского университета — был задержан на прошлой неделе после того, как системные администраторы обнаружили на его Unix-аккаунте записи учётных данных и паролей чужих аккаунтов.</p>
 <empty-line/>
@@ -1561,7 +1677,8 @@
 <empty-line/>
 <p><emphasis>Информация предоставлена Grey Wizard</emphasis></p>
 <empty-line/>
-<subtitle>Придумайте название книге — выиграйте коробку печенья! 10 января 1989</subtitle>
+</section>
+<section id="toc_sub_000119"><title><p>Придумайте название книге — выиграйте коробку печенья! 10 января 1989</p></title>
 <empty-line/>
 <p><emphasis>Сообщение от Клиффорда Столла</emphasis></p>
 <empty-line/>
@@ -1585,7 +1702,8 @@
 <empty-line/>
 <p>Спасибо! Клифф Столл</p>
 <empty-line/>
-<subtitle>Хакер хочет жениться на своём компьютере 17 января 1989</subtitle>
+</section>
+<section id="toc_sub_000120"><title><p>Хакер хочет жениться на своём компьютере 17 января 1989</p></title>
 <empty-line/>
 <p><emphasis>Из The Sun (газета для супермаркетов), 17 января 1989, т. 7, №3, с. 30</emphasis> <emphasis>Автор: Фред Слив</emphasis></p>
 <empty-line/>
@@ -1607,7 +1725,8 @@
 <empty-line/>
 <p>«У Дередре есть собственный разум, и она хочет выйти за меня замуж, чтобы мы стали первой парой, открывающей эту новую эру».</p>
 <empty-line/>
-<subtitle>PWN — Краткие заметки</subtitle>
+</section>
+<section id="toc_sub_000121"><title><p>PWN — Краткие заметки</p></title>
 <empty-line/>
 <p>1. Docs Avage был навещён печально известной Pink Death — она же Тони Эймс, менеджер по безопасности US West Communications (Портленд, Орегон). По его словам, она — «мастер убеждения», способный вытащить что угодно из кого угодно с помощью «мягкого давления».</p>
 <empty-line/>
@@ -1641,6 +1760,7 @@
 <p>7. Thomas Covenant (он же Sigmund Fraud) недавно был арестован за прослушку линий через распределительный ящик в своём жилом доме. Неприятности начались, когда он подключился к разговору мужчины с женой и начал выкрикивать оскорбления в адрес женщины. Чего он не знал — так это того, что упомянутый мужчина оказался агентом Агентства национальной безопасности (АНБ). В итоге его поймали; домовладельцы согласились не подавать иск при условии, что TC поступит на службу в одну из ветвей вооружённых сил США. Он выбрал ВВС... Упаси нас бог от войны!</p>
 <empty-line/>
 <p>8. Скоро в эфире: «Хэллоуин V: Летающая тыква»! Теперь никто не в безопасности!</p>
+</section>
 </section>
 </section>
 </body>

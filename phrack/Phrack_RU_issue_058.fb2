@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0"
-             xmlns:l="http://www.w3.org/1999/xlink">
+<?xml version='1.0' encoding='UTF-8'?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
 <description>
   <title-info>
     <genre>computers</genre>
@@ -32,7 +31,7 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_001_introduction_0028_ef24868e94.png"/>
 <empty-line/>
-<subtitle>Содержание номера</subtitle>
+<section id="toc_sub_000001"><title><p>Содержание номера</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_001_introduction_0058_32c71d1ad2.png"/>
 <empty-line/>
@@ -40,7 +39,8 @@
 <empty-line/>
 <p>Последний и все предыдущие выпуски Phrack доступны онлайн по адресу http://www.phrack.org. Читатели без доступа к веб могут подписаться на почтовую рассылку phrack-distrib. Каждый новый выпуск рассылается участникам списка в виде вложения — отдельный привет обезьянам из nasa.gov, которые жаловались на ограниченность своей сети (только email), но не хотели пропускать свежий Phrack. Анонс нового выпуска (без вложения) рассылается по отдельному announcement-списку.</p>
 <empty-line/>
-<subtitle>Подписка</subtitle>
+</section>
+<section id="toc_sub_000002"><title><p>Подписка</p></title>
 <empty-line/>
 <p>Чтобы подписаться на announcement-рассылку:</p>
 <empty-line/>
@@ -60,17 +60,20 @@
 <empty-line/>
 <p>Phrack Magazine, том 10, номер 58, 27 декабря 2001 г. ISSN 1068-1035 Содержимое защищено авторским правом (c) 2001 Phrack Magazine. Все права защищены. Полное или частичное воспроизведение материалов без письменного разрешения редакции запрещено. Phrack Magazine распространяется среди широкой аудитории бесплатно — настолько часто, насколько это возможно.</p>
 <empty-line/>
-<subtitle>Контакты</subtitle>
+</section>
+<section id="toc_sub_000003"><title><p>Контакты</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_001_introduction_0117_71e1f8726a.png"/>
 <empty-line/>
 <p>У нас работает агрессивный почтовый фильтр в стиле <code>/dev/null</code>. Мы отвечаем на каждое серьёзное письмо. Если ответа не последовало — скорее всего, ваше письмо не заслуживало ответа или было поймано фильтром. Убедитесь, что в письме указан явный адресат, один получатель, непустая тема, отсутствует HTML-код и оно на 100% состоит из чистого 7-битного ASCII.</p>
 <empty-line/>
-<subtitle>PGP-ключ для шифрования материалов</subtitle>
+</section>
+<section id="toc_sub_000004"><title><p>PGP-ключ для шифрования материалов</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_001_introduction_0132_14a91113d8.png"/>
 <empty-line/>
-<subtitle>Отказ от ответственности</subtitle>
+</section>
+<section id="toc_sub_000005"><title><p>Отказ от ответственности</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_001_introduction_0170_046de11f10.png"/>
 <empty-line/>
@@ -82,6 +85,7 @@
 <empty-line/>
 <p><code>|=[ EOF ]=---------------------------------------------------------------=|</code></p>
 </section>
+</section>
 <section id="sec_issue_058_002_loopback">
 <title><p>LOOPBACK</p></title>
 <p><strong>Автор:</strong> phrackstaff</p>
@@ -92,11 +96,12 @@
 <empty-line/>
 <p>[ Время от времени находятся люди, которые притворяются представителями 'phrack' или пытаются выдать себя за них, распространяя ложную информацию :&gt; Phrack выйдет по расписанию.. ]</p>
 <empty-line/>
-<subtitle>0x00</subtitle>
+<section id="toc_sub_000006"><title><p>0x00</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_002_loopback_0035_f512749306.png"/>
 <empty-line/>
-<subtitle>0x01</subtitle>
+</section>
+<section id="toc_sub_000007"><title><p>0x01</p></title>
 <empty-line/>
 <p>[ Обнаружено на одном из .edu-хостов, разделяемом студентами и преподавателями ]</p>
 <empty-line/>
@@ -124,7 +129,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_002_loopback_0128_06c18d1501.png"/>
 <empty-line/>
-<subtitle>0x02</subtitle>
+</section>
+<section id="toc_sub_000008"><title><p>0x02</p></title>
 <empty-line/>
 <p>[ ...Просматривая отфильтрованную почту phrackstaff@phrack.org, мы обнаружили, что кто-то флиртует с нашим менеджером рассылки mailman... ]</p>
 <empty-line/>
@@ -132,7 +138,8 @@
 <empty-line/>
 <p>[ не за что ]</p>
 <empty-line/>
-<subtitle>0x03</subtitle>
+</section>
+<section id="toc_sub_000009"><title><p>0x03</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_002_loopback_0157_6f665a273b.png"/>
 <empty-line/>
@@ -140,7 +147,8 @@
 <empty-line/>
 <p>[ ...свежее, чем задница андроида, острее, чем пицца дяди Джои, горячее, чем дымящийся пистолет ФБР...ХВАТАЙТЕ PHRACK58 !%$!#$^... ]</p>
 <empty-line/>
-<subtitle>0x04</subtitle>
+</section>
+<section id="toc_sub_000010"><title><p>0x04</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_002_loopback_0170_b2851b317e.png"/>
 <empty-line/>
@@ -148,22 +156,25 @@
 <empty-line/>
 <p>[ Это о сексе, наркотиках и рок-н-ролле, чистом насилии и жестоких надругательствах. Это о том, как делать бомбы, проникать в здания под охраной военных и захватывать мир. То же, что мы делаем каждую ночь, Пинки. ]</p>
 <empty-line/>
-<subtitle>0x05</subtitle>
+</section>
+<section id="toc_sub_000011"><title><p>0x05</p></title>
 <empty-line/>
 <p>[ Комментарий анонимного пользователя на странице сайта: ]</p>
 <empty-line/>
 <p>Эм... loopback 0x16 и 0x0f — одинаковые...</p>
 <empty-line/>
-<p>[ ...и Рыцарь-джедай _снова_ ответил твёрдым языком: &quot;Нет, не одинаковые!&quot; ...и _снова_ взмахнул рукой слева направо в слабой надежде пустить пыль в глаза публике во второй раз... ]</p>
+<p>[ ...и Рыцарь-джедай _снова_ ответил твёрдым языком: "Нет, не одинаковые!" ...и _снова_ взмахнул рукой слева направо в слабой надежде пустить пыль в глаза публике во второй раз... ]</p>
 <empty-line/>
-<subtitle>0x06</subtitle>
+</section>
+<section id="toc_sub_000012"><title><p>0x06</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_002_loopback_0199_59cf275f03.png"/>
 <p>Тестовое изображение для phrack для будущих и текущих статей.</p>
 <empty-line/>
 <p>[ Да! Мистер супер-крутой, вы просто шедевр. Кстати: журнал называется 'PHRACK', а не 'PHREAK' — исправьте графику |@$#@#$^%!$%... ]</p>
 <empty-line/>
-<subtitle>0x07</subtitle>
+</section>
+<section id="toc_sub_000013"><title><p>0x07</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_002_loopback_0211_07ea26320d.png"/>
 <empty-line/>
@@ -175,11 +186,12 @@
 <empty-line/>
 <p>D-M</p>
 <empty-line/>
-<subtitle>0x08</subtitle>
+</section>
+<section id="toc_sub_000014"><title><p>0x08</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_002_loopback_0232_f69319b065.png"/>
 <empty-line/>
-<p>Ваши адреса мне дал &quot;The Notorious B.O.O.G.&quot;.</p>
+<p>Ваши адреса мне дал "The Notorious B.O.O.G.".</p>
 <empty-line/>
 <p>[ Да, детка, он очень близкий друг всех нас! ]</p>
 <empty-line/>
@@ -187,7 +199,7 @@
 <empty-line/>
 <p>[ Вау. Поехали. Дядя Сэм, разблокируй оружие, прицелься во врага и жди дальнейших инструкций. Бок о бок, littlemisspatriot@yahoo.com, мы будем сражаться за правое дело, пока серебряная пуля не попадёт в глаз и не сразит нас наповал. ]</p>
 <empty-line/>
-<p>Ниже — письмо, которое я отправила &quot;The Notorious B.O.O.G.&quot; и которое он опубликовал (со своим ответом) на www.guerrillanews.org 19.09.2001.</p>
+<p>Ниже — письмо, которое я отправила "The Notorious B.O.O.G." и которое он опубликовал (со своим ответом) на www.guerrillanews.org 19.09.2001.</p>
 <empty-line/>
 <p>[ Эй. Я собрал около 30 000 бойцов у Норада. Объединим твоих партизан Мао Цзэдуна с моими войсками и подготовим полноценный первый ядерный удар по... чему угодно... неважно. БУМ БУМ. ]</p>
 <empty-line/>
@@ -195,7 +207,8 @@
 <empty-line/>
 <p>[ ОТЛИЧНО! Эй, миссис LittleMissPatriot, у нас уже есть всё это про то, как делать бомбы и взрывать всё что угодно, начиная с phrack1..7. Могу переслать вам несколько неопубликованных статей о том, как собирать ядерные боеголовки и вести биохимическую войну! ]</p>
 <empty-line/>
-<subtitle>0x09</subtitle>
+</section>
+<section id="toc_sub_000015"><title><p>0x09</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_002_loopback_0271_29c76ef5e9.png"/>
 <empty-line/>
@@ -205,7 +218,8 @@
 <empty-line/>
 <p>[ ... ]</p>
 <empty-line/>
-<subtitle>0x0a</subtitle>
+</section>
+<section id="toc_sub_000016"><title><p>0x0a</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_002_loopback_0327_de9d2f4ed6.png"/>
 <empty-line/>
@@ -217,7 +231,8 @@
 <empty-line/>
 <p>[ !%$@#% УБЕРИ РУКИ ОТ ТВЁРДОЙ ОБЛОЖКИ! ДАЖЕ НЕ ДУМАЙ ТРОГАТЬ ЕЁ СВОИМИ ГРЯЗНЫМИ ПАЛЬЦАМИ !%@#$% ]</p>
 <empty-line/>
-<subtitle>0x0b</subtitle>
+</section>
+<section id="toc_sub_000017"><title><p>0x0b</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_002_loopback_0348_6a5d1a5661.png"/>
 <empty-line/>
@@ -243,7 +258,8 @@
 <empty-line/>
 <p>ничто не постоянно, всё рассыпается. Спасибо. (и прости... наверное, написал ерунду, но суть понятна....) Junk</p>
 <empty-line/>
-<subtitle>0x0c</subtitle>
+</section>
+<section id="toc_sub_000018"><title><p>0x0c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_002_loopback_0386_a4bc041e5b.png"/>
 <empty-line/>
@@ -255,7 +271,8 @@
 <empty-line/>
 <p>[ Phrack Inc. только что выставила вам счёт на 100$ за нежелательную почту. ]</p>
 <empty-line/>
-<subtitle>0x0d</subtitle>
+</section>
+<section id="toc_sub_000019"><title><p>0x0d</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_002_loopback_0405_01b0430ddb.png"/>
 <empty-line/>
@@ -271,7 +288,8 @@
 <empty-line/>
 <p>[ не звоните нам, мы сами позвоним. ]</p>
 <empty-line/>
-<subtitle>0x0e</subtitle>
+</section>
+<section id="toc_sub_000020"><title><p>0x0e</p></title>
 <empty-line/>
 <p>Я так рад, что сайт снова работает — обожаю эту ностальгию.</p>
 <empty-line/>
@@ -281,7 +299,8 @@
 <empty-line/>
 <p>[ а предыдущие тома, по-вашему, не были?! ]</p>
 <empty-line/>
-<subtitle>0x0f</subtitle>
+</section>
+<section id="toc_sub_000021"><title><p>0x0f</p></title>
 <empty-line/>
 <p>Прости за такой ламерский вопрос... я совсем новичок...</p>
 <empty-line/>
@@ -315,7 +334,8 @@
 <empty-line/>
 <p>до свидания, peter</p>
 <empty-line/>
-<subtitle>0x10</subtitle>
+</section>
+<section id="toc_sub_000022"><title><p>0x10</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_002_loopback_0483_c43c1968bd.png"/>
 <empty-line/>
@@ -333,6 +353,7 @@
 <empty-line/>
 <p><emphasis>EOF</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_058_003_signal_noise">
 <title><p>SIGNAL NOISE</p></title>
 <p><strong>Автор:</strong> phrackstaff</p>
@@ -344,13 +365,14 @@
 <p>• 0x02: Скрытый IPC через TCP поверх signal()</p>
 <p>• 0x03: Разведывательный рапорт SIGnalINTelligence о gobbles</p>
 <empty-line/>
-<subtitle>0x00 — SIGOOPS</subtitle>
+<section id="toc_sub_000023"><title><p>0x00 — SIGOOPS</p></title>
 <empty-line/>
 <p>В p57-02/loopback: 0x16 и 0x0f — одно и то же. Досадный промах.</p>
 <empty-line/>
 <p>Мы забыли упомянуть адрес электронной почты brett (variablek@home.com), который написал приложение по Cisco в p57-03/linenoise.</p>
 <empty-line/>
-<subtitle>0x01 — Больше никакого SIGSEGV</subtitle>
+</section>
+<section id="toc_sub_000024"><title><p>0x01 — Больше никакого SIGSEGV</p></title>
 <empty-line/>
 <p><strong>Тема:</strong> Избавляемся от SIGSEGV — ради удовольствия, но не ради выгоды.</p>
 <empty-line/>
@@ -397,7 +419,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_003_signal_noise_0202_374681acf3.png"/>
 <empty-line/>
-<subtitle>0x02 — TCP поверх signal()</subtitle>
+</section>
+<section id="toc_sub_000025"><title><p>0x02 — TCP поверх signal()</p></title>
 <empty-line/>
 <p><strong>Тема:</strong> TCP поверх signal()</p>
 <empty-line/>
@@ -410,7 +433,8 @@
 <image l:href="#img__code_blocks_issue_058_003_signal_noise_0285_11b2b1bd8b_part01.png"/>
 <image l:href="#img__code_blocks_issue_058_003_signal_noise_0285_11b2b1bd8b_part02.png"/>
 <empty-line/>
-<subtitle>0x03 — Конфиденциальный разведывательный рапорт SIGINT о GOBBLES</subtitle>
+</section>
+<section id="toc_sub_000026"><title><p>0x03 — Конфиденциальный разведывательный рапорт SIGINT о GOBBLES</p></title>
 <empty-line/>
 <p><strong>КОНФИДЕНЦИАЛЬНЫЙ РАЗВЕДЫВАТЕЛЬНЫЙ РАПОРТ О GOBBLES</strong></p>
 <empty-line/>
@@ -424,7 +448,7 @@
 <empty-line/>
 <p><strong>Какого вида существо «Gobbles» и какого оно пола?</strong></p>
 <empty-line/>
-<p>GOBBLES сам по себе является хомо сапиенс (то есть человеком, для всех вас, «пенетраторов»), это очевидно, однако имя GOBBLES возникло из-за фотографии turkey.jpg на Yahoo.com, найденной однажды и заставившей GOBBLES подумать: «Эй, это смешная картинка и напоминает мне сообщество безопасников, полное злобных индюков, хехе — &quot;другая идентичность&quot; теперь должна стать GOBBLES, чтобы тоже быть индюком от безопасности!» Gobbles Security не ограничивается одним человеком или одним полом.</p>
+<p>GOBBLES сам по себе является хомо сапиенс (то есть человеком, для всех вас, «пенетраторов»), это очевидно, однако имя GOBBLES возникло из-за фотографии turkey.jpg на Yahoo.com, найденной однажды и заставившей GOBBLES подумать: «Эй, это смешная картинка и напоминает мне сообщество безопасников, полное злобных индюков, хехе — "другая идентичность" теперь должна стать GOBBLES, чтобы тоже быть индюком от безопасности!» Gobbles Security не ограничивается одним человеком или одним полом.</p>
 <empty-line/>
 <p><strong>Как можно связаться с Gobbles Security (email? sms? irl? irc?)</strong></p>
 <empty-line/>
@@ -533,13 +557,14 @@
 <empty-line/>
 <p>В заключение GOBBLES хотел бы поблагодарить Phrack и команду Phrack за присвоение GOBBLES звания «Человек года». GOBBLES очень польщён не только номинацией, но и победой в этой награде! GOBBLES LOVE YOU!</p>
 </section>
+</section>
 <section id="sec_issue_058_004_advanced_return_into_libc_pax">
 <title><p>Продвинутые техники return-into-lib(c): исследование PaX</p></title>
 <p><strong>Автор:</strong> Nergal &lt;nergal@owl.openwall.com&gt;</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_004_advanced_return_into_libc_pax_0007_f0852c5042.png"/>
 <empty-line/>
-<subtitle>Содержание</subtitle>
+<section id="toc_sub_000027"><title><p>Содержание</p></title>
 <empty-line/>
 <p>• 1 — Введение</p>
 <p>• 2 — Классический return-into-libc</p>
@@ -578,17 +603,20 @@
 <empty-line/>
 <p>Предполагается, что читатель обладает знаниями о стандартных техниках эксплуатации. Перед дальнейшим чтением, вероятно, следует изучить статьи [1] и [2]. В [12] содержится практическое описание внутреннего устройства ELF.</p>
 <empty-line/>
-<subtitle>2 — Классический return-into-libc</subtitle>
+</section>
+<section id="toc_sub_000028"><title><p>2 — Классический return-into-libc</p></title>
 <empty-line/>
 <p>Классическая техника return-into-libc хорошо описана в [2], поэтому здесь лишь краткое резюме. Данный метод чаще всего применяется для обхода защиты, обеспечиваемой неисполняемым стеком. Вместо возврата в код, расположенный в стеке, уязвимая функция должна вернуться в область памяти, занятую динамической библиотекой. Это достигается переполнением стекового буфера следующей полезной нагрузкой:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_004_advanced_return_into_libc_pax_0065_a4ae4749cc.png"/>
 <empty-line/>
-<p>Когда функция, содержащая переполненный буфер, возвращает управление, выполнение продолжится в <code>function_in_lib</code> — адресе библиотечной функции. С точки зрения этой функции, <code>dummy_int32</code> будет адресом возврата, а <code>arg_1</code>, <code>arg_2</code> и последующие слова — аргументами. Как правило, <code>function_in_lib</code> — это адрес функции <code>system()</code> из libc, а <code>arg_1</code> указывает на строку <code>&quot;/bin/sh&quot;</code>.</p>
+<p>Когда функция, содержащая переполненный буфер, возвращает управление, выполнение продолжится в <code>function_in_lib</code> — адресе библиотечной функции. С точки зрения этой функции, <code>dummy_int32</code> будет адресом возврата, а <code>arg_1</code>, <code>arg_2</code> и последующие слова — аргументами. Как правило, <code>function_in_lib</code> — это адрес функции <code>system()</code> из libc, а <code>arg_1</code> указывает на строку <code>"/bin/sh"</code>.</p>
 <empty-line/>
-<subtitle>3 — Цепочки вызовов return-into-libc</subtitle>
+</section>
+<section id="toc_sub_000029"><title><p>3 — Цепочки вызовов return-into-libc</p></title>
 <empty-line/>
-<subtitle>3.1 — Проблемы классического подхода</subtitle>
+</section>
+<section id="toc_sub_000030"><title><p>3.1 — Проблемы классического подхода</p></title>
 <empty-line/>
 <p>У предыдущей техники есть два существенных ограничения. Во-первых, невозможно вызвать другую функцию, требующую аргументов, после <code>function_in_lib</code>. Почему? Когда <code>function_in_lib</code> возвращает управление, выполнение продолжится по адресу <code>dummy_int32</code>. Он может оказаться другой библиотечной функцией, однако её аргументы должны будут занимать то же место, что и аргументы <code>function_in_lib</code>. Иногда это не является проблемой (см. [3] для типового примера).</p>
 <empty-line/>
@@ -596,7 +624,8 @@
 <empty-line/>
 <p>Второе ограничение состоит в том, что аргументы <code>function_in_lib</code> не могут содержать нулевые байты (в случае типичного переполнения, вызванного функциями обработки строк). Существуют два метода построения цепочек из нескольких библиотечных вызовов.</p>
 <empty-line/>
-<subtitle>3.2 — Метод «подъёма esp»</subtitle>
+</section>
+<section id="toc_sub_000031"><title><p>3.2 — Метод «подъёма esp»</p></title>
 <empty-line/>
 <p>Этот метод предназначен для атаки на бинарные файлы, скомпилированные с флагом <code>-fomit-frame-pointer</code>. В таком случае типичный эпилог функции выглядит следующим образом:</p>
 <empty-line/>
@@ -630,7 +659,8 @@
 <empty-line/>
 <p>Заметим, что таким образом можно выстраивать цепочки из произвольного количества функций. Ещё одно замечание: для этого нам не нужно знать точное расположение нашей полезной нагрузки (то есть точное значение указателя стека). Разумеется, если какая-либо из вызываемых функций требует указатель в качестве аргумента, и если этот указатель должен ссылаться внутрь нашей полезной нагрузки, нам понадобится знать её расположение.</p>
 <empty-line/>
-<subtitle>3.3 — Подделка фреймов (frame faking, см. [4])</subtitle>
+</section>
+<section id="toc_sub_000032"><title><p>3.3 — Подделка фреймов (frame faking, см. [4])</p></title>
 <empty-line/>
 <p>Вторая техника предназначена для атаки на программы, скомпилированные _без_ опции <code>-fomit-frame-pointer</code>. Эпилог функции в таком бинарном файле выглядит следующим образом:</p>
 <empty-line/>
@@ -664,27 +694,32 @@
 <empty-line/>
 <p>Два <code>leaveret</code> требуются потому, что уязвимая функция не установит <code>%ebp</code> для нас при возврате. Поскольку метод «поддельных фреймов» имеет некоторые преимущества перед «подъёмом esp», иногда необходимо использовать этот приём даже при атаке на бинарный файл, скомпилированный с <code>-fomit-frame-pointer</code>.</p>
 <empty-line/>
-<subtitle>3.4 — Вставка нулевых байт</subtitle>
+</section>
+<section id="toc_sub_000033"><title><p>3.4 — Вставка нулевых байт</p></title>
 <empty-line/>
 <p>Остаётся одна проблема: передача функции аргумента, содержащего 0. Но когда доступно несколько вызовов функций, существует простое решение. Первые несколько вызванных функций должны вставить нули на место, занятое параметрами следующих функций.</p>
 <empty-line/>
-<p>Наиболее универсальна функция <code>strcpy</code>. Её второй аргумент должен указывать на нулевой байт (расположенный в каком-либо фиксированном месте, вероятно, в образе программы), а первый аргумент — на байт, который нужно обнулить. Таким образом, одним вызовом функции можно обнулить один байт. Если необходимо обнулить несколько int32-позиций, возможно, другие решения будут более экономичными по месту. Например, <code>sprintf(some_writable_addr,&quot;%n%n%n%n&quot;,ptr1, ptr2, ptr3, ptr4);</code> обнулит байт по адресу <code>some_writable_addr</code> и int32-позиции по адресам <code>ptr1</code>, <code>ptr2</code>, <code>ptr3</code>, <code>ptr4</code>. Для этой цели можно использовать и многие другие функции, в частности <code>scanf</code> (см. [5]).</p>
+<p>Наиболее универсальна функция <code>strcpy</code>. Её второй аргумент должен указывать на нулевой байт (расположенный в каком-либо фиксированном месте, вероятно, в образе программы), а первый аргумент — на байт, который нужно обнулить. Таким образом, одним вызовом функции можно обнулить один байт. Если необходимо обнулить несколько int32-позиций, возможно, другие решения будут более экономичными по месту. Например, <code>sprintf(some_writable_addr,"%n%n%n%n",ptr1, ptr2, ptr3, ptr4);</code> обнулит байт по адресу <code>some_writable_addr</code> и int32-позиции по адресам <code>ptr1</code>, <code>ptr2</code>, <code>ptr3</code>, <code>ptr4</code>. Для этой цели можно использовать и многие другие функции, в частности <code>scanf</code> (см. [5]).</p>
 <empty-line/>
 <p>Заметим, что этот приём решает одну потенциальную проблему. Если все библиотеки отображены по адресам, содержащим 0 (как в случае патча Solar Designer для неисполняемого стека), мы не можем напрямую вернуться в библиотеку, поскольку не можем передать нулевые байты в полезной нагрузке переполнения. Но если атакуемая программа использует <code>strcpy</code> (или <code>sprintf</code>, см. [3]), в PLT будет соответствующая запись, которую мы можем использовать. Первые несколько вызовов должны быть вызовами <code>strcpy</code> (точнее, соответствующей записи PLT), которые обнулят не байты в параметрах функции, а байты самого адреса функции. После такой подготовки мы снова сможем вызывать произвольные функции из библиотек.</p>
 <empty-line/>
-<subtitle>3.5 — Итоги</subtitle>
+</section>
+<section id="toc_sub_000034"><title><p>3.5 — Итоги</p></title>
 <empty-line/>
 <p>Оба представленных метода схожи. Идея заключается в том, чтобы возвращаться из вызванной функции не напрямую в следующую, а в некий эпилог функции, который соответствующим образом скорректирует указатель стека (возможно, с помощью указателя фрейма) и передаст управление следующей функции в цепочке.</p>
 <empty-line/>
 <p>В обоих случаях мы искали подходящий эпилог в теле исполняемого файла. Обычно можно использовать и эпилоги библиотечных функций. Однако иногда образ библиотеки недоступен напрямую. Один из таких случаев уже упоминался (библиотеки могут быть отображены по адресам, содержащим нулевой байт); с другим мы скоро столкнёмся. Образ исполняемого файла не является позиционно-независимым; он должен быть отображён по фиксированному адресу (в случае Linux — по адресу <code>0x08048000</code>), поэтому мы можем безопасно возвращаться в него.</p>
 <empty-line/>
-<subtitle>3.6 — Пример кода</subtitle>
+</section>
+<section id="toc_sub_000035"><title><p>3.6 — Пример кода</p></title>
 <empty-line/>
 <p>Приложенные файлы <code>ex-move.c</code> и <code>ex-frames.c</code> являются эксплойтами для программы <code>vuln.c</code>. Эксплойты выстраивают цепочку из нескольких вызовов <code>strcpy</code> и вызова <code>mmap</code>. Дополнительные пояснения приводятся в следующей главе (см. 4.2); тем не менее эти файлы можно использовать как шаблоны для создания return-into-lib эксплойтов.</p>
 <empty-line/>
-<subtitle>4 — Возможности PaX</subtitle>
+</section>
+<section id="toc_sub_000036"><title><p>4 — Возможности PaX</p></title>
 <empty-line/>
-<subtitle>4.1 — Основы PaX</subtitle>
+</section>
+<section id="toc_sub_000037"><title><p>4.1 — Основы PaX</p></title>
 <empty-line/>
 <p>Если вы никогда не слышали о патче ядра Linux PaX, рекомендуется посетить домашнюю страницу проекта [7]. Ниже приведены несколько цитат из документации PaX.</p>
 <empty-line/>
@@ -696,7 +731,8 @@
 <empty-line/>
 <p>Подводя итог: эксплойт на основе переполнения буфера обычно пытается запустить код, внедрённый в некоторые данные, переданные атакуемому процессу. Основная функция PaX — запретить исполнение всех областей данных, тем самым делая типичные техники эксплуатации бесполезными.</p>
 <empty-line/>
-<subtitle>4.2 — PaX и эксплойты return-into-lib</subtitle>
+</section>
+<section id="toc_sub_000038"><title><p>4.2 — PaX и эксплойты return-into-lib</p></title>
 <empty-line/>
 <p>Изначально неисполняемые области данных были единственной функцией PaX. Как можно было предположить, этого недостаточно для остановки эксплойтов return-into-lib. Такие эксплойты запускают код, расположенный внутри библиотек или самого бинарного файла — совершенно «легитимный» код. Используя техники, описанные в главе 3, можно запускать несколько библиотечных функций, чего обычно более чем достаточно для использования привилегий эксплуатируемой программы.</p>
 <empty-line/>
@@ -716,7 +752,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_004_advanced_return_into_libc_pax_0294_25f568a384.png"/>
 <empty-line/>
-<subtitle>4.3 — PaX и рандомизация базового адреса mmap</subtitle>
+</section>
+<section id="toc_sub_000039"><title><p>4.3 — PaX и рандомизация базового адреса mmap</p></title>
 <empty-line/>
 <p>Для борьбы с эксплойтами return-into-lib(c) в PaX была добавлена интересная функция. Если при конфигурации ядра задан параметр <code>CONFIG_PAX_RANDMMAP</code>, первая загружаемая библиотека будет отображена по случайному адресу (следующие библиотеки будут отображены после первой). То же самое применяется к стеку. Первая библиотека будет отображена по адресу <code>0x40000000+random*4k</code>, вершина стека будет равна <code>0xc0000000-random*16</code>; в обоих случаях <code>random</code> — это псевдослучайное беззнаковое 16-битное целое, полученное вызовом <code>get_random_bytes()</code>, который возвращает криптографически стойкие данные.</p>
 <empty-line/>
@@ -742,11 +779,13 @@
 <empty-line/>
 <p>В следующей главе будет описан интерфейс к функции <code>dl-resolve()</code> динамического компоновщика. Если ей передать соответствующие аргументы, одним из которых является строка с именем функции в формате asciiz, она определит фактический адрес функции. Эта функциональность аналогична функции <code>dlsym()</code>. Используя <code>dl-resolve()</code>, можно построить return-into-lib эксплойт, который будет возвращаться в функцию, адрес которой неизвестен на момент построения эксплойта. В [12] также описан метод получения адреса функции по её имени, однако представленная там техника бесполезна для наших целей.</p>
 <empty-line/>
-<subtitle>5 — Функция dl-resolve() динамического компоновщика</subtitle>
+</section>
+<section id="toc_sub_000040"><title><p>5 — Функция dl-resolve() динамического компоновщика</p></title>
 <empty-line/>
 <p>Эта глава упрощена настолько, насколько это возможно. Подробное описание см. в [9] и исходных текстах glibc, в особенности в файле <code>dl-runtime.c</code>. См. также [12].</p>
 <empty-line/>
-<subtitle>5.1 — Несколько типов данных ELF</subtitle>
+</section>
+<section id="toc_sub_000041"><title><p>5.1 — Несколько типов данных ELF</p></title>
 <empty-line/>
 <p>Следующие определения взяты из заголовочного файла <code>elf.h</code>:</p>
 <empty-line/>
@@ -754,7 +793,8 @@
 <empty-line/>
 <p>Поля <code>st_size</code>, <code>st_info</code> и <code>st_shndx</code> не используются при разрешении символов.</p>
 <empty-line/>
-<subtitle>5.2 — Несколько структур данных ELF</subtitle>
+</section>
+<section id="toc_sub_000042"><title><p>5.2 — Несколько структур данных ELF</p></title>
 <empty-line/>
 <p>Исполняемый файл ELF содержит несколько структур данных (преимущественно массивов), представляющих для нас интерес. Расположение этих структур можно получить из динамической секции исполняемого файла. Команда <code>objdump -x file</code> отобразит содержимое динамической секции:</p>
 <empty-line/>
@@ -764,7 +804,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_004_advanced_return_into_libc_pax_0407_8fbfcd80ba.png"/>
 <empty-line/>
-<subtitle>5.3 — Как dl-resolve() вызывается из PLT</subtitle>
+</section>
+<section id="toc_sub_000043"><title><p>5.3 — Как dl-resolve() вызывается из PLT</p></title>
 <empty-line/>
 <p>Типичная запись PLT (в формате elf32-i386) выглядит следующим образом:</p>
 <empty-line/>
@@ -778,7 +819,8 @@
 <empty-line/>
 <p>Примечание: в случае glibc этот алгоритм выполняется функцией <code>fixup()</code>, вызываемой из <code>dl-runtime-resolve()</code>.</p>
 <empty-line/>
-<subtitle>5.4 — Выводы</subtitle>
+</section>
+<section id="toc_sub_000044"><title><p>5.4 — Выводы</p></title>
 <empty-line/>
 <p>Предположим, мы переполняем стековый буфер следующей полезной нагрузкой:</p>
 <empty-line/>
@@ -788,9 +830,11 @@
 <empty-line/>
 <p>Приложенный файл <code>dl-resolve.c</code> — это пример кода, реализующего описанную технику. Внимание: его необходимо компилировать дважды (см. комментарии в <code>README.code</code>).</p>
 <empty-line/>
-<subtitle>6 — Обход PaX</subtitle>
+</section>
+<section id="toc_sub_000045"><title><p>6 — Обход PaX</p></title>
 <empty-line/>
-<subtitle>6.1 — Требования</subtitle>
+</section>
+<section id="toc_sub_000046"><title><p>6.1 — Требования</p></title>
 <empty-line/>
 <p>Для использования техники «ret-into-dl», описанной в главе 5, необходимо разместить несколько структур в соответствующих местах. Нам понадобится функция, способная перемещать байты в выбранное место. Очевидный выбор — <code>strcpy</code>; подойдут также <code>strncpy</code>, <code>sprintf</code> или аналогичные. Таким образом, как и в [3], мы потребуем наличия PLT-записи для <code>strcpy</code> в образе атакуемой программы.</p>
 <empty-line/>
@@ -815,7 +859,8 @@
 <p>• <strong>6.1.1)</strong> <code>strcpy</code> (или <code>strncpy</code>, <code>sprintf</code> или аналогичные) доступна через PLT;</p>
 <p>• <strong>6.1.2)</strong> в ходе нормального выполнения атакуемый бинарный файл копирует предоставленные пользователем данные в статическую (предпочтительно) или выделенную через malloc переменную.</p>
 <empty-line/>
-<subtitle>6.2 — Построение эксплойта</subtitle>
+</section>
+<section id="toc_sub_000047"><title><p>6.2 — Построение эксплойта</p></title>
 <empty-line/>
 <p>Попробуем эмулировать код из примера эксплойта <code>dl-resolve.c</code>. Когда с помощью <code>ret-into-dl</code> будет подготовлена область памяти rwx через <code>mmap</code>, мы скопируем туда шеллкод с помощью <code>strcpy</code> и вернёмся в скопированный шеллкод. Рассматривается случай, когда атакуемый бинарный файл скомпилирован без <code>-fomit-frame-pointer</code>, и используется метод «поддельных фреймов».</p>
 <empty-line/>
@@ -843,13 +888,16 @@
 <empty-line/>
 <p>Приложенный файл <code>ex-pax.c</code> — пример эксплойта против <code>pax.c</code>. Единственное отличие <code>pax.c</code> от <code>vuln.c</code> в том, что первая копирует ещё одну переменную окружения в статический буфер (что удовлетворяет условию 6.1.2).</p>
 <empty-line/>
-<subtitle>7 — Разное</subtitle>
+</section>
+<section id="toc_sub_000048"><title><p>7 — Разное</p></title>
 <empty-line/>
-<subtitle>7.1 — Переносимость</subtitle>
+</section>
+<section id="toc_sub_000049"><title><p>7.1 — Переносимость</p></title>
 <empty-line/>
 <p>Поскольку PaX разработан для Linux, на протяжении всего документа мы сосредотачивались на этой ОС. Однако представленные техники не зависят от операционной системы. Стек и указатели фреймов, соглашения о вызовах C, спецификация ELF — все эти определения широко используются. В частности, мне удалось успешно запустить <code>dl-resolve.c</code> на Solaris i386 и FreeBSD. Если говорить точнее, пришлось скорректировать четвёртый аргумент <code>mmap</code> (похоже, <code>MAP_ANON</code> имеет другое значение в BSD-системах). В случае этих двух ОС динамический компоновщик не использует версионирование символов, поэтому <code>ret-into-dl</code> реализуется ещё проще.</p>
 <empty-line/>
-<subtitle>7.2 — Другие типы уязвимостей</subtitle>
+</section>
+<section id="toc_sub_000050"><title><p>7.2 — Другие типы уязвимостей</p></title>
 <empty-line/>
 <p>Все представленные техники основаны на переполнении стекового буфера. Все эксплойты return-into-something опираются на тот факт, что с помощью единственного переполнения можно не только изменить <code>%eip</code>, но и разместить аргументы функции (после адреса возврата) на вершине стека.</p>
 <empty-line/>
@@ -877,7 +925,8 @@
 <empty-line/>
 <p>Ещё один случай: переполнение стекового буфера на один байт. Такое переполнение обнуляет наименее значимый байт сохранённого указателя фрейма. После второго возврата из функции атакующий имеет неплохие шансы получить полный контроль над стеком, что позволяет использовать все представленные техники.</p>
 <empty-line/>
-<subtitle>7.3 — Другие решения по запрету исполнения</subtitle>
+</section>
+<section id="toc_sub_000051"><title><p>7.3 — Другие решения по запрету исполнения</p></title>
 <empty-line/>
 <p>Мне известны ещё два решения, которые делают все области данных неисполняемыми в Linux i386. Первое — RSX [10]. Однако это решение не реализует рандомизацию базового адреса стека или библиотек, поэтому техники, описанные в главе 3, достаточны для построения цепочек из нескольких вызовов функций.</p>
 <empty-line/>
@@ -885,13 +934,15 @@
 <empty-line/>
 <p>Второе решение, kNoX [11], очень похоже на RSX. Дополнительно оно отображает все библиотеки по адресам, начиная с <code>0x00110000</code> (аналогично патчу Solar Designer). Как упомянуто в конце раздела 3.4, эта защита также недостаточна.</p>
 <empty-line/>
-<subtitle>7.4 — Улучшение существующих схем запрета исполнения</subtitle>
+</section>
+<section id="toc_sub_000052"><title><p>7.4 — Улучшение существующих схем запрета исполнения</p></title>
 <empty-line/>
 <p>К (не)счастью, я не вижу способа исправить PaX так, чтобы он стал невосприимчив к представленным техникам. Очевидно, стандарт ELF предоставляет слишком много возможностей, полезных для атакующих. Разумеется, некоторые из представленных трюков можно заблокировать. Например, можно пропатчить ядро так, чтобы оно не выполняло флаг <code>MAP_FIXED</code> при наличии <code>PROT_EXEC</code>. Заметим, что это не помешает работе разделяемых библиотек, но остановит представленные эксплойты. Однако это устраняет лишь одно из возможных применений цепочек функций.</p>
 <empty-line/>
 <p>С другой стороны, развёртывание PaX (особенно в связке с segvguard) может значительно затруднить успешную эксплуатацию, а в ряде случаев сделать её невозможной. Когда (если) PaX станет более стабильным, его будет разумно использовать просто как ещё один уровень защиты.</p>
 <empty-line/>
-<subtitle>7.5 — Использованные версии</subtitle>
+</section>
+<section id="toc_sub_000053"><title><p>7.5 — Использованные версии</p></title>
 <empty-line/>
 <p>Я тестировал пример кода со следующими версиями патчей:</p>
 <empty-line/>
@@ -899,11 +950,13 @@
 <empty-line/>
 <p>Код также можно проверить на чистом ядре 2.4.x. Из-за некоторых оптимизаций код не будет работать на ядрах 2.2.x.</p>
 <empty-line/>
-<subtitle>8 — Публикации и проекты, на которые сделаны ссылки</subtitle>
+</section>
+<section id="toc_sub_000054"><title><p>8 — Публикации и проекты, на которые сделаны ссылки</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_004_advanced_return_into_libc_pax_0631_9184002dc0.png"/>
 <empty-line/>
-<subtitle>Приложение: Комментарии к примеру кода (README.code)</subtitle>
+</section>
+<section id="toc_sub_000055"><title><p>Приложение: Комментарии к примеру кода (README.code)</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Nergal</p>
 <empty-line/>
@@ -913,7 +966,8 @@
 <empty-line/>
 <p>При желании бинарные файлы можно обрезать (<code>strip</code>).</p>
 <empty-line/>
-<subtitle>I. ex-move.c</subtitle>
+</section>
+<section id="toc_sub_000056"><title><p>I. ex-move.c</p></title>
 <empty-line/>
 <p>В начале <code>ex-move.c</code> определены константы <code>LIBC</code>, <code>STRCPY</code>, <code>MMAP</code>, <code>POPSTACK</code>, <code>POPNUM</code>, <code>PLAIN_RET</code>, <code>FRAMES</code>. Их необходимо скорректировать. <code>MMAP_START</code> можно оставить без изменений.</p>
 <empty-line/>
@@ -957,7 +1011,8 @@
 <empty-line/>
 <p>Последнее необходимое значение — <code>0xbffffde0</code>.</p>
 <empty-line/>
-<subtitle>II. ex-frame.c</subtitle>
+</section>
+<section id="toc_sub_000057"><title><p>II. ex-frame.c</p></title>
 <empty-line/>
 <p>Снова необходимо скорректировать <code>LIBC</code>, <code>STRCPY</code>, <code>MMAP</code>, <code>LEAVERET</code> и <code>FRAMES</code>. <code>LIBC</code>, <code>STRCPY</code>, <code>MMAP</code> и <code>FRAMES</code> определяются точно так же, как и для <code>ex-move.c</code>. <code>LEAVERET</code> должен быть адресом последовательности <code>leave; ret</code>; её можно найти следующим образом:</p>
 <empty-line/>
@@ -965,7 +1020,8 @@
 <empty-line/>
 <p>Для наших целей можно использовать <code>0x80484bd</code>.</p>
 <empty-line/>
-<subtitle>III. dl-resolve.c</subtitle>
+</section>
+<section id="toc_sub_000058"><title><p>III. dl-resolve.c</p></title>
 <empty-line/>
 <p>Необходимо скорректировать <code>#define</code>-значения <code>STRTAB</code>, <code>SYMTAB</code>, <code>JMPREL</code>, <code>VERSYM</code> и <code>PLT_SECTION</code>. Поскольку они ссылаются на сам бинарный файл <code>dl-resolve</code>, его нужно компилировать дважды с одинаковыми опциями компилятора. При первой компиляции можно использовать произвольные значения. Затем запускаем:</p>
 <empty-line/>
@@ -985,7 +1041,8 @@
 <empty-line/>
 <p>Как видим, вызов <code>mmap()</code> выполнен, хотя его нет в PLT <code>dl-resolve.c</code>. Разумеется, можно было добавить выполнение шеллкода, но это излишне усложнило бы данный proof-of-concept код.</p>
 <empty-line/>
-<subtitle>IV. icebreaker.c</subtitle>
+</section>
+<section id="toc_sub_000059"><title><p>IV. icebreaker.c</p></title>
 <empty-line/>
 <p>Необходимо скорректировать девять <code>#define</code>. Большинство из них уже были объяснены. Остаются два: <code>FRAMESINDATA</code> и <code>VIND</code>.</p>
 <empty-line/>
@@ -1009,34 +1066,41 @@
 <empty-line/>
 <p>Теперь прочитайте раздел 6.2 статьи или просто попробуйте несколько найденных адресов.</p>
 <empty-line/>
-<subtitle>Приложение: Исходный код</subtitle>
+</section>
+<section id="toc_sub_000060"><title><p>Приложение: Исходный код</p></title>
 <empty-line/>
-<subtitle>vuln.c</subtitle>
+</section>
+<section id="toc_sub_000061"><title><p>vuln.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_004_advanced_return_into_libc_pax_0940_f6d7279192.png"/>
 <empty-line/>
-<subtitle>ex-move.c</subtitle>
+</section>
+<section id="toc_sub_000062"><title><p>ex-move.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_004_advanced_return_into_libc_pax_0955_eeaac0e2a9_part01.png"/>
 <image l:href="#img__code_blocks_issue_058_004_advanced_return_into_libc_pax_0955_eeaac0e2a9_part02.png"/>
 <image l:href="#img__code_blocks_issue_058_004_advanced_return_into_libc_pax_0955_eeaac0e2a9_part03.png"/>
 <empty-line/>
-<subtitle>pax.c</subtitle>
+</section>
+<section id="toc_sub_000063"><title><p>pax.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_004_advanced_return_into_libc_pax_1106_bc0c93c488.png"/>
 <empty-line/>
-<subtitle>ex-frame.c</subtitle>
+</section>
+<section id="toc_sub_000064"><title><p>ex-frame.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_004_advanced_return_into_libc_pax_1129_85b5814392_part01.png"/>
 <image l:href="#img__code_blocks_issue_058_004_advanced_return_into_libc_pax_1129_85b5814392_part02.png"/>
 <image l:href="#img__code_blocks_issue_058_004_advanced_return_into_libc_pax_1129_85b5814392_part03.png"/>
 <empty-line/>
-<subtitle>dl-resolve.c</subtitle>
+</section>
+<section id="toc_sub_000065"><title><p>dl-resolve.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_004_advanced_return_into_libc_pax_1261_a3d367cfb7_part01.png"/>
 <image l:href="#img__code_blocks_issue_058_004_advanced_return_into_libc_pax_1261_a3d367cfb7_part02.png"/>
 <empty-line/>
-<subtitle>icebreaker.c</subtitle>
+</section>
+<section id="toc_sub_000066"><title><p>icebreaker.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_004_advanced_return_into_libc_pax_1347_1d843046fd_part01.png"/>
 <image l:href="#img__code_blocks_issue_058_004_advanced_return_into_libc_pax_1347_1d843046fd_part02.png"/>
@@ -1045,11 +1109,12 @@
 <image l:href="#img__code_blocks_issue_058_004_advanced_return_into_libc_pax_1347_1d843046fd_part05.png"/>
 <image l:href="#img__code_blocks_issue_058_004_advanced_return_into_libc_pax_1347_1d843046fd_part06.png"/>
 </section>
+</section>
 <section id="sec_issue_058_005_armouring_the_elf">
 <title><p>Бронирование ELF: шифрование бинарных файлов на платформе UNIX</p></title>
 <p><strong>Авторы:</strong> grugq &lt;grugq@lokmail.net&gt;, scut &lt;scut@team-teso.net&gt;</p>
 <empty-line/>
-<subtitle>Содержание</subtitle>
+<section id="toc_sub_000067"><title><p>Содержание</p></title>
 <empty-line/>
 <p>• Введение</p>
 <p>• Зачем шифровать?</p>
@@ -1071,7 +1136,8 @@
 <p>• Будущее</p>
 <p>• Ссылки</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+</section>
+<section id="toc_sub_000068"><title><p>Введение</p></title>
 <empty-line/>
 <p>Мир UNIX значительно отстал от мира Microsoft (включая MS-DOS и MS Windows) в двух смежных областях: защита бинарных файлов и обратная инженерия.</p>
 <empty-line/>
@@ -1079,7 +1145,8 @@
 <empty-line/>
 <p>Количество и качество инструментов обратной инженерии — ещё одна область существенного разрыва. Среда выполнения PE-бинарника, и даже сама операционная система, на которой он запускается, находятся во власти блестящего отладчика SoftICE. Тем временем работающий ELF можно исследовать лишь по одному слову за раз через ограниченный системный вызов <code>ptrace()</code>, с несовершенным интерфейсом посредством <code>adb</code> и его отсталого родственника — <code>gdb</code>. Файловая система <code>procfs</code>, там где она присутствует, как правило, позволяет лишь осматривать процесс, но не управлять им. По существу, UNIX — нереализованный кошмар для реверс-инженера этой платформы. Нереализованный — потому что до сих пор никто не удосужился защитить ELF-бинарник.</p>
 <empty-line/>
-<subtitle>Зачем шифровать?</subtitle>
+</section>
+<section id="toc_sub_000069"><title><p>Зачем шифровать?</p></title>
 <empty-line/>
 <p>Главным мотивом для защиты файлов на платформах Microsoft было введение защиты от копирования как безуспешной попытки гарантировать оплату за shareware-приложения. На данный момент такой мотивации в мире UNIX нет, однако существуют иные причины для защиты бинарных файлов.</p>
 <empty-line/>
@@ -1099,7 +1166,8 @@
 <empty-line/>
 <p><emphasis>Некоторые крупные компании продают свои коллекции восстановленных эксплойтов за ежегодную плату.</emphasis></p>
 <empty-line/>
-<subtitle>Что такое шифрование бинарных файлов?</subtitle>
+</section>
+<section id="toc_sub_000070"><title><p>Что такое шифрование бинарных файлов?</p></title>
 <empty-line/>
 <p>Причины защищать бинарный файл ясны; теперь нужно разработать хорошую архитектуру самой защиты. Говоря о защите бинарных файлов, важно понимать, какого рода защиты мы ожидаем; нужно определить требования. Требования для данной реализации следующие:</p>
 <empty-line/>
@@ -1110,7 +1178,8 @@
 <empty-line/>
 <p>Лучший механизм, отвечающий всем этим требованиям, — та или иная форма шифрования. Теперь мы знаем достаточно о желаемом результате и можем дать определение понятию «шифрование бинарных файлов»: это процесс защиты бинарного файла от обратной инженерии и анализа при сохранении его работоспособности и возможности исполнения базовой операционной системой. Таким образом, говоря о шифровании бинарных файлов, мы имеем в виду надёжный механизм безопасности для их защиты.</p>
 <empty-line/>
-<subtitle>Угроза</subtitle>
+</section>
+<section id="toc_sub_000071"><title><p>Угроза</p></title>
 <empty-line/>
 <p>Сегодня большинство так называемых «криминалистических аналитиков» располагают крайне малым набором инструментов и знаний, чтобы противостоять чему-либо сложнее, чем <code>rm</code>, <code>strip</code> и неосторожный атакующий. Это было продемонстрировано при публичном анализе бинарника x2 [14]. Два авторитетных криминалистических следователя оказались полностью обескуражены относительно простой бинарной защитой. Стоит отметить, что два частных реверс-инженера декомпилировали тот же бинарник x2 до исходного кода на C примерно за один день.</p>
 <empty-line/>
@@ -1126,13 +1195,15 @@
 <empty-line/>
 <p>По мере того как андеграунд борется с проблемой утечки эксплойтов и вопросом полного vs. частичного раскрытия, всё больше хакеров будут рассматривать шифрование бинарников как способ защиты своей интеллектуальной собственности. Одновременно сообщество безопасности будет всё больше сталкиваться с зашифрованными бинарниками и вынуждено научиться анализировать враждебный бинарный файл.</p>
 <empty-line/>
-<subtitle>Формат ELF</subtitle>
+</section>
+<section id="toc_sub_000072"><title><p>Формат ELF</p></title>
 <empty-line/>
 <p>«Executable and Linking Format» (Формат исполняемых и компонуемых файлов) — стандартизированный формат для исполняемого кода. Он преимущественно используется для исполняемых файлов (<code>ET_EXEC</code>) или для разделяемых библиотек (<code>ET_DYN</code>). В настоящее время почти все современные варианты Unix поддерживают ELF за его переносимость, стандартизированные возможности и чистоту архитектуры, спроектированной с нуля. Актуальная версия стандарта ELF — 1.2. Существует несколько документов, охватывающих стандарт, см. [1].</p>
 <empty-line/>
 <p>Формат бинарных файлов ELF был разработан с учётом требований как компоновщиков (как правило, используемых во время компиляции), так и загрузчиков (как правило, используемых только во время выполнения). Это потребовало включения двух различных интерфейсов для описания данных, содержащихся в бинарном файле. Эти два интерфейса не зависят друг от друга. Данный раздел служит кратким введением в оба интерфейса ELF.</p>
 <empty-line/>
-<subtitle>Заголовки ELF</subtitle>
+</section>
+<section id="toc_sub_000073"><title><p>Заголовки ELF</p></title>
 <empty-line/>
 <p>ELF-файл должен содержать как минимум заголовок ELF. Заголовок ELF содержит информацию о том, как следует интерпретировать содержимое бинарного файла, а также местоположения других структур, описывающих бинарник. Заголовок ELF начинается со смещения 0 в файле и имеет следующий формат:</p>
 <empty-line/>
@@ -1176,7 +1247,8 @@
 <empty-line/>
 <p>Следующие два раздела подробно описывают интерфейс компоновки и интерфейс выполнения ELF соответственно.</p>
 <empty-line/>
-<subtitle>Секции ELF</subtitle>
+</section>
+<section id="toc_sub_000074"><title><p>Секции ELF</p></title>
 <empty-line/>
 <p>Интерфейс, используемый при компоновке нескольких объектных файлов, — это интерфейс секций. Бинарный файл рассматривается как коллекция секций; каждая секция — это массив байтов, причём ни один байт не может принадлежать более чем одной секции. Содержимое секции может интерпретироваться инспектирующим приложением произвольным образом, хотя существует вспомогательная информация, помогающая корректно интерпретировать содержимое секции. Каждая секция описывается заголовком секции, содержащимся в таблице заголовков секций, которая обычно расположена в конце объекта. Таблица заголовков секций — это массив заголовков секций в произвольном порядке, хотя обычно в том же порядке, в каком они встречаются в файле, с единственным исключением: нулевой элемент — это NULL-секция, которая обнулена и не описывает никакой части бинарника. Каждый заголовок секции имеет следующий формат:</p>
 <empty-line/>
@@ -1210,7 +1282,8 @@
 <empty-line/>
 <p>• <strong><code>sh_entsize</code></strong> — если секция содержит таблицу, здесь указывается размер каждого элемента. Используется для проверки корректности.</p>
 <empty-line/>
-<subtitle>Сегменты ELF</subtitle>
+</section>
+<section id="toc_sub_000075"><title><p>Сегменты ELF</p></title>
 <empty-line/>
 <p>Интерфейс сегментов ELF используется при создании образа процесса. Каждый сегмент — непрерывный поток байтов (не путать с сегментом памяти, то есть одной страницей) — описывается заголовком программы. Заголовки программы содержатся в таблице заголовков программы, описанной в заголовке ELF. Эта таблица может находиться в любом месте, однако обычно располагается сразу за заголовком ELF*. Заголовок программы описан подробно ниже:</p>
 <empty-line/>
@@ -1240,7 +1313,8 @@
 <empty-line/>
 <p><emphasis>Динамический компоновщик FreeBSD требует, чтобы таблица заголовков программы располагалась в пределах первой страницы (4096 байт) бинарника.</emphasis></p>
 <empty-line/>
-<subtitle>Поддержка ELF и история формата</subtitle>
+</section>
+<section id="toc_sub_000076"><title><p>Поддержка ELF и история формата</p></title>
 <empty-line/>
 <p>Формат ELF получил широкое признание как надёжный и зрелый формат исполняемых файлов. Он гибок — поддерживает различные архитектуры, как 32-, так и 64-разрядные, не жертвуя при этом принципами своей архитектуры.</p>
 <empty-line/>
@@ -1250,11 +1324,13 @@
 <empty-line/>
 <p>Различие в 32/64-разрядности в рамках одной системы обусловлено разными архитектурами, на которых может работать данная операционная система.</p>
 <empty-line/>
-<subtitle>Загрузка ELF</subtitle>
+</section>
+<section id="toc_sub_000077"><title><p>Загрузка ELF</p></title>
 <empty-line/>
 <p>ELF-бинарник загружается путём отображения всех сегментов <code>PT_LOAD</code> в память по корректным адресам (<code>p_vaddr</code>); затем бинарник проверяется на зависимости от библиотек, которые при наличии загружаются. Наконец, выполняются все необходимые перемещения, и управление передаётся точке входа основного исполняемого файла. Сопроводительный код в <code>load.c</code> демонстрирует один из способов сделать это (основан на динамическом компоновщике GNU).</p>
 <empty-line/>
-<subtitle>Загрузка ELF в Linux</subtitle>
+</section>
+<section id="toc_sub_000078"><title><p>Загрузка ELF в Linux</p></title>
 <empty-line/>
 <p>К моменту, когда управление передаётся в пространство пользователя, ситуация следующая:</p>
 <empty-line/>
@@ -1276,7 +1352,8 @@
 <p>• Все необходимые библиотеки отображены начиная с адреса 0x40000000.</p>
 <p>• Все регистры CPU установлены в ноль, кроме указателя стека (<code>$sp</code>) и счётчика команд (<code>$eip</code>/<code>$ip</code> или <code>$pc</code>). ABI может задавать дополнительные начальные значения; i386 ABI требует, чтобы <code>%edx</code> содержал адрес функции <code>DT_FINI</code>.</p>
 <empty-line/>
-<subtitle>Вспомогательные векторы ELF в Linux (Elf32_auxv_t)</subtitle>
+</section>
+<section id="toc_sub_000079"><title><p>Вспомогательные векторы ELF в Linux (Elf32_auxv_t)</p></title>
 <empty-line/>
 <p>Инициализация стека отчасти знакома программисту на C, поскольку тот знает указатели <code>argc</code>, <code>argv</code> и переменных окружения из параметров функции <code>main</code>. Она вызывается кодом поддержки компилятора C именно с этими параметрами:</p>
 <empty-line/>
@@ -1305,7 +1382,8 @@
 <empty-line/>
 <p>Некоторые подробности о способе запуска исполняемого файла в Linux можно найти в [11].</p>
 <empty-line/>
-<subtitle>Теория шифрования бинарных файлов</subtitle>
+</section>
+<section id="toc_sub_000080"><title><p>Теория шифрования бинарных файлов</p></title>
 <empty-line/>
 <p>Шифрование бинарников — не новость; с 1980-х годов для персональных компьютеров разрабатывались различные механизмы защиты бинарных файлов. Наиболее активными разработчиками средств защиты бинарников были авторы вирусов и разработчики shareware. Хотя эти техники эволюционировали вместе с ростом вычислительной мощности и архитектуры операционных систем, большинство базовых концепций остались прежними. По существу, сначала выполняется незашифрованный движок дешифрования, который расшифровывает следующую зашифрованную секцию кода — это может быть основная секция <code>.text</code> или другой движок дешифрования.</p>
 <empty-line/>
@@ -1335,9 +1413,11 @@
 <empty-line/>
 <p>• <strong>Проприетарные бинарные форматы:</strong> Если объектный код хранится в неизвестном формате, реверс-инженеру очень трудно понять, где данные, а где код.</p>
 <empty-line/>
-<subtitle>Техники дешифрования во время выполнения</subtitle>
+</section>
+<section id="toc_sub_000081"><title><p>Техники дешифрования во время выполнения</p></title>
 <empty-line/>
-<subtitle>Вирусный подход</subtitle>
+</section>
+<section id="toc_sub_000082"><title><p>Вирусный подход</p></title>
 <empty-line/>
 <p>Добавление кода в ELF-исполняемый файл давно не новость. Известные ELF-вирусы существуют примерно с 1997 года; первым об этом опубликовал Silvio [2], [3].</p>
 <empty-line/>
@@ -1365,7 +1445,8 @@
 <empty-line/>
 <p><emphasis>Dacryphilia — фетиш, при котором человек получает сексуальное возбуждение от слёз своего партнёра.</emphasis></p>
 <empty-line/>
-<subtitle>Упаковка / загрузчик ELF в пространстве пользователя</subtitle>
+</section>
+<section id="toc_sub_000083"><title><p>Упаковка / загрузчик ELF в пространстве пользователя</p></title>
 <empty-line/>
 <p>Наиболее гибкий подход к оборачиванию исполняемого файла был изобретён разработчиками упаковщика UPX [12] — точнее, Джоном Райзером :). Они загружают бинарник в пространстве пользователя почти так же, как это делает ядро. При правильной реализации поведение оборачиваемой программы снаружи не изменяется, тогда как ни обёртка, ни оборачиваемый исполняемый файл не имеют ограничений, характерных для ранее описанных техник. Именно таким способом мы хотим шифровать бинарники — загружая их из пространства пользователя.</p>
 <empty-line/>
@@ -1379,7 +1460,8 @@
 <empty-line/>
 <p>Много интересных подробностей об истории компоновщиков и загрузки программ можно найти в [8].</p>
 <empty-line/>
-<subtitle>Будущее</subtitle>
+</section>
+<section id="toc_sub_000084"><title><p>Будущее</p></title>
 <empty-line/>
 <p>Криминалистическая работа с исполняемыми бинарными файлами станет очень сложной, и большинство нынешних специалистов по криминалистике покинут эту область. Скорее всего, часть людей из сцены обратной инженерии переориентируется на сетевую безопасность и придёт в криминалистику.</p>
 <empty-line/>
@@ -1391,17 +1473,19 @@
 <empty-line/>
 <p>Помимо слабых инструментов отладки и плохих отладочных хуков, единственное, что можно использовать для бронирования бинарника во время выполнения, — это тяжёлая обфускация, которая затруднит реверс-инженеру понимание происходящего. Нужно помнить, что реверс-инженер видит каждую атомарную операцию, а также всё происходящее в памяти (изменение переменных, новые <code>mmap</code>, вызовы <code>read()</code> и т. д.). Чтобы противостоять этому, их нужно завалить информацией. Они должны быть настолько дезориентированы, что начнут плакать каждый раз, перезапуская отладчик!</p>
 <empty-line/>
-<subtitle>Ссылки</subtitle>
+</section>
+<section id="toc_sub_000085"><title><p>Ссылки</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_005_armouring_the_elf_0564_66e853d0c9.png"/>
 <empty-line/>
 <p><emphasis>[Бинарный архив binary-encryption.tar.gz в формате uuencode опущен]</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_058_006_sub_proc_root_quando_sumus">
 <title><p>Sub proc_root Quando Sumus (Успехи в хакинге ядра)</p></title>
 <p><strong>Автор:</strong> palmers &lt;palmers@team-teso.net&gt;</p>
 <empty-line/>
-<subtitle>Содержание</subtitle>
+<section id="toc_sub_000086"><title><p>Содержание</p></title>
 <empty-line/>
 <p>1. Введение</p>
 <p>2. Основы VFS и Proc</p>
@@ -1420,7 +1504,8 @@
 <empty-line/>
 <p>Приложение A: prrf.c</p>
 <empty-line/>
-<subtitle>1 — Введение</subtitle>
+</section>
+<section id="toc_sub_000087"><title><p>1 — Введение</p></title>
 <empty-line/>
 <cite><p>«Неприязнь девятнадцатого века к романтизму — это ярость Калибана,</p></cite>
 <cite><p>увидевшего своё лицо в зеркале.</p></cite>
@@ -1437,11 +1522,13 @@
 <empty-line/>
 <p>Старые версии UNIX и HP-UX 10.x не предоставляют файловую систему proc. Данные о процессах, получаемые, например, командой ps(1), там читаются непосредственно из памяти ядра. Это требует привилегий суперпользователя и ещё менее переносимо, чем структура proc.</p>
 <empty-line/>
-<subtitle>2 — Основы VFS и Proc</subtitle>
+</section>
+<section id="toc_sub_000088"><title><p>2 — Основы VFS и Proc</p></title>
 <empty-line/>
 <p>Сначала я изложу необходимые базовые знания для понимания техник, описанных далее. Затем будет рассмотрена архитектура файловой системы proc, и наконец мы заберёмся, так сказать, на самую крышу.</p>
 <empty-line/>
-<subtitle>2.1 — VFS и зачем нужен Proc?</subtitle>
+</section>
+<section id="toc_sub_000089"><title><p>2.1 — VFS и зачем нужен Proc?</p></title>
 <empty-line/>
 <p>Ядро предоставляет уровень абстракции файловой системы — виртуальную файловую систему, или VFS. Она обеспечивает единый вид любой файловой системы из пространства пользователя (подробности в [1]). Подробнее об этой методологии можно прочитать в [2].</p>
 <empty-line/>
@@ -1456,7 +1543,8 @@
 <empty-line/>
 <p>Я подробнее рассмотрю вопрос: как можно встроить бэкдор в ядро, не затрагивая системные вызовы?</p>
 <empty-line/>
-<subtitle>2.2 — proc_fs.h</subtitle>
+</section>
+<section id="toc_sub_000090"><title><p>2.2 — proc_fs.h</p></title>
 <empty-line/>
 <p>Этот подраздел посвящён файлу proc_fs.h, обычно находящемуся в <code>~/include/linux/</code>, где <code>~</code> — корень дерева исходников ядра. Итак, для ветки 2.2:</p>
 <empty-line/>
@@ -1470,13 +1558,15 @@
 <empty-line/>
 <p>Обратите внимание, что добавились три новых поля, тогда как поле <code>readlink_proc</code> было удалено. Также стоит заметить, что структура операций с файлами была перенесена из операций с инодом в структуру <code>proc_dir_entry</code>. Обойти это несложно — см. раздел 3.</p>
 <empty-line/>
-<subtitle>2.3 — proc_root</subtitle>
+</section>
+<section id="toc_sub_000091"><title><p>2.3 — proc_root</p></title>
 <empty-line/>
 <p>Ядро Linux экспортирует корневой инод файловой системы proc под именем <code>proc_root</code>. Это именно тот корневой инод proc, на который указывает точка монтирования — обычно <code>/proc</code>. Начиная отсюда, можно добраться до любого файла в этом каталоге. Однако есть одно исключение: каталоги процессов из <code>proc_root</code> недостижимы. Они добавляются динамически и предоставляются слою VFS при вызове <code>readdir</code> (операции с инодом).</p>
 <empty-line/>
 <p>Следует отметить, что <code>proc_root</code> имеет тип <code>struct proc_dir_entry</code>.</p>
 <empty-line/>
-<subtitle>3 — Куда двигаться?</subtitle>
+</section>
+<section id="toc_sub_000092"><title><p>3 — Куда двигаться?</p></title>
 <empty-line/>
 <p>Этот раздел знакомит с техниками, позволяющими получить возможности даже шире тех, что обычно достигаются заменой системных вызовов.</p>
 <empty-line/>
@@ -1490,7 +1580,8 @@
 <empty-line/>
 <p><code>int delete_proc_file (char *path)</code> — удаляет файл из списков каталогов proc. Память, занятую <code>proc_dir_entry</code>, функция не освобождает, что позволяет впоследствии восстановить запись.</p>
 <empty-line/>
-<subtitle>3.1 — Защита?</subtitle>
+</section>
+<section id="toc_sub_000093"><title><p>3.1 — Защита?</p></title>
 <empty-line/>
 <p>Наиболее очевидные модификации связаны с первыми несколькими полями структуры <code>proc_dir_entry</code> — а именно с <code>uid</code>, <code>gid</code> и <code>mode</code>. Изменяя их, можно просто предоставить или отозвать у определённых пользователей доступ к определённой информации. Заметим, что часть информации, доступной через <code>/proc</code>, можно получить и другими способами.</p>
 <empty-line/>
@@ -1500,7 +1591,8 @@
 <empty-line/>
 <p>Ещё одна возможность для защиты доступа к proc описана в разделе 3.5.</p>
 <empty-line/>
-<subtitle>3.2 — Отказ в обслуживании</subtitle>
+</section>
+<section id="toc_sub_000094"><title><p>3.2 — Отказ в обслуживании</p></title>
 <empty-line/>
 <p>Постараюсь быть краток. Злоумышленник может вносить изменения в файлы, делая части системы неработоспособными. Как упоминалось выше, их легко отменить. Но если злоумышленник просто удалит файл — тот пропадёт навсегда:</p>
 <empty-line/>
@@ -1511,7 +1603,8 @@
 <p>2. Найти <code>proc_dir_entry</code>, для которой: <code>proc-&gt;next-&gt;name == to_del-&gt;name</code></p>
 <p>3. Перелинковать: <code>proc-&gt;next = to_del-&gt;next</code></p>
 <empty-line/>
-<subtitle>3.3 — Сокрытие соединений</subtitle>
+</section>
+<section id="toc_sub_000095"><title><p>3.3 — Сокрытие соединений</p></title>
 <empty-line/>
 <p>Утилита <code>netstat</code> использует файлы <code>~/net/*</code> для отображения, например, TCP-соединений и их состояний, прослушиваемых UDP-сокетов и т. д. Полное описание <code>netstat</code> читайте в [4]. Поскольку мы управляем файловой системой proc, мы можем определять, что читается, а что нет. Структура <code>proc_dir_entry</code> содержит указатель на функцию <code>get_info</code>, которая вызывается при чтении файла. Перенаправив его, мы получаем контроль над содержимым файлов в <code>/proc</code>.</p>
 <empty-line/>
@@ -1523,7 +1616,8 @@
 <empty-line/>
 <p>Пример реализации приведён в приложении A.</p>
 <empty-line/>
-<subtitle>3.4 — Повышение привилегий</subtitle>
+</section>
+<section id="toc_sub_000096"><title><p>3.4 — Повышение привилегий</p></title>
 <empty-line/>
 <p>Зачастую для предоставления дополнительных привилегий пользователю при определённом условии используется системный вызов. Мы не будем перенаправлять системный вызов. Достаточно перенаправить операцию записи в файл, поскольку (1) это позволяет пользователю передавать данные в ядро и (2) это достаточно скрытно, если выбрать правильный шаблон или правильный файл (повышать идентификаторы задачи до 0, если она записывает <code>1</code> в <code>/proc/sys/net/ipv4/ip_forward</code>, — определённо плохая идея).</p>
 <empty-line/>
@@ -1533,7 +1627,8 @@
 <empty-line/>
 <p>Рекомендуется сохранять перезаписываемый указатель. Если модуль выгрузится, память, содержащая функцию, может быть освобождена. Последующий вызов NULL-указателя способен вызвать хаос в системе. Любопытному читателю предлагается ознакомиться с приложением A.</p>
 <empty-line/>
-<subtitle>3.5 — Сокрытие процессов</subtitle>
+</section>
+<section id="toc_sub_000097"><title><p>3.5 — Сокрытие процессов</p></title>
 <empty-line/>
 <p>Что происходит при чтении каталога? Нужно найти его инод, затем прочитать его записи с помощью <code>readdir</code>. VFS предоставляет для этого унифицированный интерфейс — мы его игнорируем и сбрасываем указатель на <code>readdir</code> родительского инода.</p>
 <empty-line/>
@@ -1549,13 +1644,15 @@
 <empty-line/>
 <p>Это, например, можно использовать для создания гранулированных правил доступа.</p>
 <empty-line/>
-<subtitle>3.6 — Другие применения</subtitle>
+</section>
+<section id="toc_sub_000098"><title><p>3.6 — Другие применения</p></title>
 <empty-line/>
 <p>Теперь посмотрим, какие файлы ждут своего изменения. В каталоге <code>/proc/net</code> находятся <code>ip_fwnames</code> (цепочки правил) и <code>ip_fwchains</code> (сами правила). Они читаются утилитой <code>ipchains</code> (но не <code>iptables</code>) при запросе списка правил фильтрации. Как упоминалось выше, там есть файл <code>tcp</code>, перечисляющий все существующие TCP-сокеты; аналогичный файл есть для UDP. Файл <code>raw</code> содержит raw-сокеты. <code>sockstat</code> содержит статистику использования сокетов. Тщательно написанный бэкдор должен синхронизировать файлы <code>tcp</code>/<code>udp</code>/... и этот файл. Утилита <code>arp</code> использует <code>/proc/net/arp</code> для получения информации. <code>route</code> использует файл <code>/proc/net/route</code>. Читайте их страницы руководства, обращая внимание на разделы «FILES» и «SEE ALSO». Впрочем, проверки файлов недостаточно: например, <code>ifconfig</code> использует файл proc <code>dev</code> плюс вызовы <code>ioctl</code> для сбора информации.</p>
 <empty-line/>
 <p>Как видите, применений у этих техник очень много. Написание новых функций <code>get_info</code> для фильтрации вывода или добавления новых хитрых записей — задача для вас (несуществующие проблемы труднее всего отлаживать).</p>
 <empty-line/>
-<subtitle>4 — Заключение</subtitle>
+</section>
+<section id="toc_sub_000099"><title><p>4 — Заключение</p></title>
 <empty-line/>
 <p>Как мы видели в разделах 3.2–3.6, существует несколько способов ослабить безопасность ядра Linux. Существующие механизмы защиты ядра, такие как [5] и [6], не предотвратят их — они проверяют лишь известные бэкдоры на основе системных вызовов; мы полностью обошли их. Отключение поддержки LKM лишь предотвратит работу конкретной реализации, приведённой здесь (поскольку она является LKM).</p>
 <empty-line/>
@@ -1565,11 +1662,13 @@
 <empty-line/>
 <p>Напоследок — несколько слов о прилагаемой реализации. Настоятельно призываю читателя использовать её ТОЛЬКО как доказательство концепции. Автор не может и не должен нести ответственность за какой-либо, включая случайный или косвенный, ущерб, потерю данных или перебой в работе сервисов. Код предоставляется «КАК ЕСТЬ» и БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ. ИСПОЛЬЗУЙТЕ НА СВОЙ РИСК. Код компилируется и работает на ядрах 2.2.x и 2.4.x.</p>
 <empty-line/>
-<subtitle>5 — Литература</subtitle>
+</section>
+<section id="toc_sub_000100"><title><p>5 — Литература</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_006_sub_proc_root_quando_sumus_0385_c262024290.png"/>
 <empty-line/>
-<subtitle>Приложение A: prrf.c</subtitle>
+</section>
+<section id="toc_sub_000101"><title><p>Приложение A: prrf.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_006_sub_proc_root_quando_sumus_0411_b4791fb440_part01.png"/>
 <image l:href="#img__code_blocks_issue_058_006_sub_proc_root_quando_sumus_0411_b4791fb440_part02.png"/>
@@ -1584,13 +1683,14 @@
 <image l:href="#img__code_blocks_issue_058_006_sub_proc_root_quando_sumus_0411_b4791fb440_part11.png"/>
 <image l:href="#img__code_blocks_issue_058_006_sub_proc_root_quando_sumus_0411_b4791fb440_part12.png"/>
 </section>
+</section>
 <section id="sec_issue_058_007_linux_onthefly_kernel_patching_without_lkm">
 <title><p>Linux: патчинг ядра на лету без LKM</p></title>
 <p><strong>Авторы:</strong> sd &lt;sd@sf.cz&gt;, devik &lt;devik@cdi.cz&gt;</p>
 <empty-line/>
 <p><emphasis>12 декабря 2001 года</emphasis></p>
 <empty-line/>
-<subtitle>Содержание</subtitle>
+<section id="toc_sub_000102"><title><p>Содержание</p></title>
 <empty-line/>
 <p>1. Введение</p>
 <p>2. /dev/kmem — наш друг</p>
@@ -1608,7 +1708,8 @@
 <p>8. Ссылки</p>
 <p>9. Приложение: SucKIT — реализация</p>
 <empty-line/>
-<subtitle>1. Введение</subtitle>
+</section>
+<section id="toc_sub_000103"><title><p>1. Введение</p></title>
 <empty-line/>
 <p>Прежде всего, мы должны поблагодарить Silvio Cesare, который разработал технику патчинга ядра задолго до нас — большинство идей было позаимствовано у него.</p>
 <empty-line/>
@@ -1618,7 +1719,8 @@
 <empty-line/>
 <p>Большинство вещей, описанных здесь (системные вызовы, схемы адресации памяти, код), работают только на архитектуре ia32. Если кто-то исследовал другие архитектуры — свяжитесь с нами.</p>
 <empty-line/>
-<subtitle>2. /dev/kmem — наш друг</subtitle>
+</section>
+<section id="toc_sub_000104"><title><p>2. /dev/kmem — наш друг</p></title>
 <empty-line/>
 <cite><p>«Mem — это символьный файл устройства, являющийся образом основной памяти компьютера. Он может использоваться, например, для просмотра (и даже патчинга) системы.»</p></cite>
 <p>&gt;</p>
@@ -1636,7 +1738,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_0059_3f63fa484b.png"/>
 <empty-line/>
-<subtitle>3. Подмена системных вызовов ядра: sys_call_table[]</subtitle>
+</section>
+<section id="toc_sub_000105"><title><p>3. Подмена системных вызовов ядра: sys_call_table[]</p></title>
 <empty-line/>
 <p>Системные вызовы — это низший уровень системных функций (с точки зрения пользовательского пространства) в Linux, поэтому они нас интересуют больше всего. Системные вызовы объединены в одну большую таблицу (sct) — одномерный массив из 256 элементов типа ulong (= указатели на ia32), где индексирование по номеру системного вызова даёт точку входа соответствующего вызова.</p>
 <empty-line/>
@@ -1648,7 +1751,8 @@
 <empty-line/>
 <p>Ладно, хватит говорить ни о чём — думаем, это достаточно понятно.</p>
 <empty-line/>
-<subtitle>3.1. Как получить sys_call_table[] без LKM</subtitle>
+</section>
+<section id="toc_sub_000106"><title><p>3.1. Как получить sys_call_table[] без LKM</p></title>
 <empty-line/>
 <p>Прежде всего заметим: ядро Linux _не хранит_ никакой информации о своих символах, если поддержка LKM не скомпилирована. Это вполне разумно — зачем она нужна без LKM? Для отладки? Для этого есть System.map. Но нам она нужна :) При наличии поддержки LKM существуют символы, предназначенные для импорта в LKM (в специальной секции компоновщика), но мы говорим про режим без LKM.</p>
 <empty-line/>
@@ -1657,7 +1761,7 @@
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_0131_645afd5e6c_part01.png"/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_0131_645afd5e6c_part02.png"/>
 <empty-line/>
-<p>Как это работает? Инструкция <code>sidt</code> «спрашивает процессор» о таблице дескрипторов прерываний [<code>asm (&quot;sidt %0&quot; : &quot;=m&quot; (idtr));</code>]. Из этой структуры мы получаем указатель на дескриптор прерывания int $0x80 [<code>readkmem (&amp;idt,idtr.base+8*0x80,sizeof(idt));</code>].</p>
+<p>Как это работает? Инструкция <code>sidt</code> «спрашивает процессор» о таблице дескрипторов прерываний [<code>asm ("sidt %0" : "=m" (idtr));</code>]. Из этой структуры мы получаем указатель на дескриптор прерывания int $0x80 [<code>readkmem (&amp;idt,idtr.base+8*0x80,sizeof(idt));</code>].</p>
 <empty-line/>
 <p>Из IDT мы вычисляем адрес точки входа int $0x80 [<code>sys_call_off = (idt.off2 &lt;&lt; 16) | idt.off1;</code>]. Отлично, мы знаем, где начинается int $0x80, но это ещё не наша любимая <code>sys_call_table[]</code>. Взглянем на точку входа int $0x80:</p>
 <empty-line/>
@@ -1667,7 +1771,7 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_0235_dbe1cbc08c.png"/>
 <empty-line/>
-<p><code>[memmem (sc_asm,CALLOFF,&quot;\xff\x14\x85&quot;,3);]</code></p>
+<p><code>[memmem (sc_asm,CALLOFF,"\xff\x14\x85",3);]</code></p>
 <empty-line/>
 <p>Более параноидальный вариант — полностью перенаправить обработчик int $0x80 в IDT на наш поддельный обработчик и перехватывать там интересующие вызовы. Это несколько сложнее, так как потребует обработки реентерабельности.</p>
 <empty-line/>
@@ -1675,7 +1779,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_0245_a1634872de.png"/>
 <empty-line/>
-<subtitle>3.2. Перехват диспетчеризации вызова sys_call_table[eax] через int 0x80</subtitle>
+</section>
+<section id="toc_sub_000107"><title><p>3.2. Перехват диспетчеризации вызова sys_call_table[eax] через int 0x80</p></title>
 <empty-line/>
 <p>При написании этой статьи мы обнаружили несколько «детекторов руткитов» на Packetstorm/Freshmeat, способных определять нарушения в LKM/таблице системных вызовов и других структурах ядра. К счастью, большинство из них слишком примитивны и легко обманываются трюком из [6] от SpaceWalker:</p>
 <empty-line/>
@@ -1687,7 +1792,8 @@
 <empty-line/>
 <p>Детекторы LKM (которые не проверяют согласованность int $0x80) ничего не увидят: <code>sys_call_table[]</code> осталась прежней, но int $0x80 использует подставленную нами таблицу.</p>
 <empty-line/>
-<subtitle>4. Выделение памяти в пространстве ядра без поддержки LKM</subtitle>
+</section>
+<section id="toc_sub_000108"><title><p>4. Выделение памяти в пространстве ядра без поддержки LKM</p></title>
 <empty-line/>
 <p>Следующее, что нам нужно, — страница памяти выше адреса 0xc0000000 (или 0x80000000). Значение 0xc0000000 — это граница раздела между пользовательской и ядерной памятью; пользовательские процессы не имеют доступа выше неё. Учтите, что это значение не фиксировано и может отличаться, поэтому его лучше определять динамически (из точки входа int $0x80).</p>
 <empty-line/>
@@ -1701,7 +1807,8 @@
 <p>• Мы не знаем значение <code>GFP_KERNEL</code> [раздел 4.3]</p>
 <p>• Мы не можем вызвать <code>kmalloc()</code> из пользовательского пространства [раздел 4.4]</p>
 <empty-line/>
-<subtitle>4.1. Поиск kmalloc() с помощью LKM</subtitle>
+</section>
+<section id="toc_sub_000109"><title><p>4.1. Поиск kmalloc() с помощью LKM</p></title>
 <empty-line/>
 <p>Если поддержка LKM доступна:</p>
 <empty-line/>
@@ -1709,7 +1816,8 @@
 <empty-line/>
 <p>Комментарии излишни.</p>
 <empty-line/>
-<subtitle>4.2. Поиск kmalloc() по паттерну</subtitle>
+</section>
+<section id="toc_sub_000110"><title><p>4.2. Поиск kmalloc() по паттерну</p></title>
 <empty-line/>
 <p>Если LKM недоступна, возникают трудности. Решение довольно грубое и не самое изящное, но, судя по всему, работает. Мы будем проходить по секции <code>.text</code> ядра и искать паттерны вида:</p>
 <empty-line/>
@@ -1724,7 +1832,8 @@
 <empty-line/>
 <p>Точность кода составляет около 80% (то есть 80% попаданий — kmalloc, 20% — мусор), и он работает на ядрах от 2.2.1 до 2.4.13.</p>
 <empty-line/>
-<subtitle>4.3. Значение GFP_KERNEL</subtitle>
+</section>
+<section id="toc_sub_000111"><title><p>4.3. Значение GFP_KERNEL</p></title>
 <empty-line/>
 <p>Следующая проблема при использовании <code>kmalloc()</code> — значение <code>GFP_KERNEL</code> варьируется между сериями ядер, но от неё можно избавиться с помощью <code>uname()</code>:</p>
 <empty-line/>
@@ -1736,7 +1845,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_0458_dbeafaa02e.png"/>
 <empty-line/>
-<subtitle>4.4. Перезапись системного вызова</subtitle>
+</section>
+<section id="toc_sub_000112"><title><p>4.4. Перезапись системного вызова</p></title>
 <empty-line/>
 <p>Как упоминалось выше, вызвать <code>kmalloc()</code> напрямую из пользовательского пространства нельзя. Решение — трюк Silvio [2] с заменой системного вызова:</p>
 <empty-line/>
@@ -1755,7 +1865,8 @@
 <empty-line/>
 <p>Теперь у нас есть память ядра, и мы можем скопировать туда наши обработчики, указать на них записи в поддельной <code>sys_call_table[]</code>, внедрить эту таблицу в int $0x80 и наслаждаться результатом :)</p>
 <empty-line/>
-<subtitle>5. На что следует обратить внимание</subtitle>
+</section>
+<section id="toc_sub_000113"><title><p>5. На что следует обратить внимание</p></title>
 <empty-line/>
 <p>При написании чего-либо с использованием данной техники рекомендуется соблюдать следующие правила:</p>
 <empty-line/>
@@ -1763,7 +1874,8 @@
 <p>• Работайте _только_ с системными вызовами, _не используйте_ внутренние структуры ядра, включая <code>task_struct</code>, если хотите сохранить переносимость между сериями ядер.</p>
 <p>• На SMP могут возникнуть проблемы — не забывайте о реентерабельности и там, где нужно, используйте блокировки пользовательского пространства [<code>src/core.c#ualloc()</code>].</p>
 <empty-line/>
-<subtitle>6. Возможные решения</subtitle>
+</section>
+<section id="toc_sub_000114"><title><p>6. Возможные решения</p></title>
 <empty-line/>
 <p>Теперь с точки зрения честного человека. Возможно, вы хотите защититься от атак, использующих подобные инструменты. Тогда примените следующий патч, делающий <code>/dev/kmem</code> доступным только для чтения, и отключите поддержку LKM в ядре.</p>
 <empty-line/>
@@ -1771,15 +1883,18 @@
 <empty-line/>
 <p>Обратите внимание: этот патч может вызвать проблемы в сочетании с некоторыми старыми утилитами, зависящими от возможности записи в <code>/dev/kmem</code>. Такова цена безопасности.</p>
 <empty-line/>
-<subtitle>7. Заключение</subtitle>
+</section>
+<section id="toc_sub_000115"><title><p>7. Заключение</p></title>
 <empty-line/>
 <p>Устройства прямого доступа к памяти в Linux оказываются весьма мощными. Злоумышленники (разумеется, с привилегиями root) могут использовать их для сокрытия своих действий, кражи информации, обеспечения удалённого доступа и тому подобного — долгое время оставаясь незамеченными. Насколько нам известно, эти устройства используются нечасто (в смысле доступа на запись), поэтому отключение возможности записи может быть хорошей идеей.</p>
 <empty-line/>
-<subtitle>8. Ссылки</subtitle>
+</section>
+<section id="toc_sub_000116"><title><p>8. Ссылки</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_0563_88581bb978.png"/>
 <empty-line/>
-<subtitle>9. Приложение: SucKIT — реализация</subtitle>
+</section>
+<section id="toc_sub_000117"><title><p>9. Приложение: SucKIT — реализация</p></title>
 <empty-line/>
 <p>Уверен, вы достаточно умны, чтобы самостоятельно извлечь, установить и использовать эти файлы.</p>
 <empty-line/>
@@ -1787,11 +1902,13 @@
 <empty-line/>
 <p>ВНИМАНИЕ: Это полностью рабочий руткит, демонстрирующий технику, описанную выше. Автор не несёт НИКАКОЙ ОТВЕТСТВЕННОСТИ за любой ущерб, причинённый (не)использованием этого программного обеспечения.</p>
 <empty-line/>
-<subtitle>./client/Makefile</subtitle>
+</section>
+<section id="toc_sub_000118"><title><p>./client/Makefile</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_0587_a2860fbde6.png"/>
 <empty-line/>
-<subtitle>./client/client.c</subtitle>
+</section>
+<section id="toc_sub_000119"><title><p>./client/client.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_0598_5b3c7cec57_part01.png"/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_0598_5b3c7cec57_part02.png"/>
@@ -1802,11 +1919,13 @@
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_0598_5b3c7cec57_part07.png"/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_0598_5b3c7cec57_part08.png"/>
 <empty-line/>
-<subtitle>./doc/LICENSE</subtitle>
+</section>
+<section id="toc_sub_000120"><title><p>./doc/LICENSE</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_0995_f14626a2b1.png"/>
 <empty-line/>
-<subtitle>./doc/CHANGES</subtitle>
+</section>
+<section id="toc_sub_000121"><title><p>./doc/CHANGES</p></title>
 <empty-line/>
 <p>[Таблица из ~50 записей истории изменений — опущена]</p>
 <empty-line/>
@@ -1817,7 +1936,8 @@
 <p>• <strong>0.3</strong>: больше не нужна поддержка LKM — получаем <code>sys_call_table[]</code> и <code>kmalloc()</code> напрямую из /dev/kmem</p>
 <p>• <strong>0.1</strong>: первый публичный выпуск под GNU/GPL</p>
 <empty-line/>
-<subtitle>./doc/README</subtitle>
+</section>
+<section id="toc_sub_000122"><title><p>./doc/README</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_1029_46ad054e35.png"/>
 <empty-line/>
@@ -1825,43 +1945,52 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_1073_37cd19e559.png"/>
 <empty-line/>
-<subtitle>./doc/TODO</subtitle>
+</section>
+<section id="toc_sub_000123"><title><p>./doc/TODO</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_1114_b4a256741f.png"/>
 <empty-line/>
-<subtitle>./include/suckit.h</subtitle>
+</section>
+<section id="toc_sub_000124"><title><p>./include/suckit.h</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_1125_b471ab30ff_part01.png"/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_1125_b471ab30ff_part02.png"/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_1125_b471ab30ff_part03.png"/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_1125_b471ab30ff_part04.png"/>
 <empty-line/>
-<subtitle>./include/asm.h</subtitle>
+</section>
+<section id="toc_sub_000125"><title><p>./include/asm.h</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_1310_976efc0a5e.png"/>
 <empty-line/>
-<subtitle>./include/ip.h</subtitle>
+</section>
+<section id="toc_sub_000126"><title><p>./include/ip.h</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_1333_7f7814f6cc.png"/>
 <empty-line/>
-<subtitle>./include/str.h</subtitle>
+</section>
+<section id="toc_sub_000127"><title><p>./include/str.h</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_1390_ea22aef438.png"/>
 <empty-line/>
-<subtitle>./src/main.c</subtitle>
+</section>
+<section id="toc_sub_000128"><title><p>./src/main.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_1434_f6efefd285.png"/>
 <empty-line/>
-<subtitle>./src/kernel.c</subtitle>
+</section>
+<section id="toc_sub_000129"><title><p>./src/kernel.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_1469_abfd75bad1_part01.png"/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_1469_abfd75bad1_part02.png"/>
 <empty-line/>
-<subtitle>./src/string.c</subtitle>
+</section>
+<section id="toc_sub_000130"><title><p>./src/string.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_1531_a4f88c29f1.png"/>
 <empty-line/>
-<subtitle>./src/core.c</subtitle>
+</section>
+<section id="toc_sub_000131"><title><p>./src/core.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_1552_c3a11d41da_part01.png"/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_1552_c3a11d41da_part02.png"/>
@@ -1878,22 +2007,26 @@
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_1552_c3a11d41da_part13.png"/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_1552_c3a11d41da_part14.png"/>
 <empty-line/>
-<subtitle>./src/client.c</subtitle>
+</section>
+<section id="toc_sub_000132"><title><p>./src/client.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_2242_6875ae1945_part01.png"/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_2242_6875ae1945_part02.png"/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_2242_6875ae1945_part03.png"/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_2242_6875ae1945_part04.png"/>
 <empty-line/>
-<subtitle>./src/gfp.c</subtitle>
+</section>
+<section id="toc_sub_000133"><title><p>./src/gfp.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_2415_4439f451b6.png"/>
 <empty-line/>
-<subtitle>./src/vsprintf.c</subtitle>
+</section>
+<section id="toc_sub_000134"><title><p>./src/vsprintf.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_007_linux_onthefly_kernel_patching_without_lkm_2452_ec0edf1f37.png"/>
 <empty-line/>
 <p><emphasis>— sd@sf.cz (sd@ircnet)</emphasis></p>
+</section>
 </section>
 <section id="sec_issue_058_008_ia32_advanced_function_hooking">
 <title><p>IA32 ADVANCED FUNCTION HOOKING</p></title>
@@ -1901,19 +2034,22 @@
 <empty-line/>
 <p><emphasis>8 декабря 2001 года</emphasis></p>
 <empty-line/>
-<subtitle>Содержание</subtitle>
+<section id="toc_sub_000135"><title><p>Содержание</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_008_ia32_advanced_function_hooking_0013_6d7c32cde9.png"/>
 <empty-line/>
-<subtitle>1 - Введение</subtitle>
+</section>
+<section id="toc_sub_000136"><title><p>1 - Введение</p></title>
 <empty-line/>
 <p>Перехват функций используется для злоупотреблений, журналирования, патчинга и отладки — вот очевидные причины, по которым это важно. Мы попробуем разобраться, как это работает. Демонстрационный контекст — среда ядра Linux. Статья завершается описанием библиотеки перехвата общего назначения для серии Linux kernel 2.4, разработанной на версии 2.4.5 и работающей на IA32. Она называется LKH — Linux Kernel Hooker.</p>
 <empty-line/>
-<subtitle>1.1 - История</subtitle>
+</section>
+<section id="toc_sub_000137"><title><p>1.1 - История</p></title>
 <empty-line/>
 <p>Одна из эталонных работ по теме перехвата функций была опубликована в ноябре 1999 года и написана Silvio Cesare (привет, дружище ;-). Реализация была весьма прямолинейной: перехват заключался в модификации первых байт функции с переходом на другой код — с целью фильтрации обращений к функции <code>acct_process</code> ядра и предотвращения учёта определённых процессов.</p>
 <empty-line/>
-<subtitle>1.2 - Новые требования</subtitle>
+</section>
+<section id="toc_sub_000138"><title><p>1.2 - Новые требования</p></title>
 <empty-line/>
 <p>С того времени была проделана определённая работа:</p>
 <empty-line/>
@@ -1923,9 +2059,11 @@
 <empty-line/>
 <p>• В некоторых случаях может потребоваться уничтожить перехватчик сразу после первого вызова — например, для сбора статистики (можно перехватывать один раз в секунду или в минуту).</p>
 <empty-line/>
-<subtitle>2 - Основы перехвата</subtitle>
+</section>
+<section id="toc_sub_000139"><title><p>2 - Основы перехвата</p></title>
 <empty-line/>
-<subtitle>2.1 - Стандартные техники</subtitle>
+</section>
+<section id="toc_sub_000140"><title><p>2.1 - Стандартные техники</p></title>
 <empty-line/>
 <p>Разумеется, основной код перехвата должен быть написан на языке ассемблера, тогда как обёртка написана на C. API высокого уровня LKH описан в соответствующем разделе. Сначала разберёмся с основами перехвата.</p>
 <empty-line/>
@@ -1943,7 +2081,8 @@
 <empty-line/>
 <p>• Включать, отключать, изменять параметры, добавлять или удалять коллбэки в любой момент.</p>
 <empty-line/>
-<subtitle>2.2 - О чём не стоит забывать</subtitle>
+</section>
+<section id="toc_sub_000141"><title><p>2.2 - О чём не стоит забывать</p></title>
 <empty-line/>
 <p><strong>-&gt; Функции без указателя фрейма:</strong></p>
 <empty-line/>
@@ -1971,7 +2110,8 @@
 <empty-line/>
 <p>• Вызвать POST-коллбэки.</p>
 <empty-line/>
-<subtitle>3 - Объяснение кода</subtitle>
+</section>
+<section id="toc_sub_000142"><title><p>3 - Объяснение кода</p></title>
 <empty-line/>
 <p>Сначала мы устанавливаем перехватчик.</p>
 <empty-line/>
@@ -2031,9 +2171,11 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_008_ia32_advanced_function_hooking_0256_070345f020.png"/>
 <empty-line/>
-<subtitle>4 - Использование библиотеки</subtitle>
+</section>
+<section id="toc_sub_000143"><title><p>4 - Использование библиотеки</p></title>
 <empty-line/>
-<subtitle>4.1 - API</subtitle>
+</section>
+<section id="toc_sub_000144"><title><p>4.1 - API</p></title>
 <empty-line/>
 <p>API LKH довольно прост в использовании:</p>
 <empty-line/>
@@ -2075,7 +2217,8 @@
 <empty-line/>
 <p>Обратите внимание, что добавлять или удалять записи можно в любой момент, независимо от состояния, типа и режима используемого перехватчика.</p>
 <empty-line/>
-<subtitle>4.2 - Разрешение символов ядра</subtitle>
+</section>
+<section id="toc_sub_000145"><title><p>4.2 - Разрешение символов ядра</p></title>
 <empty-line/>
 <p>В LKH была добавлена функция разрешения символов, позволяющая получать доступ к значениям экспортируемых функций.</p>
 <empty-line/>
@@ -2097,7 +2240,8 @@
 <empty-line/>
 <p>Не забудьте изменить <code>SYS_FORK</code> на собственное значение смещения <code>sys_fork</code>.</p>
 <empty-line/>
-<subtitle>4.3 - Внутренности LKH: объект hook\_t</subtitle>
+</section>
+<section id="toc_sub_000146"><title><p>4.3 - Внутренности LKH: объект hook\_t</p></title>
 <empty-line/>
 <p>Рассмотрим структуру <code>hook_t</code> (сущность перехватчика в памяти):</p>
 <empty-line/>
@@ -2117,11 +2261,12 @@
 <empty-line/>
 <p>Каждый раз при создании перехватчика объявляется и выделяется экземпляр <code>hook_t</code>. Для каждой функции, которую нужно перехватить, необходимо создать отдельный перехватчик.</p>
 <empty-line/>
-<subtitle>5 - Тестирование кода</subtitle>
+</section>
+<section id="toc_sub_000147"><title><p>5 - Тестирование кода</p></title>
 <empty-line/>
 <p>Актуальный код смотрите на http://www.devhell.org/~mayhem/. Пакет (версия 1.1) приложен в конце статьи.</p>
 <empty-line/>
-<p>Просто выполните <code>#include &quot;lkh.c&quot;</code> и начинайте! В этом примере модуля, использующего LKH, мы хотим перехватить:</p>
+<p>Просто выполните <code>#include "lkh.c"</code> и начинайте! В этом примере модуля, использующего LKH, мы хотим перехватить:</p>
 <empty-line/>
 <p>• функцию <code>hijack_me()</code> — здесь можно проверить корректную передачу параметров и их правильное изменение через коллбэки;</p>
 <empty-line/>
@@ -2129,11 +2274,13 @@
 <empty-line/>
 <p>• функцию <code>sys_fork()</code> — постоянный перехват (<code>PERMANENT</code>).</p>
 <empty-line/>
-<subtitle>5.1 - Загрузка модуля</subtitle>
+</section>
+<section id="toc_sub_000148"><title><p>5.1 - Загрузка модуля</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_008_ia32_advanced_function_hooking_0438_533ff291ac.png"/>
 <empty-line/>
-<subtitle>5.2 - Небольшие эксперименты</subtitle>
+</section>
+<section id="toc_sub_000149"><title><p>5.2 - Небольшие эксперименты</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_008_ia32_advanced_function_hooking_0463_d2d659147f.png"/>
 <empty-line/>
@@ -2145,7 +2292,8 @@
 <empty-line/>
 <p>Ниже приведён прокомментированный код для этой демонстрации:</p>
 <empty-line/>
-<subtitle>5.3 - Код</subtitle>
+</section>
+<section id="toc_sub_000150"><title><p>5.3 - Код</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_008_ia32_advanced_function_hooking_0491_4cd4d2b714_part01.png"/>
 <image l:href="#img__code_blocks_issue_058_008_ia32_advanced_function_hooking_0491_4cd4d2b714_part02.png"/>
@@ -2153,21 +2301,24 @@
 <image l:href="#img__code_blocks_issue_058_008_ia32_advanced_function_hooking_0491_4cd4d2b714_part04.png"/>
 <image l:href="#img__code_blocks_issue_058_008_ia32_advanced_function_hooking_0491_4cd4d2b714_part05.png"/>
 <empty-line/>
-<subtitle>6 - Ссылки</subtitle>
+</section>
+<section id="toc_sub_000151"><title><p>6 - Ссылки</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_008_ia32_advanced_function_hooking_0714_ffef510dd2.png"/>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_008_ia32_advanced_function_hooking_0725_91a8781345.png"/>
 </section>
+</section>
 <section id="sec_issue_058_009_rpc_without_borders">
 <title><p>RPC без границ (серфинг по USA...)</p></title>
 <p><strong>Автор:</strong> stealth &lt;stealth@segfault.net&gt;</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+<section id="toc_sub_000152"><title><p>Введение</p></title>
 <empty-line/>
 <p>В этой статье я расскажу о слабостях, уже существующих в современных технологиях удалённого доступа к объектам (с акцентом на новый протокол SOAP — Simple Object Access Protocol), а также о тех, которые могут проявиться в будущем. Я сделаю краткий обзор того, что уже доступно, и объясню, почему это используется и почему это имеет смысл. Поскольку тема <emphasis>настолько</emphasis> обширна, я могу дать лишь базовое представление о том, как эти вещи работают в целом; однако далее я сосредоточусь на реализации SOAP на Perl, где подробно объясню, где именно всё ломается, и попытаюсь «перенести» эти идеи на другие случаи. В конце приведены ссылки, чтобы вы могли самостоятельно разобраться в удалённом доступе к объектам — это чертовски интересная тема. :-)</p>
 <empty-line/>
-<subtitle>1. Новые RPC</subtitle>
+</section>
+<section id="toc_sub_000153"><title><p>1. Новые RPC</p></title>
 <empty-line/>
 <p>RPC в привычном вам виде использовался во многих сервисах на протяжении десятилетий — например, в NIS или NFS. Однако он никогда не был по-настоящему доступен для многоуровневых приложений и веб-приложений в частности (или, по крайней мере, RPC изначально не предназначался для этого).</p>
 <empty-line/>
@@ -2185,7 +2336,8 @@
 <empty-line/>
 <p>В отличие от «обычного» RPC, где для указания вызываемой функции требовались номера программы и версии, XML-RPC позволяет передавать полное имя функции через сокет, завёрнутое в XML-документ. Обычно необходимо регистрировать объекты (с соответствующими методами), доступные снаружи; по крайней мере, когда я писал распределённое банковское приложение на C++ с использованием CORBA, всё работало именно так ;-). Это справедливо и для технологии SOAP, как я объясню чуть ниже (признаться, меня мало волнует спецификация SOAP как таковая — меня интересуют конкретные реализации), но на этот раз мы можем передавать имена функций и объектов как строки, и мы увидим, что регистрация объектов не делает всё это настолько безопасным, как принято считать.</p>
 <empty-line/>
-<subtitle>2. Почему Perl</subtitle>
+</section>
+<section id="toc_sub_000154"><title><p>2. Почему Perl</p></title>
 <empty-line/>
 <p>Я сосредоточусь на реализациях SOAP на Perl, потому что Perl обладает особой возможностью вызывать функции косвенно:</p>
 <empty-line/>
@@ -2205,7 +2357,8 @@
 <empty-line/>
 <cite><p><emphasis>Perl позволяет вызывать функции косвенно, независимо от того, включён ли режим taint, и независимо от того, получено ли имя/аргумент функции извне.</emphasis></p></cite>
 <empty-line/>
-<subtitle>3. Как это работает</subtitle>
+</section>
+<section id="toc_sub_000155"><title><p>3. Как это работает</p></title>
 <empty-line/>
 <p>Начнём сразу с демонстрационной программы, использующей SOAP::Lite [soaplite], чтобы показать, что такое XML-RPC:</p>
 <empty-line/>
@@ -2235,7 +2388,8 @@
 <empty-line/>
 <p>Успех. Разбирать это подробно я не буду: во-первых, это не представляет дальнейшего интереса, а во-вторых, книжный магазин, в котором я заказал книгу по SOAP, так её и не прислал.</p>
 <empty-line/>
-<subtitle>4. Где всё ломается</subtitle>
+</section>
+<section id="toc_sub_000156"><title><p>4. Где всё ломается</p></title>
 <empty-line/>
 <p>Почему бы не попробовать вызвать другие функции, не принадлежащие пакету? Думаю, <code>main::authenticated()</code> была бы отличной целью.</p>
 <empty-line/>
@@ -2273,11 +2427,12 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_009_rpc_without_borders_0291_704c79d8e6.png"/>
 <empty-line/>
-<p>что вызовет <code>Demo-&gt;HTTP::Daemon::ClientConn::send_file(&quot;|/bin/ps&quot;)</code>, то есть <code>HTTP::Daemon::ClientConn::send_file(Demo, &quot;|/bin/ps&quot;)</code>, где нас интересует только второй аргумент (<code>$file</code> для вызова <code>open</code> :-).</p>
+<p>что вызовет <code>Demo-&gt;HTTP::Daemon::ClientConn::send_file("|/bin/ps")</code>, то есть <code>HTTP::Daemon::ClientConn::send_file(Demo, "|/bin/ps")</code>, где нас интересует только второй аргумент (<code>$file</code> для вызова <code>open</code> :-).</p>
 <empty-line/>
 <p>Думаю, теперь вы понимаете, что происходит — даже если бы вызова <code>open()</code> не было, всё равно достаточно опасно то, что мы можем вызвать <emphasis>любую</emphasis>, повторяю, <emphasis>любую</emphasis> функцию в Perl-демоне, доступную во время выполнения (будь то в пакете <code>main</code> или в пакете, подключённом через <code>use</code> или <code>require</code>, за исключением <code>CORE</code>, который недоступен).</p>
 <empty-line/>
-<subtitle>5. Tritt ein, bring Glueck herein</subtitle>
+</section>
+<section id="toc_sub_000157"><title><p>5. Tritt ein, bring Glueck herein</p></title>
 <empty-line/>
 <p>Может быть интересно обнаружить, запущен ли на данном порту сервер SOAP-Lite. Ничего проще:</p>
 <empty-line/>
@@ -2291,7 +2446,8 @@
 <empty-line/>
 <p>Имена классов обычно описываются в документации, чтобы дать разработчикам клиентов всю необходимую информацию. Очень часто сайт, предоставляющий SOAP-сервис, описывает на своих страницах, как с ним взаимодействовать. Однако если SOAP когда-нибудь получит широкое распространение, вероятно, потребуются более совершенные техники сканирования.</p>
 <empty-line/>
-<subtitle>6. Защита</subtitle>
+</section>
+<section id="toc_sub_000158"><title><p>6. Защита</p></title>
 <empty-line/>
 <p>Весьма любопытно, что люди считают, будто безопасность достигается использованием HTTPS вместо HTTP. Я видел «защищённые» SOAP-серверы, которые просто использовали HTTPS в качестве транспортного протокола и объявлялись «безопасными серверами».</p>
 <empty-line/>
@@ -2307,19 +2463,21 @@
 <empty-line/>
 <p>Это не только проблема Perl, насколько я знаю: другие языки тоже допускают косвенный вызов функций — например, Java или PHP. :-) Я не смотрел на Java или CORBA для Perl, но не удивлюсь, если там существуют аналогичные проблемы.</p>
 <empty-line/>
-<subtitle>7. Ссылки</subtitle>
+</section>
+<section id="toc_sub_000159"><title><p>7. Ссылки</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_009_rpc_without_borders_0359_d7c4433e73.png"/>
 <empty-line/>
 <p><emphasis>|=[ EOF ]=---------------------------------------------------------------|</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_058_010_developing_strongarm_linux_shellcode">
 <title><p>Разработка шеллкода для StrongARM/Linux</p></title>
 <p><strong>Автор:</strong> funkysh &lt;funkysh@sm.pl&gt;</p>
 <empty-line/>
-<p><emphasis>&quot;Into my ARMs&quot;</emphasis></p>
+<p><emphasis>"Into my ARMs"</emphasis></p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+<section id="toc_sub_000160"><title><p>Введение</p></title>
 <empty-line/>
 <p>Эта статья охватывает материал, необходимый для написания шеллкода под StrongARM Linux. Все примеры в статье были разработаны на Compaq iPAQ H3650 с процессором Intel StrongARM-1110 под управлением Debian Linux. Обратите внимание, что данный документ не является полным руководством по архитектуре ARM и не является учебником по языку ассемблера. Хотя я надеюсь, что здесь нет серьёзных ошибок, стоит отметить, что StrongARM может быть не полностью совместим с другими ARM (тем не менее, я нередко пишу просто «ARM», когда это не принципиально). Документ разделён на девять разделов:</p>
 <empty-line/>
@@ -2333,17 +2491,20 @@
 <p>• Примеры кода</p>
 <p>• Ссылки</p>
 <empty-line/>
-<subtitle>Краткая история ARM</subtitle>
+</section>
+<section id="toc_sub_000161"><title><p>Краткая история ARM</p></title>
 <empty-line/>
 <p>Первый процессор ARM (ARM расшифровывается как Advanced RISC Machine) был разработан и выпущен компанией Acorn Computer Group в середине 80-х годов. С самого начала целью было создание недорогого процессора с низким энергопотреблением, высокой производительностью и энергоэффективностью. В 1990 году Acorn совместно с Apple Computer основали новую компанию Advanced RISC Machines Ltd. В наши дни ARM Ltd не производит процессоры, а лишь разрабатывает их и лицензирует дизайн сторонним производителям. Технологию ARM лицензирует целый ряд крупных компаний, включая Lucent, 3Com, HP, IBM, Sony и многих других.</p>
 <empty-line/>
 <p>StrongARM стал результатом совместной работы ARM Ltd и Digital над дизайном, использующим набор инструкций процессоров ARM, но построенным на чиповой технологии серии Alpha. Digital продала своё чиповое производство корпорации Intel. StrongARM от Intel (включая SA-110 и SA-1110) реализует архитектуру ARM v4, описанную в [1].</p>
 <empty-line/>
-<subtitle>Архитектура ARM</subtitle>
+</section>
+<section id="toc_sub_000162"><title><p>Архитектура ARM</p></title>
 <empty-line/>
 <p>ARM — это 32-разрядный микропроцессор, разработанный в архитектуре RISC, то есть он имеет сокращённый набор инструкций в противовес типичным CISC-процессорам вроде x86 или m68k. Преимущества сокращённого набора инструкций включают возможность оптимизации скорости с помощью, например, конвейеризации или жёсткой логики. Также инструкции и режимы адресации могут быть сделаны идентичными для большинства команд. ARM является архитектурой load/store: операции обработки данных работают только с содержимым регистров, но не напрямую с памятью. Дополнительно поддерживаются такие возможности, как инструкции множественной загрузки и сохранения, а также условное выполнение всех инструкций. Очевидно, что каждая инструкция имеет одинаковую длину — 32 бита.</p>
 <empty-line/>
-<subtitle>Регистры ARM</subtitle>
+</section>
+<section id="toc_sub_000163"><title><p>Регистры ARM</p></title>
 <empty-line/>
 <p>ARM имеет 16 видимых 32-разрядных регистров: от r0 до r14 и r15 (pc). Упрощённо можно сказать, что существует 13 «регистров общего назначения» — от r0 до r12 (регистры с r0 по r7 являются небанкированными, то есть они ссылаются на один и тот же 32-разрядный физический регистр во всех режимах процессора, не имеют специального назначения и могут использоваться свободно в любом месте, где допустим регистр общего назначения) — и три регистра, зарезервированных для «специальных» целей (фактически все 15 регистров являются регистрами общего назначения):</p>
 <empty-line/>
@@ -2355,7 +2516,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_010_developing_strongarm_linux_shellcode_0057_7930815fbc.png"/>
 <empty-line/>
-<subtitle>Набор инструкций</subtitle>
+</section>
+<section id="toc_sub_000164"><title><p>Набор инструкций</p></title>
 <empty-line/>
 <p>Как уже было сказано, ARM, как и большинство других RISC-процессоров, имеет инструкции фиксированной длины (в данном случае — 32 бита). Также упоминалось, что все инструкции могут быть условными: в битовом представлении старшие 4 бита (31–28) используются для указания условия, при котором инструкция выполняется.</p>
 <empty-line/>
@@ -2368,7 +2530,8 @@
 <empty-line/>
 <p>Инструкции передачи регистра состояния и инструкции сопроцессора здесь опущены.</p>
 <empty-line/>
-<subtitle>1. Инструкции ветвления</subtitle>
+</section>
+<section id="toc_sub_000165"><title><p>1. Инструкции ветвления</p></title>
 <empty-line/>
 <p>Существуют две инструкции ветвления:</p>
 <empty-line/>
@@ -2376,7 +2539,8 @@
 <empty-line/>
 <p>Выполнение «ветвления со связью», как упоминалось в предыдущем разделе, приводит к записи в <code>lr</code> адреса следующей инструкции.</p>
 <empty-line/>
-<subtitle>2. Инструкции обработки данных</subtitle>
+</section>
+<section id="toc_sub_000166"><title><p>2. Инструкции обработки данных</p></title>
 <empty-line/>
 <p>Инструкции обработки данных в общем случае используют формат трёх адресов:</p>
 <empty-line/>
@@ -2388,7 +2552,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_010_developing_strongarm_linux_shellcode_0106_60a5b7b2c7.png"/>
 <empty-line/>
-<subtitle>3. Инструкции загрузки и сохранения</subtitle>
+</section>
+<section id="toc_sub_000167"><title><p>3. Инструкции загрузки и сохранения</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_010_developing_strongarm_linux_shellcode_0118_76d5aaea96.png"/>
 <empty-line/>
@@ -2404,13 +2569,15 @@
 <empty-line/>
 <p>Аналогичная инструкция для загрузки нескольких регистров из памяти: <code>ldm</code>.</p>
 <empty-line/>
-<subtitle>4. Инструкции генерации исключений</subtitle>
+</section>
+<section id="toc_sub_000168"><title><p>4. Инструкции генерации исключений</p></title>
 <empty-line/>
 <p>Нас интересует только программное прерывание: <code>swi &lt;номер&gt;</code> — оно вызывает исключение программного прерывания и используется как системный вызов.</p>
 <empty-line/>
 <p>Список инструкций, представленный в данном разделе, не является полным; полный набор можно найти в [1].</p>
 <empty-line/>
-<subtitle>Системные вызовы</subtitle>
+</section>
+<section id="toc_sub_000169"><title><p>Системные вызовы</p></title>
 <empty-line/>
 <p>В Linux на процессоре StrongARM база системных вызовов смещена на 0x900000, что не очень хорошо для авторов шеллкода: приходится иметь дело с нулевыми байтами в опкоде инструкции.</p>
 <empty-line/>
@@ -2422,9 +2589,11 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_010_developing_strongarm_linux_shellcode_0159_7d7afc8a88.png"/>
 <empty-line/>
-<subtitle>Типичные операции</subtitle>
+</section>
+<section id="toc_sub_000170"><title><p>Типичные операции</p></title>
 <empty-line/>
-<subtitle>Загрузка больших значений</subtitle>
+</section>
+<section id="toc_sub_000171"><title><p>Загрузка больших значений</p></title>
 <empty-line/>
 <p>Поскольку каждая инструкция ARM занимает 32-битное слово, включая поле опкода, условие и номера регистров, загрузить большое непосредственное значение в регистр одной инструкцией невозможно. Эту проблему можно решить с помощью возможности, называемой «сдвигом». Ассемблер ARM использует шесть дополнительных мнемоник для шести различных типов сдвига:</p>
 <empty-line/>
@@ -2434,7 +2603,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_010_developing_strongarm_linux_shellcode_0230_90c7451a3b.png"/>
 <empty-line/>
-<subtitle>Позиционная независимость</subtitle>
+</section>
+<section id="toc_sub_000172"><title><p>Позиционная независимость</p></title>
 <empty-line/>
 <p>Получить текущую позицию кода довольно легко: <code>pc</code> является регистром общего назначения и может быть прочитан в любой момент либо загружен 32-битным значением для перехода по любому адресу в памяти.</p>
 <empty-line/>
@@ -2450,7 +2620,8 @@
 <empty-line/>
 <p>Теперь r0 указывает на <code>swi 0x900001</code>.</p>
 <empty-line/>
-<subtitle>Циклы</subtitle>
+</section>
+<section id="toc_sub_000173"><title><p>Циклы</p></title>
 <empty-line/>
 <p>Допустим, нам нужно выполнить некоторую инструкцию три раза. Типичный цикл строится следующим образом:</p>
 <empty-line/>
@@ -2460,13 +2631,15 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_010_developing_strongarm_linux_shellcode_0271_8052b8c602.png"/>
 <empty-line/>
-<subtitle>Инструкция nop</subtitle>
+</section>
+<section id="toc_sub_000174"><title><p>Инструкция nop</p></title>
 <empty-line/>
 <p>На ARM в качестве nop используется <code>mov r0, r0</code>, однако она содержит нулевые байты, поэтому при написании proof-of-concept кода для уязвимостей нужно использовать другую «нейтральную» инструкцию, например <code>mov r1, r1</code>:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_010_developing_strongarm_linux_shellcode_0282_df90d09cca.png"/>
 <empty-line/>
-<subtitle>Избегание нулевых байтов</subtitle>
+</section>
+<section id="toc_sub_000175"><title><p>Избегание нулевых байтов</p></title>
 <empty-line/>
 <p>Почти любая инструкция, использующая регистр r0, генерирует нулевой байт на ARM. Обычно это решается заменой инструкции другой или использованием самомодифицирующегося кода.</p>
 <empty-line/>
@@ -2486,7 +2659,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_010_developing_strongarm_linux_shellcode_0319_9aec0aa67c.png"/>
 <empty-line/>
-<subtitle>Примеры кода</subtitle>
+</section>
+<section id="toc_sub_000176"><title><p>Примеры кода</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_010_developing_strongarm_linux_shellcode_0328_184ecbdc09.png"/>
 <empty-line/>
@@ -2495,15 +2669,17 @@
 <image l:href="#img__code_blocks_issue_058_010_developing_strongarm_linux_shellcode_0360_7002b65a7a_part01.png"/>
 <image l:href="#img__code_blocks_issue_058_010_developing_strongarm_linux_shellcode_0360_7002b65a7a_part02.png"/>
 <empty-line/>
-<subtitle>Ссылки</subtitle>
+</section>
+<section id="toc_sub_000177"><title><p>Ссылки</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_010_developing_strongarm_linux_shellcode_0422_e615907936.png"/>
+</section>
 </section>
 <section id="sec_issue_058_011_hp_ux_pa_risc_overflows">
 <title><p>Переполнения буфера в HP-UX (PA-RISC 1.1)</p></title>
 <p><strong>Автор:</strong> Zhodiac &lt;zhodiac@softhome.net&gt;</p>
 <empty-line/>
-<subtitle>Содержание</subtitle>
+<section id="toc_sub_000178"><title><p>Содержание</p></title>
 <empty-line/>
 <p>1. Введение в PA-RISC</p>
 <p>• 1.1. Основы RISC</p>
@@ -2517,7 +2693,8 @@
 <p>5. Ресурсы</p>
 <p>6. Благодарности</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+</section>
+<section id="toc_sub_000179"><title><p>Введение</p></title>
 <empty-line/>
 <p>Чёрт возьми, ещё один документ о переполнении буфера! Однако эта статья не призвана объяснять эксплуатацию переполнений буфера как таковую и не является введением в программирование на ассемблере. Данная статья сосредоточена на трёх основных темах:</p>
 <empty-line/>
@@ -2537,9 +2714,11 @@
 <p>5. Ресурсы</p>
 <p>6. Благодарности</p>
 <empty-line/>
-<subtitle>1. Введение в PA-RISC</subtitle>
+</section>
+<section id="toc_sub_000180"><title><p>1. Введение в PA-RISC</p></title>
 <empty-line/>
-<subtitle>1.1. Основы RISC</subtitle>
+</section>
+<section id="toc_sub_000181"><title><p>1.1. Основы RISC</p></title>
 <empty-line/>
 <p>RISC (Reduced Instruction Set Computing, вычисления с сокращённым набором команд) — это процессоры с уменьшенным набором инструкций, способные выполнять те же задачи, что и CISC-процессоры (Complex Instruction Set Computing, вычисления с полным набором команд).</p>
 <empty-line/>
@@ -2558,7 +2737,8 @@
 <p>• Постинкремент в инструкции</p>
 <p>• 12 форматов инструкций, все длиной 32 бита</p>
 <empty-line/>
-<subtitle>1.2. Регистры</subtitle>
+</section>
+<section id="toc_sub_000182"><title><p>1.2. Регистры</p></title>
 <empty-line/>
 <p>В PA-RISC 1.1 существует четыре типа регистров:</p>
 <empty-line/>
@@ -2588,7 +2768,8 @@
 <p>• Управляющие регистры доступны только в привилегированном режиме процессора.</p>
 <p>• В PA-RISC 2.0 размер регистров составляет 64 бита.</p>
 <empty-line/>
-<subtitle>1.3. Листовые и нелистовые функции</subtitle>
+</section>
+<section id="toc_sub_000183"><title><p>1.3. Листовые и нелистовые функции</p></title>
 <empty-line/>
 <p>В HP-UX существует два основных класса функций (аналогично SPARC):</p>
 <empty-line/>
@@ -2616,7 +2797,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_011_hp_ux_pa_risc_overflows_0166_585411e6ee.png"/>
 <empty-line/>
-<subtitle>2. Организация стека</subtitle>
+</section>
+<section id="toc_sub_000184"><title><p>2. Организация стека</p></title>
 <empty-line/>
 <p>Приведённая ниже организация стека актуальна для PA-RISC 1.1 на HP-UX B10.20 при использовании компилятора gcc (хотя будут также упомянуты некоторые особенности родного cc). Никакой документации по этой теме автор не нашёл, поэтому всё основано на GDB и собственных умозаключениях.</p>
 <empty-line/>
@@ -2672,7 +2854,8 @@
 <empty-line/>
 <p>В конце каждой функции все выполненные операции отменяются: %rp считывается из стека, восстанавливаются %sp и %r3, после чего выполняется переход по %rp.</p>
 <empty-line/>
-<subtitle>3. Advanced Buffer Overflow #2</subtitle>
+</section>
+<section id="toc_sub_000185"><title><p>3. Advanced Buffer Overflow #2</p></title>
 <empty-line/>
 <p>На следующей странице:</p>
 <empty-line/>
@@ -2705,21 +2888,25 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_011_hp_ux_pa_risc_overflows_0472_699668a388.png"/>
 <empty-line/>
-<subtitle>4. Дополнения</subtitle>
+</section>
+<section id="toc_sub_000186"><title><p>4. Дополнения</p></title>
 <empty-line/>
 <p>Ниже представлены два шеллкода для HP-UX. Первый — локальный, просто запускает /bin/sh; обратите внимание на его компактный размер — всего 47 байт. Второй во время своей разработки был первым известным автору удалённым шеллкодом. Он использует inetd для открытия шелла на TCP-порту. Существует и третий шеллкод, реализующий все системные вызовы socket(), bind(), dup2(), но он был утерян. Бывает (и fsck тут тоже не поможет). :(</p>
 <empty-line/>
-<subtitle>4.1. Локальный шеллкод</subtitle>
+</section>
+<section id="toc_sub_000187"><title><p>4.1. Локальный шеллкод</p></title>
 <empty-line/>
 <p>В настоящее время существует несколько HP-UX шеллкодов (некоторые разработаны на домашней странице Fyodor'а, ещё несколько — lsd-pl), однако во время своей разработки единственным публичным был шеллкод K2 из ADM. Данный шеллкод несколько оптимизирован — он на 13 байт меньше по размеру.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_011_hp_ux_pa_risc_overflows_0495_7e33acbba4.png"/>
 <empty-line/>
-<subtitle>4.2. Удалённый шеллкод</subtitle>
+</section>
+<section id="toc_sub_000188"><title><p>4.2. Удалённый шеллкод</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_011_hp_ux_pa_risc_overflows_0522_5a4d4b5635.png"/>
 <empty-line/>
-<subtitle>5. Ресурсы</subtitle>
+</section>
+<section id="toc_sub_000189"><title><p>5. Ресурсы</p></title>
 <empty-line/>
 <p>Для получения дополнительной информации можно обратиться к следующим источникам:</p>
 <empty-line/>
@@ -2741,7 +2928,8 @@
 <p>• <strong>[5]</strong> По любым вопросам можно написать мне :)</p>
 <p>Zhodiac &lt;zhodiac@softhome.net&gt;</p>
 <empty-line/>
-<subtitle>6. Благодарности</subtitle>
+</section>
+<section id="toc_sub_000190"><title><p>6. Благодарности</p></title>
 <empty-line/>
 <p>• <strong>[CrAsH]</strong> — без её поддержки этого документа не существовало бы. :***</p>
 <p>• <strong>DarkCode</strong> — за долгие разговоры об архитектурах SPARC и PA-RISC :)</p>
@@ -2750,6 +2938,7 @@
 <p>• <strong>Список рассылки 0xdeadcafe</strong> — за отличные темы для обсуждений.</p>
 <empty-line/>
 <p><emphasis>Мадрид, 11.10.2001</emphasis></p>
+</section>
 </section>
 <section id="sec_issue_058_012_inferno_os_security">
 <title><p>Безопасность Inferno OS</p></title>
@@ -2781,7 +2970,7 @@
 <empty-line/>
 <p>Всё просто. Команды <code>lib/cs</code>, <code>lib/srv</code> и <code>mount</code> можно добавить в автозапуск при загрузке. Пример с <code>mount</code> — лишь один из бесчисленного множества вариантов использования двух хостов. Можно, например, управлять своим Lego [1]. Читайте man-страницы.</p>
 <empty-line/>
-<subtitle>Уязвимости безопасности</subtitle>
+<section id="toc_sub_000191"><title><p>Уязвимости безопасности</p></title>
 <empty-line/>
 <p>Из-за особенностей архитектуры Inferno и способа её применения безопасность системы может быть легко обойдена, что даёт несанкционированный доступ к удалённым машинам и к файлам текущей машины, к которым у вас не должно быть доступа.</p>
 <empty-line/>
@@ -2801,7 +2990,8 @@
 <empty-line/>
 <p>Ниже я поделюсь техниками, позволяющими существенно расширить возможности при работе с Inferno. Никаких фокусов и скрытых условий. Если у вас есть доступ к консоли — Inferno у вас в руках. Всё описанное можно сделать через удалённый вход; в случае Windows 95/98 это работает как локально, так и удалённо. Тестовые машины настроены с правами доступа, предложенными при установке.</p>
 <empty-line/>
-<subtitle>1) Windows</subtitle>
+</section>
+<section id="toc_sub_000192"><title><p>1) Windows</p></title>
 <empty-line/>
 <p>Если Inferno запущена под Windows 95/98, она даже не попытается защитить ключевые файлы. Даже если бы попыталась — мы просто взяли бы нужное из Windows, поскольку путь к пространству имён Inferno по умолчанию — <code>C:\USERS\INFERNO</code>. Смотрите:</p>
 <empty-line/>
@@ -2809,13 +2999,15 @@
 <empty-line/>
 <p>После этого можно войти от имени dalai с третьей машины или подключиться к серверу на машине с Windows. Это не так серьёзно, как кажется, с учётом предполагаемых сценариев использования Inferno. Таким же способом можно получить файл паролей <code>/keydb/password</code>.</p>
 <empty-line/>
-<subtitle>2) clogon</subtitle>
+</section>
+<section id="toc_sub_000193"><title><p>2) clogon</p></title>
 <empty-line/>
 <p>Ниже приведён мой консольный порт утилиты GUI-входа, поставляемой с Inferno. Я называю его clogon. Теперь вы не сможете сказать, что я ничего для вас не сделал. Утилита делает то же самое, что <code>wm/logon</code>, но работает в текстовой консоли. Inferno позволяет сменить имя пользователя один раз за сессию.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_012_inferno_os_security_0118_0117c2e313.png"/>
 <empty-line/>
-<subtitle>3) hellfire</subtitle>
+</section>
+<section id="toc_sub_000194"><title><p>3) hellfire</p></title>
 <empty-line/>
 <p>Hellfire — мой взломщик паролей для Inferno. Файл паролей находится по пути <code>/keydb/password</code> и содержит список пользователей, которые будут входить удалённо. Исходный код Hellfire приведён ниже, а также доступен на странице Trauma Inc.</p>
 <empty-line/>
@@ -2823,7 +3015,8 @@
 <empty-line/>
 <p>Пароль локальной машины вам не нужен, однако в сочетании с ключами пользователя вы можете использовать его для получения доступа к удалённой машине. Аналогичным образом это работает с более распространёнными распределёнными сервисами. В тот день, когда коммунальные службы начнут полагаться на Inferno, я подключу свой компьютер к стиральной машине и сушилке.</p>
 <empty-line/>
-<subtitle>Inferno как точка входа в хостовую ОС</subtitle>
+</section>
+<section id="toc_sub_000195"><title><p>Inferno как точка входа в хостовую ОС</p></title>
 <empty-line/>
 <p>Inferno может работать автономно или поверх другой ОС (Plan9, Win32, различные варианты Unix). При хостовом режиме нередко открываются возможности не только для взлома Inferno с хоста, но и для взлома хоста из Inferno.</p>
 <empty-line/>
@@ -2839,15 +3032,18 @@
 <empty-line/>
 <p>Обратите внимание: в системах Windows аргумент <code>os</code> должен быть бинарным исполняемым файлом, находящимся в текущем пути. Встроенные команды стандартного интерпретатора Windows (<code>command</code>) работать не будут. Как и в Unix, команда выполняется под тем же идентификатором пользователя, что запустил <code>emu</code>. Кроме того, под Inferno можно сделать видимой файловую систему DOS/Windows/ISO9660.</p>
 <empty-line/>
-<subtitle>Заключение</subtitle>
+</section>
+<section id="toc_sub_000196"><title><p>Заключение</p></title>
 <empty-line/>
 <p>Заинтересовавшись Inferno, я скачал её и поиграл с ней некоторое время. Интерес оказался достаточным, чтобы написать эту статью, и в целом я доволен системой. Кто знает — возможно, я даже использую её в каких-нибудь будущих проектах. Если вам нравится синтаксис и дух Inferno, но вы хотите более зрелую производственную ОС, обратите внимание на Plan9.</p>
 <empty-line/>
-<subtitle>Примечания</subtitle>
+</section>
+<section id="toc_sub_000197"><title><p>Примечания</p></title>
 <empty-line/>
 <p>[1] Styx on a Brick: http://www.vitanuova.com/inferno/lego1.html</p>
 <empty-line/>
-<subtitle>Исходный код: clogon.b</subtitle>
+</section>
+<section id="toc_sub_000198"><title><p>Исходный код: clogon.b</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_012_inferno_os_security_0185_b88dc266c1.png"/>
 <empty-line/>
@@ -2855,11 +3051,13 @@
 <image l:href="#img__code_blocks_issue_058_012_inferno_os_security_0189_c9f008d619_part02.png"/>
 <image l:href="#img__code_blocks_issue_058_012_inferno_os_security_0189_c9f008d619_part03.png"/>
 <empty-line/>
-<subtitle>Исходный код: hellfire.b</subtitle>
+</section>
+<section id="toc_sub_000199"><title><p>Исходный код: hellfire.b</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_012_inferno_os_security_0316_f0094d23cc_part01.png"/>
 <image l:href="#img__code_blocks_issue_058_012_inferno_os_security_0316_f0094d23cc_part02.png"/>
 <image l:href="#img__code_blocks_issue_058_012_inferno_os_security_0316_f0094d23cc_part03.png"/>
+</section>
 </section>
 <section id="sec_issue_058_013_phrack_world_news">
 <title><p>Phrack World News</p></title>
@@ -2875,7 +3073,7 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_013_phrack_world_news_0019_b139e0df0b.png"/>
 <empty-line/>
-<subtitle>0x01 — Медиаконтроль cDc</subtitle>
+<section id="toc_sub_000200"><title><p>0x01 — Медиаконтроль cDc</p></title>
 <empty-line/>
 <p>На Hope2000/NYC руководство cDc объявило о новом проекте по созданию инфраструктуры туннелей и точек доступа, которая обеспечила бы неограниченный доступ к интернету пользователям из стран, где им законодательно запрещено выходить за пределы государственно установленных границ «их» интернета. Китай был одной из целевых стран.</p>
 <empty-line/>
@@ -2897,7 +3095,8 @@
 <empty-line/>
 <p>URL: http://hes.iki.fi/pub/ham/unix/utils/ URL: http://www.wavelets.com</p>
 <empty-line/>
-<subtitle>0x02 — Хак-орист</subtitle>
+</section>
+<section id="toc_sub_000201"><title><p>0x02 — Хак-орист</p></title>
 <empty-line/>
 <p>Расс Купер хочет посадить всех вас, вирусописателей и «хакористов», в тюрьму: http://www.wired.com/news/politics/0,1283,49313-2,00.html</p>
 <empty-line/>
@@ -2911,9 +3110,10 @@
 <empty-line/>
 <cite><p>«На сегодняшний день не известно ни одного террориста, нарушившего Закон о компьютерном мошенничестве и злоупотреблениях».</p></cite>
 <empty-line/>
-<cite><p>«...пятилетний срок исковой давности за хакерство был бы отменён с обратной силой — что позволило бы преследовать компьютерные преступления, совершённые десятилетия назад, — а максимальный срок лишения свободы по одному обвинению был бы увеличен до пожизненного заключения. В федеральной системе правосудия условно-досрочного освобождения нет. Те, кого признают виновными в предоставлении &quot;советов или помощи&quot; кибер-преступникам, а также в укрывательстве или сокрытии компьютерного взломщика, столкнулись бы с теми же правовыми последствиями, что и сам взломщик».</p></cite>
+<cite><p>«...пятилетний срок исковой давности за хакерство был бы отменён с обратной силой — что позволило бы преследовать компьютерные преступления, совершённые десятилетия назад, — а максимальный срок лишения свободы по одному обвинению был бы увеличен до пожизненного заключения. В федеральной системе правосудия условно-досрочного освобождения нет. Те, кого признают виновными в предоставлении "советов или помощи" кибер-преступникам, а также в укрывательстве или сокрытии компьютерного взломщика, столкнулись бы с теми же правовыми последствиями, что и сам взломщик».</p></cite>
 <empty-line/>
-<subtitle>0x03 — Первый международный договор о киберпреступности</subtitle>
+</section>
+<section id="toc_sub_000202"><title><p>0x03 — Первый международный договор о киберпреступности</p></title>
 <empty-line/>
 <p>Совет Европы (СЕ) опубликовал очередной вариант Договора о киберпреступности. Совет был учреждён после Второй мировой войны в 1949 году. С тех пор СЕ занимается подготовкой и согласованием европейских конвенций и соглашений. За 52 года существования СЕ опубликовал 185 договоров (один документ каждые четыре месяца — вот на что идут ваши налоги). Большинство договоров общедоступны в интернете — с изъятой секретной информацией (да, ваши налоги также платят человеку, который изымает сведения, наиболее интересные всем нам).</p>
 <empty-line/>
@@ -2932,7 +3132,8 @@
 <empty-line/>
 <p>Полный текст договора доступен по адресу: http://conventions.coe.int/Treaty/EN/projets/FinalCybercrime.htm</p>
 <empty-line/>
-<subtitle>0x04 — Закон о содействии в осуществлении оперативно-розыскной деятельности в сфере коммуникаций</subtitle>
+</section>
+<section id="toc_sub_000203"><title><p>0x04 — Закон о содействии в осуществлении оперативно-розыскной деятельности в сфере коммуникаций</p></title>
 <empty-line/>
 <p>(Communications Assistance for Law Enforcement Act, CALEA) [1].</p>
 <empty-line/>
@@ -2963,7 +3164,8 @@
 <p>Хотите узнать больше?</p>
 <p>[1] http://www.askcalea.net/</p>
 <empty-line/>
-<subtitle>0x05 — Разные новости</subtitle>
+</section>
+<section id="toc_sub_000204"><title><p>0x05 — Разные новости</p></title>
 <empty-line/>
 <p>Дядя Сэм хочет, чтобы вы сегодня же стали «сертифицированным следователем Сети по высокотехнологичным преступлениям»! Я думал, что требованиям CISSP невозможно дать фору... http://www.htcn.org/</p>
 <empty-line/>
@@ -2977,6 +3179,7 @@
 <empty-line/>
 <p><emphasis>— Конец PWN —</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_058_014_phrack_extraction_utility">
 <title><p>Утилита извлечения Phrack</p></title>
 <p><strong>Автор:</strong> phrackstaff</p>
@@ -2985,7 +3188,7 @@
 <empty-line/>
 <p>Исходный код и предкомпилированные версии (Windows, Unix, ...) доступны по адресу http://www.phrack.org/misc.</p>
 <empty-line/>
-<subtitle>extract/extract4.c</subtitle>
+<section id="toc_sub_000205"><title><p>extract/extract4.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_014_phrack_extraction_utility_0017_012b4fdd73_part01.png"/>
 <image l:href="#img__code_blocks_issue_058_014_phrack_extraction_utility_0017_012b4fdd73_part02.png"/>
@@ -2996,30 +3199,36 @@
 <image l:href="#img__code_blocks_issue_058_014_phrack_extraction_utility_0017_012b4fdd73_part07.png"/>
 <image l:href="#img__code_blocks_issue_058_014_phrack_extraction_utility_0017_012b4fdd73_part08.png"/>
 <empty-line/>
-<subtitle>extract/extract.pl</subtitle>
+</section>
+<section id="toc_sub_000206"><title><p>extract/extract.pl</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_014_phrack_extraction_utility_0378_3fa53082c5.png"/>
 <empty-line/>
-<subtitle>extract/extract.awk</subtitle>
+</section>
+<section id="toc_sub_000207"><title><p>extract/extract.awk</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_014_phrack_extraction_utility_0402_6b650e3af5.png"/>
 <empty-line/>
-<subtitle>extract/extract.sh</subtitle>
+</section>
+<section id="toc_sub_000208"><title><p>extract/extract.sh</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_014_phrack_extraction_utility_0431_7e05bccfcb_part01.png"/>
 <image l:href="#img__code_blocks_issue_058_014_phrack_extraction_utility_0431_7e05bccfcb_part02.png"/>
 <empty-line/>
-<subtitle>extract/extract.py</subtitle>
+</section>
+<section id="toc_sub_000209"><title><p>extract/extract.py</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_014_phrack_extraction_utility_0492_e5a47d259b_part01.png"/>
 <image l:href="#img__code_blocks_issue_058_014_phrack_extraction_utility_0492_e5a47d259b_part02.png"/>
 <image l:href="#img__code_blocks_issue_058_014_phrack_extraction_utility_0492_e5a47d259b_part03.png"/>
 <empty-line/>
-<subtitle>extract/extract-win.c</subtitle>
+</section>
+<section id="toc_sub_000210"><title><p>extract/extract-win.c</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_058_014_phrack_extraction_utility_0614_8720459d21_part01.png"/>
 <image l:href="#img__code_blocks_issue_058_014_phrack_extraction_utility_0614_8720459d21_part02.png"/>
 <image l:href="#img__code_blocks_issue_058_014_phrack_extraction_utility_0614_8720459d21_part03.png"/>
+</section>
 </section>
 </section>
 </body>

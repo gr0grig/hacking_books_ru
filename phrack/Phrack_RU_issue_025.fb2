@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0"
-             xmlns:l="http://www.w3.org/1999/xlink">
+<?xml version='1.0' encoding='UTF-8'?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
 <description>
   <title-info>
     <genre>computers</genre>
@@ -38,7 +37,7 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_025_001_phrack_inc_newsletter_issue_xxv_index_0017_fd05111e6d.png"/>
 <empty-line/>
-<subtitle>Содержание:</subtitle>
+<section id="toc_sub_000001"><title><p>Содержание:</p></title>
 <empty-line/>
 <p>1. Индекс Phrack Inc. XXV — Taran King и Knight Lightning</p>
 <p>2. Индекс к 25-летию — Knight Lightning, Taran King и другие друзья</p>
@@ -52,6 +51,7 @@
 <p>10. Phrack World News XXV, часть 2 — Knight Lightning</p>
 <p>11. Phrack World News XXV, часть 3 — Knight Lightning</p>
 </section>
+</section>
 <section id="sec_issue_025_002_25th_issue_anniversary_index">
 <title><p>Юбилейный индекс: 25-й выпуск</p></title>
 <p><strong>Автор:</strong> Knight Lightning и Taran King</p>
@@ -60,7 +60,7 @@
 <empty-line/>
 <p><strong>Особая благодарность:</strong> Hatchet Molly / Prime Suspect / Red Knight</p>
 <empty-line/>
-<subtitle>Phrack 1 (17 ноября 1985)</subtitle>
+<section id="toc_sub_000002"><title><p>Phrack 1 (17 ноября 1985)</p></title>
 <empty-line/>
 <p>1. Введение в Phrack Inc., выпуск 1 — Taran King</p>
 <p>2. Статья о безопасности SAM — Spitfire Hacker</p>
@@ -71,7 +71,8 @@
 <p>7. Как сделать бомбу из ацетиленового шара — The Clashmaster</p>
 <p>8. Телефонные номера для удалённого доступа к школьным и вузовским компьютерам — Phantom Phreaker</p>
 <empty-line/>
-<subtitle>Phrack 2 (5 января 1986)</subtitle>
+</section>
+<section id="toc_sub_000003"><title><p>Phrack 2 (5 января 1986)</p></title>
 <empty-line/>
 <p>1. Индекс Phrack Inc., выпуск 2 — Taran King</p>
 <p>2. Как избежать проблем с биллинговым отделом — Forest Ranger</p>
@@ -83,7 +84,8 @@
 <p>8. Взлом RSTS — Data Line</p>
 <p>9. Новости мира фрикинга — Knight Lightning</p>
 <empty-line/>
-<subtitle>Phrack 3</subtitle>
+</section>
+<section id="toc_sub_000004"><title><p>Phrack 3</p></title>
 <empty-line/>
 <p>1. Индекс Phrack Inc., выпуск 3 — Cheap Shades</p>
 <p>2. Системы Rolm — Monty Python</p>
@@ -96,7 +98,8 @@
 <p>9. Введение в АТС (PBX) — Knight Lightning</p>
 <p>10. Новости мира фрикинга II — Knight Lightning</p>
 <empty-line/>
-<subtitle>Phrack 4</subtitle>
+</section>
+<section id="toc_sub_000005"><title><p>Phrack 4</p></title>
 <empty-line/>
 <p>1. Pro-Phile I: Crimson Death — Taran King</p>
 <p>2. Коды обратного вызова для NPA 314 (неполный список) — Data Line</p>
@@ -110,7 +113,8 @@
 <p>10. Phrack World News, выпуск 3, часть 2 — Knight Lightning</p>
 <p>11. Phrack World News, выпуск 3, часть 3 — Knight Lightning</p>
 <empty-line/>
-<subtitle>Phrack 5</subtitle>
+</section>
+<section id="toc_sub_000006"><title><p>Phrack 5</p></title>
 <empty-line/>
 <p>1. Вступление к Phrack V — Taran King</p>
 <p>2. Phrack Pro-Phile: Broadway Hacker — Taran King</p>
@@ -125,7 +129,8 @@
 <p>11. Phrack World News IV, часть 2 — Knight Lightning</p>
 <p>12. Phrack World News IV, часть 3 — Knight Lightning</p>
 <empty-line/>
-<subtitle>Phrack 6</subtitle>
+</section>
+<section id="toc_sub_000007"><title><p>Phrack 6</p></title>
 <empty-line/>
 <p>1. Индекс — Taran King</p>
 <p>2. Pro-Phile о группировках — Knight Lightning</p>
@@ -141,7 +146,8 @@
 <p>12. Phrack World News, часть 4 — Knight Lightning</p>
 <p>13. Phrack World News, часть 5 — Knight Lightning</p>
 <empty-line/>
-<subtitle>Phrack 7</subtitle>
+</section>
+<section id="toc_sub_000008"><title><p>Phrack 7</p></title>
 <empty-line/>
 <p>1. Вступление/Индекс — Taran King</p>
 <p>2. Phrack Pro-Phile: Scan Man — Taran King</p>
@@ -154,7 +160,8 @@
 <p>9. Phrack World News VI, часть 2 — Knight Lightning</p>
 <p>10. Phrack World News VI, часть 3 — Knight Lightning</p>
 <empty-line/>
-<subtitle>Phrack 8</subtitle>
+</section>
+<section id="toc_sub_000009"><title><p>Phrack 8</p></title>
 <empty-line/>
 <p>1. Индекс Phrack Inc. — Taran King</p>
 <p>2. Phrack Pro-Phile V: Tuc — Taran King</p>
@@ -166,7 +173,8 @@
 <p>8. Phrack World News VII, часть 1 — Knight Lightning</p>
 <p>9. Phrack World News VII, часть 2 — Knight Lightning</p>
 <empty-line/>
-<subtitle>Phrack 9</subtitle>
+</section>
+<section id="toc_sub_000010"><title><p>Phrack 9</p></title>
 <empty-line/>
 <p>1. Введение в Phrack Inc., выпуск 9 — Taran King</p>
 <p>2. Phrack Pro-Phile: The Nightstalker — Taran King</p>
@@ -179,7 +187,8 @@
 <p>9. Система обслуживания абонентских линий (LMOS) — Phantom Phreaker и Doom Prophet</p>
 <p>10. Phrack World News VIII — Knight Lightning</p>
 <empty-line/>
-<subtitle>Phrack 10</subtitle>
+</section>
+<section id="toc_sub_000011"><title><p>Phrack 10</p></title>
 <empty-line/>
 <p>1. Введение в Phrack 10 — Taran King</p>
 <p>2. Pro-Phile: Dave Starr — Taran King</p>
@@ -191,7 +200,8 @@
 <p>8. Phrack World News IX, часть 1 — Knight Lightning</p>
 <p>9. Phrack World News IX, часть 2 — Knight Lightning</p>
 <empty-line/>
-<subtitle>Phrack 11</subtitle>
+</section>
+<section id="toc_sub_000012"><title><p>Phrack 11</p></title>
 <empty-line/>
 <p>1. Индекс Phrack 11 — Taran King</p>
 <p>2. Phrack Pro-Phile VIII: Wizard of Arpanet — Taran King</p>
@@ -206,7 +216,8 @@
 <p>11. Phrack World News X — Knight Lightning</p>
 <p>12. Phrack World News XI — Knight Lightning</p>
 <empty-line/>
-<subtitle>Phrack 12</subtitle>
+</section>
+<section id="toc_sub_000013"><title><p>Phrack 12</p></title>
 <empty-line/>
 <p>1. Индекс Phrack 12 — Taran King</p>
 <p>2. Pro-Phile IX: Agrajag The Prolonged — Taran King</p>
@@ -220,7 +231,8 @@
 <p>10. Phrack World News XII, часть 1 — Knight Lightning</p>
 <p>11. Phrack World News XII, часть 2 — Knight Lightning</p>
 <empty-line/>
-<subtitle>Phrack 13 (1 апреля 1987)</subtitle>
+</section>
+<section id="toc_sub_000014"><title><p>Phrack 13 (1 апреля 1987)</p></title>
 <empty-line/>
 <p>1. Индекс Phrack 13 — Taran King</p>
 <p>2. Настоящее руководство фрикера, том 2 — Taran King и Knight Lightning</p>
@@ -233,7 +245,8 @@
 <p>9. RAGS — лучшее от Sexy Exy</p>
 <p>10. Phrack World News XIII — Knight Lightning</p>
 <empty-line/>
-<subtitle>Phrack 14</subtitle>
+</section>
+<section id="toc_sub_000015"><title><p>Phrack 14</p></title>
 <empty-line/>
 <p>1. Индекс Phrack 14 — Knight Lightning</p>
 <p>2. Phrack Pro-Phile X: Terminus — Taran King</p>
@@ -245,7 +258,8 @@
 <p>8. Phrack World News, выпуск XIV, часть 1 — Knight Lightning</p>
 <p>9. Phrack World News, выпуск XIV, часть 2 — Knight Lightning</p>
 <empty-line/>
-<subtitle>Phrack 15</subtitle>
+</section>
+<section id="toc_sub_000016"><title><p>Phrack 15</p></title>
 <empty-line/>
 <p>1. Вступление к Phrack XV — Shooting Shark</p>
 <p>2. Ещё больше грязных трюков в Unix — Shooting Shark</p>
@@ -256,7 +270,8 @@
 <p>7. Phrack World News XV, часть 2 — Knight Lightning</p>
 <p>8. Phrack World News XV, часть 3 — Sir Francis Drake</p>
 <empty-line/>
-<subtitle>Phrack 16</subtitle>
+</section>
+<section id="toc_sub_000017"><title><p>Phrack 16</p></title>
 <empty-line/>
 <p>1. Вступление к Phrack 16 — Elric of Imrryr</p>
 <p>2. Информация о BELLCORE — The Mad Phone-Man</p>
@@ -271,7 +286,8 @@
 <p>11. Phrack World News XXVI, часть 4 — Shooting Shark</p>
 <p>12. Phrack World News XXVI, часть 5 — The $muggler</p>
 <empty-line/>
-<subtitle>Phrack 17 (7 апреля 1988)</subtitle>
+</section>
+<section id="toc_sub_000018"><title><p>Phrack 17 (7 апреля 1988)</p></title>
 <empty-line/>
 <p>1. Вступление к Phrack XVII — Shooting Shark</p>
 <p>2. Отчёт Dun &amp; Bradstreet об AT&amp;T — Elric of Imrryr</p>
@@ -286,7 +302,8 @@
 <p>11. Phrack World News XVII, часть 2 — The $muggler</p>
 <p>12. Phrack World News XVII, часть 3 — The Sorceress</p>
 <empty-line/>
-<subtitle>Phrack 18 (7 июня 1988)</subtitle>
+</section>
+<section id="toc_sub_000019"><title><p>Phrack 18 (7 июня 1988)</p></title>
 <empty-line/>
 <p>1. Индекс Phrack 18 — Crimson Death</p>
 <p>2. Pro-Phile XI: Ax Murderer — Crimson Death</p>
@@ -300,7 +317,8 @@
 <p>10. Phrack World News XVIII, часть I — Epsilon</p>
 <p>11. Phrack World News XVIII, часть II — Epsilon</p>
 <empty-line/>
-<subtitle>Phrack 19</subtitle>
+</section>
+<section id="toc_sub_000020"><title><p>Phrack 19</p></title>
 <empty-line/>
 <p>1. Индекс Phrack Inc. — Crimson Death</p>
 <p>2. Утилиты DCL для хакеров VMS — The Mentor</p>
@@ -311,7 +329,8 @@
 <p>7. Phrack World News XVIV, часть 1 — Knight Lightning</p>
 <p>8. Phrack World News XVIV, часть 2 — Epsilon</p>
 <empty-line/>
-<subtitle>Phrack 20 (12 октября 1988)</subtitle>
+</section>
+<section id="toc_sub_000021"><title><p>Phrack 20 (12 октября 1988)</p></title>
 <empty-line/>
 <p>1. Индекс Phrack XX — Taran King и Knight Lightning</p>
 <p>2. Phrack Pro-Phile: Taran King</p>
@@ -326,7 +345,8 @@
 <p>11. Аббревиатуры</p>
 <p>12. Phrack World News XX, спецвыпуск SummerCon '88 — Knight Lightning</p>
 <empty-line/>
-<subtitle>Phrack 21 (4 ноября 1988)</subtitle>
+</section>
+<section id="toc_sub_000022"><title><p>Phrack 21 (4 ноября 1988)</p></title>
 <empty-line/>
 <p>1. Индекс — Taran King и Knight Lightning</p>
 <p>2. Phrack Pro-Phile: Modem Master — Taran King</p>
@@ -340,7 +360,8 @@
 <p>10. Phrack World News, выпуск XXI, часть 1 — Knight Lightning и Epsilon</p>
 <p>11. Phrack World News, выпуск XXI, часть 2 — Knight Lightning и Epsilon</p>
 <empty-line/>
-<subtitle>Phrack 22 (23 декабря 1988)</subtitle>
+</section>
+<section id="toc_sub_000023"><title><p>Phrack 22 (23 декабря 1988)</p></title>
 <empty-line/>
 <p>1. Индекс — Taran King и Knight Lightning</p>
 <p>2. Phrack Pro-Phile: Karl Marx — Taran King и Knight Lightning</p>
@@ -355,7 +376,8 @@
 <p>11. Phrack World News, выпуск XXII, часть 3 — Knight Lightning и Taran King</p>
 <p>12. Phrack World News, выпуск XXII, часть 4 — Knight Lightning и Taran King</p>
 <empty-line/>
-<subtitle>Phrack 23 (28 января 1989)</subtitle>
+</section>
+<section id="toc_sub_000024"><title><p>Phrack 23 (28 января 1989)</p></title>
 <empty-line/>
 <p>1. Индекс Phrack Inc. XXIII — Knight Lightning и Taran King</p>
 <p>2. Phrack Prophile XXIII: The Mentor — Taran King</p>
@@ -370,7 +392,8 @@
 <p>11. Phrack World News XXIII, часть 1 — Knight Lightning</p>
 <p>12. Phrack World News XXIII, часть 2 — Knight Lightning</p>
 <empty-line/>
-<subtitle>Phrack 24 (25 февраля 1989)</subtitle>
+</section>
+<section id="toc_sub_000025"><title><p>Phrack 24 (25 февраля 1989)</p></title>
 <empty-line/>
 <p>1. Индекс Phrack Inc. XXIV — Taran King и Knight Lightning</p>
 <p>2. Phrack Prophile XXIV: Chanda Leir — Taran King</p>
@@ -386,7 +409,8 @@
 <p>12. Phrack World News XXIV, часть 2 — Knight Lightning</p>
 <p>13. Phrack World News XXIV, часть 3 — Knight Lightning</p>
 <empty-line/>
-<subtitle>Phrack 25 (29 марта 1989)</subtitle>
+</section>
+<section id="toc_sub_000026"><title><p>Phrack 25 (29 марта 1989)</p></title>
 <empty-line/>
 <p>1. Индекс Phrack Inc. XXV — Taran King и Knight Lightning</p>
 <p>2. Юбилейный индекс 25-го выпуска — Knight Lightning, Taran King и другие друзья</p>
@@ -400,9 +424,10 @@
 <p>10. Phrack World News XXV, часть 2 — Knight Lightning</p>
 <p>11. Phrack World News XXV, часть 3 — Knight Lightning</p>
 </section>
+</section>
 <section id="sec_issue_025_003_bell_network_switching_systems">
 <title><p>Системы коммутации сети Bell</p></title>
-<subtitle>Информационный справочный файл</subtitle>
+<section id="toc_sub_000027"><title><p>Информационный справочный файл</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Taran King</p>
 <empty-line/>
@@ -418,7 +443,8 @@
 <empty-line/>
 <p>Автоматическая коммутация была официально введена в эксплуатацию системой Bell в 1919 году. Несмотря на то что многие устаревшие системы постепенно заменяются более современными, немало старых узлов по-прежнему работает в разных частях страны.</p>
 <empty-line/>
-<subtitle>Электромеханические системы коммутации</subtitle>
+</section>
+<section id="toc_sub_000028"><title><p>Электромеханические системы коммутации</p></title>
 <empty-line/>
 <p>Система пошаговой коммутации (SXS, Step By Step), также известная как система Строуджера, стала первой автоматической системой коммутации. Изобретённая А. Б. Строуджером в 1889 году, она до сих пор применяется в сельских и пригородных районах страны, а также в ряде городов, остававшихся небольшими на момент установки коммутатора. Название «Step By Step» описывает как способ формирования пути через коммутационную сеть, так и принцип работы каждого из переключателей на этом пути. Они сочетают вертикальное пошаговое и горизонтальное вращательное движение для поиска набранного номера по импульсам. Среди недостатков SXS — невозможность поддержки тонального набора (Touch Tone) и альтернативной маршрутизации без дорогостоящего дополнительного оборудования, а также то, что телефонный номер абонента определяется физическим расположением линии или разъёма в системе. Переместить линию без смены номера невозможно. Ещё один недостаток — высокая стоимость технического обслуживания. Именно эти причины, среди прочих, привели к сокращению числа систем SXS по всей стране.</p>
 <empty-line/>
@@ -428,7 +454,8 @@
 <empty-line/>
 <p>Кросс-координатная АТС № 4 — это система общего управления, предназначенная для межгородской связи с применением кросс-координатных коммутаторов в качестве коммутационной сети. Система XBAR № 4A была разработана для городских районов и добавила возможность использования CAMA (централизованного автоматического учёта сообщений), а также функции иностранной зоны трансляции, автоматической альтернативной маршрутизации и управления адресными цифрами (то есть преобразования входящего адреса в другой для управления маршрутом в последующих узлах, удаления цифр и добавления новых при необходимости). Электронная система трансляции № 4A (ETS) заменила карточный транслятор (использовавший фототранзисторы) и позволила изменять функции тарификации и трансляции маршрутов посредством телетайпного ввода, поскольку являлась процессором с хранимой программой. В 1976 году к XBAR № 4A была добавлена система CCIS (сигнализация по общему межстанционному каналу) для более эффективной сигнализации между межгородскими узлами и решения ряда других задач.</p>
 <empty-line/>
-<subtitle>Электронные системы коммутации</subtitle>
+</section>
+<section id="toc_sub_000029"><title><p>Электронные системы коммутации</p></title>
 <empty-line/>
 <p>Электронные системы коммутации стали возможны благодаря изобретению транзистора. В их основе лежат базовые концепции электронного процессора данных, работающего под управлением хранимой программы, и высокоскоростные коммутационные сети. Управление по хранимой программе обеспечивает необходимую гибкость при разработке и внедрении новых функций. SPC управляет последовательностью операций, необходимых для установления соединения. Он может управлять линейной или магистральной цепью в соответствии со своим назначением.</p>
 <empty-line/>
@@ -456,17 +483,19 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_025_003_bell_network_switching_systems_0063_80a21e6967.png"/>
 </section>
+</section>
 <section id="sec_issue_025_004_span_space_physics_analysis_network">
 <title><p>SPAN — Сеть анализа космической физики (Space Physics Analysis Network)</p></title>
 <p><strong>Автор:</strong> Knight Lightning</p>
 <empty-line/>
 <p><emphasis>15 марта 1989 года</emphasis></p>
 <empty-line/>
-<subtitle>Предисловие</subtitle>
+<section id="toc_sub_000030"><title><p>Предисловие</p></title>
 <empty-line/>
 <p>В духе «Саги о грядущем трансцендентном» я продолжаю публиковать информацию о глобальных сетях. Материал в этом файле основан преимущественно на исследованиях. У меня нет прямого доступа к SPAN — только через TCP/IP-соединения, — однако этот файл должен дать вам общее представление о том, как правильно пользоваться Сетью анализа космической физики.</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+</section>
+<section id="toc_sub_000031"><title><p>Введение</p></title>
 <empty-line/>
 <p>Сеть анализа космической физики (SPAN) быстро превратилась в широко разветвлённую сеть для совместного, межотраслевого и корреляционного анализа данных о космосе и науках о Земле, не привязанную к конкретным космическим миссиям. Изначально SPAN поддерживала дисциплины солнечно-земной и межпланетной физики. Впоследствии эта поддержка была расширена и охватила планетологию, астрофизику, атмосферные науки, oceanологию, климатологию и науки о Земле.</p>
 <empty-line/>
@@ -474,7 +503,8 @@
 <empty-line/>
 <p>Данный файл содержит основные сведения о SPAN: её историю, архитектуру и действующие правила использования. Ожидается, что SPAN будет продолжать очень быстро расти в ближайшие несколько лет. Ряд существующих глобальных DECnet-сетей уже объединился со SPAN для формирования единой межсетевой структуры, и к ним присоединятся другие.</p>
 <empty-line/>
-<subtitle>История SPAN и Рабочей группы пользователей информационных систем (DSUWG)</subtitle>
+</section>
+<section id="toc_sub_000032"><title><p>История SPAN и Рабочей группы пользователей информационных систем (DSUWG)</p></title>
 <empty-line/>
 <p>За последние два десятилетия способ проведения научных исследований во всех дисциплинах претерпел значительную эволюцию. Особенно это справедливо для NASA, где ранние исследования были сосредоточены на разведочных миссиях, в которых измерения отдельных научных приборов могли наглядно продвигать состояние знаний. По мере развития этих научных дисциплин исследователи стали ставить всё более глубокие и взаимосвязанные вопросы. Результат: сегодняшние исследования, как правило, значительно сложнее. Например, в сообществе исследователей космоса данные поступают от множества датчиков на отдельных спутниках или наземных системах, и нередко для решения конкретных физических проблем требуются данные из многих учреждений, разбросанных по всей стране. Очевидно, что научные исследования конца 1980-х и последующих лет будут посвящены интенсивным многодисциплинарным работам, направленным на изучение сложных физических вопросов. В целом потребность исследователей в своевременном и интерактивном обмене данными и технической информацией постоянно растёт.</p>
 <empty-line/>
@@ -498,7 +528,8 @@
 <empty-line/>
 <p>SPAN в настоящее время управляется Национальным центром космических научных данных (NSSDC), расположенным в Космическом центре Годдарда (GSFC). Все физические каналы SPAN финансируются Отделом коммуникаций и информационных систем штаб-квартиры NASA. Персонал NSSDC, центров NASA SPAN и удалённых учреждений работает согласованно для управления и поддержания работоспособности сети.</p>
 <empty-line/>
-<subtitle>Конфигурация и развитие сети</subtitle>
+</section>
+<section id="toc_sub_000033"><title><p>Конфигурация и развитие сети</p></title>
 <empty-line/>
 <p>Исходная топология SPAN представляла собой модифицированную звезду, в которой все коммуникации с удалёнными учреждениями проходили через главный центральный узел коммутации или маршрутизации сообщений в MSFC. Эта топология хорошо служила сети до тех пор, пока не было добавлено множество новых узлов и большее число учёных не привыкло пользоваться сетью. По мере роста требований к пропускной способности стало очевидно, что необходима новая топология с более высокоскоростными линиями. Для этого была разработана и реализована новая коммуникационная архитектура SPAN.</p>
 <empty-line/>
@@ -520,7 +551,8 @@
 <empty-line/>
 <p>В ближайшие несколько лет в SPAN будут внедрены новые разработки в области программного и аппаратного обеспечения, которые продолжат содействовать научным исследованиям NASA. Ожидается, что SPAN значительно улучшит доступ к шлюзам в Европу и другие точки мира. Как естественная эволюция, SPAN будет мигрировать в сторону протокола взаимодействия открытых систем (OSI) Международной организации по стандартизации (ISO) по мере появления соответствующего программного обеспечения. Предполагается, что протокол ISO/OSI существенно расширит возможности SPAN и увеличит число доступных гетерогенных компьютерных систем.</p>
 <empty-line/>
-<subtitle>Безопасность и поведение в сети</subtitle>
+</section>
+<section id="toc_sub_000034"><title><p>Безопасность и поведение в сети</p></title>
 <empty-line/>
 <p>Нарушениями считаются:</p>
 <empty-line/>
@@ -531,7 +563,8 @@
 <empty-line/>
 <p>Сеть находится под постоянным пристальным наблюдением, и обнаружить попытку взлома и отследить её источник относительно несложно. При выявлении нарушения дело будет передано в руководящий комитет DSUWG, и соединение SPAN будет немедленно под угрозой отключения. Если ситуацию не удастся урегулировать к удовлетворению как руководящего комитета DSUWG, так и администраторов сети, канал SPAN к нарушившему правила узлу будет рассмотрен на предмет постоянного отключения. Короче говоря, NASA оплачивает коммуникационные линии и не потерпит нарушений в сети.</p>
 <empty-line/>
-<subtitle>Информационный центр сети SPAN (SPAN-NIC)</subtitle>
+</section>
+<section id="toc_sub_000035"><title><p>Информационный центр сети SPAN (SPAN-NIC)</p></title>
 <empty-line/>
 <p>SPAN-NIC расположен в Национальном центре космических научных данных в Гринбелте, штат Мэриленд. Цель SPAN-NIC — предоставлять общие пользовательские услуги и техническую поддержку пользователям SPAN по телефону, электронной почте и обычной почте.</p>
 <empty-line/>
@@ -547,7 +580,8 @@
 <empty-line/>
 <p>Список доступных файлов и краткое описание их содержимого находится в файле «SPAN_NIC:SPAN_INDEX.TXT». После определения нужного файла его можно передать на удалённый хост командой VMS COPY или командой FTP GET. Важно отметить, что возможности этого сервиса будут значительно расширяться — как для актуализации текущей конфигурации SPAN, так и для отслеживания её роста.</p>
 <empty-line/>
-<subtitle>Введение в DECnet</subtitle>
+</section>
+<section id="toc_sub_000036"><title><p>Введение в DECnet</p></title>
 <empty-line/>
 <p>Цель SPAN — поддерживать коммуникации между пользователями сетевых узлов. Это включает доступ к данным и их обмен, общение по электронной почте и совместное использование ресурсов членами научного космического сообщества.</p>
 <empty-line/>
@@ -565,7 +599,8 @@
 <empty-line/>
 <p><strong>5. УДАЛЁННЫЙ ХОСТ.</strong> Пользователи VMS, RSX и IAS могут входить на удалённый хост так, как если бы их терминалы были локальными.</p>
 <empty-line/>
-<subtitle>Реализации DECnet для различных систем</subtitle>
+</section>
+<section id="toc_sub_000037"><title><p>Реализации DECnet для различных систем</p></title>
 <empty-line/>
 <p>SPAN включает реализации для операционных систем RSX, IAS и VAX/VMS. Программное обеспечение DECnet присутствует на всех узлах SPAN и обеспечивает передачу данных и сообщений между любыми узлами. Каждый сетевой узел имеет версию DECnet, совместимую с его операционной системой. Эти версии DECnet разработаны до разной степени, что наделяет одни узлы большими или меньшими возможностями по сравнению с другими. Версия, или «фаза» DECnet, указывает на способность узла выполнять определённые уровни коммуникаций. Поскольку реализации RSX и IAS практически идентичны, они описываются вместе.</p>
 <empty-line/>
@@ -577,7 +612,8 @@
 <empty-line/>
 <p>На многих системах новые пользователи могут просмотреть обучающее пособие по HELP, введя TUTORIAL в ответ на приглашение «HELP Subtopic?» и нажав клавишу RETURN.</p>
 <empty-line/>
-<subtitle>Утилиты для DECnet-VAX</subtitle>
+</section>
+<section id="toc_sub_000038"><title><p>Утилиты для DECnet-VAX</p></title>
 <empty-line/>
 <p>У пользователей терминалов VAX есть несколько утилит для сетевых коммуникаций, доступных из операционной системы VMS. Документацию по большинству из них можно найти в справочном руководстве по утилитам из набора руководств VAX/VMS; каждая утилита имеет обширную онлайн-справку. Следующие описания дают краткое введение в эти утилиты:</p>
 <empty-line/>
@@ -613,7 +649,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_025_004_span_space_physics_analysis_network_0231_9a2df13c86.png"/>
 <empty-line/>
-<subtitle>Утилиты для DECnet-11M/DECnet-IAS</subtitle>
+</section>
+<section id="toc_sub_000039"><title><p>Утилиты для DECnet-11M/DECnet-IAS</p></title>
 <empty-line/>
 <p>Существуют определённые функции DECnet, доступные только на узлах с одинаковым типом операционной системы, — например, узлы MPB, TRW, SPRL, LASR и UTD, все работающие под RSX-11M. Возможности пользователей RSX DECnet делятся на две основные категории: функции для пользователей терминалов и функции для программистов на FORTRAN.</p>
 <empty-line/>
@@ -649,11 +686,13 @@
 <empty-line/>
 <p>При появлении приглашения <code>TLK&gt;</code> можно ввести новую строку сообщения.</p>
 <empty-line/>
-<subtitle>Утилиты графического отображения</subtitle>
+</section>
+<section id="toc_sub_000040"><title><p>Утилиты графического отображения</p></title>
 <empty-line/>
 <p>Одна из главных задач проекта SPAN — обеспечить скоординированный анализ данных без выезда из своего учреждения. Поэтому существует острая необходимость в разработке возможности отображения графических изображений данных с любого узла на любом другом узле. Невозможность вывода данных на произвольное графическое устройство любого узла быстро была признана проблемой. По мере разработки общих сетевых утилит для поддержки отображения аппаратно-зависимых и независимых графических изображений справочник «Руководство по утилитам графического отображения SPAN» будет документировать их использование и ограничения. Этот справочник является практическим руководством по общим сетевым средствам, которые будут применяться для поддержки корреляционных сетевых исследований — от работы в паре до уровня семинара. Для каждой графической утилиты справочник содержит информацию, необходимую для её получения, использования и внедрения.</p>
 <empty-line/>
-<subtitle>Программа управления сетью (NCP)</subtitle>
+</section>
+<section id="toc_sub_000041"><title><p>Программа управления сетью (NCP)</p></title>
 <empty-line/>
 <p>NCP — программа управления сетью, предназначенная прежде всего для помощи сетевому менеджеру. Однако есть ряд команд NCP, полезных и для обычного пользователя. С их помощью можно быстро определить имена узлов и доступность узлов. Справку можно получить, введя <code>NCP&gt;HELP</code> и следуя дальнейшим инструкциям. Полный список команд NCP, доступных непривилегированным пользователям, приведён в руководстве по утилите NCP для VAX и в приложении NCP руководства DECnet-11M для PDP. Вероятно, наиболее полезны следующие две команды:</p>
 <empty-line/>
@@ -663,7 +702,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_025_004_span_space_physics_analysis_network_0312_20ebef845b.png"/>
 <empty-line/>
-<subtitle>Почта</subtitle>
+</section>
+<section id="toc_sub_000042"><title><p>Почта</p></title>
 <empty-line/>
 <p>Как кратко упоминалось ранее, все узлы DEC в SPAN имеют утилиту сетевой почты. Перед отправкой почтового сообщения необходимо знать имя узла и имя пользователя. Чтобы отправить сообщение менеджеру проекта, введите следующие команды:</p>
 <empty-line/>
@@ -677,7 +717,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_025_004_span_space_physics_analysis_network_0354_0f17ad4848.png"/>
 <empty-line/>
-<subtitle>Файлы информации об удалённых узлах</subtitle>
+</section>
+<section id="toc_sub_000043"><title><p>Файлы информации об удалённых узлах</p></title>
 <empty-line/>
 <p>Все узлы SPAN обязаны хранить два специфичных для узла информационных файла в своих каталогах DECnet по умолчанию.</p>
 <empty-line/>
@@ -689,7 +730,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_025_004_span_space_physics_analysis_network_0408_15c69f0671.png"/>
 <empty-line/>
-<subtitle>Доступ к SPAN через Telenet</subtitle>
+</section>
+<section id="toc_sub_000044"><title><p>Доступ к SPAN через Telenet</p></title>
 <empty-line/>
 <p>По мере роста SPAN число пользователей, желающих воспользоваться её возможностями, резко растёт. Теперь любой пользователь с терминалом и модемом на 300 или 1200 бит/с может получить доступ к SPAN из любой точки США, просто позвонив по местному телефону. Существует соединение между SPAN и Пакетной системой NASA (NPSS). NPSS, в свою очередь, имеет шлюз к публичной сети GTE Telenet, обеспечивающей доступ через местные звонки. Пользователь дозванивается до одного из местных узлов доступа Telenet и соединяется с компьютером безопасности NASA DAF (Data Access Facility). После этого пользователь может прозрачно получить доступ к SPAN через машины NSSDC или SSL.</p>
 <empty-line/>
@@ -706,7 +748,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_025_004_span_space_physics_analysis_network_0490_44e550564a.png"/>
 <empty-line/>
-<subtitle>Почтовые шлюзы SPAN/ARPANET/BITNET/публичные пакетные сети</subtitle>
+</section>
+<section id="toc_sub_000045"><title><p>Почтовые шлюзы SPAN/ARPANET/BITNET/публичные пакетные сети</p></title>
 <empty-line/>
 <p>SPAN поддерживает несколько шлюзов — как в, так и из нескольких крупных сетей. Ниже приведён текущий синтаксис формирования адреса для пользователя другой сети. Существует несколько аналогичных шлюзов на других узлах SPAN, не включённых в этот список. Стэнфорд использован здесь лишь в качестве типичного примера. Если вам необходимо периодически использовать почтовый шлюз Стэнфорда, следует получить разрешение у системного менеджера узла STAR (или любого другого не-NASA шлюзового узла). В настоящее время ограничений на использование шлюза NSSDCA нет.</p>
 <empty-line/>
@@ -714,9 +757,11 @@
 <empty-line/>
 <p>Удалённый терминальный доступ и обмен почтой возможны между пользователями британской Объединённой академической сети (JANET) и SPAN. JANET — частная сеть X.25, используемая британским академическим сообществом, доступная через два шлюза SPAN к публичным пакетным сетям в MSFC и NSSDC.</p>
 <empty-line/>
-<subtitle>Список аббревиатур</subtitle>
+</section>
+<section id="toc_sub_000046"><title><p>Список аббревиатур</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_025_004_span_space_physics_analysis_network_0563_5b352d3298.png"/>
+</section>
 </section>
 <section id="sec_issue_025_005_unix_cracking_tips">
 <title><p>Советы по взлому Unix</p></title>
@@ -728,17 +773,19 @@
 <empty-line/>
 <p>Большая часть приведённого материала основана на реальном опыте работы с BSD-машинами (при некоторой помощи моих друзей). Многие из описанных уязвимостей могут не применяться к вашей системе — всё зависит от конкретных обстоятельств.</p>
 <empty-line/>
-<subtitle>Взламывая систему, помни</subtitle>
+<section id="toc_sub_000047"><title><p>Взламывая систему, помни</p></title>
 <empty-line/>
-<p>о ВСЕГДА заметай следы о Не попадайся о Не злобствуй о Убирайся как можно скорее о Держи бутылку &quot;Wild Turkey&quot; рядом с терминалом (ВАЖНО!)</p>
+<p>о ВСЕГДА заметай следы о Не попадайся о Не злобствуй о Убирайся как можно скорее о Держи бутылку "Wild Turkey" рядом с терминалом (ВАЖНО!)</p>
 <empty-line/>
-<subtitle>О журналировании</subtitle>
+</section>
+<section id="toc_sub_000048"><title><p>О журналировании</p></title>
 <empty-line/>
 <p>Помни, что многие системы используют принтеры в качестве консоли — если предупреждающее сообщение уходит на консоль, стереть его будет невозможно.</p>
 <empty-line/>
 <p><strong>Совет:</strong> Если знаешь, что собираешься наделать шуму, можно заранее завалить консоль кучей мусорных сообщений — бумага закончится прежде, чем туда доберутся важные записи.</p>
 <empty-line/>
-<subtitle>Закрепление в системе: бэкдоры</subtitle>
+</section>
+<section id="toc_sub_000049"><title><p>Закрепление в системе: бэкдоры</p></title>
 <empty-line/>
 <p>После получения привилегий суперпользователя и желания сохранить root — вот несколько способов установить бэкдоры:</p>
 <empty-line/>
@@ -747,37 +794,45 @@
 <p>• Пропатчить системный бинарник, внедрив в него бэкдор</p>
 <p>• Оставить <code>/dev/mem</code> доступным для чтения</p>
 <empty-line/>
-<subtitle>Поиск данных в выделенной памяти</subtitle>
+</section>
+<section id="toc_sub_000050"><title><p>Поиск данных в выделенной памяти</p></title>
 <empty-line/>
 <p>Древний метод извлечения данных из чего угодно — рыться в мусоре. То же самое применимо к Unix и к только что выделенной памяти. Один из трюков — искать старые данные в свежевыделенной памяти (например: выделить большой объём памяти и просмотреть его в поисках старых [полезных?] данных). При достаточном времени и грамотных алгоритмах поиска можно обнаружить немало информации — в том числе пароли пользователей и другие приватные вещи, вроде почты и тому подобного.</p>
 <empty-line/>
-<subtitle>/dev/kmem</subtitle>
+</section>
+<section id="toc_sub_000051"><title><p>/dev/kmem</p></title>
 <empty-line/>
 <p>Если устройство <code>/dev/kmem</code> доступно для чтения, можно написать быструю программу на C, перехватывающую ввод-вывод других терминалов и отлавливающую чужие пароли и прочее.</p>
 <empty-line/>
 <p>Если устройство <code>/dev/kmem</code> доступно для записи, можно изменить свой userid, редактируя структуру пользователя.</p>
 <empty-line/>
-<subtitle>Файлы .rhosts</subtitle>
+</section>
+<section id="toc_sub_000052"><title><p>Файлы .rhosts</p></title>
 <empty-line/>
 <p><strong>Распространённый трюк:</strong> При поиске способов повысить привилегии одним из первых шагов следует проверить файлы <code>.rhosts</code> других пользователей — они могут предоставлять доступ к другим учётным записям без пароля. Подробнее смотри в man-странице rlogin.</p>
 <empty-line/>
-<subtitle>Файлы профилей</subtitle>
+</section>
+<section id="toc_sub_000053"><title><p>Файлы профилей</p></title>
 <empty-line/>
 <p>Также стоит искать файлы <code>.profile</code>, <code>.cshrc</code> или <code>.login</code> (и не только), доступные для записи. Если они оставлены с правом записи, внедрить троянского коня не составляет никакого труда.</p>
 <empty-line/>
-<subtitle>Файлы .netrc</subtitle>
+</section>
+<section id="toc_sub_000054"><title><p>Файлы .netrc</p></title>
 <empty-line/>
 <p>Ищи файлы <code>.netrc</code>, доступные для чтения, — они могут содержать пароли к другим учётным записям.</p>
 <empty-line/>
-<subtitle>Команда man и setuid</subtitle>
+</section>
+<section id="toc_sub_000055"><title><p>Команда man и setuid</p></title>
 <empty-line/>
 <p>Если команда <code>man</code> является setuid, можно попробовать получить шелл, набрав <code>!/bin/csh</code> внутри пейджера.</p>
 <empty-line/>
-<subtitle>Письма-ловушки через escape-последовательности</subtitle>
+</section>
+<section id="toc_sub_000056"><title><p>Письма-ловушки через escape-последовательности</p></title>
 <empty-line/>
 <p>Некоторые типы терминалов можно «заставить» выполнять команды с помощью различных управляющих последовательностей. Это позволяет отправить кому-нибудь «письмо-ловушку», которое при прочтении отправит команды в шелл пользователя.</p>
 <empty-line/>
-<subtitle>Отладочный режим sendmail</subtitle>
+</section>
+<section id="toc_sub_000057"><title><p>Отладочный режим sendmail</p></title>
 <empty-line/>
 <p>Системе можно отправить команды по почте. Это возможность отладочного режима sendmail в Unix. Данный трюк стал широко известен благодаря интернет-червю. Суть в том, чтобы подключиться к SMTP-сокету/порту и включить режим отладки. В качестве получателя письма указывается:</p>
 <empty-line/>
@@ -785,29 +840,35 @@
 <empty-line/>
 <p>а команды для шелла помещаются в тело письма/раздел данных.</p>
 <empty-line/>
-<subtitle>Подделка почты</subtitle>
+</section>
+<section id="toc_sub_000058"><title><p>Подделка почты</p></title>
 <empty-line/>
 <p>В Unix подделать почту элементарно. Проще всего это сделать, подключившись к SMTP-порту и притворившись сторонней почтовой программой.</p>
 <empty-line/>
-<subtitle>Зависание csh</subtitle>
+</section>
+<section id="toc_sub_000059"><title><p>Зависание csh</p></title>
 <empty-line/>
 <p>На некоторых системах выполнение команды <code>eval '\!\!'</code> внутри C-шелла (<code>/bin/csh</code>) может привести к краху системы.</p>
 <empty-line/>
-<subtitle>Немонтированные файловые системы</subtitle>
+</section>
+<section id="toc_sub_000060"><title><p>Немонтированные файловые системы</p></title>
 <empty-line/>
 <p>Во время поиска данных не забывай проверять возможные немонтированные файловые системы. [Например: искать неучтённые дисковые разделы.]</p>
 <empty-line/>
-<subtitle>Нестандартные системные вызовы</subtitle>
+</section>
+<section id="toc_sub_000061"><title><p>Нестандартные системные вызовы</p></title>
 <empty-line/>
 <p>Также стоит попробовать недопустимые системные вызовы и системные вызовы с некорректными (странными?) аргументами. Хороший пример — системный вызов <code>fchown</code> в 4.3-Tahoe Release от Berkeley. Если передать ему отрицательное число в аргументе group, он даёт разрешение изменять владельца любого файла.</p>
 <empty-line/>
 <p>Другой пример (на многих системах) — системный вызов <code>access</code>, используемый огромным числом программ. Его проблема в том, что он проверяет права доступа только на запрошенный файл, но не проверяет права символических ссылок и каталогов, ведущих к нему. На некоторых системах любой пользователь может использовать системный вызов <code>chroot</code> — это крайне неосмотрительно, поскольку достаточно создать собственное подокружение (со своими конфигурационными файлами) и выполнять из него определённые команды.</p>
 <empty-line/>
-<subtitle>Системные структуры в памяти пользователя</subtitle>
+</section>
+<section id="toc_sub_000062"><title><p>Системные структуры в памяти пользователя</p></title>
 <empty-line/>
 <p>Ещё одна вещь, которую стоит поискать, — системные структуры, хранящиеся в памяти, доступной пользователю. Эти структуры можно модифицировать в своих целях.</p>
 <empty-line/>
-<subtitle>Небрежные права доступа на системные файлы</subtitle>
+</section>
+<section id="toc_sub_000063"><title><p>Небрежные права доступа на системные файлы</p></title>
 <empty-line/>
 <p>Ищи небрежно выставленные права доступа/владельцев на системные каталоги и конфигурационные файлы. Это может позволить изменять и/или контролировать многие аспекты поведения системы. Вот несколько файлов, на которые стоит обратить внимание:</p>
 <empty-line/>
@@ -817,23 +878,28 @@
 <empty-line/>
 <p><strong>Совет:</strong> Системы AT&amp;T 3b1 особенно печально известны этой проблемой.</p>
 <empty-line/>
-<subtitle>Журналы входов и случайно введённые пароли</subtitle>
+</section>
+<section id="toc_sub_000064"><title><p>Журналы входов и случайно введённые пароли</p></title>
 <empty-line/>
 <p>Если на взламываемой системе журналы входов доступны для чтения и в них записываются неудачные попытки входа, возможна утечка: пользователь мог случайно ввести свой пароль в строку имени учётной записи. Следует просматривать эти журналы в поисках странных и несуществующих имён учётных записей и использовать их в качестве пароля для пользователей, входивших в систему примерно в то же время (команда <code>last</code> выведет время входа пользователей).</p>
 <empty-line/>
-<subtitle>Исходный код на системе</subtitle>
+</section>
+<section id="toc_sub_000065"><title><p>Исходный код на системе</p></title>
 <empty-line/>
 <p>Проверь, есть ли на системе исходный код в открытом доступе. Нет ничего полезнее, чем иметь системный исходный код для изучения. Ищи исходники (обычно находятся в каталоге <code>/usr/src</code>) и просматривай их в поисках ошибок программирования (или скачай, чтобы меньше времени проводить на системе).</p>
 <empty-line/>
-<subtitle>Чужие бэкдоры</subtitle>
+</section>
+<section id="toc_sub_000066"><title><p>Чужие бэкдоры</p></title>
 <empty-line/>
 <p>Ищи бэкдоры, оставленные другими людьми. Если найдёшь — они могут сильно облегчить тебе жизнь.</p>
 <empty-line/>
-<subtitle>Системы аудита</subtitle>
+</section>
+<section id="toc_sub_000067"><title><p>Системы аудита</p></title>
 <empty-line/>
 <p>Проверь, есть ли на системе хорошая система аудита. Если есть — запусти её, поскольку она может сама найти несколько проблем безопасности.</p>
 <empty-line/>
-<subtitle>Setuid shell-скрипты</subtitle>
+</section>
+<section id="toc_sub_000068"><title><p>Setuid shell-скрипты</p></title>
 <empty-line/>
 <p>Ищи setuid shell-скрипты в системе. В нынешних BSD-подобных Unix нет никакой возможности защитить setuid shell-скрипт. Команда:</p>
 <empty-line/>
@@ -843,37 +909,45 @@
 <empty-line/>
 <p>Один из способов обойти setuid-скрипт — создать символическую ссылку с именем <code>-i</code> на этот файл, а затем выполнить ссылку. Другой способ — послать скрипту сигнал в нужный момент в процессе запуска. Самый простой способ сделать это — написать небольшую программу на C, которая блокирует сигнал, затем посылает его себе, а затем запускает setuid-скрипт. (Примечание: сигнал не будет обработан из-за блокировки и останется для setuid-скрипта.) Любой из этих методов должен дать интерактивный шелл с userid'ом setuid-скрипта.</p>
 <empty-line/>
-<subtitle>Дизассемблирование системных бинарников</subtitle>
+</section>
+<section id="toc_sub_000069"><title><p>Дизассемблирование системных бинарников</p></title>
 <empty-line/>
 <p>Если ты знаком с программированием на ассемблере/дизассемблировании, можно искать уязвимости и/или модифицировать существующее ПО в своих целях — большинство систем не удаляют отладочные символы из системных бинарников и оставляют исполняемые файлы доступными для чтения. Этим способом можно почерпнуть огромное количество хакерской информации.</p>
 <empty-line/>
-<subtitle>Setgid и дамп ядра (UNIX-V7 и 4.1BSD)</subtitle>
+</section>
+<section id="toc_sub_000070"><title><p>Setgid и дамп ядра (UNIX-V7 и 4.1BSD)</p></title>
 <empty-line/>
 <p>В UNIX-V7 и 4.1BSD программы с setgid представляли угрозу безопасности: если удавалось заставить их сделать дамп ядра, файл дампа принадлежал тебе и имел setgid того же групп-идентификатора, что и программа, его породившая. Поскольку файл принадлежал тебе, можно было скопировать в него шелл или командный скрипт и запустить его с grupid этого файла. Это давало доступ к любому файлу, принадлежащему данной группе.</p>
 <empty-line/>
-<subtitle>Кража паролей через двунаправленные модемы</subtitle>
+</section>
+<section id="toc_sub_000071"><title><p>Кража паролей через двунаправленные модемы</p></title>
 <empty-line/>
 <p>Если взламываемая система поддерживает двунаправленные модемы, их можно использовать для кражи паролей. Для этого нужно подключиться к модему через <code>tip</code> и ждать входящего звонка. Когда пользователь позвонит, снимаешь трубку и симулируешь процесс входа в систему. Как только пользователь вводит пароль — симулируешь помехи на линии и вешаешь трубку.</p>
 <empty-line/>
-<subtitle>Программа login и угадывание паролей</subtitle>
+</section>
+<section id="toc_sub_000072"><title><p>Программа login и угадывание паролей</p></title>
 <empty-line/>
 <p>Программа <code>login</code> в Unix хитро устроена: сообщение об ошибке при вводе неверного имени учётной записи и неверного пароля — одинаковое. Это сделано для защиты от подбора имён учётных записей и паролей. Такая защита работает, если единственный доступ к системе — через терминальную линию или модемное соединение. Но если есть доступ через LAN, можно проверить имена учётных записей командой <code>finger</code>. Эта замечательная утилита даст массу информации об учётных записях пользователей. Если <code>finger</code> отключён, существует другой способ — через <code>ftp</code>. Команда <code>ftp</code> (File Transfer Program) позволяет подтвердить существование учётной записи. Также замечено, что <code>ftp</code> ведёт значительно меньше журналов — повторные неудачные попытки входа через ftp логируются гораздо реже. [Смотри также следующий раздел.]</p>
 <empty-line/>
-<subtitle>Получение файла паролей через сеть</subtitle>
+</section>
+<section id="toc_sub_000073"><title><p>Получение файла паролей через сеть</p></title>
 <empty-line/>
 <p>Если Unix-система, которую хочешь взломать, подключена по UUCP или TCP/IP, извлечь файл паролей с удалённой системы через утилиту <code>ftp</code> не составит труда. Получив копию файла паролей, можно просто отключиться от системы (снижая тем самым риск быть пойманным!).</p>
 <empty-line/>
 <p>Смотри Phrack Inc. выпуск 22, файл 6 — «Yet Another File On Hacking Unix by &gt;Unknown User&lt;» — для медленного, но эффективного взломщика паролей.</p>
 <empty-line/>
-<subtitle>Прослушивание LAN</subtitle>
+</section>
+<section id="toc_sub_000074"><title><p>Прослушивание LAN</p></title>
 <empty-line/>
 <p>Ещё одна сетевая атака — прослушивание трафика в локальной сети (LAN) в ожидании паролей, поскольку большинство систем передают их в открытом виде.</p>
 <empty-line/>
-<subtitle>Блокировка учётных записей сотрудников</subtitle>
+</section>
+<section id="toc_sub_000075"><title><p>Блокировка учётных записей сотрудников</p></title>
 <empty-line/>
 <p>На системах, блокирующих вход в учётную запись после N неудачных попыток, иногда полезно использовать эту функцию для блокировки сотрудников — тогда у тебя [взломщика] будет больше времени, чтобы замести следы и скрыться.</p>
 <empty-line/>
-<subtitle>Уязвимости команды su</subtitle>
+</section>
+<section id="toc_sub_000076"><title><p>Уязвимости команды su</p></title>
 <empty-line/>
 <p>Вот несколько уязвимостей команды <code>su</code> (set userid), которые могут пригодиться.</p>
 <empty-line/>
@@ -881,7 +955,8 @@
 <empty-line/>
 <p>Другая уязвимость в команде <code>su</code> существует в некоторых портах System V: если <code>su</code> не может открыть файл паролей (<code>/etc/passwd</code>), она предоставляет root-доступ (не проверяя причину сбоя). По всей видимости, программисты решили, что раз что-то не так, нужно открыть доступ, чтобы кто-то мог всё исправить. Проблема безопасности возникает, когда <code>su</code> запускается при заполненной таблице файловых дескрипторов — это вынуждает <code>su</code> провалить запрос на открытие файла паролей.</p>
 <empty-line/>
-<subtitle>Уязвимость mkdir: гонка за владельцем файла паролей</subtitle>
+</section>
+<section id="toc_sub_000077"><title><p>Уязвимость mkdir: гонка за владельцем файла паролей</p></title>
 <empty-line/>
 <p>Команда <code>mkdir</code> (создание каталога) некоторых Unix-систем может быть использована для получения root. Это достигается эксплуатацией состояния гонки между процессами. Следующий командный скрипт в конечном счёте вызовет ошибку и сделает тебя владельцем файла паролей:</p>
 <empty-line/>
@@ -889,31 +964,38 @@
 <empty-line/>
 <p>Состояние гонки возникает, когда команда <code>ln</code> выполняется в момент, когда <code>mkdir</code> ещё не завершила работу. Это работает потому, что <code>mkdir</code> делает два системных вызова: <code>mknod</code>, а затем <code>chown</code>. Если новый inode (выделенный <code>mknod</code>) заменяется ссылкой на файл паролей до того, как выполняется системный вызов <code>chown</code>, то операция <code>chown</code> применяется к файлу паролей. Чтобы получить root, достаточно добавить новую запись в файл паролей.</p>
 <empty-line/>
-<subtitle>Уязвимость команды lpr</subtitle>
+</section>
+<section id="toc_sub_000078"><title><p>Уязвимость команды lpr</p></title>
 <empty-line/>
 <p>Команда печати (<code>lpr</code> или <code>lp</code>) имеет опцию удаления файла после печати. Эта опция сработает (напечатает и удалит файл), даже если ты не являешься владельцем файла.</p>
 <empty-line/>
-<subtitle>Уязвимость команды mail: запись в произвольный файл</subtitle>
+</section>
+<section id="toc_sub_000079"><title><p>Уязвимость команды mail: запись в произвольный файл</p></title>
 <empty-line/>
 <p>У команды <code>mail</code> есть опция сохранения прочитанной почты в другой файл. Некоторые версии этой команды дописывают почту в файл после прочтения. Уязвимость в том, что почтовая программа не проверяет, есть ли у тебя право записи в файл, в который сохраняется почта, — что позволяет, например, добавлять новые учётные записи в файл паролей.</p>
 <empty-line/>
-<subtitle>Команда crypt и vi -x</subtitle>
+</section>
+<section id="toc_sub_000080"><title><p>Команда crypt и vi -x</p></title>
 <empty-line/>
 <p>Пару слов о команде <code>crypt</code> (и <code>vi -x</code>, использующей её): применяемый алгоритм нетрудно взломать (расшифровка файла с подходящими инструментами занимает около двадцати минут). Подробнее смотри «Bell Systems Technical Journal», Vol. 63, 8, part 2.</p>
 <empty-line/>
-<subtitle>UUCP: конфигурационные файлы и перехват почты</subtitle>
+</section>
+<section id="toc_sub_000081"><title><p>UUCP: конфигурационные файлы и перехват почты</p></title>
 <empty-line/>
 <p>Если конфигурационные файлы UUCP доступны для чтения [по умолчанию на многих системах], можно получить имена пользователей, пароли и телефонные номера всех почтовых соединений системы. С помощью публично доступной программы <code>uupc</code> можно самому устанавливать эти соединения и перехватывать и/или фильтровать всю входящую почту.</p>
 <empty-line/>
 <p>Способов взломать Unix через UUCP так много, что расписывать все варианты и их комбинации здесь я не буду. Оставлю это для отдельной статьи, которая появится в какое-то неопределённое время в будущем.</p>
 <empty-line/>
-<subtitle>Разделяемая память</subtitle>
+</section>
+<section id="toc_sub_000082"><title><p>Разделяемая память</p></title>
 <empty-line/>
 <p>Если взламываемая система поддерживает разделяемую память, возможно удастся получить доступ к её сегментам. На системах Sun есть команда <code>ipcs</code>, которая выводит список доступных сегментов разделяемой памяти. Если такой команды нет (и аналогичной тоже), придётся либо написать свою, либо действовать вслепую. Определив эти сегменты, можно получить контроль над содержащимися в них данными и/или другими программами, использующими эти данные.</p>
 <empty-line/>
-<subtitle>Если тебя поймали</subtitle>
+</section>
+<section id="toc_sub_000083"><title><p>Если тебя поймали</p></title>
 <empty-line/>
-<p>Схвати бутылку &quot;Wild Turkey&quot; (ту, что стоит рядом с терминалом) и выпей её.</p>
+<p>Схвати бутылку "Wild Turkey" (ту, что стоит рядом с терминалом) и выпей её.</p>
+</section>
 </section>
 <section id="sec_issue_025_006_hiding_out_under_unix">
 <title><p>Скрываясь в Unix</p></title>
@@ -952,7 +1034,7 @@
 <empty-line/>
 <p>Факт состоит в том, что Синяя коробка была настолько эффективна для совершения неотслеживаемых звонков, что никто так и не смог подсчитать, сколько звонков было сделано и каковы были потери доходов — $100, $100 миллионов или $1 миллиард. Синие коробки были настолько эффективны для бесплатных и неотслеживаемых звонков, что Ма Белл не хотела, чтобы о них кто-либо знал, и на протяжении многих лет отрицала их существование. Компания даже дошла до того, что оказала давление на крупный научно-популярный журнал, вынудив его закрыть уже подготовленную статью о Синей и Чёрной коробках. Более того, в полицейских архивах одного крупного города есть рапорт о взломе дома автора той статьи. Единственным пропавшим предметом после взлома оказалась папка с копиями одного из самых ранних схемных решений Синей коробки и буклет Bell System, описывавший, как машина AMA производит биллинг абонентов, — буклет, само существование которого Ма Белл отрицала. Поскольку машина AMA (Automatic Message Accounting — автоматический учёт сообщений) была тем средством, с помощью которого Ма Белл в конечном счёте вычислила пользователей Синей и Чёрной коробок, я позволю себе сделать отступление и объяснить, что это такое. К тому же понимание принципов работы машины AMA поможет лучше разобраться в «телефонном фрикинге» с помощью Синей и Чёрной коробок.</p>
 <empty-line/>
-<subtitle>Кто совершил звонок?</subtitle>
+<section id="toc_sub_000084"><title><p>Кто совершил звонок?</p></title>
 <empty-line/>
 <p>В ранние времена телефонии выставление счетов абоненту начиналось с механического счётного устройства, которое обычно называли «регистром» или «счётчиком». Линия каждого абонента была подключена к счётчику, входившему в целую стену счётчиков. Счётчик щёлкал, отмечая единицы сообщений, и раз в месяц кто-нибудь просто записывал его показания, которые затем переводились в биллинг по единицам сообщений для тех абонентов, с которых взималась плата именно таким образом. (Абоненты с фиксированным тарифом могли звонить неограниченно, но только в пределах определённой географической зоны. Для звонков за её пределами счётчик фиксировал единицы сообщений.) Поскольку со временем счётчиков стало слишком много, чтобы снимать показания с каждого по отдельности, и поскольку всё больше абонентов стали оспаривать ежемесячные счета, местные телефонные компании обратились к фотографии. Снимок большого числа счётчиков служил неоспоримым документальным подтверждением их показаний в определённую дату и время, и бухгалтерии было значительно проще переводить его в счета для клиентов.</p>
 <empty-line/>
@@ -966,7 +1048,8 @@
 <empty-line/>
 <p>К счастью, потребовалось всего несколько минут, чтобы убедить агента, что автор — именно тот, кем является, а не технический гений, работающий на мафию. Но один разговор потянул за собой другой, и агент был потрясён, узнав о машине AMA. (Вот как можно излить душу, когда твою статью зарубили!) По словам агента, его ведомству говорили, что получить запись о местных звонках гангстеров невозможно: Министерство финансов никогда не было информировано о существовании автоматического учёта сообщений. Излишне говорить, что агент ушёл с собственным экземпляром публикации Bell System о машине AMA, а у автора появилась встреча с местным директором бюро Министерства финансов, чтобы ввести его в курс дела. Эта информация в конечном счёте дошла до сенатора Додда, проводившего парламентское расследование, в том числе о слежке телефонных компаний за линиями абонентов, — что являлось общепринятой практикой, подробные инструкции по которой содержались в собственном руководстве по коммутационному оборудованию Ма Белл («crossbar»).</p>
 <empty-line/>
-<subtitle>Синяя коробка</subtitle>
+</section>
+<section id="toc_sub_000085"><title><p>Синяя коробка</p></title>
 <empty-line/>
 <p>Синяя коробка позволяла совершать бесплатные звонки, поскольку использовала собственные внутренние частотно-чувствительные схемы Ма Белл. С введением прямого международного набора оборудование кроссбара определяло, что набирается межгородской звонок, по трёхзначному коду зоны. Кроссбар затем преобразовывал импульсы набора в группы тонов CCITT, представленные в прилагаемой таблице (в конце файла), которые используются для международной и магистральной сигнализации. (Обратите внимание, что они не соответствуют частотам Touch-Tone.) Как видно из таблицы, группы тонов представляют нечто большее, чем просто цифры; среди прочего там есть группы тонов с обозначениями 2600 Гц, KP (prime) и ST (start) — запомните их.</p>
 <empty-line/>
@@ -976,7 +1059,8 @@
 <empty-line/>
 <p>Последовательность действий с ранними Синими коробками выглядела так: звонящий набирал справочную службу в каком-нибудь отдалённом городе, из-за чего его машина AMA фиксировала бесплатный звонок в справочную. Когда оператор справочной отвечал, звонящий нажимал на Синей коробке клавишу 2600 Гц, что отключало оператора и давало ему доступ к магистральной линии межгорода. Затем он набирал KP, нужный номер и завершал нажатием ST, что заставляло вызываемый телефон звонить. На всём протяжении разговора машина AMA фиксировала бесплатный звонок оператору справочной. Техника требовала использования именно межгородской справочной, поскольку местная справочная, не будучи подключена к магистральной линии межгорода, была доступна через местную проводную коммутацию, а не через тоны CCITT.</p>
 <empty-line/>
-<subtitle>Звонок куда угодно</subtitle>
+</section>
+<section id="toc_sub_000086"><title><p>Звонок куда угодно</p></title>
 <empty-line/>
 <p>Теперь представьте себе возможности. Предположим, пользователь Синей коробки находится в Филадельфии. Он звонит в справочную Чикаго, отключает оператора тоном KP, а затем набирает куда угодно, что было доступно при прямом наборе: Лос-Анджелес, Даллас или любую точку мира, если только пользователь Синей коробки знал международные коды.</p>
 <empty-line/>
@@ -1000,13 +1084,15 @@
 <empty-line/>
 <p>Если у вас возникнут идеи насчёт Синей коробки, имейте в виду: современное коммутационное оборудование способно распознавать несанкционированные тоны. Именно поэтому местная АТС может оставить абонентские схемы Touch-Tone активными, почти приглашая вас пользоваться услугой Touch-Tone. Через несколько дней после того, как вы воспользуетесь несанкционированной услугой Touch-Tone, коммерческий офис позвонит и поинтересуется, желаете ли вы оплатить услугу или отключить её. То самое оборудование центральной АТС, которое знает, что вы используете частоты Touch-Tone, знает и то, генерирует ли ваша линия сигналы CCITT.</p>
 <empty-line/>
-<subtitle>Чёрная коробка</subtitle>
+</section>
+<section id="toc_sub_000087"><title><p>Чёрная коробка</p></title>
 <empty-line/>
 <p>Чёрная коробка использовалась преимущественно студентами, чтобы избежать платы при частых звонках между двумя определёнными точками — скажем, между колледжем и домом студента. В отличие от относительно сложной схемы Синей коробки, Чёрная коробка представляла собой не что иное, как конденсатор, кнопку мгновенного действия и батарею.</p>
 <empty-line/>
 <p>Как вы помните из нашего обсуждения Синей коробки, телефонная цепь в действительности устанавливается ещё до того, как вызываемый телефон начинает звонить, и эта цепь способна передавать переменный сигнал в обоих направлениях. Когда звонящий слышит в трубке сигнал вызова, на принимающем конце ничего не происходит: слышимый им сигнал — это тональный генератор на его местной телефонной станции. На вызываемый (называемый) телефон фактически подаётся напряжение вызова в 20 импульсов в секунду именно в те «мёртвые» паузы, когда набравший не слышит ничего между гудками. Когда вызываемый телефон снимается с рычага, он замыкает постоянноточный контур местной АТС — это сигнал прекратить подачу напряжения вызова. Примерно через три секунды замкнутый контур постоянного тока транслирует сигнал всей цепью обратно на машину AMA звонившего: вызываемый телефон снят с рычага.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_025_007_the_blue_box_and_ma_bell_0073_d84ed4fe48.png"/>
+</section>
 </section>
 <section id="sec_issue_025_008_hacking_whats_legal_and_whats_not">
 <title><p>Хакинг: что законно, а что нет</p></title>
@@ -1056,13 +1142,14 @@
 <empty-line/>
 <p><strong>Автор:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>На краю сети</subtitle>
+<section id="toc_sub_000088"><title><p>На краю сети</p></title>
 <empty-line/>
 <p>Приветствую вас снова и добро пожаловать в Phrack World News, выпуск 25 — наш специальный выпуск к 25-летнему юбилею.</p>
 <empty-line/>
 <p>В этом номере — статьи о новом журнале TAP, о противостоянии Southwestern Bell и операторов BBS в Оклахома-Сити, подробнейший материал о хакерах КГБ, а также о Маттиасе Шпире, Клаусе Брунштайне, интервью с Пенго и многое другое.</p>
 <empty-line/>
-<subtitle>Готовимся к SummerCon '89 — 22 марта 1989</subtitle>
+</section>
+<section id="toc_sub_000089"><title><p>Готовимся к SummerCon '89 — 22 марта 1989</p></title>
 <empty-line/>
 <p>Ещё раз, для тех, кто мог пропустить прошлый выпуск...</p>
 <empty-line/>
@@ -1074,7 +1161,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>Митник идёт на сделку с правосудием — 16 марта 1989</subtitle>
+</section>
+<section id="toc_sub_000090"><title><p>Митник идёт на сделку с правосудием — 16 марта 1989</p></title>
 <empty-line/>
 <p>По материалам Kim Murphy (Los Angeles Times, фрагменты)</p>
 <empty-line/>
@@ -1086,39 +1174,47 @@
 <empty-line/>
 <p>В рамках соглашения о признании вины прокуратура согласилась снять два дополнительных пункта обвинения, связанных с незаконным доступом к компьютеру Лидского университета в Англии, а также отдельное обвинение, связанное с программой DEC.</p>
 <empty-line/>
-<subtitle>Новая Технологическая Партия Прогресса (TAP) — 11 марта 1989</subtitle>
+</section>
+<section id="toc_sub_000091"><title><p>Новая Технологическая Партия Прогресса (TAP) — 11 марта 1989</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> Aristotle и редакция TAP Magazine</p>
 <empty-line/>
-<subtitle>Как будет печататься TAP</subtitle>
+</section>
+<section id="toc_sub_000092"><title><p>Как будет печататься TAP</p></title>
 <empty-line/>
 <p>TAP будет создаваться, редактироваться и печататься на различных машинах, которые принадлежат сотрудникам редакции или к которым они имеют полный доступ. Среди компьютеров — как персональные, так и мейнфреймы.</p>
 <empty-line/>
 <p>Среди печатающих устройств — матричные принтеры и промышленные лазерные принтеры; редакция имеет полный доступ ко всем этим устройствам. Для повышения качества печати и снижения нагрузки на сотрудников рассматривается возможность передачи печати профессиональному типографскому предприятию.</p>
 <empty-line/>
-<subtitle>Финансирование TAP</subtitle>
+</section>
+<section id="toc_sub_000093"><title><p>Финансирование TAP</p></title>
 <empty-line/>
 <p>Предполагается, что TAP будет финансироваться преимущественно за счёт подписчиков. В отличие от ранних лет TAP, мы не можем позволить себе раздавать журнал бесплатно. За исключением выпуска 92, TAP не будет распространяться бесплатно. Мы считаем, что именно эта политика старой редакции TAP была главной причиной хронической нехватки денег. Что касается первоначальных расходов, редакция способна покрыть все затраты, кроме печати, бумаги и почтовых расходов. По цене 1 доллар за выпуск мы рассчитываем на самоокупаемость. Все полученные средства будут направляться исключительно на нужды TAP — никакого распределения доходов между сотрудниками не предполагается. Три статьи расходов, перечисленные выше, будут основными, плюс периодические затраты на рекламу и прочее.</p>
 <empty-line/>
-<subtitle>Как TAP будет получать статьи</subtitle>
+</section>
+<section id="toc_sub_000094"><title><p>Как TAP будет получать статьи</p></title>
 <empty-line/>
 <p>На данный момент у редакции уже есть достаточно материалов как минимум для четырёх выпусков. Мы надеемся, что TAP будет опираться на статьи, присылаемые подписчиками. Если читатели не будут присылать материалы, нам придётся заполнять страницы менее качественными текстами. По нашим оценкам, в худшем случае TAP сможет существовать целый год без единой присланной статьи — это позволит нам без ущерба для читателей свернуть деятельность, если придётся. (Надеемся, что до этого не дойдёт!)</p>
 <empty-line/>
-<subtitle>Кто входит в TAP</subtitle>
+</section>
+<section id="toc_sub_000095"><title><p>Кто входит в TAP</p></title>
 <empty-line/>
 <p>По состоянию на 07/03/89, в состав редакции TAP входят пятеро. «Редакторы»: Aristotle, Olorin The White, Predat0r и двое других, пожелавших остаться анонимными. Последние двое выбрали анонимность по ряду причин, в том числе ради собственной безопасности. Редакция не считает, что публикация имён необходима для создания доброй репутации журнала. Мы убеждены: читатели должны подписываться на TAP ради качества материалов, а не ради известности авторов. Разумеется, все, кто присылает статьи, будут получать соответствующие упоминания — за исключением тех, кто сам этого не пожелает. Если авторство установить невозможно, упоминание опускается.</p>
 <empty-line/>
-<subtitle>Почему мы решили выпускать печатный журнал</subtitle>
+</section>
+<section id="toc_sub_000096"><title><p>Почему мы решили выпускать печатный журнал</p></title>
 <empty-line/>
 <p>Собрав информацию с досок объявлений и из других источников, несколько членов редакции пришли к выводу, что ряд сведений лучше распространять в печатном виде, в понятном формате. Мы убеждены, что одни только компьютеры не позволяют полноценно представить и распространить определённую информацию. Отличный пример — схемы устройств: все мы знаем, насколько плохи ASCII-схемы. К тому же в нашем сообществе у каждого свой компьютер — как же эффективно общаться? Ответ прост: печатный материал на бумаге.</p>
 <empty-line/>
 <p>Помимо преимуществ печати перед текстовыми файлами, есть и другие причины для выпуска журнала. Из-за нежелания специалистов обучать новичков (за исключением отдельных личностей) мы решили взять инициативу в свои руки. TAP будет стремиться подавать информацию так, чтобы её понял каждый. Мы готовы помогать как начинающим, так и опытным участникам сообщества. TAP — информатор для всех.</p>
 <empty-line/>
-<subtitle>Почему именно TAP</subtitle>
+</section>
+<section id="toc_sub_000097"><title><p>Почему именно TAP</p></title>
 <empty-line/>
 <p>Когда мы впервые получили коллекцию номеров TAP (вместе с несколькими номерами 2600), мы были поражены. Изучив всё это, ценность TAP и 2600 стала очевидна. 2600 нам очень понравился, но TAP мы просто полюбили. TAP идеально подошёл нам по духу. В нём есть всё для каждого. Примерно тогда мы попытались подписаться на оба журнала. Как известно, TAP прекратил существование в 1984 году, а 2600 до сих пор выходит. Мы подписались на 2600 и продолжили изучать старые номера TAP. Когда встал вопрос о собственном журнале, первой идеей стал TAP. После долгой дискуссии было решено, что TAP идеально подходит для наших целей. Поскольку нас интересуют хакинг, фрикинг и другие темы, TAP лучше, чем любой другой формат, отражает наши взгляды и идеи. Откровенно говоря, мы просто любили старый TAP и не могли упустить возможность вернуть его к жизни — и, надеемся, к прежней славе.</p>
 <empty-line/>
-<subtitle>Где найти TAP</subtitle>
+</section>
+<section id="toc_sub_000098"><title><p>Где найти TAP</p></title>
 <empty-line/>
 <p>По всем вопросам, связанным с TAP, можно обратиться к редакции по почте или через аккаунты сотрудников на следующих BBS:</p>
 <empty-line/>
@@ -1126,7 +1222,8 @@
 <empty-line/>
 <p>С уважением, редакция TAP</p>
 <empty-line/>
-<subtitle>Комментарий редактора</subtitle>
+</section>
+<section id="toc_sub_000099"><title><p>Комментарий редактора</p></title>
 <empty-line/>
 <p>Когда я впервые услышал о вновь созданном журнале TAP, я отнёсся к этому скептически и решил, что это очередная несбыточная мечта, как и многие подобные попытки прежде. К моему удивлению, журнал был доставлен точно в срок, как и обещали.</p>
 <empty-line/>
@@ -1156,7 +1253,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>Двое задержаны за кражу из телефонов-автоматов — 13 марта 1989</subtitle>
+</section>
+<section id="toc_sub_000100"><title><p>Двое задержаны за кражу из телефонов-автоматов — 13 марта 1989</p></title>
 <empty-line/>
 <p>Двое лжеремонтников в похищенных касках Illinois Bell с украденными инструментами наглядно продемонстрировали, что хищение из телефонов-автоматов — далеко не мелкая монета.</p>
 <empty-line/>
@@ -1176,7 +1274,8 @@
 <empty-line/>
 <p>Информацию предоставил Patrick Townson</p>
 <empty-line/>
-<subtitle>Банковское мошенничество было «легко» — 24 февраля 1989</subtitle>
+</section>
+<section id="toc_sub_000101"><title><p>Банковское мошенничество было «легко» — 24 февраля 1989</p></title>
 <empty-line/>
 <p>По материалам The Independent (Лондон)</p>
 <empty-line/>
@@ -1188,7 +1287,8 @@
 <empty-line/>
 <p>Судья заявила: «Один из тревожных аспектов этого дела состоит в том, что молодой человек, недавно покинувший школьную скамью, смог неоднократно работать в системе NatWest, оставаясь незамеченным. Более того, в банке, судя по всему, открыто говорят о том, насколько легко в нём мошенничать».</p>
 <empty-line/>
-<subtitle>Двое обвинены в «хакерском» преступлении — 24 февраля 1989</subtitle>
+</section>
+<section id="toc_sub_000102"><title><p>Двое обвинены в «хакерском» преступлении — 24 февраля 1989</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> James Gribble (Milwaukee Journal)</p>
 <empty-line/>
@@ -1224,13 +1324,14 @@
 <empty-line/>
 <p>«Лучший способ, который я могу предложить, — это подать жалобу в наш отдел», — заключил Реддин.</p>
 </section>
+</section>
 <section id="sec_issue_025_010_phrack_world_news">
 <title><p>Phrack World News (Мировые Новости Phrack)</p></title>
 <p><strong>Автор:</strong> Knight Lightning</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_025_010_phrack_world_news_0007_14b7913eed.png"/>
 <empty-line/>
-<subtitle>Немецкие хакеры взломали Лос-Аламос и NASA — 2 марта 1989 года</subtitle>
+<section id="toc_sub_000103"><title><p>Немецкие хакеры взломали Лос-Аламос и NASA — 2 марта 1989 года</p></title>
 <empty-line/>
 <p>Три часа назад известный немецкий телевизионный журнал раскрыл, пожалуй, один из крупнейших шпионских скандалов в компьютерных сетях: речь идёт о нескольких (от трёх до пяти) западногерманских хакерах, проникших в ряд секретных информационных сетей (Лос-Аламос, NASA, некоторые военные базы данных, (японскую) военную промышленность и многое другое) в интересах КГБ СССР. По словам ведущего политического телевизионного журнала, они получали суммы от $50 000 до $100 000, а также наркотики — всё это от КГБ.</p>
 <empty-line/>
@@ -1238,7 +1339,8 @@
 <empty-line/>
 <p>В этом материале содержится информация, ранее нигде не публиковавшаяся (по крайней мере, не в таком формате).</p>
 <empty-line/>
-<subtitle>Компьютерный шпионаж: арестованы три «хитрых хакера» — 2 марта 1989 года</subtitle>
+</section>
+<section id="toc_sub_000104"><title><p>Компьютерный шпионаж: арестованы три «хитрых хакера» — 2 марта 1989 года</p></title>
 <empty-line/>
 <p>В Берлине, Гамбурге и Ганновере арестованы три хакера; им предъявлены обвинения в компьютерном шпионаже в пользу советского КГБ. По данным телевизионного журнала «Panorama» (чьи журналисты первыми опубликовали материалы о взломах NASA и SPAN), они проникали в научные, военные и промышленные компьютерные системы и передавали пароли, механизмы доступа, программы и данные двум офицерам КГБ. В числе взломанных объектов называются штаб-квартира NASA, компьютеры Лос-Аламоса и Ферми-лаборатории, база данных OPTIMIS Комитета начальников штабов США, а также ряд других армейских компьютеров. В Европе упоминаются компьютеры французско-итальянского производителя вооружений Thomson, Европейского космического агентства (ESA), Института ядерной физики Макса Планка в Гейдельберге, ЦЕРН/Женева, а также немецкого электронного ускорителя DESY/Гамбург. Согласно сообщениям, за примерно три года хакеры заработали несколько сотен тысяч немецких марок плюс наркотики (один из них, по всей видимости, был наркозависимым).</p>
 <empty-line/>
@@ -1248,7 +1350,8 @@
 <empty-line/>
 <p><strong>Материал предоставлен Клаусом Бруннштайном</strong></p>
 <empty-line/>
-<subtitle>Компьютерная шпионская сеть продала важнейшие секреты России — 3 марта 1989 года</subtitle>
+</section>
+<section id="toc_sub_000105"><title><p>Компьютерная шпионская сеть продала важнейшие секреты России — 3 марта 1989 года</p></title>
 <empty-line/>
 <p>Западногерманская контрразведка раскрыла шпионскую сеть, созданную вокруг компьютерных хакеров, подозреваемых в том, что они снабжали Советский Союз совершенно секретной военной и экономической информацией.</p>
 <empty-line/>
@@ -1272,7 +1375,8 @@
 <empty-line/>
 <p>Программа Северогерманской телерадиосети сообщила, что её расследование основывалось на информации, предоставленной двумя членами предполагаемого шпионского кольца.</p>
 <empty-line/>
-<subtitle>Предполагаемые взломы КГБ компьютеров в Западной Германии — 3 марта 1989 года</subtitle>
+</section>
+<section id="toc_sub_000106"><title><p>Предполагаемые взломы КГБ компьютеров в Западной Германии — 3 марта 1989 года</p></title>
 <empty-line/>
 <p><emphasis>Из International Herald Tribune</emphasis></p>
 <empty-line/>
@@ -1288,7 +1392,8 @@
 <empty-line/>
 <p>По данным репортажа, также были взломаны системы французской компании в сфере вооружений и электроники Thomson SA, европейского центра ядерных исследований ЦЕРН в Женеве, Европейского космического агентства и Института ядерной физики Макса Планка в Западной Германии.</p>
 <empty-line/>
-<subtitle>Новости от КГБ/«хитрых хакеров» — 7 марта 1989 года</subtitle>
+</section>
+<section id="toc_sub_000107"><title><p>Новости от КГБ/«хитрых хакеров» — 7 марта 1989 года</p></title>
 <empty-line/>
 <p>Спустя пять дней после «сенсационного» разоблачения, сделанного командой немецкого (NDR) телепрограммы «Panorama», пелена домыслов начинает рассеиваться и факты постепенно проясняются; кроме того, теперь, по всей видимости, можно получить ответы на некоторые вопросы, оставшиеся без ответа в статье Клиффорда Столла в Communications of the ACM. Хотя не все факты стали достоянием общественности, следующие из них представляются достаточно очевидными.</p>
 <empty-line/>
@@ -1326,7 +1431,8 @@
 <empty-line/>
 <p><strong>Материал предоставлен Клаусом Бруннштайном</strong></p>
 <empty-line/>
-<subtitle>Pengo высказывается о хакерах КГБ и многом другом — 10 марта 1989 года</subtitle>
+</section>
+<section id="toc_sub_000108"><title><p>Pengo высказывается о хакерах КГБ и многом другом — 10 марта 1989 года</p></title>
 <empty-line/>
 <p>Ниже приводятся высказывания Pengo, сделанные им в интервью Phrack Inc. с Knight Lightning.</p>
 <empty-line/>
@@ -1360,7 +1466,8 @@
 <empty-line/>
 <p><emphasis>— Pengo</emphasis></p>
 <empty-line/>
-<subtitle>Pengo высказывается в RISKS Digest — 10 марта 1989 года</subtitle>
+</section>
+<section id="toc_sub_000109"><title><p>Pengo высказывается в RISKS Digest — 10 марта 1989 года</p></title>
 <empty-line/>
 <p>В RISKS Digest Клаус Бруннштайн упомянул моё имя в контексте дела о хакерском шпионаже, недавно раскрытого германскими властями. Поскольку г-н Бруннштайн некомпетентен в вопросах, связанных с предысторией этого дела, хочу внести некоторые уточнения во избежание недоразумений — особенно относительно моей роли. Считаю крайне неправильной практику публикации имён людей без предоставления необходимой предыстории.</p>
 <empty-line/>
@@ -1384,7 +1491,8 @@
 <empty-line/>
 <p><emphasis>— Ханс Хюбнер</emphasis></p>
 <empty-line/>
-<subtitle>Клаус Бруннштайн отвечает Pengo в RISKS Digest — 14 марта 1989 года</subtitle>
+</section>
+<section id="toc_sub_000110"><title><p>Клаус Бруннштайн отвечает Pengo в RISKS Digest — 14 марта 1989 года</p></title>
 <empty-line/>
 <p>«Pengo» Ханс Хюбнер заявил, что в деле КГБ, упомянутом мной в моём отчёте, он не участвовал. Поскольку я сам непосредственно в деле КГБ не участвовал (и в этом смысле являюсь менее осведомлённым источником, чем Pengo!), я старался передавать лишь ту информацию, которая подтверждалась как минимум <emphasis>двумя независимыми источниками</emphasis>, заслуживающими <emphasis>определённого доверия</emphasis>. В случае с Pengo (к которому я подходил весьма осторожно, поскольку с трудом верил прочитанному) моими двумя источниками были:</p>
 <empty-line/>
@@ -1396,13 +1504,14 @@
 <empty-line/>
 <p><emphasis>— Клаус Бруннштайн</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_025_011_phrack_world_news_25_3">
 <title><p>Phrack World News</p></title>
 <image l:href="#img__code_blocks_issue_025_011_phrack_world_news_25_3_0003_87464e4610.png"/>
 <empty-line/>
 <p><strong>Автор:</strong> Knight Lightning</p>
 <empty-line/>
-<subtitle>Southwestern Bell против операторов электронных досок объявлений — 27 февраля 1989 г.</subtitle>
+<section id="toc_sub_000111"><title><p>Southwestern Bell против операторов электронных досок объявлений — 27 февраля 1989 г.</p></title>
 <empty-line/>
 <p>Для тех, кто не знаком с этой историей: между телефонной компанией Southwestern Bell и операторами досок объявлений (BBS) в Оклахома-Сити, штат Оклахома, разгорелось серьёзное противостояние. Southwestern Bell добивается права взимать повышенную плату за телефонные линии, используемые для работы BBS. Компания утверждает, что передача данных должна тарифицироваться выше по умолчанию, а эксплуатация BBS сравнима с коммерческой деятельностью, следовательно, такие линии должны обходиться дороже, чем жилые.</p>
 <empty-line/>
@@ -1418,7 +1527,8 @@
 <empty-line/>
 <p><emphasis>Информация предоставлена различными источниками.</emphasis></p>
 <empty-line/>
-<subtitle>Внимание любителям телекоммуникаций — 7 марта 1989 г.</subtitle>
+</section>
+<section id="toc_sub_000112"><title><p>Внимание любителям телекоммуникаций — 7 марта 1989 г.</p></title>
 <empty-line/>
 <p>Следующее письмо взято из TELECOM Digest — интернет-рассылки.</p>
 <empty-line/>
@@ -1446,7 +1556,8 @@
 <empty-line/>
 <p>300/1200</p>
 <empty-line/>
-<subtitle>Пользователи компьютеров опасаются прецедента Стэнфорда — 20 февраля 1989 г.</subtitle>
+</section>
+<section id="toc_sub_000113"><title><p>Пользователи компьютеров опасаются прецедента Стэнфорда — 20 февраля 1989 г.</p></title>
 <empty-line/>
 <p><emphasis>Том Филп (San Jose Mercury News)</emphasis></p>
 <empty-line/>
@@ -1458,7 +1569,7 @@
 <empty-line/>
 <p>Для ряда пользователей прецедент Стэнфорда тревожен. «Мы вступаем в очень, очень щекотливую область, когда системным администраторам предоставляется полномочие просто удалять файлы, которые они сочтут неуместными в общедоступных системах», — заявил Гэри Чэпмен, исполнительный директор организации Computer Professionals for Social Responsibility из Пало-Альто (2500 членов). — «Моя личная позиция: свобода слова должна распространяться на компьютерную информацию».</p>
 <empty-line/>
-<p>Ральф Горин, директор Академических информационных ресурсов Стэнфорда, с этим не согласен. «Мне кажется, совершенно ясно: нужно либо выступать за свободу слова со всеми её последствиями, либо быть готовым принять последствия позиции &quot;свобода слова — иногда&quot; и тогда решать, когда именно», — сказал Горин.</p>
+<p>Ральф Горин, директор Академических информационных ресурсов Стэнфорда, с этим не согласен. «Мне кажется, совершенно ясно: нужно либо выступать за свободу слова со всеми её последствиями, либо быть готовым принять последствия позиции "свобода слова — иногда" и тогда решать, когда именно», — сказал Горин.</p>
 <empty-line/>
 <p>После введения запрета на анекдоты более 100 пользователей компьютеров Стэнфорда, включая ведущего исследователя в области искусственного интеллекта, подписали петицию протеста. Есть и некоторые свидетельства того, что официальные лица Стэнфорда ищут выход из созданной ими дилеммы.</p>
 <empty-line/>
@@ -1478,7 +1589,8 @@
 <empty-line/>
 <p>Маккарти добавил: «Должен сказать, что я сейчас настроен оптимистично — этот запрет будет отменён. Есть люди, которые считают, что совершили ошибку».</p>
 <empty-line/>
-<subtitle>Запретить компьютерный хакинг — CBI — 1 марта 1989 г.</subtitle>
+</section>
+<section id="toc_sub_000114"><title><p>Запретить компьютерный хакинг — CBI — 1 марта 1989 г.</p></title>
 <empty-line/>
 <p><emphasis>Питер Лардж (Guardian Newspaper)</emphasis></p>
 <empty-line/>
@@ -1501,7 +1613,8 @@
 <empty-line/>
 <p>США, Канада, Швеция и Франция запретили хакинг, однако в Великобритании это не является правонарушением, если не причинён ущерб — например, в виде мошенничества или кражи. В феврале в докладе Джека о банковском законодательстве было предложено ввести уголовную ответственность за хакинг. Юридическая комиссия подготовила дискуссионный документ и намерена выдвинуть конкретные предложения в конце года.</p>
 <empty-line/>
-<subtitle>Верховный суд Германии признал телекоммуникационный закон неконституционным — 23 марта 1989 г.</subtitle>
+</section>
+<section id="toc_sub_000115"><title><p>Верховный суд Германии признал телекоммуникационный закон неконституционным — 23 марта 1989 г.</p></title>
 <empty-line/>
 <p>Оспариваемый закон гласит:</p>
 <empty-line/>
@@ -1513,7 +1626,8 @@
 <empty-line/>
 <p>Законодательному органу Германии было предложено принять новый закон. Однако, поскольку существуют столь сильные интересы и влияние промышленности, пользователей и Европейского общего рынка против принятия нового запретительного закона, считается, что есть основания для оптимизма и подобный запретительный закон не будет принят.</p>
 <empty-line/>
-<subtitle>Калифорнийская PUC отключает AOS — 24 марта 1989 г.</subtitle>
+</section>
+<section id="toc_sub_000116"><title><p>Калифорнийская PUC отключает AOS — 24 марта 1989 г.</p></title>
 <empty-line/>
 <p>По материалам San Francisco Examiner (деловой раздел), Комиссия по коммунальным услугам предписала TPC (Pacific Bell) отключить 54 частных таксофона в рамках первого принудительного действия против «ценового мошенничества со стороны ряда операторских служб».</p>
 <empty-line/>
@@ -1523,7 +1637,8 @@
 <empty-line/>
 <p>В статье также упоминается, что в прошлом месяце FCC ввела ряд ограничений для пяти AOS-компаний, обвинённых в вопиющем мошенничестве, — в частности, обязала их «представляться каждому звонящему и сообщать тарифы по запросу».</p>
 <empty-line/>
-<subtitle>PWN Краткие новости</subtitle>
+</section>
+<section id="toc_sub_000117"><title><p>PWN Краткие новости</p></title>
 <empty-line/>
 <p><strong>1.</strong> Электронный карточный каталог библиотечной системы Делавэрского университета (DELCAT) теперь доступен жителям всего штата Делавэр. В каждом округе штата появился местный номер для подключения. Услуга предоставляется сетью Bell Atlantic Public Data Network.</p>
 <empty-line/>
@@ -1544,6 +1659,7 @@
 <p><strong>5.</strong> По неподтверждённым слухам из среды специалистов по безопасности хакерского сообщества, GTE Telenet привлекла новую помощь в борьбе со злоупотреблениями в сети Telenet, и новые меры безопасности уже находятся в стадии реализации.</p>
 <empty-line/>
 <p>Предполагаемая новая помощь выразилась в форме кадрового усиления: людей, считающихся «экспертами» не только по Telenet, но и по хакерскому сообществу в целом.</p>
+</section>
 </section>
 </section>
 </body>

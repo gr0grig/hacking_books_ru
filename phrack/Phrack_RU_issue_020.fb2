@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0"
-             xmlns:l="http://www.w3.org/1999/xlink">
+<?xml version='1.0' encoding='UTF-8'?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
 <description>
   <title-info>
     <genre>computers</genre>
@@ -36,7 +35,7 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_001_phrack_xx_index_0017_d8b0b5bf11.png"/>
 <empty-line/>
-<subtitle>Содержание выпуска</subtitle>
+<section id="toc_sub_000001"><title><p>Содержание выпуска</p></title>
 <empty-line/>
 <p>1. Индекс Phrack XX — Taran King и Knight Lightning</p>
 <p>2. Phrack Pro-Phile XX — о Taran King</p>
@@ -53,6 +52,7 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_001_phrack_xx_index_0038_d8c139c67a.png"/>
 </section>
+</section>
 <section id="sec_issue_020_002_phrack_pro_phile_xx_taran_king">
 <title><p>Phrack Pro-Phile XX</p></title>
 <p><strong>Автор:</strong> Taran King</p>
@@ -65,7 +65,7 @@
 <empty-line/>
 <p>Taran King (то есть я) был сисопом Metal Shop Private — закрытой площадки для энтузиастов телекоммуникаций (фрикеров и хакеров), а также домашней базы Phrack Inc., которую я вёл. Помимо этого, я принимал участие в организации SummerCon '87 и PartyCon '87.</p>
 <empty-line/>
-<subtitle>Личное</subtitle>
+<section id="toc_sub_000002"><title><p>Личное</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_002_phrack_pro_phile_xx_taran_king_0023_4f08f3a337.png"/>
 <empty-line/>
@@ -81,19 +81,23 @@
 <empty-line/>
 <p>Единственная группа, в которой я когда-либо состоял, — The 2600 Club!, впоследствии переименованная в The NEW 2600 Club!, такая же бестолковая, но с более интересными именами и примерно таким же участием в чём-либо. Я понял, что могу продвигаться в мире фрикинга без поддержки клуба — достаточно использовать свою доску как точку отсчёта. Мне не нужно было опираться на чужой труд.</p>
 <empty-line/>
-<subtitle>Интересы</subtitle>
+</section>
+<section id="toc_sub_000003"><title><p>Интересы</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_002_phrack_pro_phile_xx_taran_king_0059_f24028c0f0.png"/>
 <empty-line/>
-<subtitle>Любимое у Taran'а</subtitle>
+</section>
+<section id="toc_sub_000004"><title><p>Любимое у Taran'а</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_002_phrack_pro_phile_xx_taran_king_0072_2452b6c9d9.png"/>
 <empty-line/>
-<subtitle>Самые запоминающиеся события</subtitle>
+</section>
+<section id="toc_sub_000005"><title><p>Самые запоминающиеся события</p></title>
 <empty-line/>
 <p>Конференции Forest Ranger'а (что бы ВЫ сделали ради Klondike Bar в 3 ночи?). Автомобильная авария с Jester Sluggo — и ещё раз чуть не попали во вторую сразу после (продолжай пить!). Конференции Bell Shock Force (да, мэм, извините, но вам придётся перерезать эти провода). Задержание в конце мая '87 (не пробуйте — это совсем не весело). SummerCon '87 (лучше PartyCon '87 как вечеринка, встретил много замечательных людей). PartyCon '87 (весело, но слишком неорганизованно, хотя познакомился ещё с несколькими людьми, с которыми хотел встретиться). SummerCon '88 (подождите, я вообще там был???).</p>
 <empty-line/>
-<subtitle>Люди, которых стоит упомянуть</subtitle>
+</section>
+<section id="toc_sub_000006"><title><p>Люди, которых стоит упомянуть</p></title>
 <empty-line/>
 <p><strong>Knight Lightning</strong> — мой правая рука; пусть он и не был особо знающим, он всегда был рядом и старался помочь — и сейчас тоже.</p>
 <empty-line/>
@@ -125,9 +129,10 @@
 <empty-line/>
 <p><strong>Olorin The White</strong> — если он ещё раз запишет меня в свою группу, я его убью!</p>
 <empty-line/>
-<subtitle>Внутренние шутки</subtitle>
+</section>
+<section id="toc_sub_000007"><title><p>Внутренние шутки</p></title>
 <empty-line/>
-<p>Mary likes corn. Are you stupid (corn, cheese, free)? Supervisors at Pizza Hut? Essscuse me Mr. Corley, but I was juss lookin' fo sum bonez...I'm Bosco. What's the worse that could happen? Smoke. Raggy! Raggy! HeeheeHEEHeeheehee hee. KS-KS-KS \&lt;Gulp!\&gt;. Do you know any phreaks who carry around their own trunks. IIIII Like Chi-Nese! Listing for Dalkon Shields please. I know that's a blue box! Hello, security? Do we have a trace? We do. Good. \&lt;LAUGHTER!\&gt;. AMD. We make display. We're hopping on a plane now and coming to Maryland to kick your ass! For $20 I'll sell you 5 lbs. of baking soda. Doesn't he look like The Fly? You almost just hit the car again! Keep drinking! It was the other side of the car this time! Keep drinking! Do you know what your aunt would do to you if you got in another accident? Keep drinking! I hate it when your dick hits the water in the bottom of the urinal, don't you? But what do you think about it? But what do you think about it? But what do you think about it? And a complimentary beer comes with the room. Domino's dude! Ya wanna get paid? Run to me boys. Guess where I'm calling from? NO! NO! COCKSUCKER! I'mLuckyI'mLuckyI'mLucky! But first off, do you have Karl Marx's phone number? Dude. NAA. Dude. NAA. Dude. NAA. The meat was SOOOO tender, it just slid off the bones. Chicken. Hey, you know like you have a little piece of wire hanging down from your nose? Jolly Green Faggot. That made me pucker my lips. Sweet. Baksketball Jones. HAHAHAHAHA\&lt;fart\&gt;HAHAHAHA. You Bonehead. I would have reached my hand in but I had just finished deficating. Dan, you're too thin for your voice. You can almost hear the dogs across the street barking. I only want to know two things: 1) How do you blue box off of CCIS and 2) how do you remotely take total control of LMOS? NO! I'M BIOC! \&lt;STAMP\&gt; BIOC \&lt;STAMP\&gt; BIOC \&lt;STAMP\&gt; BIOC. &quot;BIOC Agent 003 was arrested today for stamping his name on his RA's forehead.&quot;</p>
+<p>Mary likes corn. Are you stupid (corn, cheese, free)? Supervisors at Pizza Hut? Essscuse me Mr. Corley, but I was juss lookin' fo sum bonez...I'm Bosco. What's the worse that could happen? Smoke. Raggy! Raggy! HeeheeHEEHeeheehee hee. KS-KS-KS \&lt;Gulp!\&gt;. Do you know any phreaks who carry around their own trunks. IIIII Like Chi-Nese! Listing for Dalkon Shields please. I know that's a blue box! Hello, security? Do we have a trace? We do. Good. \&lt;LAUGHTER!\&gt;. AMD. We make display. We're hopping on a plane now and coming to Maryland to kick your ass! For $20 I'll sell you 5 lbs. of baking soda. Doesn't he look like The Fly? You almost just hit the car again! Keep drinking! It was the other side of the car this time! Keep drinking! Do you know what your aunt would do to you if you got in another accident? Keep drinking! I hate it when your dick hits the water in the bottom of the urinal, don't you? But what do you think about it? But what do you think about it? But what do you think about it? And a complimentary beer comes with the room. Domino's dude! Ya wanna get paid? Run to me boys. Guess where I'm calling from? NO! NO! COCKSUCKER! I'mLuckyI'mLuckyI'mLucky! But first off, do you have Karl Marx's phone number? Dude. NAA. Dude. NAA. Dude. NAA. The meat was SOOOO tender, it just slid off the bones. Chicken. Hey, you know like you have a little piece of wire hanging down from your nose? Jolly Green Faggot. That made me pucker my lips. Sweet. Baksketball Jones. HAHAHAHAHA\&lt;fart\&gt;HAHAHAHA. You Bonehead. I would have reached my hand in but I had just finished deficating. Dan, you're too thin for your voice. You can almost hear the dogs across the street barking. I only want to know two things: 1) How do you blue box off of CCIS and 2) how do you remotely take total control of LMOS? NO! I'M BIOC! \&lt;STAMP\&gt; BIOC \&lt;STAMP\&gt; BIOC \&lt;STAMP\&gt; BIOC. "BIOC Agent 003 was arrested today for stamping his name on his RA's forehead."</p>
 <empty-line/>
 <p>Теперь я категорически против любых форм мошенничества — после того как провёл ночь в тюрьме, всё лето '87 в тревоге и боли и ещё три года проживу на испытательном сроке. Если кто-то решит, что это намёк на сотрудничество со следствием — нет: я никому ни о чём не доносил и не доношу, просто не причастен ни к чему мошенническому. Кардинг я всегда считал самым глупым компьютерным преступлением — слишком рискованным, чтобы оно того стоило. Надеюсь, что будущие фрикеры и хакеры сохранят и передадут то, что было накоплено за долгие годы — задолго до того, как я вообще услышал о фрикинге и хакинге.</p>
 <empty-line/>
@@ -136,6 +141,7 @@
 <p>Если говорить о фрикерах, которых вы встречали, — считаете ли вы большинство из них компьютерными гиками? Как правило, те, что покруче, — нет. Но в любой большой группе людей всегда найдётся парочка-другая гиков. Спасибо за время, Randy. Не за что, Randy.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_002_phrack_pro_phile_xx_taran_king_0145_9290400b00.png"/>
+</section>
 </section>
 <section id="sec_issue_020_003_phrack_metal_shop_timeline">
 <title><p>Хронология Phrack Inc. / Metal Shop Private</p></title>
@@ -217,11 +223,12 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0075_3d77f0e776.png"/>
 <empty-line/>
-<subtitle>Список досок объявлений</subtitle>
+<section id="toc_sub_000008"><title><p>Список досок объявлений</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0094_35d140e548.png"/>
 <empty-line/>
-<subtitle>Чат с сисопом</subtitle>
+</section>
+<section id="toc_sub_000009"><title><p>Чат с сисопом</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0130_6e1d6caf3a.png"/>
 <empty-line/>
@@ -229,7 +236,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0149_2eb372850f.png"/>
 <empty-line/>
-<subtitle>Меню дверей (Doors)</subtitle>
+</section>
+<section id="toc_sub_000010"><title><p>Меню дверей (Doors)</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0155_7fcaffe0c1.png"/>
 <empty-line/>
@@ -237,11 +245,13 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0161_dfc32bd7dd.png"/>
 <empty-line/>
-<subtitle>Меню электронной почты</subtitle>
+</section>
+<section id="toc_sub_000011"><title><p>Меню электронной почты</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0171_b8bd1d9a72.png"/>
 <empty-line/>
-<subtitle>Раздел файлов</subtitle>
+</section>
+<section id="toc_sub_000012"><title><p>Раздел файлов</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0185_b05338b724.png"/>
 <empty-line/>
@@ -249,35 +259,43 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0192_8522e34d92.png"/>
 <empty-line/>
-<subtitle>Hacking Philes</subtitle>
+</section>
+<section id="toc_sub_000013"><title><p>Hacking Philes</p></title>
 <empty-line/>
 <p>[Таблица из 115 записей — опущена]</p>
 <empty-line/>
-<subtitle>Phrack Inc.</subtitle>
+</section>
+<section id="toc_sub_000014"><title><p>Phrack Inc.</p></title>
 <empty-line/>
 <p>[Таблица из 124 записей — опущена]</p>
 <empty-line/>
-<subtitle>Phrack Inc. II</subtitle>
+</section>
+<section id="toc_sub_000015"><title><p>Phrack Inc. II</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0213_bff81b6bb5.png"/>
 <empty-line/>
-<subtitle>Phreak Philes</subtitle>
+</section>
+<section id="toc_sub_000016"><title><p>Phreak Philes</p></title>
 <empty-line/>
 <p>[Таблица из 151 записи — опущена]</p>
 <empty-line/>
-<subtitle>Phreak Philes II</subtitle>
+</section>
+<section id="toc_sub_000017"><title><p>Phreak Philes II</p></title>
 <empty-line/>
 <p>[Таблица из 26 записей — опущена]</p>
 <empty-line/>
-<subtitle>Series/Articles</subtitle>
+</section>
+<section id="toc_sub_000018"><title><p>Series/Articles</p></title>
 <empty-line/>
 <p>[Таблица из 83 записей — опущена]</p>
 <empty-line/>
-<subtitle>База сообщений</subtitle>
+</section>
+<section id="toc_sub_000019"><title><p>База сообщений</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0240_053c198c22.png"/>
 <empty-line/>
-<subtitle>База акронимов</subtitle>
+</section>
+<section id="toc_sub_000020"><title><p>База акронимов</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0254_15f44cfeaf.png"/>
 <empty-line/>
@@ -285,16 +303,19 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0260_611f66ca0d.png"/>
 <empty-line/>
-<subtitle>Меню статуса</subtitle>
+</section>
+<section id="toc_sub_000021"><title><p>Меню статуса</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0279_33ccfaab9e.png"/>
 <empty-line/>
-<subtitle>Список пользователей</subtitle>
+</section>
+<section id="toc_sub_000022"><title><p>Список пользователей</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0307_22f90da673_part01.png"/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0307_22f90da673_part02.png"/>
 <empty-line/>
-<subtitle>База данных пользователей</subtitle>
+</section>
+<section id="toc_sub_000023"><title><p>База данных пользователей</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0381_b82b5dd857.png"/>
 <empty-line/>
@@ -304,7 +325,8 @@
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0387_1121cd2ed6_part02.png"/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0387_1121cd2ed6_part03.png"/>
 <empty-line/>
-<subtitle>Кабинка для голосования</subtitle>
+</section>
+<section id="toc_sub_000024"><title><p>Кабинка для голосования</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0496_d25eb10218.png"/>
 <empty-line/>
@@ -357,7 +379,8 @@
 <p>• RAGS - Best of Sexy Exy: 11 (44,0%)</p>
 <p>• PWN XIII: 1 (4,0%)</p>
 <empty-line/>
-<subtitle>Меню сисопа</subtitle>
+</section>
+<section id="toc_sub_000025"><title><p>Меню сисопа</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0564_f380b82eb1.png"/>
 <empty-line/>
@@ -365,19 +388,21 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0570_ca07abf41e.png"/>
 <empty-line/>
-<subtitle>Выход из системы</subtitle>
+</section>
+<section id="toc_sub_000026"><title><p>Выход из системы</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0587_1532f057e0.png"/>
 <empty-line/>
-<p>(Если вам не хотелось смотреть на всё это, быстрый выход &quot;-&quot; работал почти отовсюду.)</p>
+<p>(Если вам не хотелось смотреть на всё это, быстрый выход "-" работал почти отовсюду.)</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0593_9877784879.png"/>
 <empty-line/>
 <p>Что ж, это примерно всё, что было на доске. Было ещё несколько вещей — например, информационная строка в верхней части экрана, отделённая окном от происходящего на доске и содержавшая данные о пользователе онлайн и другие вещи, видимые только сисопу. Но ничего особо интересного там не было. Надеюсь, вам понравилось знакомство со всем, что было на моей бывшей доске, и что вы одновременно удивились и разочаровались. Именно так и должно быть — потому что, как я часто говорил, она была переоценена. В любом случае, хочу признать, что и Control C, и The Mad Hacker собирались вести Metal Shop Private после того, как у меня возникли проблемы, но у Control C появились собственные трудности, и после того как он получил программу — потерял её. The Mad Hacker бы её запустил, но я получил уведомление о кое-чём, касающемся доски, что убедило меня закрыть её навсегда. Всё по-прежнему цело, как я и сказал, но, скорее всего, это так и будет лежать на моём жёстком диске, пока моему отцу не понадобится больше места для Lotus 1-2-3 или чего-нибудь ещё — и тогда это отформатируют.</p>
 <empty-line/>
-<p>Ах, и ещё одно напоследок: для тех, кто думал, что является хакером и пытался узнать мой пароль (чего никогда не случалось за всю историю доски) — он был &quot;ME?CRAZY&quot;, мой номер телефона был MSP-314-SLAY, а дополнительный пароль для удалённого входа под сисопом — &quot;LASHING.&quot;</p>
+<p>Ах, и ещё одно напоследок: для тех, кто думал, что является хакером и пытался узнать мой пароль (чего никогда не случалось за всю историю доски) — он был "ME?CRAZY", мой номер телефона был MSP-314-SLAY, а дополнительный пароль для удалённого входа под сисопом — "LASHING."</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_004_welcome_to_metal_shop_private_0609_e7114de16c.png"/>
+</section>
 </section>
 <section id="sec_issue_020_005_metal_shop_private_metal_general_discussion">
 <title><p>Metal Shop Private — Metal/General Discussion</p></title>
@@ -675,7 +700,7 @@
 <empty-line/>
 <p>Миз завтра будет в Сент-Луисе говорить об абортах. 20 долларов за их чёртов ужин. Аборт должен быть выбором... Согласен, что это плохо, но альтернативы могут быть хуже. Если лишить людей выбора — что останется?</p>
 <empty-line/>
-<cite><p>«Наркотики, которыми нас кормят, чтобы мы смирились — это Бог и Отечество с грохотом. Люди, которые должны были бы знать лучше, воют: &quot;Америка рулит, пошли на войну!&quot; Советы — наши худшие враги? Мы сами себя уничтожаем. Кому важны наши гражданские права, пока мне платят?»</p></cite>
+<cite><p>«Наркотики, которыми нас кормят, чтобы мы смирились — это Бог и Отечество с грохотом. Люди, которые должны были бы знать лучше, воют: "Америка рулит, пошли на войну!" Советы — наши худшие враги? Мы сами себя уничтожаем. Кому важны наши гражданские права, пока мне платят?»</p></cite>
 <empty-line/>
 <p>Meese Mania в полном разгаре!</p>
 <empty-line/>
@@ -1215,7 +1240,7 @@
 <empty-line/>
 <p>Подраздел Phrack Inc./Gossip содержал преимущественно разговоры — слухи из мира фрикеров и хакеров, обсуждение материалов для и организации рассылки Phrack Inc.</p>
 <empty-line/>
-<subtitle>1/100: ну что ж...</subtitle>
+<section id="toc_sub_000027"><title><p>1/100: ну что ж...</p></title>
 <p><strong>Имя:</strong> Sir Francis Drake 56 <strong>Дата:</strong> 6:26 вечера, ср 29 апр 1987</p>
 <empty-line/>
 <p>Очередная версия...</p>
@@ -1228,7 +1253,8 @@
 <empty-line/>
 <p>sfd</p>
 <empty-line/>
-<subtitle>2/100: Умм...</subtitle>
+</section>
+<section id="toc_sub_000028"><title><p>2/100: Умм...</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 11:24 вечера, ср 29 апр 1987</p>
 <empty-line/>
 <p>Эй, SFD, помни — заголовки к статьям нужны. Но если серьёзно, SummerCon без сомнений будет весёлым мероприятием, только давайте признаем: никто особо не узнает там ничего нового о фрикинге или хакинге — слишком много радости от встречи с новыми людьми и вечеринок, а это значит, что вы всё равно всё забудете.</p>
@@ -1255,7 +1281,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>3/100: Я слышал</subtitle>
+</section>
+<section id="toc_sub_000029"><title><p>3/100: Я слышал</p></title>
 <p><strong>Имя:</strong> Evil Jay 26 <strong>Дата:</strong> 11:56 вечера, ср 29 апр 1987</p>
 <empty-line/>
 <p>...прямо из первых уст, что The Rebel и ещё несколько человек из той компании собираются прийти. Мне даже удалось услышать всю историю про Хауи целиком. По словам Rebel, Howie был арестован, дошло до суда, а когда мать узнала, чем он занимается (снова), она окончательно и бесповоротно (навсегда?) лишила его телефонных привилегий. Не знаю, правда ли это... ну да ладно. Ещё я слышал от нескольких человек, которые лично встречались с Exy, Delta-Master и Bill из RNOC, — их отзывы были... интересными.</p>
@@ -1268,7 +1295,8 @@
 <empty-line/>
 <p>-J</p>
 <empty-line/>
-<subtitle>4/100: Мичиган</subtitle>
+</section>
+<section id="toc_sub_000030"><title><p>4/100: Мичиган</p></title>
 <p><strong>Имя:</strong> Control C 8 <strong>Дата:</strong> 2:10 дня, чт 30 апр 1987</p>
 <empty-line/>
 <p>Дуг,</p>
@@ -1277,7 +1305,8 @@
 <empty-line/>
 <p>Control</p>
 <empty-line/>
-<subtitle>5/100: КОМНАТЫ</subtitle>
+</section>
+<section id="toc_sub_000031"><title><p>5/100: КОМНАТЫ</p></title>
 <p><strong>Имя:</strong> Lucifer 666 43 <strong>Дата:</strong> 4:07 дня, чт 30 апр 1987</p>
 <empty-line/>
 <p>Если Broadway решит остаться в общих комнатах, я в той комнате не живу...</p>
@@ -1292,7 +1321,8 @@
 <empty-line/>
 <p>L666</p>
 <empty-line/>
-<subtitle>6/100: Общие комнаты</subtitle>
+</section>
+<section id="toc_sub_000032"><title><p>6/100: Общие комнаты</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 7:02 вечера, чт 30 апр 1987</p>
 <empty-line/>
 <p>Broadway запрещено пользоваться общими комнатами. Если он приедет, ему придётся взять свою, и, судя по тому, что я слышал, именно это он и намерен сделать. Я правда не думаю, что будут какие-то аресты, если никто не притащит ничего по-настоящему незаконного — типа синей коробки или не будет стоять у телефона-автомата с листом кодов на полторы страницы перед носом у копа.</p>
@@ -1301,14 +1331,16 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>7/100: Знаю.</subtitle>
+</section>
+<section id="toc_sub_000033"><title><p>7/100: Знаю.</p></title>
 <p><strong>Имя:</strong> Evil Jay 26 <strong>Дата:</strong> 12:05 ночи, пт 1 мая 1987</p>
 <empty-line/>
 <p>Из-за огромного количества выпивки и прочего дерьма, готов поспорить чем угодно: больше одного несовершеннолетнего загребут. Думаю, нам всем надо найти какой-нибудь парк или что-то в этом роде. Вообще-то, лучший вариант (который теперь уже вряд ли осуществим) — снять какое-нибудь помещение на ночь. Я был на нескольких вечеринках, где так делали. Никаких копов, безумно громкая музыка... это было круто... не дёшево, конечно, но если все скинутся...</p>
 <empty-line/>
 <p>-J</p>
 <empty-line/>
-<subtitle>8/100: Вечеринки в отеле</subtitle>
+</section>
+<section id="toc_sub_000034"><title><p>8/100: Вечеринки в отеле</p></title>
 <p><strong>Имя:</strong> Mad Hatter 51 <strong>Дата:</strong> 6:57 утра, пт 1 мая 1987</p>
 <empty-line/>
 <p>Я не в восторге от них. Я побывал на двух таких, и обе были прерваны облавой. Что будем делать, если кого-нибудь возьмут? Я точно не хочу, чтобы моим родителям позвонили из полиции Сент-Луиса: «Ах да, господин xxxxxxx, вашего сына задержали на вечеринке в отеле за употребление алкоголя в несовершеннолетнем возрасте. Не могли бы вы забрать его?» И ещё — залог? Блин, попался — и ты в ловушке.</p>
@@ -1317,36 +1349,42 @@
 <empty-line/>
 <p>KL, раз BH нельзя в общие комнаты (а я с ним), значит ли это, что и я не могу там оставаться? Другие k-rad d00dz едут?</p>
 <empty-line/>
-<subtitle>9/100: Хех</subtitle>
+</section>
+<section id="toc_sub_000035"><title><p>9/100: Хех</p></title>
 <p><strong>Имя:</strong> Taran King 1 <strong>Дата:</strong> 7:06 утра, пт 1 мая 1987</p>
 <empty-line/>
 <p>Нет, ты можешь оставаться в комнате с остальными, Hatter. Я вообще впервые слышу о запрете для Bway — может, KL сам решает за Forest Ranger, но я в личные разборки не лезу. МНОГО людей берут свои комнаты, чтобы не оказаться на улице в случае выселения. Просто нужно будет держать уровень шума в норме (не выпивку, именно шум). Если ты точно едешь каким-то транспортом, напиши как именно — я хочу понять, сколько раз придётся ездить на вокзал, возможно, организуем карпулы и т.д. -TK</p>
 <empty-line/>
-<subtitle>10/100: Выпивка</subtitle>
+</section>
+<section id="toc_sub_000036"><title><p>10/100: Выпивка</p></title>
 <p><strong>Имя:</strong> The Scanner 20 <strong>Дата:</strong> 8:24 утра, пт 1 мая 1987</p>
 <empty-line/>
 <p>Кстати, какой в Сент-Луисе возраст для покупки алкоголя? Скажите мне, что они ещё не дошли до 21.</p>
 <empty-line/>
-<subtitle>11/100: SFD</subtitle>
+</section>
+<section id="toc_sub_000037"><title><p>11/100: SFD</p></title>
 <p><strong>Имя:</strong> Doom Prophet 21 <strong>Дата:</strong> 4:26 дня, пт 1 мая 1987</p>
 <empty-line/>
 <p>Рад, что хоть кто-то высказывает иное мнение о теме выпивки. Я сам не прочь выпить (в среднем раз или два в месяц, если только родители не уехали или что-то в этом роде), но считаю, что хвастовство наркотиками и алкоголем не говорит об уме совсем, а тот, кто воздерживается от такого хвастовства — нонконформист. Куча людей в моей школе называют меня «крестоносцем против травки» и похожими прозвищами, потому что мне надоело два часа слушать о том, как все были в хлам пьяны и укурены в выходные. Но это не значит, что я считаю это неправильным (если только человек не злоупотребляет или, скажем, не ворует, чтобы купить наркотики). Можете воспринять моё сообщение как «конформистский» пост про выпивку — я ведь упомянул кое-что о том, что TK был пьян и его рвало, но сам я так это не расцениваю.</p>
 <empty-line/>
 <p>Doomy</p>
 <empty-line/>
-<subtitle>12/100: ну что ж...</subtitle>
+</section>
+<section id="toc_sub_000038"><title><p>12/100: ну что ж...</p></title>
 <p><strong>Имя:</strong> Sir Francis Drake 56 <strong>Дата:</strong> 8:07 вечера, пт 1 мая 1987</p>
 <empty-line/>
 <p>Угу, рад, что ты понимаешь мою позицию. Конечно, хвастаться тем, что ты никогда не пьёшь и не употребляешь наркотики — столь же убого. Главное, разумеется, делать то, чего ты сам хочешь, а не то, к чему тебя приучило общество и, конечно, ужасное «давление сверстников».</p>
 <empty-line/>
 <p>sfd</p>
 <empty-line/>
-<subtitle>13/100: Возраст для покупки алкоголя</subtitle>
+</section>
+<section id="toc_sub_000039"><title><p>13/100: Возраст для покупки алкоголя</p></title>
 <p><strong>Имя:</strong> The Spectre 82 <strong>Дата:</strong> 8:25 утра, сб 2 мая 1987</p>
 <empty-line/>
 <p>\&lt;Уверен, вы все думаете: «Да кто такой вообще The Spectre?» Не беспокойтесь об этом.\&gt; Возраст для покупки алкоголя в Сент-Луисе и во всём штате Миссури — 21 год. Так уже давно. И поскольку большинство здешних пользователей моложе 21, это может создать определённые проблемы.</p>
 <empty-line/>
-<subtitle>14/100: Broadway</subtitle>
+</section>
+<section id="toc_sub_000040"><title><p>14/100: Broadway</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 10:13 утра, сб 2 мая 1987</p>
 <empty-line/>
 <p>Окей, Рэнди, ты можешь спать в одной комнате с Broadway. Только за мылом не нагибайся.</p>
@@ -1355,26 +1393,30 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>15/100: Я всё ещё.....</subtitle>
+</section>
+<section id="toc_sub_000041"><title><p>15/100: Я всё ещё.....</p></title>
 <p><strong>Имя:</strong> The Disk Jockey 13 <strong>Дата:</strong> 12:54 дня, сб 2 мая 1987</p>
 <empty-line/>
 <p>...думаю, что Broadway не появится.....</p>
 <empty-line/>
-<subtitle>16/100: Опровержение</subtitle>
+</section>
+<section id="toc_sub_000042"><title><p>16/100: Опровержение</p></title>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 10:51 вечера, сб 2 мая 1987</p>
 <empty-line/>
 <p>Должен «извиниться» (за неимением лучшего слова) за то, что упомянул Broadway Hacker в том посте — считаю, что поливать грязью «жертву месяца» у неё за спиной — дело красное и слабое. Лично у меня к нему только одна претензия: его дерьмовая история примерно год назад, когда он говорил, что валит Radio Station, — я повёлся как дурак, снял свою борду и запаниковал. Это лишь показало, что его словам доверять не стоит. Честно говоря, какое-то время он держал неплохую BBS — вот это вы все признать обязаны.</p>
 <empty-line/>
 <p>Phantom</p>
 <empty-line/>
-<subtitle>17/100: Хвастовство???</subtitle>
+</section>
+<section id="toc_sub_000043"><title><p>17/100: Хвастовство???</p></title>
 <p><strong>Имя:</strong> Evil Jay 26 <strong>Дата:</strong> 1:19 ночи, вс 3 мая 1987</p>
 <empty-line/>
 <p>Мне кажется, некоторые из этих комментариев адресованы мне. Ну, чёрт... я хорошо провожу время, почему бы не сказать об этом? Не думаю, что хвастаюсь... я ух.</p>
 <empty-line/>
 <p>-J (ламерский, ламерский, ЛАМЕРСКИЙ пост...)</p>
 <empty-line/>
-<subtitle>18/100: B-Way</subtitle>
+</section>
+<section id="toc_sub_000044"><title><p>18/100: B-Way</p></title>
 <p><strong>Имя:</strong> Jester Sluggo 31 <strong>Дата:</strong> 12:13 дня, вс 3 мая 1987</p>
 <empty-line/>
 <p>Если этот тип появится — значит появится. Нельзя строить планы вокруг него.</p>
@@ -1385,7 +1427,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_006_metal_shop_private_phrack_gossip_0253_133b0451c8.png"/>
 <empty-line/>
-<subtitle>19/100: Дела на S-Con</subtitle>
+</section>
+<section id="toc_sub_000045"><title><p>19/100: Дела на S-Con</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 4:13 дня, вс 3 мая 1987</p>
 <empty-line/>
 <p>Ладно, Forest Ranger говорит: пока Broadway не доказал, что он гомосексуал, считается невиновным, пока не доказано обратное. Иными словами, Cap N Crax, который встречался с Broadway, сказал, что тот нормальный, — но я помню множество других, например Monty Python, которые рассказывали нам, как Broadway хотел бороться с ним на чужих газонах и напоить его. Может, SummerCon наконец даст ответ на вопрос?</p>
@@ -1394,26 +1437,30 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>20/100: Broadway Hacker</subtitle>
+</section>
+<section id="toc_sub_000046"><title><p>20/100: Broadway Hacker</p></title>
 <p><strong>Имя:</strong> The Prophet 23 <strong>Дата:</strong> 5:34 дня, вс 3 мая 1987</p>
 <empty-line/>
 <p>Некий S. K. Ericson однажды рассказал мне, что этот тип картировал авиабилеты для совсем юных хакеров в Нью-Йорк на встречи TAP, а потом отказывался картировать им билеты обратно, если те не уступали его домогательствам... SICK. Впрочем, никаких доказательств своих обвинений он не привёл.</p>
 <empty-line/>
 <p>-TP</p>
 <empty-line/>
-<subtitle>21/100: Hack-A-Trip</subtitle>
+</section>
+<section id="toc_sub_000047"><title><p>21/100: Hack-A-Trip</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 7:10 вечера, вс 3 мая 1987</p>
 <empty-line/>
 <p>Что ж, он всегда приглашает людей в Нью-Йорк и спрашивает, не хотят ли они остановиться у него. Ещё он любит выяснять чужие адреса и строить планы приехать в гости. Кроме того, BH был основателем Hack-A-Trip, так что эта теория вполне может иметь под собой почву.</p>
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>22/100: Бэджи?</subtitle>
+</section>
+<section id="toc_sub_000048"><title><p>22/100: Бэджи?</p></title>
 <p><strong>Имя:</strong> Thomas Covenant 84 <strong>Дата:</strong> 8:37 вечера, вс 3 мая 1987</p>
 <empty-line/>
 <p>Ну, может, надену кепку с надписью «urLord», но больше ничего. Терпеть не могу, когда заходишь куда-нибудь, а тебя хватает какая-то тётка, выскочившая из-за колонны, и лепит бэдж на грудь: «Привет! Меня зовут Ян!» Однажды со мной такое было, я использовал старую реплику Эрмы Бомбек: «Ну а как назовём вторую?» А Kip, возможно, наденет свой шикарный номерной знак 616 HAK.</p>
 <empty-line/>
-<subtitle>23/100: Бэджи</subtitle>
+</section>
+<section id="toc_sub_000049"><title><p>23/100: Бэджи</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 11:06 вечера, вс 3 мая 1987</p>
 <empty-line/>
 <p>Ну, они необязательны, конечно, но помните: вам и так будет нелегко запомнить чужие имена, не говоря уже о том, чтобы они забыли, кто вы (ну или что-то в этом роде). Носите, если хотите.</p>
@@ -1424,35 +1471,40 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>24/100: невиновен</subtitle>
+</section>
+<section id="toc_sub_000050"><title><p>24/100: невиновен</p></title>
 <p><strong>Имя:</strong> Lucifer 666 43 <strong>Дата:</strong> 11:51 вечера, вс 3 мая 1987</p>
 <empty-line/>
 <p>...пока не доказана вина??? Ну тогда, когда мы найдём какого-нибудь типа — надеюсь, кого-нибудь нелюбимого — посреди коридора с окровавленным отёкшим задом, рыдающего: «Мне просто нужен был код US Sprint... я не знал, что он такое сотворит... всхлип, он сказал, всхлип, что даст мне аккаунт, всхлип, на Radio....» — ну что ж... чёртова русская рулетка... кому достанется?</p>
 <empty-line/>
 <p>L666</p>
 <empty-line/>
-<subtitle>25/100: хахахахах</subtitle>
+</section>
+<section id="toc_sub_000051"><title><p>25/100: хахахахах</p></title>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 1:02 ночи, пн 4 мая 1987</p>
 <empty-line/>
 <p>«Отшлёпан по заднице» — хахах, это было смешно, Люк. Ну ладно, чёрт с ним, посмотрим, что там будет. Лично я не думаю, что случится что-то серьёзное — разве что несколько столкновений между людьми, давно считающимися «врагами».</p>
 <empty-line/>
 <p>Phantom</p>
 <empty-line/>
-<subtitle>26/100: B'way «задний хакер»</subtitle>
+</section>
+<section id="toc_sub_000052"><title><p>26/100: B'way «задний хакер»</p></title>
 <p><strong>Имя:</strong> Icarus 15 <strong>Дата:</strong> 2:55 ночи, пн 4 мая 1987</p>
 <empty-line/>
 <p>Говорю это с сожалением, у него за спиной. НО скажу это и в лицо его уродливой роже. Я был на его борде, он раздобыл мой номер и не прекращал надоедных звонков часами (может, час). Он хотел встретиться, и после многочисленных прямых отказов, которые ни к чему не приводили, я сказал себе: «Чтобы этот тип отстал от меня, встречусь с ним где-нибудь в городе». Он так и не пришёл. И перестал звонить. Но откровенно говоря, я верю каждому негативному слуху о нём. Я убеждён, что он редкостный извращенец из худших. Вы бы тоже убедились, если бы слышали, что он говорил. Задавал вопросы, на которые не нашлось бы ответов даже у его гинеколога. (Немного грубовато..) Кто был там, когда он щёлкал фотоаппаратом на конференциях TAP?</p>
 <empty-line/>
 <p>Ic.</p>
 <empty-line/>
-<subtitle>27/100: Ещё про BH</subtitle>
+</section>
+<section id="toc_sub_000053"><title><p>27/100: Ещё про BH</p></title>
 <p><strong>Имя:</strong> Evil Jay 26 <strong>Дата:</strong> 4:14 ночи, пн 4 мая 1987</p>
 <empty-line/>
 <p>Смешно, что ты это упомянул. Broadway тоже настойчиво звал меня приехать к нему после CES и ещё какой-то хрени. Он ещё говорил о том, что его «пинали по яйцам» и о бритье лобковых волос. С ним явно что-то не так. Помню, примерно три года назад мои друзья болтали о каком-то «чокнутом уроде, который тоже говорит о пинках по яйцам»... это и был Broadway. Crax, едем... ОДНИ.</p>
 <empty-line/>
 <p>-Jay</p>
 <empty-line/>
-<subtitle>28/100: ХАХАХАХА</subtitle>
+</section>
+<section id="toc_sub_000054"><title><p>28/100: ХАХАХАХА</p></title>
 <p><strong>Имя:</strong> Slave Driver 58 <strong>Дата:</strong> 10:02 утра, пн 4 мая 1987</p>
 <empty-line/>
 <p>Я катаюсь по полу от смеха. Я был на телепабе TAP con, и НИКОГДА, НИКОГДА не забуду этого грушеобразного мужика, достающего камеру и начинающего щёлкать. В жизни не видел таких злобных взглядов. Его практически выкинули в окно.</p>
@@ -1463,28 +1515,32 @@
 <empty-line/>
 <p>Steve Driver</p>
 <empty-line/>
-<subtitle>29/100: также..</subtitle>
+</section>
+<section id="toc_sub_000055"><title><p>29/100: также..</p></title>
 <p><strong>Имя:</strong> Slave Driver 58 <strong>Дата:</strong> 10:07 утра, пн 4 мая 1987</p>
 <empty-line/>
 <p>Если вы едете издалека, я бы на вашем месте ТОЧНО снял комнату. Подумайте: 30, 40, 50, 1000 — сколько угодно подростков, пьяных в усмерть, без присмотра. 90% не справятся и просто будут носиться по отелю, круша всё подряд. У меня был подобный опыт, и мы полностью уничтожили отель. Разобрали большую часть внутренностей лифта, разбили все сетки и скинули их с 10 этажа и т.д. И это был просто дешёвый отель. А вы едете в место для деловых людей... и там не будут ждать ни секунды с жалобами. В общем, я бы был ОЧЕНЬ осторожен... и не стал бы вписывать своё имя в регистрацию. В том месте, где я останавливался — это была школьная поездка в Six Flags, Great Adventure — школа получила счёт на $4000, а этот ущерб нанесли около 15 человек. Так что тот, на чьё имя зарегистрирована комната, пусть бережёт свою шкуру... Думаю, этот человек безумец... тем более, что большинство отелей берут копию кредитной карты в качестве страховки на подобный случай...</p>
 <empty-line/>
 <p>Steve Driver</p>
 <empty-line/>
-<subtitle>30/100: Ба хахахахахахахах</subtitle>
+</section>
+<section id="toc_sub_000056"><title><p>30/100: Ба хахахахахахахах</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 3:10 дня, пн 4 мая 1987</p>
 <empty-line/>
 <p>Чёрт, я только что пролетел туда-обратно через всю комнату от смеха после этих постов. Помню, как он задавал мне похожие вопросы и разглагольствовал о своих яйцах и т.д. Я игнорировал его и «должен был идти, время ужина». «Но сейчас только 3:45 дня». «Хм, да, видишь ли, я опаздываю...&lt;клик.»</p>
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>31/100: Помогите</subtitle>
+</section>
+<section id="toc_sub_000057"><title><p>31/100: Помогите</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 3:15 дня, пн 4 мая 1987</p>
 <empty-line/>
 <p>Может кто-нибудь связаться с Sherlock Holmes на P-80 или оставить мне его номер? Предположительно, у него есть какая-то информация или статья для PWN. Спасибо.</p>
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>32/100: BH</subtitle>
+</section>
+<section id="toc_sub_000058"><title><p>32/100: BH</p></title>
 <p><strong>Имя:</strong> Mad Hatter 51 <strong>Дата:</strong> 3:48 дня, пн 4 мая 1987</p>
 <empty-line/>
 <p>Он действительно любит много говорить о яйцах. Jay, он спрашивал и меня об этом («Тебя когда-нибудь пинали по яйцам?»). Ещё он постоянно рассказывал о своих школьных выходках — буквально: привязывал людей голыми к шкафчикам и прочее..... Звучит весело, да?</p>
@@ -1493,7 +1549,8 @@
 <empty-line/>
 <p>-Hatter</p>
 <empty-line/>
-<subtitle>33/100: Вы что сказали...?</subtitle>
+</section>
+<section id="toc_sub_000059"><title><p>33/100: Вы что сказали...?</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 10:34 вечера, пн 4 мая 1987</p>
 <empty-line/>
 <p>Почему все эти люди якобы едут с Broadway? Сомневаюсь, что он вообще появится, так что не рассчитывайте на карпул. Изначально он говорил, что едет, но потом написал мне на Atlantis, что не едет.</p>
@@ -1502,7 +1559,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>34/100: Ой</subtitle>
+</section>
+<section id="toc_sub_000060"><title><p>34/100: Ой</p></title>
 <p><strong>Имя:</strong> The Scanner 20 <strong>Дата:</strong> 11:28 вечера, пн 4 мая 1987</p>
 <empty-line/>
 <p>Даже думать больно, поэтому не буду. В общем,</p>
@@ -1512,12 +1570,14 @@
 <p>И какое название у отеля и точные даты проведения?</p>
 <image l:href="#img__code_blocks_issue_020_006_metal_shop_private_phrack_gossip_0432_7620c771f0.png"/>
 <empty-line/>
-<subtitle>35/100: BH и пушки</subtitle>
+</section>
+<section id="toc_sub_000061"><title><p>35/100: BH и пушки</p></title>
 <p><strong>Имя:</strong> The Mentor 74 <strong>Дата:</strong> 12:27 ночи, вт 5 мая 1987</p>
 <empty-line/>
 <p>Сказано достаточно.</p>
 <empty-line/>
-<subtitle>36/100: Друзья..</subtitle>
+</section>
+<section id="toc_sub_000062"><title><p>36/100: Друзья..</p></title>
 <p><strong>Имя:</strong> Mad Hatter 51 <strong>Дата:</strong> 2:54 дня, вт 5 мая 1987</p>
 <empty-line/>
 <p>Не помню, кого конкретно он называл, наверное, каких-то своих «друзей» (или сожителей?). Ладно, позвоню ему и перекрёстно допрошу его по этой теме.</p>
@@ -1526,21 +1586,24 @@
 <empty-line/>
 <p>-Hatter</p>
 <empty-line/>
-<subtitle>37/100: Даты SummerCon</subtitle>
+</section>
+<section id="toc_sub_000063"><title><p>37/100: Даты SummerCon</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 5:06 дня, вт 5 мая 1987</p>
 <empty-line/>
 <p>19-21 июня (пт-вс), 1987 год. Executive International Best Western Hotel (Airport). Для всех фрикеров и хакеров, которые сочтут нужным приехать. Что-то вроде открытой вечеринки.</p>
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>38/100: Advanced Carding Series</subtitle>
+</section>
+<section id="toc_sub_000064"><title><p>38/100: Advanced Carding Series</p></title>
 <p><strong>Имя:</strong> The Disk Jockey 13 <strong>Дата:</strong> 12:33 ночи, ср 6 мая 1987</p>
 <empty-line/>
 <p>Большинство моей серии по продвинутому кардингу и ещё несколько файлов по мошенничеству заархивированы в ARC и выложены на AE-линию. Ищите ADVCARD.ARC.</p>
 <empty-line/>
 <p>-The Disk Jockey</p>
 <empty-line/>
-<subtitle>39/100: НУ...</subtitle>
+</section>
+<section id="toc_sub_000065"><title><p>39/100: НУ...</p></title>
 <p><strong>Имя:</strong> Sir Francis Drake 56 <strong>Дата:</strong> 1:14 ночи, ср 6 мая 1987</p>
 <empty-line/>
 <p>ЧТО КАСАЕТСЯ БЭДЖЕЙ, ПРОСТО ИЩИТЕ ЧУВАКА С КОЛЬЦОМ В НОСУ... ХА, ПРОСТО <emphasis>ПОПРОБУЙ</emphasis> ЕГО СЫМИТИРОВАТЬ.</p>
@@ -1549,19 +1612,22 @@
 <empty-line/>
 <p>SFD</p>
 <empty-line/>
-<subtitle>40/100: Файлы по продвинутому кардингу</subtitle>
+</section>
+<section id="toc_sub_000066"><title><p>40/100: Файлы по продвинутому кардингу</p></title>
 <p><strong>Имя:</strong> Taran King 1 <strong>Дата:</strong> 7:50 вечера, ср 6 мая 1987</p>
 <empty-line/>
 <p>Теперь они интегрированы в подраздел «анархия» (потому что это едва ли фрик/хак, но и не совсем «общее»). Там ADVCARD*.TXT, CHECKFRD.TXT, ATMFRAUD.TXT и, может быть, ещё один-два, которые я забыл — Jockey уточнит. Нюхайте волну... -TK</p>
 <empty-line/>
-<subtitle>41/100: Кто-нибудь</subtitle>
+</section>
+<section id="toc_sub_000067"><title><p>41/100: Кто-нибудь</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 12:28 ночи, чт 7 мая 1987</p>
 <empty-line/>
 <p>Кто-нибудь вышел на Sherlock Holmes на P-80?</p>
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>42/100: ну что ж...</subtitle>
+</section>
+<section id="toc_sub_000068"><title><p>42/100: ну что ж...</p></title>
 <p><strong>Имя:</strong> Sir Francis Drake 56 <strong>Дата:</strong> 6:07 вечера, чт 7 мая 1987</p>
 <empty-line/>
 <p>Хм, как-то давно, роясь в мусоре, нашёл доклад Pac-Bell о проблемах с их новыми DMS-100... В частности, там упоминались «проблемы с монетами»... Процитирую письмо, оно довольно интересное:</p>
@@ -1582,7 +1648,8 @@
 <empty-line/>
 <p>sfd</p>
 <empty-line/>
-<subtitle>43/100: ну что ж...</subtitle>
+</section>
+<section id="toc_sub_000069"><title><p>43/100: ну что ж...</p></title>
 <p><strong>Имя:</strong> Sir Francis Drake 56 <strong>Дата:</strong> 6:08 вечера, чт 7 мая 1987</p>
 <empty-line/>
 <p>Арх, так я запостил это не в тот подраздел. Судите меня.</p>
@@ -1593,40 +1660,46 @@
 <empty-line/>
 <p>sfd</p>
 <empty-line/>
-<subtitle>44/100: Привет, пол</subtitle>
+</section>
+<section id="toc_sub_000070"><title><p>44/100: Привет, пол</p></title>
 <p><strong>Имя:</strong> Lotus 38 <strong>Дата:</strong> 3:39 ночи, пт 8 мая 1987</p>
 <empty-line/>
 <p>Меня долго не было, и, прочитав все посты про Broadway, я катался по полу от смеха...</p>
 <empty-line/>
-<subtitle>45/100: B-Way....</subtitle>
+</section>
+<section id="toc_sub_000071"><title><p>45/100: B-Way....</p></title>
 <p><strong>Имя:</strong> The Disk Jockey 13 <strong>Дата:</strong> 6:48 утра, пт 8 мая 1987</p>
 <empty-line/>
 <p>Я только что написал взломщик кодов на Pascal, и это довольно убого — назову его «Broadway Hacker».</p>
 <empty-line/>
 <p>-The Disk Jockey</p>
 <empty-line/>
-<subtitle>46/100: Ба-ха</subtitle>
+</section>
+<section id="toc_sub_000072"><title><p>46/100: Ба-ха</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 7:54 утра, пт 8 мая 1987</p>
 <empty-line/>
 <p>Кому вообще дело до Broadway? Скорее всего, он не приедет на SummerCon, да мы и не хотим этого. Кстати, если вдруг он всё же появится — кое-что стоит иметь в виду... Если увидите большого, толстого, грушеобразного «персонажа» (описывать его как представителя какого-либо пола было бы оскорблением) с выпуклостью в штанах... ПНИТЕ ЕГО! изо всей силы. Скорее всего, там окажется камера или диктофон — а если нет, значит, он возбуждён при виде вас и через секунду вас содомируют.</p>
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>47/100: Спасибо...</subtitle>
+</section>
+<section id="toc_sub_000073"><title><p>47/100: Спасибо...</p></title>
 <p><strong>Имя:</strong> Mad Hatter 51 <strong>Дата:</strong> 2:25 дня, пт 8 мая 1987</p>
 <empty-line/>
 <p>Спасибо, KL, я думал, тебе не всё равно. Ладно, я думал, он всё же едет. Лучше бы приехал, а то ВЫСВОБОЖУ ВСЮ МОЩЬ! Хехе.. Прошу прощения за сходство... KL, можно мне копию того терма? Он мне нужен, а я ленивый задница... Спасибо.....</p>
 <empty-line/>
 <p>-Hatter</p>
 <empty-line/>
-<subtitle>48/100: Broadway — педераст......</subtitle>
+</section>
+<section id="toc_sub_000074"><title><p>48/100: Broadway — педераст......</p></title>
 <p><strong>Имя:</strong> The Disk Jockey 13 <strong>Дата:</strong> 7:25 вечера, пт 8 мая 1987</p>
 <empty-line/>
 <p>Посмотрите на его посты на Atlantis..... реально гей... с этим чуваком РЕАЛЬНО что-то не так.</p>
 <empty-line/>
 <p>-The Disk Jockey</p>
 <empty-line/>
-<subtitle>49/100: Рефераты</subtitle>
+</section>
+<section id="toc_sub_000075"><title><p>49/100: Рефераты</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 12:16 ночи, сб 9 мая 1987</p>
 <empty-line/>
 <p>Выложить их на старый добрый MSP?</p>
@@ -1635,7 +1708,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>50/100: ну что ж...</subtitle>
+</section>
+<section id="toc_sub_000076"><title><p>50/100: ну что ж...</p></title>
 <p><strong>Имя:</strong> Sir Francis Drake 56 <strong>Дата:</strong> 6:12 дня, сб 9 мая 1987</p>
 <empty-line/>
 <p>Я разговаривал со Стэном вчера (признавать это на данной борде неразумно, но кто сказал, что я мудрый) — он по-прежнему утверждает, что «точно будет там». Осторожнее, люди... он может вас побить, вы знаете.</p>
@@ -1644,14 +1718,16 @@
 <empty-line/>
 <p>sfd</p>
 <empty-line/>
-<subtitle>51/100: Ну да, конечно</subtitle>
+</section>
+<section id="toc_sub_000077"><title><p>51/100: Ну да, конечно</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 9:41 утра, вс 10 мая 1987</p>
 <empty-line/>
 <p>Что касается меня, шансы Стэна приехать на SummerCon примерно равны шансам TWCB Inc. добраться до TelePub '86.</p>
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>52/100: Восточное побережье</subtitle>
+</section>
+<section id="toc_sub_000078"><title><p>52/100: Восточное побережье</p></title>
 <p><strong>Имя:</strong> Mad Hatter 51 <strong>Дата:</strong> 2:57 дня, вс 10 мая 1987</p>
 <empty-line/>
 <p>Есть здесь кто-нибудь, едущий на Con '87 с Восточного побережья (желательно Северо-Восток)? Хочу знать — на случай, если BH всё же не поедет. Спасибо..</p>
@@ -1660,21 +1736,24 @@
 <empty-line/>
 <p>Только что вернулся с отличной вечеринки.. 20 полукегов (Genesee), больше $300 в травке и ящик Jack Daniel's. При таких обстоятельствах я вполне закономерно почувствовал, что должен... это сделать... Так и поступил... Заметили, что мой «дополнительный» текст длиннее «основного» поста? Ну и хрен с этим...</p>
 <empty-line/>
-<subtitle>53/100: Идея для статьи</subtitle>
+</section>
+<section id="toc_sub_000079"><title><p>53/100: Идея для статьи</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 6:46 дня, пн 11 мая 1987</p>
 <empty-line/>
 <p>Интересно, понравился бы вам (как части аудитории в целом) некий документальный файл о скандале и проблемах вокруг Phantom Access? Там было бы отличное завершение, которое достаточно сожгло бы одного из величайших задротов нашего сообщества.</p>
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>54/100: BH (снова..)</subtitle>
+</section>
+<section id="toc_sub_000080"><title><p>54/100: BH (снова..)</p></title>
 <p><strong>Имя:</strong> Mad Hatter 51 <strong>Дата:</strong> 6:00 дня, вт 12 мая 1987</p>
 <empty-line/>
 <p>Только что звонил ему, чтобы точно узнать, едет ли он, и (по его словам по крайней мере), вы встретите меня там (иными словами, он едет)... Он вчера говорил о том, как моя девушка трогала мои яйца... Ну пожалуйста!</p>
 <empty-line/>
 <p>-Hatter</p>
 <empty-line/>
-<subtitle>55/100: Непростой выбор</subtitle>
+</section>
+<section id="toc_sub_000081"><title><p>55/100: Непростой выбор</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 8:18 вечера, вт 12 мая 1987</p>
 <empty-line/>
 <p>Сложно угадать, насколько Broadway искренен в своём намерении появиться на SummerCon. Пока придерживаюсь позиции: поверю, когда увижу. Тем не менее, он всё же объявился (довольно грубо) на TelePub '86, но тот был в Нью-Йорке.</p>
@@ -1683,7 +1762,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>56/100: B.H./Scon</subtitle>
+</section>
+<section id="toc_sub_000082"><title><p>56/100: B.H./Scon</p></title>
 <p><strong>Имя:</strong> Evil Jay 26 <strong>Дата:</strong> 8:43 утра, ср 13 мая 1987</p>
 <empty-line/>
 <p>Моё терпение с Broadway кончилось. Он буквально умоляет меня звонить ему, поэтому я оставил ему грубый ответ, где в общих чертах велел перестать меня «доставать» (без каламбура). Насчёт его поездки на SummerCon — говорю: скажите ему нет. В конце концов, последнее слово за вами, разве нет? Если есть сомнения, просто перечитайте последние посты. Чёрт, и так очевидно, что ему хорошо. А если всё ещё колеблетесь, думайте вот о чём:</p>
@@ -1696,7 +1776,8 @@
 <empty-line/>
 <p>-J</p>
 <empty-line/>
-<subtitle>57/100: Ну что ж...</subtitle>
+</section>
+<section id="toc_sub_000083"><title><p>57/100: Ну что ж...</p></title>
 <p><strong>Имя:</strong> Sir Francis Drake 56 <strong>Дата:</strong> 4:27 дня, ср 13 мая 1987</p>
 <empty-line/>
 <p>Листал торговый журнал для тревел-агентств — там был список крупнейших конвентов в Сент-Луисе на следующие полгода... И угадайте, кто будет в Сент-Луисе 19-го? 30 000 баптистов с Юга. Да, это же съезд Южных баптистов — крупнейший конвент в Сент-Луисе за весь год.</p>
@@ -1709,7 +1790,8 @@
 <empty-line/>
 <p>sfd</p>
 <empty-line/>
-<subtitle>58/100: Ладно, ребят</subtitle>
+</section>
+<section id="toc_sub_000084"><title><p>58/100: Ладно, ребят</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 5:39 дня, ср 13 мая 1987</p>
 <empty-line/>
 <p>Это ОТКРЫТАЯ вечеринка. И что касается толпы безымянных — лишние деньги не помешают, не говоря уже о том, что это может привлечь новые будущие таланты в мир фрикинга. Знакомиться с людьми и расширять своё влияние — вот что такое жизнь в мире фрикинга (хех!).</p>
@@ -1720,7 +1802,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>59/100: Южные баптисты...</subtitle>
+</section>
+<section id="toc_sub_000085"><title><p>59/100: Южные баптисты...</p></title>
 <p><strong>Имя:</strong> The Mad Hacker 47 <strong>Дата:</strong> 7:18 вечера, ср 13 мая 1987</p>
 <empty-line/>
 <p>Согласен с идеей пускать всех, вне зависимости от их квалификации. В смысле, если они окажутся придурками, отведите нескольких в сторону и занимайтесь делами, которые лучше держать в тайне. Ещё думаю, было бы здорово накачать каких-нибудь Южно-баптистских дамочек по-настоящему и оставить их на пороге пастора.</p>
@@ -1729,14 +1812,16 @@
 <empty-line/>
 <p>The Mad Hacker</p>
 <empty-line/>
-<subtitle>60/100: D00DZ!</subtitle>
+</section>
+<section id="toc_sub_000086"><title><p>60/100: D00DZ!</p></title>
 <p><strong>Имя:</strong> The Disk Jockey 13 <strong>Дата:</strong> 7:52 вечера, ср 13 мая 1987</p>
 <empty-line/>
 <p>Говорю: какая разница, если придут кучи безвестных типов — понимаю твою точку зрения, Jay, но смотри на вещи реально: это ведь не то мероприятие, где что-то реально сделаешь, так что согласен — чем больше денег и народу, тем лучше. Я бы сказал: 100 человек в дупель будет лучше, чем 15 в дупель. Что нам делать с пятнадцатью пьяными? Обсуждать районные телефонные узлы?</p>
 <empty-line/>
 <p>-The Disk Jockey</p>
 <empty-line/>
-<subtitle>61/100: Отлично</subtitle>
+</section>
+<section id="toc_sub_000087"><title><p>61/100: Отлично</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 10:48 вечера, ср 13 мая 1987</p>
 <empty-line/>
 <p>Рад, что мы согласны. Видите ли, хотя все мы, жители Сент-Луиса, помогаем финансировать, мы ожидаем выйти в ноль или получить небольшую прибыль за наше время, усилия и предварительные вложения, не говоря уже о рисках. Мне честно говоря всё равно, лишь бы выйти в ноль, но в общем. Дополнительные деньги, скорее всего, пойдут на алкоголь и т.д.</p>
@@ -1745,7 +1830,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>62/100: Хехе</subtitle>
+</section>
+<section id="toc_sub_000088"><title><p>62/100: Хехе</p></title>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 8:59 вечера, чт 14 мая 1987</p>
 <empty-line/>
 <p>Да, 100 человек — понятно, это ни за что не привлечёт внимания, не будет шумно и необычно. Всё же было бы здорово.</p>
@@ -1754,7 +1840,8 @@
 <empty-line/>
 <p>Phantom</p>
 <empty-line/>
-<subtitle>63/100: Обсуждения</subtitle>
+</section>
+<section id="toc_sub_000089"><title><p>63/100: Обсуждения</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 9:27 вечера, чт 14 мая 1987</p>
 <empty-line/>
 <p>Phantom — но разве не ты обсуждал новые виды BOX-устройств в Six Flags Over Mid-America примерно с 6 людьми? (Хех!)</p>
@@ -1763,7 +1850,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>64/100: НЕТНЕТНЕТ!</subtitle>
+</section>
+<section id="toc_sub_000090"><title><p>64/100: НЕТНЕТНЕТ!</p></title>
 <p><strong>Имя:</strong> Doom Prophet 21 <strong>Дата:</strong> 4:26 дня, пт 15 мая 1987</p>
 <empty-line/>
 <p>АРРРХ!! НЕТ НЕТ НЕТ НЕТ НЕТ НЕТ НЕТ НЕТ!!!</p>
@@ -1782,7 +1870,8 @@
 <empty-line/>
 <p>Апрель 1987 — «Доклад Тауэра свидетельствует, что это были мои советники.»</p>
 <empty-line/>
-<subtitle>65/100: ну что ж...</subtitle>
+</section>
+<section id="toc_sub_000091"><title><p>65/100: ну что ж...</p></title>
 <p><strong>Имя:</strong> Sir Francis Drake 56 <strong>Дата:</strong> 11:22 вечера, пт 15 мая 1987</p>
 <empty-line/>
 <p>Май 1987 — «Я жертвовал деньги Контрас в интересах нации»</p>
@@ -1797,7 +1886,8 @@
 <empty-line/>
 <p>sfd</p>
 <empty-line/>
-<subtitle>66/100: Лето</subtitle>
+</section>
+<section id="toc_sub_000092"><title><p>66/100: Лето</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 9:50 утра, сб 16 мая 1987</p>
 <empty-line/>
 <p>Мы всё ближе к SummerCon, ребята. Не могу дождаться.</p>
@@ -1806,7 +1896,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>67/100: скажем</subtitle>
+</section>
+<section id="toc_sub_000093"><title><p>67/100: скажем</p></title>
 <p><strong>Имя:</strong> Lucifer 666 43 <strong>Дата:</strong> 1:52 ночи, вс 17 мая 1987</p>
 <empty-line/>
 <p>...мы захотели пойти в 6 Flags или заняться инженерией? Со 100 и более людьми это сложно... может, лучше проводить общие конференции, а потом небольшие встречи с теми, кого знаем...</p>
@@ -1819,14 +1910,16 @@
 <empty-line/>
 <p>L666</p>
 <empty-line/>
-<subtitle>68/100: Six Flags</subtitle>
+</section>
+<section id="toc_sub_000094"><title><p>68/100: Six Flags</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 11:57 утра, вс 17 мая 1987</p>
 <empty-line/>
 <p>В целом идея хорошая, но у нас просто нет времени. Нужен был бы целый лишний день, а это дополнительные расходы на комнаты, да и вход в парк недешёвый. Так что, может, кто-нибудь и захочет поехать, но я не советую.</p>
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>69/100: Подождите.....!</subtitle>
+</section>
+<section id="toc_sub_000095"><title><p>69/100: Подождите.....!</p></title>
 <p><strong>Имя:</strong> The Disk Jockey 13 <strong>Дата:</strong> 12:37 ночи, пн 18 мая 1987</p>
 <empty-line/>
 <p>Почему бы не убить двух зайцев и не поехать в Six Flags И устроить там инженерию! Можно разведать персонал SF: кто их босс, в какой день получают зарплату, сколько зарабатывают, кто их обучал и т.д.!</p>
@@ -1835,7 +1928,8 @@
 <empty-line/>
 <p>-The Disk Jockey</p>
 <empty-line/>
-<subtitle>70/100: Бах!</subtitle>
+</section>
+<section id="toc_sub_000096"><title><p>70/100: Бах!</p></title>
 <p><strong>Имя:</strong> Evil Jay 26 <strong>Дата:</strong> 2:55 ночи, вт 19 мая 1987</p>
 <empty-line/>
 <p>Ладно, раз никто со мной никогда не соглашается, попробую объяснить свою позицию и надеюсь, вы поймёте: если придёт слишком много людей — шоу не состоится. Уверен, вы все знаете, сколько стоят кеги. И я уверен: при таком количестве гостей (большинство из которых, скорее всего, почти ничего не скинут — а они когда-нибудь скидываются?), мы будем пить куда меньше, чем хотелось бы. 100 человек в двух комнатах (не считая Broadway) — замечательно. Что делают те, кто не помещается — (идея!) конечно, сидят в холле и ждут. Куда деваются те, кто уже не стоит на ногах, когда все 100 (в двух комнатах) ложатся спать? Не знаю. Что случится, когда придут копы? Мы убегаем. Что случится, когда мамаша какого-нибудь Blow'а упечёт его в тюрьму — она подаст в суд (или по крайней мере создаст кучу проблем). Что случится, если копы, наткнувшись на пьяных в коридоре, наткнутся ещё и на пьяного Taran King? Они заберут его за многое: несовершеннолетнее опьянение, спаивание несовершеннолетних (это закон?), хулиганство... и прочее. Что случится, когда Jay попадёт в «бак»... он получит 4 года в исправительном учреждении штата Индиана (я всегда хотел собирать картошку). Я просто думал обо всех остальных — в первую очередь о TK.</p>
@@ -1844,12 +1938,14 @@
 <empty-line/>
 <p>-Большой J</p>
 <empty-line/>
-<subtitle>71/100: Ответ</subtitle>
+</section>
+<section id="toc_sub_000097"><title><p>71/100: Ответ</p></title>
 <p><strong>Имя:</strong> Taran King 1 <strong>Дата:</strong> 6:15 утра, вт 19 мая 1987</p>
 <empty-line/>
 <p>Думаю, люди переоценивают масштаб происходящего на SummerCon. Я едва ли ожидаю 100 человек. Чёрт, даже если столько и придут, многие берут собственные комнаты... но если они скинутся долларов по 5-10, это не должно быть большой проблемой. Если с кегами не выйдет, возьмём ящики (не так хорошо, но эффект тот же). Насчёт ареста из-за слишком большого числа людей: в комнату пустят только фрикеров/хакеров — это не открытая «вечеринка» в обычном смысле. Мы не будем буянить, потому что снимаем эти комнаты на 2 ночи и не можем позволить себе выселения — поэтому люди БУДУТ соблюдать тишину (в пятницу ночью по крайней мере) и НЕ БУДУТ шататься пьяными по коридору отеля, разве что зайдут в другую комнату, что нас не касается. Комнаты НЕ будут разгромлены, потому что мы не знаем наверняка, как нам удастся их получить (это будет на вымышленное имя, но если потребуют удостоверение, скорее всего придётся использовать чьё-то настоящее). Не знаю, разберёмся, но не ожидайте всех этих обычных безобразий, которые случаются на вечеринках в отелях, — потому что выселенным людям здесь некуда будет уехать или уйти пешком домой... -TK</p>
 <empty-line/>
-<subtitle>72/100: О БОЛЬШИХ вечеринках.</subtitle>
+</section>
+<section id="toc_sub_000098"><title><p>72/100: О БОЛЬШИХ вечеринках.</p></title>
 <p><strong>Имя:</strong> Cheap Shades 3 <strong>Дата:</strong> 7:18 вечера, вт 19 мая 1987</p>
 <empty-line/>
 <p>Что касается больших вечеринок в отеле — как правило, дело не столько в полиции. Скорее — в администрации отеля. А она, как правило, весьма лояльна и не выгоняет гуляк, потому что всё равно делает на них деньги (пока ничего не ломают) — и вдобавок плохая реклама: выкинул кучу пьяных людей из отеля, а они едут пьяными за рулём. Ещё: публичное опьянение несовершеннолетнего — это нарушение, но если ты в отеле, то формально ты не находишься в публичном месте. Насчёт кегов: там $25 залога за кег и $50 за насос — серьёзно сомневаюсь, что мы потянем кеги, если только не соберём приличную сумму заранее (очень маловероятно).</p>
@@ -1858,7 +1954,8 @@
 <empty-line/>
 <p>(Кстати, я никогда не видел, чтобы у кого-то ПРОСИЛИ документы при покупке кега? Интересно, легче ли это, чем найти кого-нибудь старше 21? нет)</p>
 <empty-line/>
-<subtitle>73/100: Насос</subtitle>
+</section>
+<section id="toc_sub_000099"><title><p>73/100: Насос</p></title>
 <p><strong>Имя:</strong> Mad Hatter 51 <strong>Дата:</strong> 7:41 вечера, вт 19 мая 1987</p>
 <empty-line/>
 <p>$50 залога за насос? У нас их берут примерно за $30. Алкоголь будет только пивом? Я не очень его люблю. Предпочитаю (само собой) водку. Было ещё что-то, но, кажется, забыл..</p>
@@ -1867,28 +1964,32 @@
 <empty-line/>
 <p>-Hatter</p>
 <empty-line/>
-<subtitle>74/100: Алкоголь</subtitle>
+</section>
+<section id="toc_sub_000100"><title><p>74/100: Алкоголь</p></title>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 9:18 вечера, вт 19 мая 1987</p>
 <empty-line/>
 <p>Если вы меня спросите (хотя не спрашиваете): упоминать слово «вечеринка», «пиво» или что-то подобное в одном предложении с «SummerCon» — всё равно что кричать на весь мир, что что-то намечается. Лучше было вообще ничего не говорить про вечеринку — до самого приезда. Кстати, не думаю, что стоит превращать это в такую вечеринку, где все падают без сознания — это не по мне. Напиться до той степени, когда ещё можно идти (с трудом), или получить сухость во рту — мне вполне хватит.</p>
 <empty-line/>
 <p>Phantom</p>
 <empty-line/>
-<subtitle>75/100: Вечеринки/Summercon</subtitle>
+</section>
+<section id="toc_sub_000101"><title><p>75/100: Вечеринки/Summercon</p></title>
 <p><strong>Имя:</strong> Evil Jay 26 <strong>Дата:</strong> 10:45 вечера, вт 19 мая 1987</p>
 <empty-line/>
 <p>Ну да, но если бы мы сказали всем, что это просто встреча людей (чёртый перенос слов), обсуждающих DMS, — никто (или почти никто) не пришёл бы. Думаю, идея с девчонками хорошая — было бы здорово, если бы кто-нибудь из местных пригласил нескольких длинноногих дам в комнаты. Что касается меня — буду держаться подальше от крупных голых толстяков и надеюсь хорошо провести время без обсуждений DMS и т.д. Ищите часть III «Рассказов о злоключениях — Summercon» завтра где-нибудь на Phantasie Realm или здесь, на диске H. В этой части — визит в душ, крупный голый толстяк, список потерь и МНОГО МНОГО ВСЕГО ПРОЧЕГО!!!11</p>
 <empty-line/>
 <p>-J</p>
 <empty-line/>
-<subtitle>76/100: Как насчёт</subtitle>
+</section>
+<section id="toc_sub_000102"><title><p>76/100: Как насчёт</p></title>
 <p><strong>Имя:</strong> Cap'N Crax 10 <strong>Дата:</strong> 11:51 вечера, вт 19 мая 1987</p>
 <empty-line/>
 <p>Каково было бы отношение к файлу по «скамам» для phrack... Я за годы придумал/изобрёл/собрал довольно много. Большинство не связаны с хаком/фрикингом и не относятся к кардингу. В основном это способы «обхитрить систему» или своего рода «хакнуть» нетехнические вещи. Есть желающие?</p>
 <empty-line/>
 <p>C^2</p>
 <empty-line/>
-<subtitle>77/100: Плюсую...</subtitle>
+</section>
+<section id="toc_sub_000103"><title><p>77/100: Плюсую...</p></title>
 <p><strong>Имя:</strong> The Disk Jockey 13 <strong>Дата:</strong> 7:22 утра, ср 20 мая 1987</p>
 <empty-line/>
 <p>...и от меня — кроме кардинга много чего есть.....</p>
@@ -1901,14 +2002,16 @@
 <empty-line/>
 <p>-The Disk Jockey</p>
 <empty-line/>
-<subtitle>78/100: «СКАМЫ»!</subtitle>
+</section>
+<section id="toc_sub_000104"><title><p>78/100: «СКАМЫ»!</p></title>
 <p><strong>Имя:</strong> Ax Murderer 7 <strong>Дата:</strong> 5:36 вечера, ср 20 мая 1987</p>
 <empty-line/>
 <p>Хмм.... Ну да, кардинг превращается в вымирающее искусство (не поймите неправильно, но...) Становится уже грустно. Если у редакторов нет юридических возражений, думаю, это была бы довольно крутая идея. Нет ничего, что мешало бы находить предел в скамах. Но старайтесь, чтобы было творчески — а не банальщина вроде заказа пиццы (вот смех-то.).</p>
 <empty-line/>
 <p>Ax Murderer</p>
 <empty-line/>
-<subtitle>79/100: ну что ж...</subtitle>
+</section>
+<section id="toc_sub_000105"><title><p>79/100: ну что ж...</p></title>
 <p><strong>Имя:</strong> Sir Francis Drake 56 <strong>Дата:</strong> 6:31 вечера, ср 20 мая 1987</p>
 <empty-line/>
 <p>d00d, что за веселье на вечеринке без выпивки?</p>
@@ -1925,7 +2028,8 @@
 <empty-line/>
 <p>sfd</p>
 <empty-line/>
-<subtitle>80/100: Выгнали из отеля</subtitle>
+</section>
+<section id="toc_sub_000106"><title><p>80/100: Выгнали из отеля</p></title>
 <p><strong>Имя:</strong> Lex Luthor 36 <strong>Дата:</strong> 5:41 дня, чт 21 мая 1987</p>
 <empty-line/>
 <p>Забавная история о Phil-Con — последней большой (не столь большой, как будет Summer-Con) конференции фрикеров.</p>
@@ -1940,19 +2044,22 @@
 <empty-line/>
 <p>Lex</p>
 <empty-line/>
-<subtitle>81/100: Отчёты Синдиката</subtitle>
+</section>
+<section id="toc_sub_000107"><title><p>81/100: Отчёты Синдиката</p></title>
 <p><strong>Имя:</strong> The Sensei 18 <strong>Дата:</strong> 6:57 вечера, чт 21 мая 1987</p>
 <empty-line/>
 <p>Только что залил все Отчёты Синдиката с 9 по 11. Всё это время меня не было на MSP, и загрузить их раньше не получалось. Поскольку Priv.Sector не работает, TK не мог получить их иным способом. Для тех, кто не знает, что такое TSR — ищите в разделе AE или Files... где они там сейчас находятся.</p>
 <empty-line/>
 <p>Ts TSR</p>
 <empty-line/>
-<subtitle>82/100: говоря о Private Sector</subtitle>
+</section>
+<section id="toc_sub_000108"><title><p>82/100: говоря о Private Sector</p></title>
 <p><strong>Имя:</strong> The Prophet 23 <strong>Дата:</strong> 2:26 дня, пт 22 мая 1987</p>
 <empty-line/>
 <p>Что с ним случилось? -TP</p>
 <empty-line/>
-<subtitle>83/100: Скамы</subtitle>
+</section>
+<section id="toc_sub_000109"><title><p>83/100: Скамы</p></title>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 8:56 вечера, пт 22 мая 1987</p>
 <empty-line/>
 <p>(Посмотрите на время: пятница вечером, девушки нет дома, брат взял машину, так что решил побыть компьютерным задротом.)</p>
@@ -1961,7 +2068,8 @@
 <empty-line/>
 <p>Phantom</p>
 <empty-line/>
-<subtitle>84/100: подождите...</subtitle>
+</section>
+<section id="toc_sub_000110"><title><p>84/100: подождите...</p></title>
 <p><strong>Имя:</strong> Lucifer 666 43 <strong>Дата:</strong> 12:54 ночи, сб 23 мая 1987</p>
 <empty-line/>
 <p>думаете, хорошо ли, что каждый пацан/нацист с модемом получит инструкцию по скамам? Скамы быстро прикроют. Ладно, я не из Калифорнии, я из IL, но идите в задницу — я всё равно так говорю.</p>
@@ -1972,7 +2080,8 @@
 <empty-line/>
 <p>L666</p>
 <empty-line/>
-<subtitle>85/100: Трюки с игровыми автоматами.</subtitle>
+</section>
+<section id="toc_sub_000111"><title><p>85/100: Трюки с игровыми автоматами.</p></title>
 <p><strong>Имя:</strong> Evil Jay 26 <strong>Дата:</strong> 1:45 ночи, сб 23 мая 1987</p>
 <empty-line/>
 <p>Из-за имеющейся сейчас на машинах сигнализации пользуйтесь следующим осторожно.</p>
@@ -1991,26 +2100,30 @@
 <empty-line/>
 <p>-Большой J</p>
 <empty-line/>
-<subtitle>86/100: ну что ж...</subtitle>
+</section>
+<section id="toc_sub_000112"><title><p>86/100: ну что ж...</p></title>
 <p><strong>Имя:</strong> Sir Francis Drake 56 <strong>Дата:</strong> 1:57 ночи, сб 23 мая 1987</p>
 <empty-line/>
 <p>Хм. Ненавижу говорить тебе это, L666, но «hella» вышло из моды в CA пару лет назад... Кстати, Elric Of Imp поднял борду — что-то вроде IBM warez-борды, — ну и ладно, если хочешь позвонить, вот номер: (415) 278-7421. Ещё Shooting Shark наконец вернул себе модем, и кто знает — может, он даже снова начнёт звонить за пределы Залива когда-нибудь...</p>
 <empty-line/>
 <p>sfd</p>
 <empty-line/>
-<subtitle>87/100: Atlantis</subtitle>
+</section>
+<section id="toc_sub_000113"><title><p>87/100: Atlantis</p></title>
 <p><strong>Имя:</strong> Taran King 1 <strong>Дата:</strong> 11:28 утра, сб 23 мая 1987</p>
 <empty-line/>
 <p>Как многие из вас знают, Atlantis временно была недоступна из-за проблем с железом, но The Lineman только что поднял борду — так что, если вы там зарегистрированы, можете снова звонить. Если нет — номер в списке BBS в главном меню. Пока. -TK</p>
 <empty-line/>
-<subtitle>88/100: Вернулся в Phrack!</subtitle>
+</section>
+<section id="toc_sub_000114"><title><p>88/100: Вернулся в Phrack!</p></title>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 11:48 вечера, сб 23 мая 1987</p>
 <empty-line/>
 <p>Привет, меня долго не было из-за разборки компьютера и прочих неприятностей. В общем, всё по-прежнему идёт к SummerCon и подобному, так что должно быть отличное мероприятие. Все подробности будут опубликованы в PWN 14 (когда он наконец выйдет), так что следите.</p>
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>89/100: Я слышал.....</subtitle>
+</section>
+<section id="toc_sub_000115"><title><p>89/100: Я слышал.....</p></title>
 <p><strong>Имя:</strong> The Disk Jockey 13 <strong>Дата:</strong> 1:05 ночи, вс 24 мая 1987</p>
 <empty-line/>
 <p>...что на компакт-диске Metallica KILL 'EM ALL есть специальная зашифрованная кодировка, которая при воспроизведении на одном из новых лазерных устройств хранения данных от Xebec распечатает все номера таксофонов в метрополитенском Чикаго.</p>
@@ -2019,21 +2132,24 @@
 <empty-line/>
 <p>-The Disk Jockey</p>
 <empty-line/>
-<subtitle>90/100: Phrack</subtitle>
+</section>
+<section id="toc_sub_000116"><title><p>90/100: Phrack</p></title>
 <p><strong>Имя:</strong> The Sensei 18 <strong>Дата:</strong> 7:19 утра, вс 24 мая 1987</p>
 <empty-line/>
 <p>Phrack выходит раз в месяц? Кажется, видишь его один месяц (новую версию), потом два месяца ничего. Или это из серии «выйдет когда выйдет»?</p>
 <empty-line/>
 <p>Ts</p>
 <empty-line/>
-<subtitle>91/100: Встреча 2600</subtitle>
+</section>
+<section id="toc_sub_000117"><title><p>91/100: Встреча 2600</p></title>
 <p><strong>Имя:</strong> Mad Hatter 51 <strong>Дата:</strong> 10:59 утра, вс 24 мая 1987</p>
 <empty-line/>
 <p>Кто-нибудь знает подробнее про «публичную встречу 2600»? Слышал, что она в пятницу, 5 июня. Кто-нибудь может рассказать больше? Я (к сожалению) не подписан на 2600, услышал лишь от приятеля... Спасибо..</p>
 <empty-line/>
 <p>-Hatter</p>
 <empty-line/>
-<subtitle>92/100: 2600</subtitle>
+</section>
+<section id="toc_sub_000118"><title><p>92/100: 2600</p></title>
 <p><strong>Имя:</strong> Control C 8 <strong>Дата:</strong> 2:26 дня, вс 24 мая 1987</p>
 <empty-line/>
 <p>Публичная встреча 2600 — пятница, 5 июня 1987 года, в 17:00</p>
@@ -2044,12 +2160,14 @@
 <empty-line/>
 <p>Control</p>
 <empty-line/>
-<subtitle>93/100: интересно</subtitle>
+</section>
+<section id="toc_sub_000119"><title><p>93/100: интересно</p></title>
 <p><strong>Имя:</strong> The Leftist 71 <strong>Дата:</strong> 11:05 вечера, вс 24 мая 1987</p>
 <empty-line/>
 <p>знаете ли вы... что можно закоротить все перемычки в своём CO на что-то, что фильтрует звук, а затем кричать в трубку и при этом бросать их по одной... получается такой симпатичный эффект нарастания... и ещё, ну ладно, не важно</p>
 <empty-line/>
-<subtitle>94/100: Встречи</subtitle>
+</section>
+<section id="toc_sub_000120"><title><p>94/100: Встречи</p></title>
 <p><strong>Имя:</strong> The Executioner 19 <strong>Дата:</strong> 9:46 вечера, вт 26 мая 1987</p>
 <empty-line/>
 <p>Ну... Citicorp, значит? хахаехаохеоаех...</p>
@@ -2064,7 +2182,8 @@
 <empty-line/>
 <p>Sexy</p>
 <empty-line/>
-<subtitle>95/100: hella</subtitle>
+</section>
+<section id="toc_sub_000121"><title><p>95/100: hella</p></title>
 <p><strong>Имя:</strong> Lucifer 666 43 <strong>Дата:</strong> 11:46 вечера, вт 26 мая 1987</p>
 <empty-line/>
 <p>только добрался до Иллинойса.... в общем, да Disk Jockey, я попробовал тот Metallica-трюк и он сработал, плюс в конце дал TRW root-привилегии, но без диалапа...</p>
@@ -2073,7 +2192,8 @@
 <empty-line/>
 <p>где 2?</p>
 <empty-line/>
-<subtitle>96/100: ну что ж...</subtitle>
+</section>
+<section id="toc_sub_000122"><title><p>96/100: ну что ж...</p></title>
 <p><strong>Имя:</strong> Sir Francis Drake 56 <strong>Дата:</strong> 11:17 вечера, ср 27 мая 1987</p>
 <empty-line/>
 <p>Бла. Смутно интересная статья в NetworkWorld о мошенничестве с телефонными звонками. Некий техасец продал 15 кодов агентам секретной службы за $3,000 (по $200 за штуку!?) из TNT. Главное в этой истории — он был признан виновным судьёй и теперь предстанет перед судом присяжных, что делает этот случай первым в истории, когда дело о телефонном мошенничестве дошло до присяжных. Или что-то в этом роде.</p>
@@ -2084,14 +2204,16 @@
 <empty-line/>
 <p>sfd</p>
 <empty-line/>
-<subtitle>97/100: Network world/Drake</subtitle>
+</section>
+<section id="toc_sub_000123"><title><p>97/100: Network world/Drake</p></title>
 <p><strong>Имя:</strong> Jester Sluggo 31 <strong>Дата:</strong> 1:24 дня, пт 29 мая 1987</p>
 <empty-line/>
 <p>Drake, я тоже это читал — собираюсь загрузить это Knight'у для его Phrack World News... (чтобы другие могли прочесть).</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_006_metal_shop_private_phrack_gossip_1223_133b0451c8.png"/>
 <empty-line/>
-<subtitle>98/100: Ну что ж...</subtitle>
+</section>
+<section id="toc_sub_000124"><title><p>98/100: Ну что ж...</p></title>
 <p><strong>Имя:</strong> Sir Francis Drake 56 <strong>Дата:</strong> 1:42 дня, пт 29 мая 1987</p>
 <empty-line/>
 <p>Чёрт, а я хотел набрать его сам, чтобы моё имя появилось в <emphasis>PHRACK</emphasis>!...</p>
@@ -2102,7 +2224,8 @@
 <empty-line/>
 <p>sfd</p>
 <empty-line/>
-<subtitle>99/100: прелестно</subtitle>
+</section>
+<section id="toc_sub_000125"><title><p>99/100: прелестно</p></title>
 <p><strong>Имя:</strong> The Executioner 19 <strong>Дата:</strong> 1:41 ночи, сб 30 мая 1987</p>
 <empty-line/>
 <p>Прелестно...</p>
@@ -2111,7 +2234,8 @@
 <empty-line/>
 <p>Вот бы и мне быть таким крутым, шикарным, восхитительно-чудесным тэшкером-кальмаром.</p>
 <empty-line/>
-<subtitle>100/100: Виновный с 15 кодами</subtitle>
+</section>
+<section id="toc_sub_000126"><title><p>100/100: Виновный с 15 кодами</p></title>
 <p><strong>Имя:</strong> The Sensei 18 <strong>Дата:</strong> 6:07 вечера, пн 1 июня 1987</p>
 <empty-line/>
 <p>Да, загрузи файл... статью. Не отказался бы прочитать все подробности. Может, выложу на TSR.</p>
@@ -2122,13 +2246,14 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_006_metal_shop_private_phrack_gossip_1278_d8c139c67a.png"/>
 </section>
+</section>
 <section id="sec_issue_020_007_metal_shop_phreak_hack_sub">
 <title><p>Metal Shop Private — подфорум Phreak/Hack</p></title>
 <p><strong>Автор:</strong> Taran King и участники доски Metal Shop Private</p>
 <empty-line/>
 <p>Этот подфорум содержал все технические вопросы и беседы о фрикинге и хакинге. Если на нём появлялось что-либо незаконное (иногда какой-нибудь идиот публиковал коды, после чего его тут же удаляли), я убирал это, как только замечал.</p>
 <empty-line/>
-<subtitle>1/70: Red Box</subtitle>
+<section id="toc_sub_000127"><title><p>1/70: Red Box</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> The Disk Jockey 13 <strong>Дата:</strong> 4:24 утра, воскресенье, 26 апреля 1987</p>
 <empty-line/>
@@ -2138,7 +2263,8 @@
 <empty-line/>
 <p>Да, это не особо важно, но слово «red box» в последнем сообщении напомнило мне об этом. Были времена, когда существовало множество экстендеров с трёх- и четырёхзначными кодами, а PBX вообще без кодов...</p>
 <empty-line/>
-<subtitle>2/70: Поскольку</subtitle>
+</section>
+<section id="toc_sub_000128"><title><p>2/70: Поскольку</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> The Leftist 71 <strong>Дата:</strong> 5:26 утра, понедельник, 27 апреля 1987</p>
 <empty-line/>
@@ -2146,7 +2272,8 @@
 <empty-line/>
 <p>— Ltist</p>
 <empty-line/>
-<subtitle>3/70: Номера Telco</subtitle>
+</section>
+<section id="toc_sub_000129"><title><p>3/70: Номера Telco</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Mad Hatter 51 <strong>Дата:</strong> 5:36 вечера, понедельник, 27 апреля 1987</p>
 <empty-line/>
@@ -2154,7 +2281,8 @@
 <empty-line/>
 <p>— Hatter</p>
 <empty-line/>
-<subtitle>4/70: Камертон</subtitle>
+</section>
+<section id="toc_sub_000130"><title><p>4/70: Камертон</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 7:34 вечера, понедельник, 27 апреля 1987</p>
 <empty-line/>
@@ -2164,7 +2292,8 @@
 <empty-line/>
 <p>— Knight Lightning</p>
 <empty-line/>
-<subtitle>5/70: Трансляция супервизии</subtitle>
+</section>
+<section id="toc_sub_000131"><title><p>5/70: Трансляция супервизии</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Doom Prophet 21 <strong>Дата:</strong> 10:13 вечера, понедельник, 27 апреля 1987</p>
 <empty-line/>
@@ -2178,7 +2307,8 @@
 <empty-line/>
 <p>— Doom</p>
 <empty-line/>
-<subtitle>6/70: Разные вещи</subtitle>
+</section>
+<section id="toc_sub_000132"><title><p>6/70: Разные вещи</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 10:41 вечера, понедельник, 27 апреля 1987</p>
 <empty-line/>
@@ -2190,7 +2320,8 @@
 <empty-line/>
 <p>— Phantom</p>
 <empty-line/>
-<subtitle>7/70: FALFALAFL</subtitle>
+</section>
+<section id="toc_sub_000133"><title><p>7/70: FALFALAFL</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Taran King 1 <strong>Дата:</strong> 11:01 вечера, понедельник, 27 апреля 1987</p>
 <empty-line/>
@@ -2200,7 +2331,8 @@
 <empty-line/>
 <p>— TK</p>
 <empty-line/>
-<subtitle>8/70: Номер ремонтной службы</subtitle>
+</section>
+<section id="toc_sub_000134"><title><p>8/70: Номер ремонтной службы</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> The Scanner 20 <strong>Дата:</strong> 2:34 дня, вторник, 28 апреля 1987</p>
 <empty-line/>
@@ -2208,13 +2340,15 @@
 <empty-line/>
 <p>— The Scanner</p>
 <empty-line/>
-<subtitle>9/70: Два вопроса</subtitle>
+</section>
+<section id="toc_sub_000135"><title><p>9/70: Два вопроса</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Circuit Breaker 5 <strong>Дата:</strong> 12:11 дня, среда, 29 апреля 1987</p>
 <empty-line/>
 <p>Почему некоторые PBX издают громкий тон перед вводом кода? И знает ли кто-нибудь, в чём разница между гнездом ANI-D и обычным ANI?</p>
 <empty-line/>
-<subtitle>10/70: Red-boxing</subtitle>
+</section>
+<section id="toc_sub_000136"><title><p>10/70: Red-boxing</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Icarus 15 <strong>Дата:</strong> 11:32 утра, четверг, 30 апреля 1987</p>
 <empty-line/>
@@ -2226,7 +2360,8 @@
 <empty-line/>
 <p>— Icarus</p>
 <empty-line/>
-<subtitle>11/70: Ну...</subtitle>
+</section>
+<section id="toc_sub_000137"><title><p>11/70: Ну...</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Taran King 1 <strong>Дата:</strong> 2:41 дня, четверг, 30 апреля 1987</p>
 <empty-line/>
@@ -2234,7 +2369,8 @@
 <empty-line/>
 <p>— TK</p>
 <empty-line/>
-<subtitle>12/70: Заглушение таксофона</subtitle>
+</section>
+<section id="toc_sub_000138"><title><p>12/70: Заглушение таксофона</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Jester Sluggo 31 <strong>Дата:</strong> 6:49 вечера, четверг, 30 апреля 1987</p>
 <empty-line/>
@@ -2244,7 +2380,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_007_metal_shop_phreak_hack_sub_0162_133b0451c8.png"/>
 <empty-line/>
-<subtitle>13/70: DNR/Pen Registers</subtitle>
+</section>
+<section id="toc_sub_000139"><title><p>13/70: DNR/Pen Registers</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 7:04 вечера, четверг, 30 апреля 1987</p>
 <empty-line/>
@@ -2252,7 +2389,8 @@
 <empty-line/>
 <p>— Knight Lightning</p>
 <empty-line/>
-<subtitle>14/70: Ну...</subtitle>
+</section>
+<section id="toc_sub_000140"><title><p>14/70: Ну...</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Lucifer 666 43 <strong>Дата:</strong> 7:40 вечера, четверг, 30 апреля 1987</p>
 <empty-line/>
@@ -2262,7 +2400,8 @@
 <empty-line/>
 <p>— L666</p>
 <empty-line/>
-<subtitle>15/70: Насколько я слышал</subtitle>
+</section>
+<section id="toc_sub_000141"><title><p>15/70: Насколько я слышал</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> The Scanner 20 <strong>Дата:</strong> 8:30 утра, пятница, 1 мая 1987</p>
 <empty-line/>
@@ -2274,7 +2413,8 @@
 <empty-line/>
 <p>— The Scanner</p>
 <empty-line/>
-<subtitle>16/70: Здесь у нас...</subtitle>
+</section>
+<section id="toc_sub_000142"><title><p>16/70: Здесь у нас...</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Taran King 1 <strong>Дата:</strong> 2:41 дня, пятница, 1 мая 1987</p>
 <empty-line/>
@@ -2282,7 +2422,8 @@
 <empty-line/>
 <p>— TK</p>
 <empty-line/>
-<subtitle>17/70: Мультиплексирование и прочее</subtitle>
+</section>
+<section id="toc_sub_000143"><title><p>17/70: Мультиплексирование и прочее</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Doom Prophet 21 <strong>Дата:</strong> 4:56 вечера, пятница, 1 мая 1987</p>
 <empty-line/>
@@ -2296,7 +2437,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_007_metal_shop_phreak_hack_sub_0236_37c4110878.png"/>
 <empty-line/>
-<subtitle>18/70: Поправка</subtitle>
+</section>
+<section id="toc_sub_000144"><title><p>18/70: Поправка</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Doom Prophet 21 <strong>Дата:</strong> 5:52 вечера, пятница, 1 мая 1987</p>
 <empty-line/>
@@ -2304,7 +2446,8 @@
 <empty-line/>
 <p>— Doom</p>
 <empty-line/>
-<subtitle>19/70: Ну...</subtitle>
+</section>
+<section id="toc_sub_000145"><title><p>19/70: Ну...</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Sir Francis Drake 56 <strong>Дата:</strong> 8:15 вечера, пятница, 1 мая 1987</p>
 <empty-line/>
@@ -2314,7 +2457,8 @@
 <empty-line/>
 <p>— sfd</p>
 <empty-line/>
-<subtitle>20/70: Таксофоны</subtitle>
+</section>
+<section id="toc_sub_000146"><title><p>20/70: Таксофоны</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 10:57 вечера, суббота, 2 мая 1987</p>
 <empty-line/>
@@ -2322,7 +2466,8 @@
 <empty-line/>
 <p>— Phantom</p>
 <empty-line/>
-<subtitle>21/70: P-Phone</subtitle>
+</section>
+<section id="toc_sub_000147"><title><p>21/70: P-Phone</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Jester Sluggo 31 <strong>Дата:</strong> 12:19 дня, воскресенье, 3 мая 1987</p>
 <empty-line/>
@@ -2330,7 +2475,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_007_metal_shop_phreak_hack_sub_0285_133b0451c8.png"/>
 <empty-line/>
-<subtitle>22/70: AMA</subtitle>
+</section>
+<section id="toc_sub_000148"><title><p>22/70: AMA</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Circuit Breaker 5 <strong>Дата:</strong> 10:43 вечера, воскресенье, 3 мая 1987</p>
 <empty-line/>
@@ -2350,13 +2496,15 @@
 <empty-line/>
 <p>— Circuit Breaker</p>
 <empty-line/>
-<subtitle>23/70: Файл аудита</subtitle>
+</section>
+<section id="toc_sub_000149"><title><p>23/70: Файл аудита</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Circuit Breaker 5 <strong>Дата:</strong> 10:49 вечера, воскресенье, 3 мая 1987</p>
 <empty-line/>
 <p>Ещё одно место для проверки в дампе файла аудита: <code>/no5text/rcv/aimrc</code>. Думаю, файл аудита — это как audit на VAX: он просто проверяет ваш уровень доступа, и если он недостаточен, прочитать файл не получится.</p>
 <empty-line/>
-<subtitle>24/70: Circuit Breaker</subtitle>
+</section>
+<section id="toc_sub_000150"><title><p>24/70: Circuit Breaker</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 1:11 ночи, понедельник, 4 мая 1987</p>
 <empty-line/>
@@ -2374,13 +2522,15 @@
 <empty-line/>
 <p>— Phantom</p>
 <empty-line/>
-<subtitle>25/70: Таксофоны (снова)</subtitle>
+</section>
+<section id="toc_sub_000151"><title><p>25/70: Таксофоны (снова)</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Icarus 15 <strong>Дата:</strong> 3:08 ночи, понедельник, 4 мая 1987</p>
 <empty-line/>
 <p>Если провода, ведущие к таксофону, открыты и подключить трубку к соответствующим проводам — можно ли совершать прямые звонки? Если да, я знаю немало таксофонов без металлической оболочки вокруг проводов. Надо попробовать. Я почти уверен, что обход простой аппаратной части корпуса таксофона не открывает свободного доступа ко всем внешним линиям. Или всё же открывает?</p>
 <empty-line/>
-<subtitle>26/70: LMOS/Unix</subtitle>
+</section>
+<section id="toc_sub_000152"><title><p>26/70: LMOS/Unix</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Evil Jay 26 <strong>Дата:</strong> 4:18 ночи, понедельник, 4 мая 1987</p>
 <empty-line/>
@@ -2388,7 +2538,8 @@
 <empty-line/>
 <p>— Jay</p>
 <empty-line/>
-<subtitle>27/70: Провода таксофона</subtitle>
+</section>
+<section id="toc_sub_000153"><title><p>27/70: Провода таксофона</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> The Disk Jockey 13 <strong>Дата:</strong> 7:33 утра, понедельник, 4 мая 1987</p>
 <empty-line/>
@@ -2398,7 +2549,8 @@
 <empty-line/>
 <p>— The Disk Jockey</p>
 <empty-line/>
-<subtitle>28/70: Таксофоны-«крепости» / команды LMOS</subtitle>
+</section>
+<section id="toc_sub_000154"><title><p>28/70: Таксофоны-«крепости» / команды LMOS</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 7:22 вечера, понедельник, 4 мая 1987</p>
 <empty-line/>
@@ -2408,7 +2560,8 @@
 <empty-line/>
 <p>PS: В следующий раз, когда зайду, опубликую данные ISH для нескольких таксофонов, если кому интересно.</p>
 <empty-line/>
-<subtitle>29/70: ISH таксофона</subtitle>
+</section>
+<section id="toc_sub_000155"><title><p>29/70: ISH таксофона</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 7:43 вечера, понедельник, 4 мая 1987</p>
 <empty-line/>
@@ -2422,7 +2575,8 @@
 <empty-line/>
 <p>— Phantom</p>
 <empty-line/>
-<subtitle>30/70: Вопрос</subtitle>
+</section>
+<section id="toc_sub_000156"><title><p>30/70: Вопрос</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Cap'N Crax 10 <strong>Дата:</strong> 3:43 ночи, вторник, 5 мая 1987</p>
 <empty-line/>
@@ -2430,13 +2584,15 @@
 <empty-line/>
 <p>— C^2</p>
 <empty-line/>
-<subtitle>31/70: --------</subtitle>
+</section>
+<section id="toc_sub_000157"><title><p>31/70: --------</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Circuit Breaker 5 <strong>Дата:</strong> 10:25 вечера, вторник, 5 мая 1987</p>
 <empty-line/>
 <p>Phantom, что ты имел в виду под «стараюсь написать внятно»? Я объяснял Doom, как получить данные AMA из LMOS. Уверен, что в LMOS, к которому у тебя есть доступ, тоже есть файл аудита AMA — это просто функция безопасности.</p>
 <empty-line/>
-<subtitle>32/70: Call Blocking</subtitle>
+</section>
+<section id="toc_sub_000158"><title><p>32/70: Call Blocking</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> The Mad Hacker 47 <strong>Дата:</strong> 7:06 вечера, среда, 6 мая 1987</p>
 <empty-line/>
@@ -2444,7 +2600,8 @@
 <empty-line/>
 <p>— TMH</p>
 <empty-line/>
-<subtitle>33/70: Несколько команд LMOS</subtitle>
+</section>
+<section id="toc_sub_000159"><title><p>33/70: Несколько команд LMOS</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Control C 8 <strong>Дата:</strong> 8:46 вечера, среда, 6 мая 1987</p>
 <empty-line/>
@@ -2456,7 +2613,8 @@
 <empty-line/>
 <p>— Control</p>
 <empty-line/>
-<subtitle>34/70: Датакиты</subtitle>
+</section>
+<section id="toc_sub_000160"><title><p>34/70: Датакиты</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Slave Driver 58 <strong>Дата:</strong> 11:56 утра, четверг, 7 мая 1987</p>
 <empty-line/>
@@ -2472,7 +2630,8 @@
 <empty-line/>
 <p>ps. Я знаю, что они делают, просто нужно попасть внутрь — знаменитые последние слова.</p>
 <empty-line/>
-<subtitle>35/70: Больше о LMOS</subtitle>
+</section>
+<section id="toc_sub_000161"><title><p>35/70: Больше о LMOS</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Doom Prophet 21 <strong>Дата:</strong> 8:28 вечера, четверг, 7 мая 1987</p>
 <empty-line/>
@@ -2488,7 +2647,8 @@
 <empty-line/>
 <p>— Doom</p>
 <empty-line/>
-<subtitle>36/70: Call Blocking / Loops / прочее</subtitle>
+</section>
+<section id="toc_sub_000162"><title><p>36/70: Call Blocking / Loops / прочее</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 11:09 вечера, четверг, 7 мая 1987</p>
 <empty-line/>
@@ -2504,7 +2664,8 @@
 <empty-line/>
 <p>— Phantom</p>
 <empty-line/>
-<subtitle>37/70: Тесты монет</subtitle>
+</section>
+<section id="toc_sub_000163"><title><p>37/70: Тесты монет</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> The Mad Hacker 47 <strong>Дата:</strong> 12:07 ночи, пятница, 8 мая 1987</p>
 <empty-line/>
@@ -2514,7 +2675,8 @@
 <empty-line/>
 <p>— The Mad Hacker</p>
 <empty-line/>
-<subtitle>38/70: Collect call</subtitle>
+</section>
+<section id="toc_sub_000164"><title><p>38/70: Collect call</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Icarus 15 <strong>Дата:</strong> 12:52 ночи, пятница, 8 мая 1987</p>
 <empty-line/>
@@ -2524,7 +2686,8 @@
 <empty-line/>
 <p>— Icarus</p>
 <empty-line/>
-<subtitle>39/70: Call Blocking</subtitle>
+</section>
+<section id="toc_sub_000165"><title><p>39/70: Call Blocking</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Lotus 38 <strong>Дата:</strong> 3:44 ночи, пятница, 8 мая 1987</p>
 <empty-line/>
@@ -2534,7 +2697,8 @@
 <empty-line/>
 <p>Есть ещё информация об этом?</p>
 <empty-line/>
-<subtitle>40/70: Collect calls</subtitle>
+</section>
+<section id="toc_sub_000166"><title><p>40/70: Collect calls</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> The Disk Jockey 13 <strong>Дата:</strong> 6:55 утра, пятница, 8 мая 1987</p>
 <empty-line/>
@@ -2546,7 +2710,8 @@
 <empty-line/>
 <p>— The Disk Jockey</p>
 <empty-line/>
-<subtitle>41/70: Call Blocking...</subtitle>
+</section>
+<section id="toc_sub_000167"><title><p>41/70: Call Blocking...</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> The Mad Hacker 47 <strong>Дата:</strong> 9:19 утра, пятница, 8 мая 1987</p>
 <empty-line/>
@@ -2554,13 +2719,15 @@
 <empty-line/>
 <p>— The Mad Hacker</p>
 <empty-line/>
-<subtitle>42/70: Платный телефон</subtitle>
+</section>
+<section id="toc_sub_000168"><title><p>42/70: Платный телефон</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Circuit Breaker 5 <strong>Дата:</strong> 10:46 вечера, пятница, 8 мая 1987</p>
 <empty-line/>
 <p>В большинстве районов Европы провода к таксофонам свисают под аппаратом. Если подключить к этим проводам свою трубку — можно звонить напрямую без каких-либо имитационных тонов.</p>
 <empty-line/>
-<subtitle>43/70: Call Blocking</subtitle>
+</section>
+<section id="toc_sub_000169"><title><p>43/70: Call Blocking</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 2:23 ночи, суббота, 9 мая 1987</p>
 <empty-line/>
@@ -2568,7 +2735,8 @@
 <empty-line/>
 <p>— Phantom</p>
 <empty-line/>
-<subtitle>44/70: Дополнение</subtitle>
+</section>
+<section id="toc_sub_000170"><title><p>44/70: Дополнение</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 2:32 ночи, суббота, 9 мая 1987</p>
 <empty-line/>
@@ -2578,7 +2746,8 @@
 <empty-line/>
 <p>— Phantom</p>
 <empty-line/>
-<subtitle>45/70: Я думал</subtitle>
+</section>
+<section id="toc_sub_000171"><title><p>45/70: Я думал</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Lucifer 666 43 <strong>Дата:</strong> 2:26 ночи, воскресенье, 10 мая 1987</p>
 <empty-line/>
@@ -2588,13 +2757,15 @@
 <empty-line/>
 <p>— L666</p>
 <empty-line/>
-<subtitle>46/70: RC15?</subtitle>
+</section>
+<section id="toc_sub_000172"><title><p>46/70: RC15?</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Control C 8 <strong>Дата:</strong> 11:17 утра, воскресенье, 10 мая 1987</p>
 <empty-line/>
 <p>Phantom, ты уверен, что RC15 существует? RC начинаются с 16 и заканчиваются на 29. Может, я просто что-то перепутал...</p>
 <empty-line/>
-<subtitle>47/70: FACS</subtitle>
+</section>
+<section id="toc_sub_000173"><title><p>47/70: FACS</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Mad Hatter 51 <strong>Дата:</strong> 5:57 вечера, вторник, 12 мая 1987</p>
 <empty-line/>
@@ -2602,7 +2773,8 @@
 <empty-line/>
 <p>— Hatter</p>
 <empty-line/>
-<subtitle>48/70: TC15</subtitle>
+</section>
+<section id="toc_sub_000174"><title><p>48/70: TC15</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 7:21 вечера, вторник, 12 мая 1987</p>
 <empty-line/>
@@ -2612,7 +2784,8 @@
 <empty-line/>
 <p>— Phantom</p>
 <empty-line/>
-<subtitle>49/70: CAROT и прочее</subtitle>
+</section>
+<section id="toc_sub_000175"><title><p>49/70: CAROT и прочее</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Doom Prophet 21 <strong>Дата:</strong> 4:41 дня, пятница, 15 мая 1987</p>
 <empty-line/>
@@ -2622,7 +2795,8 @@
 <empty-line/>
 <p>— Doom</p>
 <empty-line/>
-<subtitle>50/70: Advanced 800</subtitle>
+</section>
+<section id="toc_sub_000176"><title><p>50/70: Advanced 800</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Taran King 1 <strong>Дата:</strong> 5:00 дня, пятница, 15 мая 1987</p>
 <empty-line/>
@@ -2632,7 +2806,8 @@
 <empty-line/>
 <p>— TK</p>
 <empty-line/>
-<subtitle>51/70: CCS</subtitle>
+</section>
+<section id="toc_sub_000177"><title><p>51/70: CCS</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Mad Hatter 51 <strong>Дата:</strong> 6:02 вечера, пятница, 15 мая 1987</p>
 <empty-line/>
@@ -2642,7 +2817,8 @@
 <empty-line/>
 <p>(Прошу простить за время/дату звонка.)</p>
 <empty-line/>
-<subtitle>52/70: CCS</subtitle>
+</section>
+<section id="toc_sub_000178"><title><p>52/70: CCS</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Taran King 1 <strong>Дата:</strong> 11:05 вечера, пятница, 15 мая 1987</p>
 <empty-line/>
@@ -2650,7 +2826,8 @@
 <empty-line/>
 <p>— TK</p>
 <empty-line/>
-<subtitle>53/70: CCS</subtitle>
+</section>
+<section id="toc_sub_000179"><title><p>53/70: CCS</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 12:52 дня, суббота, 16 мая 1987</p>
 <empty-line/>
@@ -2660,7 +2837,8 @@
 <empty-line/>
 <p>— Phantom</p>
 <empty-line/>
-<subtitle>54/70: Badger</subtitle>
+</section>
+<section id="toc_sub_000180"><title><p>54/70: Badger</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Taran King 1 <strong>Дата:</strong> 7:38 вечера, суббота, 16 мая 1987</p>
 <empty-line/>
@@ -2668,7 +2846,8 @@
 <empty-line/>
 <p>— TK</p>
 <empty-line/>
-<subtitle>55/70: Вот...</subtitle>
+</section>
+<section id="toc_sub_000181"><title><p>55/70: Вот...</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> The Disk Jockey 13 <strong>Дата:</strong> 12:40 ночи, понедельник, 18 мая 1987</p>
 <empty-line/>
@@ -2676,7 +2855,8 @@
 <empty-line/>
 <p>Был снят с другой доски, поэтому остаётся: 8-332-0111</p>
 <empty-line/>
-<subtitle>56/70: Кто знает?</subtitle>
+</section>
+<section id="toc_sub_000182"><title><p>56/70: Кто знает?</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Cap'N Crax 10 <strong>Дата:</strong> 2:22 ночи, понедельник, 18 мая 1987</p>
 <empty-line/>
@@ -2684,7 +2864,8 @@
 <empty-line/>
 <p>— C^2</p>
 <empty-line/>
-<subtitle>57/70: 976/900</subtitle>
+</section>
+<section id="toc_sub_000183"><title><p>57/70: 976/900</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Taran King 1 <strong>Дата:</strong> 6:35 утра, понедельник, 18 мая 1987</p>
 <empty-line/>
@@ -2692,7 +2873,8 @@
 <empty-line/>
 <p>— TK</p>
 <empty-line/>
-<subtitle>58/70: 900 и 976</subtitle>
+</section>
+<section id="toc_sub_000184"><title><p>58/70: 900 и 976</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Kerrang Khan 34 <strong>Дата:</strong> 4:37 дня, понедельник, 18 мая 1987</p>
 <empty-line/>
@@ -2700,7 +2882,8 @@
 <empty-line/>
 <p>— k</p>
 <empty-line/>
-<subtitle>59/70: Думаю...</subtitle>
+</section>
+<section id="toc_sub_000185"><title><p>59/70: Думаю...</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Slave Driver 58 <strong>Дата:</strong> 10:21 утра, вторник, 19 мая 1987</p>
 <empty-line/>
@@ -2708,7 +2891,8 @@
 <empty-line/>
 <p>— Steve</p>
 <empty-line/>
-<subtitle>60/70: 900-номера: объяснение</subtitle>
+</section>
+<section id="toc_sub_000186"><title><p>60/70: 900-номера: объяснение</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 9:35 вечера, вторник, 19 мая 1987</p>
 <empty-line/>
@@ -2724,7 +2908,8 @@
 <empty-line/>
 <p>— Phantom</p>
 <empty-line/>
-<subtitle>61/70: Логи UNIX</subtitle>
+</section>
+<section id="toc_sub_000187"><title><p>61/70: Логи UNIX</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Ax Murderer 7 <strong>Дата:</strong> 5:33 вечера, среда, 20 мая 1987</p>
 <empty-line/>
@@ -2734,7 +2919,8 @@
 <empty-line/>
 <p>Кстати, у меня есть МАССА программ на «C», и в этом языке я довольно хорошо разбираюсь.</p>
 <empty-line/>
-<subtitle>62/70: Unix</subtitle>
+</section>
+<section id="toc_sub_000188"><title><p>62/70: Unix</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 9:02 вечера, пятница, 22 мая 1987</p>
 <empty-line/>
@@ -2752,7 +2938,8 @@
 <empty-line/>
 <p>PS: Прошу прощения за помехи на линии.</p>
 <empty-line/>
-<subtitle>63/70: RA1 Channel 6</subtitle>
+</section>
+<section id="toc_sub_000189"><title><p>63/70: RA1 Channel 6</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Icarus 15 <strong>Дата:</strong> 3:54 ночи, воскресенье, 24 мая 1987</p>
 <empty-line/>
@@ -2762,19 +2949,22 @@
 <empty-line/>
 <p>— Icarus</p>
 <empty-line/>
-<subtitle>64/70: PHREE CALLZ D00DZ</subtitle>
+</section>
+<section id="toc_sub_000190"><title><p>64/70: PHREE CALLZ D00DZ</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> The Leftist 71 <strong>Дата:</strong> 10:57 вечера, воскресенье, 24 мая 1987</p>
 <empty-line/>
 <p>Хех, пожалуй, самый простой способ выставить счёт третьей стороне или совершить collect call — это позвонить оператору Sprint. Они тупые и вообще не имеют никакой информации о вас... Но вы об этом и так знаете, не правда ли?</p>
 <empty-line/>
-<subtitle>65/70: Centrex</subtitle>
+</section>
+<section id="toc_sub_000191"><title><p>65/70: Centrex</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> The Leftist 71 <strong>Дата:</strong> 4:52 дня, понедельник, 25 мая 1987</p>
 <empty-line/>
 <p>Есть ли кто-нибудь, у кого есть хорошая информация о Centrex (руководства Bell и т.п.) или кто знает об этом достаточно, чтобы написать сообщение? Centrex дома — неплохая штука, стоит около 10 долларов за установку, но того стоит. Подробнее напишу позже.</p>
 <empty-line/>
-<subtitle>66/70: НУ...</subtitle>
+</section>
+<section id="toc_sub_000192"><title><p>66/70: НУ...</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Sir Francis Drake 56 <strong>Дата:</strong> 7:05 вечера, понедельник, 25 мая 1987</p>
 <empty-line/>
@@ -2786,7 +2976,8 @@
 <empty-line/>
 <p>— sfd</p>
 <empty-line/>
-<subtitle>67/70: Centrex</subtitle>
+</section>
+<section id="toc_sub_000193"><title><p>67/70: Centrex</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 5:59 вечера, суббота, 30 мая 1987</p>
 <empty-line/>
@@ -2794,7 +2985,8 @@
 <empty-line/>
 <p>— Phantom</p>
 <empty-line/>
-<subtitle>68/70: Blue boxing</subtitle>
+</section>
+<section id="toc_sub_000194"><title><p>68/70: Blue boxing</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Icarus 15 <strong>Дата:</strong> 3:28 ночи, воскресенье, 31 мая 1987</p>
 <empty-line/>
@@ -2802,7 +2994,8 @@
 <empty-line/>
 <p>— Icarus</p>
 <empty-line/>
-<subtitle>69/70: Ответ</subtitle>
+</section>
+<section id="toc_sub_000195"><title><p>69/70: Ответ</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> The Executioner 19 <strong>Дата:</strong> 4:15 дня, воскресенье, 31 мая 1987</p>
 <empty-line/>
@@ -2814,7 +3007,8 @@
 <empty-line/>
 <p>— Ex y ^ удобный пробел</p>
 <empty-line/>
-<subtitle>70/70: DP Boxing</subtitle>
+</section>
+<section id="toc_sub_000196"><title><p>70/70: DP Boxing</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 8:41 утра, понедельник, 1 июня 1987</p>
 <empty-line/>
@@ -2824,13 +3018,14 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_007_metal_shop_phreak_hack_sub_0952_371fef6a76.png"/>
 </section>
+</section>
 <section id="sec_issue_020_008_metal_shop_private_social_engineering">
 <title><p>Metal Shop Private's — Социальная инженерия</p></title>
 <p><strong>Автор:</strong> Various / Metal Shop Private BBS</p>
 <empty-line/>
 <p>Это был подраздел BBS, похожий на раздел Phreak/Hack, но посвящённый искусству социальной инженерии — умению «заболтать» собеседника ради получения нужной информации.</p>
 <empty-line/>
-<subtitle>1/27: CAROT/RC-MAC</subtitle>
+<section id="toc_sub_000197"><title><p>1/27: CAROT/RC-MAC</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 2:46 утра, вс 26 апр 1987</p>
 <empty-line/>
@@ -2850,7 +3045,8 @@
 <empty-line/>
 <p>Phantom</p>
 <empty-line/>
-<subtitle>2/27: Бах..</subtitle>
+</section>
+<section id="toc_sub_000198"><title><p>2/27: Бах..</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 2:54 утра, вс 26 апр 1987</p>
 <empty-line/>
@@ -2862,7 +3058,8 @@
 <empty-line/>
 <p>Phantom</p>
 <empty-line/>
-<subtitle>3/27: Безопасность Bell</subtitle>
+</section>
+<section id="toc_sub_000199"><title><p>3/27: Безопасность Bell</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Knight Lightning <strong>Дата:</strong> 7:14 вечера, чт 30 апр 1987</p>
 <empty-line/>
@@ -2870,13 +3067,15 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>4/27: (3232232</subtitle>
+</section>
+<section id="toc_sub_000200"><title><p>4/27: (3232232</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Doom Prophet 21 <strong>Дата:</strong> 4:57 вечера, пт 1 мая 1987</p>
 <empty-line/>
 <p>Попробуйте свой CO (они, конечно, сразу узнают о DNR), или, для номеров с пометкой CLID, — контроллер вашего SCC-коммутатора. Правда, CT06 они вам не всегда зачитают (хе-хе)...</p>
 <empty-line/>
-<subtitle>5/27: Да, но</subtitle>
+</section>
+<section id="toc_sub_000201"><title><p>5/27: Да, но</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 10:17 утра, сб 2 мая 1987</p>
 <empty-line/>
@@ -2884,7 +3083,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>6/27: RC-MAC</subtitle>
+</section>
+<section id="toc_sub_000202"><title><p>6/27: RC-MAC</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Mad Hatter 51 <strong>Дата:</strong> 3:12 дня, ср 6 мая 1987</p>
 <empty-line/>
@@ -2892,7 +3092,8 @@
 <empty-line/>
 <p>-Hatter</p>
 <empty-line/>
-<subtitle>7/27: RC-MAC</subtitle>
+</section>
+<section id="toc_sub_000203"><title><p>7/27: RC-MAC</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Taran King 1 <strong>Дата:</strong> 5:58 вечера, ср 6 мая 1987</p>
 <empty-line/>
@@ -2900,7 +3101,8 @@
 <empty-line/>
 <p>-TK</p>
 <empty-line/>
-<subtitle>8/27: CT-отчёты</subtitle>
+</section>
+<section id="toc_sub_000204"><title><p>8/27: CT-отчёты</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Control C 8 <strong>Дата:</strong> 9:07 вечера, ср 6 мая 1987</p>
 <empty-line/>
@@ -2912,7 +3114,8 @@
 <empty-line/>
 <p>Control</p>
 <empty-line/>
-<subtitle>9/27: SCCS</subtitle>
+</section>
+<section id="toc_sub_000205"><title><p>9/27: SCCS</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Mad Hatter 51 <strong>Дата:</strong> 11:18 утра, чт 7 мая 1987</p>
 <empty-line/>
@@ -2922,7 +3125,8 @@
 <empty-line/>
 <p>-Hatter</p>
 <empty-line/>
-<subtitle>10/27: NAC / CT0X-отчёты</subtitle>
+</section>
+<section id="toc_sub_000206"><title><p>10/27: NAC / CT0X-отчёты</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 10:58 вечера, чт 7 мая 1987</p>
 <empty-line/>
@@ -2932,7 +3136,8 @@
 <empty-line/>
 <p>Phantom</p>
 <empty-line/>
-<subtitle>11/27: Офисы и системы</subtitle>
+</section>
+<section id="toc_sub_000207"><title><p>11/27: Офисы и системы</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Doom Prophet 21 <strong>Дата:</strong> 5:21 вечера, вт 12 мая 1987</p>
 <empty-line/>
@@ -2958,7 +3163,8 @@
 <empty-line/>
 <p>Всё! Надеюсь, помогло!!!1</p>
 <empty-line/>
-<subtitle>12/27: ЕЩЁ!</subtitle>
+</section>
+<section id="toc_sub_000208"><title><p>12/27: ЕЩЁ!</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 7:29 вечера, вт 12 мая 1987</p>
 <empty-line/>
@@ -2976,7 +3182,8 @@
 <empty-line/>
 <p>Phantom</p>
 <empty-line/>
-<subtitle>13/27: И ещё немного...</subtitle>
+</section>
+<section id="toc_sub_000209"><title><p>13/27: И ещё немного...</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Taran King 1 <strong>Дата:</strong> 8:58 вечера, вт 12 мая 1987</p>
 <empty-line/>
@@ -3012,7 +3219,8 @@
 <empty-line/>
 <p>Bill и Taran В занудном настроении На волне 7-UP С банановым вкусом Пользуясь Randy-Voice-Machine (Ха-ха!) P.S. Bill передаёт привет своему дяде Элу.</p>
 <empty-line/>
-<subtitle>14/27: Кто мог забыть......</subtitle>
+</section>
+<section id="toc_sub_000210"><title><p>14/27: Кто мог забыть......</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> The Disk Jockey 13 <strong>Дата:</strong> 7:10 утра, ср 13 мая 1987</p>
 <empty-line/>
@@ -3024,7 +3232,8 @@
 <empty-line/>
 <p>Список продолжается......</p>
 <empty-line/>
-<subtitle>15/27: Phrack 15</subtitle>
+</section>
+<section id="toc_sub_000211"><title><p>15/27: Phrack 15</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 5:42 вечера, ср 13 мая 1987</p>
 <empty-line/>
@@ -3032,7 +3241,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>16/27: Где это всё было раньше?</subtitle>
+</section>
+<section id="toc_sub_000212"><title><p>16/27: Где это всё было раньше?</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Mad Hatter 51 <strong>Дата:</strong> 6:11 утра, пт 15 мая 1987</p>
 <empty-line/>
@@ -3044,7 +3254,8 @@
 <empty-line/>
 <p>И ещё: не ждите, что я буду доступен для голосового общения какое-то время (с неделю) — у меня «был несчастный случай», в результате которого 6 швов на внутренней части верхней губы... Хихи..</p>
 <empty-line/>
-<subtitle>17/27: Окей</subtitle>
+</section>
+<section id="toc_sub_000213"><title><p>17/27: Окей</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Doom Prophet 21 <strong>Дата:</strong> 4:49 вечера, пт 15 мая 1987</p>
 <empty-line/>
@@ -3054,7 +3265,8 @@
 <empty-line/>
 <p>От слепого ока, видящего всё, отчасти</p>
 <empty-line/>
-<subtitle>18/27: Номера 800...</subtitle>
+</section>
+<section id="toc_sub_000214"><title><p>18/27: Номера 800...</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> The Mad Hacker 47 <strong>Дата:</strong> 10:57 вечера, пт 15 мая 1987</p>
 <empty-line/>
@@ -3062,7 +3274,8 @@
 <empty-line/>
 <p>The Mad Hacker</p>
 <empty-line/>
-<subtitle>19/27: 800-е</subtitle>
+</section>
+<section id="toc_sub_000215"><title><p>19/27: 800-е</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Lucifer 666 43 <strong>Дата:</strong> 2:07 утра, вс 17 мая 1987</p>
 <empty-line/>
@@ -3070,7 +3283,8 @@
 <empty-line/>
 <p>L666</p>
 <empty-line/>
-<subtitle>20/27: 800-е</subtitle>
+</section>
+<section id="toc_sub_000216"><title><p>20/27: 800-е</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 1:31 дня, вс 17 мая 1987</p>
 <empty-line/>
@@ -3084,7 +3298,8 @@
 <empty-line/>
 <p>PS — MSP почти такой же беспорядочный, как и говорит Randy.</p>
 <empty-line/>
-<subtitle>21/27: Смена номеров</subtitle>
+</section>
+<section id="toc_sub_000217"><title><p>21/27: Смена номеров</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Mad Hatter 51 <strong>Дата:</strong> 8:18 вечера, пн 18 мая 1987</p>
 <empty-line/>
@@ -3092,7 +3307,8 @@
 <empty-line/>
 <p>Bell Techie</p>
 <empty-line/>
-<subtitle>22/27: Что такое...</subtitle>
+</section>
+<section id="toc_sub_000218"><title><p>22/27: Что такое...</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Slave Driver 58 <strong>Дата:</strong> 10:27 утра, вт 19 мая 1987</p>
 <empty-line/>
@@ -3102,7 +3318,8 @@
 <empty-line/>
 <p>Глупые расшифровки приветствуются, но и реальные тоже... спасибо..|</p>
 <empty-line/>
-<subtitle>23/27: NSAC...?</subtitle>
+</section>
+<section id="toc_sub_000219"><title><p>23/27: NSAC...?</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Phantom Phreaker 46 <strong>Дата:</strong> 9:38 вечера, вт 19 мая 1987</p>
 <empty-line/>
@@ -3110,7 +3327,8 @@
 <empty-line/>
 <p>Phantom</p>
 <empty-line/>
-<subtitle>24/27: Офисы</subtitle>
+</section>
+<section id="toc_sub_000220"><title><p>24/27: Офисы</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Doom Prophet 21 <strong>Дата:</strong> 6:57 утра, пт 22 мая 1987</p>
 <empty-line/>
@@ -3128,19 +3346,22 @@
 <empty-line/>
 <p>Doom</p>
 <empty-line/>
-<subtitle>25/27: Извините</subtitle>
+</section>
+<section id="toc_sub_000221"><title><p>25/27: Извините</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Doom Prophet 21 <strong>Дата:</strong> 7:02 утра, пт 22 мая 1987</p>
 <empty-line/>
 <p>Что оставляю ещё один пост, но прежде чем кто-то начнёт возмущаться — я знаю стандартные источники для получения трансляций, поэтому не нужно оставлять тысячу поправок о том, что RTM не имеет никакого отношения к трансляциям (я согласен). На самом деле, это был сотрудник RWC, который отправил меня в CMAC, а не RTM — я уже не слишком хорошо это помню.</p>
 <empty-line/>
-<subtitle>26/27: Чёрт...</subtitle>
+</section>
+<section id="toc_sub_000222"><title><p>26/27: Чёрт...</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Taran King 1 <strong>Дата:</strong> 7:10 утра, пт 22 мая 1987</p>
 <empty-line/>
 <p>У меня нет более подробных сведений о базе данных NCP, к которой обращается ACP.</p>
 <empty-line/>
 <p><emphasis>[Конец файла — последние записи обрезаны в исходнике]</emphasis></p>
+</section>
 </section>
 <section id="sec_issue_020_009_metal_shop_private_new_users">
 <title><p>Metal Shop Private — Новые пользователи</p></title>
@@ -3150,7 +3371,7 @@
 <empty-line/>
 <p>Примечание: не все подписи в конце сообщений верны — в одних местах это очевидно, в других — нет.</p>
 <empty-line/>
-<subtitle>1/46: Несколько анекдотов...</subtitle>
+<section id="toc_sub_000223"><title><p>1/46: Несколько анекдотов...</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Knight Lightning 2 &gt;&gt;&gt; <strong>Дата:</strong> 22:41, пн 04 мая 1987</p>
 <empty-line/>
@@ -3160,13 +3381,15 @@
 <empty-line/>
 <cite><p>--&gt; The Amazing Comic!</p></cite>
 <empty-line/>
-<subtitle>2/46: Заявка Galactus</subtitle>
+</section>
+<section id="toc_sub_000224"><title><p>2/46: Заявка Galactus</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Galactus <strong>Дата:</strong> 14:33, вт 05 мая 1987</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_009_metal_shop_private_new_users_0033_0cf0265d13.png"/>
 <empty-line/>
-<subtitle>3/46: Ладно...</subtitle>
+</section>
+<section id="toc_sub_000225"><title><p>3/46: Ладно...</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Taran King 1 &gt;&gt;&gt; <strong>Дата:</strong> 14:37, вт 05 мая 1987</p>
 <empty-line/>
@@ -3174,7 +3397,8 @@
 <empty-line/>
 <p>-TK</p>
 <empty-line/>
-<subtitle>4/46: Nanuk..</subtitle>
+</section>
+<section id="toc_sub_000226"><title><p>4/46: Nanuk..</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Mad Hatter 51 &gt;&gt;&gt; <strong>Дата:</strong> 14:59, вт 05 мая 1987</p>
 <empty-line/>
@@ -3182,7 +3406,8 @@
 <empty-line/>
 <p>-Hatter</p>
 <empty-line/>
-<subtitle>5/46: Ничего не могу сказать</subtitle>
+</section>
+<section id="toc_sub_000227"><title><p>5/46: Ничего не могу сказать</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Knight Lightning 2 &gt;&gt;&gt; <strong>Дата:</strong> 17:09, вт 05 мая 1987</p>
 <empty-line/>
@@ -3190,7 +3415,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>6/46: Ещё...</subtitle>
+</section>
+<section id="toc_sub_000228"><title><p>6/46: Ещё...</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; The Mad Hacker 47 &gt;&gt;&gt; <strong>Дата:</strong> 23:46, вт 05 мая 1987</p>
 <empty-line/>
@@ -3200,7 +3426,8 @@
 <empty-line/>
 <p>-TMH</p>
 <empty-line/>
-<subtitle>7/46: Nanuk</subtitle>
+</section>
+<section id="toc_sub_000229"><title><p>7/46: Nanuk</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; The Prophet 23 &gt;&gt;&gt; <strong>Дата:</strong> 00:28, ср 06 мая 1987</p>
 <empty-line/>
@@ -3208,13 +3435,15 @@
 <empty-line/>
 <p>-TP</p>
 <empty-line/>
-<subtitle>8/46: Он нормальный</subtitle>
+</section>
+<section id="toc_sub_000230"><title><p>8/46: Он нормальный</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Control C 8 &gt;&gt;&gt; <strong>Дата:</strong> 21:09, ср 06 мая 1987</p>
 <empty-line/>
 <p>Думаю, нормальный. Я только что пустил его к себе на систему, и, судя по всему, он разбирается в компьютерных системах. Говорю — нормально.</p>
 <empty-line/>
-<subtitle>9/46: Кто</subtitle>
+</section>
+<section id="toc_sub_000231"><title><p>9/46: Кто</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Knight Lightning 2 &gt;&gt;&gt; <strong>Дата:</strong> 00:33, чт 07 мая 1987</p>
 <empty-line/>
@@ -3222,7 +3451,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>10/46: Хм...</subtitle>
+</section>
+<section id="toc_sub_000232"><title><p>10/46: Хм...</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Taran King 1 &gt;&gt;&gt; <strong>Дата:</strong> 07:02, чт 07 мая 1987</p>
 <empty-line/>
@@ -3230,13 +3460,15 @@
 <empty-line/>
 <p>-TK</p>
 <empty-line/>
-<subtitle>11/46: Голосование</subtitle>
+</section>
+<section id="toc_sub_000233"><title><p>11/46: Голосование</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Computer Wiz Kid 54 &gt;&gt;&gt; <strong>Дата:</strong> 22:24, чт 07 мая 1987</p>
 <empty-line/>
 <p>Звучит неплохо, но, как кто-то уже сказал, ЗАГЛАВНЫЕ БУКВЫ меня раздражают... Выглядит так, будто НА ТЕБЯ КРИЧАТ, но что ж — если он и правда так хорош, как говорит, почему бы и нет...</p>
 <empty-line/>
-<subtitle>12/46: Fatal Error 313</subtitle>
+</section>
+<section id="toc_sub_000234"><title><p>12/46: Fatal Error 313</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Knight Lightning 2 &gt;&gt;&gt; <strong>Дата:</strong> 23:33, чт 07 мая 1987</p>
 <empty-line/>
@@ -3244,7 +3476,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>13/46: FE</subtitle>
+</section>
+<section id="toc_sub_000235"><title><p>13/46: FE</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; The Scanner 20 &gt;&gt;&gt; <strong>Дата:</strong> 01:38, пт 08 мая 1987</p>
 <empty-line/>
@@ -3252,13 +3485,15 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_009_metal_shop_private_new_users_0180_96fef4daac.png"/>
 <empty-line/>
-<subtitle>14/46: FE 617</subtitle>
+</section>
+<section id="toc_sub_000236"><title><p>14/46: FE 617</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Taran King 1 &gt;&gt;&gt; <strong>Дата:</strong> 06:31, пт 08 мая 1987</p>
 <empty-line/>
 <p>Тот, что был в 617 и держал Metropolis, — мёртв. Тот, что в 313, — просто залёг на дно. Тупые посты для тупых людей от тупых людей.</p>
 <empty-line/>
-<subtitle>15/46: Fatal Error....</subtitle>
+</section>
+<section id="toc_sub_000237"><title><p>15/46: Fatal Error....</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; The Disk Jockey 13 &gt;&gt;&gt; <strong>Дата:</strong> 06:57, пт 08 мая 1987</p>
 <empty-line/>
@@ -3266,7 +3501,8 @@
 <empty-line/>
 <p>-The Disk Jockey</p>
 <empty-line/>
-<subtitle>16/46: Fatal Error</subtitle>
+</section>
+<section id="toc_sub_000238"><title><p>16/46: Fatal Error</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Knight Lightning 2 &gt;&gt;&gt; <strong>Дата:</strong> 08:02, пт 08 мая 1987</p>
 <empty-line/>
@@ -3274,7 +3510,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>17/46: Ещё кто-нибудь??</subtitle>
+</section>
+<section id="toc_sub_000239"><title><p>17/46: Ещё кто-нибудь??</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Mad Hatter 51 &gt;&gt;&gt; <strong>Дата:</strong> 14:32, пт 08 мая 1987</p>
 <empty-line/>
@@ -3282,7 +3519,8 @@
 <empty-line/>
 <p>-Hatter</p>
 <empty-line/>
-<subtitle>18/46: Смерть.....</subtitle>
+</section>
+<section id="toc_sub_000240"><title><p>18/46: Смерть.....</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; The Disk Jockey 13 &gt;&gt;&gt; <strong>Дата:</strong> 19:28, пт 08 мая 1987</p>
 <empty-line/>
@@ -3292,7 +3530,8 @@
 <empty-line/>
 <p>-The Disk Jockey</p>
 <empty-line/>
-<subtitle>19/46: В общем</subtitle>
+</section>
+<section id="toc_sub_000241"><title><p>19/46: В общем</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Knight Lightning 2 &gt;&gt;&gt; <strong>Дата:</strong> 00:19, сб 09 мая 1987</p>
 <empty-line/>
@@ -3300,13 +3539,15 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>20/46: FE (снова)</subtitle>
+</section>
+<section id="toc_sub_000242"><title><p>20/46: FE (снова)</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Phantom Phreaker 46 &gt;&gt;&gt; <strong>Дата:</strong> 02:28, сб 09 мая 1987</p>
 <empty-line/>
 <p>Fatal Error 617 погиб в аварии на мотоцикле, катаясь по своему лесу. Micro Man (617, бывший сисоп Newsweek BBS) позвонил мне и рассказал об этом 3 июля 1986 года. Похоже, остальные ещё долго ничего не знали. Дату помню, потому что это было прямо перед Четвёртым июля. FE 617 занимался COSMOS и держал Metropolis, как кто-то уже сказал. FE 313 — голосовой фрикер, у него, насколько я знаю, нет модема.</p>
 <empty-line/>
-<subtitle>21/46: Серьёзно</subtitle>
+</section>
+<section id="toc_sub_000243"><title><p>21/46: Серьёзно</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Lucifer 666 43 &gt;&gt;&gt; <strong>Дата:</strong> 02:35, вс 10 мая 1987</p>
 <empty-line/>
@@ -3314,7 +3555,8 @@
 <empty-line/>
 <p>И вообще — насколько это весело, быть экспертом по диверторам?</p>
 <empty-line/>
-<subtitle>22/46: FE</subtitle>
+</section>
+<section id="toc_sub_000244"><title><p>22/46: FE</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Control C 8 &gt;&gt;&gt; <strong>Дата:</strong> 11:22, вс 10 мая 1987</p>
 <empty-line/>
@@ -3322,7 +3564,8 @@
 <empty-line/>
 <p>Control .s упс</p>
 <empty-line/>
-<subtitle>23/46: Galactus</subtitle>
+</section>
+<section id="toc_sub_000245"><title><p>23/46: Galactus</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Doom Prophet 21 &gt;&gt;&gt; <strong>Дата:</strong> 22:57, вс 10 мая 1987</p>
 <empty-line/>
@@ -3330,7 +3573,8 @@
 <empty-line/>
 <p>Doomy</p>
 <empty-line/>
-<subtitle>24/46: Galactus.....</subtitle>
+</section>
+<section id="toc_sub_000246"><title><p>24/46: Galactus.....</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; The Disk Jockey 13 &gt;&gt;&gt; <strong>Дата:</strong> 06:43, пн 11 мая 1987</p>
 <empty-line/>
@@ -3338,7 +3582,8 @@
 <empty-line/>
 <p>-The Disk Jockey</p>
 <empty-line/>
-<subtitle>25/46: Добавлю</subtitle>
+</section>
+<section id="toc_sub_000247"><title><p>25/46: Добавлю</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Knight Lightning 2 &gt;&gt;&gt; <strong>Дата:</strong> 18:48, пн 11 мая 1987</p>
 <empty-line/>
@@ -3346,13 +3591,15 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>26/46: НЕТ</subtitle>
+</section>
+<section id="toc_sub_000248"><title><p>26/46: НЕТ</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Phantom Phreaker 46 &gt;&gt;&gt; <strong>Дата:</strong> 19:24, вт 12 мая 1987</p>
 <empty-line/>
 <p>Мой голос по Galactus — НЕТ. Да, я самодовольный засранец и так далее. Всегда чувствую себя засранцем, голосуя «НЕТ», как будто я сегрегационист.</p>
 <empty-line/>
-<subtitle>27/46: Согласен.</subtitle>
+</section>
+<section id="toc_sub_000249"><title><p>27/46: Согласен.</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Evil Jay 26 &gt;&gt;&gt; <strong>Дата:</strong> 09:05, ср 13 мая 1987</p>
 <empty-line/>
@@ -3362,7 +3609,8 @@
 <empty-line/>
 <p>-The Big J</p>
 <empty-line/>
-<subtitle>28/46: Итого — нет, так?</subtitle>
+</section>
+<section id="toc_sub_000250"><title><p>28/46: Итого — нет, так?</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Knight Lightning 2 &gt;&gt;&gt; <strong>Дата:</strong> 17:44, ср 13 мая 1987</p>
 <empty-line/>
@@ -3370,7 +3618,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>29/46: Никак нет</subtitle>
+</section>
+<section id="toc_sub_000251"><title><p>29/46: Никак нет</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Lex Luthor 36 &gt;&gt;&gt; <strong>Дата:</strong> 10:46, пт 15 мая 1987</p>
 <empty-line/>
@@ -3378,7 +3627,8 @@
 <empty-line/>
 <p>Очередные размышления от Lex</p>
 <empty-line/>
-<subtitle>30/46: Хм.</subtitle>
+</section>
+<section id="toc_sub_000252"><title><p>30/46: Хм.</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Lucifer 666 43 &gt;&gt;&gt; <strong>Дата:</strong> 02:11, вс 17 мая 1987</p>
 <empty-line/>
@@ -3388,7 +3638,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_009_metal_shop_private_new_users_0382_d28096dc81.png"/>
 <empty-line/>
-<subtitle>31/46: Galac.</subtitle>
+</section>
+<section id="toc_sub_000253"><title><p>31/46: Galac.</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; The Sensei 18 &gt;&gt;&gt; <strong>Дата:</strong> 18:37, чт 21 мая 1987</p>
 <empty-line/>
@@ -3400,7 +3651,8 @@
 <empty-line/>
 <p>Ts</p>
 <empty-line/>
-<subtitle>32/46: Пользователи...</subtitle>
+</section>
+<section id="toc_sub_000254"><title><p>32/46: Пользователи...</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Taran King 1 &gt;&gt;&gt; <strong>Дата:</strong> 19:07, чт 21 мая 1987</p>
 <empty-line/>
@@ -3410,7 +3662,8 @@
 <empty-line/>
 <p>-TK</p>
 <empty-line/>
-<subtitle>33/46: Что ж...</subtitle>
+</section>
+<section id="toc_sub_000255"><title><p>33/46: Что ж...</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Sir Francis Drake 56 &gt;&gt;&gt; <strong>Дата:</strong> 19:01, пт 22 мая 1987</p>
 <empty-line/>
@@ -3424,7 +3677,8 @@
 <empty-line/>
 <p>Вот так. sfd</p>
 <empty-line/>
-<subtitle>34/46: Неправильно...</subtitle>
+</section>
+<section id="toc_sub_000256"><title><p>34/46: Неправильно...</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Taran King 1 &gt;&gt;&gt; <strong>Дата:</strong> 19:10, пт 22 мая 1987</p>
 <empty-line/>
@@ -3432,7 +3686,8 @@
 <empty-line/>
 <p>-TK</p>
 <empty-line/>
-<subtitle>35/46: Проповедь!</subtitle>
+</section>
+<section id="toc_sub_000257"><title><p>35/46: Проповедь!</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Knight Lightning 2 &gt;&gt;&gt; <strong>Дата:</strong> 23:58, сб 23 мая 1987</p>
 <empty-line/>
@@ -3442,7 +3697,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>36/46: Solid S.</subtitle>
+</section>
+<section id="toc_sub_000258"><title><p>36/46: Solid S.</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; The Sensei 18 &gt;&gt;&gt; <strong>Дата:</strong> 07:25, вс 24 мая 1987</p>
 <empty-line/>
@@ -3452,13 +3708,15 @@
 <empty-line/>
 <p>Ts</p>
 <empty-line/>
-<subtitle>37/46: S. State</subtitle>
+</section>
+<section id="toc_sub_000259"><title><p>37/46: S. State</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; The Leftist 71 &gt;&gt;&gt; <strong>Дата:</strong> 16:38, пн 25 мая 1987</p>
 <empty-line/>
 <p>По-моему, Solid State — мудак, которого не стоит пускать ни на одну систему, а тем более на эту.</p>
 <empty-line/>
-<subtitle>38/46: Nate</subtitle>
+</section>
+<section id="toc_sub_000260"><title><p>38/46: Nate</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; The Executioner 19 &gt;&gt;&gt; <strong>Дата:</strong> 21:50, вт 26 мая 1987</p>
 <empty-line/>
@@ -3468,13 +3726,14 @@
 <empty-line/>
 <p>«Различные формы полуводных саламандр»</p>
 <empty-line/>
-<p>УПСС! Это слово &quot;Newt&quot;, то есть Lock Lifter... ееек!</p>
+<p>УПСС! Это слово "Newt", то есть Lock Lifter... ееек!</p>
 <empty-line/>
 <p>Nate — кожа, натянутая от отверстия анального прохода до основания полового члена.</p>
 <empty-line/>
 <p>Больше нечего добавить.</p>
 <empty-line/>
-<subtitle>39/46: Nates</subtitle>
+</section>
+<section id="toc_sub_000261"><title><p>39/46: Nates</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Mad Hatter 51 &gt;&gt;&gt; <strong>Дата:</strong> 22:45, сб 30 мая 1987</p>
 <empty-line/>
@@ -3482,7 +3741,8 @@
 <empty-line/>
 <p>Из словаря Webster's, 20 000 слов. Откуда взял своё определение?</p>
 <empty-line/>
-<subtitle>40/46: FRED FROM RCMAC</subtitle>
+</section>
+<section id="toc_sub_000262"><title><p>40/46: FRED FROM RCMAC</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Icarus 15 &gt;&gt;&gt; <strong>Дата:</strong> 03:29, вс 31 мая 1987</p>
 <empty-line/>
@@ -3490,7 +3750,8 @@
 <empty-line/>
 <p>Ну что, Lex, так ли это?</p>
 <empty-line/>
-<subtitle>41/46: Хахахахахаха</subtitle>
+</section>
+<section id="toc_sub_000263"><title><p>41/46: Хахахахахаха</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Control C 8 &gt;&gt;&gt; <strong>Дата:</strong> 10:04, вс 31 мая 1987</p>
 <empty-line/>
@@ -3500,19 +3761,22 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_009_metal_shop_private_new_users_0533_90db6d20f2.png"/>
 <empty-line/>
-<subtitle>42/46: Fred from Rcmac</subtitle>
+</section>
+<section id="toc_sub_000264"><title><p>42/46: Fred from Rcmac</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; The Executioner 19 &gt;&gt;&gt; <strong>Дата:</strong> 16:17, вс 31 мая 1987</p>
 <empty-line/>
 <p>Видел его на BBS Digital Logic. Не проявил ничего особенного...</p>
 <empty-line/>
-<subtitle>43/46: Fred from Rc-Mac</subtitle>
+</section>
+<section id="toc_sub_000265"><title><p>43/46: Fred from Rc-Mac</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; Control C 8 &gt;&gt;&gt; <strong>Дата:</strong> 21:47, вс 31 мая 1987</p>
 <empty-line/>
 <p>Fred — это Phiber Optic, который есть Public Enemy 1, который есть Ilduce (величайший лузер в мире). Не знает ни хрена!</p>
 <empty-line/>
-<subtitle>44/46: Phiber Optic.....</subtitle>
+</section>
+<section id="toc_sub_000266"><title><p>44/46: Phiber Optic.....</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; The Disk Jockey 13 &gt;&gt;&gt; <strong>Дата:</strong> 00:55, пн 01 июня 1987</p>
 <empty-line/>
@@ -3520,7 +3784,8 @@
 <empty-line/>
 <p>-The Disk Jockey</p>
 <empty-line/>
-<subtitle>45/46: Ну....</subtitle>
+</section>
+<section id="toc_sub_000267"><title><p>45/46: Ну....</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> &lt;&lt;&lt; The Executioner 19 &gt;&gt;&gt; <strong>Дата:</strong> 08:11, пн 01 июня 1987</p>
 <empty-line/>
@@ -3530,13 +3795,14 @@
 <empty-line/>
 <p><emphasis>— конец файла 9 из 12 —</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_020_010_metal_shop_royal_court">
 <title><p>Королевский двор Metal Shop Private</p></title>
 <p><strong>Автор:</strong> Knight Lightning &amp; участники доски</p>
 <empty-line/>
 <p>«Королевский двор» — это идея Knight Lightning, который управлял соответствующим подразделом доски. Это был своего рода «элитный» подраздел для тех, кого он уважал и кто, по его мнению, мог достаточно содержательно участвовать в беседах. Многие сообщения здесь были удалены из-за функции автоматического удаления по дате, а большинство оставшихся сообщений относятся к одному конкретному периоду в прошлом.</p>
 <empty-line/>
-<subtitle>1/6: 201 DDial...</subtitle>
+<section id="toc_sub_000268"><title><p>1/6: 201 DDial...</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Taran King 1 <strong>Дата:</strong> 9:17 вечера, воскресенье, 26 апреля 1987 г.</p>
 <empty-line/>
@@ -3544,7 +3810,8 @@
 <empty-line/>
 <p>-TK</p>
 <empty-line/>
-<subtitle>2/6: Снова здесь.</subtitle>
+</section>
+<section id="toc_sub_000269"><title><p>2/6: Снова здесь.</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> High Evolutionary 28 <strong>Дата:</strong> 1:08 ночи, четверг, 30 апреля 1987 г.</p>
 <empty-line/>
@@ -3554,7 +3821,8 @@
 <empty-line/>
 <p>-High Evolutionary -Tok</p>
 <empty-line/>
-<subtitle>3/6: Привет, High</subtitle>
+</section>
+<section id="toc_sub_000270"><title><p>3/6: Привет, High</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 7:06 вечера, четверг, 30 апреля 1987 г.</p>
 <empty-line/>
@@ -3562,7 +3830,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>4/6: Ах вот как...</subtitle>
+</section>
+<section id="toc_sub_000271"><title><p>4/6: Ах вот как...</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> High Evolutionary 28 <strong>Дата:</strong> 11:58 вечера, пятница, 1 мая 1987 г.</p>
 <empty-line/>
@@ -3570,7 +3839,8 @@
 <empty-line/>
 <p>Evolutionary</p>
 <empty-line/>
-<subtitle>5/6: Войны?</subtitle>
+</section>
+<section id="toc_sub_000272"><title><p>5/6: Войны?</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Knight Lightning 2 <strong>Дата:</strong> 10:20 утра, суббота, 2 мая 1987 г.</p>
 <empty-line/>
@@ -3580,7 +3850,8 @@
 <empty-line/>
 <p>:Knight Lightning</p>
 <empty-line/>
-<subtitle>6/6: Входы</subtitle>
+</section>
+<section id="toc_sub_000273"><title><p>6/6: Входы</p></title>
 <empty-line/>
 <p><strong>Имя:</strong> Taran King 1 <strong>Дата:</strong> 10:29 утра, суббота, 2 мая 1987 г.</p>
 <empty-line/>
@@ -3591,6 +3862,7 @@
 <p><emphasis>Опубликовать в Royal Court? Нет</emphasis></p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_010_metal_shop_royal_court_0084_d8c139c67a.png"/>
+</section>
 </section>
 <section id="sec_issue_020_011_acronyms">
 <title><p>Словарь аббревиатур Metal Shop Private</p></title>
@@ -3633,7 +3905,7 @@
 <empty-line/>
 <cite><p><strong>Примечание:</strong> Все описанные в этой статье события основаны на личных наблюдениях Knight Lightning (то есть меня).</p></cite>
 <empty-line/>
-<subtitle>PreCon '88: Немного предыстории</subtitle>
+<section id="toc_sub_000274"><title><p>PreCon '88: Немного предыстории</p></title>
 <empty-line/>
 <p>Когда Taran King и я ушли учиться в колледж, Sir Francis Drake взял на себя управление Phrack Inc. и PWN. Taran передал ему же права на SummerCon, хотя на самом деле у него не было права этим распоряжаться. Как бы то ни было, SFD планировал провести SummerCon '88 в Нью-Йорке — возможно, рассчитывая на помощь Bill'а из RNOC или Tuc'а, поскольку сам жил на западном побережье. Рекламных анонсов было немало — и в журнале 2600, и в WORM (бумажном журнале для «киберпанков», который писал и распространял сам Sir Francis Drake). Однако в конце концов стало совершенно ясно, что SummerCon '88 в Нью-Йорке состоится, только не силами SFD.</p>
 <empty-line/>
@@ -3645,7 +3917,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_012_summercon_88_pwn_0041_3c4a75d755.png"/>
 <empty-line/>
-<subtitle>SummerCon '88: Не совсем по плану... (пятница, утро, 22 июля 1988)</subtitle>
+</section>
+<section id="toc_sub_000275"><title><p>SummerCon '88: Не совсем по плану... (пятница, утро, 22 июля 1988)</p></title>
 <empty-line/>
 <p>Как ни странно, первым гостем из других городов снова оказался Tuc. Taran King, Forest Ranger и я приехали в аэропорт его встречать, и после небольшой суеты в Lambert Field мы пообедали и отправились в официальную гостиницу SummerCon этого года — Ramada Inn Westport.</p>
 <empty-line/>
@@ -3659,7 +3932,8 @@
 <empty-line/>
 <p>Минут через двадцать я спустился в холл и застал там Lucifer 666 и Synthetic Slug, оформлявших заселение. В пяти шагах за ними стояла ещё одна грозная троица: Crimson Death 618, Phrozen Ghost и Surfer Bob. PG и SB гостили у Crimson Death'а ещё до конвенции и все прибыли одновременно. Lucifer 666 и Synthetic Slug взяли отдельный номер, а остальные расположились в комнате Phrack Inc.</p>
 <empty-line/>
-<subtitle>SummerCon '88: Снова в Lambert (пятница, день, 22 июля 1988)</subtitle>
+</section>
+<section id="toc_sub_000276"><title><p>SummerCon '88: Снова в Lambert (пятница, день, 22 июля 1988)</p></title>
 <empty-line/>
 <p>Нам с Taran'ом, Tuc'ом и Forest Ranger'ом пора было снова ехать в аэропорт. Мы прибыли как раз вовремя, чтобы встретить The Mentor'а и Cisban Evil Priest'а. Узнать их было несложно: единственные на борту без галстуков и без детей.</p>
 <empty-line/>
@@ -3673,7 +3947,8 @@
 <empty-line/>
 <p>The Mentor с Cisban Evil Priest'ом и Control C с Bad Subscript'ом заселились в свои номера — и SummerCon '88 по-настоящему начался.</p>
 <empty-line/>
-<subtitle>SummerCon '88: Гулять так гулять (пятница, вечер, 22 июля 1988)</subtitle>
+</section>
+<section id="toc_sub_000277"><title><p>SummerCon '88: Гулять так гулять (пятница, вечер, 22 июля 1988)</p></title>
 <empty-line/>
 <p>Дальше началась большая вечеринка: старые фрикеры знакомились с новыми, кто-то встречался снова. Control C привёз подарки — плакаты из Michigan Bell.</p>
 <empty-line/>
@@ -3695,7 +3970,8 @@
 <empty-line/>
 <p>Под конец вечера появились The Leftist и The Ur-Vile из Атланты, Джорджия. Этот приезд примечателен вот чем: если не считать самых первых минут после заселения, The Ur-Vile проспал весь оставшийся SummerCon '88 от начала до конца.</p>
 <empty-line/>
-<subtitle>SummerCon '88: И что теперь? (суббота, 23 июля 1988)</subtitle>
+</section>
+<section id="toc_sub_000278"><title><p>SummerCon '88: И что теперь? (суббота, 23 июля 1988)</p></title>
 <empty-line/>
 <p>Почти все отправились на Union Station — роскошный торговый молл в центре Сент-Луиса. Мы с Taran'ом, однако, успели вернуться в гостиницу как раз вовремя, чтобы встретить последних гостей выходных — Phantom Phreaker'а и Doom Prophet'а.</p>
 <empty-line/>
@@ -3721,7 +3997,8 @@
 <empty-line/>
 <p>После этого инцидента я сдал ключи от номеров, вышел из гостиницы через запасную лестницу, сел в машину и подъехал к главному входу, где стояли оба офицера. Я спокойно пару раз нажал на клаксон и, не включая фары (чтобы не светить номерами), показал им «птицу». После чего удалился с заметным ускорением.</p>
 <empty-line/>
-<subtitle>SummerCon '88: Всему хорошему приходит конец (воскресенье, 24 июля 1988)</subtitle>
+</section>
+<section id="toc_sub_000279"><title><p>SummerCon '88: Всему хорошему приходит конец (воскресенье, 24 июля 1988)</p></title>
 <empty-line/>
 <p>Когда я вернулся утром в воскресенье, Terminal Technocrat с приятелем уже давно уехали — как и Dr. Cypher, Hatchet Molly и Mike. Оставшиеся ещё немного потусовались, пока собирали вещи и прощались. The Leftist, The Ur-Vile, Lucifer 666 и Synthetic Slug уехали первыми, а я тем временем повёз Tuc'а, Control C и Bad Subscript'а в аэропорт, нарушив по дороге пять скоростных ограничений, чтобы они успели на перенесённые рейсы.</p>
 <empty-line/>
@@ -3731,7 +4008,8 @@
 <empty-line/>
 <p>Вот таким был SummerCon '88 ...</p>
 <empty-line/>
-<subtitle>PostCon '88: Кое-что напоследок</subtitle>
+</section>
+<section id="toc_sub_000280"><title><p>PostCon '88: Кое-что напоследок</p></title>
 <empty-line/>
 <p>Плакаты SummerCon '88 изготовил Knight Lightning; на них были изображены AT&amp;T, MCI, U.S. Sprint и карточка FON, Southwestern Bell, схемы ISDN, Pink Floyd, Domino's Pizza и масса других интересных вещей — в том числе Oryan QUEST!</p>
 <empty-line/>
@@ -3760,7 +4038,8 @@
 <p>• Кто-нибудь видел табличку «Лучший сотрудник 1981 года»?</p>
 <p>• Тот, кто её взял, явно был совсем не в себе (out of CONTROL).</p>
 <empty-line/>
-<subtitle>Список гостей SummerCon '88</subtitle>
+</section>
+<section id="toc_sub_000281"><title><p>Список гостей SummerCon '88</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_012_summercon_88_pwn_0229_176611a4d7.png"/>
 <empty-line/>
@@ -3777,6 +4056,7 @@
 <image l:href="#img__code_blocks_issue_020_012_summercon_88_pwn_0251_83d21091c7.png"/>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_020_012_summercon_88_pwn_0269_cd43327273.png"/>
+</section>
 </section>
 </section>
 </body>

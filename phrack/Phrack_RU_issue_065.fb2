@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0"
-             xmlns:l="http://www.w3.org/1999/xlink">
+<?xml version='1.0' encoding='UTF-8'?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
 <description>
   <title-info>
     <genre>computers</genre>
@@ -11,7 +10,7 @@
       <p>Русская Markdown-версия Phrack, выпуск 065. Служебные строки выпуск/файл удалены, fenced-блоки и таблицы вставлены картинками.</p>
       <p>Больше крутых материалов в моём телеграм канале <a l:href="https://t.me/grogrigs">@grogrigs</a></p>
       <p>Темы выпуска: Unix/Linux, BSD, Windows NT и администрирование систем; культура Phrack, новости сцены, loopback, prophile и хакерские манифесты; эксплуатация уязвимостей, shellcode, rootkits и низкоуровневая безопасность; сети, маршрутизация, TCP/IP, Cisco, телефония и телеком-инфраструктура.</p>
-      <p>Материалы выпуска: Введение; Профиль Phrack: The UNIX Terrorist; Профиль Phrack: The UNIX Terrorist; Phrack World News; Скрытный перехват: ещё один способ подрыва ядра Windows; Пробивание дыр в NAT с помощью UPnP; Единственные законы в Интернете — это ассемблер и RFC; Взлом System Management Mode: использование SMM в &quot;других целях&quot;; Запутывание отладчика: абсолютная скрытность; Австралийские ограниченные оборонные сети и FISSO; phook — перехватчик через PEB; Взлом $49-долларового Wifi-искателя; Искусство эксплуатации: технический анализ переполнения стека WINS в Samba (CVE-2007-5398); Миф об андерграунде; Искусственное сознание; Международные сцены.</p>
+      <p>Материалы выпуска: Введение; Профиль Phrack: The UNIX Terrorist; Профиль Phrack: The UNIX Terrorist; Phrack World News; Скрытный перехват: ещё один способ подрыва ядра Windows; Пробивание дыр в NAT с помощью UPnP; Единственные законы в Интернете — это ассемблер и RFC; Взлом System Management Mode: использование SMM в "других целях"; Запутывание отладчика: абсолютная скрытность; Австралийские ограниченные оборонные сети и FISSO; phook — перехватчик через PEB; Взлом $49-долларового Wifi-искателя; Искусство эксплуатации: технический анализ переполнения стека WINS в Samba (CVE-2007-5398); Миф об андерграунде; Искусственное сознание; Международные сцены.</p>
     </annotation>
   </title-info>
   <document-info>
@@ -68,7 +67,7 @@
 <empty-line/>
 <p>Мы сохранили наши постоянные рубрики Phrack World News и International Scenes. Мы также решили публиковать меньше эксплойт-статей. Тем не менее хакерам низкого уровня будет несложно найти своё место в этом новом выпуске.</p>
 <empty-line/>
-<subtitle>Содержание выпуска</subtitle>
+<section id="toc_sub_000001"><title><p>Содержание выпуска</p></title>
 <empty-line/>
 <p>В этом выпуске мы представляем следующее:</p>
 <empty-line/>
@@ -84,7 +83,8 @@
 <empty-line/>
 <p>Наконец, мы не могли выпустить Phrack хотя бы без одной статьи об эксплуатации. Max Packetz пошагово описал свой эксплойт Samba WINS. Информации, содержащейся здесь, вполне хватит тем, кто хочет разработать собственный эксплойт.</p>
 <empty-line/>
-<subtitle>Scene Shoutz</subtitle>
+</section>
+<section id="toc_sub_000002"><title><p>Scene Shoutz</p></title>
 <empty-line/>
 <p>Phrack #65 снова не состоялся бы без множества людей. Спасибо администраторам, кодерам, хакерам, скриптерам.</p>
 <empty-line/>
@@ -92,7 +92,8 @@
 <empty-line/>
 <p>Без приветов: все так называемые «люди из андеграунда», которые миллион раз спрашивали нас, когда выйдет Phrack, но так и не внесли никакого вклада в журнал. Если бы вы были чуть продуктивнее, Phrack, возможно, выходил бы чаще. Также мы _не будем_ помогать бедным индонезийцам обходить правительственные фильтры p0rn-сайтов. Извини, taufiks1428@gmail.com.</p>
 <empty-line/>
-<subtitle>Lames</subtitle>
+</section>
+<section id="toc_sub_000003"><title><p>Lames</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_001_introduction_0107_57012fe986.png"/>
 <empty-line/>
@@ -106,7 +107,8 @@
 <empty-line/>
 <p>Полное или частичное воспроизведение материалов допускается только с предварительного письменного разрешения редакции. Phrack Magazine распространяется среди широкой публики бесплатно, настолько часто, насколько это возможно.</p>
 <empty-line/>
-<subtitle>Контакты Phrack Magazine</subtitle>
+</section>
+<section id="toc_sub_000004"><title><p>Контакты Phrack Magazine</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_001_introduction_0132_b332ae2c71.png"/>
 <empty-line/>
@@ -114,7 +116,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_001_introduction_0146_8b3716fda8.png"/>
 <empty-line/>
-<subtitle>Отказ от ответственности</subtitle>
+</section>
+<section id="toc_sub_000005"><title><p>Отказ от ответственности</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_001_introduction_0200_ac409666b5.png"/>
 <empty-line/>
@@ -126,6 +129,7 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_001_introduction_0232_c4d7988ad3.png"/>
 </section>
+</section>
 <section id="sec_issue_065_002_phrack_prophile_the_unix_terrorist">
 <title><p>Профиль Phrack: The UNIX Terrorist</p></title>
 <p><strong>Авторы редакции:</strong> The Paper Street Hacker (ноябрь 2007)</p>
@@ -134,95 +138,113 @@
 <empty-line/>
 <p>Это интервью было записано The Paper Street Hacker в ноябре 2007 года для публикации в Phrack #65 редакцией TCLH. Мнения, отражённые в нём, принадлежат только UNIX Terrorist и не выражают позицию редакции Phrack.</p>
 <empty-line/>
-<subtitle>Данные</subtitle>
+<section id="toc_sub_000006"><title><p>Данные</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_002_phrack_prophile_the_unix_terrorist_0015_c63054a2eb.png"/>
 <empty-line/>
-<subtitle>Любимое</subtitle>
+</section>
+<section id="toc_sub_000007"><title><p>Любимое</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_002_phrack_prophile_the_unix_terrorist_0045_b7ad04c1bc.png"/>
 <empty-line/>
-<subtitle>Ваша нынешняя жизнь в одном абзаце</subtitle>
+</section>
+<section id="toc_sub_000008"><title><p>Ваша нынешняя жизнь в одном абзаце</p></title>
 <empty-line/>
 <p>Дам подсказку... она не предполагает получения денег за исследования в области компьютерной безопасности. Единственная причина, по которой я вообще стал бы использовать компьютер — встречать женщин с нестрогой моралью в MySpace или заниматься массовым пиратством музыки и видеоконтента, предпочтительно жестокого порно. Или получать маршруты до стриптиз-клуба на MapQuest... или заказывать различные вещества из коррумпированных восточноевропейских фармацевтических производств... Если вы читаете мой профиль потому, что всё ещё читаете Phrack в 2008 году, мне вас жаль... вы зашоренный гомосексуалист.</p>
 <empty-line/>
-<subtitle>Первый контакт с компьютерами</subtitle>
+</section>
+<section id="toc_sub_000009"><title><p>Первый контакт с компьютерами</p></title>
 <empty-line/>
 <p>Изучение тайн gorillas.bas и nibbles.bas, по-старинке!</p>
 <empty-line/>
-<subtitle>Юность</subtitle>
+</section>
+<section id="toc_sub_000010"><title><p>Юность</p></title>
 <empty-line/>
 <p>Я весил 300 фунтов, носил очки и страдал от угрей. Я читал Dr. Dobb's Journal на уроках физкультуры. Все меня ненавидели. Потом я провёл себе экстренную неропластику и решил отомстить миру, нанося огромные словесные травмы через среду, где личное взаимодействие невозможно и каждый чувствует себя круче, чем есть на самом деле. Я установил BitchX, зашёл на EFNET — и остальное, друг мой, история.</p>
 <empty-line/>
-<subtitle>Страсти: Что вас заводит</subtitle>
+</section>
+<section id="toc_sub_000011"><title><p>Страсти: Что вас заводит</p></title>
 <empty-line/>
 <p>Меня отличает остро выраженное и несравненное чувство злорадства. Технологии тоже довольно занятны (или по крайней мере были какое-то время), но меня по-настоящему гнала вперёд волнующая возможность использовать компьютеры, чтобы превратить жизнь конкретного человека в живой ад. Особое удовольствие доставляет дискредитация, унижение или иное порочение и клеветание на незаслуженные репутации различных шарлатанов и лицемеров сцены. Публиковать чужие почтовые спулы, архивировать диски ламеров и rm'ить слабаков — всё это я нахожу вдохновляющим.</p>
 <empty-line/>
-<subtitle>Вход в андерграунд</subtitle>
+</section>
+<section id="toc_sub_000012"><title><p>Вход в андерграунд</p></title>
 <empty-line/>
 <p>Всё началось на EFNET примерно в 1998 году в таких жалких каналах как #b4b0 и #feed-the-goats. Историческое замечание: несколько невероятно диаболических и мотивированных индивидуумов из b4b0 следующее десятилетие будут управлять практически всем Интернетом железной рукой. Я начал взламывать всё практически исключительно в TCP/IP-сетях и начал писать эксплойты намного позже публикации таких техник как heap overflows и return-into-libc.</p>
 <empty-line/>
-<subtitle>Какие исследования вы проводили или какие принесли наибольшее удовольствие?</subtitle>
+</section>
+<section id="toc_sub_000013"><title><p>Какие исследования вы проводили или какие принесли наибольшее удовольствие?</p></title>
 <empty-line/>
 <p>Написание нескольких надёжных эксплойтов для интеллектуального перебора сложных удалённых уязвимостей — всё это ощущалось как хакерство из МАТРИЦЫ. Особенно написание универсального слепого эксплойта для уязвимости глоббинга Wu-FTPD для версий 2.5.x-2.6.1, а также портирование клиента для CRC32-бэкдора CORE-SDI на более экзотические операционные системы — Solaris и IRIX.</p>
 <empty-line/>
-<subtitle>Общее личное мнение об андерграунде</subtitle>
+</section>
+<section id="toc_sub_000014"><title><p>Общее личное мнение об андерграунде</p></title>
 <empty-line/>
-<p>Андерграунд в основном мёртв, но за это стоит в основном поблагодарить исследователей безопасности. Однако, как ироничное доказательство поговорки &quot;будь осторожен с желаниями&quot;, специалисты по безопасности сами обесценили свой спрос. С уязвимостями, которые стало намного сложнее находить, случайные идиоты не могут найти ничего полезного с помощью grep. Первый признак грядущего иссякания появился во время бума форматных ошибок в 2000 году... Теперь 0day стало высоко ценимым товаром.</p>
+<p>Андерграунд в основном мёртв, но за это стоит в основном поблагодарить исследователей безопасности. Однако, как ироничное доказательство поговорки "будь осторожен с желаниями", специалисты по безопасности сами обесценили свой спрос. С уязвимостями, которые стало намного сложнее находить, случайные идиоты не могут найти ничего полезного с помощью grep. Первый признак грядущего иссякания появился во время бума форматных ошибок в 2000 году... Теперь 0day стало высоко ценимым товаром.</p>
 <empty-line/>
-<subtitle>Памятные события</subtitle>
+</section>
+<section id="toc_sub_000015"><title><p>Памятные события</p></title>
 <empty-line/>
 <p>• Первый взломанный сервер</p>
 <p>• Широкая паника на IRC и в рассылках после публикации ~el8, особенно #2 и #3</p>
 <p>• PHC Music &amp; Film Festival, примечательный тем, что Joost Pol сделал rm freebsd.cn</p>
-<p>• Многосетевая атака/rm'инг IRC-оператора EFNET &quot;seiki&quot;</p>
-<p>• Подготовка запоминающейся язвительной речи &quot;Wolves Among Us&quot; за 30 минут</p>
+<p>• Многосетевая атака/rm'инг IRC-оператора EFNET "seiki"</p>
+<p>• Подготовка запоминающейся язвительной речи "Wolves Among Us" за 30 минут</p>
 <p>• Стать Фредди Крюгером Интернета/IRC</p>
 <empty-line/>
-<subtitle>Памятные встречи</subtitle>
+</section>
+<section id="toc_sub_000016"><title><p>Памятные встречи</p></title>
 <empty-line/>
 <p>• The Blue Boar на первом круглом столе по этике PHC</p>
 <p>• The Rain Forest Puppy (звучит как мягкая игрушка из Mattel, одевается в сверкающую одежду рейвера)</p>
-<p>• Captain Crunch (нет, спасибо, не хочу, чтобы ты открывал мои чакры &quot;энергетическим массажем&quot;)</p>
+<p>• Captain Crunch (нет, спасибо, не хочу, чтобы ты открывал мои чакры "энергетическим массажем")</p>
 <empty-line/>
-<subtitle>Вещи, которыми вы гордитесь</subtitle>
+</section>
+<section id="toc_sub_000017"><title><p>Вещи, которыми вы гордитесь</p></title>
 <empty-line/>
 <p>• Закрытие Captains of Crush #2 (несколько раз, с изяществом)</p>
-<p>• Авторство нескольких крылатых фраз, оформивших дух blackhat-движения начала XXI века, включая &quot;w00w00 is p00p00&quot;</p>
-<p>• Стать первым &quot;хакером (ростом выше 5 футов) на стероидах&quot;</p>
+<p>• Авторство нескольких крылатых фраз, оформивших дух blackhat-движения начала XXI века, включая "w00w00 is p00p00"</p>
+<p>• Стать первым "хакером (ростом выше 5 футов) на стероидах"</p>
 <p>• Прочтение последних 5 выпусков Phrack без усвоения чего-либо нового</p>
 <empty-line/>
-<subtitle>Мнение о хакерских конференциях</subtitle>
+</section>
+<section id="toc_sub_000018"><title><p>Мнение о хакерских конференциях</p></title>
 <empty-line/>
 <p>Есть любое количество ошибочных причин для посещения/выступления на конференциях по безопасности. Если вы ищете признания или публичности — вам, вероятно, лучше покончить с собой на YouTube. Если вы ищете отталкивающих подруг или друзей-неудачников — сэкономьте на авиабилетах и сначала проверьте местный Craigslist.</p>
 <empty-line/>
-<subtitle>Мнение о Phrack Magazine: 1985? 1995? 2005? 2007?</subtitle>
+</section>
+<section id="toc_sub_000019"><title><p>Мнение о Phrack Magazine: 1985? 1995? 2005? 2007?</p></title>
 <empty-line/>
-<p>Я всегда думал, что этот журнал отстой, но если говорить конкретно — он, вероятно, становился всё хуже. Хорошо, редакция хочет от меня чего-то позитивного, поэтому — лучший вариант: &quot;PHRACK MAGAZINE — Эй, по крайней мере это не 2600!&quot;</p>
+<p>Я всегда думал, что этот журнал отстой, но если говорить конкретно — он, вероятно, становился всё хуже. Хорошо, редакция хочет от меня чего-то позитивного, поэтому — лучший вариант: "PHRACK MAGAZINE — Эй, по крайней мере это не 2600!"</p>
 <empty-line/>
-<subtitle>Что вы хотели бы видеть опубликованным в Phrack?</subtitle>
+</section>
+<section id="toc_sub_000020"><title><p>Что вы хотели бы видеть опубликованным в Phrack?</p></title>
 <empty-line/>
 <p>Статья о телефонах! (Не VoIP!) Определённо больше почтовых спулов... обновлённый акцент на самодельных взрывных устройствах... может, даже учебники по наркоторговле для новичков.</p>
 <empty-line/>
-<subtitle>Приветствия</subtitle>
+</section>
+<section id="toc_sub_000021"><title><p>Приветствия</p></title>
 <empty-line/>
 <p>Doing (R.I.P.), tr4shc4n m4n, krad, odaymaztr, Funny Bunny, module of rhino9, g4yh1tl3r, drater, crazy Turk, Rocky the virgin hacker Jesus, zilvio, все мои исландские друзья, sk8...</p>
 <empty-line/>
-<subtitle>Цитаты</subtitle>
+</section>
+<section id="toc_sub_000022"><title><p>Цитаты</p></title>
 <empty-line/>
-<cite><p>&quot;WTF SAID I WAS A TRADER?&quot; — The Warez Dude</p></cite>
-<cite><p>&quot;eye dont wipe logz&quot; — Kareless KaRL</p></cite>
-<cite><p>&quot;I'm proud to say I have committed every sin in the Decalogue.&quot; — сэр Ричард Бёртон</p></cite>
-<cite><p>&quot;With a gun barrel between your teeth, you speak only in vowels.&quot; — Fight Club</p></cite>
-<cite><p>&quot;i did it 4 the lulz&quot; — ANONYMOUS</p></cite>
-<cite><p>&quot;we dish out rm's like petri&quot; — the_uT</p></cite>
-<cite><p>&quot;Behold I am become death, the destroyer of worlds&quot; — Роберт Оппенгеймер</p></cite>
+<cite><p>"WTF SAID I WAS A TRADER?" — The Warez Dude</p></cite>
+<cite><p>"eye dont wipe logz" — Kareless KaRL</p></cite>
+<cite><p>"I'm proud to say I have committed every sin in the Decalogue." — сэр Ричард Бёртон</p></cite>
+<cite><p>"With a gun barrel between your teeth, you speak only in vowels." — Fight Club</p></cite>
+<cite><p>"i did it 4 the lulz" — ANONYMOUS</p></cite>
+<cite><p>"we dish out rm's like petri" — the_uT</p></cite>
+<cite><p>"Behold I am become death, the destroyer of worlds" — Роберт Оппенгеймер</p></cite>
 <empty-line/>
-<subtitle>Напоследок</subtitle>
+</section>
+<section id="toc_sub_000023"><title><p>Напоследок</p></title>
 <empty-line/>
 <p>Оглядываясь назад на своё участие в компьютерах, я очень рад, что пик моей активности пришёлся именно на рубеж XX-XXI веков. Хакинг уже не был простым ручным трудом (wardial'инг и т.п.), но поиск уязвимостей и написание эксплойтов не были ещё такими утомительными и трудоёмкими, как сейчас. Если вы молодой человек, читающий этот журнал впервые в надежде стать хакером — забудьте об этом. Лучше начните коллекционировать взломанные пароли от платных сайтов для взрослых или зависайте на 4chan.</p>
 <empty-line/>
 <p>Спокойной ночи и удачи, — UNIX TERRORIST</p>
+</section>
 </section>
 <section id="sec_issue_065_002_phrack_prophile_unix_terrorist">
 <title><p>Профиль Phrack: The UNIX Terrorist</p></title>
@@ -234,102 +256,121 @@
 <empty-line/>
 <p><emphasis>Мнения, высказанные в этом интервью, принадлежат только UNIX Terrorist и не отражают позиции редакции Phrack.</emphasis></p>
 <empty-line/>
-<subtitle>Спецификации</subtitle>
+<section id="toc_sub_000024"><title><p>Спецификации</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_002_phrack_prophile_unix_terrorist_0017_d70e65caf5.png"/>
 <empty-line/>
-<subtitle>Любимое</subtitle>
+</section>
+<section id="toc_sub_000025"><title><p>Любимое</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_002_phrack_prophile_unix_terrorist_0049_f0ecbea80f.png"/>
 <empty-line/>
-<subtitle>Ваша нынешняя жизнь в одном абзаце</subtitle>
+</section>
+<section id="toc_sub_000026"><title><p>Ваша нынешняя жизнь в одном абзаце</p></title>
 <empty-line/>
 <p>Дам подсказку... она не связана с получением денег за исследования в области компьютерной безопасности. Единственная причина, по которой я вообще рассматривал бы использование компьютера, — это знакомство с девушками с низкими моральными стандартами в MySpace или массовое пиратство музыки и видео, желательно жестокой порнографии. Или поиск маршрута до стрип-клуба на Mapquest... Если вы читаете мой профиль, потому что вы всё ещё читаете Phrack в 2008-м и наткнулись на него, то мне вас жаль... вы чёртов латентный гомосексуал.</p>
 <empty-line/>
-<subtitle>Первый контакт с компьютером</subtitle>
+</section>
+<section id="toc_sub_000027"><title><p>Первый контакт с компьютером</p></title>
 <empty-line/>
 <p>Изучение тайн gorillas.bas и nibbles.bas — old school!</p>
 <empty-line/>
-<subtitle>Юность</subtitle>
+</section>
+<section id="toc_sub_000028"><title><p>Юность</p></title>
 <empty-line/>
 <p>Я весил 136 кг, носил очки и страдал от прыщей. Читал Dr. Dobb's Journal на физкультуре. Все меня ненавидели. Потом я решил отомстить миру, нанося массивную словесную травму через среду, где личное взаимодействие невозможно. Установил BitchX, залез на EFNET — и дальше история.</p>
 <empty-line/>
-<subtitle>Увлечения: что вас заводит</subtitle>
+</section>
+<section id="toc_sub_000029"><title><p>Увлечения: что вас заводит</p></title>
 <empty-line/>
 <p>Меня отличает остро развитое и не имеющее аналогов чувство злорадства. Технологии довольно интересны, но что по-настоящему двигало меня дальше — это захватывающая возможность использовать компьютеры, чтобы превратить жизнь конкретного человека в ад. Дискредитировать или унижать самозванцев и лицемеров в сцене — вот что я нахожу вдохновляющим.</p>
 <empty-line/>
-<subtitle>Вхождение в андерграунд</subtitle>
+</section>
+<section id="toc_sub_000030"><title><p>Вхождение в андерграунд</p></title>
 <empty-line/>
 <p>Всё началось на EFNET примерно в 1998-м в таких унылых каналах, как #b4b0 и #feed-the-goats. Я начал хакать вещи почти исключительно в TCP/IP-сетях и писать эксплойты уже после того, как heap overflow и return-into-libc были опубликованы. Так что не надо рассказывать мне, что я никогда не сканировал toneloc или брутфорсил SPRINTNET.</p>
 <empty-line/>
-<subtitle>Какое исследование доставило вам наибольшее удовольствие?</subtitle>
+</section>
+<section id="toc_sub_000031"><title><p>Какое исследование доставило вам наибольшее удовольствие?</p></title>
 <empty-line/>
 <p>Написание надёжных эксплойтов для сложных удалённых уязвимостей. Особенно — универсальный слепой эксплойт для Wu-FTPD globbing vuln для версий 2.5.x-2.6.1, и портирование удалённого клиента для backdoor CORE-SDI crc32 deattack на Solaris и IRIX (возможно, самый медленный эксплойт в мире). А также написание LKM для динамически загружаемой защиты стека/кучи от исполнения.</p>
 <empty-line/>
-<subtitle>Личное мнение об андерграунде</subtitle>
+</section>
+<section id="toc_sub_000032"><title><p>Личное мнение об андерграунде</p></title>
 <empty-line/>
 <p>Андерграунд практически мёртв, и в основном за это надо благодарить исследователей безопасности. Уязвимости стали намного труднее находить, 0day превратился в высокоценный товар. Четыре фактора:</p>
 <empty-line/>
 <p>1. 0day намного дороже</p>
 <p>2. Мало кто может найти реально полезные уязвимости — обмен сократился</p>
-<p>3. &quot;Когда оружие вне закона — только нарушители закона имеют оружие&quot;</p>
+<p>3. "Когда оружие вне закона — только нарушители закона имеют оружие"</p>
 <p>4. Аукционы 0day: чернохаты осознали, что продавать информацию теневым структурам намного выгоднее</p>
 <empty-line/>
-<p>Сейчас говорят, что китайцы и даже женщины хакают вещи. Хорошо, что я успел застать &quot;сцену&quot; до её полного вырождения.</p>
+<p>Сейчас говорят, что китайцы и даже женщины хакают вещи. Хорошо, что я успел застать "сцену" до её полного вырождения.</p>
 <empty-line/>
-<subtitle>Памятные события</subtitle>
+</section>
+<section id="toc_sub_000033"><title><p>Памятные события</p></title>
 <empty-line/>
 <p>• Первый взломанный сервер (dropstat'd)</p>
 <p>• Паника в IRC и почтовых списках после выхода ~el8, особенно #2 и #3</p>
 <p>• PHC Music &amp; Film Festival, в частности Joost Pol rms freebsd.cn</p>
-<p>• Многосетевая атака/удаление efnet IRC-оператора &quot;seiki&quot;</p>
-<p>• Подготовка речи &quot;Wolves Among Us&quot; за 30 минут</p>
-<p>• Успешная социальная инженерия хакера &quot;dvdman&quot;</p>
+<p>• Многосетевая атака/удаление efnet IRC-оператора "seiki"</p>
+<p>• Подготовка речи "Wolves Among Us" за 30 минут</p>
+<p>• Успешная социальная инженерия хакера "dvdman"</p>
 <p>• Публикация профилей iDEFENSE с их смехотворно низкими ценами продажи</p>
 <empty-line/>
-<subtitle>Памятные встречи</subtitle>
+</section>
+<section id="toc_sub_000034"><title><p>Памятные встречи</p></title>
 <empty-line/>
 <p>The Blue Boar, The Rain Forest Puppy, Captain Crunch, Ofir Arkin, Honey Dew Moore, Shok, некоторые настоящие хакеры (члены MoD) на HOPE, The Death Vegetable, Packet Fairy</p>
 <empty-line/>
-<subtitle>Как начался PR0J3KT M4YH3M?</subtitle>
+</section>
+<section id="toc_sub_000035"><title><p>Как начался PR0J3KT M4YH3M?</p></title>
 <empty-line/>
 <p>Идея не совсем оригинальна. Ранний исторический предшественник — Герострат, поджёгший Храм Артемиды в Эфесе. Главное вдохновение — ~el8, вероятно, величайшая революционная блэкхат-публикация всех времён. А по-настоящему запустил PR0J3KT M4YH3M провал anti.security.is как формального движения против раскрытия информации.</p>
 <empty-line/>
 <p>В итоге PR0J3KT M4YH3M имел впечатляющий результат: взломы таких персон, как Theo de Raadt, Kevin Mitnick и Marty Roesch; захват IRC-серверов; слив известных хакерских журналов; бэкдоринг кода вайтхатов.</p>
 <empty-line/>
-<subtitle>Чем вы гордитесь</subtitle>
+</section>
+<section id="toc_sub_000036"><title><p>Чем вы гордитесь</p></title>
 <empty-line/>
 <p>• Закрытие Captain of Crush #2 (несколько раз, с изяществом)</p>
-<p>• Создание фраз, определивших дух чернохатного движения начала XXI века, включая &quot;w00w00 is p00p00&quot;</p>
-<p>• Первый &quot;хакер (выше 152 см) на стероидах&quot;</p>
+<p>• Создание фраз, определивших дух чернохатного движения начала XXI века, включая "w00w00 is p00p00"</p>
+<p>• Первый "хакер (выше 152 см) на стероидах"</p>
 <p>• Чтение последних 5 выпусков Phrack, не узнав ничего нового</p>
-<p>• Автор эксплойта, включённого в книгу O'Reilly &quot;Network Security Assessment&quot; после того, как Chris McNab удалил комментарии/заголовки и подал его как свой</p>
+<p>• Автор эксплойта, включённого в книгу O'Reilly "Network Security Assessment" после того, как Chris McNab удалил комментарии/заголовки и подал его как свой</p>
 <empty-line/>
-<subtitle>Мнение о хакерских конференциях</subtitle>
+</section>
+<section id="toc_sub_000037"><title><p>Мнение о хакерских конференциях</p></title>
 <empty-line/>
-<p>Бессчётное количество неправильных причин для посещения/выступления. Если вы ищете признания — лучше покончить с собой на YouTube. Доказательство в пудинге: 10 лет назад было немыслимо, что &quot;конференции по безопасности&quot; будут проходить в странах третьего мира вроде Мексики, Малайзии и Пакистана.</p>
+<p>Бессчётное количество неправильных причин для посещения/выступления. Если вы ищете признания — лучше покончить с собой на YouTube. Доказательство в пудинге: 10 лет назад было немыслимо, что "конференции по безопасности" будут проходить в странах третьего мира вроде Мексики, Малайзии и Пакистана.</p>
 <empty-line/>
-<subtitle>Мнение о Phrack Magazine</subtitle>
+</section>
+<section id="toc_sub_000038"><title><p>Мнение о Phrack Magazine</p></title>
 <empty-line/>
-<p>Я всегда считал этот журнал дерьмом, но раз уж спросили: &quot;PHRACK MAGAZINE — Эй, по крайней мере это не 2600!&quot; Это, вероятно, будет худший выпуск из всех.</p>
+<p>Я всегда считал этот журнал дерьмом, но раз уж спросили: "PHRACK MAGAZINE — Эй, по крайней мере это не 2600!" Это, вероятно, будет худший выпуск из всех.</p>
 <empty-line/>
-<subtitle>Что вы хотели бы видеть в Phrack?</subtitle>
+</section>
+<section id="toc_sub_000039"><title><p>Что вы хотели бы видеть в Phrack?</p></title>
 <empty-line/>
 <p>Статья о телефонах! (Не VoIP!) Обязательно больше mail spools... возобновлённый фокус на самодельных самодельных взрывных устройствах... может, туториалы по наркоторговле для новичков.</p>
 <empty-line/>
-<subtitle>Приветы</subtitle>
+</section>
+<section id="toc_sub_000040"><title><p>Приветы</p></title>
 <empty-line/>
 <p>Doing (R.I.P.), tr4shc4n m4n, krad, odaymaztr, Funny Bunny, module of rhino9, g4yh1tl3r, drater, the crazy Turk, Rocky the virgin hacker Jesus, zilvio, all my Icelandic friends, Hans Reiser (все в IRC говорят об убийстве, но никто на самом деле не доводит его до конца)</p>
 <empty-line/>
-<subtitle>Огонь в адрес</subtitle>
+</section>
+<section id="toc_sub_000041"><title><p>Огонь в адрес</p></title>
 <empty-line/>
-<p>pm/gaius, hd moore и его ersatzsploit, Richard Johnson, The Condor, THE WAREZ D00D, Philip Emeagwali, Stefan Esser, Eric S. Raymond, Electronic Souls, Jose Nazario, Luigi Auriemma, Raven, Don &quot;Beetle&quot; Bailey, Ron Dufresne, Gadi Evron, lcamtuf, jeff moss, jericho, marcus ranum, lamo, markoff/shimomura/mitnick, theo, HACKER CRACKER</p>
+<p>pm/gaius, hd moore и его ersatzsploit, Richard Johnson, The Condor, THE WAREZ D00D, Philip Emeagwali, Stefan Esser, Eric S. Raymond, Electronic Souls, Jose Nazario, Luigi Auriemma, Raven, Don "Beetle" Bailey, Ron Dufresne, Gadi Evron, lcamtuf, jeff moss, jericho, marcus ranum, lamo, markoff/shimomura/mitnick, theo, HACKER CRACKER</p>
 <empty-line/>
-<subtitle>Цитаты</subtitle>
+</section>
+<section id="toc_sub_000042"><title><p>Цитаты</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_002_phrack_prophile_unix_terrorist_0200_eae102a480.png"/>
 <empty-line/>
-<subtitle>Напоследок</subtitle>
+</section>
+<section id="toc_sub_000043"><title><p>Напоследок</p></title>
 <empty-line/>
 <p>Оглядываясь на моё участие в компьютерах, я очень рад, что пик моей активности пришёлся на рубеж XX-XXI веков. Хакинг уже не был таким простым, как ручная работа (wardialig и т.п.), но поиск уязвимостей и написание эксплойтов ещё не были такими утомительными, как сейчас. Сказать, что я предпочёл бы сделать себе сеппуку, чем адаптироваться к поиску SQL-инъекций и клиентских браузерных эксплойтов — не преувеличение.</p>
 <empty-line/>
@@ -338,6 +379,7 @@
 <p>Спокойной ночи и удачи, — UNIX TERRORIST</p>
 <empty-line/>
 <p>|=[ EOF ]=|</p>
+</section>
 </section>
 <section id="sec_issue_065_003_phrack_world_news">
 <title><p>Phrack World News</p></title>
@@ -357,7 +399,7 @@
 <p>4. Роботы-убийцы</p>
 <p>5. Значимые IP-адреса</p>
 <empty-line/>
-<subtitle>1.</subtitle>
+<section id="toc_sub_000044"><title><p>1.</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_003_phrack_world_news_0028_534dcdd908.png"/>
 <empty-line/>
@@ -413,7 +455,8 @@
 <empty-line/>
 <p>http://packetstormsecurity.org/papers/attack/icd-study.pdf</p>
 <empty-line/>
-<subtitle>2. Как CSPP контролирует образовательную сеть США</subtitle>
+</section>
+<section id="toc_sub_000045"><title><p>2. Как CSPP контролирует образовательную сеть США</p></title>
 <empty-line/>
 <p><strong>автор: dahut</strong></p>
 <empty-line/>
@@ -448,7 +491,8 @@
 <empty-line/>
 <p>Многие родители жалуются на методы работы учреждений WWASPS. Эти методы признаются спорными: поступали сообщения о жестоком (в том числе сексуальном) насилии и пытках со стороны персонала. В 2004 году, давая показания, Кен Кей заявил, что, по его мнению, сексуальные контакты между сотрудниками и учениками «не обязательно являются насилием». Как объяснить, что Кен Кей контролирует всю компьютерную отрасль США и систему образования страны и при этом способен управлять целой галактикой учреждений, практикующих сексуальные злоупотребления во всей полноте этого слова? (Смотрите также http://antiwwasp.com/)</p>
 <empty-line/>
-<subtitle>3. Ретроспектива андеграундной сцены</subtitle>
+</section>
+<section id="toc_sub_000046"><title><p>3. Ретроспектива андеграундной сцены</p></title>
 <empty-line/>
 <p><strong>автор: Duvel</strong></p>
 <empty-line/>
@@ -466,7 +510,8 @@
 <empty-line/>
 <p>Они нуждаются в вас.</p>
 <empty-line/>
-<subtitle>4. Роботы-убийцы</subtitle>
+</section>
+<section id="toc_sub_000047"><title><p>4. Роботы-убийцы</p></title>
 <empty-line/>
 <p>Мой Roomba может заблудиться под обеденным столом, снова и снова врезаясь в ножки стульев. Путей к отступлению много, но он редко их находит. Только истинный гений мог бы превратить этот замечательный образец искусственного интеллекта в машину для убийства.</p>
 <empty-line/>
@@ -523,7 +568,8 @@
 <empty-line/>
 <p>Мыло не роняй.</p>
 <empty-line/>
-<subtitle>5. Значимые IP-адреса</subtitle>
+</section>
+<section id="toc_sub_000048"><title><p>5. Значимые IP-адреса</p></title>
 <empty-line/>
 <p>Вот некоторые IP-адреса, которые нам присылают... мы ничего не проверяли, так что не вините нас. Если у вас есть ещё диапазоны — присылайте.</p>
 <empty-line/>
@@ -535,11 +581,12 @@
 <empty-line/>
 <p><emphasis>Phrack World News, выпуск 65 — архивный перевод</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_065_004_stealth_hooking_windows_kernel">
 <title><p>Скрытный перехват: ещё один способ подрыва ядра Windows</p></title>
 <p><strong>Авторы:</strong> mxatone и ivanlef0u</p>
 <empty-line/>
-<subtitle>Содержание</subtitle>
+<section id="toc_sub_000049"><title><p>Содержание</p></title>
 <empty-line/>
 <p>1. Введение в технологии анти-руткитов и их обход</p>
 <p>• 1.1 Техники руткитов и анти-руткитов</p>
@@ -553,13 +600,15 @@
 <p>5. Заключение</p>
 <p>6. Ссылки</p>
 <empty-line/>
-<subtitle>1. Введение</subtitle>
+</section>
+<section id="toc_sub_000050"><title><p>1. Введение</p></title>
 <empty-line/>
 <p>В наши дни руткиты и анти-руткиты становятся всё более важными в ландшафте IT-безопасности. Руткиты изменяют поведение операционной системы. Анти-руткиты пытаются обнаружить и уничтожить их.</p>
 <empty-line/>
 <p>Эта статья посвящена руткитам на платформе Windows — точнее, новым видам техник перехвата, применимых к ядру Windows.</p>
 <empty-line/>
-<subtitle>1.1 Техники руткитов и анти-руткитов</subtitle>
+</section>
+<section id="toc_sub_000051"><title><p>1.1 Техники руткитов и анти-руткитов</p></title>
 <empty-line/>
 <p>Руткит перехватывает поведение операционной системы. Самый простой пример — SSDT (System Service Descriptor Table), содержащая список системных вызовов в виде таблицы указателей функций. Изменив указатель в этой таблице, можно контролировать поведение функции.</p>
 <empty-line/>
@@ -572,19 +621,23 @@
 <empty-line/>
 <p>Известные руткиты: Hacker Defender (Holy Father), NT Rootkit (Greg Hoglund), FU (Fuzen_op), FUto, BootRoot, Blue Pill (Joanna Rutkowska).</p>
 <empty-line/>
-<subtitle>1.2 О защитах уровня ядра</subtitle>
+</section>
+<section id="toc_sub_000052"><title><p>1.2 О защитах уровня ядра</p></title>
 <empty-line/>
 <p>Защита имеет преимущество перед атакой только если действует с более высокого уровня. PatchGuard неэффективен, потому что атакующий может найти способ атаковать его на том же уровне.</p>
 <empty-line/>
 <p>В июне 2006 Грег Хоглунд представил концепцию KOH (Kernel Object Hooking) — перехват без модификации статического кода, а работа с динамически выделяемыми структурами/кодом (DPC).</p>
 <empty-line/>
-<subtitle>1.3 Ключевая концепция: использование кода ядра против него самого</subtitle>
+</section>
+<section id="toc_sub_000053"><title><p>1.3 Ключевая концепция: использование кода ядра против него самого</p></title>
 <empty-line/>
 <p>Идея этой статьи — эксплуатация кода ядра. Полный контроль над окружением означает полный контроль над поведением кода, использующего это окружение.</p>
 <empty-line/>
-<subtitle>2. Скрытный перехват IDT</subtitle>
+</section>
+<section id="toc_sub_000054"><title><p>2. Скрытный перехват IDT</p></title>
 <empty-line/>
-<subtitle>2.1 Как Windows управляет аппаратными прерываниями</subtitle>
+</section>
+<section id="toc_sub_000055"><title><p>2.1 Как Windows управляет аппаратными прерываниями</p></title>
 <empty-line/>
 <p>IDT (Interrupt Descriptor Table) — специфичная для CPU таблица в пространстве ядра из 256 записей структур KIDTENTRY.</p>
 <empty-line/>
@@ -611,54 +664,63 @@
 <empty-line/>
 <p><strong>Приложение 2: NDIS-сниффер пакетов</strong> Аналогично перехватываем <code>ndisMDpc</code> через <code>MiniportDpc</code> в структуре <code>NDIS_MINIPORT_INTERRUPT</code>, чтобы фильтровать входящие пакеты.</p>
 <empty-line/>
-<subtitle>3. Захват NonPaged pool через скрытный перехват</subtitle>
+</section>
+<section id="toc_sub_000056"><title><p>3. Захват NonPaged pool через скрытный перехват</p></title>
 <empty-line/>
 <p>Наша цель — получить выполнение кода при каждой попытке выделения NonPaged, изменяя только данные без каких-либо хуков.</p>
 <empty-line/>
-<subtitle>3.1 Обзор распределения памяти ядра</subtitle>
+</section>
+<section id="toc_sub_000057"><title><p>3.1 Обзор распределения памяти ядра</p></title>
 <empty-line/>
 <p>Три таблицы для NonPaged pool:</p>
 <p>1. <strong>PPNPagedLookasideList</strong> — per-CPU таблица для блоков ≤256 байт</p>
 <p>2. <strong>NonPagedPoolDescriptor</strong> — для блоков ≤4080 байт</p>
 <p>3. <strong>MmNonPagedPoolFreeListHead</strong> — для блоков ≥1 страницы</p>
 <empty-line/>
-<subtitle>3.2 Отравление MmNonPagedPoolFreeListHead</subtitle>
+</section>
+<section id="toc_sub_000058"><title><p>3.2 Отравление MmNonPagedPoolFreeListHead</p></title>
 <empty-line/>
 <p>Структура <code>LIST_ENTRY</code>:</p>
 <image l:href="#img__code_blocks_issue_065_004_stealth_hooking_windows_kernel_0121_1abb5e42ca.png"/>
 <empty-line/>
 <p>Мы отравляем связный список фальшивой записью, удаление которой запишет 3-байтный опкод <code>jmp [reg+XX]</code> (FF 60 XX) в исполняемый код. Список остаётся проходимым если Flink корректен — например <code>0xXXXX60FF</code> в little-endian даёт нужный опкод.</p>
 <empty-line/>
-<subtitle>3.3 Расширение на все размеры</subtitle>
+</section>
+<section id="toc_sub_000059"><title><p>3.3 Расширение на все размеры</p></title>
 <empty-line/>
 <p>Для распространения техники на все выделения:</p>
 <empty-line/>
 <p>1. <strong>Отключение lookaside</strong>: устанавливаем <code>Next = NULL</code> и <code>Depth = 0xFFFF</code> в PPNPagedLookasideList</p>
 <p>2. <strong>Управление пул-дескрипторами</strong>: меняем KNODE color так, чтобы он указывал на пустой пул-дескриптор → код выполнится через нашу базовую технику → мы вызываем <code>ExAllocatePoolWithTag</code> с нашим собственным дескриптором</p>
 <empty-line/>
-<subtitle>3.4 Применения</subtitle>
+</section>
+<section id="toc_sub_000060"><title><p>3.4 Применения</p></title>
 <empty-line/>
 <p><strong>Перенаправление стека:</strong> используя базу данных адресов возврата, мы можем вызывать собственный обработчик при выделениях из определённых контекстов.</p>
 <empty-line/>
 <p><strong>Инъекция кода в userland:</strong> <code>KeUserModeCallback</code> позволяет ядру временно переключаться в userland. Перехватывая эту таблицу, можно инжектировать код в доверенные приложения.</p>
 <empty-line/>
-<subtitle>4. Обнаружение</subtitle>
+</section>
+<section id="toc_sub_000061"><title><p>4. Обнаружение</p></title>
 <empty-line/>
 <p>Программные изменения поведения могут быть частью Verifiable OS. Базовые проверки: целостность LIST_ENTRY структур. С аппаратной виртуализацией возможны расширения для детектирования без анализа компоновки ядра.</p>
 <empty-line/>
-<subtitle>5. Заключение</subtitle>
+</section>
+<section id="toc_sub_000062"><title><p>5. Заключение</p></title>
 <empty-line/>
 <p>Техники в этой статье показывают, что элегантный программный перехват всё ещё может обойти большинство защит без значительных потерь производительности. Обнаружение руткита недостаточно — защита, которая не может удалить руткит или предотвратить заражение, бесполезна.</p>
 <empty-line/>
-<subtitle>6. Ссылки</subtitle>
+</section>
+<section id="toc_sub_000063"><title><p>6. Ссылки</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_004_stealth_hooking_windows_kernel_0158_704dfaf029.png"/>
+</section>
 </section>
 <section id="sec_issue_065_005_clawing_holes_in_nat_with_upnp">
 <title><p>Пробивание дыр в NAT с помощью UPnP</p></title>
 <p><strong>Автор:</strong> max_packetz@felinemenace.org <strong>Дата:</strong> 12 апреля 2008</p>
 <empty-line/>
-<subtitle>Содержание</subtitle>
+<section id="toc_sub_000064"><title><p>Содержание</p></title>
 <empty-line/>
 <p>1. Введение / Обзор NAT и UPnP</p>
 <p>2. Детали реализации</p>
@@ -670,7 +732,8 @@
 <p>4. Ссылки</p>
 <p>5. Приложение A: Исходный код</p>
 <empty-line/>
-<subtitle>1. Введение / Обзор NAT и UPnP</subtitle>
+</section>
+<section id="toc_sub_000065"><title><p>1. Введение / Обзор NAT и UPnP</p></title>
 <empty-line/>
 <p>Данная статья документирует практическую технику, позволяющую злоумышленнику создать веб-сайт, посещение которого заставит жертву непреднамеренно пробросить порт через свой NAT — предоставив атакующему прямое соединение с жертвой внутри её частной сети через UPnP.</p>
 <empty-line/>
@@ -680,9 +743,11 @@
 <empty-line/>
 <p>На большинстве домашних ADSL/модемов и маршрутизаторов UPnP включён по умолчанию.</p>
 <empty-line/>
-<subtitle>2. Детали реализации</subtitle>
+</section>
+<section id="toc_sub_000066"><title><p>2. Детали реализации</p></title>
 <empty-line/>
-<subtitle>2.1 IRC Protocol: DCC</subtitle>
+</section>
+<section id="toc_sub_000067"><title><p>2.1 IRC Protocol: DCC</p></title>
 <empty-line/>
 <p>IRC использует DCC (Direct Client to Client) для создания прямого канала связи между клиентами в обход сервера. Запрос DCC содержит IP-адрес и порт.</p>
 <empty-line/>
@@ -695,7 +760,8 @@
 <empty-line/>
 <p>Многие реализации UPnP даже не проверяют, соответствует ли IP в DCC SEND адресу машины жертвы — что позволяет атаку ещё проще.</p>
 <empty-line/>
-<subtitle>2.2 Java-апплет (определение внутреннего IP)</subtitle>
+</section>
+<section id="toc_sub_000068"><title><p>2.2 Java-апплет (определение внутреннего IP)</p></title>
 <empty-line/>
 <p>Проще всего получить внутренний IP жертвы с помощью Java-апплета:</p>
 <empty-line/>
@@ -705,7 +771,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_005_clawing_holes_in_nat_with_upnp_0063_db176e35ec.png"/>
 <empty-line/>
-<subtitle>2.3 HTML</subtitle>
+</section>
+<section id="toc_sub_000069"><title><p>2.3 HTML</p></title>
 <empty-line/>
 <p>Автоматическая отправка DCC-строки через HTML-форму:</p>
 <empty-line/>
@@ -718,7 +785,8 @@
 <p>Фрагмент evil.html:</p>
 <image l:href="#img__code_blocks_issue_065_005_clawing_holes_in_nat_with_upnp_0107_29a09b5faf.png"/>
 <empty-line/>
-<subtitle>2.4 Listener</subtitle>
+</section>
+<section id="toc_sub_000070"><title><p>2.4 Listener</p></title>
 <empty-line/>
 <p>Сервис на стороне атакующего слушает порт 6667 и при получении соединения пытается подключиться обратно к жертве через пробитые NAT-порты:</p>
 <empty-line/>
@@ -727,21 +795,24 @@
 <p>Пример вывода <code>whiskers.py</code>:</p>
 <image l:href="#img__code_blocks_issue_065_005_clawing_holes_in_nat_with_upnp_0146_dfb146e3ff.png"/>
 <empty-line/>
-<subtitle>3. Сборка в единое целое с Python</subtitle>
+</section>
+<section id="toc_sub_000071"><title><p>3. Сборка в единое целое с Python</p></title>
 <empty-line/>
 <p>Для автоматизации всего процесса предоставляется расширяемый Python-скрипт <code>claw.py</code>, генерирующий веб-страницы, MyAddress.class и listener:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_005_clawing_holes_in_nat_with_upnp_0160_2ef2ccd9a8.png"/>
 <empty-line/>
-<subtitle>4. Ссылки</subtitle>
+</section>
+<section id="toc_sub_000072"><title><p>4. Ссылки</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_005_clawing_holes_in_nat_with_upnp_0168_e632fcb8e8.png"/>
+</section>
 </section>
 <section id="sec_issue_065_006_laws_of_internet_assembly_and_rfcs">
 <title><p>Единственные законы в Интернете — это ассемблер и RFC</p></title>
 <p><strong>Автор:</strong> julia@winstonsmith.info</p>
 <empty-line/>
-<subtitle>0. Отправная точка: наш мир и Интернет</subtitle>
+<section id="toc_sub_000073"><title><p>0. Отправная точка: наш мир и Интернет</p></title>
 <empty-line/>
 <p>2008 год: за последние 10 лет Интернет приобрёл ценность, которую сложно было предвидеть. Множество игроков пытаются захватить над ним контроль: индустрии звукозаписи и кино, правительства, производители программного обеспечения.</p>
 <empty-line/>
@@ -761,7 +832,8 @@
 <empty-line/>
 <cite><p>«Я совершил открытие сегодня. Я нашёл компьютер. Подождите секунду, это круто. Он делает то, что я хочу. Если он ошибается, это потому, что я облажался. Не потому, что ему не нравлюсь я... Или он чувствует угрозу с моей стороны...»</p></cite>
 <empty-line/>
-<subtitle>1. Что такое несвязный закон?</subtitle>
+</section>
+<section id="toc_sub_000074"><title><p>1. Что такое несвязный закон?</p></title>
 <empty-line/>
 <p>Поскольку тенденция создавать неадекватные законы для контроля Интернета нарастает, мы почувствовали необходимость поставить этот modus operandi под сомнение.</p>
 <empty-line/>
@@ -781,7 +853,7 @@
 <p>• Из (1) мы можем увидеть идеи, не учтённые законодателями</p>
 <p>• Из (2) мы можем разработать технические решения</p>
 <empty-line/>
-<p>Один пример &quot;атаки на закон&quot;:</p>
+<p>Один пример "атаки на закон":</p>
 <empty-line/>
 <p>1. <strong>Человеческая сторона:</strong> Государство принимает закон, запрещающий говорить о криптографии</p>
 <p>2. <strong>Техническая сторона:</strong> Владение доменом сайта о криптографии ведёт к тюрьме</p>
@@ -793,11 +865,12 @@
 <p>• Публиковать контент через анонимный ремейлер в рассылку</p>
 <p>• Публиковать через P2P с цифровой подписью</p>
 <p>• Использовать самодешифрующийся javascript-сайт</p>
-<p>• Распределённый сервер типа &quot;проект R*&quot;</p>
+<p>• Распределённый сервер типа "проект R*"</p>
 <empty-line/>
-<p>Интернет для обычных пользователей — это только &quot;веб&quot;, тогда как у нас намного больше возможностей.</p>
+<p>Интернет для обычных пользователей — это только "веб", тогда как у нас намного больше возможностей.</p>
 <empty-line/>
-<subtitle>2. Глубокий фокус и реальная цель: RIPA III</subtitle>
+</section>
+<section id="toc_sub_000075"><title><p>2. Глубокий фокус и реальная цель: RIPA III</p></title>
 <empty-line/>
 <p>RIPA (исследование электронных данных, защищённых шифрованием — полномочие требовать раскрытия).</p>
 <empty-line/>
@@ -817,9 +890,10 @@
 <p>• <strong>OTR</strong> (Off-the-Record messaging) — криптографический протокол для мгновенных сообщений</p>
 <p>• <strong>2c2/4c</strong> — принимает два входных файла и генерирует вывод, зависящий от пароля</p>
 <empty-line/>
-<subtitle>3. Elettra</subtitle>
+</section>
+<section id="toc_sub_000076"><title><p>3. Elettra</p></title>
 <empty-line/>
-<p>Elettra может генерировать архивы из нескольких файлов, где в зависимости от предоставленного пароля извлекается разный файл. Это потому, что пароль — не только &quot;информация, необходимая для расшифровки&quot;, но и &quot;информация, необходимая для нахождения&quot; файла в архиве.</p>
+<p>Elettra может генерировать архивы из нескольких файлов, где в зависимости от предоставленного пароля извлекается разный файл. Это потому, что пароль — не только "информация, необходимая для расшифровки", но и "информация, необходимая для нахождения" файла в архиве.</p>
 <empty-line/>
 <p>Каждый файл зашифрован своим собственным паролем. Каждый пароль открывает единственный файл. Поскольку Elettra может добавлять случайный padding в архив, невозможно определить, сколько файлов он содержит.</p>
 <empty-line/>
@@ -831,7 +905,7 @@
 <empty-line/>
 <p>Алгоритм работает следующим образом:</p>
 <empty-line/>
-<p>1. Пароль хешируется, получается уникальный номер — &quot;точка входа&quot; в начальный блок ключей</p>
+<p>1. Пароль хешируется, получается уникальный номер — "точка входа" в начальный блок ключей</p>
 <p>2. Начальный блок ключей содержит зашифрованные ключи</p>
 <p>3. Каждый файл зашифрован своим ключом с случайным padding</p>
 <p>4. Расшифровка: по паролю находится точка входа, извлекается ключ, файл расшифровывается</p>
@@ -843,9 +917,10 @@
 <p>4. Первые байты в CBC-режиме инициализируются случайными данными</p>
 <p>5. Минимальная длина пароля — 6 байт</p>
 <empty-line/>
-<subtitle>4. Анонимная идентичность: julia@winstonsmith.info</subtitle>
+</section>
+<section id="toc_sub_000077"><title><p>4. Анонимная идентичность: julia@winstonsmith.info</p></title>
 <empty-line/>
-<p>Имя Юлия взято из романа &quot;1984&quot;, как и весь проект Winston Smith. Юлия показывает Уинни путь, инструменты и мотивы для свободы.</p>
+<p>Имя Юлия взято из романа "1984", как и весь проект Winston Smith. Юлия показывает Уинни путь, инструменты и мотивы для свободы.</p>
 <empty-line/>
 <p>Мы создали анонимную групповую идентичность для единой точки отсчёта (имя, ключевое слово, идеал). Преимущества:</p>
 <p>• Видимость достигается коллективными усилиями</p>
@@ -859,12 +934,14 @@
 <empty-line/>
 <p>Ни один поставщик и ни одно государство, как бы мы их ни уважали, не может управлять Интернетом. Открытые технологии принадлежат всем.</p>
 <empty-line/>
-<subtitle>5. Ссылки</subtitle>
+</section>
+<section id="toc_sub_000078"><title><p>5. Ссылки</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_006_laws_of_internet_assembly_and_rfcs_0148_acd32a8dfb.png"/>
 </section>
+</section>
 <section id="sec_issue_065_007_system_management_mode_hack">
-<title><p>Взлом System Management Mode: использование SMM в &quot;других целях&quot;</p></title>
+<title><p>Взлом System Management Mode: использование SMM в "других целях"</p></title>
 <p><strong>Авторы:</strong></p>
 <p>• BSDaemon <code>&lt;bsdaemon *noSPAM* risesecurity_org&gt;</code></p>
 <p>• coideloko <code>&lt;cdlk *noSPAM* kernelhacking_com&gt;</code></p>
@@ -872,7 +949,7 @@
 <empty-line/>
 <p><strong>Дата:</strong> 29 марта 2008</p>
 <empty-line/>
-<subtitle>Содержание</subtitle>
+<section id="toc_sub_000079"><title><p>Содержание</p></title>
 <empty-line/>
 <p>1. Введение</p>
 <p>2. System Management Mode</p>
@@ -889,18 +966,21 @@
 <p>7. Ссылки</p>
 <p>8. Исходники</p>
 <empty-line/>
-<subtitle>1. Введение</subtitle>
+</section>
+<section id="toc_sub_000080"><title><p>1. Введение</p></title>
 <empty-line/>
 <p>Эта статья объясняет детали архитектуры Intel и то, как её можно использовать злонамеренно для создания полностью аппаратно-защищённого вредоноса. Основное внимание уделяется функциям System Management Mode (SMM) и показывается, как создать стабильный код, работающий внутри SMM.</p>
 <empty-line/>
 <p>Поскольку внутри SMM вредонос может манипулировать всей системной памятью, его можно использовать для модификации структур ядра и создания мощного руткита.</p>
 <empty-line/>
-<subtitle>2. System Management Mode</subtitle>
+</section>
+<section id="toc_sub_000081"><title><p>2. System Management Mode</p></title>
 <empty-line/>
 <p>Из руководств Intel:</p>
 <cite><p>«Intel System Management Mode (SMM) обычно используется для выполнения специфических процедур управления питанием... SMM работает независимо от другого системного программного обеспечения и может использоваться для других целей.»</p></cite>
 <empty-line/>
-<subtitle>2.1 Режимы работы Pentium</subtitle>
+</section>
+<section id="toc_sub_000082"><title><p>2.1 Режимы работы Pentium</p></title>
 <empty-line/>
 <p>Возможные переходы между режимами:</p>
 <empty-line/>
@@ -908,7 +988,8 @@
 <empty-line/>
 <p>Любой режим работы Intel может перейти в SMM при получении SMI-прерывания. Возврат из SMM осуществляется инструкцией RSM.</p>
 <empty-line/>
-<subtitle>2.2 Обзор SMM</subtitle>
+</section>
+<section id="toc_sub_000083"><title><p>2.2 Обзор SMM</p></title>
 <empty-line/>
 <p>При входе в SMM:</p>
 <p>• Весь контекст процессора сохраняется в SMRAM</p>
@@ -924,7 +1005,8 @@
 <empty-line/>
 <p>Обработчик SMI должен находиться по адресу SMBASE+0x8000.</p>
 <empty-line/>
-<subtitle>2.3 Что упустил Дюфло</subtitle>
+</section>
+<section id="toc_sub_000084"><title><p>2.3 Что упустил Дюфло</p></title>
 <empty-line/>
 <p><strong>Конфигурация PCI:</strong></p>
 <empty-line/>
@@ -941,16 +1023,19 @@
 <empty-line/>
 <p>Когда адрес попадает в диапазон 0xA0000-0xBFFFF — диапазон, разделяемый между VGA и системной памятью — контроллер памяти генерирует SMI для разрешения конфликта.</p>
 <empty-line/>
-<subtitle>2.4 Внутренности SMM</subtitle>
+</section>
+<section id="toc_sub_000085"><title><p>2.4 Внутренности SMM</p></title>
 <empty-line/>
 <p>При входе в SMM процессор активирует вывод SMIACT#, уведомляя чипсет. Все последующие обращения к памяти перенаправляются в SMRAM.</p>
 <empty-line/>
 <p>Карта сохранения состояния (state save map) сохраняется в SMBASE+0xFE00...SMBASE+0xFFFF, с кешами дескрипторов:</p>
 <image l:href="#img__code_blocks_issue_065_007_system_management_mode_hack_0105_d0cda12466.png"/>
 <empty-line/>
-<subtitle>3. SMM в злонамеренных целях</subtitle>
+</section>
+<section id="toc_sub_000086"><title><p>3. SMM в злонамеренных целях</p></title>
 <empty-line/>
-<subtitle>3.1 Трудности</subtitle>
+</section>
+<section id="toc_sub_000087"><title><p>3.1 Трудности</p></title>
 <empty-line/>
 <p><strong>Перезапись из кеша (Cache-originated overwrites):</strong> При входе в SMM SMRAM может быть перезаписана данными из кеша при возникновении #FLUSH. Большинство BIOS помечают диапазон SMRAM как некешируемый.</p>
 <empty-line/>
@@ -960,7 +1045,8 @@
 <empty-line/>
 <p><strong>Трансляция адресов:</strong> В SMM страничная организация отключена. Решение: иметь простой обработчик, который повышает уровень привилегий вызывающего кода и немедленно возвращается.</p>
 <empty-line/>
-<subtitle>3.2 Копирование кода в SMM</subtitle>
+</section>
+<section id="toc_sub_000088"><title><p>3.2 Копирование кода в SMM</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_007_system_management_mode_hack_0138_abeed483d3.png"/>
 <empty-line/>
@@ -971,43 +1057,50 @@
 <empty-line/>
 <p><strong>Перемещение кода (Code relocation):</strong> SMM может переместить свою защищённую область памяти, изменив значение SMBASE в карте состояния (смещение 0xFEF8 от SMBASE). Используется для сокрытия анализа.</p>
 <empty-line/>
-<subtitle>4. Библиотека манипуляции SMM</subtitle>
+</section>
+<section id="toc_sub_000089"><title><p>4. Библиотека манипуляции SMM</p></title>
 <empty-line/>
 <p>Прилагаемая библиотека SMM предоставляет следующие функции:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_007_system_management_mode_hack_0173_bf6b9c52a4.png"/>
 <empty-line/>
-<subtitle>5. Будущее и другие применения</subtitle>
+</section>
+<section id="toc_sub_000090"><title><p>5. Будущее и другие применения</p></title>
 <empty-line/>
 <p>С новыми аппаратными улучшениями для виртуализации (гипервизоры) появятся расширения для обнаружения и защиты от руткитов. Также интересны возможности использования Extensible Firmware Interface.</p>
 <empty-line/>
-<subtitle>6. Благодарности</subtitle>
+</section>
+<section id="toc_sub_000091"><title><p>6. Благодарности</p></title>
 <empty-line/>
 <p>twiz и команда Phrack за ценные отзывы о структуре статьи. Julio Auto за рецензию черновиков.</p>
 <empty-line/>
-<subtitle>7. Ссылки</subtitle>
+</section>
+<section id="toc_sub_000092"><title><p>7. Ссылки</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_007_system_management_mode_hack_0204_5373fef3d0.png"/>
+</section>
 </section>
 <section id="sec_issue_065_008_mistifying_the_debugger">
 <title><p>Запутывание отладчика: абсолютная скрытность</p></title>
 <p><strong>Автор:</strong> halfdead@phear.org</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+<section id="toc_sub_000093"><title><p>Введение</p></title>
 <empty-line/>
 <p>На протяжении многих лет существовало множество техник и методов сокрытия присутствия на взломанной системе. Многие из них были сосредоточены на прямой модификации таблицы системных вызовов, другие модифицировали обработчик прерываний, третьи работали на уровне VFS. Но все они модифицировали операционную систему очень заметным образом, что делало их легко обнаруживаемыми.</p>
 <empty-line/>
-<p>В этой статье я представлю технику, способную достичь абсолютной скрытности в ядерных руткитах, используя общую возможность x86 — механизм отладки. Хотя она работает на любой IA-32-совместимой платформе, следующая техника будет описана для операционной системы Linux. Я покажу, как можно перехватить нормальный поток выполнения, не затрагивая &quot;классические&quot; цели перехвата.</p>
+<p>В этой статье я представлю технику, способную достичь абсолютной скрытности в ядерных руткитах, используя общую возможность x86 — механизм отладки. Хотя она работает на любой IA-32-совместимой платформе, следующая техника будет описана для операционной системы Linux. Я покажу, как можно перехватить нормальный поток выполнения, не затрагивая "классические" цели перехвата.</p>
 <empty-line/>
-<p>Когда мы говорим об &quot;отладчике&quot; в этой статье, мы имеем в виду механизм отладки IA-32, доступный только из нулевого кольца.</p>
+<p>Когда мы говорим об "отладчике" в этой статье, мы имеем в виду механизм отладки IA-32, доступный только из нулевого кольца.</p>
 <empty-line/>
-<subtitle>Отладчик</subtitle>
+</section>
+<section id="toc_sub_000094"><title><p>Отладчик</p></title>
 <empty-line/>
 <cite><p>«Архитектура IA-32 предоставляет обширные средства отладки для использования при отладке кода и мониторинге выполнения кода и производительности процессора.»</p></cite>
 <empty-line/>
 <p>Для облегчения жизни разработчиков Intel ввёл механизм управления процессом отладки. Этот механизм управляется набором специальных регистров (DR0..DR7), которые позволяют устанавливать аппаратные точки останова на адресах памяти. Как только поток выполнения достигает адреса, отмеченного точкой останова, управление передаётся обработчику прерывания отладки (INT 1), который вызывает функцию <code>do_debug()</code> (определённую в <code>../i386/kernel/traps.c</code>).</p>
 <empty-line/>
-<subtitle>Регистры отладки</subtitle>
+</section>
+<section id="toc_sub_000095"><title><p>Регистры отладки</p></title>
 <empty-line/>
 <p>Существует 8 регистров отладки, поддерживаемых процессорами Intel, которые управляют операцией отладки процессора. Доступ к ним ограничен: только реальный режим, SMM или нулевое кольцо защищённого режима.</p>
 <empty-line/>
@@ -1026,7 +1119,8 @@
 <p>• R/W0..R/W3 — тип условия точки останова</p>
 <p>• LEN0..LEN3 — длина точки останова</p>
 <empty-line/>
-<subtitle>Магия</subtitle>
+</section>
+<section id="toc_sub_000096"><title><p>Магия</p></title>
 <empty-line/>
 <p>Итак, мы узнали почти всё о механизме отладки IA-32. Теперь мы знаем несколько важных вещей: можно установить точку останова на адрес памяти, и как только поток выполнения достигнет нашей точки останова, выполнение перенаправится к обработчику отладки (INT 1).</p>
 <empty-line/>
@@ -1036,7 +1130,8 @@
 <empty-line/>
 <p>Фактический обработчик отладки — это C-функция <code>do_debug()</code>, определённая в <code>traps.c</code>. Мы можем установить нашу собственную <code>do_debug()</code> и ожидать, что она будет вызвана обработчиком отладки, так что IDT остаётся нетронутым.</p>
 <empty-line/>
-<subtitle>Перехват sys_call_table[]</subtitle>
+</section>
+<section id="toc_sub_000097"><title><p>Перехват sys_call_table[]</p></title>
 <empty-line/>
 <p>Теперь у вас должно быть представление о том, как перехватить таблицу системных вызовов с помощью точки останова на чтение/запись/выполнение целевого адреса в памяти. Это может быть адрес обработчика INT 80 или адрес таблицы системных вызовов.</p>
 <empty-line/>
@@ -1048,9 +1143,10 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_008_mistifying_the_debugger_0086_09366699cd.png"/>
 <empty-line/>
-<p>Функция <code>set_bpm()</code> загружает DR0 адресом INT 80 и устанавливает флаги в DR7, включая <strong>магический бит GD</strong>. Этот бит важен: &quot;вызывает исключение отладки перед любой инструкцией MOV, обращающейся к регистру отладки&quot;. Это означает: если кто-то пытается читать/записывать регистры отладки, управление передаётся нашему обработчику <strong>до</strong> того, как это произойдёт. Мы можем отменить всё и подождать, пока опасность минует.</p>
+<p>Функция <code>set_bpm()</code> загружает DR0 адресом INT 80 и устанавливает флаги в DR7, включая <strong>магический бит GD</strong>. Этот бит важен: "вызывает исключение отладки перед любой инструкцией MOV, обращающейся к регистру отладки". Это означает: если кто-то пытается читать/записывать регистры отладки, управление передаётся нашему обработчику <strong>до</strong> того, как это произойдёт. Мы можем отменить всё и подождать, пока опасность минует.</p>
 <empty-line/>
-<subtitle>Обработчик</subtitle>
+</section>
+<section id="toc_sub_000098"><title><p>Обработчик</p></title>
 <empty-line/>
 <p>Наш обработчик должен проверять значение регистра <code>%eax</code> (номер нужного системного вызова) и на основе этого подменять соответствующий вызов:</p>
 <empty-line/>
@@ -1062,7 +1158,8 @@
 <empty-line/>
 <p>Первое, что делает <code>hacked_time()</code> — возвращает исходное значение в <code>sys_call_table[]</code>, то есть фактическое изменение длится менее микросекунды.</p>
 <empty-line/>
-<subtitle>Маскировка</subtitle>
+</section>
+<section id="toc_sub_000099"><title><p>Маскировка</p></title>
 <empty-line/>
 <p>Мы научились устанавливать точку останова на адрес памяти, включать её и перехватывать нормальный поток выполнения без вмешательства в обработчик INT 80 или таблицу системных вызовов. Но мы всё ещё модифицируем обработчик INT 1.</p>
 <empty-line/>
@@ -1072,23 +1169,26 @@
 <p>• Установить точку останова на адрес INT 80</p>
 <p>• Установить <strong>вторичную точку останова</strong> на адрес нашего обработчика</p>
 <empty-line/>
-<p>Когда кто-то пытается проверить наше присутствие в IDT — мы знаем об этом заранее и временно восстанавливаем оригинальные значения. Через несколько наносекунд наш руткит &quot;переустанавливается&quot;. Это как завязать им глаза. Они пропускают нас каждый раз, когда смотрят на нас.</p>
+<p>Когда кто-то пытается проверить наше присутствие в IDT — мы знаем об этом заранее и временно восстанавливаем оригинальные значения. Через несколько наносекунд наш руткит "переустанавливается". Это как завязать им глаза. Они пропускают нас каждый раз, когда смотрят на нас.</p>
 <empty-line/>
 <p>Это применимо и к отладчику, пытающемуся установить собственный хук на INT 1: мы обнаруживаем попытку, восстанавливаем нормальное состояние, они ставят свой хук, мы перехватываем их хук как обычный перехват INT 1 — и когда они проверяют своё присутствие, мы показываем им себя. Это абсолютная скрытность, Святой Грааль хакеров!</p>
 <empty-line/>
-<subtitle>Заключительные слова</subtitle>
+</section>
+<section id="toc_sub_000100"><title><p>Заключительные слова</p></title>
 <empty-line/>
 <p>Эта техника активно использовалась в андерграунде более 8 лет. Её красота: это фундаментальная возможность IA-32. Они не могут защититься от неё, не убрав весь механизм отладки целиком. Будучи возможностью фундаментального процессора, она может быть использована на <strong>любой</strong> операционной системе на IA-32 и нет никакого способа обнаружить или защититься от неё.</p>
 <empty-line/>
-<subtitle>Благодарности</subtitle>
+</section>
+<section id="toc_sub_000101"><title><p>Благодарности</p></title>
 <empty-line/>
 <p>halvar, twiz, reverser, sd и остальные digitalnerds</p>
+</section>
 </section>
 <section id="sec_issue_065_009_australian_restricted_defense_networks_and_fisso">
 <title><p>Австралийские ограниченные оборонные сети и FISSO</p></title>
 <p><strong>Автор:</strong> The Finn &lt;TheFinn@phrack.org&gt;</p>
 <empty-line/>
-<subtitle>Содержание</subtitle>
+<section id="toc_sub_000102"><title><p>Содержание</p></title>
 <empty-line/>
 <p>1. Введение</p>
 <p>2. Война номеров и вы</p>
@@ -1101,7 +1201,8 @@
 <p>9. Заключение</p>
 <p>10. Приложение</p>
 <empty-line/>
-<subtitle>1. Введение</subtitle>
+</section>
+<section id="toc_sub_000103"><title><p>1. Введение</p></title>
 <empty-line/>
 <p>Этот документ объясняет и представляет новую секретную сеть, поддерживаемую австралийским Министерством обороны. Насколько мне известно, эта сеть схожа по назначению с американской SIPRNET. Она предназначена для использования совместно со специально разработанным программным обеспечением, призванным улучшить коммуникации в рамках процедур и систем командования и управления, разведки и логистики.</p>
 <empty-line/>
@@ -1111,7 +1212,8 @@
 <empty-line/>
 <p>Туда вам точно не надо ;)</p>
 <empty-line/>
-<subtitle>2. Война номеров и вы</subtitle>
+</section>
+<section id="toc_sub_000104"><title><p>2. Война номеров и вы</p></title>
 <empty-line/>
 <p>После прозвонки большого числа номеров я обнаружил несколько действительно интересных дозвонных точек, явно принадлежащих Министерству обороны и входящих в сеть Австралийского военно-морского флота.</p>
 <empty-line/>
@@ -1149,7 +1251,8 @@
 <empty-line/>
 <p>Я порылся в интернете, а потом начал читать PDF-документы, которые австралийские военные рассекречивают и публикуют для широкой аудитории.</p>
 <empty-line/>
-<subtitle>3. Происхождение FISSO</subtitle>
+</section>
+<section id="toc_sub_000105"><title><p>3. Происхождение FISSO</p></title>
 <empty-line/>
 <p>В настоящее время RAN (Королевский австралийский военно-морской флот) расширил DRN (Defence Restricted Network) для поддержки более надёжных коммуникационных протоколов (по-прежнему IP-сеть) и служб. Так из старой Группы поддержки DRN, которой руководил флот, родилась FISSO (Fleet Information Systems Support Organisation).</p>
 <empty-line/>
@@ -1173,7 +1276,8 @@
 <empty-line/>
 <p>Вы можете встретить в сетях под управлением DSD приёмы, которых не найдёте нигде в мире, — предупреждаю.</p>
 <empty-line/>
-<subtitle>4. Австралийское Министерство обороны и FISSO</subtitle>
+</section>
+<section id="toc_sub_000106"><title><p>4. Австралийское Министерство обороны и FISSO</p></title>
 <empty-line/>
 <p>FISSO — это переименованная старая Группа поддержки DRN, обслуживавшая защищённые оборонные сети Министерства обороны. FISSO — новый проект, который флот ведёт (по-прежнему) для Министерства обороны. Исторически флот возглавлял многие проекты в области связи ещё до того, как к ним приглашали другие рода войск, — то же самое, насколько я понимаю, верно для ВМС США. (Наверное, дело в азбуке Морзе).</p>
 <empty-line/>
@@ -1214,7 +1318,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_009_australian_restricted_defense_networks_and_fisso_0301_04b604da42.png"/>
 <empty-line/>
-<subtitle>5. Введение в EPL и CCRA</subtitle>
+</section>
+<section id="toc_sub_000107"><title><p>5. Введение в EPL и CCRA</p></title>
 <empty-line/>
 <p>Познакомимся с самими критериями. Сейчас у DSD есть две разные таблицы критериев — система ITSEC и CCRA — для оценки продуктов на предмет безопасного применения в военных и государственных сетях.</p>
 <empty-line/>
@@ -1266,7 +1371,8 @@
 <empty-line/>
 <p>Существуют также категории смарт-карт, PC-безопасности, шифрования и многие другие. Более подробная информация о каждом продукте доступна непосредственно на сайте.</p>
 <empty-line/>
-<subtitle>6. EPL и CCRA в деталях</subtitle>
+</section>
+<section id="toc_sub_000108"><title><p>6. EPL и CCRA в деталях</p></title>
 <empty-line/>
 <p>В 1998 году Великобритания, Франция, Германия, Соединённые Штаты и Канада создали CCRA. Австралия присоединилась в 1999 году. Стоит также отметить, что в списке стран-членов на сайте DSD (с контактными данными) недавно появились Япония, Южная Корея, Нидерланды и Норвегия.</p>
 <empty-line/>
@@ -1320,13 +1426,15 @@
 <empty-line/>
 <p>Интересны скорости передачи данных: значит, доступны и диалап, и ATM-каналы; возможно, сейчас и более высокие скорости, поскольку эта страница не обновлялась с середины 90-х.</p>
 <empty-line/>
-<subtitle>7. Другие стандарты</subtitle>
+</section>
+<section id="toc_sub_000109"><title><p>7. Другие стандарты</p></title>
 <empty-line/>
 <p>Единственные другие стандарты, заслуживающие внимания в данной статье, — стандарты шифрования. Они полностью описаны в документе acsi33. Применяются 3DES и AES для симметричного шифрования и RSA/DH/DSA/ECDH (Elliptic Curve Diffie-Hellman)/ECDSA (Elliptic Curve Digital Signature Algorithm) для асимметричного (обмен ключами). Шифрование — не моя сильная сторона, однако следует отметить, что страны-члены CCRA в вопросах стандартов шифрования в основном руководствуются рекомендациями NIST.</p>
 <empty-line/>
 <p>Признаюсь, я почти дословно цитирую здесь документ acsi33: единственные зашифрованные VPN, которые я настраивал для компаний, где работал, использовали алгоритмы Cisco IOS 3DES.</p>
 <empty-line/>
-<subtitle>8. Секреты</subtitle>
+</section>
+<section id="toc_sub_000110"><title><p>8. Секреты</p></title>
 <empty-line/>
 <p>В конце холодной войны к интернету было подключено, вероятно, несколько сотен тысяч компьютеров. Почти каждая страна имела подключение. Отделы НИОКР австралийских университетов — это то место, откуда я получал доступ в интернет и налаживал контакты в хакерском сообществе того времени. Тогда Китай и СССР представляли серьёзную угрозу западному доминированию; тем не менее меня интригует тот факт, что все страны-члены обоих этих блоков были подключены к интернету в самый разгар холодной войны.</p>
 <empty-line/>
@@ -1338,7 +1446,8 @@
 <empty-line/>
 <p>Написав эту статью, я уже не уверен, что оно по-прежнему справедливо.</p>
 <empty-line/>
-<subtitle>9. Заключение</subtitle>
+</section>
+<section id="toc_sub_000111"><title><p>9. Заключение</p></title>
 <empty-line/>
 <p>Как бы я ни хотел написать больше о сетях других стран (Япония и Франция были бы интересны), у меня нет времени прозванивать номера и исследовать столь много сетей в стольких странах. Это придётся оставить другим авторам. Но помните: США тратят больше всех на военно-промышленные и обычные военные проекты — и просто по теории вероятностей, с точки зрения взлома с ненаблюдаемостью, они, вероятно, наименее благоприятная цель. Поскольку сеть, похоже, теперь соединена с другими странами НАТО, одна из стран, тратящих на неё меньше, может дать лучший результат.</p>
 <empty-line/>
@@ -1363,7 +1472,8 @@
 <cite><p>«В последний день мы проиграем не из-за нехватки сил и не из-за нехватки</p></cite>
 <cite><p>техники. Мы проиграем из-за нехватки доверия.»</p></cite>
 <empty-line/>
-<subtitle>10. Приложение</subtitle>
+</section>
+<section id="toc_sub_000112"><title><p>10. Приложение</p></title>
 <empty-line/>
 <p><strong>Аббревиатуры:</strong></p>
 <empty-line/>
@@ -1381,18 +1491,20 @@
 <p>• [8] http://www.softwink.com/iwar/</p>
 <p>• [9] http://www2.packetstormsecurity.org/cgi-bin/search/search.cgi?searchvalue=thefinn&amp;type=archives&amp;%5Bsearch%5D.x=0&amp;%5Bsearch%5D.y=0</p>
 </section>
+</section>
 <section id="sec_issue_065_010_phook_peb_hooker">
 <title><p>phook — перехватчик через PEB</p></title>
 <image l:href="#img__code_blocks_issue_065_010_phook_peb_hooker_0003_8ed5c6c056.png"/>
 <empty-line/>
 <p><strong>Авторы:</strong> [Shearer] - eunimedesAThotmail.com / Dreg - DregATfr33project.org</p>
 <empty-line/>
-<subtitle>Содержание</subtitle>
+<section id="toc_sub_000113"><title><p>Содержание</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_010_phook_peb_hooker_0025_686adc8d00_part01.png"/>
 <image l:href="#img__code_blocks_issue_065_010_phook_peb_hooker_0025_686adc8d00_part02.png"/>
 <empty-line/>
-<subtitle>0. Предисловие</subtitle>
+</section>
+<section id="toc_sub_000114"><title><p>0. Предисловие</p></title>
 <empty-line/>
 <p>Соглашения об именовании:</p>
 <p>• <code>[T.Index]</code> — смежные работы (раздел 10).</p>
@@ -1413,7 +1525,8 @@
 <empty-line/>
 <p>Если не оговорено иное, под «хуком» всегда подразумевается хук в win32.</p>
 <empty-line/>
-<subtitle>1. Введение</subtitle>
+</section>
+<section id="toc_sub_000115"><title><p>1. Введение</p></title>
 <empty-line/>
 <p>Хуки в win32 широко применяются для обратной инженерии: наиболее распространённые цели — анализ вредоносного программного обеспечения, упаковщиков и систем защиты программ. Хуки также используются для мониторинга отдельных аспектов работы программ: доступа к файлам, сокетам, изменений в реестре и т.д.</p>
 <empty-line/>
@@ -1431,11 +1544,13 @@
 <empty-line/>
 <p>Метод PEB HOOKING [T.1] состоит в подмене DLL_REAL в памяти на DLL_FAKE, так что все модули процесса, использовавшие DLL_REAL, начинают использовать DLL_FAKE.</p>
 <empty-line/>
-<subtitle>2. Предварительные понятия</subtitle>
+</section>
+<section id="toc_sub_000116"><title><p>2. Предварительные понятия</p></title>
 <empty-line/>
 <p>Для понимания метода PEB HOOKING [T.1] и принципа работы phook необходимо чётко понимать ряд концепций.</p>
 <empty-line/>
-<subtitle>2.1 Process Environment Block</subtitle>
+</section>
+<section id="toc_sub_000117"><title><p>2.1 Process Environment Block</p></title>
 <empty-line/>
 <p>Process Environment Block (PEB) — структура [R.1], расположенная в пространстве пользователя и содержащая данные окружения процесса [R.2]:</p>
 <p>• Переменные окружения.</p>
@@ -1448,7 +1563,8 @@
 <empty-line/>
 <p>Для реализации PEB HOOKING необходимо использовать поле LoaderData [T.1].</p>
 <empty-line/>
-<subtitle>2.1.1 LoaderData</subtitle>
+</section>
+<section id="toc_sub_000118"><title><p>2.1.1 LoaderData</p></title>
 <empty-line/>
 <p>Структура [R.1], содержащая данные о модулях процесса. Представляет собой двусвязный список, который может быть отсортирован по трём критериям [R.2]:</p>
 <p>1. Порядок загрузки</p>
@@ -1468,7 +1584,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_010_phook_peb_hooker_0201_ce4c9e8ee6.png"/>
 <empty-line/>
-<subtitle>2.2 Import Address Table</subtitle>
+</section>
+<section id="toc_sub_000119"><title><p>2.2 Import Address Table</p></title>
 <empty-line/>
 <p>Import Address Table (IAT) — таблица, присутствующая в PE32 [R.3], которую загрузчик win32 заполняет при загрузке модуля [R.4], а также при позднем связывании через заглушку в IAT.</p>
 <empty-line/>
@@ -1476,7 +1593,8 @@
 <empty-line/>
 <p>В IAT [R.3] модуля хранятся адреса его импортов, то есть адреса экспортируемых функций других модулей, которые данный модуль использует.</p>
 <empty-line/>
-<subtitle>2.2.1 Загрузка таблицы импорта</subtitle>
+</section>
+<section id="toc_sub_000120"><title><p>2.2.1 Загрузка таблицы импорта</p></title>
 <empty-line/>
 <p>Чтобы загрузчик win32 мог разрешить импорт, ему необходимо знать: модуль, в котором расположен экспорт, имя экспорта и/или его ординал [R.3].</p>
 <empty-line/>
@@ -1493,7 +1611,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_010_phook_peb_hooker_0257_04f243baa8.png"/>
 <empty-line/>
-<subtitle>2.3 Запуск процесса в приостановленном состоянии</subtitle>
+</section>
+<section id="toc_sub_000121"><title><p>2.3 Запуск процесса в приостановленном состоянии</p></title>
 <empty-line/>
 <p>При необходимости создать процесс в приостановленном состоянии нужно учитывать его тип [R.6]:</p>
 <p>• Console (консольный)</p>
@@ -1506,7 +1625,8 @@
 <p>2. <strong>WaitForInputIdle</strong> — ожидается корректная загрузка процесса [R.6].</p>
 <p>3. <strong>SuspendThread</strong> — основной поток приостанавливается.</p>
 <empty-line/>
-<subtitle>2.4 Внедрение DLL в процесс</subtitle>
+</section>
+<section id="toc_sub_000122"><title><p>2.4 Внедрение DLL в процесс</p></title>
 <empty-line/>
 <p>Для внедрения DLL в процесс существует множество методов [R.7]; наиболее простой предполагает использование следующих API:</p>
 <p>1. <strong>VirtualAllocEx</strong> — резервирование памяти в процессе.</p>
@@ -1514,7 +1634,8 @@
 <p>3. <strong>CreateRemoteThread</strong> — создание потока в процессе, исполняющего записанный код.</p>
 <p>4. <strong>VirtualFreeEx</strong> — освобождение зарезервированной памяти после загрузки DLL.</p>
 <empty-line/>
-<subtitle>2.5 Хуки в ring3</subtitle>
+</section>
+<section id="toc_sub_000123"><title><p>2.5 Хуки в ring3</p></title>
 <empty-line/>
 <p>Существует множество способов установки хуков в win32 — как в ring3, так и в ring0. Проблема работы в ring0 состоит в том, что при сбое ОС может стать нестабильной. Наиболее безопасный для ОС метод — установка хука из ring3.</p>
 <empty-line/>
@@ -1523,7 +1644,8 @@
 <p>• <strong>PUSH + RET</strong> — вставка в область кода инструкций PUSH АДРЕС и RET для перехода на нужный адрес. Как правило, управление нужно передавать в оригинальную область, что требует её восстановления в определённый момент [R.9].</p>
 <p>• <strong>SetWindowHook...</strong> — с помощью этих API регистрируется обратный вызов для различных системных событий [R.10].</p>
 <empty-line/>
-<subtitle>2.5.1 Проблемы</subtitle>
+</section>
+<section id="toc_sub_000124"><title><p>2.5.1 Проблемы</p></title>
 <empty-line/>
 <p>Некоторые проблемы методов установки хуков в ring3:</p>
 <empty-line/>
@@ -1537,7 +1659,8 @@
 <empty-line/>
 <p>Примечание: преимущества и возможности PEB HOOKING [T.1] описаны в разделе 7.</p>
 <empty-line/>
-<subtitle>3. Дизайн</subtitle>
+</section>
+<section id="toc_sub_000125"><title><p>3. Дизайн</p></title>
 <empty-line/>
 <p>В данном разделе рассматривается базовая схема успешной реализации PEB HOOKING [T.1]. Реализация не представляет особой сложности, если понять, зачем выполняется каждый шаг.</p>
 <empty-line/>
@@ -1547,11 +1670,13 @@
 <p>2. В списке, который использует загрузчик win32 и в котором содержатся все загруженные на данный момент модули, необходимо обменять ряд полей между DLL_FAKE и DLL_REAL.</p>
 <p>3. Необходимо, чтобы IAT [R.3] всех загруженных модулей, кроме DLL_REAL и, возможно, DLL_FAKE, указывали на функции, экспортируемые DLL_FAKE.</p>
 <empty-line/>
-<subtitle>3.1 Подготовительные шаги к PEB HOOKING</subtitle>
+</section>
+<section id="toc_sub_000126"><title><p>3.1 Подготовительные шаги к PEB HOOKING</p></title>
 <empty-line/>
 <p>Прежде всего необходимо загрузить DLL_FAKE в память процесса, над которым выполняется PEB HOOKING [T.1]. DLL_FAKE должна содержать как минимум те же экспорты в том же порядке, что и DLL_REAL.</p>
 <empty-line/>
-<subtitle>3.2 Обмен данными в LoaderData</subtitle>
+</section>
+<section id="toc_sub_000127"><title><p>3.2 Обмен данными в LoaderData</p></title>
 <empty-line/>
 <p>Необходимо найти в списке записи DLL_FAKE и DLL_REAL по идентификационным полям LDR_MODULE, после чего выполнить обмен следующими данными:</p>
 <p>• EntryPoint</p>
@@ -1576,11 +1701,13 @@
 <empty-line/>
 <p>P.S.: При поиске по InLoadOrderModList первой, как правило, встречается запись LDR_MODULE главного модуля процесса. В примере она опущена для наглядности.</p>
 <empty-line/>
-<subtitle>3.3 Динамическая загрузка модулей</subtitle>
+</section>
+<section id="toc_sub_000128"><title><p>3.3 Динамическая загрузка модулей</p></title>
 <empty-line/>
 <p>Когда процесс, над которым выполнен PEB HOOKING [T.1], динамически загружает модуль [R.12], имеющий импорты из DLL_REAL, его IAT [R.3] будет автоматически заполнена соответствующими экспортами DLL_FAKE.</p>
 <empty-line/>
-<subtitle>3.4 Восстановление IAT</subtitle>
+</section>
+<section id="toc_sub_000129"><title><p>3.4 Восстановление IAT</p></title>
 <empty-line/>
 <p>За исключением модулей DLL_FAKE и DLL_REAL, все IAT [R.3], содержащие адреса экспортов DLL_REAL, должны быть заменены соответствующими адресами из DLL_FAKE. IAT [R.3] самой DLL_FAKE изменять не следует, поскольку ей может понадобиться вызывать экспорты DLL_REAL.</p>
 <empty-line/>
@@ -1612,11 +1739,13 @@
 <empty-line/>
 <p>Как видно, поток сначала проходит через DLL_FAKE, которая затем вызывает оригинальный LoadLibrary (DLL_REAL).</p>
 <empty-line/>
-<subtitle>3.5 Запуск выполнения</subtitle>
+</section>
+<section id="toc_sub_000130"><title><p>3.5 Запуск выполнения</p></title>
 <empty-line/>
 <p>После выполнения всех предыдущих шагов можно начинать выполнение процесса и проверять корректность работы.</p>
 <empty-line/>
-<subtitle>3.6 API, работающие с модулями</subtitle>
+</section>
+<section id="toc_sub_000131"><title><p>3.6 API, работающие с модулями</p></title>
 <empty-line/>
 <p>API LoadLibrary, GetModuleHandle, EnumProcessModules [R.12] и другие используют поле LoaderData из PEB [T.1]. Это означает, что при любом обращении к DLL_REAL они фактически будут взаимодействовать с DLL_FAKE. Например:</p>
 <empty-line/>
@@ -1635,7 +1764,8 @@
 <empty-line/>
 <p>Благодаря PEB HOOKING [T.1] нет необходимости изменять поведение API, работающих с модулями, чтобы они использовали DLL_FAKE.</p>
 <empty-line/>
-<subtitle>3.7 Новая концепция: DLL MINIFILTER</subtitle>
+</section>
+<section id="toc_sub_000132"><title><p>3.7 Новая концепция: DLL MINIFILTER</p></title>
 <empty-line/>
 <p>DLL MINIFILTER — название, которое мы дали возможности пропускать вызов экспорта через несколько DLL_FAKE. Одно из важнейших преимуществ этого метода — возможность модульного расширения или ограничения функциональности при вызове экспорта.</p>
 <empty-line/>
@@ -1651,13 +1781,15 @@
 <empty-line/>
 <p>В приведённых примерах все DLL_FAKE передают управление соответствующей DLL_REAL.</p>
 <empty-line/>
-<subtitle>3.8 Частые проблемы</subtitle>
+</section>
+<section id="toc_sub_000133"><title><p>3.8 Частые проблемы</p></title>
 <empty-line/>
 <p>При выполнении PEB HOOKING [T.1] могут возникать определённые проблемы. Ниже приведена таблица с проблемами и возможными решениями:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_010_phook_peb_hooker_0666_418037aac0.png"/>
 <empty-line/>
-<subtitle>4. phook</subtitle>
+</section>
+<section id="toc_sub_000134"><title><p>4. phook</p></title>
 <empty-line/>
 <p>phook позволяет выполнять PEB HOOKING [T.1] (и другие операции) простым способом. phook — проект, состоящий из нескольких модулей:</p>
 <empty-line/>
@@ -1666,7 +1798,8 @@
 <p>• <strong>CreateExp</strong> — программа, генерирующая из DLL_REAL исходный код, необходимый для создания DLL_FAKE.</p>
 <p>• <strong>ph_ker32.dll</strong> — DLL_FAKE для kernel32.dll. ph_ker32.dll отслеживает обращения к API: CreateFileA и CreateFileW [R.14].</p>
 <empty-line/>
-<subtitle>4.1 InjectorDLL</subtitle>
+</section>
+<section id="toc_sub_000135"><title><p>4.1 InjectorDLL</p></title>
 <empty-line/>
 <p>Программа, создающая приостановленный процесс и внедряющая в него DLL. Для внедрения <code>C:\console.dll</code> в соответствующий процесс <code>C:\poc.exe</code>:</p>
 <p>• Указать тип процесса:</p>
@@ -1689,7 +1822,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_010_phook_peb_hooker_0740_ba5a65c98c.png"/>
 <empty-line/>
-<subtitle>4.2 Console Control</subtitle>
+</section>
+<section id="toc_sub_000136"><title><p>4.2 Console Control</p></title>
 <empty-line/>
 <p>Console Control — DLL, внедряемая в процесс, над которым нужно выполнить PEB HOOKING [T.1]. Позволяет выполнять PEB HOOKING [T.1] и другие задачи в интерактивном режиме через командную консоль по сокетам. Используемый порт записывается в файл <code>C:\ph_listen_ports.log</code> в формате PID - PORT. Пример для процесса с PID 2456, прослушивающего порт 1234: <code>2456 - 1234</code>.</p>
 <empty-line/>
@@ -1710,7 +1844,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_010_phook_peb_hooker_0795_c05aaf8bdf.png"/>
 <empty-line/>
-<subtitle>4.3 CreateExp</subtitle>
+</section>
+<section id="toc_sub_000137"><title><p>4.3 CreateExp</p></title>
 <empty-line/>
 <p>CreateExp — программа, генерирующая из DLL_REAL исходный код, необходимый для создания DLL_FAKE. В настоящее время создаёт файлы <code>.c</code> и <code>.def</code> для использования с mingw.</p>
 <empty-line/>
@@ -1725,7 +1860,8 @@
 <empty-line/>
 <p>По умолчанию экспорты DLL_FAKE переходят к соответствующим экспортам DLL_REAL.</p>
 <empty-line/>
-<subtitle>4.3.1 Forwarder DLL</subtitle>
+</section>
+<section id="toc_sub_000138"><title><p>4.3.1 Forwarder DLL</p></title>
 <empty-line/>
 <p>CreateExp преобразует Forwarder DLL [R.3] в обычные экспорты, что позволяет выполнять PEB HOOKING для функций-форвардеров.</p>
 <empty-line/>
@@ -1739,7 +1875,8 @@
 <empty-line/>
 <p>Таким образом, можно реализовать хук HeapAlloc (kernel32.dll).</p>
 <empty-line/>
-<subtitle>4.4 ph_ker32.dll</subtitle>
+</section>
+<section id="toc_sub_000139"><title><p>4.4 ph_ker32.dll</p></title>
 <empty-line/>
 <p>ph_ker32.dll создана для выполнения PEB HOOKING [T.1] над kernel32.dll; она отслеживает обращения к API <code>CreateFileA</code> и <code>CreateFileW</code> [R.14], а при вызове любой другой функции автоматически переходит к оригиналу.</p>
 <empty-line/>
@@ -1762,7 +1899,8 @@
 <image l:href="#img__code_blocks_issue_065_010_phook_peb_hooker_0940_ecaddca2a0_part01.png"/>
 <image l:href="#img__code_blocks_issue_065_010_phook_peb_hooker_0940_ecaddca2a0_part02.png"/>
 <empty-line/>
-<subtitle>4.4.1 Проблемы со стеком</subtitle>
+</section>
+<section id="toc_sub_000140"><title><p>4.4.1 Проблемы со стеком</p></title>
 <empty-line/>
 <p>Когда нужно передать управление API, прототип которого неизвестен, необходимо передать стек оригинальному API в неизменном виде. В mingw это достигается с помощью опции компилятора <code>-fomit-frame-pointer</code> [R.15] и инструкции JMP (ASM) к оригинальному API.</p>
 <empty-line/>
@@ -1775,7 +1913,8 @@
 <empty-line/>
 <p>Функции типа <code>_stdcall</code> не следует компилировать с опцией <code>-fomit-frame-pointer</code> [R.15].</p>
 <empty-line/>
-<subtitle>4.4.2 Проблемы с регистрами</subtitle>
+</section>
+<section id="toc_sub_000141"><title><p>4.4.2 Проблемы с регистрами</p></title>
 <empty-line/>
 <p>Не всегда достаточно передать стек нетронутым; иногда экспорты напрямую используют значения регистров. Перед передачей управления оригинальному экспорту необходимо сохранить регистры, вставив в код инструкции PUSHAD и POPAD:</p>
 <empty-line/>
@@ -1787,7 +1926,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_010_phook_peb_hooker_1067_9e20f0ee96.png"/>
 <empty-line/>
-<subtitle>4.4.3 Макрос JMP</subtitle>
+</section>
+<section id="toc_sub_000142"><title><p>4.4.3 Макрос JMP</p></title>
 <empty-line/>
 <p>Макрос JMP необходим, поскольку заголовочные файлы (<code>.h</code>) содержат не все объявления DLL. С помощью макроса JMP адрес экспорта получается через GetProcAddress [R.12] во время выполнения.</p>
 <empty-line/>
@@ -1795,7 +1935,8 @@
 <empty-line/>
 <p>Код предназначен для mingw [R.16] с опцией компилятора <code>-masm=intel</code>.</p>
 <empty-line/>
-<subtitle>4.4.4 Версии</subtitle>
+</section>
+<section id="toc_sub_000143"><title><p>4.4.4 Версии</p></title>
 <empty-line/>
 <p>В состав phook включены различные версии ph_ker32 для следующих систем:</p>
 <empty-line/>
@@ -1805,7 +1946,8 @@
 <empty-line/>
 <p>Исходные коды расположены в <code>ph_ker32/SO</code>, бинарные файлы — в <code>bin/OS</code>.</p>
 <empty-line/>
-<subtitle>4.5 Использование phook</subtitle>
+</section>
+<section id="toc_sub_000144"><title><p>4.5 Использование phook</p></title>
 <empty-line/>
 <p>Предположим, нам нужно выполнить PEB HOOKING [T.1] над kernel32.dll с помощью ph_ker32.dll; в качестве примера выбрана программа <code>poc.exe</code> (входит в папку <code>bin\</code> phook).</p>
 <empty-line/>
@@ -1837,7 +1979,8 @@
 <p><strong>7.</strong></p>
 <image l:href="#img__code_blocks_issue_065_010_phook_peb_hooker_1248_18cbdda628.png"/>
 <empty-line/>
-<subtitle>4.5.1 DLL MINIFILTER</subtitle>
+</section>
+<section id="toc_sub_000145"><title><p>4.5.1 DLL MINIFILTER</p></title>
 <empty-line/>
 <p>phook позволяет реализовать DLL MINIFILTER (см. раздел 3.7) простым способом. Достаточно выполнить PEB HOOKING [T.1], командой <code>pebhook</code>, над именем DLL_FAKE, которое стало именем DLL_REAL.</p>
 <empty-line/>
@@ -1853,7 +1996,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_010_phook_peb_hooker_1285_ea35f59036.png"/>
 <empty-line/>
-<subtitle>4.6 Частые проблемы</subtitle>
+</section>
+<section id="toc_sub_000146"><title><p>4.6 Частые проблемы</p></title>
 <empty-line/>
 <p>Помимо проблем из раздела 3.8, существуют и другие:</p>
 <empty-line/>
@@ -1861,7 +2005,8 @@
 <empty-line/>
 <p>Также могут существовать иные проблемы, обусловленные ошибками программирования и/или проектирования.</p>
 <empty-line/>
-<subtitle>5. TODO</subtitle>
+</section>
+<section id="toc_sub_000147"><title><p>5. TODO</p></title>
 <empty-line/>
 <p>В настоящее время мы работаем над:</p>
 <p>• Выполнением PEB HOOKING [T.1] до запуска:</p>
@@ -1873,7 +2018,8 @@
 <p>• Улучшением InjectorDLL:</p>
 <p>• Автоматическое определение «GUI process» и «Console process».</p>
 <empty-line/>
-<subtitle>6. Тестирование</subtitle>
+</section>
+<section id="toc_sub_000148"><title><p>6. Тестирование</p></title>
 <empty-line/>
 <p>Проведено тестирование phook в различных версиях Windows и с различными программами.</p>
 <empty-line/>
@@ -1894,7 +2040,8 @@
 <p>• pebtry Beta 5</p>
 <p>• pe32analyzer Beta 2</p>
 <empty-line/>
-<subtitle>7. Преимущества и возможности</subtitle>
+</section>
+<section id="toc_sub_000149"><title><p>7. Преимущества и возможности</p></title>
 <empty-line/>
 <p>Главное преимущество PEB HOOKING [T.1] перед другими методами перехвата — необходимость применить его лишь однажды. После установки хука на DLL любой загружаемый модуль автоматически получит в свою IAT [R.3] экспорты DLL_FAKE. Остальные методы требуют повторного применения хука при каждой загрузке нового модуля.</p>
 <empty-line/>
@@ -1968,13 +2115,15 @@
 <empty-line/>
 <p>• <strong>... и дай волю воображению ;-)</strong></p>
 <empty-line/>
-<subtitle>8. Заключение</subtitle>
+</section>
+<section id="toc_sub_000150"><title><p>8. Заключение</p></title>
 <empty-line/>
 <p>Если необходимо перехватить один API/экспорт, можно воспользоваться любым из существующих методов. Однако если требуется мониторинг или виртуализация нескольких API/экспортов, phook значительно упрощает реализацию: достаточно запрограммировать только нужную функциональность API/экспортов.</p>
 <empty-line/>
 <p>Кроме того, данный метод ориентирован на обратную инженерию программного обеспечения и систем защиты от вредоносного кода, поскольку затрудняет альтернативные методы поиска экспортов и устранения хуков.</p>
 <empty-line/>
-<subtitle>9. Благодарности</subtitle>
+</section>
+<section id="toc_sub_000151"><title><p>9. Благодарности</p></title>
 <empty-line/>
 <p>Рекомендации по статье:</p>
 <p>• phrack staff</p>
@@ -2003,29 +2152,33 @@
 <empty-line/>
 <p>И особая благодарность YJesus — http://www.security-projects.com</p>
 <empty-line/>
-<subtitle>10. Смежные работы</subtitle>
+</section>
+<section id="toc_sub_000152"><title><p>10. Смежные работы</p></title>
 <empty-line/>
 <p><strong>[T.1]</strong> — Авторам не известны работы, аналогичные phook. Тем не менее существует статья о PEB HOOKING, написанная Deroko: «PEB DLL Hooking Novel method to Hook DLLs». Статья опубликована в ARTeam-Ezine, номер 2.</p>
 <empty-line/>
 <p>• http://www.arteam.accessroot.com/ezine/file_info/download1.php?file=ARTeam.eZine.Number2.rar</p>
 <empty-line/>
-<subtitle>11. Ссылки</subtitle>
+</section>
+<section id="toc_sub_000153"><title><p>11. Ссылки</p></title>
 <empty-line/>
 <p><strong>[R.1]</strong> — Структуры PEB:</p>
 <image l:href="#img__code_blocks_issue_065_010_phook_peb_hooker_1505_3762ac9b04_part01.png"/>
 <image l:href="#img__code_blocks_issue_065_010_phook_peb_hooker_1505_3762ac9b04_part02.png"/>
 <empty-line/>
-<subtitle>12. Исходный код</subtitle>
+</section>
+<section id="toc_sub_000154"><title><p>12. Исходный код</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_010_phook_peb_hooker_1576_c192d9075c.png"/>
 <empty-line/>
 <cite><p>Исходный код phook распространяется в виде UU-encoded архива phookt~1.gz, приложенного к оригинальной статье. Полный UU-encoded блок содержится в оригинальном файле Phrack Issue 65, File 10.</p></cite>
 </section>
+</section>
 <section id="sec_issue_065_011_hacking_the_49_wifi_finder">
 <title><p>Взлом $49-долларового Wifi-искателя</p></title>
 <p><strong>Автор:</strong> openschemes</p>
 <empty-line/>
-<subtitle>Содержание</subtitle>
+<section id="toc_sub_000155"><title><p>Содержание</p></title>
 <empty-line/>
 <p>1. Введение</p>
 <p>2. Обзор устройства</p>
@@ -2038,7 +2191,8 @@
 <p>9. Заключение</p>
 <p>A. Ссылки</p>
 <empty-line/>
-<subtitle>1.0 - Введение</subtitle>
+</section>
+<section id="toc_sub_000156"><title><p>1.0 - Введение</p></title>
 <empty-line/>
 <p>Рождество прошло, и в холодные недели после него мы уже успели заскучать по блестящим новым игрушкам, оставленным Сантой под ёлкой. Единственный выход — взломать их! В этой статье описывается наша успешная атака на популярный wifi-искатель, и вы получите возможность использовать устройство новыми и интересными способами. Вас ограничивает только ваша собственная фантазия!</p>
 <empty-line/>
@@ -2064,7 +2218,8 @@
 <empty-line/>
 <p>Это лишь краткий обзор верхнего уровня схемы, и, как вы скоро убедитесь, для достижения каждого из этих шагов требуется немало низкоуровневого хакинга. Мы надеемся, что этот текст окажется для вас информативным и познавательным, пока мы описываем нашу атаку на это интересное маленькое устройство.</p>
 <empty-line/>
-<subtitle>2.0 - Обзор устройства</subtitle>
+</section>
+<section id="toc_sub_000157"><title><p>2.0 - Обзор устройства</p></title>
 <empty-line/>
 <p>Сегодня на рынке существует несколько уровней wifi-искателей. Дешёвые устройства просто обнаруживают микроволновое излучение. Они реагируют на 802.11, но также на некоторые радиотелефоны, радионяни или на соседскую маму, разогревающую суп в микроволновке. Это мусор, состоящий лишь из усилителя и полосового фильтра. Устройства следующего уровня умеют обнаруживать точки доступа, но дают обратную связь лишь в виде нескольких светодиодов, показывающих близость сигнала. Тоже мусор.</p>
 <empty-line/>
@@ -2080,7 +2235,8 @@
 <empty-line/>
 <p>При удержании Seek во время включения устройство входит в простую процедуру самодиагностики для проверки ЖК-экрана и внутренней синхронизации. При удержании Next во время включения устройство переходит в режим обновления прошивки для загрузки новой прошивки через USB. Замечательная функция! Но не думайте, что мы просто патчим скучный вендорский код и называем это взломом: на большинстве найденных нами устройств этот режим обновления прошивки устарел и более не способен загружать данные в хост-микроконтроллер. Нам нужен новый способ проникнуть в микроконтроллер, и это сделали непросто.</p>
 <empty-line/>
-<subtitle>3.0 - Вскрытие устройства</subtitle>
+</section>
+<section id="toc_sub_000158"><title><p>3.0 - Вскрытие устройства</p></title>
 <empty-line/>
 <p>Проще всего открывается ZyXel/Allnet, затем Linksys и потом TrendNet. Последовательно «удешевляя» производство, вендоры невольно усложнили вскрытие корпуса без повреждений. Но нас небольшие повреждения не пугают, и даже TrendNet с отломанными фиксаторами можно закрыть обратно и вернуть в магазин без проблем. Хотя вы бы никогда так не поступили, конечно... Просто для примера.</p>
 <empty-line/>
@@ -2094,7 +2250,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_011_hacking_the_49_wifi_finder_0100_1febe19f86.png"/>
 <empty-line/>
-<subtitle>4.0 - Внутреннее устройство и исследование</subtitle>
+</section>
+<section id="toc_sub_000159"><title><p>4.0 - Внутреннее устройство и исследование</p></title>
 <empty-line/>
 <p>Как было сказано ранее, всю верхнюю плату можно использовать как обычный автономный USB wifi-адаптер для ПК. Эта архитектура на базе чипсета ZD1211 широко распространена и нам неинтересна. За информацией о данной плате и устройстве ZD1211 отсылаю вас к отличным материалам сообщества Linux, чьи драйверы и исходный код свободно доступны по ссылке [7]. Там вы найдёте исходный код с описанием USB-эндпоинтов, настройки регистров ZD1211, режима прослушивания (promiscuous mode), каналов и другие полезные сведения.</p>
 <empty-line/>
@@ -2130,7 +2287,8 @@
 <empty-line/>
 <p>MX10E8050A — это простой клон 8051 с несколькими портами GPIO, UART, 2 Кб внутренней RAM и довольно большой 64-килобайтной EEPROM (разделённой на 4 блока по 16 Кб) для хранения кода. Уже эта небольшая порция знаний помогает нам понять, для чего нужно странное смещение 0x4000 в загрузчике прошивки: данную EEPROM можно стирать только блоками по 16 Кб, и нельзя (не следует?) стирать блок, из которого выполняется код. Поэтому, чтобы иметь «режим обновления прошивки», разработчики должны были разместить эти процедуры вместе с векторами переходов и обработчиками прерываний в первом блоке EEPROM, с 0x0000 по 0x3FFF. Далее идут процедуры поиска точек доступа в 0x4000–0x7FFF, а два верхних блока не используются. ПРИМЕЧАНИЕ: На самом деле они служат буферной памятью для записи новой прошивки перед её прошивкой по адресу 0x4000, но не будем вдаваться в детали.</p>
 <empty-line/>
-<subtitle>5.0 - Доступ к ISP-загрузчику</subtitle>
+</section>
+<section id="toc_sub_000160"><title><p>5.0 - Доступ к ISP-загрузчику</p></title>
 <empty-line/>
 <p>На этом этапе всё начинает стремительно проясняться. Мы завершили промежуточные цели по исследованию и идентификации нашей цели, и беглое изучение описания MX10 сообщает нам, что в каждом устройстве в ПЗУ прошит более глубокий загрузчик. Это типично для клонов 8051, и широкая улыбка появилась на наших лицах, когда мы узнали, как его активировать.</p>
 <empty-line/>
@@ -2150,7 +2308,8 @@
 <empty-line/>
 <p>Альтернативный вариант — купить дешёвый преобразователь USB-RS232 и просто подпаяться к его 3-вольтовым линиям RxD и TxD, избавив себя от необходимости собирать схему на MAX3232.</p>
 <empty-line/>
-<subtitle>6.0 - Возможности ISP-загрузчика</subtitle>
+</section>
+<section id="toc_sub_000161"><title><p>6.0 - Возможности ISP-загрузчика</p></title>
 <empty-line/>
 <p>Итак, вы собрали и проверили интерфейсную плату и подключили её к wifi-искателю. Вы соединили J1 и J4 перемычкой для активации загрузчика и включили wifi-искатель, пока на ПК запущен HyperTerminal. Что дальше?</p>
 <empty-line/>
@@ -2230,7 +2389,8 @@
 <empty-line/>
 <p>Четвёртый раздел используется как рабочий буфер в режиме обновления прошивки для временной записи новой прошивки. При входе в режим обновления прошивки блок C000 стирается. По мере поступления новой прошивки на устройство она сначала записывается сюда. После успешной передачи данные проверяются на корректность. Если всё верно, блок 4000 стирается, и эти данные копируются туда для постоянного использования в качестве новой процедуры поиска. Этот упрощённый процесс обновления несколько безопаснее, поскольку данные загружаются и проверяются до выполнения обновления — именно на нём сосредоточен следующий раздел.</p>
 <empty-line/>
-<subtitle>7.0 - Возможности программного загрузчика</subtitle>
+</section>
+<section id="toc_sub_000162"><title><p>7.0 - Возможности программного загрузчика</p></title>
 <empty-line/>
 <p>Для тех, кто опасается стирать EEPROM и работать с ней на низком уровне, можно также взаимодействовать с программным загрузчиком, известным как «режим обновления прошивки». Он ограничен работой с 16-килобайтным блоком EEPROM по адресу 0x4000 (процедуры поиска), но в ряде случаев это всё равно полезно. Это хорошая альтернатива для тех, кто не хочет рисковать повредить память устройства или загрузочный вектор. Я считаю его очень безопасным, потому что сам программный загрузчик находится в блоке 0x0000, отдельно от записи и стирания, выполняемых по адресу 0x4000 и выше. Так что вы никак не можете потерять возможность вернуться к исходной EEPROM.</p>
 <empty-line/>
@@ -2264,7 +2424,8 @@
 <empty-line/>
 <p>Обратите внимание: блок 0xC000 и, возможно, блок 0x8000 используются как буферная память при загрузке нового 16-килобайтного BIN-файла. Если вы разместили собственный код там до входа в режим обновления прошивки, имейте в виду, что эти блоки будут автоматически стёрты при входе в режим обновления.</p>
 <empty-line/>
-<subtitle>8.0 - Внедрение собственного кода</subtitle>
+</section>
+<section id="toc_sub_000163"><title><p>8.0 - Внедрение собственного кода</p></title>
 <empty-line/>
 <p>Предполагаем, что у вас есть компилятор и необходимые знания для написания кода 8051. Следующий шаг — вставить собственный код для выполнения. Есть два способа: путём патчинга процедур поиска при использовании режима обновления прошивки; или путём патчинга загрузчика при полной перезаписи памяти через ISP-загрузчик.</p>
 <empty-line/>
@@ -2302,7 +2463,8 @@
 <empty-line/>
 <p>Очевидно, что лучшие взломы не используют hex-редактирование, а создают полный .ASM-файл воссоздания остальной EEPROM. Либо мы сами, либо другая группа в конечном счёте выпустит этот .ASM-файл — переговоры ещё ведутся — но это займёт некоторое время, поскольку мы все ещё изучаем дизассемблирование.</p>
 <empty-line/>
-<subtitle>9.0 - Заключение</subtitle>
+</section>
+<section id="toc_sub_000164"><title><p>9.0 - Заключение</p></title>
 <empty-line/>
 <p>В этой статье мы лишь слегка коснулись поверхности, чтобы дать вам инструменты и отправную точку для собственных разработок. Более продвинутые техники, например вставка двух интерфейсов RS232 между двумя платами, позволяют отслеживать всё взаимодействие в процессе поиска или в режиме обновления прошивки. Таким образом можно легко увидеть командные последовательности, передаваемые между двумя чипами. Кроме того, USB-сниффинг — отличный инструмент для наблюдения за высокоуровневым взаимодействием между ПК и искателем в любой момент. Эти команды также можно увидеть при полном дизассемблировании и анализе файлов прошивки, что не было включено сюда. Используйте собственное воображение и творчество — это откроет множество других возможностей, которые мы даже не рассматривали!</p>
 <empty-line/>
@@ -2310,15 +2472,17 @@
 <empty-line/>
 <p>Удачи и счастливого хакинга!</p>
 <empty-line/>
-<subtitle>A.0 - Ссылки</subtitle>
+</section>
+<section id="toc_sub_000165"><title><p>A.0 - Ссылки</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_011_hacking_the_49_wifi_finder_0572_d91b955266.png"/>
+</section>
 </section>
 <section id="sec_issue_065_012_samba_wins_stack_overflow">
 <title><p>Искусство эксплуатации: технический анализ переполнения стека WINS в Samba (CVE-2007-5398)</p></title>
 <p><strong>Автор:</strong> max_packetz@felinemenace.org</p>
 <empty-line/>
-<subtitle>Содержание</subtitle>
+<section id="toc_sub_000166"><title><p>Содержание</p></title>
 <empty-line/>
 <p>1. Введение</p>
 <p>2. Первичный анализ</p>
@@ -2337,17 +2501,19 @@
 <p>• 5.7 — Дополнительные заметки по эксплуатации</p>
 <p>6. Ссылки</p>
 <empty-line/>
-<subtitle>1 — Введение</subtitle>
+</section>
+<section id="toc_sub_000167"><title><p>1 — Введение</p></title>
 <empty-line/>
 <p>15 ноября 2007 года команда Samba опубликовала уведомление безопасности [1], описывающее переполнение стека в демоне nmbd — конкретно в функции <code>reply_netbios_packet()</code> файла <code>nmbd/nmbd_packets.c</code>.</p>
 <empty-line/>
-<p>Эта уязвимость требует специфической нестандартной конфигурации в <code>smb.conf</code>, чтобы соответствующий путь выполнения кода был активен. Конкретно, должен быть установлен параметр <code>&quot;wins support = yes&quot;</code>. Уязвимость не воспроизводится при установке по умолчанию и вряд ли будет обнаружена случайно. В остальном это достаточно стандартная уязвимость, ничем особым не выделяющаяся.</p>
+<p>Эта уязвимость требует специфической нестандартной конфигурации в <code>smb.conf</code>, чтобы соответствующий путь выполнения кода был активен. Конкретно, должен быть установлен параметр <code>"wins support = yes"</code>. Уязвимость не воспроизводится при установке по умолчанию и вряд ли будет обнаружена случайно. В остальном это достаточно стандартная уязвимость, ничем особым не выделяющаяся.</p>
 <empty-line/>
 <p>Данная статья — мой текущий комментарий и анализ в процессе исследования и эксплуатации этой ошибки. Все правки статьи вносились постфактум — так что если я где-то ошибся или обнаружил что-то применимое позже, вы сможете прочитать об этом здесь.</p>
 <empty-line/>
 <p>Изначально меня интересовало, как это затрагивает Ubuntu 7.10 по умолчанию, однако впоследствии фокус сместился из-за различных механизмов защиты.</p>
 <empty-line/>
-<subtitle>2 — Первичный анализ</subtitle>
+</section>
+<section id="toc_sub_000168"><title><p>2 — Первичный анализ</p></title>
 <empty-line/>
 <p>Разница между samba-3.0.26 и samba-3.0.27 показана ниже:</p>
 <empty-line/>
@@ -2363,7 +2529,7 @@
 <empty-line/>
 <p>Чтобы воспроизвести уязвимость, нужно определить, как добраться до этого кода в уязвимом состоянии — то есть с полем <code>len</code>, превышающим 576 байт.</p>
 <empty-line/>
-<p>Выполним <code>grep -A 6 reply_netbios_ * | less</code> в каталоге <code>source/nmbd</code>. Нас особенно интересует следующее (особенно с учётом упоминания в advisory параметра <code>&quot;wins support = yes&quot;</code>):</p>
+<p>Выполним <code>grep -A 6 reply_netbios_ * | less</code> в каталоге <code>source/nmbd</code>. Нас особенно интересует следующее (особенно с учётом упоминания в advisory параметра <code>"wins support = yes"</code>):</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_012_samba_wins_stack_overflow_0109_dd9ddde142.png"/>
 <empty-line/>
@@ -2399,7 +2565,8 @@
 <empty-line/>
 <p>Значение в <code>ecx</code> — <code>0x6b6a6968</code> — взято из функции <code>CreatePackets()</code> в переменной <code>ip</code>. Это даёт нам отправную точку для эксплуатации сервиса.</p>
 <empty-line/>
-<subtitle>3 — Механизмы защиты Ubuntu 7.10</subtitle>
+</section>
+<section id="toc_sub_000169"><title><p>3 — Механизмы защиты Ubuntu 7.10</p></title>
 <empty-line/>
 <p>Краткий обзор превентивных механизмов безопасности в установке Ubuntu 7.10 по умолчанию.</p>
 <empty-line/>
@@ -2426,7 +2593,8 @@
 <p>• Рандомизация памяти (частичная: <code>.text</code> и <code>vdso</code> статичны).</p>
 <p>• Проверка стекового куки может как негативно, так и позитивно сказаться на путях эксплуатации.</p>
 <empty-line/>
-<subtitle>4 — Разбор исходного кода</subtitle>
+</section>
+<section id="toc_sub_000170"><title><p>4 — Разбор исходного кода</p></title>
 <empty-line/>
 <p>Для эксплуатации уязвимости необходимо:</p>
 <empty-line/>
@@ -2480,9 +2648,11 @@
 <empty-line/>
 <p>Поскольку большинство популярных Linux-платформ поддерживают SSP, я решил взглянуть на FreeBSD CURRENT — и по результатам <code>objdump</code> на бинарнике nmbd там, похоже, защиты нет. Однако разочаровало то, что после экспериментов с воспроизведением уязвимости оказалось: FreeBSD тоже использует стековые куки (по крайней мере, при имеющемся уровне знаний и в отсутствие багов в самом механизме проверки).</p>
 <empty-line/>
-<subtitle>5 — Написание эксплойта для Samba 3.0.23c на FreeBSD 6.2</subtitle>
+</section>
+<section id="toc_sub_000171"><title><p>5 — Написание эксплойта для Samba 3.0.23c на FreeBSD 6.2</p></title>
 <empty-line/>
-<subtitle>5.1 — Проверка допустимых флагов регистрации</subtitle>
+</section>
+<section id="toc_sub_000172"><title><p>5.1 — Проверка допустимых флагов регистрации</p></title>
 <empty-line/>
 <p>Для корректной эксплуатации демона nmbd необходимо точно контролировать раскладку стека. Анализируя, как укладываются данные, замечаем: параметр flags берётся из того, с чем зарегистрирован хост. Из-за возможных ограничений нужно проверить допустимый диапазон значений.</p>
 <empty-line/>
@@ -2492,7 +2662,8 @@
 <empty-line/>
 <p>Из этого следует, что валидны только определённые биты в поле flags запроса, и в зависимости от их значений IP-адрес в запросе регистрации может меняться. Для простоты будем использовать <code>0x0000</code> в качестве флагов и разберёмся с вытекающими проблемами по мере их появления.</p>
 <empty-line/>
-<subtitle>5.2 — Правильный порядок данных на стеке</subtitle>
+</section>
+<section id="toc_sub_000173"><title><p>5.2 — Правильный порядок данных на стеке</p></title>
 <empty-line/>
 <p>Samba хранит NMB-регистрации в формате tdb [4] — библиотеке-бэкенде для баз данных, разработанной командой Samba. Из-за особенностей tdb порядок возврата зарегистрированных флагов и IP-адресов не обязательно совпадает с порядком регистрации. Дополнительный анализ показывает, что для корректной эксплуатации нужно принудительно задать определённый порядок.</p>
 <empty-line/>
@@ -2510,7 +2681,8 @@
 <empty-line/>
 <p>Это напоминает атаки алгоритмической сложности [5]. Прямой связи нет, но интересно.</p>
 <empty-line/>
-<subtitle>5.3 — Анализ получения управления выполнением</subtitle>
+</section>
+<section id="toc_sub_000174"><title><p>5.3 — Анализ получения управления выполнением</p></title>
 <empty-line/>
 <p>Воспроизводя уязвимость и изучая раскладку стека, видим: сохранённый EIP можно частично перезаписать двумя байтами. При ещё одной перезаписи два старших байта EIP будут содержать два байта флагов, а первый аргумент функции окажется перезаписан. После перезаписи значения <code>orig_packet</code> код nmbd обратится к нему по индексу, копируя 4-байтное значение:</p>
 <empty-line/>
@@ -2536,7 +2708,8 @@
 <empty-line/>
 <p>С этого момента нужно заставить работать шеллкод. Вспоминая раскладку данных (<code>[2 байта flags, оба нулевые][4 байта IP-адрес]</code>) — лучше всего написать специальный декодер.</p>
 <empty-line/>
-<subtitle>5.4 — Шеллкод</subtitle>
+</section>
+<section id="toc_sub_000175"><title><p>5.4 — Шеллкод</p></title>
 <empty-line/>
 <p>Как было сказано, нужен специальный декодер, чтобы использовать универсальный шеллкод, а не портировать его с учётом того, что каждый третий байт — мусор.</p>
 <empty-line/>
@@ -2552,7 +2725,8 @@
 <empty-line/>
 <p>В идеале второй слой шеллкода должен кодировать информацию о соединении поверх существующего сокета/fd, используя протокол NMB. Для боевого эксплойта такое усилие оправдано, но мы этим не занимались.</p>
 <empty-line/>
-<subtitle>5.5 — Получение оболочки</subtitle>
+</section>
+<section id="toc_sub_000176"><title><p>5.5 — Получение оболочки</p></title>
 <empty-line/>
 <p>Объединив всё вышесказанное и определив положение шеллкода на стеке, получаем оболочку:</p>
 <empty-line/>
@@ -2560,7 +2734,8 @@
 <empty-line/>
 <p>Итак, после значительного объёма исследований и анализа мы уже на полпути. Было бы неплохо найти более надёжный адрес возврата.</p>
 <empty-line/>
-<subtitle>5.6 — Повышение надёжности эксплойта</subtitle>
+</section>
+<section id="toc_sub_000177"><title><p>5.6 — Повышение надёжности эксплойта</p></title>
 <empty-line/>
 <p>В текущем виде эксплойт содержит два жёстко заданных значения. Первое — адрес последовательности инструкций, использующей <code>edi</code> для получения управления (пока что <code>0x080728a5</code> для FreeBSD 6.2). Второе — точный адрес начала шеллкода. Адрес стека легко меняется из-за:</p>
 <empty-line/>
@@ -2572,7 +2747,8 @@
 <empty-line/>
 <p>Большая NOP-цепочка может помочь, но 1/3 байт — нулевые/бесполезные, так что это спорно. Более того, если диапазон выбран верно, вероятность попасть в полезную NOP-цепочку составляет лишь 2/3 — иначе крэш (поскольку <code>\x00\x00</code> — это <code>add [eax], al</code>, а <code>eax</code> при попадании в NOP равен 1, что вызовет крэш). Поэтому пока поищем другой способ надёжного получения управления.</p>
 <empty-line/>
-<subtitle>5.6.1 — Статические данные .bss</subtitle>
+</section>
+<section id="toc_sub_000178"><title><p>5.6.1 — Статические данные .bss</p></title>
 <empty-line/>
 <p>В ходе анализа обнаружена интересная функция, вызываемая при отправке регистрационных пакетов:</p>
 <empty-line/>
@@ -2603,7 +2779,8 @@
 <empty-line/>
 <p>После обзора возможностей в заданных ограничениях, я стал просматривать код в поисках более лёгких механизмов для надёжной эксплуатации. Нашёл несколько статических буферов, потенциально полезных, но требующих включённого режима отладки — не лучшее условие для надёжного эксплойта.</p>
 <empty-line/>
-<subtitle>5.6.2 — Утечка памяти</subtitle>
+</section>
+<section id="toc_sub_000179"><title><p>5.6.2 — Утечка памяти</p></title>
 <empty-line/>
 <p>В ходе первоначального воспроизведения я заметил, что nmbd пытается читать из памяти под нашим контролем — возможно, удастся найти утечку/раскрытие памяти. Устанавливая все обычно нулевые IP-адреса в <code>AABB</code>, наблюдаем первый крэш:</p>
 <empty-line/>
@@ -2633,7 +2810,8 @@
 <empty-line/>
 <p>Быстрый анализ бинарника nmbd в Ubuntu 7.10 показал: код проверки стека переупорядочил буферы, поместив структуру <code>res_rec</code> после структуры <code>packet</code>. Это блокирует возможность утечки памяти и раскрытия значения стекового куки.</p>
 <empty-line/>
-<subtitle>5.6.2 — Назад в будущее^W.bss</subtitle>
+</section>
+<section id="toc_sub_000180"><title><p>5.6.2 — Назад в будущее^W.bss</p></title>
 <empty-line/>
 <p>Возвращаясь к состоянию крэша и возможностям статической области <code>.bss</code> в <code>name_to_key()</code>:</p>
 <empty-line/>
@@ -2669,7 +2847,8 @@
 <empty-line/>
 <p>К сожалению, из-за неполной перезаписи EIP нам всё равно нужны два адреса для получения управления. Однако этот механизм надёжнее, чем зависимость от неизменности адресов стека.</p>
 <empty-line/>
-<subtitle>5.7 — Дополнительные заметки по эксплуатации</subtitle>
+</section>
+<section id="toc_sub_000181"><title><p>5.7 — Дополнительные заметки по эксплуатации</p></title>
 <empty-line/>
 <p>Регистрации принимают параметр TTL (время жизни). В исходниках Samba:</p>
 <empty-line/>
@@ -2681,11 +2860,13 @@
 <empty-line/>
 <p>При дальнейшей работе против конкретных целей регистр <code>ebp</code> можно корректно восстановить и вернуть поток выполнения в нужную точку, обеспечив незаметную (seamless) эксплуатацию.</p>
 <empty-line/>
-<subtitle>6 — Ссылки</subtitle>
+</section>
+<section id="toc_sub_000182"><title><p>6 — Ссылки</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_012_samba_wins_stack_overflow_1256_adb3eb979d.png"/>
 <empty-line/>
-<subtitle>7 — Постскриптум</subtitle>
+</section>
+<section id="toc_sub_000183"><title><p>7 — Постскриптум</p></title>
 <empty-line/>
 <p>Я тронут тем, что эта работа вообще была признана достойной включения. Спасибо за поддержку.</p>
 <empty-line/>
@@ -2696,6 +2877,7 @@
 <image l:href="#img__code_blocks_issue_065_012_samba_wins_stack_overflow_1277_3e0bb847b7.png"/>
 <empty-line/>
 <p><emphasis>(Весь uuencoded-блок оставлен как есть — это бинарные данные Python-скрипта.)</emphasis></p>
+</section>
 </section>
 <section id="sec_issue_065_013_underground_myth">
 <title><p>Миф об андерграунде</p></title>
@@ -2711,7 +2893,7 @@
 <p>6. Забытая молодёжь</p>
 <p>7. Связь с будущим</p>
 <empty-line/>
-<subtitle>Миф о хакере</subtitle>
+<section id="toc_sub_000184"><title><p>Миф о хакере</p></title>
 <empty-line/>
 <p>Это заявление о судьбе современного андерграунда. Здесь не будет ни ностальгии, ни мелодрамы, ни риторики «чёрных шляп», ни занудного анализа «белых шляп», которые обычно сопровождают подобные тексты.</p>
 <empty-line/>
@@ -2723,7 +2905,8 @@
 <empty-line/>
 <p>Это история о том, как андерграунд умер.</p>
 <empty-line/>
-<subtitle>Индустрия безопасности</subtitle>
+</section>
+<section id="toc_sub_000185"><title><p>Индустрия безопасности</p></title>
 <empty-line/>
 <cite><p>Потом в американской музыкальной сцене произошли большие перемены</p></cite>
 <cite><p>По обстоятельствам, не зависящим от нас... например, из-за payola</p></cite>
@@ -2754,7 +2937,8 @@
 <empty-line/>
 <p>Андерграунд хакеров, провозглашённый мёртвым.</p>
 <empty-line/>
-<subtitle>«Чёрные шляпы»: два лица</subtitle>
+</section>
+<section id="toc_sub_000186"><title><p>«Чёрные шляпы»: два лица</p></title>
 <empty-line/>
 <p>Было бы легко возложить вину целиком на плечи индустрии безопасности. Многие так и делали. К сожалению, всё не так просто. Возможно, андерграунд мог бы выжить без соблазна в виде шестизначной зарплаты, но одно следует прояснить. Самопровозглашённое движение «чёрных шляп» нисколько не помогает.</p>
 <empty-line/>
@@ -2768,7 +2952,8 @@
 <empty-line/>
 <p>А затем и вовсе умолк.</p>
 <empty-line/>
-<subtitle>Технологии</subtitle>
+</section>
+<section id="toc_sub_000187"><title><p>Технологии</p></title>
 <empty-line/>
 <p>Сама природа технологий — динамичная и неукротимая сила — во многом определила гибель хакерского мира. Во многих случаях, если бы «чёрная шляпа» была активна на 5–10 лет раньше, она была бы технически компетентна и, вполне возможно, внесла бы значительный вклад. Дело в том, что при всём уважении и вопреки всей ностальгии хакерам прошлого было легче.</p>
 <empty-line/>
@@ -2784,7 +2969,8 @@
 <empty-line/>
 <p>Нет больше ни творчества, ни чувства тайного знания.</p>
 <empty-line/>
-<subtitle>Преступники</subtitle>
+</section>
+<section id="toc_sub_000188"><title><p>Преступники</p></title>
 <empty-line/>
 <p>От операции Sundevil до кибертерроризма. Криминализация компьютерного хакинга — и, по ассоциации, самих компьютерных хакеров — нанесла сокрушительный удар по андерграунду. Хакинг был криминализирован двумя способами, почти равнозначными по важности: законодательством о компьютерных преступлениях и новой тенденцией — использованием хакинга настоящими преступниками как метода мошенничества.</p>
 <empty-line/>
@@ -2800,7 +2986,8 @@
 <empty-line/>
 <p>Оставив пустоту, которую слишком сложно заполнить.</p>
 <empty-line/>
-<subtitle>Забытая молодёжь</subtitle>
+</section>
+<section id="toc_sub_000189"><title><p>Забытая молодёжь</p></title>
 <empty-line/>
 <p>Забытый аспект всей этой истории — это, вне всяких сомнений, важность притока новых талантов в мир хакинга. Исторически хакинг принадлежал молодым. С каждым годом средний возраст хакеров в совокупности растёт. Некоторые утверждают, что это признак взросления дисциплины. Ведь что, в самом деле, может привнести молодость в этот технологический ландшафт? Их называют детьми, отмахиваются от них как от несущественных.</p>
 <empty-line/>
@@ -2818,7 +3005,8 @@
 <empty-line/>
 <p>Но больше не хакер.</p>
 <empty-line/>
-<subtitle>Связь с будущим</subtitle>
+</section>
+<section id="toc_sub_000190"><title><p>Связь с будущим</p></title>
 <empty-line/>
 <p>Хакерский андерграунд был планомерно демонтирован — жертва обстоятельств. Не было причины, не было заговора, не было победителя. Покорённый народ — но без завоевателя, без врага для борьбы. Никаких шансов на восстание. Покорён обстоятельствами, если не судьбой.</p>
 <empty-line/>
@@ -2834,9 +3022,10 @@
 <empty-line/>
 <p>Новый мир на рубеже киберпространства — по праву принадлежащий хакерам.</p>
 </section>
+</section>
 <section id="sec_issue_065_014_artificial_consciousness">
 <title><p>Искусственное сознание</p></title>
-<subtitle>Полная симуляция человеческого поведения</subtitle>
+<section id="toc_sub_000191"><title><p>Полная симуляция человеческого поведения</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> -C <strong>Контакт:</strong> c@cdej.org</p>
 <empty-line/>
@@ -2844,7 +3033,8 @@
 <empty-line/>
 <p>Данная статья носит вводный характер — как в отношении классического ИИ, так и в отношении нашей модели ИИ — и не требует никаких предварительных знаний, кроме небольшого любопытства к этой теме. Приятного чтения.</p>
 <empty-line/>
-<subtitle>Содержание</subtitle>
+</section>
+<section id="toc_sub_000192"><title><p>Содержание</p></title>
 <empty-line/>
 <p>• I. Введение</p>
 <p>• a) Аннотация</p>
@@ -2860,9 +3050,11 @@
 <p>• e) Рассуждение</p>
 <p>• IV. Заключение</p>
 <empty-line/>
-<subtitle>I. Введение</subtitle>
+</section>
+<section id="toc_sub_000193"><title><p>I. Введение</p></title>
 <empty-line/>
-<subtitle>a) Аннотация</subtitle>
+</section>
+<section id="toc_sub_000194"><title><p>a) Аннотация</p></title>
 <empty-line/>
 <p>В качестве первичного осмысления искусственного интеллекта необходимо признать важность строгого научного подхода к анализу мыслей.</p>
 <empty-line/>
@@ -2872,7 +3064,8 @@
 <p>• Ценности и выборы (принятие решений)</p>
 <p>• Свобода идти на риск (решение задач)</p>
 <empty-line/>
-<subtitle>b) Центральный дух обработки</subtitle>
+</section>
+<section id="toc_sub_000195"><title><p>b) Центральный дух обработки</p></title>
 <empty-line/>
 <p>Начинать этот проект с нуля означало бы возложить непосильную нагрузку на одну статью. Поэтому мы предположили, что наш ИИ уже освоил общепринятый инструмент коммуникации — английский язык, — в совокупности с набором правил, которые мы выстраиваем как эстетически привлекательную оболочку для данной сущности. Эти правила, как будет объяснено далее, не следуют логике ЭКСПЕРТНЫХ СИСТЕМ, где при изменении человеческих знаний весь модуль приходится перестраивать. Напротив, наша модель будет принимать решения на основе Индекса приоритетов (Index Priority), который автоматически меняется по мере того, как ИИ переживает новые события.</p>
 <empty-line/>
@@ -2882,9 +3075,11 @@
 <empty-line/>
 <p>Размышление об этой конструкции неизбежно поднимает вопросы временных затрат. Как долго займёт такое построение? Минимум одна человеческая жизнь? Но это вполне приемлемо при реализации алгоритмов репликации ИИ второго поколения — базовой модели гибридного воспроизводства ИИ, в результате которого объединяются CPS и базы данных двух ИИ-сущностей. Эта модель двойного наследования не задумана как аналог биологического воспроизводства человека, но связана с принципом двухканальной обработки мыслей, упомянутым выше. Мы склонны считать, что воспроизводство в нашей модели должно происходить между одной парой. Это вопрос ПЛАНИРОВАНИЯ МУЛЬТИАГЕНТНЫХ СИСТЕМ и общественного расписания, что выходит за рамки данной статьи.</p>
 <empty-line/>
-<subtitle>II. Проектирование характера</subtitle>
+</section>
+<section id="toc_sub_000196"><title><p>II. Проектирование характера</p></title>
 <empty-line/>
-<subtitle>a) Психологический рост</subtitle>
+</section>
+<section id="toc_sub_000197"><title><p>a) Психологический рост</p></title>
 <empty-line/>
 <cite><p>«Важно не то, насколько совершенно ты что-то делаешь, а то, как это воспринимают другие.»</p></cite>
 <empty-line/>
@@ -2904,7 +3099,8 @@
 <empty-line/>
 <p>С технической точки зрения, это достаточно просто программируется с помощью современных технологий и языков баз данных. Чем больше обучения и воспитания получает наш CPS и чем эффективнее выстроена система выбора баз данных, тем выше шансы получить уникальный характер и выраженную индивидуальность.</p>
 <empty-line/>
-<subtitle>b) Нейроэффективность</subtitle>
+</section>
+<section id="toc_sub_000198"><title><p>b) Нейроэффективность</p></title>
 <empty-line/>
 <p>Две парадигмы обучения, которые нас интересуют: <strong>ОБУЧЕНИЕ С УЧИТЕЛЕМ</strong> (Supervised) и <strong>ОБУЧЕНИЕ БЕЗ УЧИТЕЛЯ</strong> (Unsupervised).</p>
 <empty-line/>
@@ -2932,7 +3128,8 @@
 <empty-line/>
 <p>Это также означает, что потребуется большой объём информации. Будь то отрицания, сложность или неоднозначность предложений — данная модель ИИ способна обрабатывать их с обнадёживающей скоростью для достижения стадии самообучения. Ассоциируя действия с анализом реакций.</p>
 <empty-line/>
-<subtitle>c) Восприятие → Реакции → Стиль</subtitle>
+</section>
+<section id="toc_sub_000199"><title><p>c) Восприятие → Реакции → Стиль</p></title>
 <empty-line/>
 <p>Восприятие Вселенной — это механизм картирования Времени и Пространства, который мы осуществляем через наши биологические органы чувств. Назовём это ФЛЮКСИОННОЙ ЧУВСТВИТЕЛЬНОСТЬЮ (FLUXION SENSITIVITY).</p>
 <empty-line/>
@@ -2958,9 +3155,11 @@
 <empty-line/>
 <p>Этот ИИ станет первой моделью, способной буквально менять настроение.</p>
 <empty-line/>
-<subtitle>III. Онтология</subtitle>
+</section>
+<section id="toc_sub_000200"><title><p>III. Онтология</p></title>
 <empty-line/>
-<subtitle>a) Являемся ли мы эвристиками?</subtitle>
+</section>
+<section id="toc_sub_000201"><title><p>a) Являемся ли мы эвристиками?</p></title>
 <empty-line/>
 <p>Во второй части данной статьи мы рассмотрим базовую структуру этой модели ИИ: её существование и то, что регулирует её функционирование.</p>
 <empty-line/>
@@ -2978,7 +3177,8 @@
 <empty-line/>
 <p>В теории это хитрый поворот, но для программиста это по-прежнему та же прямолинейная работа, и она могла бы стать первым мостом между скучными программами вопросов-ответов и невероятной голливудской научной фантастикой.</p>
 <empty-line/>
-<subtitle>c) Субсимволическое проектирование</subtitle>
+</section>
+<section id="toc_sub_000202"><title><p>c) Субсимволическое проектирование</p></title>
 <empty-line/>
 <p>Для создания сложной конструкции знаний Ньюэлл и Саймон разработали теорию символического проектирования, где набор семантических правил может применяться для построения более сложных структур. Не буду утверждать, что мы ограничены субсимволическим проектированием, но на деле эта теория подходит идеально. Поэтому обе стороны субсимволического проектирования используются в наших интересах без изменения в теории:</p>
 <empty-line/>
@@ -2995,7 +3195,8 @@
 <empty-line/>
 <p>Всё это может звучать как пустая говорильня в данном контексте — с учётом вводного характера статьи, — но более детальное изложение последует после официальной публикации проекта.</p>
 <empty-line/>
-<subtitle>d) Искусственное желание</subtitle>
+</section>
+<section id="toc_sub_000203"><title><p>d) Искусственное желание</p></title>
 <empty-line/>
 <p>О «Искусственном желании» нам сказать немногое. Как мы видели в системе индексов приоритетов и наборе правил POI, мы можем легко вызвать квазислучайное решение применительно к естественному желанию чего-либо, но на данный момент мы ещё не нашли способа заставить ИИ по-настоящему желать что-то. Скорее — предоставить ему выбор из схожего диапазона вариантов на основе временных вариаций, частоты этого выбора или же дать ему попробовать что-то впервые. Ни мы, ни кто-либо из прежних исследователей ИИ не осмелится утверждать, что наделяет машину этим атрибутом.</p>
 <empty-line/>
@@ -3011,11 +3212,13 @@
 <empty-line/>
 <p>Эта ненастоящая симуляция может также применяться к конструкту рассуждения. Даже если она реализована в соответствии с практическим разумом Канта, нам всё равно придётся сформировать «моральное решение» на основе априорного набора правил CPS и поручить программисту снабжать ИИ этим маршрутом.</p>
 <empty-line/>
-<subtitle>IV. Заключение</subtitle>
+</section>
+<section id="toc_sub_000204"><title><p>IV. Заключение</p></title>
 <empty-line/>
 <p>Несколькими словами: хочу извиниться за сухой стиль этой статьи — она начиналась как диссертационная работа и превратилась в мой будущий хобби-проект. Возможно, мы никогда не приблизимся к полноценной конструкции искусственного сознания, но данное введение в модель наметило несколько интересных поворотов, которые могут облегчить будущие инновации. Надеюсь, чтение оказалось достаточно увлекательным, чтобы заинтересовать как можно больше из вас в дальнейшем изучении этой замечательной области.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_065_014_artificial_consciousness_0197_181e71f8f2.png"/>
+</section>
 </section>
 <section id="sec_issue_065_015_international_scenes">
 <title><p>Международные сцены</p></title>
@@ -3031,7 +3234,7 @@
 <p>2. Португалия</p>
 <p>3. Уганда</p>
 <empty-line/>
-<subtitle>Обзор итальянского андерграунда (1994–2007)</subtitle>
+<section id="toc_sub_000205"><title><p>Обзор итальянского андерграунда (1994–2007)</p></title>
 <empty-line/>
 <p>Об итальянской сцене последний раз писали в Phrack #47 [0], всего через несколько месяцев после итальянских облав 1994 года. Эта короткая статья — попытка подвести итог эволюции итальянского андерграунда с тех пор.</p>
 <empty-line/>
@@ -3195,11 +3398,13 @@
 <p>[29] Telecom-SISMI Scandal</p>
 <p>http://en.wikipedia.org/wiki/SISMI-Telecom_scandal</p>
 <empty-line/>
-<subtitle>Португальская сцена</subtitle>
+</section>
+<section id="toc_sub_000206"><title><p>Португальская сцена</p></title>
 <empty-line/>
 <p><strong>Авторы:</strong> Eurinomo и Quickzero</p>
 <empty-line/>
-<subtitle>Эволюция интернета</subtitle>
+</section>
+<section id="toc_sub_000207"><title><p>Эволюция интернета</p></title>
 <empty-line/>
 <p>Когда интернет появился, он был очень дорогим: даже в 96/97 годах приходилось платить около 1,50 евро в час провайдеру плюс примерно 1 евро в час телефонной компании за коммутируемое соединение.</p>
 <empty-line/>
@@ -3213,7 +3418,8 @@
 <empty-line/>
 <p>Подводя итог: начали медленно, но теперь наблюдается довольно быстрая эволюция.</p>
 <empty-line/>
-<subtitle>Эволюция технологий</subtitle>
+</section>
+<section id="toc_sub_000208"><title><p>Эволюция технологий</p></title>
 <empty-line/>
 <p>Технологии всегда были дорогими — даже сейчас электронные компоненты стоят недёшево, хотя компьютеры становятся всё доступнее.</p>
 <empty-line/>
@@ -3225,7 +3431,8 @@
 <empty-line/>
 <p>Лишь с появлением этих дешёвых технологий государственные и другие документы начали переходить в цифровой мир — большинство из них хранилось в бумажном виде.</p>
 <empty-line/>
-<subtitle>Эволюция общества</subtitle>
+</section>
+<section id="toc_sub_000209"><title><p>Эволюция общества</p></title>
 <empty-line/>
 <p>У португальцев, возможно, и есть репутация мореплавателей и первооткрывателей «новых миров», но, похоже, всё это осталось в прошлых столетиях.</p>
 <empty-line/>
@@ -3235,7 +3442,8 @@
 <empty-line/>
 <p>Термин «хакер» не очень популярен в обществе; последний раз он появился по телевидению два года назад — в формате интервью с некими «buzzybee», оказавшимся обычным скрипт-кидди, занимавшимся дефейсом и кардингом и выдававшим себя за «хакера». Он заявил в эфире, что умеет получать бесплатные вещи с помощью кардинга и имеет доступ к любому сайту в интернете. Все, кто был в сцене, знали его настоящее имя, телефон, адрес и возраст — хотя особых проблем с полицией у него не было.</p>
 <empty-line/>
-<subtitle>Эволюция сцены</subtitle>
+</section>
+<section id="toc_sub_000210"><title><p>Эволюция сцены</p></title>
 <empty-line/>
 <p>Португальская сцена довольно закрытая: почти никто за её пределами не знает, что на самом деле происходит. Никто не знает, когда она действительно началась, — это произошло ещё до бума телекоммуникаций, предположительно в 70–80-х годах.</p>
 <empty-line/>
@@ -3263,19 +3471,23 @@
 <empty-line/>
 <p>Сегодня сцена по-прежнему закрытая, а люди по-прежнему невежественны. Иногда бывают исключения — например, когда я пришёл на собеседование в одну из компаний группы Bosch, и интервьюер, читая моё резюме, тихо засмеялся и сказал себе: «Хакер...» и «хакеры не причиняют вреда никому... если только их не вынудят» — без каких-либо упоминаний с моей стороны о незаконной деятельности или принадлежности к той или иной группе. Когда я уже считал себя безработным, устроился вполне неплохо и занялся большим количеством направлений, чем меня просили, включая робототехнику, автоматизацию и электронику, — хотя пришёл на собеседование как веб-разработчик для интранета. Позже выяснилось, что мы с интервьюером знали друг друга по сцене.</p>
 <empty-line/>
-<subtitle>Угандийская сцена (сюрприз!)</subtitle>
+</section>
+<section id="toc_sub_000211"><title><p>Угандийская сцена (сюрприз!)</p></title>
 <empty-line/>
 <p><strong>Автор:</strong> gmac</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+</section>
+<section id="toc_sub_000212"><title><p>Введение</p></title>
 <empty-line/>
 <p>Для тех, кто не знает, что такое Уганда и кому лень гуглить: коротко говоря, она расположена на Африканском континенте, точнее в Восточной Африке. Если всё ещё не ориентируетесь — вот подсказка: вы видели фильм «Последний король Шотландии»? Если да — вы знаете Уганду. Если нет — гуглите.</p>
 <empty-line/>
-<subtitle>Немного о прошлом</subtitle>
+</section>
+<section id="toc_sub_000213"><title><p>Немного о прошлом</p></title>
 <empty-line/>
 <p>Передовые компьютерные технологии в угандийском контексте появились относительно недавно — не более 13 лет назад. Поэтому хакинг у нас долгое время имел статус городской легенды. О хакерских группах прошлого практически ничего не известно — честно говоря, по моим сведениям, их почти не существовало.</p>
 <empty-line/>
-<subtitle>Настоящее</subtitle>
+</section>
+<section id="toc_sub_000214"><title><p>Настоящее</p></title>
 <empty-line/>
 <p>Сегодня, по мере развития технологий, сцена начинает проявляться: появились такие группы, как gsquad, основанная вашим покорным слугой, — я считаю её первой в своём роде здесь. Хотя хакинг по-прежнему сохраняет статус городской легенды, сцену определяют несколько знающих людей. Но ветры перемен уже дуют: я вижу приход нового поколения с жаждой знаний, подогретой хакерскими фильмами — в последнее время особенно «Крепким орешком 4.0». Gsquad остаётся единственной активной группой, помогающей желающим по запросу и, конечно, выпускающей зины (недавно дебютировавшие в печатном виде), которые завоевали немало поклонников и, разумеется, вдохновлены Phrack. Это новое поколение нуждается в контенте, и я думаю, Phrack — наш главный поставщик хакерского контента (ГПХ — я только что придумал).</p>
 <empty-line/>
@@ -3285,11 +3497,13 @@
 <empty-line/>
 <p>Дух жив, но находится в критическом состоянии.</p>
 <empty-line/>
-<subtitle>Аресты</subtitle>
+</section>
+<section id="toc_sub_000215"><title><p>Аресты</p></title>
 <empty-line/>
 <p>Это почти тривиальная шутка: без реальных законов никого не посадят. Хотя есть движение к принятию законов в связи с ростом мошенничества. Но, конечно, имели место случаи масштабной цензуры, прослушивания переговоров и всего прочего — со стороны провайдеров и, конечно, правительства.</p>
 <empty-line/>
-<subtitle>Призыв (извините, что включаю этот раздел, но был обязан)</subtitle>
+</section>
+<section id="toc_sub_000216"><title><p>Призыв (извините, что включаю этот раздел, но был обязан)</p></title>
 <empty-line/>
 <p>Я прочитал статью о духе андерграунда и искренне считаю: ответственность лежит на всех нас — мы должны устроить то, что я бы назвал «последним рубежом» [как в X3], чтобы остановить упадок андерграунда. Не ограничиваться ностальгией по временам Mentor, BloodAxe, KL, драмой вокруг Agent Steal и подобным — а начать жить ими. И начинается это с каждого, кто делает этот «рубеж» личным делом, а не просто битвой для круга потерявшихся хакеров или нескольких одиночек. Я действительно думаю, что рост андерграунда тормозила... назовём это эгоизмом знающих (читай: 3l33t), которые унижают новичков и тем самым превращают их в обычных скрипт-кидди в лучшем случае. Это нежелание делиться знаниями серьёзно замедлило развитие андерграунда, заставляя любопытных искать знания на «security»-сайтах.</p>
 <empty-line/>
@@ -3298,6 +3512,7 @@
 <p>Извините, звучит как боевой клич... но так и есть!</p>
 <empty-line/>
 <p>Да здравствует Phrack</p>
+</section>
 </section>
 </section>
 </body>

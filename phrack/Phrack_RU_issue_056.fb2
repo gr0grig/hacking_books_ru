@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0"
-             xmlns:l="http://www.w3.org/1999/xlink">
+<?xml version='1.0' encoding='UTF-8'?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
 <description>
   <title-info>
     <genre>computers</genre>
@@ -36,13 +35,13 @@
 <empty-line/>
 <p>В том же ГРАНДИОЗНОМ стиле, к которому вы успели привыкнуть, вот перед вами 56-й чёртов выпуск долбаного Phrack Magazine. Опоздали? Нет-нет. Опоздание подразумевало бы, что существует некий график публикаций. Теперь мы знаем, что это явно не так. Так что, по сути, этот выпуск может вполне оказаться досрочным. Наши лучшие люди уже разбираются с этим вопросом...</p>
 <empty-line/>
-<subtitle>Мыльница — не по теме компьютеров, безопасности или хакинга</subtitle>
+<section id="toc_sub_000001"><title><p>Мыльница — не по теме компьютеров, безопасности или хакинга</p></title>
 <empty-line/>
 <p><strong>Бунты, протесты и идиоты — ОЙ ВСЁ!</strong></p>
 <empty-line/>
 <p>ГОСПОДИ БОЖЕ ВЫ МОИ ЛЮДИ. Весь этот балаган с Элианом Гонсалесом может идти прямо в ад. И разумеется я говорю это фигурально. Я не настолько бесчувственный или циничный, чтобы желать вреда невинному ребёнку, но я выражаю мнение значительного большинства людей, когда говорю:</p>
 <empty-line/>
-<cite><p>&quot;Хватит. Уже всё.&quot;</p></cite>
+<cite><p>"Хватит. Уже всё."</p></cite>
 <empty-line/>
 <p>С ноября 1999 года правительство США вляпалось в политическую, социальную и экономическую кашу, которая просто обязана ЗАКОНЧИТЬСЯ.</p>
 <empty-line/>
@@ -88,15 +87,17 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_001_introduction_0150_97f2109369.png"/>
 <empty-line/>
-<subtitle>Содержание</subtitle>
+</section>
+<section id="toc_sub_000002"><title><p>Содержание</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_001_introduction_0178_52d941fd82.png"/>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_001_introduction_0182_40c47385af.png"/>
 <empty-line/>
-<cite><p>«...На мой взгляд, ничего не улучшилось. Да, некоторые технические аспекты журнала стали лучше, но в основном это сухой технический журнал в наши дни. Личность, которая раньше характеризовала Phrack, практически исчезла, а редакционный стиль сместился в сторону высокомерия &quot;я знаю о переполнениях буфера больше тебя&quot;. Взгляните на ответы в Phrack Loopback за первые 10 лет и на недавние. Значительно больший процент ответов в духе &quot;ты идиот, мы в Phrack Staff намного умнее тебя&quot;...»</p></cite>
+<cite><p>«...На мой взгляд, ничего не улучшилось. Да, некоторые технические аспекты журнала стали лучше, но в основном это сухой технический журнал в наши дни. Личность, которая раньше характеризовала Phrack, практически исчезла, а редакционный стиль сместился в сторону высокомерия "я знаю о переполнениях буфера больше тебя". Взгляните на ответы в Phrack Loopback за первые 10 лет и на недавние. Значительно больший процент ответов в духе "ты идиот, мы в Phrack Staff намного умнее тебя"...»</p></cite>
 <p>&gt;</p>
 <cite><p>— Trepidity &lt;delirium4u@theoffspring.net&gt;, по всей видимости, всё ещё горюет о том, что не был выбран мисс Phrack 2000.</p></cite>
+</section>
 </section>
 <section id="sec_issue_056_002_loopback">
 <title><p>LOOPBACK</p></title>
@@ -106,7 +107,7 @@
 <empty-line/>
 <p>Phrack Loopback — это ваша возможность написать редакции Phrack с комментариями, вопросами или чем угодно ещё. Ответы, как правило, пишет редактор, если не указано иное. Сами письма могут быть отредактированы по форме, но обычно не по грамматике и орфографии. Мы стараемся не исправлять просторечие, поскольку оно нередко добавляет живой — а порой и фольклорный — колорит соответствующему письму.</p>
 <empty-line/>
-<subtitle>0x01</subtitle>
+<section id="toc_sub_000003"><title><p>0x01</p></title>
 <empty-line/>
 <p><strong>Hackesses...</strong> <emphasis>от MiStReSS DiVA</emphasis></p>
 <empty-line/>
@@ -190,7 +191,8 @@
 <empty-line/>
 <p><emphasis>Mistress Diva</emphasis></p>
 <empty-line/>
-<subtitle>0x02</subtitle>
+</section>
+<section id="toc_sub_000004"><title><p>0x02</p></title>
 <empty-line/>
 <p>Привет, меня зовут Адам, я обычный парень с домашним ПК, которого взламывает и нарушает мои права какой-то военный псих..</p>
 <empty-line/>
@@ -214,7 +216,8 @@
 <empty-line/>
 <p><emphasis>Adam Smith</emphasis></p>
 <empty-line/>
-<subtitle>0x03</subtitle>
+</section>
+<section id="toc_sub_000005"><title><p>0x03</p></title>
 <empty-line/>
 <p>Страница 2 — это угарно... P55-02 ... уберите всё остальное и публикуйте только её. В выпуске №56 просто переиздайте один из старых номеров — похоже, именно их они и НАХОДЯТ!!@!@. :)</p>
 <empty-line/>
@@ -226,7 +229,8 @@
 <empty-line/>
 <p><emphasis>Anonymous</emphasis></p>
 <empty-line/>
-<subtitle>0x04</subtitle>
+</section>
+<section id="toc_sub_000006"><title><p>0x04</p></title>
 <empty-line/>
 <p>Привет, позвольте объяснить, что мне нужно для работы. У меня есть так называемые тайные проверяющие, которые посещают мой ресторан каждый месяц — это делает фирма MARITZ из Беркшира. Я бы хотел знать даты их визитов, чтобы быть на месте в нужный день. Это вообще возможно?</p>
 <empty-line/>
@@ -234,7 +238,8 @@
 <empty-line/>
 <p><emphasis>Gary</emphasis></p>
 <empty-line/>
-<subtitle>0x05</subtitle>
+</section>
+<section id="toc_sub_000007"><title><p>0x05</p></title>
 <empty-line/>
 <p>Есть ли у автора статьи 52-9 диплом по литературе?</p>
 <empty-line/>
@@ -248,7 +253,8 @@
 <empty-line/>
 <cite><p>[ Хм. Ты нормально передвигаешься? У тебя есть тележка, чтобы их возить? ]</p></cite>
 <empty-line/>
-<subtitle>0x06</subtitle>
+</section>
+<section id="toc_sub_000008"><title><p>0x06</p></title>
 <empty-line/>
 <p>Привет, Route,</p>
 <empty-line/>
@@ -258,7 +264,8 @@
 <empty-line/>
 <p><emphasis>EchoMirage</emphasis></p>
 <empty-line/>
-<subtitle>0x07</subtitle>
+</section>
+<section id="toc_sub_000009"><title><p>0x07</p></title>
 <empty-line/>
 <p>Я зашёл на эту страницу, чтобы посмотреть, что за конченые, извращённые ЛУЗЕРЫ могут вести что-то подобное!</p>
 <empty-line/>
@@ -282,7 +289,8 @@
 <empty-line/>
 <cite><p>[ 384573. ]</p></cite>
 <empty-line/>
-<subtitle>0x08</subtitle>
+</section>
+<section id="toc_sub_000010"><title><p>0x08</p></title>
 <empty-line/>
 <p>Привет, меня зовут Dawn, я считаю, что ваши комментарии к чужим статьям — абсолютно уморительны, и если вы не заняты в пятницу, я бы хотела...</p>
 <empty-line/>
@@ -304,7 +312,8 @@
 <empty-line/>
 <cite><p>[ Dawn, ты случайно не любишь еду, сон или... размножение? Если да, думаю, у нас есть кое-что общее и нам определённо надо встретиться как можно скорее. Напиши мне, только если ты симпатичная. ]</p></cite>
 <empty-line/>
-<subtitle>0x09</subtitle>
+</section>
+<section id="toc_sub_000011"><title><p>0x09</p></title>
 <empty-line/>
 <p>Привет,</p>
 <empty-line/>
@@ -338,7 +347,8 @@
 <empty-line/>
 <p><emphasis>Craig</emphasis></p>
 <empty-line/>
-<subtitle>0x0a</subtitle>
+</section>
+<section id="toc_sub_000012"><title><p>0x0a</p></title>
 <empty-line/>
 <p>Господа,</p>
 <empty-line/>
@@ -348,7 +358,8 @@
 <empty-line/>
 <cite><p>[ Видите, я просто разбавляю этим несколько таких писем, чтобы вы знали: есть немногие избранные, кому нравлюсь я и моя мама. ]</p></cite>
 <empty-line/>
-<subtitle>0x0b</subtitle>
+</section>
+<section id="toc_sub_000013"><title><p>0x0b</p></title>
 <empty-line/>
 <p>Дорогой Султан Любви и прочие,</p>
 <empty-line/>
@@ -388,7 +399,8 @@
 <empty-line/>
 <cite><p>[ Богиня? ]</p></cite>
 <empty-line/>
-<subtitle>0x0c</subtitle>
+</section>
+<section id="toc_sub_000014"><title><p>0x0c</p></title>
 <empty-line/>
 <p>Привет!</p>
 <empty-line/>
@@ -402,7 +414,8 @@
 <empty-line/>
 <p><emphasis>Tom Erik Gundersen</emphasis></p>
 <empty-line/>
-<subtitle>0x0d</subtitle>
+</section>
+<section id="toc_sub_000015"><title><p>0x0d</p></title>
 <empty-line/>
 <cite><p>[ (p55-17). ]</p></cite>
 <empty-line/>
@@ -412,7 +425,8 @@
 <empty-line/>
 <p><emphasis>Anonymous</emphasis></p>
 <empty-line/>
-<subtitle>0x0e</subtitle>
+</section>
+<section id="toc_sub_000016"><title><p>0x0e</p></title>
 <empty-line/>
 <p>Я только что закончил изучать экземпляр учебника K&amp;R/ANSI C, найденного в библиотеке, и очень заинтересован в написании программ на C, использующих последовательные или параллельные порты.</p>
 <empty-line/>
@@ -428,7 +442,8 @@
 <empty-line/>
 <p><emphasis>Anonymous</emphasis></p>
 <empty-line/>
-<subtitle>0x0f</subtitle>
+</section>
+<section id="toc_sub_000017"><title><p>0x0f</p></title>
 <empty-line/>
 <p>Привет, я бродил по сети и наткнулся на вашу страницу. Хотел спросить, о чём вообще Phrack Magazine — статьи показались очень интересными, и я хочу оформить подписку. Сайт мне особо ничего не объяснил, извините за беспокойство, спасибо большое.</p>
 <empty-line/>
@@ -436,7 +451,8 @@
 <empty-line/>
 <p><emphasis>Anonymous</emphasis></p>
 <empty-line/>
-<subtitle>0x10</subtitle>
+</section>
+<section id="toc_sub_000018"><title><p>0x10</p></title>
 <empty-line/>
 <p>Меня зовут route, и я такой элитный, что мне приходится заниматься любовью со своей рукой три раза в день.</p>
 <empty-line/>
@@ -470,7 +486,8 @@
 <empty-line/>
 <cite><p>[ Почти уверен, что добрый доктор хотел, чтобы люди писали ему туда с комментариями к его письму. ]</p></cite>
 <empty-line/>
-<subtitle>0x11</subtitle>
+</section>
+<section id="toc_sub_000019"><title><p>0x11</p></title>
 <empty-line/>
 <p>Здравствуйте,</p>
 <empty-line/>
@@ -480,7 +497,8 @@
 <empty-line/>
 <cite><p>[ Плакали от того, что работали в Mc Donalds пару лет, или от того, что с тех пор доросли лишь до Wendy's? ]</p></cite>
 <empty-line/>
-<subtitle>0x12</subtitle>
+</section>
+<section id="toc_sub_000020"><title><p>0x12</p></title>
 <empty-line/>
 <p>Привет, я понимаю, что у вас есть дела поважнее.</p>
 <empty-line/>
@@ -512,7 +530,8 @@
 <empty-line/>
 <cite><p>[ Конечно! Мне ещё и ваши налоги заполнить, если я взломаю файл? ]</p></cite>
 <empty-line/>
-<subtitle>0x13</subtitle>
+</section>
+<section id="toc_sub_000021"><title><p>0x13</p></title>
 <empty-line/>
 <p>Мой брат провёл последнюю неделю, читая Phrack. Он полный идиот (в семье этого нет, может, он приёмный... на что я очень надеюсь) и теперь думает, что он хакер. Ходит в чат-румы и угрожает рассылать вирусы людям, хотя сам даже шнурки не умеет завязать!</p>
 <empty-line/>
@@ -526,7 +545,8 @@
 <empty-line/>
 <cite><p>[ Что ж, «Linux Bitch», Phrack — журнал равных возможностей. Мы не отворачиваемся от умственно отсталых только потому, что они могут иногда пускать слюни или сидеть в собственной грязи. Нет. Мы поощряем людей с любым уровнем отсталости купаться в богатстве знаний, которое несёт каждый маленький символ. Мы верим, что знание должно быть свободным, и иногда оно ищет путь наименьшего сопротивления, а иногда выбирает более трудный маршрут. Ну а иногда знание просто бросает всё на полпути и идёт пить с приятелями. Я совершенно забыл, к чему это говорил. ]</p></cite>
 <empty-line/>
-<subtitle>0x14</subtitle>
+</section>
+<section id="toc_sub_000022"><title><p>0x14</p></title>
 <empty-line/>
 <p>Эй, как дела? Что вы думаете об учёных, которые создают машины, думающие как люди и выглядящие как люди — так называемые гуманоиды? Вас это пугает или вам всё равно? Я ищу людей, способных противостоять Искусственному Интеллекту. Людей с навыками H/C/P и взрывчаткой. Пишите срочно, это неотложно. Это наше будущее.</p>
 <empty-line/>
@@ -534,7 +554,8 @@
 <empty-line/>
 <cite><p>[ Мистер Уэйки, это проблема, которую я предвидел ещё с тех пор, как Pong от Atari впервые вошёл — нет, <emphasis>вторгся</emphasis> — в наши дома. Я давно ждал человека действия. На самом деле, с 1990 года я веду своё подпольное сопротивление (оно называется HAHA (Humanz against hostile androidz)). До сих пор я думал, что один (в сопротивлении состоит 1 (один) человек). Нам определённо стоит объединиться и бороться с этой гнусной угрозой вместе. Я принесу пончики и лосьон, вы берёте пушки для остановки роботов. У вас есть брошюры? Я работаю над одной под названием «Итак, вы хотите остановить человекоподобных роботов». Это в основном стандартный шаблонный материал с моими иллюстрациями, где я стреляю в роботов, и несколькими конспирологическими теориями с запахом. Сообщите, когда можем провести первую встречу, только нам придётся использовать ваш штаб, потому что мама больше не разрешает мне приводить гостей. ]</p></cite>
 <empty-line/>
-<subtitle>0x15</subtitle>
+</section>
+<section id="toc_sub_000023"><title><p>0x15</p></title>
 <empty-line/>
 <p>я в растерянности, чем вы вообще занимаетесь в phrack?</p>
 <empty-line/>
@@ -542,7 +563,8 @@
 <empty-line/>
 <p><emphasis>Anonymous</emphasis></p>
 <empty-line/>
-<subtitle>0x16</subtitle>
+</section>
+<section id="toc_sub_000024"><title><p>0x16</p></title>
 <empty-line/>
 <p>1) Phrack — это круто</p>
 <empty-line/>
@@ -558,7 +580,8 @@
 <empty-line/>
 <p><emphasis>Anonymous</emphasis></p>
 <empty-line/>
-<subtitle>0x17</subtitle>
+</section>
+<section id="toc_sub_000025"><title><p>0x17</p></title>
 <empty-line/>
 <p>Рад видеть вас снова, большое спасибо.</p>
 <empty-line/>
@@ -584,7 +607,8 @@
 <empty-line/>
 <cite><p>[ Как Норман Фелл, мистер Ропер из «Компании трёх» по телику? (Бедный родственник Дона Кноттса, если вы меня спрашиваете.) ]</p></cite>
 <empty-line/>
-<subtitle>0x18</subtitle>
+</section>
+<section id="toc_sub_000026"><title><p>0x18</p></title>
 <empty-line/>
 <p>У нас в классе английского попросили написать убедительное эссе на любую тему. Сначала я хотел сделать своё на тему «А есть ли на самом деле инопланетяне?»</p>
 <empty-line/>
@@ -604,7 +628,8 @@
 <empty-line/>
 <cite><p>[ Как насчёт «Почему я тупой — авт. Анонимный Болван» или «Почему я знаю о хакинге больше, чем о чём-либо (подзаголовок: а вообще-то я ничего не знаю ни о чём)» или «Дарвин ошибся: Эссе обо мне». ]</p></cite>
 <empty-line/>
-<subtitle>0x19</subtitle>
+</section>
+<section id="toc_sub_000027"><title><p>0x19</p></title>
 <empty-line/>
 <p>как узнать IP-адрес другого человека?? вы знаете?</p>
 <empty-line/>
@@ -612,7 +637,8 @@
 <empty-line/>
 <p><emphasis>Anonymous</emphasis></p>
 <empty-line/>
-<subtitle>0x1a</subtitle>
+</section>
+<section id="toc_sub_000028"><title><p>0x1a</p></title>
 <empty-line/>
 <p>Приветствую,</p>
 <empty-line/>
@@ -626,7 +652,8 @@
 <empty-line/>
 <cite><p>[ Хм, как там остальные 21 unhandledVagrant поживают? Кто-нибудь нашёл работу? Знаете, жизнь бродяги, при всей кажущейся гламурности и сексуальности, не такова, какой её рисуют брошюры. Возвращайся домой. Мы с мамой очень скучаем. ]</p></cite>
 <empty-line/>
-<subtitle>0x1b</subtitle>
+</section>
+<section id="toc_sub_000029"><title><p>0x1b</p></title>
 <empty-line/>
 <p>Мне очень жаль беспокоить вас этим вопросом, но я в отчаянии.</p>
 <empty-line/>
@@ -642,7 +669,8 @@
 <empty-line/>
 <p><emphasis>Anonymous</emphasis></p>
 <empty-line/>
-<subtitle>0x1c</subtitle>
+</section>
+<section id="toc_sub_000030"><title><p>0x1c</p></title>
 <empty-line/>
 <cite><p>[ (p55-04). ]</p></cite>
 <empty-line/>
@@ -655,7 +683,8 @@
 <empty-line/>
 <p><emphasis>Josh Birnbaum (noOrg).</emphasis></p>
 <empty-line/>
-<subtitle>0x1d</subtitle>
+</section>
+<section id="toc_sub_000031"><title><p>0x1d</p></title>
 <empty-line/>
 <p>думаю, вам стоит знать, что известный хакер под именем «jolly rodger» (тот, что с поваренной книгой) извлекает файлы из архивов и помещает их в свою поваренную книгу, не отдавая должного кредита авторам.</p>
 <empty-line/>
@@ -667,7 +696,8 @@
 <empty-line/>
 <cite><p>[ ДЖИ ДАГГАН? ЙЕЕЕЕ-О! ]</p></cite>
 <empty-line/>
-<subtitle>0x1e</subtitle>
+</section>
+<section id="toc_sub_000032"><title><p>0x1e</p></title>
 <empty-line/>
 <p>Я ИГОРЬ. Я БРАЗИЛИЯ. Я СЕЙЧАС ПОНИМАЮ ОЧЕНЬ ХОРОШО АНГЛИЙСКА. МНЕ НУЖЕН ДРАЙВЕР ДЛЯ ХАКЕРОВ, ЧТОБЫ ВТОРГАТЬСЯ В КОМПЬЮТЕРЫ ЛЮДЕЙ. ВЫ ПОНИМАЕТЕ??</p>
 <empty-line/>
@@ -679,7 +709,8 @@
 <empty-line/>
 <cite><p>[ С ДОРОГИ, ВСЕ. ЗДЕСЬ НЕТ МЕСТА ЛЕНТЯЯМ! ВСТАВАЙТЕ ЗА МНОЙ ИЛИ УМРИТЕ! ВЫ МОЖЕТЕ СДЕЛАТЬ МЕНЬШЕ? ]</p></cite>
 <empty-line/>
-<subtitle>0x1f</subtitle>
+</section>
+<section id="toc_sub_000033"><title><p>0x1f</p></title>
 <empty-line/>
 <p>Меня зовут Томас, и сейчас я учусь в том, что вы в Америке называете старшей школой. Мне 15 лет, и я нашёл страницу Phrack, пока серфил в сети.</p>
 <empty-line/>
@@ -711,7 +742,8 @@
 <empty-line/>
 <p><emphasis>Thomas</emphasis></p>
 <empty-line/>
-<subtitle>0x20</subtitle>
+</section>
+<section id="toc_sub_000034"><title><p>0x20</p></title>
 <empty-line/>
 <p>мой английской хуже некуда....</p>
 <empty-line/>
@@ -723,7 +755,8 @@
 <empty-line/>
 <p><emphasis>Claudio</emphasis></p>
 <empty-line/>
-<subtitle>0x21</subtitle>
+</section>
+<section id="toc_sub_000035"><title><p>0x21</p></title>
 <empty-line/>
 <p>Привет, редакция Phrack.</p>
 <empty-line/>
@@ -751,7 +784,8 @@
 <empty-line/>
 <p><emphasis>Maddoc99</emphasis></p>
 <empty-line/>
-<subtitle>0x22</subtitle>
+</section>
+<section id="toc_sub_000036"><title><p>0x22</p></title>
 <empty-line/>
 <p>Привет, друзья, хочу поздравить вас и сказать: продолжайте, вы лучшие. Мне нужны адреса www, где я могу найти информацию о фрикинге на испанском, чтобы мне было легче читать. Огромное спасибо, продолжайте работу!!</p>
 <empty-line/>
@@ -759,7 +793,8 @@
 <empty-line/>
 <cite><p>[ http://babelfish.altavista.digital.com/. Дальше — сами, амиго. ]</p></cite>
 <empty-line/>
-<subtitle>0x23</subtitle>
+</section>
+<section id="toc_sub_000037"><title><p>0x23</p></title>
 <empty-line/>
 <p>Просто хочу сказать, что читаю phrack около 2 лет, и в нынешнем выпуске очень хорошие технические статьи, лучше, чем во многих других.</p>
 <empty-line/>
@@ -771,7 +806,8 @@
 <empty-line/>
 <cite><p>[ Да ладно тебе! Даже круче «The Man Show»? (Которое, я уверен, скоро получит Emmy.) ]</p></cite>
 <empty-line/>
-<subtitle>0x24</subtitle>
+</section>
+<section id="toc_sub_000038"><title><p>0x24</p></title>
 <empty-line/>
 <p>хола.........извините, что коротко... но я так хочу спать... уже так поздно.....примерно 4 утра, меня зовут gabriel и я живу в панаме... здесь люди не знают, кто такой хакер.... ладно хочу знать, как могу стать хакером.... я начинающий..... первое, что хочу знать — как мне получить какой-нибудь пароль для интернета в панаме.....если можете помочь или нет — ответьте пожалуйста......не переживайте я надёжный человек... я очень лоялен ...клянусь..... ладно пойду спать.....пока и заранее спасибо........</p>
 <empty-line/>
@@ -788,7 +824,8 @@
 <p>&gt;</p>
 <cite><p>...Всё равно нечитаемо... <emphasis>вздыхает</emphasis>. У ВАС ТАМ ВООБЩЕ ПОКАЗЫВАЮТ УЛИЦУ СЕЗАМ?! Или... ?ВЫ ПОЛУЧАЕТЕ УЛИЦУ СЕЗАМ ТАМ ВНИЗУ? ]</p></cite>
 <empty-line/>
-<subtitle>0x25</subtitle>
+</section>
+<section id="toc_sub_000039"><title><p>0x25</p></title>
 <empty-line/>
 <p>Мне сообщили, что у некоторых кланов в Starcraft есть программы, позволяющие выгонять других в многопользовательской игре. Вы знакомы с этим и если да — знаете, где можно найти такие программы?</p>
 <empty-line/>
@@ -796,7 +833,8 @@
 <empty-line/>
 <cite><p>[ Эй, у меня есть идея — она называется ЧЕСТНЫЙ ТРУД И СПОРТИВНОЕ БЛАГОРОДСТВО. Займись этим, лох! ]</p></cite>
 <empty-line/>
-<subtitle>0x26</subtitle>
+</section>
+<section id="toc_sub_000040"><title><p>0x26</p></title>
 <empty-line/>
 <p>Ну, я наткнулся на этот сайт, искал что-нибудь почитать альтернативное. Скажу — это лучшее. Dark Secrets of the underground неплохо, но вы собрали все свои выпуски в удобном для чтения формате.</p>
 <empty-line/>
@@ -824,7 +862,8 @@
 <empty-line/>
 <p><emphasis>Ash B&lt;O&gt;M</emphasis></p>
 <empty-line/>
-<subtitle>0x27</subtitle>
+</section>
+<section id="toc_sub_000041"><title><p>0x27</p></title>
 <empty-line/>
 <p>Здравствуйте, у меня нет ни малейшего представления о том, кто вы,</p>
 <empty-line/>
@@ -862,7 +901,8 @@
 <empty-line/>
 <cite><p>[ Неужели, вы думаете? ]</p></cite>
 <empty-line/>
-<subtitle>0x28</subtitle>
+</section>
+<section id="toc_sub_000042"><title><p>0x28</p></title>
 <empty-line/>
 <p>Мне нужна помощь в сборе как можно большей информации о парне, у которого роман с женой моего друга — это разрушает его 18-летний брак и калечит жизнь его двоих маленьких детей.</p>
 <empty-line/>
@@ -882,7 +922,8 @@
 <empty-line/>
 <p><emphasis>Rich</emphasis></p>
 <empty-line/>
-<subtitle>0x29</subtitle>
+</section>
+<section id="toc_sub_000043"><title><p>0x29</p></title>
 <empty-line/>
 <p>Султану Любви,</p>
 <empty-line/>
@@ -906,7 +947,8 @@
 <empty-line/>
 <cite><p>[ Столько, сколько захочу? ]</p></cite>
 <empty-line/>
-<subtitle>0x2a</subtitle>
+</section>
+<section id="toc_sub_000044"><title><p>0x2a</p></title>
 <empty-line/>
 <p>Мне нужна помощь, и я больше не могу доверять друзьям. Ссылки были бы очень кстати. Брат наврал моему домовладельцу, и теперь меня выселяют. Придётся пожить у родственников, но в моём факсе закончилась бумага, а модель особая. Не могу отправиться в эту поездку без правильной бумаги. Можете помочь?</p>
 <empty-line/>
@@ -915,7 +957,8 @@
 <cite><p>[ <emphasis>speechless</emphasis></p></cite>
 <cite><p>(кто-то вдалеке): «Эй, route... Что с тобой? Дурость язык проглотил?» ]</p></cite>
 <empty-line/>
-<subtitle>0x2b</subtitle>
+</section>
+<section id="toc_sub_000045"><title><p>0x2b</p></title>
 <empty-line/>
 <p>Хотел бы получить кое-какую информацию о видеоигровых автоматах...</p>
 <empty-line/>
@@ -927,7 +970,8 @@
 <empty-line/>
 <p><emphasis>Anomymous</emphasis></p>
 <empty-line/>
-<subtitle>0x2c</subtitle>
+</section>
+<section id="toc_sub_000046"><title><p>0x2c</p></title>
 <empty-line/>
 <p>Привет, я новичок в хакинге и не уверен, что обращаюсь по адресу. Недавно в чат-руме у меня вышел спор с кем-то... После этого мой ПК рухнул и отказался перезагружаться — при ближайшем рассмотрении оказалось, что материнская плата сгорела. Могу предположить, что причиной был вышеупомянутый человек... Так как, чёрт возьми, он это сделал?... И есть ли способ защититься от такого рода атак?..</p>
 <empty-line/>
@@ -935,7 +979,8 @@
 <empty-line/>
 <cite><p>[ Считай, что легко отделался. Один раз я поспорил с врачом в чат-руме. Сначала у меня был лёгкий жар, но потом он заставил меня делать себе ампутацию... На второй ноге и одной руке я понял, что, может, он меня взламывает! Но к тому времени было уже слишком поздно! ]</p></cite>
 <empty-line/>
-<subtitle>0x2d</subtitle>
+</section>
+<section id="toc_sub_000047"><title><p>0x2d</p></title>
 <empty-line/>
 <p>Здравствуйте,</p>
 <empty-line/>
@@ -961,7 +1006,8 @@
 <empty-line/>
 <cite><p>[ Что ж, DAWG, похоже, у тебя серьёзные проблемы из детства. Единственное, что могу посоветовать: займись терапией или получи хорошего пинка под зад за то, что такой слабак. ]</p></cite>
 <empty-line/>
-<subtitle>0x2e</subtitle>
+</section>
+<section id="toc_sub_000048"><title><p>0x2e</p></title>
 <empty-line/>
 <p>Не уверен, что пишу нужному человеку или вы вообще можете помочь. Хотел спросить, как мне почистить свою кредитную историю.</p>
 <empty-line/>
@@ -969,7 +1015,8 @@
 <empty-line/>
 <cite><p>[ Конечно. ПЛАТИ СВОИ СЧЕТА ВОВРЕМЯ! ]</p></cite>
 <empty-line/>
-<subtitle>0x2f</subtitle>
+</section>
+<section id="toc_sub_000049"><title><p>0x2f</p></title>
 <empty-line/>
 <p>Иди нафиг со своими жалкими попытками убить меня. Когда падает тьма, приходит время мести. Запри окна и двери... Я иду. Я — Индиго. Ты узнаешь только моё имя, но не лицо, ибо я приду, как вор в ночи. Берегись, ибо эта ночь — ночь расплаты, берегись!</p>
 <empty-line/>
@@ -977,7 +1024,8 @@
 <empty-line/>
 <cite><p>[ В ту ночь, когда получил это письмо, на ужин у меня был пирог с индейкой. Потом посмотрел телевизор. В целом скучный вечер, кроме момента, когда я спустился к сушилке за бельём и заметил, что один носок пропал... Совпадение... ИЛИ НОЧНОЙ ВОР! ]</p></cite>
 <empty-line/>
-<subtitle>0x30</subtitle>
+</section>
+<section id="toc_sub_000050"><title><p>0x30</p></title>
 <empty-line/>
 <p>В этом сообщении вы не увидите никаких «приветствий», «добрых слов о вас» и «просьб». Но вы увидите «ПРАВДУ» и только её!</p>
 <empty-line/>
@@ -1027,7 +1075,8 @@
 <empty-line/>
 <p><emphasis>Anonymous, английский — второй (а возможно, и третий) язык</emphasis></p>
 <empty-line/>
-<subtitle>0x31</subtitle>
+</section>
+<section id="toc_sub_000051"><title><p>0x31</p></title>
 <empty-line/>
 <p>здравствуйте, рискуя быть поджаренным в вашем следующем номере, я почувствовал необходимость написать.</p>
 <empty-line/>
@@ -1063,7 +1112,8 @@
 <empty-line/>
 <p><emphasis>nitefall</emphasis></p>
 <empty-line/>
-<subtitle>0x32</subtitle>
+</section>
+<section id="toc_sub_000052"><title><p>0x32</p></title>
 <empty-line/>
 <p>Отличный е-зин, много хорошего материала.</p>
 <empty-line/>
@@ -1083,7 +1133,8 @@
 <empty-line/>
 <p><emphasis>Mike</emphasis></p>
 <empty-line/>
-<subtitle>0x33</subtitle>
+</section>
+<section id="toc_sub_000053"><title><p>0x33</p></title>
 <empty-line/>
 <p>ДАВНЕНЬКО я не читал ваш 'зин. Конечно, не то что раньше, но по-своему не хуже. К сожалению, поскольку я попивал кофе, просматривая файл Loopback, вынужден направить следующий счёт:</p>
 <empty-line/>
@@ -1098,6 +1149,7 @@
 <cite><p>[ Класс, спасибо, чувак! Добавлю эти два цента в наш фонд операционных расходов! Думаю, теперь нам хватит, чтобы вывести это дитя на коммерческий рынок! ]</p></cite>
 <empty-line/>
 <p><emphasis>[EOF]</emphasis></p>
+</section>
 </section>
 <section id="sec_issue_056_003_linenoise">
 <title><p>Linenoise</p></title>
@@ -1116,7 +1168,7 @@
 <p>• <strong>Узкая аудитория</strong></p>
 <p>Статьи, рассчитанные на небольшую группу читателей, тоже могут попасть сюда.</p>
 <empty-line/>
-<subtitle>0x01 — Передача данных через старые электромеханические АТС</subtitle>
+<section id="toc_sub_000054"><title><p>0x01 — Передача данных через старые электромеханические АТС</p></title>
 <empty-line/>
 <p><strong>TOKATA &amp; Vladi</strong> &lt;lv_tokata@yahoo.com&gt;</p>
 <empty-line/>
@@ -1159,19 +1211,23 @@
 <empty-line/>
 <p>— TOKATA &amp; Vladi &lt;lv_tokata@yahoo.com&gt;</p>
 <empty-line/>
-<subtitle>0x02 — Недокументированные команды IOS</subtitle>
+</section>
+<section id="toc_sub_000055"><title><p>0x02 — Недокументированные команды IOS</p></title>
 <empty-line/>
 <p><strong>krnl</strong></p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+</section>
+<section id="toc_sub_000056"><title><p>Введение</p></title>
 <empty-line/>
 <p>Ниже перечислены команды операционной системы Cisco IOS, скрытые от пользователей на любом уровне привилегий. Некоторые из них носят информационный характер, другие довольно тривиальны. Отдельные команды могут заблокировать маршрутизатор при неправильном использовании. Этот список является подмножеством всех скрытых команд. Там, где возможно, приведены описания команд. Все команды проверялись на устройстве под управлением версии 12.0-6S.</p>
 <empty-line/>
-<subtitle>Команды exec</subtitle>
+</section>
+<section id="toc_sub_000057"><title><p>Команды exec</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0097_6cf91dbfb0.png"/>
 <empty-line/>
-<subtitle>Команды режима конфигурации</subtitle>
+</section>
+<section id="toc_sub_000058"><title><p>Команды режима конфигурации</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0139_ea887f1619.png"/>
 <empty-line/>
@@ -1185,17 +1241,20 @@
 <empty-line/>
 <p>Ниже приводятся подробные описания команд.</p>
 <empty-line/>
-<subtitle>@clear profile</subtitle>
+</section>
+<section id="toc_sub_000059"><title><p>@clear profile</p></title>
 <empty-line/>
 <p>Сбрасывает текущую конфигурацию профилировки ЦПУ.</p>
 <empty-line/>
-<subtitle>@debug buffer</subtitle>
+</section>
+<section id="toc_sub_000060"><title><p>@debug buffer</p></title>
 <empty-line/>
 <p>Как и при проверке целостности буферов, на слабо нагруженном устройстве отладочная информация не выводится.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0187_ba96ba2bd5.png"/>
 <empty-line/>
-<subtitle>@debug ip ospf monitor</subtitle>
+</section>
+<section id="toc_sub_000061"><title><p>@debug ip ospf monitor</p></title>
 <empty-line/>
 <p>Выводит в журнал отладки информацию о состоянии процесса OSPF.</p>
 <empty-line/>
@@ -1203,29 +1262,34 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0213_1f55e89719.png"/>
 <empty-line/>
-<subtitle>@debug par mo (отладка режимов парсера)</subtitle>
+</section>
+<section id="toc_sub_000062"><title><p>@debug par mo (отладка режимов парсера)</p></title>
 <empty-line/>
 <p>Используется для отображения происходящего в парсере в конкретные моменты. Показывает базовую трассировку поиска, необходимого для обработки команд CLI.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0240_a20181e724.png"/>
 <empty-line/>
-<subtitle>@debug sanity</subtitle>
+</section>
+<section id="toc_sub_000063"><title><p>@debug sanity</p></title>
 <empty-line/>
 <p>Получить диагностическую информацию не удалось. Маршрутизатор слабо нагружен, поэтому буферная активность минимальна.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0251_75f2cb0970.png"/>
 <empty-line/>
-<subtitle>@debug subsys</subtitle>
+</section>
+<section id="toc_sub_000064"><title><p>@debug subsys</p></title>
 <empty-line/>
 <p>Информация о подсистемах указывает на сегмент кода и его версию. При включённой отладке была выполнена перезагрузка микрокода системы — это не привело к появлению интересной отладочной информации.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0260_55d476d65b.png"/>
 <empty-line/>
-<subtitle>@debug oir</subtitle>
+</section>
+<section id="toc_sub_000065"><title><p>@debug oir</p></title>
 <empty-line/>
 <p>Расширенная отладочная информация о горячей замене компонентов.</p>
 <empty-line/>
-<subtitle>@gdb kernel</subtitle>
+</section>
+<section id="toc_sub_000066"><title><p>@gdb kernel</p></title>
 <empty-line/>
 <p>Эту команду не удалось заставить сделать что-либо полезное — она просто выводит маршрутизатор из строя. По всей видимости, интерфейса, сопоставимого со стандартным отладчиком GNU, здесь нет. Возможно, существуют дополнительные параметры, которые были упущены. Это относится ко всем найденным субкомандам отладчика.</p>
 <empty-line/>
@@ -1233,11 +1297,13 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0281_b6863e4f0e.png"/>
 <empty-line/>
-<subtitle>@if-console [&lt;slot&gt;] [console|debug]</subtitle>
+</section>
+<section id="toc_sub_000067"><title><p>@if-console [&lt;slot&gt;] [console|debug]</p></title>
 <empty-line/>
 <p>Вывода нет, так как отсутствует маршрутизатор Viper или 12XXX. Тем не менее это одна из наиболее интересных скрытых команд Cisco. Она позволяет подключиться к консоли отдельной карты (т. е. для конкретного слота, а не для всего шасси) и получить расширенную диагностическую и отладочную информацию об этой карте. Вход в карту осуществляется в непривилегированном режиме; для просмотра всех команд необходимо выполнить enable.</p>
 <empty-line/>
-<subtitle>@profile &lt;start&gt; &lt;stop&gt; &lt;granularity&gt;</subtitle>
+</section>
+<section id="toc_sub_000068"><title><p>@profile &lt;start&gt; &lt;stop&gt; &lt;granularity&gt;</p></title>
 <empty-line/>
 <p>Профилировку ЦПУ можно настроить в режиме exec с помощью команды profile. Профилировка процессов позволяет определить, какой сегмент кода монополизирует процессор. Для полноценного использования этой функции необходима таблица символов, чтобы можно было найти местоположение нужного сегмента кода. Сегмент задаётся значениями start и stop команды profile. Параметр granularity позволяет опуститься до уровня отдельных инструкций.</p>
 <empty-line/>
@@ -1245,215 +1311,258 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0296_8d2130d707.png"/>
 <empty-line/>
-<subtitle>@show chunk (показать блоки памяти, выделенные процессам)</subtitle>
+</section>
+<section id="toc_sub_000069"><title><p>@show chunk (показать блоки памяти, выделенные процессам)</p></title>
 <empty-line/>
 <p>На Cisco используется традиционное управление памятью через malloc/free, а также блочное выделение памяти. Главное преимущество блочного выделения перед предшественником состоит в том, что накладные расходы несёт только большой блок (который затем делится на меньшие части), а не каждый отдельно выделенный блок.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0309_bffc2e6fed.png"/>
 <empty-line/>
-<subtitle>@show chunk summ</subtitle>
+</section>
+<section id="toc_sub_000070"><title><p>@show chunk summ</p></title>
 <empty-line/>
 <p>Сводный список выделенных блоков. Показывает размер большого блока, количество вложенных блоков внутри него и накладные расходы на блок.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0328_b78e4c46ae.png"/>
 <empty-line/>
-<subtitle>@sh idb</subtitle>
+</section>
+<section id="toc_sub_000071"><title><p>@sh idb</p></title>
 <empty-line/>
 <p>Отображает аппаратные и программные базы данных интерфейсов. Это способ Cisco отслеживать количество интерфейсов в системе — включая аппаратные и программные (физические, субинтерфейсы и т. д.). Программный лимит составляет, по-видимому, 1024 в IOS 11 и 2048 в IOS 12. Это глобальный лимит для маршрутизатора.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0347_f53cca644b.png"/>
 <empty-line/>
-<subtitle>@sh in stats (выдаёт статистику по путям коммутации для каждого интерфейса)</subtitle>
+</section>
+<section id="toc_sub_000072"><title><p>@sh in stats (выдаёт статистику по путям коммутации для каждого интерфейса)</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0366_15a8d2abc6.png"/>
 <empty-line/>
-<subtitle>@sh int e3/0 switching</subtitle>
+</section>
+<section id="toc_sub_000073"><title><p>@sh int e3/0 switching</p></title>
 <empty-line/>
 <p>Отображает основные процессы и обрабатываемые ими данные. Показывает, какие пути коммутации использовались для конкретно подсчитанных данных. Основные процессы — IP и процессы маршрутизации. Остальное объединяется в категорию default.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0378_02f1c02fbc.png"/>
 <empty-line/>
-<subtitle>@sh ip ospf maxage-list</subtitle>
+</section>
+<section id="toc_sub_000074"><title><p>@sh ip ospf maxage-list</p></title>
 <empty-line/>
 <p>OSPF не запущен. По всей видимости, эта команда показывает текущее значение максимального возраста LSA. Учитывается периодическое обновление.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0400_a49da4500f.png"/>
 <empty-line/>
-<subtitle>@sh ip ospf delete-list</subtitle>
+</section>
+<section id="toc_sub_000075"><title><p>@sh ip ospf delete-list</p></title>
 <empty-line/>
 <p>Показывает LSA, исключённые из рассмотрения. Поскольку OSPF не запущен, неясно, исключены ли они алгоритмом SPF или иным способом.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0410_52202978df.png"/>
 <empty-line/>
-<subtitle>@sh ip ospf statistic</subtitle>
+</section>
+<section id="toc_sub_000076"><title><p>@sh ip ospf statistic</p></title>
 <empty-line/>
 <p>Очень полезная команда: она выдаёт временны́е средние для различных этапов процесса OSPF. Позволяет детально изучить время конвергенции IGP в сети и выявить области, вызывающие замедление процесса.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0433_20f881a2ee.png"/>
 <empty-line/>
-<subtitle>@sh ip ospf bad-checksum</subtitle>
+</section>
+<section id="toc_sub_000077"><title><p>@sh ip ospf bad-checksum</p></title>
 <empty-line/>
 <p>Показывает LSA, не прошедшие проверку контрольной суммы. Неизвестно, это счётчик или временны́е метки событий, поскольку OSPF не функционировал.</p>
 <empty-line/>
-<subtitle>@sh ip ospf event</subtitle>
+</section>
+<section id="toc_sub_000078"><title><p>@sh ip ospf event</p></title>
 <empty-line/>
 <p>Предоставляет журнал вызовов подпроцессов — полезно для понимания потока выполнения.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0458_42a0e5efbe.png"/>
 <empty-line/>
-<subtitle>@sh isis timers</subtitle>
+</section>
+<section id="toc_sub_000079"><title><p>@sh isis timers</p></title>
 <empty-line/>
 <p>Полезна для краткого обзора потока выполнения процесса ISIS. Показывает частоту событий, таких как приветствия L1/L2 и т. д.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0474_61f512aed5.png"/>
 <empty-line/>
-<subtitle>@sh isis tree — AVL-дерево базы данных состояний каналов IS-IS</subtitle>
+</section>
+<section id="toc_sub_000080"><title><p>@sh isis tree — AVL-дерево базы данных состояний каналов IS-IS</p></title>
 <empty-line/>
 <p>Показывает путь и глубину до других промежуточных систем уровня 1/2 в домене маршрутизации. По умолчанию отображает оба уровня.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0501_d78ab55650.png"/>
 <empty-line/>
-<subtitle>@sh isis private</subtitle>
+</section>
+<section id="toc_sub_000081"><title><p>@sh isis private</p></title>
 <empty-line/>
 <p>Отображает небольшую диагностическую информацию, связанную с процессом ISIS.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0522_32947ecbd7.png"/>
 <empty-line/>
-<subtitle>@sh list</subtitle>
+</section>
+<section id="toc_sub_000082"><title><p>@sh list</p></title>
 <empty-line/>
 <p>По всей видимости, менеджер однонаправленных связных списков, отображающий глобальный указатель на первый элемент каждого списка и количество членов в нём.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0533_cee60f69ce.png"/>
 <empty-line/>
-<subtitle>@sh list none</subtitle>
+</section>
+<section id="toc_sub_000083"><title><p>@sh list none</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0550_153e562e88.png"/>
 <empty-line/>
-<subtitle>@sh parser modes (показывает текущее дерево доступа процессов)</subtitle>
+</section>
+<section id="toc_sub_000084"><title><p>@sh parser modes (показывает текущее дерево доступа процессов)</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0567_b4efeba88e.png"/>
 <empty-line/>
-<subtitle>@sh parser un</subtitle>
+</section>
+<section id="toc_sub_000085"><title><p>@sh parser un</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0581_a6f719f965.png"/>
 <empty-line/>
-<subtitle>@sh proc all-events</subtitle>
+</section>
+<section id="toc_sub_000086"><title><p>@sh proc all-events</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0593_fe43820105.png"/>
 <empty-line/>
-<subtitle>@sh profile [detail|terse] (показать профилировку ЦПУ)</subtitle>
+</section>
+<section id="toc_sub_000087"><title><p>@sh profile [detail|terse] (показать профилировку ЦПУ)</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0611_37988a84f6.png"/>
 <empty-line/>
-<subtitle>@sh region (показывает разметку образа)</subtitle>
+</section>
+<section id="toc_sub_000088"><title><p>@sh region (показывает разметку образа)</p></title>
 <empty-line/>
 <p>Отображает компоновку программы для распакованного образа.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0627_8d72f375d2.png"/>
 <empty-line/>
-<subtitle>@sh region &lt;address&gt;</subtitle>
+</section>
+<section id="toc_sub_000089"><title><p>@sh region &lt;address&gt;</p></title>
 <empty-line/>
 <p>Указание произвольного адреса в памяти показывает, к какому сегменту он относится. Та же информация доступна через корневую команду.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0646_f4c115e812.png"/>
 <empty-line/>
-<subtitle>@sh sum</subtitle>
+</section>
+<section id="toc_sub_000090"><title><p>@sh sum</p></title>
 <empty-line/>
 <p>Вычисляет контрольную сумму сжатого образа и сравнивает её с ранее сохранённой для проверки целостности.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0662_cd9f03d188.png"/>
 <empty-line/>
-<subtitle>@sh timers (показать таймеры для команды timer в режиме конфигурации)</subtitle>
+</section>
+<section id="toc_sub_000091"><title><p>@sh timers (показать таймеры для команды timer в режиме конфигурации)</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0669_16a382aa63.png"/>
 <empty-line/>
-<subtitle>@test transmit (тест передачи кадров L2)</subtitle>
+</section>
+<section id="toc_sub_000092"><title><p>@test transmit (тест передачи кадров L2)</p></title>
 <empty-line/>
 <p>Команда позволяет отправить заданное количество кадров на указанный адрес назначения:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0679_d70d0bcc20.png"/>
 <empty-line/>
-<subtitle>Команды режима конфигурации (подробно)</subtitle>
+</section>
+<section id="toc_sub_000093"><title><p>Команды режима конфигурации (подробно)</p></title>
 <empty-line/>
-<subtitle>@boot system rom</subtitle>
+</section>
+<section id="toc_sub_000094"><title><p>@boot system rom</p></title>
 <empty-line/>
 <p>Если в ROM записан образ системы, эта команда позволяет вернуться к нему вместо образа на дополнительном носителе (флэш-карте).</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0711_cdf7048c3d.png"/>
 <empty-line/>
-<subtitle>@boot module</subtitle>
+</section>
+<section id="toc_sub_000095"><title><p>@boot module</p></title>
 <empty-line/>
 <p>Команда существует, но, по всей видимости, ничего не делает — только выдаёт ошибку.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0721_b185a4b248.png"/>
 <empty-line/>
-<subtitle>@exception-slave dump X.X.X.X</subtitle>
+</section>
+<section id="toc_sub_000096"><title><p>@exception-slave dump X.X.X.X</p></title>
 <empty-line/>
 <p>Указывает маршрутизатору адрес для сохранения образа дампа памяти.</p>
 <empty-line/>
-<subtitle>@exception-slave protocol tftp</subtitle>
+</section>
+<section id="toc_sub_000097"><title><p>@exception-slave protocol tftp</p></title>
 <empty-line/>
 <p>Указывает маршрутизатору протокол для передачи образа дампа.</p>
 <empty-line/>
-<subtitle>@exception-slave corefile</subtitle>
+</section>
+<section id="toc_sub_000098"><title><p>@exception-slave corefile</p></title>
 <empty-line/>
 <p>Задаёт имя файла дампа. Обратите внимание, что права доступа к этому файлу на TFTP-сервере должны быть не ниже 666, чтобы маршрутизатор мог выполнить запись.</p>
 <empty-line/>
-<subtitle>@ip slow-convergence</subtitle>
+</section>
+<section id="toc_sub_000099"><title><p>@ip slow-convergence</p></title>
 <empty-line/>
 <p>После включения этой команды каких-либо изменений в производительности маршрутизатора обнаружить не удалось. В любом случае команда не выглядит как улучшающая производительность.</p>
 <empty-line/>
-<subtitle>@ip tftp boot-interface</subtitle>
+</section>
+<section id="toc_sub_000100"><title><p>@ip tftp boot-interface</p></title>
 <empty-line/>
 <p>Указывает маршрутизатору, через какой интерфейс загружать образ при сетевой загрузке по TFTP.</p>
 <empty-line/>
-<subtitle>@loopback diag / @loopback dec / @loopback test / @loopback micro-linear / @loopback motorola</subtitle>
+</section>
+<section id="toc_sub_000101"><title><p>@loopback diag / @loopback dec / @loopback test / @loopback micro-linear / @loopback motorola</p></title>
 <empty-line/>
 <p>Все эти команды обратной петли позволяют замкнуть аппаратуру в определённых точках для локализации аппаратных неисправностей. Это не просто команды <code>loopback net</code> и <code>loopback local</code>. Также следует учитывать, что не всё аппаратное обеспечение поддерживает петли во всех указанных точках.</p>
 <empty-line/>
-<subtitle>@scheduler max-task-time 200 (последнее значение в миллисекундах)</subtitle>
+</section>
+<section id="toc_sub_000102"><title><p>@scheduler max-task-time 200 (последнее значение в миллисекундах)</p></title>
 <empty-line/>
 <p>Параметр позволяет задать количество миллисекунд, по истечении которых процесс, занимающий ЦПУ, выводит отладочную информацию. Относительно простой способ выявить, какой процесс монополизирует ресурс. Команда <code>sh proc cpu</code> — очевидно, лучший способ найти виновника прямо на маршрутизаторе, но данная команда позволяет обнаружить более скрытые случаи.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0754_87058931f4.png"/>
 <empty-line/>
-<subtitle>@scheduler heapcheck process / @scheduler heapcheck poll</subtitle>
+</section>
+<section id="toc_sub_000103"><title><p>@scheduler heapcheck process / @scheduler heapcheck poll</p></title>
 <empty-line/>
 <p>Проверка целостности памяти после завершения процесса / после опроса.</p>
 <empty-line/>
-<subtitle>@scheduler run-degraded (возможно, режим деградации при сбое)</subtitle>
+</section>
+<section id="toc_sub_000104"><title><p>@scheduler run-degraded (возможно, режим деградации при сбое)</p></title>
 <empty-line/>
 <p>Заставляет планировщик пытаться продолжить работу при возникновении неустранимой ошибки процесса. По умолчанию IOS отключает этот режим и перезагружает маршрутизатор при обнаружении критической ошибки. Настройка применяется индивидуально для каждого процесса. Очевидно, что некоторые процессы более критичны, чем другие, и удаление проблемного процесса из планировщика не всегда даёт выигрыш во времени или информацию.</p>
 <empty-line/>
-<subtitle>@service internal</subtitle>
+</section>
+<section id="toc_sub_000105"><title><p>@service internal</p></title>
 <empty-line/>
 <p>Весьма полезная команда. Включение в режиме глобальной конфигурации открывает доступ к ряду ранее скрытых команд. Включите по умолчанию — со временем обнаружите кое-что интересное.</p>
 <empty-line/>
 <p>Некоторые команды вовсе недоступны без включения этого режима (например, <code>sh proc all-events</code>).</p>
 <empty-line/>
-<subtitle>@service slave-coredump</subtitle>
+</section>
+<section id="toc_sub_000106"><title><p>@service slave-coredump</p></title>
 <empty-line/>
 <p>Позволяет сбрасывать дамп памяти на ведомую машину для целей журналирования. Процесс занимает значительное время в зависимости от объёма памяти маршрутизатора (копирование 128 МБ при различной скорости канала — посчитайте сами). Важно учитывать, что копирование происходит до перехода маршрутизатора в рабочий режим, то есть время перезагрузки значительно увеличивается. Команды <code>exception-slave</code> указывают маршрутизатору, куда выгружать образ дампа.</p>
 <empty-line/>
-<subtitle>@service log backtrace (трассировка при каждом событии логирования)</subtitle>
+</section>
+<section id="toc_sub_000107"><title><p>@service log backtrace (трассировка при каждом событии логирования)</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0779_91e42310a0.png"/>
 <empty-line/>
-<subtitle>@neighbor ctalkb-out filter-as 100 d (в конфигурации BGP)</subtitle>
+</section>
+<section id="toc_sub_000108"><title><p>@neighbor ctalkb-out filter-as 100 d (в конфигурации BGP)</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_003_linenoise_0786_e7fb164ce2.png"/>
 <empty-line/>
 <p>Интересная команда: даёт несколько большее представление о происходящем. Предпочтительна даже несмотря на то, что она устарела в пользу <code>filter-list</code>. Причина: команда более специфична.</p>
 <empty-line/>
-<subtitle>@partition-avoidance (в конфигурации роутера ISIS)</subtitle>
+</section>
+<section id="toc_sub_000109"><title><p>@partition-avoidance (в конфигурации роутера ISIS)</p></title>
 <empty-line/>
 <p>Назначение команды неясно, поскольку отсутствует сложная конфигурация ISIS для тестирования.</p>
 <empty-line/>
-<subtitle>0x03 — Программирование точек выхода OS/400</subtitle>
+</section>
+<section id="toc_sub_000110"><title><p>0x03 — Программирование точек выхода OS/400</p></title>
 <empty-line/>
 <p><strong>clever</strong> &lt;clever@dhp.com&gt;</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+</section>
+<section id="toc_sub_000111"><title><p>Введение</p></title>
 <empty-line/>
 <p>Точки выхода позволяют программистам встраивать собственную логику в системные функции, которые в обычном случае не поддаются конфигурированию. На определённом этапе выполнения программа с точкой выхода вызывает зарегистрированные для неё программы, передавая им соответствующие параметры. В этот момент программа обработки точки выхода может делать с переданными параметрами что угодно и, при желании, изменять поведение вызывающей программы, возвращая значения обратно.</p>
 <empty-line/>
@@ -1506,7 +1615,8 @@
 <empty-line/>
 <p>— clever &lt;clever@dhp.com&gt;, 20000222</p>
 <empty-line/>
-<subtitle>0x04 — Linux и зашифрованные файловые системы</subtitle>
+</section>
+<section id="toc_sub_000112"><title><p>0x04 — Linux и зашифрованные файловые системы</p></title>
 <empty-line/>
 <p><strong>phunda mental</strong> &lt;phundie@yahoo.com&gt;</p>
 <empty-line/>
@@ -1577,7 +1687,8 @@
 <p>1. ftp://ftp.aanet.ru/pub/Linux/utils/util-linux-2.9e.tar.gz</p>
 <p>2. ftp://ftp.kerneli.org/pub/kerneli/v2.2/patch-int-2.2.4.1.gz</p>
 <empty-line/>
-<subtitle>0x05 — Остаточные данные</subtitle>
+</section>
+<section id="toc_sub_000113"><title><p>0x05 — Остаточные данные</p></title>
 <empty-line/>
 <p><strong>phunda mental</strong> &lt;phundie@yahoo.com&gt;</p>
 <empty-line/>
@@ -1591,7 +1702,8 @@
 <empty-line/>
 <p>Очевидно, остаточные данные существуют во многих формах и могут быть использованы несколькими способами.</p>
 <empty-line/>
-<subtitle>Программные методы</subtitle>
+</section>
+<section id="toc_sub_000114"><title><p>Программные методы</p></title>
 <empty-line/>
 <p>Первый способ, которым остаточные данные могут нас подвести, хорошо известен любому компетентному пользователю DOS/Windows: команда undelete. Стандартное удаление в MS лишь убивает указатель на файл в FAT, сами же данные остаются на диске. Undelete просто восстанавливает этот указатель, позволяя вернуть часть (или все) биты данных.</p>
 <empty-line/>
@@ -1633,7 +1745,8 @@
 <empty-line/>
 <p>Существуют также программы наподобие <code>wipe.com</code> (DOS) [3] и Burn (Mac) [4], которые затирают биты конкретных файлов, обеспечивая более управляемый (и потому более быстрый) метод уничтожения остаточных данных. Надёжного способа безопасного удаления файлов в Linux, кроме заполнения диска, найти не удалось. Обнаруженные программы, заявляющие об этом, не справляются с задачей, и придумать надёжный способ сделать это за пределами <code>ext2.c</code> не представляется возможным.</p>
 <empty-line/>
-<subtitle>Аппаратные методы</subtitle>
+</section>
+<section id="toc_sub_000115"><title><p>Аппаратные методы</p></title>
 <empty-line/>
 <p>Существует и третий тип атаки, который не зависит от того, что устройство (например, жёсткий диск) сообщает о своём содержимом. Этот тип атаки анализирует носитель напрямую — назовём его лабораторной атакой.</p>
 <empty-line/>
@@ -1689,7 +1802,8 @@
 <empty-line/>
 <p>4. Burn доступен в архивах Info-Mac.</p>
 <empty-line/>
-<subtitle>0x06 — Дополнения и опечатки к Phrack 55</subtitle>
+</section>
+<section id="toc_sub_000116"><title><p>0x06 — Дополнения и опечатки к Phrack 55</p></title>
 <empty-line/>
 <p>P55-14@71:</p>
 <empty-line/>
@@ -1703,17 +1817,19 @@
 <empty-line/>
 <p><emphasis>EOF</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_056_004_prophile_sw_r">
 <title><p>Prophile: sw_r</p></title>
 <p><strong>Автор:</strong> Shockwave Rider</p>
 <empty-line/>
 <p>Раздел Phrack Prophile призван представить краткую биографию человека, о котором идёт речь. Это способ Phrack'а отметить, что данный человек сделал нечто достойное упоминания в той или иной области. Своего рода трибуна — Prophile даёт человеку возможность высказаться о чём угодно и возвеличить себя в меру своего желания. Это <emphasis>его</emphasis> время блистать.</p>
 <empty-line/>
-<subtitle>Личное</subtitle>
+<section id="toc_sub_000117"><title><p>Личное</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_004_prophile_sw_r_0015_42638a30b5.png"/>
 <empty-line/>
-<subtitle>Предпочтения</subtitle>
+</section>
+<section id="toc_sub_000118"><title><p>Предпочтения</p></title>
 <empty-line/>
 <p><strong>Женщины</strong></p>
 <empty-line/>
@@ -1778,7 +1894,8 @@
 <empty-line/>
 <p>Быстрые машины, умные и красивые женщины, хорошая музыка, Guinness, хорошая еда, зима, весна, лето, осень, ночи, закаты, рассветы, хорошие книги, сон, кофейные столики Ms. Pac-Man, велосипед, кока-кола, Mountain Dew, водные горки, учёба, выпивка, секс/наркотики/рок-н-ролл, мороженое, оружие, игра в футбол, друзья, видеоигры.. всё, лишь бы было весело.</p>
 <empty-line/>
-<subtitle>Памятные события</subtitle>
+</section>
+<section id="toc_sub_000119"><title><p>Памятные события</p></title>
 <empty-line/>
 <p>Покупка первого модема и его установка. Установка QModem и первый звонок на BBS.</p>
 <empty-line/>
@@ -1876,7 +1993,8 @@
 <p>• Error 23</p>
 <p>• Realms of Valor</p>
 <empty-line/>
-<subtitle>Цитаты</subtitle>
+</section>
+<section id="toc_sub_000120"><title><p>Цитаты</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_004_prophile_sw_r_0209_84658023fb_part01.png"/>
 <image l:href="#img__code_blocks_issue_056_004_prophile_sw_r_0209_84658023fb_part02.png"/>
@@ -1887,7 +2005,8 @@
 <empty-line/>
 <p>Ну и ладно.</p>
 <empty-line/>
-<subtitle>Будущее андерграунда</subtitle>
+</section>
+<section id="toc_sub_000121"><title><p>Будущее андерграунда</p></title>
 <empty-line/>
 <p>Задавать этот вопрос — всё равно что спрашивать о будущем восьмидорожечных кассет или птицы додо.</p>
 <empty-line/>
@@ -1905,7 +2024,8 @@
 <empty-line/>
 <p>Если вы инстинктивно и успешно опровергли два последних абзаца бредовой логики... значит, вы — свой.</p>
 <empty-line/>
-<subtitle>Приветы</subtitle>
+</section>
+<section id="toc_sub_000122"><title><p>Приветы</p></title>
 <empty-line/>
 <p>eubern1g, el_jefe, dhate, sl/tr0ut, sloppy, dk, neal, u4ea, dw, lurid, adamw, fryguy, sarlo, sn, prym, plaguez, elastic, netw1z, route, redragon/djm, jennie, acid phreak, number6, pea, fatalist, marauder, tabas, kwei, ratscabies.. всем модераторам BoW и участникам H4G1S, кого я упустил, и всем остальным, кого упустил — элита знает, кто они :)</p>
 <empty-line/>
@@ -1917,19 +2037,21 @@
 <empty-line/>
 <p><emphasis>|EOF|</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_056_005_bypassing_stackguard_and_stackshield">
 <title><p>Обход StackGuard и StackShield</p></title>
 <p><strong>Автор:</strong> Bulba and Kil3r &lt;lam3rz@hert.org&gt;</p>
 <empty-line/>
 <p>05.01.2000</p>
 <empty-line/>
-<subtitle>Предисловие</subtitle>
+<section id="toc_sub_000123"><title><p>Предисловие</p></title>
 <empty-line/>
 <p>«Когда буфер перезаписывает указатель... История беспокойного разума.»</p>
 <empty-line/>
 <p>Эта статья — попытка продемонстрировать, что уязвимости переполнения стека можно эксплуатировать на системах, защищённых StackGuard или StackShield, даже во враждебных условиях (например, когда стек является невыполнимым).</p>
 <empty-line/>
-<subtitle>Обзор StackGuard</subtitle>
+</section>
+<section id="toc_sub_000124"><title><p>Обзор StackGuard</p></title>
 <empty-line/>
 <p>По словам авторов, StackGuard — это «простая техника компилятора, которая практически устраняет уязвимости переполнения буфера при весьма скромных потерях производительности». [1]</p>
 <empty-line/>
@@ -1949,13 +2071,15 @@
 <empty-line/>
 <p>Случайная канарейка выбирается случайно в момент запуска программы (exec). Таким образом, атакующий не может узнать значение канарейки до старта программы, исследуя исполняемый образ. Случайное значение берётся из <code>/dev/urandom</code>, если он доступен, и вычисляется хешированием текущего времени в противном случае. Такой случайности достаточно, чтобы предотвратить большинство попыток предсказания.</p>
 <empty-line/>
-<subtitle>StackShield</subtitle>
+</section>
+<section id="toc_sub_000125"><title><p>StackShield</p></title>
 <empty-line/>
 <p>StackShield использует другую технику. Идея состоит в создании отдельного стека для хранения копии адреса возврата функции. Это также достигается добавлением кода в самое начало и конец защищаемой функции. Код в прологе функции копирует адрес возврата в специальную таблицу, а в эпилоге — возвращает его обратно в стек. Таким образом, поток выполнения остаётся неизменным — функция всегда возвращается к своему вызывающему. Фактический адрес возврата не сравнивается с сохранённым, поэтому нет никакого способа проверить, произошло ли переполнение буфера. Последняя версия также добавляет некоторую защиту от вызова указателей функций, указывающих на адреса, не содержащиеся в сегменте <code>.TEXT</code> (программа прекращает выполнение, если возвращаемое значение изменилось).</p>
 <empty-line/>
 <p>Может показаться, что эти две системы безупречны. Это не так.</p>
 <empty-line/>
-<subtitle>«Nelson Mengele must be free»</subtitle>
+</section>
+<section id="toc_sub_000126"><title><p>«Nelson Mengele must be free»</p></title>
 <empty-line/>
 <p>«...атакующий может обойти защиту StackGuard, используя переполнение буферов для изменения других указателей в программе помимо адреса возврата, например указателей на функции и буферов longjmp, которые вовсе не обязательно находятся в стеке.» [2]</p>
 <empty-line/>
@@ -1987,13 +2111,14 @@
 <empty-line/>
 <p>Эта техника работает с программами, скомпилированными обычным gcc или StackGuarded gcc, но программы, скомпилированные StackShield, против неё устойчивы.</p>
 <empty-line/>
-<subtitle>Ложки не существует</subtitle>
+</section>
+<section id="toc_sub_000127"><title><p>Ложки не существует</p></title>
 <empty-line/>
 <p>Я поговорил с Криспином Коуэном &lt;crispin@cse.ogi.edu&gt;, одним из разработчиков StackGuard, и он предложил защиту против описанного взлома. Вот его идея:</p>
 <empty-line/>
 <p>«Защита XOR-случайной канарейки: здесь мы принимаем древнее предложение Аарона Грира — XOR случайной канарейки с адресом возврата. Код проверки канарейки, используемый при выходе из функции, XOR-ит адрес возврата с правильной случайной канарейкой (назначенной этой функции во время exec()), чтобы вычислить, каким должно быть записанное случайное слово-канарейка в стеке. Если атакующий изменил адрес возврата, XOR-каная случайная канарейка не совпадёт. Атакующий не может вычислить канарейку для помещения в стек, не зная значения случайной канарейки. По сути, это шифрование адреса возврата с помощью случайной канарейки для данной функции.</p>
 <empty-line/>
-<p>Задача здесь — не дать атакующему узнать значение случайной канарейки. Ранее мы предлагали сделать это, окружив таблицу канареек &quot;красными страницами&quot;, чтобы переполнения буферов не могли использоваться для извлечения значений канареек. Однако атака Emsi [описанная выше] позволяет ему синтезировать указатели на произвольные адреса.»</p>
+<p>Задача здесь — не дать атакующему узнать значение случайной канарейки. Ранее мы предлагали сделать это, окружив таблицу канареек "красными страницами", чтобы переполнения буферов не могли использоваться для извлечения значений канареек. Однако атака Emsi [описанная выше] позволяет ему синтезировать указатели на произвольные адреса.»</p>
 <empty-line/>
 <p>«(Простейшее решение здесь — ) mprotect() таблицы канареек для предотвращения её повреждения.»</p>
 <empty-line/>
@@ -2039,7 +2164,8 @@
 <empty-line/>
 <p>Разумеется, описанный выше взлом не применим к StackShield. Защиту StackShield можно обойти, перезаписав сохранённый <code>%ebp</code>, который не защищён. Один из способов его эксплуатации (в наихудших условиях) описан в «The Frame Pointer Overwrite» за авторством klog в Phrack 55 [4]. Когда программа скомпилирована StackShield с опцией <code>-z d</code>, она вызывает <code>_exit()</code>, но для нас это не проблема.</p>
 <empty-line/>
-<subtitle>Открытие Америки</subtitle>
+</section>
+<section id="toc_sub_000128"><title><p>Открытие Америки</p></title>
 <empty-line/>
 <p>Что если система защищена одновременно StackGuard <emphasis>и</emphasis> StackPatch (модификацией Solar Designer'а, делающей стек невыполнимым)? Это <emphasis>самый</emphasis> плохой сценарий? Не совсем.</p>
 <empty-line/>
@@ -2051,7 +2177,7 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_005_bypassing_stackguard_and_stackshield_0268_3a5c583d7b.png"/>
 <empty-line/>
-<p>Программа записывает наше содержимое (<code>argv[2]</code>) по нашему указателю, а затем выполняет библиотечный код — <code>printf()</code>. Нам нужно перезаписать GOT-запись <code>printf()</code> адресом <code>system()</code> из libc, чтобы выполнилось <code>system(&quot;After second strcpy :)\n&quot;)</code>. Протестируем это на практике. Для этого дизассемблируем таблицу связи процедур (PLT) <code>printf()</code>.</p>
+<p>Программа записывает наше содержимое (<code>argv[2]</code>) по нашему указателю, а затем выполняет библиотечный код — <code>printf()</code>. Нам нужно перезаписать GOT-запись <code>printf()</code> адресом <code>system()</code> из libc, чтобы выполнилось <code>system("After second strcpy :)\n")</code>. Протестируем это на практике. Для этого дизассемблируем таблицу связи процедур (PLT) <code>printf()</code>.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_005_bypassing_stackguard_and_stackshield_0278_dd013c72c2.png"/>
 <empty-line/>
@@ -2079,7 +2205,8 @@
 <empty-line/>
 <p>Перезапись GOT работает для StackGuard, StackShield и StackPatch. Она может применяться, когда нельзя управлять полным содержимым копируемых данных — только их частями (как в wu-ftpd).</p>
 <empty-line/>
-<subtitle>«Масляный путь»</subtitle>
+</section>
+<section id="toc_sub_000129"><title><p>«Масляный путь»</p></title>
 <empty-line/>
 <p>Читатель может подумать, что мы демонстрируем лишь наивные примеры, которые в жизни вряд ли встретятся. Уязвимая функция, получающая в качестве аргументов целую таблицу строк, — явление нечастое. Чаще встречаются функции, выглядящие примерно так:</p>
 <empty-line/>
@@ -2135,7 +2262,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_005_bypassing_stackguard_and_stackshield_0500_a84627491b.png"/>
 <empty-line/>
-<subtitle>Заключение</subtitle>
+</section>
+<section id="toc_sub_000130"><title><p>Заключение</p></title>
 <empty-line/>
 <p>1. StackGuard/StackShield могут спасти вас в случае случайных переполнений буфера, но не от глупости программиста. Errare humanum est — да, конечно, но программисты в области безопасности должны быть не просто людьми, они должны быть людьми, осознающими вопросы безопасности.</p>
 <empty-line/>
@@ -2152,11 +2280,13 @@
 <p>• http://emsi.it.pl/</p>
 <p>• http://lam3rz.hack.pl/</p>
 <empty-line/>
-<subtitle>Addendum: 5 января 2000 г.</subtitle>
+</section>
+<section id="toc_sub_000131"><title><p>Addendum: 5 января 2000 г.</p></title>
 <empty-line/>
 <p>Мы решили проблему с StackGuard на системе с невыполнимым стековым патчем Solar Designer. Мы не уверены, что именно вызвало проблему, но чтобы её избежать, включите «Autodetect GCC trampolines» и «Emulate trampoline calls» в конфигурации ядра. Мы работали со Slackware Linux без StackGuard и трамплинов, но с невыполнимым пользовательским стеком, а StackGuard'ный RH Linux отказывался работать в такой конфигурации... :)</p>
 <empty-line/>
-<subtitle>Поздравления</subtitle>
+</section>
+<section id="toc_sub_000132"><title><p>Поздравления</p></title>
 <empty-line/>
 <p>A18 team, HERT, CocaCola, Raveheart (за песню «Nelson Mengele...»). Nergal, moe by si tak ujawni? ;) Po raz kolejny chcialbym zaznaczyc, ze jestem tylko zwyczajnym Lam3rem.</p>
 <empty-line/>
@@ -2166,13 +2296,16 @@
 <empty-line/>
 <p>— Bulba</p>
 <empty-line/>
-<subtitle>Ссылки</subtitle>
+</section>
+<section id="toc_sub_000133"><title><p>Ссылки</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_005_bypassing_stackguard_and_stackshield_0556_56e461ff89.png"/>
 <empty-line/>
-<subtitle>Примечание авторов</subtitle>
+</section>
+<section id="toc_sub_000134"><title><p>Примечание авторов</p></title>
 <empty-line/>
 <p>Эта статья является интеллектуальной собственностью группы Lam3rZ. Знания, представленные здесь, являются интеллектуальной собственностью всего человечества — особенно тех, кто способен их понять. :)</p>
+</section>
 </section>
 <section id="sec_issue_056_006_project_area52">
 <title><p>PROJECT AREA52 («Делириум Тременс»)</p></title>
@@ -2180,11 +2313,12 @@
 <empty-line/>
 <p><emphasis>05.01.2000</emphasis></p>
 <empty-line/>
-<subtitle>Предыстория</subtitle>
+<section id="toc_sub_000135"><title><p>Предыстория</p></title>
 <empty-line/>
 <p>Военная тактика развивалась вместе с технологиями. Достижение цели обеспечивается расчётными стратегиями, учитывающими воздействие боевых действий на местности. Эта информация используется для планирования следующего наступления. Как указало АНБ, кибервойна происходит во многом так же, как её реальный аналог, — следовательно, применяется та же разведывательная база. В данной статье мы попытаемся исследовать средства и инструменты для построения автоматизированного движка атак на основе универсальной классификации стратегий атак (независимо от конкретных атак).</p>
 <empty-line/>
-<subtitle>Классификация</subtitle>
+</section>
+<section id="toc_sub_000136"><title><p>Классификация</p></title>
 <empty-line/>
 <p>Написание полноценной классификации компьютерных атак могло бы заполнить целые книги [1], однако мы можем выделить уровни доступа — Чтение, Запись и Модификация, — которые атакующий может получить над системой. Шаги для достижения цели варьируются в зависимости от того, атакуете ли вы удалённо, локально или физически. Достижение цели также зависит от политики безопасности атакуемой системы.</p>
 <empty-line/>
@@ -2248,7 +2382,8 @@
 <empty-line/>
 <p>Чтобы классификация была по-настоящему универсальной и легко реализуемой, три ситуации (Удалённая, Локальная, Физическая) должны быть описаны в слоях, применимых ко всем известным системам. Это звучит несколько утопично, однако модель OSI для удалённого доступа выглядит достаточно универсальной, поскольку практически каждая сетевая система либо основана на ней, либо может быть на неё отображена. Для корректного описания локального доступа к системе (через удалённую оболочку, локальный сеанс или иным способом) нам сначала следует разобраться, что могло бы считаться универсальными уровнями локальной безопасности: уровни запуска, группы и пользователи, аппаратный доступ (это ещё предстоит сделать). Физический доступ открывает мир, где властвуют иные законы, чем просто электричество, — и здесь всё не так очевидно.</p>
 <empty-line/>
-<subtitle>Хранилище: база данных взломов</subtitle>
+</section>
+<section id="toc_sub_000137"><title><p>Хранилище: база данных взломов</p></title>
 <empty-line/>
 <p>Теперь, имея универсальную классификацию для удалённого, локального и физического доступа, введём следующие сокращения:</p>
 <empty-line/>
@@ -2299,11 +2434,13 @@
 <p>• Ручной (атака выполняется вручную, без обёртки — как у «милов» ;-)),</p>
 <p>• Автоматический (конечная Хакерская Машина).</p>
 <empty-line/>
-<subtitle>Искусственный интеллект</subtitle>
+</section>
+<section id="toc_sub_000138"><title><p>Искусственный интеллект</p></title>
 <empty-line/>
 <p>Читатель, возможно, не знаком с ИИ, поэтому попытаемся определить некоторые принципы, необходимые для данного обсуждения.</p>
 <empty-line/>
-<subtitle>Интеллект</subtitle>
+</section>
+<section id="toc_sub_000139"><title><p>Интеллект</p></title>
 <empty-line/>
 <p>ИИ отнюдь не призван «творить», а скорее «думать». Мышление — логичное и воспроизводимое — это процесс, а значит, его можно имитировать машиной. Фактически, имея надлежащую стратегию и процесс мышления, компьютер решает известные проблемы значительно быстрее людей. Создание нового взлома — простой процесс, если методология известна. Если методология неизвестна, её нужно создать. Когда ни один логический путь не ведёт туда, куда нужно, приходится создавать новый взлом, который нельзя связать ни с одним из существующих. Новый взлом затем обогащает мир известных взломов и может быть добавлен в общий процесс. Предполагается, что ИИ способен решить наши проблемы при следующих ограничениях:</p>
 <empty-line/>
@@ -2312,17 +2449,20 @@
 <empty-line/>
 <p>Иными словами, любую систему можно взломать — при наличии достаточного времени и известных взломов для этой цели.</p>
 <empty-line/>
-<subtitle>Вывод</subtitle>
+</section>
+<section id="toc_sub_000140"><title><p>Вывод</p></title>
 <empty-line/>
 <p>«Думающий движок», который мы хотим использовать, должен применять известные факты (взломы) к результатам в реальных условиях, чтобы исследовать пути, ведущие к конечной цели (или результату). Такие движки в ИИ называются «машинами вывода» (inference engines): начало от цели и поиск возможного пути к базе знаний называется «обратным выводом», начало от базы знаний и поиск пути к цели — «прямым выводом». В данном случае «обратный вывод» подходит только для симуляции, но в реальных условиях можно использовать только «прямой вывод» (который алгоритмически медленнее обратного).</p>
 <empty-line/>
 <p>Исходная теория машин вывода основана на двух логических правилах: для прямого вывода — Modus Ponens (MP), для обратного — Modus Tollens (MT). MP гласит: [если (P) И (P влечёт Q), ТО (Q)]; MT гласит: [если (НЕ Q) И (P влечёт Q), ТО (НЕ P)].</p>
 <empty-line/>
-<subtitle>Машина вывода</subtitle>
+</section>
+<section id="toc_sub_000141"><title><p>Машина вывода</p></title>
 <empty-line/>
 <p>Алгоритмически машина вывода — это рекурсивный алгоритм, принимающий на вход набор известных фактов (цель — www.blabla.bla), обрабатывающий их против базы правил (если RedHat 5.0, то Sendmail уязвим) и добавляющий новые факты в набор (если цель — RedHat 5.0, то цель уязвима к ошибке SendMail). Движок останавливается, когда цель достигнута (цель скомпрометирована) или в набор фактов невозможно добавить ничего нового (все возможности исследованы). Для оптимизации процесса машина вывода настраивается на использование стратегий при выборе правил для проверки (переполнение буфера, возможно, проще попробовать, чем «гонку tmp», поэтому движок сначала пробует переполнение). Как обсуждается ниже в разделе «Распределённая парадигма», важно понять: процесс взлома находится не в движке, а в наборах правил базы данных. Например, тесты выполняются для понимания установки/конфигурации/ОС цели и подбора соответствующих взломов; движок предоставляет механизм, а наборы правил — пути понимания того, как нужно атаковать. Фактический «Интеллект» заключён в описании набора правил: если на рынке появляется новая ОС с новым механизмом безопасности, нам не нужно переписывать движок — достаточно задать новые правила для этой ОС.</p>
 <empty-line/>
-<subtitle>Машина вывода нулевого порядка</subtitle>
+</section>
+<section id="toc_sub_000142"><title><p>Машина вывода нулевого порядка</p></title>
 <empty-line/>
 <p>Рассмотрим набор правил без переменных, только статические факты:</p>
 <empty-line/>
@@ -2337,7 +2477,8 @@
 <p>и наконец:</p>
 <image l:href="#img__code_blocks_issue_056_006_project_area52_0337_f8e6e7b9ca.png"/>
 <empty-line/>
-<subtitle>Машина вывода первого порядка</subtitle>
+</section>
+<section id="toc_sub_000143"><title><p>Машина вывода первого порядка</p></title>
 <empty-line/>
 <p>Если набор правил содержит переменные:</p>
 <empty-line/>
@@ -2345,7 +2486,8 @@
 <empty-line/>
 <p>Машина вывода, обрабатывающая правила и выполняющая подстановку переменных, называется машиной первого порядка (и если вам интересно — машины второго порядка и выше не существуют; доказано, что все задачи описываются в первом порядке). Именно этот тип движка нам нужен, поскольку он позволяет использовать переменные — ими будут «дескрипторы», возникающие в результате наших взломов.</p>
 <empty-line/>
-<subtitle>Сопоставление с образцом</subtitle>
+</section>
+<section id="toc_sub_000144"><title><p>Сопоставление с образцом</p></title>
 <empty-line/>
 <p>Подобно тому как существуют интерпретируемые языки и более быстрые компилируемые, существуют машины вывода ИИ на основе «интерпретируемых наборов правил» и на основе «скомпилированных». Компиляция набора правил означает перестройку его в форму «немедленной эффективности». Метод компиляции, который нас интересует, называется «сопоставлением с образцом» (Pattern Matching) и основан на бинарных деревьях. Например, предположим следующее:</p>
 <empty-line/>
@@ -2373,7 +2515,8 @@
 <empty-line/>
 <p>Механизм оценки может быть автоматизирован в ИИ; метод — ещё одна характеристика для Классификации и хранения в базе данных взломов.</p>
 <empty-line/>
-<subtitle>Машина прямого вывода первого порядка с сопоставлением с образцом</subtitle>
+</section>
+<section id="toc_sub_000145"><title><p>Машина прямого вывода первого порядка с сопоставлением с образцом</p></title>
 <empty-line/>
 <p>Итак, нам нужно:</p>
 <empty-line/>
@@ -2381,7 +2524,8 @@
 <empty-line/>
 <p>Академический пример такого алгоритма — алгоритм RETE (выходящий за рамки данного предварительного обсуждения); заинтересованный читатель может обратиться к статье Чарльза Форги (Charles L. Forgy) в журнале «Artificial Intelligence»: «The RETE Matching Algorithm» (Кафедра информатики, Университет Карнеги-Меллон). Также можно изучить схожие системы OPS и TANGO («OPS5 user's manual» того же автора и «TANGO» Cordier-Rousset из L.R.I факультета Орсе во Франции). Рабочий код RETE можно найти в репозитории MIT [8]. Также рекомендуем проект Venus профессора Миранкера [9]. Оригинальный код OPS существует на LISP [10]. Однако наиболее подходящей системой является CLIPS — написанная на C NASA (изначально NASA, а ныне поддерживается в открытом доступе) [11].</p>
 <empty-line/>
-<subtitle>Движок взлома</subtitle>
+</section>
+<section id="toc_sub_000146"><title><p>Движок взлома</p></title>
 <empty-line/>
 <p>Движок сначала запрашивает из базы данных фактов все известные взломы в классификационной форме, определённой нами вместе с информацией о системах и версиях; известные взломы записываются как набор правил (конкретное представление взломов в виде правил связано с самим движком и ещё предстоит определить).</p>
 <empty-line/>
@@ -2389,11 +2533,13 @@
 <empty-line/>
 <p>Движок инициализируется изначально известными фактами (идентификатор цели) и начинает применять правила к этим фактам для извлечения дополнительной информации — до достижения цели или исчерпания всех ветвей. В режиме симуляции движок использует только инициализирующие факты и сопоставляет вызовы функций с ними; в ручном режиме хакеру предоставляется код функции, и движок ждёт результата; в автоматическом режиме движок сам выполняет код.</p>
 <empty-line/>
-<subtitle>Распределённая парадигма</subtitle>
+</section>
+<section id="toc_sub_000147"><title><p>Распределённая парадигма</p></title>
 <empty-line/>
 <p>Теория, анализ и преимущества распределённого взлома подробно рассмотрены в превосходной статье Эндрю Дж. Стюарта (Andrew J. Stewart) «Distributed Metastasis» [12]. Именно на ней мы и будем основывать предлагаемую реализацию; пожалуйста, обратитесь к указанной статье.</p>
 <empty-line/>
-<subtitle>Распределённая схема</subtitle>
+</section>
+<section id="toc_sub_000148"><title><p>Распределённая схема</p></title>
 <empty-line/>
 <p>В распределённой атаке атакующий (A) является «родителем» всех узлов (агентов). Каждый узел характеризуется работающим агентом (движком взлома), его адресом (IP, IPX...) и уровнем, на котором работает агент. Например:</p>
 <empty-line/>
@@ -2415,7 +2561,8 @@
 <empty-line/>
 <p>2. Все узлы дерева (кроме A) не знают адресов других узлов, но знают подсеть, в которой находится узел, и могут прослушивать пакеты. Например, A1 отправляет пакеты на 10.0.2.6; 10.0.2.6 отбрасывает их, но 10.0.2.5 видит данные и отвечает на 10.0.3.2. [13]</p>
 <empty-line/>
-<subtitle>Распределённая и одновременная атака</subtitle>
+</section>
+<section id="toc_sub_000149"><title><p>Распределённая и одновременная атака</p></title>
 <empty-line/>
 <p><strong>Фаза 0</strong></p>
 <empty-line/>
@@ -2459,9 +2606,11 @@
 <empty-line/>
 <p>В это можно добавить и другие концепции: криптографию, одновременный захват нескольких целей. Написать корректный алгоритм для всего этого было бы весьма интересным упражнением.</p>
 <empty-line/>
-<subtitle>Сравнение</subtitle>
+</section>
+<section id="toc_sub_000150"><title><p>Сравнение</p></title>
 <empty-line/>
-<subtitle>Система Kuang из COPS</subtitle>
+</section>
+<section id="toc_sub_000151"><title><p>Система Kuang из COPS</p></title>
 <empty-line/>
 <p>«Система Kuang» — инструмент анализа безопасности, разработанный Робертом У. Болдуином (Robert W. Baldwin) из MIT, — входит в состав пакета безопасности COPS, доступного из Университета Пёрдью [15]. Система Kuang основана на наборе правил для проверки прав UID/GID на локальной системе: она обрабатывает базу знаний (список привилегированных пользователей/файлов, список прав, необходимых для достижения их уровня привилегий) против набора правил (если любой пользователь может записывать стартовый файл root, любой пользователь может стать root). Набор правил записан таким образом, что он «разбирается строками» в машине вывода (которая является машиной прямого вывода первого порядка). Система может выполнять тесты, хранимые в шелл-скрипте, чтобы определить, выполнено ли правило текущей конфигурацией системы.</p>
 <empty-line/>
@@ -2469,34 +2618,40 @@
 <empty-line/>
 <p>Систему Kuang следует рассматривать как практический пример для построения Area52.</p>
 <empty-line/>
-<subtitle>Пример сканера уязвимостей: Nessus</subtitle>
+</section>
+<section id="toc_sub_000152"><title><p>Пример сканера уязвимостей: Nessus</p></title>
 <empty-line/>
 <p>Открытый проект Nessus [16] нацелен на создание бесплатного сканера безопасности. Он работает путём тестирования систем (удалённых/локальных) на наличие известных уязвимостей. Разработчики Nessus создали для этого специальный скриптовый язык — ранее мы упоминали, что код атак должен быть свободно написан на высокопортируемом языке для нашей предлагаемой системы. Тем не менее подход Nessus заслуживает внимания — могли бы мы использовать наработки Nessus и расширить его скриптовый язык для переписывания всех эксплойтов? Это потребовало бы постоянных усилий при написании проекта, но сняло бы многие проблемы совместимости и базы данных. Можно даже надеяться на создание «общего языка взлома», опирающегося на кросс-платформенные библиотеки, такие как libpcap и libnet, в качестве основных компонентов. До появления открытого сканера уязвимостей, работающего на нескольких платформах, это весьма привлекательная технология.</p>
 <empty-line/>
-<subtitle>Другой подход: деревья атак</subtitle>
+</section>
+<section id="toc_sub_000153"><title><p>Другой подход: деревья атак</p></title>
 <empty-line/>
 <p>Как, вероятно, очевидно, этот «конечный инструмент взлома» можно использовать как для защиты, так и для компрометации. Хотя большая часть обсуждения велась с позиции злоумышленника, мы могли бы легко применить инструмент для собственной оценки уязвимостей. Если загрузить в базу знаний всю актуальную информацию о своей сети и запустить движок в режиме симуляции, на выходе получим возможную последовательность атак. Если затем движок настроить на поиск ВСЕХ возможных последовательностей атак, а результат оформить в виде дерева последовательностей атак (подобно описанному выше дереву известных уязвимостей), это позволит автоматически генерировать «Деревья атак», как описано Брюсом Шнайером (Bruce Schneier) из Counterpane Internet Security в журнале Dr. Dobb's Journal [17] (декабрь 1999).</p>
 <empty-line/>
-<subtitle>Прочее...</subtitle>
+</section>
+<section id="toc_sub_000154"><title><p>Прочее...</p></title>
 <empty-line/>
 <p>Некоторые инструменты распределённого отказа в обслуживании в последнее время наделали немало шума в сообществе безопасности [18]. Эти инструменты демонстрируют интересный пример распределённой связи и туннелирования данных, код которых можно повторно использовать в проекте, описанном в данной статье. Главная проблема этих инструментов DoS в том, что их основной вывод (потоки пакетов против цели) Атакующий никогда не видит — а это нам как раз необходимо.</p>
 <empty-line/>
-<subtitle>Ссылки</subtitle>
+</section>
+<section id="toc_sub_000155"><title><p>Ссылки</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_006_project_area52_0593_6e954da55f_part01.png"/>
 <image l:href="#img__code_blocks_issue_056_006_project_area52_0593_6e954da55f_part02.png"/>
+</section>
 </section>
 <section id="sec_issue_056_007_shared_library_call_redirection_via_elf_plt_infection">
 <title><p>Перенаправление вызовов разделяемых библиотек через заражение PLT в ELF</p></title>
 <p><strong>Автор:</strong> Silvio Cesare &lt;silvio@big.net.au&gt;</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+<section id="toc_sub_000156"><title><p>Введение</p></title>
 <empty-line/>
 <p>В статье описывается метод перенаправления вызовов разделяемых библиотек с помощью заражения ELF-файлов, при котором модифицируется таблица связей процедур (Procedure Linkage Table, PLT) исполняемого файла. Перенаправление размещается вне заражённого исполняемого файла. По сравнению с техникой перенаправления через LD_PRELOAD данный подход обладает преимуществом: переменные окружения не изменяются, что делает присутствие вируса менее заметным. Реализация приведена для x86/Linux. Желающим узнать больше — следующие ресурсы:</p>
 <empty-line/>
 <p>http://virus.beergrave.net (The Unix Virus Mailing List) http://www.big.net.au/~silvio (Страница автора)</p>
 <empty-line/>
-<subtitle>Таблица связей процедур (PLT)</subtitle>
+</section>
+<section id="toc_sub_000157"><title><p>Таблица связей процедур (PLT)</p></title>
 <empty-line/>
 <p>Из спецификации ELF (необязательно для чтения, но даёт более полную картину по сравнению с последующим текстом):</p>
 <empty-line/>
@@ -2537,11 +2692,13 @@
 <empty-line/>
 <p>Таким образом суммируется роль PLT в поиске библиотек. Можно заметить, что, изменив <code>name_in_GOT</code> так, чтобы он указывал на наш собственный код, мы заменим вызовы библиотек. Если сохранить состояние GOT до замены, мы сможем вызывать старую библиотечную процедуру и тем самым перенаправить любой библиотечный вызов.</p>
 <empty-line/>
-<subtitle>Заражение ELF</subtitle>
+</section>
+<section id="toc_sub_000158"><title><p>Заражение ELF</p></title>
 <empty-line/>
 <p>Для внедрения перенаправленного вызова библиотеки в исполняемый файл необходимо добавить в него новый код. Сама процедура заражения ELF здесь не описывается, поскольку она подробно освещена в предыдущих статьях (http://www.big.net.au/~silvio — Unix Viruses/Unix ELF Parasites and Virus). Для полноты картины используется заражение данных (Data Infection); оно содержит небольшую ошибку и не является безопасным при использовании <code>strip</code>.</p>
 <empty-line/>
-<subtitle>Перенаправление PLT</subtitle>
+</section>
+<section id="toc_sub_000159"><title><p>Перенаправление PLT</p></title>
 <empty-line/>
 <p>Алгоритм в коде точки входа выглядит следующим образом:</p>
 <empty-line/>
@@ -2629,15 +2786,18 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_007_shared_library_call_redirection_via_elf_plt_infection_0239_372d32eca6.png"/>
 <empty-line/>
-<subtitle>Перспективы развития</subtitle>
+</section>
+<section id="toc_sub_000160"><title><p>Перспективы развития</p></title>
 <empty-line/>
 <p>Возможно заражение разделяемой библиотеки напрямую — иногда это предпочтительнее, поскольку перенаправление остаётся резидентным для всех исполняемых файлов. Кроме того, возможна ещё более скрытная версия перенаправления PLT: путём прямой модификации образа процесса в памяти исходный исполняемый файл остаётся неизменным. Недостаток этого подхода — перенаправление действует только в течение жизни одного процесса.</p>
 <empty-line/>
-<subtitle>Заключение</subtitle>
+</section>
+<section id="toc_sub_000161"><title><p>Заключение</p></title>
 <empty-line/>
 <p>В статье описан метод перенаправления вызовов разделяемых библиотек в исполняемом файле путём непосредственной модификации его PLT с использованием техник заражения ELF. Метод более скрытен, чем предыдущие техники на основе LD_PRELOAD, и обладает широкими возможностями применения.</p>
 <empty-line/>
-<subtitle>Код</subtitle>
+</section>
+<section id="toc_sub_000162"><title><p>Код</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_007_shared_library_call_redirection_via_elf_plt_infection_0262_8fec371d9c_part01.png"/>
 <image l:href="#img__code_blocks_issue_056_007_shared_library_call_redirection_via_elf_plt_infection_0262_8fec371d9c_part02.png"/>
@@ -2655,15 +2815,17 @@
 <empty-line/>
 <p>|EOF|-------------------------------------------------------------------------|</p>
 </section>
+</section>
 <section id="sec_issue_056_008_smashing_cpp_vptrs">
 <title><p>Взлом C++ VPTR</p></title>
 <p><strong>Автор:</strong> rix &lt;rix@securiweb.net&gt;</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+<section id="toc_sub_000163"><title><p>Введение</p></title>
 <empty-line/>
 <p>На сегодняшний день существует широко известный набор техник, описывающих, как эксплуатировать переполнения буфера в программах, написанных преимущественно на C. Хотя язык C используется повсеместно, мы всё чаще наблюдаем программы, написанные и на C++. Большинство техник, применимых в C, работают и в C++, однако C++ открывает нам новые возможности в отношении переполнений буфера — главным образом благодаря использованию объектно-ориентированных технологий. Мы рассмотрим одну из таких возможностей, используя компилятор GNU C++ на x86-системе под управлением Linux.</p>
 <empty-line/>
-<subtitle>Краткие сведения о C++</subtitle>
+</section>
+<section id="toc_sub_000164"><title><p>Краткие сведения о C++</p></title>
 <empty-line/>
 <p>Определим «класс» как структуру, содержащую данные и набор функций (называемых «методами»). На основе определения класса можно создавать переменные, называемые «объектами». В качестве примера рассмотрим следующую программу (bo1.cpp):</p>
 <empty-line/>
@@ -2685,7 +2847,8 @@
 <empty-line/>
 <p>Теперь мы наглядно видим преимущество ООП: одинаковые вызовы <code>PrintBuffer()</code> работают с двумя разными классами! Это и есть результат применения виртуальных методов. Виртуальные методы позволяют переопределять версии методов базовых классов либо определять методы абстрактных базовых классов в производных классах. Если не объявить метод виртуальным, компилятор разрешит вызов на этапе компиляции («статическое связывание»). Чтобы разрешить вызов во время выполнения (поскольку он зависит от класса объектов в массиве <code>Object[]</code>), метод <code>PrintBuffer()</code> необходимо объявить «виртуальным». Тогда компилятор применит динамическое связывание и вычислит адрес вызова в процессе выполнения программы.</p>
 <empty-line/>
-<subtitle>C++ VPTR</subtitle>
+</section>
+<section id="toc_sub_000165"><title><p>C++ VPTR</p></title>
 <empty-line/>
 <p>Теперь рассмотрим механизм динамического связывания подробнее на примере класса <code>BaseClass</code> и его производных.</p>
 <empty-line/>
@@ -2711,7 +2874,8 @@
 <empty-line/>
 <p>ПРИМЕЧАНИЕ: По результатам тестов под Windows выяснилось, что Visual C++ 6.0 помещает VPTR в начало объекта, что препятствует использованию данной техники. GNU C++, напротив, помещает VPTR в конец объекта — что нам и нужно.</p>
 <empty-line/>
-<subtitle>Анализ VPTR с помощью GDB</subtitle>
+</section>
+<section id="toc_sub_000166"><title><p>Анализ VPTR с помощью GDB</p></title>
 <empty-line/>
 <p>Теперь рассмотрим этот механизм подробнее с применением отладчика. Скомпилируем программу и запустим GDB:</p>
 <empty-line/>
@@ -2770,7 +2934,7 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_008_smashing_cpp_vptrs_0350_03867309f4.png"/>
 <empty-line/>
-<p>По этому адресу находится строка <code>&quot;string1&quot;</code>, которую <code>SetBuffer()</code> скопирует в <code>Buffer</code>.</p>
+<p>По этому адресу находится строка <code>"string1"</code>, которую <code>SetBuffer()</code> скопирует в <code>Buffer</code>.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_008_smashing_cpp_vptrs_0357_f0cee6ddca.png"/>
 <empty-line/>
@@ -2850,7 +3014,8 @@
 <empty-line/>
 <p>Однако эта манипуляция необходима в ряде других ситуаций, и её важно иметь в виду — позже она создаст нам определённые трудности.</p>
 <empty-line/>
-<subtitle>Эксплуатация VPTR</subtitle>
+</section>
+<section id="toc_sub_000167"><title><p>Эксплуатация VPTR</p></title>
 <empty-line/>
 <p>Теперь попробуем простым способом воспользоваться переполнением буфера. Для этого нужно:</p>
 <p>• Создать собственную VTABLE, адреса в которой указывают на нужный нам код (например, шеллкод).</p>
@@ -2914,7 +3079,8 @@
 <empty-line/>
 <p>Очевидно, что простой байт <code>CCh</code> можно заменить полноценным шеллкодом для достижения более интересных результатов — особенно если программа bo3 имеет suid-флаг... ;)</p>
 <empty-line/>
-<subtitle>Варианты метода</subtitle>
+</section>
+<section id="toc_sub_000168"><title><p>Варианты метода</p></title>
 <empty-line/>
 <p>Здесь мы рассмотрели простейший эксплуатируемый механизм. Возможны и более сложные случаи.</p>
 <empty-line/>
@@ -2934,7 +3100,8 @@
 <empty-line/>
 <p>Значения двух из трёх параметров функции <code>BufferOverflow()</code> (количество адресов в VTABLE и смещение VPTR) несложно определить через отладку — они постоянны от запуска к запуску. Первый параметр (адрес объекта в памяти) определить сложнее. Он нужен только для того, чтобы поместить сформированную VTABLE в буфер.</p>
 <empty-line/>
-<subtitle>Частный пример</subtitle>
+</section>
+<section id="toc_sub_000169"><title><p>Частный пример</p></title>
 <empty-line/>
 <p>Предположим, что последней переменной в классе является переполняемый буфер. Это означает: если заполнить буфер размером N байт данными длиной N+4 байта, мы не затронем ничего в памяти процесса, кроме содержимого буфера, VPTR и байта, следующего за VPTR (символ <code>00h</code>).</p>
 <empty-line/>
@@ -2991,7 +3158,8 @@
 <empty-line/>
 <p>Как и было предусмотрено, шелл выполнился, а затем программа продолжила работу с новой строкой в буфере («newstring»)!</p>
 <empty-line/>
-<subtitle>Заключение</subtitle>
+</section>
+<section id="toc_sub_000170"><title><p>Заключение</p></title>
 <empty-line/>
 <p>Подведём итог: базовая техника требует выполнения следующих условий:</p>
 <empty-line/>
@@ -3009,21 +3177,24 @@
 <empty-line/>
 <p>Благодарности: route, klog, mayhem, nite, darkbug.</p>
 </section>
+</section>
 <section id="sec_issue_056_009_backdooring_binary_objects">
 <title><p>Внедрение бэкдоров в бинарные объекты</p></title>
 <p><strong>Автор:</strong> klog &lt;klog@promisc.org&gt;</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+<section id="toc_sub_000171"><title><p>Введение</p></title>
 <empty-line/>
 <p>Ослабление системы с целью сохранения контроля над ней (или просто изменения части её функциональности) подробно описано во многих других публикациях. От модификации кода в пользовательском пространстве до троянского кода ядра — большинство распространённых техник внедрения бэкдоров либо слишком грубые, либо недостаточно переносимые. Как создать стандартный и чистый способ внедрения бэкдоров в бинарные файлы? Правильный ответ на этот вопрос совпадает с ответом на вопрос «Как создать стандартный и чистый способ отладки и анализа бинарных файлов?». Проект GNU нашёл ответ ещё до того, как мы успели задать этот вопрос.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_009_backdooring_binary_objects_0013_f4c8948529.png"/>
 <empty-line/>
-<subtitle>BFD</subtitle>
+</section>
+<section id="toc_sub_000172"><title><p>BFD</p></title>
 <empty-line/>
 <p>Binary File Descriptor. Став де-факто стандартом в анализе, манипуляции и компоновке бинарных файлов, libbfd поддерживает практически любой формат файлов и архитектуру. Хотя она главным образом ориентирована на поддержку ELF, её интерфейс позволяет прозрачно модифицировать объекты в различных форматах, таких как COFF, AOUT или IEEE. На данный момент это, пожалуй, лучший инструмент для внедрения бэкдоров в разделяемые библиотеки.</p>
 <empty-line/>
-<subtitle>Обзор</subtitle>
+</section>
+<section id="toc_sub_000173"><title><p>Обзор</p></title>
 <empty-line/>
 <p>Следующая статья продемонстрирует преимущества переносимости бэкдоров, описывая методы внедрения бэкдоров как в статические, так и в разделяемые ELF-объекты. Она будет разделена на логические этапы операции: написание кода, процедура вставки кода и, наконец, процедура перехвата.</p>
 <empty-line/>
@@ -3031,7 +3202,8 @@
 <empty-line/>
 <p>Прежде чем углубиться в тему, читателю необходимо знать несколько вещей. Во-первых, libbfd <emphasis>как правило</emphasis> присутствует на большинстве систем, включая Linux и <emphasis>BSD. Если её нет, она включена в дистрибутив GNU binutils. Скачайте его. Также важно знать, что libbfd зависит от библиотеки libiberty, которую вам, возможно, повезёт найти на целевом хосте. Она небольшая, и вы, возможно, захотите включить её в свой переносимый инструментарий для внедрения бэкдоров. Наконец, может случиться так, что BFD </emphasis>не* обеспечит необходимых возможностей для полной вставки вредоносного кода в специфических ситуациях. В таких случаях придётся использовать техники, специфичные для формата объектного файла.</p>
 <empty-line/>
-<subtitle>Написание вредоносного кода</subtitle>
+</section>
+<section id="toc_sub_000174"><title><p>Написание вредоносного кода</p></title>
 <empty-line/>
 <p>Этот раздел покажется знакомым большинству из вас, пишущих шеллкоды. По сути, это, пожалуй, самый болезненный шаг в обеспечении переносимости нашей техники внедрения бэкдоров. Однако он должен быть достаточно безболезненным для среднестатистического хакера, имеющего некоторые знания ассемблера на распространённых архитектурах.</p>
 <empty-line/>
@@ -3053,7 +3225,8 @@
 <empty-line/>
 <p>В этом примере смещение перемещения нашего кода равно 0x1214. Вычитание 0x10 необходимо потому, что вызываемый адрес в коде рассматривается компилятором как относительный относительно позиции инструкции call при вызове абсолютного адреса. Как вы, вероятно, догадались, инструкция call заканчивается по адресу 0x10 внутри eggcode. Также вы могли заметить все nop в начале кода — это сделано исключительно во избежание проблем с выравниванием или ошибками в расчётах. Как и при написании любого эксплойта, осторожности много не бывает.</p>
 <empty-line/>
-<subtitle>Вставка вредоносного кода</subtitle>
+</section>
+<section id="toc_sub_000175"><title><p>Вставка вредоносного кода</p></title>
 <empty-line/>
 <p>Теперь наступает часть, где libbfd становится полезной. По сути, BFD способна описать полный бинарный файл (от начала до конца) более или менее точно. Точность в данном случае означает способность интерпретировать различные данные из объектного файла, что в значительной мере определяется прозрачностью, которую требует libbfd при выполнении такой задачи. Таким образом, ряд специфичных для формата возможностей будет принесён в жертву ради сохранения переносимости интерфейса BFD. Однако нам пока не нужно об этом беспокоиться, поскольку наша задача строго состоит во вставке вредоносного кода. К счастью, наш метод вставки трояна будет опираться лишь на наличие нескольких секций в объекте, что характерно для большинства архитектур. Прежде чем приступить к этому, рассмотрим, какие API предлагает нам libbfd.</p>
 <empty-line/>
@@ -3093,7 +3266,8 @@
 <empty-line/>
 <p>В данном случае лучшим выбором, вероятно, будет глобальная таблица смещений (GOT) библиотеки, поскольку мы не хотим нарушать абсолютные ссылки в предшествующих секциях. По возможности мы будем стараться не изменять специальные секции, такие как dynsym, dynstr или dynamic, которые часто анализируются инструментами вроде nm или objdump.</p>
 <empty-line/>
-<subtitle>Стандартный перехват символов</subtitle>
+</section>
+<section id="toc_sub_000176"><title><p>Стандартный перехват символов</p></title>
 <empty-line/>
 <p>Изменение символов, пожалуй, является наиболее важной частью процедуры внедрения бэкдора. По сути, как только наш код написан и помещён в целевой объект, нам необходимо найти способ запускать его выполнение всякий раз, когда функция, которую мы хотим перехватить, вызывается доверяющим процессом.</p>
 <empty-line/>
@@ -3109,7 +3283,8 @@
 <empty-line/>
 <p>После изменения таблицы символов её можно записать обратно в объектный файл с помощью функции <code>bfd_set_symtab()</code>, принимающей в качестве аргументов bfd объекта, указатель на таблицу символов (выделенный буфер) и количество записываемых символов.</p>
 <empty-line/>
-<subtitle>Динамический перехват символов</subtitle>
+</section>
+<section id="toc_sub_000177"><title><p>Динамический перехват символов</p></title>
 <empty-line/>
 <p>При перехвате разделяемых объектов процесс становится совершенно иным. Прежде всего, разделяемые объекты используют таблицу символов, отличную от той, что применяется для статической компоновки. В ELF эти символы хранятся в секции <code>.dynsym</code>, но представлены так же, как статические символы. Кроме того, все имена символов из секции <code>.dynsym</code> хранятся в отдельной секции — <code>.dynstr</code>.</p>
 <empty-line/>
@@ -3127,7 +3302,8 @@
 <empty-line/>
 <p>Можно наблюдать, что первая запись таблицы динамических символов (вторая используется символом секции <code>_DYNAMIC</code> со значением 0x1214) обнулена. С нашей точки зрения, это лишь ещё одна загадочная особенность, установленная стандартом ELF, которую не стоит принимать во внимание при нашей операции перехвата.</p>
 <empty-line/>
-<subtitle>SHOVEIT: многоцелевой инструмент вставки кода</subtitle>
+</section>
+<section id="toc_sub_000178"><title><p>SHOVEIT: многоцелевой инструмент вставки кода</p></title>
 <empty-line/>
 <p>Для упрощения задачи внедрения бэкдоров в разделяемые библиотеки и статические объекты я написал небольшой удобный инструмент, который позволяет использовать некоторые API bfd без необходимости программирования. Конечно, это может открыть дверь для скрипткиддисов, но им пришлось бы пройти через всю эту статью, прежде чем воспользоваться им, и я сомневаюсь, что большинство из них способны на это. Инструмент находится в конце статьи, извлечь его можно с помощью утилиты извлечения Phrack Magazine.</p>
 <empty-line/>
@@ -3147,13 +3323,15 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_009_backdooring_binary_objects_0474_283f040ce8.png"/>
 <empty-line/>
-<subtitle>Конец (грустно)</subtitle>
+</section>
+<section id="toc_sub_000179"><title><p>Конец (грустно)</p></title>
 <empty-line/>
 <p>Надеюсь, вам понравилась эта небольшая демонстрация. Конечно, это не новый класс уязвимостей, однако я надеюсь, что это поможет некоторым людям понять: как только хост утратил свою целостность, всегда следует исходить из наихудшего сценария. Тот факт, что исходный код системы тщательно защищён от посторонних глаз, не является весомым аргументом в вопросах безопасности. Так или иначе, стандарты, которым вы следуете, делают ваше программное обеспечение потенциально уязвимым так же, как и любое другое.</p>
 <empty-line/>
 <p>Приветствия: adm, promisc, wiretrip, teso, w00w00, и конечно же, phrack.</p>
 <empty-line/>
-<subtitle>Shoveit</subtitle>
+</section>
+<section id="toc_sub_000180"><title><p>Shoveit</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_009_backdooring_binary_objects_0494_6bbd9bea9b_part01.png"/>
 <image l:href="#img__code_blocks_issue_056_009_backdooring_binary_objects_0494_6bbd9bea9b_part02.png"/>
@@ -3162,13 +3340,14 @@
 <image l:href="#img__code_blocks_issue_056_009_backdooring_binary_objects_0494_6bbd9bea9b_part05.png"/>
 <image l:href="#img__code_blocks_issue_056_009_backdooring_binary_objects_0494_6bbd9bea9b_part06.png"/>
 </section>
+</section>
 <section id="sec_issue_056_010_things_to_do_in_ciscoland">
 <title><p>Things to Do in Ciscoland When You're Dead</p></title>
 <p><strong>Автор:</strong> gauis &lt;gaius@hert.org&gt;</p>
 <empty-line/>
 <p>v0.2 1/1/00</p>
 <empty-line/>
-<subtitle>1. Отказ от ответственности</subtitle>
+<section id="toc_sub_000181"><title><p>1. Отказ от ответственности</p></title>
 <empty-line/>
 <p>Tunnelx (код) является частью исследовательской и опытно-конструкторской работы, проводимой HERT (Hacker Emergency Response Team). Это не производственный инструмент ни для атаки, ни для защиты в контексте информационного противоборства. Скорее, это проект, демонстрирующий работоспособность концепции.</p>
 <empty-line/>
@@ -3176,7 +3355,8 @@
 <empty-line/>
 <p>Взгляды, выраженные в этом документе, не обязательно совпадают со взглядами HERT. Его директора, сотрудники или работники не делают никаких заявлений и не несут никакой ответственности за точность или полноту изложенного, если явно не оговорено иное.</p>
 <empty-line/>
-<subtitle>2. Введение</subtitle>
+</section>
+<section id="toc_sub_000182"><title><p>2. Введение</p></title>
 <empty-line/>
 <p>Когда я думаю о маршрутизаторах в целом, я чувствую то же самое, что и когда прихожу в супермаркет, вижу всю эту еду и не могу перестать думать о коровьем бешенстве, CJD, ГМО... Голова идёт кругом. Просто зайдите на cisco.com и посмотрите, для чего используется Cisco 7500, сколько корпораций им владеет и сколько тысяч машин маршрутизируется через них... Где-то даже есть карта трассировок маршрутов, которая может дать представление о том, насколько глубоко мы зависим от этих маршрутизаторов. Прошло уже много времени с тех пор, как я перестал верить в безопасность; суть проблемы безопасности в том, что мы доверяем доверию (прочтите статью Кена Томпсона «Reflections on Trusting Trust»), и если бы я верил в безопасность, то не продавал бы тесты на проникновение.</p>
 <empty-line/>
@@ -3184,7 +3364,8 @@
 <empty-line/>
 <p>Впрочем, исходники IOS вам не особо-то и нужны — всё необходимое уже есть (есть лишь одна небольшая вещь из исходников, которая была бы полезна, но об этом ниже). Вы можете загрузить образ в IDA, затереть несколько инструкций NOP-ами, и реализация RMON в Cisco перестанет обнулять полезную нагрузку — и у вас готов сниффер IOS.</p>
 <empty-line/>
-<subtitle>3. Перенаправление трафика без тайн</subtitle>
+</section>
+<section id="toc_sub_000183"><title><p>3. Перенаправление трафика без тайн</p></title>
 <empty-line/>
 <p>Задача — перенаправить часть трафика с маршрутизатора на другой хост, перехватить его, переслать обратно на маршрутизатор и сделать так, чтобы всё выглядело как ни в чём не бывало. Нормальная работа при типичной конфигурации выглядит так:</p>
 <empty-line/>
@@ -3209,7 +3390,8 @@
 <empty-line/>
 <p>Заглянем в исходники tcpdump на ftp.ee.lbl.gov. Исходники tcpdump весьма полезны; в файле <code>print-gre.c</code> есть большая часть информации, необходимой для начала написания tunnelx.</p>
 <empty-line/>
-<subtitle>4. tunnelx — прозрачное перенаправление и перехват трафика IOS</subtitle>
+</section>
+<section id="toc_sub_000184"><title><p>4. tunnelx — прозрачное перенаправление и перехват трафика IOS</p></title>
 <empty-line/>
 <p>Я инициализировал новое дерево CVS с libpcap и libnet, вытащил заголовок GRE из tcpdump, перечитал справочную страницу pcap за едой, мельком взглянул на документацию API libnet, отер пальцы от кусочков пиццы и мороженого и решил написать что-то максимально простое и проверить, работает ли это:</p>
 <empty-line/>
@@ -3230,13 +3412,15 @@
 <empty-line/>
 <p>Да, я не сказал о парсере pcap-дампов: можно написать небольшую программу, которая разбирает дамп pcap от tunnelx, деинкапсулирует GRE-пакеты и создаёт файлы для каждой сессии. <code>lseek()</code> — ключ к тому, чтобы не пропустить пакеты, пришедшие не по порядку, и не запутаться в дубликатах. Поскольку эта статья предназначена не для среднестатистического читателя bugtraq или rootshell, парсер pcap-дампов не включён; если вам нужна специальная версия tunnelx или техническая поддержка — пишите, обсудим.</p>
 <empty-line/>
-<subtitle>5. Благодарности и заключительные слова</subtitle>
+</section>
+<section id="toc_sub_000185"><title><p>5. Благодарности и заключительные слова</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_010_things_to_do_in_ciscoland_0180_e2d45df7e5.png"/>
 <empty-line/>
 <p>Я уже работаю над новой версией, которая позволит делать спуфинг, перехват сессий и мониторинг как в hunt... Не забывайте: вы находитесь на маршрутизаторе, вы можете всё, и все вам доверяют :).</p>
 <empty-line/>
-<subtitle>6. Код</subtitle>
+</section>
+<section id="toc_sub_000186"><title><p>6. Код</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_010_things_to_do_in_ciscoland_0193_795999bcc2_part01.png"/>
 <image l:href="#img__code_blocks_issue_056_010_things_to_do_in_ciscoland_0193_795999bcc2_part02.png"/>
@@ -3244,6 +3428,7 @@
 <image l:href="#img__code_blocks_issue_056_010_things_to_do_in_ciscoland_0193_795999bcc2_part04.png"/>
 <image l:href="#img__code_blocks_issue_056_010_things_to_do_in_ciscoland_0193_795999bcc2_part05.png"/>
 <image l:href="#img__code_blocks_issue_056_010_things_to_do_in_ciscoland_0193_795999bcc2_part06.png"/>
+</section>
 </section>
 <section id="sec_issue_056_011_strict_anomaly_detection_model_for_ids">
 <title><p>Строгая модель обнаружения аномалий для систем обнаружения вторжений</p></title>
@@ -3253,11 +3438,11 @@
 <empty-line/>
 <p>— Dan Farmer</p>
 <empty-line/>
-<cite><p>«В основе такого типа мышления лежит понятие &quot;истины&quot;. С помощью аргументов, которые вводят предмет в противоречивое положение, можно показать, что нечто является ложным. Даже если нечто не является полностью ложным, шелуха должна быть отсечена умелым применением критического мышления, чтобы обнажить содержащуюся в нём истину.»</p></cite>
+<cite><p>«В основе такого типа мышления лежит понятие "истины". С помощью аргументов, которые вводят предмет в противоречивое положение, можно показать, что нечто является ложным. Даже если нечто не является полностью ложным, шелуха должна быть отсечена умелым применением критического мышления, чтобы обнажить содержащуюся в нём истину.»</p></cite>
 <empty-line/>
 <p>— Edward De Bono</p>
 <empty-line/>
-<subtitle>1. Введение</subtitle>
+<section id="toc_sub_000187"><title><p>1. Введение</p></title>
 <empty-line/>
 <p>Системы обнаружения вторжений (IDS, Intrusion Detection Systems) в настоящее время являются одной из наиболее модных технологий компьютерной безопасности.</p>
 <empty-line/>
@@ -3267,9 +3452,11 @@
 <empty-line/>
 <p>Статья разделена на две части: в первой обсуждаются проблемы, вызывающие озабоченность применительно к NIDS, — как правило, приводятся ссылки на одну или несколько исследовательских работ, после чего рассматриваются последствия для обоснованности существующих моделей реализации NIDS; во второй описывается предложение по новой модели реализации NIDS, призванной смягчить часть выявленных проблем.</p>
 <empty-line/>
-<subtitle>2. Проблемы, вызывающие озабоченность в отношении NIDS</subtitle>
+</section>
+<section id="toc_sub_000188"><title><p>2. Проблемы, вызывающие озабоченность в отношении NIDS</p></title>
 <empty-line/>
-<subtitle>2.1 Частота ложных срабатываний</subtitle>
+</section>
+<section id="toc_sub_000189"><title><p>2.1 Частота ложных срабатываний</p></title>
 <empty-line/>
 <cite><p>«Если называть клоуном всё, что имеет большой красный нос, вы обнаружите всех клоунов, но заодно и оленей Санта-Клауса, Рудольфа, — и наоборот.»</p></cite>
 <empty-line/>
@@ -3287,11 +3474,12 @@
 <empty-line/>
 <p>Из этого следует, что обнаружение вторжений в реальных условиях значительно сложнее, чем считалось ранее. Это обусловлено ошибкой базовой частоты: из-за неё фактором, ограничивающим эффективность системы обнаружения вторжений, является не способность правильно идентифицировать вторжения, а способность подавлять ложные тревоги.</p>
 <empty-line/>
-<subtitle>2.2 Аномальное сетевое поведение</subtitle>
+</section>
+<section id="toc_sub_000190"><title><p>2.2 Аномальное сетевое поведение</p></title>
 <empty-line/>
 <p>В 1993 году Стивен Беллоуин опубликовал классическую работу «Packets Found on an Internet» («Пакеты, обнаруженные в Интернете») [3], в которой описывает аномальный сетевой трафик, выявленный на межсетевом экране AT&amp;T. Он фиксирует аномальный широковещательный трафик, запросы на соединение с «необъяснимыми» портами и пакеты, адресованные случайным несуществующим машинам. Беллоуин заключает:</p>
 <empty-line/>
-<cite><p>«Для некоторых наши наблюдения можно сжато резюмировать как &quot;ошибки случаются&quot;. Но столь небрежное отношение к нашим результатам упускает суть. Да, ошибки случаются, но именно успех Интернета делает некоторые из них невидимыми; лежащие в их основе проблемы никуда не исчезли.»</p></cite>
+<cite><p>«Для некоторых наши наблюдения можно сжато резюмировать как "ошибки случаются". Но столь небрежное отношение к нашим результатам упускает суть. Да, ошибки случаются, но именно успех Интернета делает некоторые из них невидимыми; лежащие в их основе проблемы никуда не исчезли.»</p></cite>
 <empty-line/>
 <p>По мере того как методы сетевой разведки (определение хостов, служб и топологии сети — см. [4]) становятся всё более изощрёнными, они всё больше уходят в «серые зоны» — неоднозначности определений сетевых протоколов TCP/IP (вследствие чего результаты таких методов могут быть более скрытными, но зачастую и менее надёжными).</p>
 <empty-line/>
@@ -3299,9 +3487,10 @@
 <empty-line/>
 <p>Из этого следует, что обнаружение аномального поведения, способного иметь последствия для безопасности, существенно осложняется, поскольку аномальное поведение присутствует в сетевой среде по умолчанию.</p>
 <empty-line/>
-<subtitle>2.3 Сложность</subtitle>
+</section>
+<section id="toc_sub_000191"><title><p>2.3 Сложность</p></title>
 <empty-line/>
-<cite><p>«Мышление в терминах &quot;типичного&quot; — смертельная ловушка. Но как иначе развивать интуицию и понимание?»</p></cite>
+<cite><p>«Мышление в терминах "типичного" — смертельная ловушка. Но как иначе развивать интуицию и понимание?»</p></cite>
 <empty-line/>
 <p>— Vern Paxson</p>
 <empty-line/>
@@ -3313,7 +3502,8 @@
 <empty-line/>
 <p>Верн Пэксон описывает Интернет как «повсеместное разнообразие и изменение: во времени, в разных точках, в способах использования сети и в составе пользователей», — а это означает, что предстоит ещё немало работы, прежде чем NIDS, пытающиеся использовать традиционную модель обнаружения аномалий, смогут приносить ощутимую пользу в сложной реальной корпоративной среде.</p>
 <empty-line/>
-<subtitle>2.4 Уязвимость к атакам</subtitle>
+</section>
+<section id="toc_sub_000192"><title><p>2.4 Уязвимость к атакам</p></title>
 <empty-line/>
 <p>В 1998 году Томас Птачек и Тимоти Ньюшем опубликовали своё основополагающее исследование по обходу NIDS — «Insertion, Evasion, and Denial of Service: Eluding Network Intrusion Detection» («Вставка, уклонение и отказ в обслуживании: обход сетевого обнаружения вторжений») [8]; реализация последовала в P54-10 [9], а язык сценариев, изначально использовавшийся Птачеком и Ньюшемом для тестирования, также стал общедоступным [10].</p>
 <empty-line/>
@@ -3323,7 +3513,8 @@
 <empty-line/>
 <p>Однако до тех пор, пока Cisco не реализует эту технологию в IOS или Checkpoint не сделает того же в FW-1 и т. д. — что маловероятно в краткосрочной и среднесрочной перспективе, — данный набор техник обхода NIDS будет продолжать ставить под сомнение надёжность NIDS.</p>
 <empty-line/>
-<subtitle>2.5 Эволюционирующая сетевая инфраструктура</subtitle>
+</section>
+<section id="toc_sub_000193"><title><p>2.5 Эволюционирующая сетевая инфраструктура</p></title>
 <empty-line/>
 <p>Физическая сетевая инфраструктура стремительно развивается; в будущем шифрование, высокие скорости передачи данных и коммутируемые сети фактически уничтожат те NIDS, которые используют пассивный анализ протоколов в неразборчивом режиме.</p>
 <empty-line/>
@@ -3333,7 +3524,8 @@
 <empty-line/>
 <p>Наконец, повсеместное применение коммутаторов в современных сетевых средах в значительной мере препятствует одновременному мониторингу нескольких хостов (как это возможно в широковещательных сетях Ethernet). Использование зеркального/диагностического порта для мониторинга нескольких портов коммутатора следует рассматривать в лучшем случае как временное решение.</p>
 <empty-line/>
-<subtitle>3. Эволюция NIDS</subtitle>
+</section>
+<section id="toc_sub_000194"><title><p>3. Эволюция NIDS</p></title>
 <empty-line/>
 <p>В попытке «обойти» описанные проблемы производители NIDS движутся к модели, при которой агент NIDS устанавливается на каждом хосте и отслеживает только адресованный этому хосту сетевой трафик (то есть без использования неразборчивого режима); это представляется наиболее разумным способом осуществления мониторинга NIDS в коммутируемых средах. Кроме того, если агент NIDS на основе хоста может быть «встроен» в стек TCP/IP хоста, он способен выполнять анализ безопасности как до того, как данные попадают в стек (то есть между сетевым адаптером и стеком), так и до того, как они попадают в приложение (то есть между стеком и приложением), теоретически защищая тем самым и стек ОС, и приложение.</p>
 <empty-line/>
@@ -3341,7 +3533,8 @@
 <empty-line/>
 <p>Переход от сетевых NIDS к NIDS на основе хостов является логичным эволюционным шагом: он смягчает проблемы уязвимости к атакам и эволюции базовой сетевой инфраструктуры, однако он не является панацеей от прочих выявленных проблем.</p>
 <empty-line/>
-<subtitle>4. Предложение: строгое обнаружение аномалий</subtitle>
+</section>
+<section id="toc_sub_000195"><title><p>4. Предложение: строгое обнаружение аномалий</p></title>
 <empty-line/>
 <p>Мы подошли к задаче изобретения новой операционной модели NIDS, опираясь на два аксиоматических убеждения.</p>
 <empty-line/>
@@ -3357,15 +3550,18 @@
 <empty-line/>
 <p>При условии использования модели на основе хоста, оставшиеся актуальные проблемы, связанные с IDS и выявленные в разделе 2, выглядят следующим образом.</p>
 <empty-line/>
-<subtitle>4.1 Частота ложных срабатываний</subtitle>
+</section>
+<section id="toc_sub_000196"><title><p>4.1 Частота ложных срабатываний</p></title>
 <empty-line/>
 <p>IDS, реализующая модель строгого обнаружения аномалий, не может перейти в состояние ложноположительного срабатывания, то есть не может генерировать ложную тревогу, поскольку активность, выходящая за рамки определения «использования», по определению имеет отношение к безопасности.</p>
 <empty-line/>
-<subtitle>4.2 Аномальное сетевое поведение</subtitle>
+</section>
+<section id="toc_sub_000197"><title><p>4.2 Аномальное сетевое поведение</p></title>
 <empty-line/>
 <p>Необходимо исходить из того, что аномальное поведение в целевой среде существует по умолчанию; следовательно, должен существовать механизм создания «исключений» из набора правил, используемого для реализации строгого обнаружения аномалий в IDS, — например, для того чтобы допустить (принять) идиосинкратическое поведение конкретного варианта стека TCP/IP хоста. Такая система по своей функциональности была бы аналогична возможности допускать определённые случаи некорректной конфигурации, выявляемые программным обеспечением мониторинга состояния безопасности хоста.</p>
 <empty-line/>
-<subtitle>4.3 Сложность</subtitle>
+</section>
+<section id="toc_sub_000198"><title><p>4.3 Сложность</p></title>
 <empty-line/>
 <p>Применение строгого обнаружения аномалий не обязательно требует построения полной модели допустимого использования — подмножества может быть достаточно. Например, для обнаружения новых сетевых атак, связанных с установлением TCP-соединения, модель допустимого использования изначально может включать лишь трёхэтапное TCP-рукопожатие плюс условия завершения соединения; возможно, не потребуется строить модель допустимого использования, охватывающую всю диаграмму состояний TCP.</p>
 <empty-line/>
@@ -3377,29 +3573,32 @@
 <empty-line/>
 <p>Более широким примером строгого обнаружения аномалий является сценарий, при котором NIDS развёртывается «внутри» межсетевого экрана; множество «не-использования» может быть построено на основе инверсии набора правил межсетевого экрана. Если NIDS обнаруживает трафик, который, по её данным, межсетевой экран должен был отклонить, генерируется сигнал тревоги.</p>
 <empty-line/>
-<subtitle>5. Заключение</subtitle>
+</section>
+<section id="toc_sub_000199"><title><p>5. Заключение</p></title>
 <empty-line/>
 <p>Сложность построения IDS, использующей модель строгого обнаружения аномалий, состоит в возможности чётко определить допустимое «использование». Возможно, строгое обнаружение аномалий наиболее эффективно применять в среде, в которой «использование» может быть (или уже является) хорошо определённым, — как в приведённом выше примере с межсетевым экраном или в «доверенной системе», такой как Trusted Solaris [15].</p>
 <empty-line/>
 <p>В данной статье мы ввели концепцию строгого обнаружения аномалий, известного также как обнаружение «не-использования». Строгое обнаружение аномалий является альтернативой обнаружению злоупотреблений и обнаружению аномалий в части эвристической компоненты обнаружения атак в системах обнаружения вторжений и призвано нейтрализовать некоторые критические проблемы существующих подходов к IDS.</p>
 <empty-line/>
-<subtitle>6. Ссылки</subtitle>
+</section>
+<section id="toc_sub_000200"><title><p>6. Ссылки</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_011_strict_anomaly_detection_model_for_ids_0157_37b9e43ab0_part01.png"/>
 <image l:href="#img__code_blocks_issue_056_011_strict_anomaly_detection_model_for_ids_0157_37b9e43ab0_part02.png"/>
+</section>
 </section>
 <section id="sec_issue_056_012_distributed_tools">
 <title><p>Распределённые инструменты</p></title>
 <p><strong>Автор:</strong> sasha / lifeline</p>
 <empty-line/>
 <cite><p>«Подход COAST состоит в том, чтобы смотреть на ограничения и глубинные проблемы и думать,</p></cite>
-<cite><p>как изменить парадигму. Мы не отталкиваемся от позиции: &quot;система даёт нам X, мы знаем Y,</p></cite>
-<cite><p>что можно найти, используя это?&quot; Вместо этого мы задаём вопросы обо всём процессе вторжения</p></cite>
+<cite><p>как изменить парадигму. Мы не отталкиваемся от позиции: "система даёт нам X, мы знаем Y,</p></cite>
+<cite><p>что можно найти, используя это?" Вместо этого мы задаём вопросы обо всём процессе вторжения</p></cite>
 <cite><p>и злоупотребления и пытаемся найти там новые идеи.»</p></cite>
 <empty-line/>
 <p>— Gene Spafford</p>
 <empty-line/>
-<subtitle>Распределённые атаки типа «отказ в обслуживании»</subtitle>
+<section id="toc_sub_000201"><title><p>Распределённые атаки типа «отказ в обслуживании»</p></title>
 <empty-line/>
 <p>Пожалуй, символично, что первый бюллетень CERT XXI века оказался посвящён распределённой атаке типа «отказ в обслуживании» (см. CA-2000-01 [1]).</p>
 <empty-line/>
@@ -3409,13 +3608,15 @@
 <empty-line/>
 <p>Серьёзную аналитическую работу по изучению существующих распределённых DoS-инструментов провёл Дэвид Диттрих [3] — заинтересованному читателю рекомендуем обратиться к его материалам.</p>
 <empty-line/>
-<subtitle>Применение распределённого подхода</subtitle>
+</section>
+<section id="toc_sub_000202"><title><p>Применение распределённого подхода</p></title>
 <empty-line/>
 <p>Несколько удручает тот факт, что DoS зачастую оказывается первым применением любой новой идеи в контексте безопасности — и это особенно верно для распределённых техник, поскольку распределённая «философия» применима ко многим аспектам проникновения в компьютерные сети.</p>
 <empty-line/>
 <p>Ниже описаны два примера использования распределённого подхода для хорошо знакомых задач: сканирования портов и перехвата паролей. Исходный код примерного реализованного распределённого сканера портов приведён в конце статьи.</p>
 <empty-line/>
-<subtitle>Сканирование портов</subtitle>
+</section>
+<section id="toc_sub_000203"><title><p>Сканирование портов</p></title>
 <empty-line/>
 <p>В P55-09 — «Distributed Information Gathering» [4] — описаны преимущества использования распределённого подхода к сбору сетевой информации, а именно:</p>
 <empty-line/>
@@ -3431,7 +3632,8 @@
 <empty-line/>
 <p>Контрмеры, которые некоторые N-IDS могут применять — например, внедрение правила «запретить» в межсетевой экран (например, через OPSEC API [5]) — становятся менее эффективными для прекращения непрерывного сбора информации.</p>
 <empty-line/>
-<subtitle>Обнаружение распределённого сканирования портов</subtitle>
+</section>
+<section id="toc_sub_000204"><title><p>Обнаружение распределённого сканирования портов</p></title>
 <empty-line/>
 <p>Для обнаружения распределённого сканирования портов, при котором несколько хостов распределяют и «делят» работу по сбору информации, в системе обнаружения должна присутствовать возможность анализировать зафиксированное событие (например — SYN-пакет, отправленный на порт) в контексте, то есть с учётом косвенных данных.</p>
 <empty-line/>
@@ -3443,11 +3645,13 @@
 <empty-line/>
 <p>Очевидно, что здесь открывается широкое поле для дальнейших исследований в области программного определения распределённых атак.</p>
 <empty-line/>
-<subtitle>Перехват паролей</subtitle>
+</section>
+<section id="toc_sub_000205"><title><p>Перехват паролей</p></title>
 <empty-line/>
 <p>В P55-16 — «Distributed Metastasis» [6] — описаны преимущества использования распределённой модели для перехвата паролей; вкратце, два главных преимущества состоят в том, что отпадает необходимость возвращаться на скомпрометированный хост для сбора логов сниффера, а также повышается скорость, с которой перехваченная информация становится доступной, что позволяет немедленно продолжать или углублять проникновение.</p>
 <empty-line/>
-<subtitle>Реализация</subtitle>
+</section>
+<section id="toc_sub_000206"><title><p>Реализация</p></title>
 <empty-line/>
 <p>В иллюстративных целях предлагается реализация распределённого сканера портов.</p>
 <empty-line/>
@@ -3465,7 +3669,8 @@
 <empty-line/>
 <p>Это ни в коей мере не готовый продукт — это proof-of-concept. В числе запланированных функций для будущих версий: распределённый перехват паролей, распределённое удалённое определение ОС, стойкая криптография, многопоточные агенты и другие идеи, которые появились с момента начала проекта. Следите за обновлениями. Не торопясь, изучите исходный код. Для работы и агента, и клиента необходимы Libnet и Libpcap.</p>
 <empty-line/>
-<subtitle>Выводы</subtitle>
+</section>
+<section id="toc_sub_000207"><title><p>Выводы</p></title>
 <empty-line/>
 <p>Интересно наблюдать исторически волнообразный эффект, существующий между централизованными и распределёнными вычислениями: мейнфреймы, клиент/сервер, тонкие клиенты (например, Windows Terminal Server и JavaStation Network Computer) и т. д. Тот же эффект ещё не в полной мере проявился в компьютерной безопасности (червь Морриса [7] является очевидным исключением).</p>
 <empty-line/>
@@ -3473,11 +3678,13 @@
 <empty-line/>
 <p>В заключение: ключом к распределённой «философии» является _сочетание_ двух вышеупомянутых концепций.</p>
 <empty-line/>
-<subtitle>Ссылки</subtitle>
+</section>
+<section id="toc_sub_000208"><title><p>Ссылки</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_012_distributed_tools_0117_7e2dcfeea3.png"/>
 <empty-line/>
-<subtitle>Исходный код</subtitle>
+</section>
+<section id="toc_sub_000209"><title><p>Исходный код</p></title>
 <empty-line/>
 <p><strong>Makefile</strong></p>
 <empty-line/>
@@ -3552,17 +3759,19 @@
 <empty-line/>
 <p>|EOF|-------------------------------------------------------------------------|</p>
 </section>
+</section>
 <section id="sec_issue_056_013_introduction_to_pam">
 <title><p>Введение в PAM</p></title>
 <p><strong>Автор:</strong> Bryan Ericson</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+<section id="toc_sub_000210"><title><p>Введение</p></title>
 <empty-line/>
 <p>Система подключаемых модулей аутентификации (PAM, Pluggable Authentication Module) — это механизм, с помощью которого программы могут выполнять задачи, связанные с аутентификацией пользователей и управлением учётными записями. Аутентификация, как правило, осуществляется посредством взаимодействия «вопрос — ответ». Используя PAM, администратор может настраивать методы аутентификации, применяемые различными программами, без необходимости их перекомпиляции.</p>
 <empty-line/>
 <p>Система PAM состоит из четырёх частей. Первая — libpam, библиотека, реализующая PAM API. Вторая — конфигурационный файл PAM, <code>/etc/pam.conf</code>. Третья представляет собой набор динамически загружаемых бинарных объектов, часто называемых сервисными модулями, которые выполняют непосредственную работу по аутентификации. Четвёртая часть — системные команды, которые используют (или должны использовать) PAM API: <code>login</code>, <code>su</code>, <code>ftp</code>, <code>telnet</code> и другие.</p>
 <empty-line/>
-<subtitle>LIBPAM</subtitle>
+</section>
+<section id="toc_sub_000211"><title><p>LIBPAM</p></title>
 <empty-line/>
 <p>Процедуры аутентификации PAM API включают три основные функции:</p>
 <empty-line/>
@@ -3596,7 +3805,8 @@
 <p>• <code>pam_chauthtok()</code> — смена токена аутентификации пользователя.</p>
 <p>• <code>pam_strerror()</code> — возвращает строку с описанием ошибки, аналогично <code>perror()</code>.</p>
 <empty-line/>
-<subtitle>PAM.CONF</subtitle>
+</section>
+<section id="toc_sub_000212"><title><p>PAM.CONF</p></title>
 <empty-line/>
 <p>Конфигурационный файл PAM обычно расположен в <code>/etc/pam.conf</code>. Он разделён на четыре секции: аутентификация, управление учётными записями, управление сессиями и управление паролями. Типичная строка выглядит так:</p>
 <empty-line/>
@@ -3619,7 +3829,8 @@
 <empty-line/>
 <p>Пятое поле — список параметров, зависящих от модуля, разделённых пробелами; они передаются модулю аутентификации при каждом его вызове. Подробности — на странице руководства соответствующего модуля.</p>
 <empty-line/>
-<subtitle>Модули</subtitle>
+</section>
+<section id="toc_sub_000213"><title><p>Модули</p></title>
 <empty-line/>
 <p>Каждый модуль PAM — это, по сути, библиотека, которая должна экспортировать заданные функции. Эти функции вызываются фреймворком PAM. Функции, экспортируемые библиотекой:</p>
 <empty-line/>
@@ -3644,7 +3855,8 @@
 <empty-line/>
 <p>Разумеется, эта функция крайне упрощена, однако она демонстрирует базовую функциональность <code>pam_sm_authenticate()</code>: она получает имя пользователя и пароль из фреймворка, затем извлекает зашифрованный пароль пользователя и, наконец, вызывает <code>crypt()</code> для введённого пароля, сравнивая результат с зашифрованным системным паролем. Успех или неудача определяется на основании этого сравнения. Функции <code>pam_get_*()</code> — это обращения к фреймворку, и их объявления могут различаться в разных реализациях.</p>
 <empty-line/>
-<subtitle>Приложение</subtitle>
+</section>
+<section id="toc_sub_000214"><title><p>Приложение</p></title>
 <empty-line/>
 <p>Написать PAM-приложение довольно просто. Части, связанные с PAM, должны включать пару <code>pam_start()</code> / <code>pam_end()</code> и функцию диалога PAM. К счастью, пользовательский PAM API чётко определён и стабилен, поэтому функция диалога будет представлять собой практически шаблонный код (по крайней мере, для приложений командной строки). Простая реализация <code>su</code> может выглядеть так:</p>
 <empty-line/>
@@ -3657,7 +3869,8 @@
 <empty-line/>
 <p>Следует отметить, что реальная функция диалога должна быть значительно надёжнее. Кроме того, реализация Linux-PAM предоставляет функцию диалога <code>misc_conv()</code> для взаимодействия через командную строку — её следует использовать, если достаточно стандартной функции диалога. Наконец, как правило, именно приложение отвечает за освобождение памяти, выделенной под ответы.</p>
 <empty-line/>
-<subtitle>Эксперименты с модулями</subtitle>
+</section>
+<section id="toc_sub_000215"><title><p>Эксперименты с модулями</p></title>
 <empty-line/>
 <p>Теперь, когда вы познакомились с PAM, можно кратко рассмотреть нестандартные процедуры аутентификации. Например, несложно изменить наш предыдущий модуль так, чтобы при аутентификации пользователя root требовалось ввести второй пароль:</p>
 <empty-line/>
@@ -3667,20 +3880,23 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_013_introduction_to_pam_0283_6654937319.png"/>
 <empty-line/>
-<subtitle>Заключение</subtitle>
+</section>
+<section id="toc_sub_000216"><title><p>Заключение</p></title>
 <empty-line/>
 <p>Суть в том, что модули PAM не ограничены вызовом <code>crypt()</code> или аналогичной функции для обработки пользовательского пароля. Единственное ограничение — ваша фантазия.</p>
 <empty-line/>
-<subtitle>Ссылки</subtitle>
+</section>
+<section id="toc_sub_000217"><title><p>Ссылки</p></title>
 <empty-line/>
 <p>«Making Login Services Independent of Authentication Technologies». Samar, Vipin and Charlie Lai.</p>
 <image l:href="#img__code_blocks_issue_056_013_introduction_to_pam_0303_380a52f95f.png"/>
+</section>
 </section>
 <section id="sec_issue_056_014_non_terminated_adjacent_memory">
 <title><p>Использование незавершённых смежных областей памяти</p></title>
 <p><strong>Автор:</strong> twitch &lt;twitch@vicar.org&gt;</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+<section id="toc_sub_000218"><title><p>Введение</p></title>
 <empty-line/>
 <p>Поскольку Phrack нуждается в очередной статье о переполнении буфера, поскольку большинство назойливых <code>strcpy()</code> уже заменены на <code>strncpy()</code>, и поскольку девушки неравнодушны к шеллкоду — представляю вам ещё одну технику переполнения буфера. Как и «Перезапись указателя фрейма» из P55, эта проблема не самая распространённая, однако она существует и поддаётся эксплуатации.</p>
 <empty-line/>
@@ -3690,7 +3906,8 @@
 <empty-line/>
 <p>По популярному требованию существительное «данные» на протяжении всего документа используется в единственном числе — несмотря на то, что это неверно.</p>
 <empty-line/>
-<subtitle>Краткий ликбез</subtitle>
+</section>
+<section id="toc_sub_000219"><title><p>Краткий ликбез</p></title>
 <empty-line/>
 <p>Если вы уже знаете, как работает переполнение буфера (а если вы читали хоть какой-нибудь выпуск Phrack за последние два года — как вы можете этого не знать?), пропустите этот раздел.</p>
 <empty-line/>
@@ -3708,7 +3925,8 @@
 <empty-line/>
 <p>Для значительно более глубокого объяснения переполнений буфера, перенаправления выполнения программы и «разбивания стека ради веселья и выгоды» обратитесь к статье с таким же названием в P49-10.</p>
 <empty-line/>
-<subtitle>Суть</subtitle>
+</section>
+<section id="toc_sub_000220"><title><p>Суть</p></title>
 <empty-line/>
 <p>Суть проблемы заключается в том, что многие функции, которые программист может считать безопасными и/или «серебряной пулей» против переполнений буфера, не завершают строки/буферы NULL-символом автоматически. На самом деле аргумент размера буфера, передаваемый этим функциям, является абсолютным размером — а не размером строки. Чтобы быть точнее, приведём фрагмент man-страницы <code>strncpy()</code>:</p>
 <empty-line/>
@@ -3740,7 +3958,8 @@
 <empty-line/>
 <p>Не совсем то, что задумывалось.</p>
 <empty-line/>
-<subtitle>Проявление</subtitle>
+</section>
+<section id="toc_sub_000221"><title><p>Проявление</p></title>
 <empty-line/>
 <p>Эта проблема возникает в реальном мире внешне безобидными и малопонятными способами. Следующий фрагмент взят из <code>syslogd.c</code> в FreeBSD 3.2-RELEASE:</p>
 <empty-line/>
@@ -3752,7 +3971,8 @@
 <empty-line/>
 <p>Поскольку параметр длины <code>strncat</code> имеет тип <code>size_t</code>, который является беззнаковым, <code>strncat</code> на самом деле будет готова добавить _значительно_ больше байт, чем нужно. Таким образом, всё содержимое <code>LocalDomain</code> будет добавлено к <code>name</code> (которое уже заполнено), произойдёт переполнение и <code>syslogd</code> упадёт с segfault при возврате из <code>validate()</code>. Кстати, если только <code>LocalDomain</code> хоста не является подходящим смещением в стеке, данный пример эксплуатируем лишь как способ убить syslog (кстати, домен 0xbfbfd001.com в продаже).</p>
 <empty-line/>
-<subtitle>Суть + Проявление = Возможность</subtitle>
+</section>
+<section id="toc_sub_000222"><title><p>Суть + Проявление = Возможность</p></title>
 <empty-line/>
 <p>Хотя переполнение этого типа может эксплуатироваться различными способами (и действительно проявляется по-разному), самым впечатляющим и наиболее понятным является перенаправление выполнения программы. Обратите внимание: хотя представленные примерные ситуации чрезмерно надуманы, аналогичные условия существуют в разнообразном программном обеспечении, используемом по всему миру.</p>
 <empty-line/>
@@ -3762,7 +3982,8 @@
 <empty-line/>
 <p>Стековая диаграмма была бы очень большой и избыточной, поэтому здесь её не будет, однако должно быть достаточно ясно, что произойдёт. Программист предполагает, что благодаря щедрому использованию <code>strncpy()</code> в <code>main()</code> данные оказываются чистыми к моменту попадания в <code>print_error()</code>. Таким образом, считается, что <code>sprintf()</code> можно вызвать без происшествий. К сожалению, поскольку <code>p</code> указывает на <code>buf2</code>, а <code>buf2</code> не завершён должным образом, <code>sprintf()</code> на самом деле будет весело продолжать копирование до тех пор, пока не обнаружит NULL где-то после конца <code>buf1</code>. Вот дерьмо.</p>
 <empty-line/>
-<subtitle>Эксплуатация</subtitle>
+</section>
+<section id="toc_sub_000223"><title><p>Эксплуатация</p></title>
 <empty-line/>
 <p>Эксплуатация (с целью перенаправления выполнения программы) в данном сценарии несколько отличается от случая традиционного переполнения одного буфера. Прежде всего — краткое повторение об эксплуатации традиционных переполнений.</p>
 <empty-line/>
@@ -3796,7 +4017,8 @@
 <empty-line/>
 <p>Если дополняется <code>buf1</code> — содержат ли байты заполнения NULL'ы, по существу не имеет значения, поскольку они всё равно окажутся после нашего шеллкода.</p>
 <empty-line/>
-<subtitle>Развязка</subtitle>
+</section>
+<section id="toc_sub_000224"><title><p>Развязка</p></title>
 <empty-line/>
 <p>Как и в случае любых ошибок, вина здесь лежит не на библиотечных функциях, не на языке программирования C и не на операционных системах, не помечающих данные как неисполняемые, — а на том, что программисты не вполне осознают последствия своих действий. Прежде чем работать с потенциально опасными материалами (произвольными данными), необходимо принять специальные меры предосторожности. Следует читать man-страницы. Буферы должны завершаться NULL'ом. Возвращаемые значения должны проверяться. Всё что нужно — это <code>+1</code> и инициализация. Разве это сложно:</p>
 <empty-line/>
@@ -3814,7 +4036,8 @@
 <empty-line/>
 <p>А теперь идите что-нибудь сломайте — или, ещё лучше, идите что-нибудь починьте.</p>
 <empty-line/>
-<subtitle>Пример</subtitle>
+</section>
+<section id="toc_sub_000225"><title><p>Пример</p></title>
 <empty-line/>
 <p>Ниже прилагается пример эксплойта для примерной уязвимой программы. Уязвимая программа безнадёжно надуманна и не служит никакой цели, кроме:</p>
 <empty-line/>
@@ -3832,7 +4055,8 @@
 <empty-line/>
 <p>Кстати, версии шеллкода для x86 Linux и SPARC Solaris доступны на www.vicar.org/~twitch/projects/llehs.</p>
 <empty-line/>
-<subtitle>Код</subtitle>
+</section>
+<section id="toc_sub_000226"><title><p>Код</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_014_non_terminated_adjacent_memory_0394_7874f92501_part01.png"/>
 <image l:href="#img__code_blocks_issue_056_014_non_terminated_adjacent_memory_0394_7874f92501_part02.png"/>
@@ -3848,11 +4072,12 @@
 <empty-line/>
 <p><emphasis>|EOF|</emphasis></p>
 </section>
+</section>
 <section id="sec_issue_056_015_mips_irix_shellcode">
 <title><p>Написание шеллкода для MIPS/IRIX</p></title>
 <p><strong>Автор:</strong> scut/teso</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+<section id="toc_sub_000227"><title><p>Введение</p></title>
 <empty-line/>
 <p>Написание шеллкода для платформы MIPS/Irix не сильно отличается от написания шеллкода для архитектуры x86. Тем не менее, существует несколько приёмов, которые стоит знать при попытке написать чистый шеллкод (не содержащий NULL-байтов и полностью независимый от своего положения в памяти).</p>
 <empty-line/>
@@ -3871,11 +4096,13 @@
 <p>• Примеры шеллкода</p>
 <p>• Ссылки</p>
 <empty-line/>
-<subtitle>Операционная система IRIX</subtitle>
+</section>
+<section id="toc_sub_000228"><title><p>Операционная система IRIX</p></title>
 <empty-line/>
 <p>Операционная система Irix была разработана независимо компанией Silicon Graphics и соответствует стандарту UNIX System V.4. Она спроектирована для процессоров MIPS, имеющих уникальную историю и ставших пионерами 64-битных и RISC-технологий. Текущая версия Irix — 6.5.7. Существует два основных выпуска: feature (6.5.7f) и maintenance (6.5.7m). Feature-выпуск ориентирован на новые возможности и технологии, maintenance-выпуск — на исправление ошибок и стабильность. Все современные платформы Irix бинарно совместимы, и описанный шеллкод, а также примеры были протестированы более чем на полудюжине различных компьютерных систем Irix.</p>
 <empty-line/>
-<subtitle>Архитектура MIPS</subtitle>
+</section>
+<section id="toc_sub_000229"><title><p>Архитектура MIPS</p></title>
 <empty-line/>
 <p>Прежде всего необходимо иметь базовые знания об архитектуре процессора MIPS. Существует множество разновидностей процессора MIPS; наиболее распространены серии R4x00 и R10000, использующие одинаковый набор инструкций.</p>
 <empty-line/>
@@ -3891,7 +4118,8 @@
 <p>• Адрес возврата для подпрограмм ($ra) и системных вызовов (C0_EPC) указывает не на инструкцию после инструкции перехода/прыжка/syscall, а на инструкцию после инструкции в слоте задержки.</p>
 <p>• Поскольку каждая инструкция делится на пять стадий конвейера, это нашло отражение в самих инструкциях: каждая инструкция имеет ширину 32 бита (4 байта) и в большинстве случаев может быть разбита на сегменты, соответствующие каждой стадии конвейера.</p>
 <empty-line/>
-<subtitle>Инструкции MIPS</subtitle>
+</section>
+<section id="toc_sub_000230"><title><p>Инструкции MIPS</p></title>
 <empty-line/>
 <p>Инструкции MIPS не только имеют длину 32 бита, но и зачастую используют схожее кодирование. Инструкцию можно разбить на следующие поля:</p>
 <empty-line/>
@@ -3917,7 +4145,8 @@
 <empty-line/>
 <p>Этот список, очевидно, неполон. Тем не менее он охватывает наиболее важные инструкции для написания шеллкода. Большинство инструкций в примерах шеллкода приведено здесь. Полный список инструкций см. в [1] или [2].</p>
 <empty-line/>
-<subtitle>Регистры MIPS</subtitle>
+</section>
+<section id="toc_sub_000231"><title><p>Регистры MIPS</p></title>
 <empty-line/>
 <p>Процессор MIPS располагает большим количеством регистров. Поскольку регистры адресуются пятибитным блоком, их должно быть 32 — от $0 до $31. Все они одинаковы, за исключением $0 и $31. Для $0 всё просто: что бы вы с ним ни делали, он всегда содержит ноль. Это удобно для многих арифметических инструкций и позволяет создавать элегантный код. Регистру $0 присвоено символическое имя $zero. Регистр $31 также называется $ra — «return address» (адрес возврата). Зачем регистру хранить адрес возврата, если есть удобный стек? И как при этом реализовать рекурсию? Коротко: настоящего стека нет, но всё работает. Разберём подробнее, что происходит при вызове функции на RISC-процессоре. Используется специальная инструкция «jal», которая перезаписывает содержимое регистра $ra ($31) подходящим адресом возврата, а затем выполняет переход по произвольному адресу. Вызванная функция видит адрес возврата в $ra и по завершении просто возвращается (инструкцией «jr») по этому адресу. Но что, если функция сама хочет вызывать другие функции? Тогда существует стекоподобный сегмент, в котором функция может сохранить адрес возврата, а потом восстановить его и продолжить работу в обычном режиме.</p>
 <empty-line/>
@@ -3929,19 +4158,22 @@
 <empty-line/>
 <p>Также имеется 32 регистра с плавающей точкой по 32 бита каждый (64 бита на новых процессорах MIPS). Для системного программирования они не важны, поэтому здесь не рассматриваются.</p>
 <empty-line/>
-<subtitle>Язык ассемблера MIPS</subtitle>
+</section>
+<section id="toc_sub_000232"><title><p>Язык ассемблера MIPS</p></title>
 <empty-line/>
 <p>Поскольку инструкции относительно примитивны, а программисты зачастую хотят выполнять более сложные операции, язык ассемблера MIPS активно использует макроинструкции. Они предоставляют действительно необходимые операции — от вычитания числа из регистра (которое ассемблер преобразует в знаковое сложение) до сложных макросов, например нахождения остатка от деления. Но ассемблер делает гораздо больше, чем просто предоставляет макросы для типовых операций. Мы уже упоминали конвейер, в котором инструкции обрабатываются одновременно. Порядок выполнения нередко непосредственно зависит от порядка в конвейере, поскольку регистры, к которым обращаются инструкции, записываются лишь на последней стадии — WB (write-back), и предшествующие инструкции не могут к ним обратиться. Для старых процессоров MIPS аббревиатура MIPS была верна в значении «Microcomputer without Interlocked Pipeline Stages» («Микрокомпьютер без блокировки стадий конвейера»): нельзя обратиться к регистру в инструкции, непосредственно следующей за той, что этот регистр изменяет. Однако почти все MIPS-процессоры, находящиеся сейчас в эксплуатации, оснащены блокировкой: они просто ждут, пока данные из инструкции не будут записаны в регистр, прежде чем позволить следующей инструкции его прочитать. На практике об этом нужно беспокоиться только при написании низкоуровневого кода, например шеллкода :-), поскольку ассемблер в большинстве случаев переупорядочивает и заменяет ваши инструкции так, чтобы наилучшим образом использовать конвейерную архитектуру. При желании это переупорядочивание и использование макросов в любом ассемблере MIPS можно отключить.</p>
 <empty-line/>
 <p>Процессоры MIPS и RISC в целом создавались не с расчётом на удобное программирование на ассемблере. Программировать RISC-процессор на ассемблере сложнее, чем любой CISC-процессор. Даже первые фразы «MIPSPro Assembler Manual» от корпорации MIPS рекомендуют использовать ассемблер MIPS только для аппаратно-близких процедур или программирования операционных систем. В большинстве случаев хороший компилятор C, такой как разработанный MIPS, оптимизирует использование конвейера и регистров значительно лучше, чем любой программист в ассемблере. Однако при написании шеллкода приходится работать с голым машинным кодом и писать размерно-оптимизированный код, не содержащий NULL-байтов. Компилятор может использовать разворачивание циклов или более быстрые конструкции, занимающие больше места, — нам это недоступно.</p>
 <empty-line/>
-<subtitle>Представление функций языков высокого уровня</subtitle>
+</section>
+<section id="toc_sub_000233"><title><p>Представление функций языков высокого уровня</p></title>
 <empty-line/>
 <p>В большинстве случаев обычную функцию C можно легко представить на ассемблере MIPS. Нужно лишь различать листовые и нелистовые функции. Нелистовая функция — это функция, которая не вызывает никаких других функций. Такие функции не нуждаются в сохранении адреса возврата в стеке и хранят его в $ra на протяжении всего времени выполнения. Аргументы функции помещаются вызывающей функцией в $a0, $a1, $a2 и $a3. Если этого пространства недостаточно, используется дополнительное место в стеке, хотя в большинстве случаев регистров хватает. Функция может возвращать два 32-битных значения через регистры $v0 и $v1. Для временного хранения данных вызванная функция может использовать стек, на который указывает $sp. Кроме того, регистры нередко сохраняются в стеке и впоследствии восстанавливаются из него. Временные регистры ($t0-$t9) могут быть перезаписаны внутри вызванной функции без последующего восстановления; если вызывающая функция хочет их сохранить, она должна сделать это самостоятельно.</p>
 <empty-line/>
 <p>Стек обычно начинается с адреса 0x80000000 и растёт в сторону меньших адресов. Как уже говорилось, это очень похоже на стек системы x86.</p>
 <empty-line/>
-<subtitle>Системные вызовы и исключения</subtitle>
+</section>
+<section id="toc_sub_000234"><title><p>Системные вызовы и исключения</p></title>
 <empty-line/>
 <p>В типичной Unix-системе существует лишь два режима выполнения: пользовательский режим и режим ядра. В большинстве современных архитектур эти режимы напрямую поддерживаются процессором. Процессор MIPS имеет эти два режима плюс дополнительный — «supervisor mode» (режим супервизора). Его запросили инженеры DEC для нового поколения рабочих станций при проектировании MIPS R4000. Поскольку рынок VMS/DEC был важен для MIPS, они реализовали этот третий режим по запросу DEC, чтобы позволить операционной системе VMS работать на процессоре. Однако впоследствии DEC решила разработать собственный процессор — Alpha, и режим супервизора так и остался невостребованным.</p>
 <empty-line/>
@@ -3953,7 +4185,8 @@
 <empty-line/>
 <p>Где x представляют 20-битный код системного вызова, который в системе Irix игнорируется. Чтобы избежать NULL-байтов в шеллкоде, эти x-биты можно заполнить произвольными данными.</p>
 <empty-line/>
-<subtitle>Системные вызовы IRIX</subtitle>
+</section>
+<section id="toc_sub_000235"><title><p>Системные вызовы IRIX</p></title>
 <empty-line/>
 <p>Следующий список охватывает наиболее важные системные вызовы для использования в шеллкодах. После соответствующей установки всех регистров выполняется инструкция «syscall», и поток выполнения передаётся ядру.</p>
 <empty-line/>
@@ -3971,7 +4204,8 @@
 <empty-line/>
 <p>Именно это и сделано в приведённом ниже шеллкоде portshell.</p>
 <empty-line/>
-<subtitle>Типовые конструкции</subtitle>
+</section>
+<section id="toc_sub_000236"><title><p>Типовые конструкции</p></title>
 <empty-line/>
 <p>При написании шеллкода всегда присутствуют типовые операции, например получение текущего адреса. Вот несколько техник, которые можно использовать в шеллкоде:</p>
 <empty-line/>
@@ -3999,13 +4233,15 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_015_mips_irix_shellcode_0422_404e9a2dd5.png"/>
 <empty-line/>
-<subtitle>Оптимизация шеллкода</subtitle>
+</section>
+<section id="toc_sub_000237"><title><p>Оптимизация шеллкода</p></title>
 <empty-line/>
 <p>Рекомендую писать шеллкод на обычном ассемблере MIPS, а затем последовательно убирать NULL-байты сверху вниз. Для простых инструкций загрузки используйте описанные выше конструкции. Для обязательных инструкций попробуйте поиграть с разными регистрами: в ряде случаев NULL-байты можно убрать из арифметических и логических инструкций, используя более высокие регистры, например $t8 или $s7. Затем попробуйте заменить одну инструкцию двумя или тремя, выполняющими то же самое. Используйте возвращаемые значения системных вызовов или известное содержимое регистров. Будьте изобретательны, пользуйтесь справочником инструкций MIPS из [1] или [2] — и вы всегда найдёте подходящую замену.</p>
 <empty-line/>
 <p>После того как шеллкод окажется без NULL-байтов, вы заметите, что его размер увеличился и он довольно раздут. Не беспокойтесь — это нормально, практически ничего нельзя с этим поделать: RISC-код почти всегда крупнее, чем аналогичный код на x86. Тем не менее можно сделать небольшие оптимизации для уменьшения размера. Прежде всего попробуйте найти замены для блоков инструкций, где для выполнения одного действия используется более одной инструкции. Всегда следите за текущим содержимым регистров и используйте возвращаемые значения или ранее загруженные данные. Иногда переупорядочивание помогает избежать лишних переходов.</p>
 <empty-line/>
-<subtitle>Пример шеллкода</subtitle>
+</section>
+<section id="toc_sub_000238"><title><p>Пример шеллкода</p></title>
 <empty-line/>
 <p>Все шеллкоды были протестированы на следующих системах (с благодарностью vax, oxigen, zap и hendy):</p>
 <empty-line/>
@@ -4019,11 +4255,13 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_015_mips_irix_shellcode_0582_7bcf8c8fd1.png"/>
 <empty-line/>
-<subtitle>Ссылки</subtitle>
+</section>
+<section id="toc_sub_000239"><title><p>Ссылки</p></title>
 <empty-line/>
 <p>За дополнительной информацией рекомендуем обратиться к следующим превосходным источникам:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_015_mips_irix_shellcode_0605_3f06084f3f.png"/>
+</section>
 </section>
 <section id="sec_issue_056_016_phrack_extraction_utility">
 <title><p>Утилита извлечения Phrack</p></title>
@@ -4031,7 +4269,7 @@
 <empty-line/>
 <p>Утилита извлечения Phrack Magazine, впервые появившаяся в P50, представляет собой удобный способ извлечения кода из текстовых ASCII-статей. Она сохраняет читаемость и чистоту 7-битных ASCII-кодов. При условии отсутствия посторонних вхождений <code>&lt;++&gt;</code> или <code>&lt;--&gt;</code> в статье всё работает безупречно.</p>
 <empty-line/>
-<subtitle>extract.c — основная реализация на C</subtitle>
+<section id="toc_sub_000240"><title><p>extract.c — основная реализация на C</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_016_phrack_extraction_utility_0015_6eabaafd79_part01.png"/>
 <image l:href="#img__code_blocks_issue_056_016_phrack_extraction_utility_0015_6eabaafd79_part02.png"/>
@@ -4042,26 +4280,30 @@
 <image l:href="#img__code_blocks_issue_056_016_phrack_extraction_utility_0015_6eabaafd79_part07.png"/>
 <image l:href="#img__code_blocks_issue_056_016_phrack_extraction_utility_0015_6eabaafd79_part08.png"/>
 <empty-line/>
-<subtitle>extract.pl — реализация на Perl</subtitle>
+</section>
+<section id="toc_sub_000241"><title><p>extract.pl — реализация на Perl</p></title>
 <empty-line/>
 <p>Автор: Daos &lt;daos@nym.alias.net&gt;</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_016_phrack_extraction_utility_0380_3fa53082c5.png"/>
 <empty-line/>
-<subtitle>extract.awk — реализация на AWK</subtitle>
+</section>
+<section id="toc_sub_000242"><title><p>extract.awk — реализация на AWK</p></title>
 <empty-line/>
 <p>Автор: &lt;sirsyko&gt;</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_016_phrack_extraction_utility_0406_6b650e3af5.png"/>
 <empty-line/>
-<subtitle>extract.sh — реализация на shell</subtitle>
+</section>
+<section id="toc_sub_000243"><title><p>extract.sh — реализация на shell</p></title>
 <empty-line/>
 <p>Автор: &lt;sirsyko&gt;</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_056_016_phrack_extraction_utility_0437_7e05bccfcb_part01.png"/>
 <image l:href="#img__code_blocks_issue_056_016_phrack_extraction_utility_0437_7e05bccfcb_part02.png"/>
 <empty-line/>
-<subtitle>extract.py — реализация на Python</subtitle>
+</section>
+<section id="toc_sub_000244"><title><p>extract.py — реализация на Python</p></title>
 <empty-line/>
 <p>Автор: Timmy 2tone &lt;_spoon_@usa.net&gt;</p>
 <empty-line/>
@@ -4069,7 +4311,8 @@
 <image l:href="#img__code_blocks_issue_056_016_phrack_extraction_utility_0500_e9f9f34502_part02.png"/>
 <image l:href="#img__code_blocks_issue_056_016_phrack_extraction_utility_0500_e9f9f34502_part03.png"/>
 <empty-line/>
-<subtitle>extract-win.c — реализация для Win32</subtitle>
+</section>
+<section id="toc_sub_000245"><title><p>extract-win.c — реализация для Win32</p></title>
 <empty-line/>
 <p>Автор: Fotonik &lt;fotonik@game-master.com&gt;</p>
 <empty-line/>
@@ -4079,7 +4322,8 @@
 <image l:href="#img__code_blocks_issue_056_016_phrack_extraction_utility_0626_59aa23dfdd_part02.png"/>
 <image l:href="#img__code_blocks_issue_056_016_phrack_extraction_utility_0626_59aa23dfdd_part03.png"/>
 <empty-line/>
-<subtitle>Описание формата тегов извлечения</subtitle>
+</section>
+<section id="toc_sub_000246"><title><p>Описание формата тегов извлечения</p></title>
 <empty-line/>
 <p>Теги извлечения имеют следующий вид:</p>
 <empty-line/>
@@ -4092,6 +4336,7 @@
 <image l:href="#img__code_blocks_issue_056_016_phrack_extraction_utility_0768_97dfce3c29.png"/>
 <empty-line/>
 <p><emphasis>|EOF|</emphasis></p>
+</section>
 </section>
 </section>
 </body>

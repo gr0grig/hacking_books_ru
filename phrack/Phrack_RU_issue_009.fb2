@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0"
-             xmlns:l="http://www.w3.org/1999/xlink">
+<?xml version='1.0' encoding='UTF-8'?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
 <description>
   <title-info>
     <genre>computers</genre>
@@ -45,11 +44,12 @@
 <empty-line/>
 <p>Добро пожаловать в Phrack Pro-Phile VI. Phrack Pro-Phile создан, чтобы приносить вам, пользователям, информацию о старых или особенно важных и спорных людях. В этом месяце я представляю вам особенно влиятельного пользователя из старых дней.</p>
 <empty-line/>
-<subtitle>The Nightstalker</subtitle>
+<section id="toc_sub_000001"><title><p>The Nightstalker</p></title>
 <empty-line/>
 <p>The Nightstalker был связан с <code>Tap</code> и 8080B, первым домашним компьютером, в создании которого он помогал NY Telephone.</p>
 <empty-line/>
-<subtitle>Личное</subtitle>
+</section>
+<section id="toc_sub_000002"><title><p>Личное</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_002_phrack_pro_phile_vi_the_nightstalker_0016_c238db126a.png"/>
 <empty-line/>
@@ -57,15 +57,18 @@
 <empty-line/>
 <p>Среди людей из телеком-мира, с которыми он встречался, были Cheshire Catalyst, Captain Crunch, Steve Wozniak и Bill Gates, глава Microsoft. Он встречал многих телефонных фрикеров на научно-фантастических конвентах, но не знает их по именам или псевдонимам.</p>
 <empty-line/>
-<subtitle>Интересы</subtitle>
+</section>
+<section id="toc_sub_000003"><title><p>Интересы</p></title>
 <empty-line/>
 <p>Телекоммуникации, включая модеминг, фрикинг и хакинг; телекомпьютинг; научная фантастика; коротковолновое радио; прослушивание сканера; классическая музыка; стрельба.</p>
 <empty-line/>
-<subtitle>Любимые вещи The Nightstalker</subtitle>
+</section>
+<section id="toc_sub_000004"><title><p>Любимые вещи The Nightstalker</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_002_phrack_pro_phile_vi_the_nightstalker_0039_aa74872249.png"/>
 <empty-line/>
-<subtitle>Самые памятные впечатления</subtitle>
+</section>
+<section id="toc_sub_000005"><title><p>Самые памятные впечатления</p></title>
 <empty-line/>
 <p>Стрелковая галерея с пулеметами в Атланте, штат Джорджия. Очень весело!</p>
 <empty-line/>
@@ -73,7 +76,8 @@
 <empty-line/>
 <p>Звонок через box на AUTOVON и в Ливан во время присутствия США, с выставлением счета местному члену KKK.</p>
 <empty-line/>
-<subtitle>Люди, которых стоит упомянуть</subtitle>
+</section>
+<section id="toc_sub_000006"><title><p>Люди, которых стоит упомянуть</p></title>
 <empty-line/>
 <p>Ron Rosenbaum, написавший статью в <code>Esquire</code> о blue box, это все его вина.</p>
 <empty-line/>
@@ -105,37 +109,44 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_002_phrack_pro_phile_vi_the_nightstalker_0089_35b4a8884a.png"/>
 </section>
+</section>
 <section id="sec_issue_009_003_fun_with_centagram_vms_network">
 <title><p>Развлечения с сетью Centagram VMS</p></title>
 <image l:href="#img__code_blocks_issue_009_003_fun_with_centagram_vms_network_0003_44e4177cbe.png"/>
 <empty-line/>
 <p><strong>Автор:</strong> Oryan Quest</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+<section id="toc_sub_000007"><title><p>Введение</p></title>
 <empty-line/>
 <p>Сети Centagram VMS расположены по всей стране. В этом файле кратко описаны способы обхода всей системы безопасности Centagram и получения привилегий суперпользователя. Я несу полную ответственность за любые смерти, травмы или венерические заболевания, возникшие в результате использования информации из этого файла.</p>
 <empty-line/>
-<subtitle>Поиск свободного VMS</subtitle>
+</section>
+<section id="toc_sub_000008"><title><p>Поиск свободного VMS</p></title>
 <empty-line/>
 <p>Как правило, самый простой способ найти свободный VMS — сканировать последние цифры в сети (например: XX99, XX98, XX97 и т.д.). Свободный VMS выдаст себя фразой «Please leave your message at the tone» («Пожалуйста, оставьте сообщение после сигнала») или чем-то подобным — чистым, женским, синтезированным голосом. Никаких помех быть не должно. АГА! Жертва найдена.</p>
 <empty-line/>
-<subtitle>Атака на свободный VMS</subtitle>
+</section>
+<section id="toc_sub_000009"><title><p>Атака на свободный VMS</p></title>
 <empty-line/>
 <p>Пока играет сообщение «Please leave...», нажмите 0. Система представится: «Mailbox XX99, please enter your passcode» («Почтовый ящик XX99, введите ваш код доступа»). Если такого сообщения нет — не лезьте туда. Ящик, скорее всего, занят, и любые попытки его взломать бессмысленны: его просто снова займут. Теперь нужно подобрать 4-значный код. Стандартные значения по умолчанию: 5000, 9876, 1234 и любая цифра в этом порядке. Обычно принимаются 1000, 2000, 3000 и т.д. Четыре цифры — не так уж много. В0АУ! Вы внутри! Система объяснит, как сменить код и в целом настроить свой свежеугнанный VMS.</p>
 <empty-line/>
-<subtitle>Перемещение по сети</subtitle>
+</section>
+<section id="toc_sub_000010"><title><p>Перемещение по сети</p></title>
 <empty-line/>
 <p>Предположим, у вашего друга есть почтовый ящик 5286, и вы хотите прочитать его почту (если знаете пароль) или просто послушать его приветствие. Введите 9 в командном модуле своего VMS для выхода из системы — пока звучит «You have X messages remaining. Bye!» («У вас осталось X сообщений. Пока!») — нажмите # или 0. Система запросит четырёхзначный добавочный номер. Введите 5286 — и БАМ! Вы слышите приветствие. Ну разве не здорово.</p>
 <empty-line/>
-<subtitle>Получение прав суперпользователя</subtitle>
+</section>
+<section id="toc_sub_000011"><title><p>Получение прав суперпользователя</p></title>
 <empty-line/>
 <p>Итак, вы хотите взлететь выше, чем кто-либо до вас; перепрыгнуть высокое здание в один прыжок; стать крутым. Что ж, слушайте Oryan — он расскажет как. Помните, как вы прыгали по сети? Повторите ту же процедуру, но когда система запросит четырёхзначный добавочный номер, введите 9999, 9998 или даже 0000. Если всё прошло успешно, система запросит второй четырёхзначный добавочный номер. Его придётся подбирать самостоятельно. Но я обнаружил как минимум в 3 сетях, что это было 1986 или 1987. Да уж, люди тупые, не правда ли? Взломав это, вы получите расширенное меню. УАУ! Теперь вы можете читать чужую почту, захватывать и отключать VMS-ящики. Другие команды зависят от сети. Но можете быть уверены: там всегда найдётся куча крутых команд!</p>
 <empty-line/>
-<subtitle>Заключение</subtitle>
+</section>
+<section id="toc_sub_000012"><title><p>Заключение</p></title>
 <empty-line/>
 <p>Надеюсь, этот файл вам понравился. Следите за обновлёнными версиями в Phrack. Если у вас возникнут трудности с поиском Centagram, вот несколько сетей: 214-733-XXXX, 415-647-XXXX, 408-790-XXXX. Со мной можно связаться по номеру 214-733-5294. Не трогайте мою сеть. Если я замечу, что свободные ящики захватывают, я просто избавлюсь от них. Других сетей хватает. Отдельное спасибо: Taran King, Knight Lightning, SJE, The Egyptian Lover и Ryche. Дополнительная пометка: звоните на линию лузеров Attila the Hun/Master Blaster: 214-733-5283.</p>
 <empty-line/>
 <p><emphasis>(C) Quest/Sentry Productions 10/13/86</emphasis></p>
+</section>
 </section>
 <section id="sec_issue_009_004_programming_rsts_e_editors">
 <title><p>Программирование RSTS/E. Файл 2: Редакторы</p></title>
@@ -151,11 +162,12 @@
 <empty-line/>
 <p>В конце файла приведена обновлённая версия программы-ловушки (decoy), которую я обещал исправить и которая была представлена в моём первом файле. Надеюсь (хотя и не обещаю), что на этот раз все ошибки устранены.</p>
 <empty-line/>
-<subtitle>Назначение</subtitle>
+<section id="toc_sub_000013"><title><p>Назначение</p></title>
 <empty-line/>
 <p>Текстовый редактор — для тех, кто случайно оказался не в теме — это утилита, похожая на текстовый процессор, которым вы пользуетесь каждый день на своём компьютере: она позволяет создавать, изменять и компилировать текстовые файлы, а также редактировать и при необходимости создавать программные файлы. По этим и многим другим причинам умелое владение редактором может стать серьёзным преимуществом для хакера в будущих вылазках.</p>
 <empty-line/>
-<subtitle>Запуск</subtitle>
+</section>
+<section id="toc_sub_000014"><title><p>Запуск</p></title>
 <empty-line/>
 <p>Команда <code>TECO</code> вызывает одноимённый текстовый редактор. Если ввести <code>TECO</code> без параметров, в буфер редактирования будет загружен последний редактировавшийся файл (подробнее — ниже, в разделе «Память»). Чтобы открыть другой файл или создать новый, используются следующие формы:</p>
 <empty-line/>
@@ -163,15 +175,18 @@
 <empty-line/>
 <p>Существуют и другие способы запуска TECO с VT-терминалами, но в этом тексте мы не будем вдаваться в такие подробности.</p>
 <empty-line/>
-<subtitle>Инициализация</subtitle>
+</section>
+<section id="toc_sub_000015"><title><p>Инициализация</p></title>
 <empty-line/>
 <p>Если при запуске TECO в вашем каталоге присутствует файл <code>TECO.INI</code>, он считается набором макросов для VT-терминала. Нам это не нужно, поэтому обязательно отключите его поиск, добавив к команде запуска ключ <code>/NOINI</code>.</p>
 <empty-line/>
-<subtitle>Память</subtitle>
+</section>
+<section id="toc_sub_000016"><title><p>Память</p></title>
 <empty-line/>
 <p>При каждом запуске TECO имя редактируемого файла сохраняется в файле с именем <code>TECFnn.TMP</code>, где <code>nn</code> — номер вашего задания. Если вы хотите открыть файл, отличный от того, что хранится в файле памяти, используйте ключ <code>/NOMEMORY</code>.</p>
 <empty-line/>
-<subtitle>Параметры запуска</subtitle>
+</section>
+<section id="toc_sub_000017"><title><p>Параметры запуска</p></title>
 <empty-line/>
 <p>Существует ряд опций — ключей, — изменяющих поведение утилиты TECO. Некоторые из них, <code>/NOINI</code> и <code>/NOMEMORY</code>, уже упоминались выше. Ниже перечислены другие важные ключи с кратким описанием. Чтобы выбрать нужную опцию, добавьте её к строке вызова при запуске TECO:</p>
 <empty-line/>
@@ -181,19 +196,23 @@
 <empty-line/>
 <p>Есть ещё несколько ключей, связанных с VT-терминалами, но, как уже говорилось, смысла их перечислять нет.</p>
 <empty-line/>
-<subtitle>Прерывание</subtitle>
+</section>
+<section id="toc_sub_000018"><title><p>Прерывание</p></title>
 <empty-line/>
 <p>Управляющий символ <code>C</code> (<code>CTRL/C</code> или <code>^C</code>, как мы будем его называть далее) используется для остановки выполнения текущей команды TECO — точно так же, как и в мониторе BASIC. Если <code>^C</code> нажать дважды подряд без промежуточной команды TECO, утилита завершается и происходит возврат в клавиатурный монитор — будь то BASIC, BASIC+2, RSX или любой другой.</p>
 <empty-line/>
-<subtitle>Выполнение команд</subtitle>
+</section>
+<section id="toc_sub_000019"><title><p>Выполнение команд</p></title>
 <empty-line/>
 <p>При запуске TECO вы увидите приглашение <code>*</code> — это командная строка. Почти все команды редактора состоят из одного-двух символов и вводятся с обычной ASCII-клавиатуры. Для завершения команды TECO используется последовательность <code>&lt;ESCAPE&gt;</code>, которая отображается на экране как символ <code>$</code>. Прежде чем команда будет выполнена, необходимо ввести два <code>&lt;ESCAPE&gt;</code> подряд. Это позволяет объединять несколько команд в одну строку:</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_004_programming_rsts_e_editors_0074_ef5f6b0eab.png"/>
 <empty-line/>
-<subtitle>Команды</subtitle>
+</section>
+<section id="toc_sub_000020"><title><p>Команды</p></title>
 <empty-line/>
-<subtitle>Перемещение указателя</subtitle>
+</section>
+<section id="toc_sub_000021"><title><p>Перемещение указателя</p></title>
 <empty-line/>
 <p>Текстовый указатель показывает, где вы находитесь в данный момент, то есть какую часть текста затронет следующая команда. По функции он похож на курсор при написании программы на вашем компьютере.</p>
 <empty-line/>
@@ -215,7 +234,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_004_programming_rsts_e_editors_0109_a56abfb3b7.png"/>
 <empty-line/>
-<subtitle>Вывод текста</subtitle>
+</section>
+<section id="toc_sub_000022"><title><p>Вывод текста</p></title>
 <empty-line/>
 <p>Для просмотра содержимого буфера редактора существует одна команда с несколькими вариантами.</p>
 <empty-line/>
@@ -225,7 +245,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_004_programming_rsts_e_editors_0124_34669d4d37.png"/>
 <empty-line/>
-<subtitle>Ввод текста</subtitle>
+</section>
+<section id="toc_sub_000023"><title><p>Ввод текста</p></title>
 <empty-line/>
 <p>Какой смысл в редакторе, если нельзя добавлять текст? Для вставки предназначена одна команда — insert. При создании файла с нуля вы будете вводить её каждый раз, когда захотите добавить новую строку в документ.</p>
 <empty-line/>
@@ -241,7 +262,8 @@
 <empty-line/>
 <p><emphasis>(Примечание: помните, что <code>&lt;ESCAPE&gt;</code> отображается на экране как <code>$</code>.)</emphasis></p>
 <empty-line/>
-<subtitle>Удаление текста</subtitle>
+</section>
+<section id="toc_sub_000024"><title><p>Удаление текста</p></title>
 <empty-line/>
 <p>TECO позволяет легко удалять слова, предложения и другие фрагменты из буфера. Для этого используются две разные команды: удаление строк и удаление символов.</p>
 <empty-line/>
@@ -257,7 +279,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_004_programming_rsts_e_editors_0172_830cc1d8fe.png"/>
 <empty-line/>
-<subtitle>Поиск</subtitle>
+</section>
+<section id="toc_sub_000025"><title><p>Поиск</p></title>
 <empty-line/>
 <p>Ни один уважающий себя текстовый процессор не обходится без функции поиска и замены. TECO — не исключение. Здесь используются две формы: поиск текста и поиск с заменой.</p>
 <empty-line/>
@@ -281,7 +304,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_004_programming_rsts_e_editors_0207_3801a26f59.png"/>
 <empty-line/>
-<subtitle>Сохранение</subtitle>
+</section>
+<section id="toc_sub_000026"><title><p>Сохранение</p></title>
 <empty-line/>
 <p>Чтобы сохранить новую версию редактируемого файла, введите команду выхода — и файл будет записан в ваш каталог. Помните: если вы хотите выйти без сохранения изменений, просто дважды нажмите <code>^C</code>.</p>
 <empty-line/>
@@ -293,7 +317,8 @@
 <empty-line/>
 <p><emphasis>(Примечание: <code>&lt;ESCAPE&gt;</code> отображается как <code>$</code>, а двойное нажатие <code>&lt;ESCAPE&gt;</code> запускает выполнение команды.)</emphasis></p>
 <empty-line/>
-<subtitle>Флаги</subtitle>
+</section>
+<section id="toc_sub_000027"><title><p>Флаги</p></title>
 <empty-line/>
 <p>TECO не ограничивается перечисленными командами. Редактор поддерживает ряд флагов, которые вводятся в командной строке <code>*</code> и изменяют среду TECO.</p>
 <empty-line/>
@@ -325,7 +350,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_004_programming_rsts_e_editors_0278_4de0f19cd5.png"/>
 <empty-line/>
-<subtitle>Заключение</subtitle>
+</section>
+<section id="toc_sub_000028"><title><p>Заключение</p></title>
 <empty-line/>
 <p>Вот, пожалуй, и всё о текстовом редакторе TECO — скучновато, да? Но, как я говорил неоднократно, редакторы важны для хакеров.</p>
 <empty-line/>
@@ -343,13 +369,14 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_004_programming_rsts_e_editors_0304_7bca1f98f7.png"/>
 </section>
+</section>
 <section id="sec_issue_009_005_inside_dialog">
 <title><p>Inside Dialog</p></title>
 <p><strong>Автор:</strong> Ctrl C <strong>Advanced Telecommunications Inc.</strong></p>
 <empty-line/>
 <p>DIALOG - одна из крупнейших онлайновых баз данных. Сейчас DIALOG предоставляет доступ более чем к 250 базам данных, содержащим в общей сложности свыше 100 миллионов записей. Диапазон доступной информации огромен.</p>
 <empty-line/>
-<subtitle>BEGIN</subtitle>
+<section id="toc_sub_000029"><title><p>BEGIN</p></title>
 <empty-line/>
 <p>Команда <code>BEGIN</code> начинает поиск и сообщает Dialog, какую базу данных вы хотите просмотреть. После команды <code>BEGIN</code>, без пробела, идет номер файла нужной базы данных. Любой из следующих вариантов приведет вас в файл 229, Drug Information:</p>
 <empty-line/>
@@ -363,7 +390,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_005_inside_dialog_0026_a162f7d73d.png"/>
 <empty-line/>
-<subtitle>EXPAND</subtitle>
+</section>
+<section id="toc_sub_000030"><title><p>EXPAND</p></title>
 <empty-line/>
 <p>Команда <code>EXPAND</code> используется для выбора ключевых слов для поиска. Вы можете искать любое слово, но знание того, насколько слово распространено, дает хорошее представление о том, с чего начать поиск.</p>
 <empty-line/>
@@ -373,17 +401,20 @@
 <empty-line/>
 <p>Слово <code>-more-</code> внизу экрана означает, что ввод <code>Page</code> или <code>P</code> покажет еще один экран информации.</p>
 <empty-line/>
-<subtitle>SELECT</subtitle>
+</section>
+<section id="toc_sub_000031"><title><p>SELECT</p></title>
 <empty-line/>
 <p>Когда вы находите слово, которое хотите искать, вы используете команду <code>SELECT</code>, чтобы сообщить базе данных, что искать. После команды <code>SELECT</code> может идти один или несколько поисковых терминов.</p>
 <empty-line/>
-<subtitle>SELECT STEP</subtitle>
+</section>
+<section id="toc_sub_000032"><title><p>SELECT STEP</p></title>
 <empty-line/>
 <p>Команда <code>SELECT STEP</code> работает так же, как команда <code>SELECT</code>, за исключением того, что найденные ею файлы перечисляются отдельно.</p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_005_inside_dialog_0067_567be4fd11.png"/>
 <empty-line/>
-<subtitle>TYPE и DISPLAY</subtitle>
+</section>
+<section id="toc_sub_000033"><title><p>TYPE и DISPLAY</p></title>
 <empty-line/>
 <p>Есть две команды, <code>TYPE</code> и <code>DISPLAY</code>, которые можно использовать для просмотра найденной информации. Разница в том, что команда <code>TYPE</code> выводит информацию непрерывным списком. <code>DISPLAY</code> выводит информацию постранично; чтобы увидеть следующую страницу, нужно ввести <code>PAGE</code> или <code>P</code>.</p>
 <empty-line/>
@@ -391,7 +422,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_005_inside_dialog_0084_1b2d875f11.png"/>
 <empty-line/>
-<subtitle>LOGOFF</subtitle>
+</section>
+<section id="toc_sub_000034"><title><p>LOGOFF</p></title>
 <empty-line/>
 <p>У команды <code>LOGOFF</code> нет сокращения. Она говорит сама за себя.</p>
 <empty-line/>
@@ -400,7 +432,8 @@
 <image l:href="#img__code_blocks_issue_009_005_inside_dialog_0104_639e9d2e11_part01.png"/>
 <image l:href="#img__code_blocks_issue_009_005_inside_dialog_0104_639e9d2e11_part02.png"/>
 <empty-line/>
-<subtitle>Вход в систему</subtitle>
+</section>
+<section id="toc_sub_000035"><title><p>Вход в систему</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_005_inside_dialog_0198_d2b5383e65.png"/>
 <empty-line/>
@@ -428,7 +461,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_005_inside_dialog_0262_712555f937.png"/>
 <empty-line/>
-<subtitle>Сводка сокращений команд</subtitle>
+</section>
+<section id="toc_sub_000036"><title><p>Сводка сокращений команд</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_005_inside_dialog_0284_1b18165fa4.png"/>
 <empty-line/>
@@ -438,21 +472,24 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_005_inside_dialog_0293_b7144c47b3.png"/>
 </section>
+</section>
 <section id="sec_issue_009_006_plant_measurement">
 <title><p>Plant Measurement</p></title>
 <p><strong>Автор:</strong> The Executioner <strong>PhoneLine Phantoms</strong></p>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_006_plant_measurement_0008_2efc312902.png"/>
 <empty-line/>
-<subtitle>Предисловие</subtitle>
+<section id="toc_sub_000037"><title><p>Предисловие</p></title>
 <empty-line/>
 <p>Эта первая часть из серии в трех частях посвящена тому, как ваша центральная станция измеряет свою эффективность и производительность оборудования. Я не знаю, насколько далеко зайду в этом первом фрагменте, так что все, что я не закончу, будет завершено во второй и третьей частях.</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+</section>
+<section id="toc_sub_000038"><title><p>Введение</p></title>
 <empty-line/>
 <p>Бывало ли у вас такое: вы копались в мусоре, и единственное, что нашли, была большая распечатка, будто написанная по-китайски? Ругали ли вы себя за то, что потратили 30 минут, копаясь в чьем-то обеде и пищеварительных отходах, а единственным читаемым предметом оказалась большая катушка, содержащая такие сокращения, как <code>TRUNK</code>, <code>CAMA</code> и <code>LATA</code>, соединенные чужими буквами, которые, как вы никогда не думали, можно спрягать? Что ж, в этой серии из трех частей я надеюсь показать вам, что большая распечатка с пятнами кофе не так уж бесполезна.</p>
 <empty-line/>
-<subtitle>Типы измерений</subtitle>
+</section>
+<section id="toc_sub_000039"><title><p>Типы измерений</p></title>
 <empty-line/>
 <p>Итак, способ, которым ваша центральная станция определяет, насколько хорошо она вас обслуживает, называется Plant Measurement. Цель этих измерений - дать обслуживающему персоналу количественную сводку состояния оборудования и его влияния на обслуживание клиентов.</p>
 <empty-line/>
@@ -477,7 +514,8 @@
 <empty-line/>
 <p>Базовые измерения - это счетчики общего числа вызовов, обработанных системой и разбитых по различным категориям. Эти счетчики необходимы, чтобы нормализовать счетчики обслуживания и производительности механических узлов, если нужно сравнивать станции с различными характеристиками трафика.</p>
 <empty-line/>
-<subtitle>Ежедневное выходное сообщение PM01</subtitle>
+</section>
+<section id="toc_sub_000040"><title><p>Ежедневное выходное сообщение PM01</p></title>
 <empty-line/>
 <p>Ежедневные данные Plant Measurement в выходном сообщении <code>PM01</code> организованы следующим образом:</p>
 <empty-line/>
@@ -492,7 +530,8 @@
 <p>• измерения Improved Public Telephone Service;</p>
 <p>• измерения Remote Switch System.</p>
 <empty-line/>
-<subtitle>Базовые измерения</subtitle>
+</section>
+<section id="toc_sub_000041"><title><p>Базовые измерения</p></title>
 <empty-line/>
 <p>Базовые измерения, предоставляемые <code>PPMP1A00</code>, нужны для нормализации счетчиков обслуживания и производительности узлов, использование которых меняется в зависимости от нагрузки трафика. Используя эти счетчики, можно проводить осмысленные сравнения с прошлой производительностью и с производительностью станций с иными характеристиками трафика. Счетчики снимаются в терминах перенесенной нагрузки, исключая весь переполненный трафик.</p>
 <empty-line/>
@@ -508,7 +547,8 @@
 <p>8. <strong>Centrex Data Link Seizures (<code>CTX DL SEIZ</code>).</strong> Считает число подключений к centrex DL для передачи или приема команд ламп и клавиш. Это не счетчик вызовов Centrex.</p>
 <p>9. <strong>Output Message Register (<code>OMR SEIZ</code>).</strong> Считает число захватов регистров выходных сообщений.</p>
 <empty-line/>
-<subtitle>Измерения обслуживания</subtitle>
+</section>
+<section id="toc_sub_000042"><title><p>Измерения обслуживания</p></title>
 <empty-line/>
 <p>Измерения обслуживания дают достоверные признаки уровня обслуживания клиентов. Счетчик вызовов, потерянных системой в результате аппаратных отказов, является существенной мерой влияния состояния оборудования центральной станции на обслуживание клиентов. Предоставляются следующие измерения обслуживания.</p>
 <empty-line/>
@@ -529,7 +569,8 @@
 <empty-line/>
 <p>“Это довольно просто, если подумать, и является одним из примеров того, как когда-то раздробленная сеть снова работает совместно.</p>
 <empty-line/>
-<subtitle>Несколько примеров использования CP ID</subtitle>
+</section>
+<section id="toc_sub_000043"><title><p>Несколько примеров использования CP ID</p></title>
 <empty-line/>
 <p>Это может использоваться крупными компаниями, принимающими телефонные заказы, чтобы мгновенно выводить запись о кредите человека, его прошлых заказах и так далее еще до того, как оператор ответит на звонок.</p>
 <empty-line/>
@@ -549,11 +590,13 @@
 <empty-line/>
 <p>Число фаз EA печатается в выходном сообщении <code>PM01</code>.</p>
 <empty-line/>
-<subtitle>Прерывания</subtitle>
+</section>
+<section id="toc_sub_000044"><title><p>Прерывания</p></title>
 <empty-line/>
 <p>Число различных прерываний обслуживания дает картину нерутинных действий обслуживания, предпринятых системой. Эти прерывания обычно не так серьезны, как фаза EA более высокого порядка, но они прерывают обычную обработку вызовов, чтобы исправить возможные аппаратные проблемы. Счетчик этих прерываний дает хорошее представление о состоянии оборудования системы. Это печатается в выходном сообщении <code>PM01</code>.</p>
 <empty-line/>
-<subtitle>Сетевые отказы</subtitle>
+</section>
+<section id="toc_sub_000045"><title><p>Сетевые отказы</p></title>
 <empty-line/>
 <p>Счетчики сетевых отказов предоставляются для того, чтобы дать представление о том, насколько хорошо сеть завершает и терминирует вызовы. Каждый раз, когда в системе происходит сетевой отказ, печатается выходное сообщение <code>NT</code>. В составе сообщения <code>PM01</code> печатается следующее:</p>
 <empty-line/>
@@ -566,7 +609,8 @@
 <p>7. отказ showering line test, <code>SHWL</code>;</p>
 <p>8. отказ call cutoff, <code>CO</code>.</p>
 <empty-line/>
-<subtitle>Пример сообщения PM01</subtitle>
+</section>
+<section id="toc_sub_000046"><title><p>Пример сообщения PM01</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_006_plant_measurement_0152_04b06ec5da.png"/>
 <empty-line/>
@@ -574,19 +618,21 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_006_plant_measurement_0188_18439ce444.png"/>
 </section>
+</section>
 <section id="sec_issue_009_007_multi_user_chat_program_for_dec_10s">
 <title><p>Multi-User Chat Program for DEC-10s</p></title>
 <image l:href="#img__code_blocks_issue_009_007_multi_user_chat_program_for_dec_10s_0005_eff9b9d871.png"/>
 <empty-line/>
 <p><strong>Оригинальная программа:</strong> TTY-Man <strong>Изменил и пояснил:</strong> +++The Mentor+++ <strong>Дата:</strong> 6 октября 1986 года</p>
 <empty-line/>
-<subtitle>Введение</subtitle>
+<section id="toc_sub_000047"><title><p>Введение</p></title>
 <empty-line/>
 <p>В отличие от своего более развитого старшего брата, VAX, DEC не имеет простой в использовании коммуникационной системы вроде утилиты VMS <code>PHONE</code>. Следующая программа использует тип файлов <code>MIC</code>, доступный на большинстве DEC. Каждый пользователь, который хочет участвовать в конференции, должен запустить программу из своей области командой <code>.DO COM</code>. Программу можно ввести в любом редакторе; я рекомендую <code>SED</code>, если у вас есть эмуляция VT52, и сохранить как <code>COM.MIC</code>.</p>
 <empty-line/>
 <p>Программа не предполагает какого-либо конкретного типа терминала или эмуляции. Вам нужно будет знать номер <code>TTY</code> любого человека, которого вы хотите добавить в конференцию, но он доступен через команду <code>.SYSTAT</code> или <code>.R WHO</code>, см. ниже.</p>
 <empty-line/>
-<subtitle>SYSTAT</subtitle>
+</section>
+<section id="toc_sub_000048"><title><p>SYSTAT</p></title>
 <empty-line/>
 <p>Это пример <code>SYSTAT</code>, используемого для определения номера <code>TTY</code>.</p>
 <empty-line/>
@@ -616,6 +662,7 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_007_multi_user_chat_program_for_dec_10s_0186_ffd08db6d9.png"/>
 </section>
+</section>
 <section id="sec_issue_009_008_introduction_to_videoconferencing">
 <title><p>Введение в видеоконференции</p></title>
 <p><strong>Автор:</strong> Knight Lightning <strong>Написано:</strong> 3 октября 1986 года</p>
@@ -628,13 +675,14 @@
 <empty-line/>
 <p>Прежде всего, есть две основные категории видеоконференций: point-to-point и point-to-multipoint.</p>
 <empty-line/>
-<subtitle>Point-to-point, двусторонняя видеоконференция</subtitle>
+<section id="toc_sub_000049"><title><p>Point-to-point, двусторонняя видеоконференция</p></title>
 <empty-line/>
 <p>Двусторонняя видеоконференция позволяет людям проводить встречи, даже если участники находятся в разных местах. Используя интерактивное видео- и аудиооборудование, участники в одном месте могут видеть, слышать и взаимодействовать с коллегами в другом месте.</p>
 <empty-line/>
 <p>Самый знакомый пример регулярно встречается на телевидении. Когда диктор новостей в Вашингтоне берет интервью у главы государства на другом конце света “в прямом эфире”, это point-to-point, full-motion, full-color видеоконференция.</p>
 <empty-line/>
-<subtitle>Point-to-multipoint, односторонняя видеоконференция</subtitle>
+</section>
+<section id="toc_sub_000050"><title><p>Point-to-multipoint, односторонняя видеоконференция</p></title>
 <empty-line/>
 <p>Односторонняя видеоконференция позволяет организации представлять видеоинформацию большим аудиториям в нескольких местах одновременно.</p>
 <empty-line/>
@@ -644,11 +692,13 @@
 <empty-line/>
 <p>Есть две вариации перечисленных выше категорий видеоконференций: full-motion videoconferencing и freeze-frame videoconferencing. У каждой есть собственный набор системных требований, и каждая решает довольно разные задачи.</p>
 <empty-line/>
-<subtitle>Full-motion videoconferencing</subtitle>
+</section>
+<section id="toc_sub_000051"><title><p>Full-motion videoconferencing</p></title>
 <empty-line/>
 <p>Full-motion видеоконференция похожа на просмотр телевизора. Вы можете видеть участников в другом месте в цвете и в движении “реального времени”. Вы можете определить, кто присутствует, при условии что они находятся в зоне камеры, и кто говорит. Вы можете видеть выражения лиц, жесты рук и общий язык тела. Видео с движением используется главным образом для изображений людей.</p>
 <empty-line/>
-<subtitle>Передача движения по широкополосным каналам</subtitle>
+</section>
+<section id="toc_sub_000052"><title><p>Передача движения по широкополосным каналам</p></title>
 <empty-line/>
 <p>В движущихся изображениях намного больше информации, чем в неподвижной картинке. Следовательно, размер коммуникационного канала, необходимого для передачи и приема движения, намного больше, чем канал, требуемый для неподвижного изображения.</p>
 <empty-line/>
@@ -660,21 +710,25 @@
 <empty-line/>
 <p>Получающийся сигнал можно передавать по каналам с меньшей, чем полной, полосой. Картинка будет несколько хуже исходного аналогового изображения, но более чем достаточной для большинства встреч.</p>
 <empty-line/>
-<subtitle>Freeze-frame videoconferencing</subtitle>
+</section>
+<section id="toc_sub_000053"><title><p>Freeze-frame videoconferencing</p></title>
 <empty-line/>
 <p>Freeze-frame видеоконференция похожа на слайд-шоу. Она захватывает неподвижные изображения либо в цвете, либо в черно-белом виде. Freeze-frame “стоп-кадры” людей выглядят неестественно и могут отвлекать. Тем не менее freeze-frame video лучше всего подходит для неподвижных изображений трехмерных объектов, таких как продукт или деталь, а также для диаграмм, чертежей, графики и специально подготовленных презентационных материалов.</p>
 <empty-line/>
-<subtitle>Передача freeze-frame по узкополосным каналам</subtitle>
+</section>
+<section id="toc_sub_000054"><title><p>Передача freeze-frame по узкополосным каналам</p></title>
 <empty-line/>
 <p>Система freeze-frame захватывает изображение, останавливая или замораживая любое движение, которое может присутствовать. Изображение может передаваться аналоговыми или цифровыми сигналами по узким каналам. Эти каналы значительно уже тех, которые используются для full-motion видеоконференций. В простейшей форме freeze-frame video может использовать передачу по обычной телефонной линии. Передача одного freeze-frame изображения потребует как минимум от 30 секунд до минуты или больше.</p>
 <empty-line/>
 <p>В некоторых системах freeze-frame изображение отображается построчно по мере приема. Это создает вертикальный эффект “водопада” или горизонтальный эффект сканирования. В других системах входящие строки графической информации сохраняются в буфере, пока завершенная картинка не сможет быть показана целиком. В третьих системах изображение появляется с последовательно улучшающимся разрешением по мере получения дополнительной графической информации.</p>
 <empty-line/>
-<subtitle>Улучшения систем freeze-frame video</subtitle>
+</section>
+<section id="toc_sub_000055"><title><p>Улучшения систем freeze-frame video</p></title>
 <empty-line/>
 <p>Есть ряд способов расширить возможности системы freeze-frame video. Одно из улучшений - telewriting. С “пером”, подключенным к устройству telewriting, пользователи могут указывать на часть freeze-frame видеоизображения, накладывая линии и отметки различных цветов, которые отображаются во всех местах по мере рисования. Некоторые устройства telewriting включают сохраненные геометрические фигуры, логотипы и символы, которые можно передавать как наложения на freeze-frame изображение. Возможность увеличения позволяет подробно анализировать части дисплея.</p>
 <empty-line/>
-<subtitle>Персональные компьютеры и настольные видеоконференции</subtitle>
+</section>
+<section id="toc_sub_000056"><title><p>Персональные компьютеры и настольные видеоконференции</p></title>
 <empty-line/>
 <p>Персональные компьютеры начинают все чаще использоваться вместе с freeze-frame видеоконференциями. PC используются для управления, создания графики, хранения и извлечения графического материала. Есть признаки, что эта эволюция к настольным видеоконференциям уже началась.</p>
 <empty-line/>
@@ -690,7 +744,8 @@
 <empty-line/>
 <p>ISDN предложит пользователям 144 Kbs или больше, которые можно распределять между различными коммуникационными задачами, данными, голосом или видео, в любой необходимой пропорции. Это означает, что доступная полоса сможет поддерживать одновременную аудио- и видеосвязь.</p>
 <empty-line/>
-<subtitle>Источники</subtitle>
+</section>
+<section id="toc_sub_000057"><title><p>Источники</p></title>
 <empty-line/>
 <p><code>Electronic Meetings: Substitutes With Substance?</code>, Sam Dickey, <code>Today's Office</code>, июль 1986 года.</p>
 <empty-line/>
@@ -703,6 +758,7 @@
 <p>К следующему поколению...</p>
 <empty-line/>
 <p><strong>KL</strong></p>
+</section>
 </section>
 <section id="sec_issue_009_009_loop_maintenance_operations_system">
 <title><p>Loop Maintenance Operations System</p></title>
@@ -777,7 +833,7 @@
 <empty-line/>
 <p>Когда деятельность service order и work order объединяется, примерно 20 мегабайт данных в базе данных хоста LMOS тем или иным образом изменяется каждый рабочий день.</p>
 <empty-line/>
-<subtitle>Часть II: MLT</subtitle>
+<section id="toc_sub_000058"><title><p>Часть II: MLT</p></title>
 <empty-line/>
 <p>Основы LMOS были рассмотрены в первой части. Во второй части мы внимательнее посмотрим на процесс Mechanized Loop Testing и его связь с LMOS.</p>
 <empty-line/>
@@ -787,7 +843,8 @@
 <empty-line/>
 <p>По команде от контроллера MLT, далее просто “контроллера”, система MLT набирает номер, который должен быть протестирован. Если линия занята, причина автоматически определяется: разговор, снятая трубка или неисправность, и дальнейшие тесты не выполняются, пока линия не освободится. Если линия свободна, система MLT продолжает выполнять тесты для обслуживания и обнаружения неисправностей в шлейфе.</p>
 <empty-line/>
-<subtitle>Конкретные тесты MLT</subtitle>
+</section>
+<section id="toc_sub_000059"><title><p>Конкретные тесты MLT</p></title>
 <empty-line/>
 <p>• Измерения AC и DC, переменного и постоянного тока, чтобы определить, подходит ли шлейф для станционного оборудования клиента, определить тип и степень электрической утечки через изоляцию кабеля, а также обнаружить оборванные кабельные пары и место обрыва в терминах расстояния от центральной станции, где используется MLT.</p>
 <p>• <code>Soak Test</code>, чтобы увидеть, исчезнет ли утечка после подачи высокого напряжения от батареи центральной станции. Напряжение высушивает влагу, которая часто является причиной утечки.</p>
@@ -810,13 +867,16 @@
 <empty-line/>
 <p>Если бы нужно было кратко определить LMOS, лучше всего было бы сказать, что LMOS - это “система управления данными ремонта клиентов”.</p>
 <empty-line/>
-<subtitle>Разные сноски</subtitle>
+</section>
+<section id="toc_sub_000060"><title><p>Разные сноски</p></title>
 <empty-line/>
-<subtitle>Раздел первый: сокращения</subtitle>
+</section>
+<section id="toc_sub_000061"><title><p>Раздел первый: сокращения</p></title>
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_009_loop_maintenance_operations_system_0158_3adf4606d1.png"/>
 <empty-line/>
-<subtitle>Раздел второй: автоматизированные тестовые системы</subtitle>
+</section>
+<section id="toc_sub_000062"><title><p>Раздел второй: автоматизированные тестовые системы</p></title>
 <empty-line/>
 <p>MLT - третье поколение Automated Testing Systems. Первое поколение тестового оборудования называлось Line Status Verifier; оно управлялось вручную и было далеко не так эффективно, как MLT или второе поколение, Automatic Line Verifier. Первое и второе поколения автоматизированных тестовых систем в итоге были доведены до третьего поколения системы типа MLT.</p>
 <empty-line/>
@@ -824,7 +884,8 @@
 <empty-line/>
 <p><strong>19 августа 1986 года</strong></p>
 <empty-line/>
-<subtitle>Источники и благодарности</subtitle>
+</section>
+<section id="toc_sub_000063"><title><p>Источники и благодарности</p></title>
 <empty-line/>
 <p><code>Automation improves testing and repair of customer loops</code> - <code>Bell Labs Record</code>.</p>
 <empty-line/>
@@ -836,9 +897,10 @@
 <empty-line/>
 <p>Если вы заметите какие-либо ошибки в этом файле, пожалуйста, свяжитесь с одним из нас, и изменения будут внесены.</p>
 </section>
+</section>
 <section id="sec_issue_009_010_phrack_world_news_viii">
 <title><p>Phrack World News</p></title>
-<subtitle>Выпуск VIII</subtitle>
+<section id="toc_sub_000064"><title><p>Выпуск VIII</p></title>
 <empty-line/>
 <p><strong>Создал:</strong> Knight Lightning <strong>Написали:</strong> Knight Lightning и Sally Ride</p>
 <empty-line/>
@@ -846,7 +908,8 @@
 <empty-line/>
 <image l:href="#img__code_blocks_issue_009_010_phrack_world_news_viii_0012_bc9dadf160.png"/>
 <empty-line/>
-<subtitle>TMC ужесточает меры</subtitle>
+</section>
+<section id="toc_sub_000065"><title><p>TMC ужесточает меры</p></title>
 <empty-line/>
 <p><strong>26 августа 1986 года</strong> Статья F. Alan Boyce, корреспондента Associated Press.</p>
 <empty-line/>
@@ -888,7 +951,8 @@
 <empty-line/>
 <p>Однако настоящий заголовок такой...</p>
 <empty-line/>
-<subtitle>Подросток-подозреваемый в местном компьютерном расследовании</subtitle>
+</section>
+<section id="toc_sub_000066"><title><p>Подросток-подозреваемый в местном компьютерном расследовании</p></title>
 <empty-line/>
 <p><strong>10 октября 1986 года</strong> Thomas Ryll, <code>The Columbian</code>.</p>
 <empty-line/>
@@ -910,7 +974,8 @@
 <empty-line/>
 <p>Расследование другого хакера привело к Gaylord. В один из дней августа мусор семьи был обыскан следователями American Network после того, как работники Vancouver Sanitary Service упаковали его и отложили в сторону.</p>
 <empty-line/>
-<subtitle>Несколько замечаний от Sally Ride:::Space Cadet</subtitle>
+</section>
+<section id="toc_sub_000067"><title><p>Несколько замечаний от Sally Ride:::Space Cadet</p></title>
 <empty-line/>
 <p>Новое дело во многих отношениях! Доказательства были собраны телефонными полицейскими, которые копались в мусоре хакера при содействии мусорной компании, и это первое дело с участием местного департамента шерифа.</p>
 <empty-line/>
@@ -924,7 +989,8 @@
 <empty-line/>
 <p><strong>Набрала и прокомментировала Sally Ride:::Space Cadet</strong></p>
 <empty-line/>
-<subtitle>Футбольный фрикинг?</subtitle>
+</section>
+<section id="toc_sub_000068"><title><p>Футбольный фрикинг?</p></title>
 <empty-line/>
 <p><strong>1 октября 1986 года</strong></p>
 <empty-line/>
@@ -942,7 +1008,8 @@
 <empty-line/>
 <p><strong>Информация от +++The Mentor+++</strong></p>
 <empty-line/>
-<subtitle>MCI попалась на мошенничестве</subtitle>
+</section>
+<section id="toc_sub_000069"><title><p>MCI попалась на мошенничестве</p></title>
 <empty-line/>
 <p><strong>10 октября 1986 года</strong></p>
 <empty-line/>
@@ -964,33 +1031,40 @@
 <empty-line/>
 <p><strong>Набрала Sally Ride:::Space Cadet</strong></p>
 <empty-line/>
-<subtitle>MCI представляет VAX Mailgate</subtitle>
+</section>
+<section id="toc_sub_000070"><title><p>MCI представляет VAX Mailgate</p></title>
 <empty-line/>
 <p>VAX Mailgate - программный продукт, который объединяет сильные стороны Integrated Office And Automation System <code>All-In-1</code> от Digital Equipment Corp. с публичной службой электронной почты MCI Mail для деловой связи по всему миру.</p>
 <empty-line/>
 <p><strong>Информация из <code>USA Today</code>, специальный выпуск MCI</strong></p>
 <empty-line/>
-<subtitle>MCI Card Fraud Detection Unit: онлайновая система безопасности</subtitle>
+</section>
+<section id="toc_sub_000071"><title><p>MCI Card Fraud Detection Unit: онлайновая система безопасности</p></title>
 <empty-line/>
 <p><strong>7 ноября 1986 года</strong></p>
 <empty-line/>
 <p>Ниже приведено краткое описание новой онлайновой системы безопасности для MCI Card. Система разработана для того, чтобы обеспечить обнаружение чрезмерного, а значит потенциально мошеннического, использования карты в реальном времени. Вместо того чтобы полагаться на отчеты FREWS для своей текущей Early Warning System, теперь они могут расследовать и пресекать злоупотребление картами по мере его возникновения, а не ждать, пока ущерб уже будет нанесен.</p>
 <empty-line/>
-<subtitle>A. Обнаружение</subtitle>
+</section>
+<section id="toc_sub_000072"><title><p>A. Обнаружение</p></title>
 <empty-line/>
 <p>Чтобы обнаруживать возможное мошенничество по мере его возникновения, счетный механизм в Fraud Detection Unit будет непрерывно отслеживать попытки вызовов для каждого authorization code MCI Card. Общие параметры, основанные на числе попыток вызова за указанный период, сейчас 15 вызовов за 25 минут, используются для выявления потенциального злоупотребления картой. Как только порог достигнут для любого одного кода, Security and Investigation будут уведомлены через экран PC, бумажную распечатку и звуковой сигнал.</p>
 <empty-line/>
-<subtitle>B. Проверка</subtitle>
+</section>
+<section id="toc_sub_000073"><title><p>B. Проверка</p></title>
 <empty-line/>
 <p>После уведомления о потенциальной проблеме Security and Investigations сначала вызовут запись учетной записи, чтобы проверить Note Screen на предмет чего-либо, что может указывать на злоупотребление картой, например неоплата, карта потеряна, украдена или никогда не была получена. Затем они попытаются связаться с клиентом, чтобы проверить, используется ли карта законно или нет. Для проблем, обнаруженных вне рабочего времени, с клиентом свяжутся следующим утром.</p>
 <empty-line/>
-<subtitle>C. Деактивация</subtitle>
+</section>
+<section id="toc_sub_000074"><title><p>C. Деактивация</p></title>
 <empty-line/>
 <p>Если клиент не совершал звонки или если телефонный номер учетной записи окажется недействительным, код будет немедленно деактивирован в Card Authorization Center. Если с клиентом нельзя связаться, Security and Investigations продолжат отслеживать объемы вызовов по коду и деактивируют код только в том случае, если высокие объемы продолжатся или появятся снова.</p>
 <empty-line/>
-<subtitle>D. Реактивация</subtitle>
+</section>
+<section id="toc_sub_000075"><title><p>D. Реактивация</p></title>
 <empty-line/>
 <p>Коды, деактивированные из-за мошенничества, могут быть реактивированы только Security and Investigations.</p>
+</section>
 </section>
 </section>
 </body>
